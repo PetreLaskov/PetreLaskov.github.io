@@ -17,7 +17,7 @@ draft: false
 
 ## Active
 
-_Projects you're actively working on. Link each to its own page._
+- [Meditation Wiki](https://petrelaskov.github.io/meditation-wiki/)
 
 ## Archive
 
