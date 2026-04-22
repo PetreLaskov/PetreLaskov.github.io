@@ -1,0 +1,25 @@
+# Quartz
+node_modules
+public
+.quartz-cache
+tsconfig.tsbuildinfo
+prof
+
+# Obsidian — keep vault config, drop ephemeral state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / temp
+*.tmp
+*~
+.vscode/
+.idea/
+
+# Replit (from upstream Quartz; unused)
+.replit
+replit.nix
