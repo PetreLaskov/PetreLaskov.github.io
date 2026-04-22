@@ -20,10 +20,6 @@ site is the map of what I'm actually thinking about.
 
 > Stub hub — new. Shape and domains will emerge as content accretes.
 
-## Recent activity
-
-- [2026-04-22] init | hub initialized — Quartz scaffolding, empty domains, ready for first page
-
 ## Start here
 
 - [[about]] — who I am, how to reach me
@@ -31,10 +27,6 @@ site is the map of what I'm actually thinking about.
 - [[projects/index|Projects]] — things I'm building
 - [[writing/index|Writing]] — essays, drafts, notes in public
 - [[notes/index|Notes]] — shorter fragments, evergreens, seeds
-
-## Domain: Meta
-
-- [[log]] — event log for this site
 
 ## How this site is organized
 
@@ -44,4 +36,4 @@ explorer on the left and the graph on the right let you navigate by
 structure or by relation. Links between pages matter more than categories —
 domains organize, tags slice, links connect.
 
-Everything here is a work in progress. See [[log]] for what changed recently.
+Everything here is a work in progress.

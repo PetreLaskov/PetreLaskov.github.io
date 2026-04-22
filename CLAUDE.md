@@ -21,12 +21,17 @@ second brain served publicly via Quartz → GitHub Pages.
   section hubs (e.g. `projects/`, `notes/`, `writing/`).
 - `content/index.md` — the hub homepage and routing table. Read this first
   every session.
-- `content/log.md` — append-only event log.
+- `content/private/` — in-vault but not published. Visible in Obsidian,
+  skipped by Quartz (`ignorePatterns` includes `private`). Compiler
+  bookkeeping lives here.
+- `content/private/log.md` — append-only event log. Never publish its
+  contents. A curated public changelog, if desired, is a different artifact
+  and belongs on `content/index.md` or its own page.
 - `quartz.config.ts`, `quartz.layout.ts` — site configuration. Touch only for
   site-wide changes.
 
-`raw/` is listed in `ignorePatterns` in `quartz.config.ts`, so it is never
-published; only `content/` becomes the public site.
+Ignored by Quartz (committed to git, not published): `raw/`, `private`,
+`templates`, `.obsidian`. Only other `content/` files become the public site.
 
 ## Frontmatter
 
@@ -104,9 +109,10 @@ tags are orthogonal:
 3. Create source page in `content/`: frontmatter, summary, key claims.
 4. Each substantive entity/concept: update existing page or create new (🌱).
 5. Update cross-references on all touched pages.
-6. Update `content/index.md`: add entries, revise shape paragraph, prepend
-   recent activity.
-7. Append to `content/log.md`.
+6. Update `content/index.md`: add entries, revise shape paragraph. Do NOT
+   dump log-style `op | subject` entries on the public index — that's the
+   compiler's private trace, not reader-facing content.
+7. Append to `content/private/log.md`.
 
 ## Query
 
@@ -114,7 +120,7 @@ tags are orthogonal:
 2. Scan theses for relevance. Read pages, highest importance first.
 3. Synthesize answer with citations.
 4. If answer is reusable: file as wiki page (type: analysis or thesis).
-5. Append to `content/log.md`.
+5. Append to `content/private/log.md`.
 
 ## Lint
 
@@ -140,19 +146,26 @@ Diagnostics — investigate:
     [Shape: 3–5 sentences. The hub's thesis — who I am, what this site
     covers, current state.]
 
-    ## Recent Activity
-    - [date] op | subject — one-line result
-    [5–10 entries, newest first]
+    ## Start here
+    - [[about]] — …
+    - [[now]] — …
+    - Section hubs: [[projects/index|Projects]], [[writing/index|Writing]],
+      [[notes/index|Notes]]
 
     ## Domain: Name
     - [[Page]] — thesis (importance, status)
 
 Organize by domain. As index grows: compress domain headers upward (add
-abstracts), nest sub-domains downward.
+abstracts), nest sub-domains downward. The public index is editorial — what
+a visitor should see — not a mirror of the compiler log.
+
+If a public "What's new" / changelog is desired, it is a separate, curated
+artifact (plain language, only user-visible changes: published essays,
+shipped projects). It is NOT generated from `content/private/log.md`.
 
 ## Log
 
-Append-only:
+Located at `content/private/log.md`. Private — never published. Append-only:
 
     ## [YYYY-MM-DD] op | Subject
     Summary of what changed. Pages touched: [[P1]], [[P2]].
