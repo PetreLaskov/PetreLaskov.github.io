@@ -3,8 +3,6 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Personal hub for Petre Laskov.
- * Aesthetic: nat.org-inspired — centered narrow column of serif prose,
- * minimal chrome, default-looking blue links.
  * Docs: https://quartz.jzhao.xyz/configuration
  */
 const config: QuartzConfig = {
@@ -20,35 +18,35 @@ const config: QuartzConfig = {
     defaultDateType: "modified",
     generateSocialImages: false,
     theme: {
-      fontOrigin: "local",
+      fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Georgia",
-        body: "Georgia",
-        code: "Menlo",
+        header: "Schibsted Grotesk",
+        body: "Source Sans Pro",
+        code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#ffffff",
+          light: "#faf8f8",
           lightgray: "#e5e5e5",
-          gray: "#999999",
-          darkgray: "#111111",
-          dark: "#000000",
-          secondary: "#0000ee",
-          tertiary: "#551a8b",
-          highlight: "rgba(0, 0, 0, 0)",
-          textHighlight: "#fff236aa",
+          gray: "#b8b8b8",
+          darkgray: "#4e4e4e",
+          dark: "#2b2b2b",
+          secondary: "#284b63",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#111111",
-          lightgray: "#222222",
-          gray: "#707070",
-          darkgray: "#e8e8e8",
-          dark: "#ffffff",
-          secondary: "#82b1ff",
-          tertiary: "#bb86fc",
-          highlight: "rgba(0, 0, 0, 0)",
-          textHighlight: "#33331f88",
+          light: "#161618",
+          lightgray: "#393639",
+          gray: "#646464",
+          darkgray: "#d4d4d4",
+          dark: "#ebebec",
+          secondary: "#7b97aa",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#b3aa0288",
         },
       },
     },

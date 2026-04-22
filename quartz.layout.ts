@@ -1,16 +1,58 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// Components shared across all pages.
-// Nat.org-inspired: everything stacks in a single centered column.
-// - Top: PageTitle (site name) + Search (small, right)
-// - Article body
-// - afterBody: Backlinks (wiki connectivity)
-// - Footer: minimal
+// components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [
+  header: [],
+  afterBody: [],
+  footer: Component.Footer({
+    links: {
+      GitHub: "https://github.com/PetreLaskov",
+      "Source of this site": "https://github.com/PetreLaskov/PetreLaskov.github.io",
+    },
+  }),
+}
+
+// components for pages that display a single page (e.g. a single note)
+export const defaultContentPageLayout: PageLayout = {
+  beforeBody: [
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    Component.TagList(),
+  ],
+  left: [
     Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+        { Component: Component.ReaderMode() },
+      ],
+    }),
+    Component.Explorer(),
+  ],
+  right: [
+    Component.Graph(),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
+  ],
+}
+
+// components for pages that display lists of pages  (e.g. tags or folders)
+export const defaultListPageLayout: PageLayout = {
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
         {
@@ -20,37 +62,7 @@ export const sharedPageComponents: SharedLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
+    Component.Explorer(),
   ],
-  afterBody: [Component.Backlinks()],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/PetreLaskov",
-      Source: "https://github.com/PetreLaskov/PetreLaskov.github.io",
-    },
-  }),
-}
-
-// Single-note pages: no sidebars.
-export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ConditionalRender({
-      component: Component.ArticleTitle(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ContentMeta(),
-    Component.TagList(),
-  ],
-  left: [],
-  right: [],
-}
-
-// List pages (tag/folder): same single-column.
-export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
-  left: [],
   right: [],
 }
