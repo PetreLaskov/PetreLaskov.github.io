@@ -30,8 +30,8 @@ _Paragraph or three about who you are, what you've done, what you care about._
 
 ## Elsewhere
 
-_Links to other places you show up online — X/Twitter, LinkedIn, Substack,
-whatever matters to you._
+- X/Twitter: [@urgentwonder](https://twitter.com/urgentwonder)
+- Substack: [@petrelaskov](https://substack.com/@petrelaskov)
 
 ## Related
 
