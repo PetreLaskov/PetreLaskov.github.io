@@ -8,7 +8,7 @@ importance: 8
 confidence: established
 tags: [projects, hub]
 aliases: [Projects]
-updated: 2026-04-22
+updated: 2026-04-24
 draft: false
 ---
 
@@ -17,7 +17,7 @@ draft: false
 
 ## Active
 
-- [Meditation Wiki](https://petrelaskov.github.io/meditation-wiki/)
+- [Aro gTér Dzogchen and Tantra Teachings Wiki](https://petrelaskov.xyz/dzogchen-tantra-wiki/)
 
 ## Archive
 
