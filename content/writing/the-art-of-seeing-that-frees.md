@@ -1,3 +1,17 @@
+---
+title: "The Art of Seeing That Frees"
+type: synthesis
+thesis: "Rob Burbea's dharma as one living arc — emptiness, fabrication, and soulmaking synthesized into a single through-line for the practitioner."
+status: 🌳
+domain: [meditation, dharma]
+importance: 9
+confidence: established
+tags: [burbea, emptiness, soulmaking, dharma]
+aliases: [Art of Seeing That Frees]
+updated: 2026-06-03
+draft: false
+---
+
 # The Art of Seeing That Frees
 
 ### Rob Burbea's dharma as one living arc — a synthesis for the practitioner
