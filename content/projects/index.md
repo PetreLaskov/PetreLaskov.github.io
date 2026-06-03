@@ -18,6 +18,7 @@ draft: false
 ## Active
 
 - [Aro gTér Dzogchen and Tantra Teachings Wiki](https://petrelaskov.xyz/dzogchen-tantra-wiki/)
+- [Shinzen Young — The Living Throughline](https://petrelaskov.xyz/shinzen-living-throughline/Shinzen%20-%20The%20Living%20Throughline.html) — a contemplative reading tracing the through-line across Shinzen's teaching
 
 ## Archive
 
