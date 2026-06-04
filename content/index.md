@@ -37,3 +37,7 @@ structure or by relation. Links between pages matter more than categories —
 domains organize, tags slice, links connect.
 
 Everything here is a work in progress.
+
+## Domain: Meditation & Practice
+
+- [[shinzen/index|Shinzen Young — Practice Atlas]] — 82-page map of Shinzen's Complete Mindfulness system (importance 9, 🌿)

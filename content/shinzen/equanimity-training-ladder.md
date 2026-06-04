@@ -1,0 +1,79 @@
+---
+title: Equanimity Training Ladder
+atlas_type: guide
+tier: practice
+status: draft
+---
+
+# Equanimity Training Ladder
+
+Equanimity is trainable. Shinzen's materials point to a ladder of supports:
+body relaxation, accepting talk, gentle labels, spontaneous drops,
+second-order equanimity, and background permission. Use the ladder when the
+live question is not "what is equanimity?" but "what is the smallest support
+that makes noninterference more possible right now?"
+
+"Be equanimous" can sound like an impossible command. The training ladder turns it into a set of practical moves. If one move is unavailable, another may still work.
+
+Equanimity can be supported deliberately, recognized when it happens on its own, or practiced second-order when it is absent.
+
+That last point is important. The moment "I cannot be equanimous" appears, the tension, judging, failure feeling, or resistance can become the next object.
+
+## If This Is Happening Now
+
+| Situation | Try first | Check |
+| --- | --- | --- |
+| The body is braced around pain, emotion, or noise | Relax one small region while the event remains known. | Relaxation is support, not a demand to erase sensation or expression. |
+| Labeling sounds harsh or pressured | Slow the label, soften the tone, or use a simpler label. | A gentle voice should improve contact, not perform calm. |
+| Inner talk says "bad meditation" or "I am failing" | Hear the judgment as Talk or feel the failure flavor as Feel. | Second-order equanimity should not become another command to succeed. |
+| Direct contact is too much right now | Stabilize on breath, Rest, sight, sound, or another workable object while the challenge is allowed in the background. | Background equanimity is not denial if there is no disappearance agenda. |
+| A brief drop of struggle happens by itself | Notice the drop, register the relief, and continue simply. | Do not chase the drop as a state or proof of attainment. |
+
+## The Ladder
+
+| Step | Practice cue | Watch for |
+| --- | --- | --- |
+| Comfortable labeling | Let labels correspond to experience at a workable pace. | Mechanical or shame-driven labeling. |
+| Relax the body | Let the body soften where possible while experience continues. | Forcing relaxation or freezing expression. |
+| Soften the talk | Use matter-of-fact, accepting, or appreciative inner language. | Positive words that deny what is true. |
+| Use the voice | Let spoken or mental labels have a gentle, even tone. | Performance calm or teacher-pleasing. |
+| Notice spontaneous drops | Register moments when resistance releases by itself. | Chasing the drop as a state. |
+| Use second-order equanimity | Include the lack of equanimity as the object. | Making "include it" into another demand. |
+| Use background equanimity | Focus elsewhere while allowing the challenge in the background. | Turning away as disappearance agenda or denial. |
+
+The ladder is not a rank system. It is a repair menu.
+
+## How It Shows Up In Practice
+
+With pain, a practitioner might relax around the edges, label gently, or let attention rest on a stable object while the pain remains allowed in the background.
+
+With emotion, the first workable step might be simply hearing the judging talk as Talk or feeling the resistance as Feel.
+
+With agitation, the practice might be direct contact with the antsy body flavor, or returning to the chosen object while the agitation dances in the background.
+
+With practice frustration, second-order equanimity is often the cleanest move: the "bad meditation" feeling is now the meditation object.
+
+A first minute can be simple: name the active object, soften the body by a
+small amount, let the label tone become ordinary, and check whether the
+resistance itself is now the most honest object. If that increases strain,
+choose a safer or simpler method before trying to be more equanimous.
+
+## Common Confusions
+
+The ladder is not a command to calm down. It is not a demand to relax every muscle, speak in a soothing voice, or accept a situation that should be changed.
+
+Background equanimity is not avoidance by default. It becomes avoidance when the difficult material must be ignored, erased, or never turned toward when capacity is available.
+
+Spontaneous drops matter because they teach the system what reduced struggle feels like. They are not trophies.
+
+## Safety and Scope
+
+If equanimity supports become forced calm, numbness, compliance, dissociation, unsafe endurance, or refusal to seek help, shift to [Equanimity Versus Suppression](equanimity-versus-suppression.md) and [Safety, Scope, and Accountability](safety-scope-and-accountability.md).
+
+## Go Deeper
+
+- [The Three Skills](the-three-skills.md) - path chapter
+- [Equanimity](equanimity.md)
+- [Equanimity Versus Suppression](equanimity-versus-suppression.md)
+- [Turn Toward and Turn Away](turn-toward-and-turn-away.md)
+- [Effort Regulation](effort-regulation.md)

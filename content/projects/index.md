@@ -8,7 +8,7 @@ importance: 8
 confidence: established
 tags: [projects, hub]
 aliases: [Projects]
-updated: 2026-04-24
+updated: 2026-06-04
 draft: false
 ---
 
@@ -18,6 +18,7 @@ draft: false
 ## Active
 
 - [Aro gTér Dzogchen and Tantra Teachings Wiki](https://petrelaskov.xyz/dzogchen-tantra-wiki/)
+- [[../shinzen/index|Shinzen Young — Practice Atlas]] — 82-page walkable map of Shinzen Young's Complete Mindfulness system: architecture, routes, safety, and the long arc to service
 - [Shinzen Young — The Living Throughline](https://petrelaskov.xyz/shinzen-living-throughline/Shinzen%20-%20The%20Living%20Throughline.html) — a contemplative reading tracing the through-line across Shinzen's teaching
 
 ## Archive
