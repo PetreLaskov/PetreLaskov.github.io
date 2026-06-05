@@ -58,17 +58,9 @@ small amount, let the label tone become ordinary, and check whether the
 resistance itself is now the most honest object. If that increases strain,
 choose a safer or simpler method before trying to be more equanimous.
 
-## Common Confusions
+## When the Ladder Tips Into Suppression
 
-The ladder is not a command to calm down. It is not a demand to relax every muscle, speak in a soothing voice, or accept a situation that should be changed.
-
-Background equanimity is not avoidance by default. It becomes avoidance when the difficult material must be ignored, erased, or never turned toward when capacity is available.
-
-Spontaneous drops matter because they teach the system what reduced struggle feels like. They are not trophies.
-
-## Safety and Scope
-
-If equanimity supports become forced calm, numbness, compliance, dissociation, unsafe endurance, or refusal to seek help, shift to [Equanimity Versus Suppression](equanimity-versus-suppression.md) and [Safety, Scope, and Accountability](safety-scope-and-accountability.md).
+The ladder is not a command to calm down, relax every muscle, speak in a soothing voice, or accept a situation that should be changed. Background equanimity is not avoidance by default; it becomes avoidance when difficult material must be ignored, erased, or never turned toward even when capacity is available. Spontaneous drops in struggle matter because they teach the system what reduced struggle feels like - they are not trophies. If equanimity supports become forced calm, numbness, compliance, dissociation, unsafe endurance, or refusal to seek help, shift to [Equanimity Versus Suppression](equanimity-versus-suppression.md) and [Safety, Scope, and Accountability](safety-scope-and-accountability.md).
 
 ## Go Deeper
 

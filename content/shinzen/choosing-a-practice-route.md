@@ -11,6 +11,12 @@ Choosing a Shinzen-style practice route means matching the method to the live ai
 
 The same report can require different routes. "Thoughts are loud" means one thing during Focus In, another during Focus Out, another during Do Nothing, and another if the thoughts involve crisis or harm.
 
+If the report itself is vague, start with [Practice Report Check](practice-report-check.md). A route is easier to choose when context, sensory facts, CCE quality, reaction, life effect, and boundary are all at least lightly named.
+
+If the question is bigger than one session, use
+[Practice Planning Loop](practice-planning-loop.md) to hold aim, container,
+cycle, report, adjustment, and life check together.
+
 Choose by branch:
 
 - clarify with [Noting](noting.md);
@@ -86,7 +92,7 @@ of choosing a permanent path.
 | Do Nothing becomes foggy | Add structure with labels, a simpler object, or Focus on Rest | Non-effort is healthy only when clarity and responsiveness remain. |
 | Practice keeps switching among methods | Pick one technique for the session, use a deliberate sequence, or branch only when the reason for switching is clear | Method flexibility is useful when it restores CCE; it becomes suspect when it feeds over-control, avoidance, or technique collecting. |
 | A practice effect becomes scary, seductive, or fascinating | Recycle the reaction if it is workable; use safety pages if function, sleep, embodiment, or stability declines | The reaction to calm, Gone, no-self, or intensity is new practice material only when safety remains intact. |
-| Practice is not changing a harmful habit | Decompose urges if workable, then add behavior commitments or outside accountability | Shinzen-style practice does not replace ordinary behavior support. |
+| Practice is not changing a harmful habit | Use [Behavior Change Escalation](behavior-change-escalation.md): decompose urges if workable, then add behavior commitments or outside accountability | Shinzen-style practice does not replace ordinary behavior support. |
 
 ## Stay, Tune, Switch, Or Stop
 
@@ -104,21 +110,19 @@ Method choice is not finished when the first route is chosen. Check the route af
 
 A route is helping when the person can report some combination of clearer sensory contact, less unnecessary struggle, better functioning, more honest behavior, and more appropriate support. A route is suspect when it mainly increases pressure, secrecy, status, avoidance, dissociation, or technique collecting.
 
-## Common Confusions
+## Limits of a Route Map
 
-No written route map diagnoses a live practice report. More technique is not always the right escalation.
-
-The page also does not rank techniques by spiritual prestige. Do Nothing is not higher than Noting; Noting is not more serious than Rest; Flow is not better than ordinary Feel. Each route solves a different problem.
-
-
-If medical danger, self-harm, harm to others, severe dissociation, coercion, abuse, teacher pressure, or loss of functioning appears, do not optimize meditation first.
+No written route map diagnoses a live practice report, and more technique is not always the right escalation. Nor does route choice rank techniques by spiritual prestige: Do Nothing is not higher than Noting, Noting is not more serious than Rest, Flow is not better than ordinary Feel - each route solves a different problem. If medical danger, self-harm, harm to others, severe dissociation, coercion, abuse, teacher pressure, or loss of functioning appears, do not optimize meditation first.
 
 ## Go Deeper
 
 - [The Routes](the-routes.md) - path chapter
+- [Practice Planning Loop](practice-planning-loop.md)
+- [Practice Report Check](practice-report-check.md)
 - [The Main Practice Routes](main-practice-routes.md)
 - [Turn Toward and Turn Away](turn-toward-and-turn-away.md)
 - [Practice Cycles and Life Architecture](practice-cycles-and-life-architecture.md)
+- [Behavior Change Escalation](behavior-change-escalation.md)
 - [Effort Regulation](effort-regulation.md)
 - [Focus Coverage Strategies](focus-coverage-strategies.md)
 - [Way of Thoughts and Emotions](way-of-thoughts-and-emotions.md)

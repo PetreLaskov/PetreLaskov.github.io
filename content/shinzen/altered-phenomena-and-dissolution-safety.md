@@ -42,13 +42,11 @@ Concrete examples:
 - A blissful dissolution and a frightening dissolution both need integration; neither is self-validating.
 - A teacher's interpretation of an unusual state should still be answerable to consent, feedback, ordinary conduct, and support.
 
-## Common Confusions
+## Reading These Phenomena Honestly
 
-Flow is not necessarily Kundalini, though Shinzen may translate some energy language through Flow. Gone is not automatically emptiness realization. A dream or vision is not proof of a world beyond the senses. A harsh dissolution is not automatically purifying. A blissful dissolution is not automatically stable integration.
+Flow is not necessarily Kundalini, though Shinzen may translate some energy language through Flow. Gone is not automatically emptiness realization. A dream or vision is not proof of a world beyond the senses. A harsh dissolution is not automatically purifying, and a blissful one is not automatically stable integration. When what surfaces beneath emptiness is hot, chaotic, infant-like emotion rather than vibration, space, or vision, that is its own territory with its own routing; see [Primal Feel](primal-feel.md).
 
-Source language should be especially careful. In the atlas reading, Source or Zero events are followed by afterglow and interpretation. The afterglow can be profoundly meaningful while still being a conditioned representation that needs behavior and safety checks.
-
-## Safety and Scope
+Source language needs the most care. Source or Zero events are followed by afterglow and interpretation, and the afterglow can be profoundly meaningful while still being a conditioned representation that needs behavior and safety checks.
 
 Stop treating unusual phenomena as mainly a practice opportunity when there is severe fear, disorientation, loss of functioning, self-harm or harm risk, psychosis or mania-like instability, DPDR-like distress, medical or neurological concern, unsafe sleep deprivation, medication or substance effects, trauma activation, coercive teacher framing, or pressure to treat the event as proof.
 
@@ -56,6 +54,8 @@ Stop treating unusual phenomena as mainly a practice opportunity when there is s
 
 - [Flow and Gone](flow-and-gone.md)
 - [Dissolution and Bhanga](dissolution-and-bhanga.md)
+- [Primal Feel](primal-feel.md)
+- [Retreat and Aftercare](retreat-and-aftercare.md)
 - [Spaciousness](spaciousness.md)
 - [Source, Zero, and Speculation](source-zero-and-speculation.md)
 - [DPDR and the Pit of the Void](dpdr-and-the-pit-of-the-void.md)

@@ -31,6 +31,7 @@ The practice remains plain: clarify change, allow change, and do not make a stat
 | pleasant whole-field Flow | is grasping now the object? |
 | frightening breakup | reduce intensity, ground, orient, or get support |
 | vanishing feels bleak | route to no-self/void safety, not more metaphysics |
+| vanishing turns hot, chaotic, or infant-like | meet it as Primal Feel, in manageable doses |
 | maps are driving expectation | return to the actual sensory event |
 
 ## Go Deeper
@@ -42,6 +43,7 @@ The practice remains plain: clarify change, allow change, and do not make a stat
 - [Expansion and Contraction](expansion-and-contraction.md)
 - [Spaciousness](spaciousness.md)
 - [Dissolution and Bhanga](dissolution-and-bhanga.md)
+- [Primal Feel](primal-feel.md)
 - [Altered Phenomena and Dissolution Safety](altered-phenomena-and-dissolution-safety.md)
 
 ## Next

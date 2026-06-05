@@ -9,9 +9,9 @@ status: draft
 
 An itch moves. A thought drops. A sound returns to silence. Impermanence has two faces, and both can be trained.
 
-**Flow** is continuous change: movement, vibration, pressure, spread, pulse, undulation — experience while it is happening, already in motion. **Gone** is discrete vanishing: the caught moment when something drops, ends, or diminishes. Not noticing later that something is absent, but catching the vanishing itself.
+**Flow** is continuous change: movement, vibration, pressure, spread, pulse, undulation - experience while it is happening, already in motion. **Gone** is discrete vanishing: the caught moment when something drops, ends, or diminishes. Not noticing later that something is absent, but catching the vanishing itself.
 
-Most practitioners notice beginnings more easily than endings. Flow and Gone correct that asymmetry. Together they train the nervous system to know experience as event rather than object — something that moves and stops, rather than something that sits there and owns you.
+Most practitioners notice beginnings more easily than endings. Flow and Gone correct that asymmetry. Together they train the nervous system to know experience as event rather than object - something that moves and stops, rather than something that sits there and owns you.
 
 ## Practice Contrast
 
@@ -37,13 +37,9 @@ Gone may be the end of an exhale, the instant a phrase of inner talk drops, a so
 
 Flow and Gone can also appear together. A sensation may vibrate while it is present, then part of it abruptly drops away. The practice label changes with what is actually detected.
 
-## Common Confusions
+## When Flow or Gone Turns Difficult
 
-Flow and Gone are not proof of awakening. They can become status objects. They can also become frightening when experience feels unstable.
-
-## Safety and Scope
-
-If Flow, Gone, emptiness, or dissolution becomes distressing, disorienting, addictive, or impairing, slow down, ground, stop, or seek support. Be especially careful with sleep loss, retreat aftershock, DPDR-like unreality, panic, energy fixation, or pressure to treat unusual change as attainment.
+Flow and Gone are not proof of awakening. They can become status objects, and they can also become frightening when experience feels unstable. If Flow, Gone, emptiness, or dissolution becomes distressing, disorienting, addictive, or impairing, slow down, ground, stop, or seek support - be especially careful with sleep loss, retreat aftershock, DPDR-like unreality, panic, energy fixation, or pressure to treat unusual change as attainment.
 
 ## Go Deeper
 
@@ -53,5 +49,6 @@ If Flow, Gone, emptiness, or dissolution becomes distressing, disorienting, addi
 - [Expansion and Contraction](expansion-and-contraction.md)
 - [Spaciousness](spaciousness.md)
 - [Dissolution and Bhanga](dissolution-and-bhanga.md)
+- [Primal Feel](primal-feel.md)
 - [Surface to Source Path Map](surface-to-source-path-map.md)
 - [Source, Zero, and Speculation](source-zero-and-speculation.md)

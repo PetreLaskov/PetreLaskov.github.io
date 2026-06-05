@@ -50,16 +50,17 @@ emphasis, a teacher check-in, therapy, recovery support, medical care,
 relationship repair, or another ordinary structure that makes the behavior
 workable.
 
-## Common Confusions
+For the step-by-step route when an urge or behavior keeps repeating, use
+[Behavior Change Escalation](behavior-change-escalation.md).
 
-Do not use realization language to excuse harm. Do not use compassion feelings as proof of beneficial action. Do not use teaching charisma as evidence of safety.
+## What It Cannot Excuse
 
-
-Behavior change may require therapy, recovery support, friendship, coaching, medical care, legal protection, relationship repair, or community accountability.
+Do not use realization language to excuse harm, compassion feelings as proof of beneficial action, or teaching charisma as evidence of safety. Behavior change may require therapy, recovery support, friendship, coaching, medical care, legal protection, relationship repair, or community accountability.
 
 ## Go Deeper
 
 - [The Suffering Distortion Cycle](suffering-distortion-cycle.md)
+- [Behavior Change Escalation](behavior-change-escalation.md)
 - [Total Happiness](total-happiness.md)
 - [Total Happiness Aim Structure](total-happiness-aim-structure.md)
 - [Source, Service, and Bodhicitta](source-service-and-bodhicitta.md)

@@ -43,13 +43,9 @@ Concrete examples:
 - If positive practice creates warmth while also supporting honest action, it may be reconstruction; if it denies harm, it is bypass.
 - If no-self makes a person more teachable and accountable, it routes differently from no-self language used to avoid responsibility.
 
-## Common Confusions
+## Where It Goes Wrong
 
-Equanimity is not "I do not care." Turning toward is not "endure everything." Positive practice is not "stay cheerful." No-self is not "nothing matters."
-
-## Safety and Scope
-
-If pain, emotion, no-self, void, or teacher pressure becomes destabilizing, do not solve it with more spiritual interpretation. Look for clarity, embodiment, behavior, support, and ordinary consequences before adding intensity or metaphysical meaning.
+Equanimity is not "I do not care." Turning toward is not "endure everything." Positive practice is not "stay cheerful." No-self is not "nothing matters." And if pain, emotion, no-self, void, or teacher pressure becomes destabilizing, do not solve it with more spiritual interpretation - look for clarity, embodiment, behavior, support, and ordinary consequences before adding intensity or metaphysical meaning.
 
 ## Go Deeper
 

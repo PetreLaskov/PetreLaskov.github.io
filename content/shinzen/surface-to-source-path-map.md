@@ -30,17 +30,36 @@ This map is one way to connect the atlas: [Complete Experience](complete-experie
 
 ## The Ox-Herding Parallel
 
-Shinzen also uses the Ten Ox-Herding Pictures as a path-map teaching. In public atlas terms, it is best read as a poetic diagnostic sequence:
+Shinzen also uses the Ten Ox-Herding Pictures as a path-map teaching, where the ox is the nature of consciousness, or condition-independent happiness. Read it as a sequence of distinct movements, not a ladder of rank. Its whole usefulness is that an early sign is not the finished thing, surrender is not control, and the late pictures are not private - the map ends in the marketplace, not in emptiness.
 
-| Ox-herding movement | Public reading |
+The opening four are easy to collapse into one vague sense of getting somewhere. Shinzen keeps them apart so a first taste is not mistaken for arrival:
+
+| Opening movement | What it marks |
 | --- | --- |
-| Searching, traces, and first sighting | a practitioner wants reliable happiness, sees signs of another possibility, and may glimpse no-self or insight before it stabilizes |
-| Catching and taming the ox | first no-self or kensho-like insight still needs training, repetition, and integration |
-| Riding backward and returning home | control softens; impermanence may carry the next action more than deliberate steering |
-| No substance and ordinary appearance | emptiness does not erase ordinary form; the world reappears without the same solidity |
-| Entering the marketplace | realization returns as availability, gifts, description, support, and service |
+| Searching for the ox | wanting reliable happiness, but still hunting it in condition-dependent objects rather than the condition-independent kind |
+| Finding the footprints | an indication that another possibility exists - inspiration, not yet a glimpse |
+| Glimpsing the ox | a first real sighting, "a little vipassana"; a taste of who one already is, not yet held |
+| Catching the ox | a first no-self, stream-entry, or kensho-like opening - and the ox is still wild |
 
-This parallel is useful because it prevents the map from ending at private emptiness. It is risky if used to rank people, claim attainment, or treat poetic imagery as a credential.
+The middle three turn on one move that is easy to flatten into "relaxing": surrender.
+
+| Middle movement | What it marks |
+| --- | --- |
+| Taming the ox | the opening is internalized enough that it no longer slips away - stabilization, not a new attainment |
+| Riding the ox backward | giving up the need to steer or to know where experience is going, letting the Flow of impermanence carry the next needed action; in Shinzen's reading this is what faith actually is - releasing the demand for orientation, not adopting a belief |
+| Coming home | repose: the ox forgotten, the fixed standpoint gone, the ordinary human simply present without needing the mind as an object |
+
+The final three are the part most maps drop. They name the substance, the appearance, and the use of realization:
+
+| Final movement | What it marks |
+| --- | --- |
+| No substance | the substance of realization is no substance - the empty circle, nothing to hold or own |
+| Ordinary appearance | the world returns as mountains, cherry blossoms, and every plain thing; emptiness did not erase form |
+| Entering the marketplace | the cloth-bag monk returns ordinary, approachable, and useful; the gift is the quiet effect of practice, a coherent description when asked, and for some, teaching when students actually appear |
+
+In Shinzen's reading the last picture is the point: service is the final cause of practice, arising as one tangibly knows that one's own Source is everyone's Source. That is why the map cannot end at private emptiness.
+
+It is genuinely risky used the other way - to rank people, claim attainment, or treat poetic imagery as a credential. "Riding the ox backward" especially needs real concentration, clarity, equanimity, functioning, and support behind it; without those, surrender becomes passivity, dissociation, or fatalism rather than responsive action. Marketplace "teaching" is not self-certifying either: readiness, consent, feedback, and anti-dependency are separate questions these pictures do not settle. And the map stays provisional - one good lens, not a final taxonomy or a verified history.
 
 ## How It Shows Up In Practice
 
@@ -50,19 +69,9 @@ If practice deepens, the same event may lose solidity. A shame reaction may sepa
 
 The map is incomplete until the return is checked. Is the person less reactive? More honest? More able to repair? More available for appropriate service? More willing to get help where meditation is not enough?
 
-## Common Confusions
+## Reading the Map Without Misusing It
 
-Do not treat the map as mandatory. Some people train through Rest, positive practice, service, ordinary therapy, community, work, body care, or a simple method for years without needing advanced Source vocabulary.
-
-Do not treat surface experience as a beginner mistake. Shinzen's maps repeatedly return to ordinary life, ordinary perception, ordinary behavior, and ordinary service.
-
-Do not treat Source contact as the end of the path. Keep asking what happens after the event: function, behavior, humility, support, consent, repair, and usefulness.
-
-Do not treat improvement as moral blame. Sometimes ordinary improvement supports transcendence: sleep, reduced conflict, exercise, diet, therapy, recovery support, ethical repair, service, or better instruction can make formal practice possible again. That does not mean every stuck sit is a personal failure.
-
-## Safety and Scope
-
-Path maps are especially easy to misuse around no-self, void, surrender, dissolution, Source, teacher status, and service claims. If practice becomes destabilizing, bleak, compulsive, grandiose, dissociative, coercive, or impairing, route through safety and support before optimizing the map.
+Do not treat the map as mandatory: some people train through Rest, positive practice, service, ordinary therapy, community, work, body care, or a simple method for years without needing advanced Source vocabulary. Do not treat surface experience as a beginner mistake - Shinzen's maps repeatedly return to ordinary life, ordinary perception, ordinary behavior, and ordinary service. Do not treat Source contact as the end of the path; keep asking what happens after the event - function, behavior, humility, support, consent, repair, and usefulness. And do not treat improvement as moral blame: sometimes ordinary improvement supports transcendence - sleep, reduced conflict, exercise, diet, therapy, recovery support, ethical repair, service, or better instruction can make formal practice possible again - and that does not mean every stuck sit is a personal failure. Path maps are especially easy to misuse around no-self, void, surrender, dissolution, Source, teacher status, and service claims; if practice becomes destabilizing, bleak, compulsive, grandiose, dissociative, coercive, or impairing, route through safety and support before optimizing the map.
 
 ## Go Deeper
 

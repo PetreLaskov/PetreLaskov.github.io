@@ -41,21 +41,9 @@ If the field becomes too large, the practical move is to shrink it. If one cell 
 
 A practitioner chooses Feel Out but gets lost in a large body field. Free-floating may help if one sensation clearly calls. Systematic inventory may help if the field needs detail. Even coverage may help when the whole body can be held without strain. If all of that feels too much, the next move is not heroic concentration; it is a smaller region, a different route, or stopping to regain ordinary responsiveness.
 
-## Common Confusions
+## Tuning Coverage Without Strain
 
-Free-floating is not vagueness. It still requires knowing where attention goes.
-
-Inventory is not forced sensation production. If little is detectable, do not manufacture sensation just to complete the scan.
-
-Even coverage is not automatically superior. If broad attention loses detail or strains, narrower contact may be wiser.
-
-Broad practice is not automatically shallow. It is shallow when it avoids depth; it can be deep when it clears the whole field in a coherent way.
-
-## Safety and Scope
-
-Coverage strategies can interact with trauma, panic, pain, dissociation, obsessive checking, and task safety. Broad body attention, body scanning, and local-global practice are not automatically appropriate for everyone.
-
-If coverage creates strain, fragmentation, numbness, or loss of ordinary responsiveness, simplify, switch, stop, or get support.
+Free-floating is not vagueness; it still requires knowing where attention goes. Inventory is not forced sensation production - if little is detectable, do not manufacture sensation just to complete the scan. Even coverage is not automatically superior: if broad attention loses detail or strains, narrower contact may be wiser. And broad practice is not automatically shallow - it is shallow when it avoids depth, and deep when it clears the whole field in a coherent way. Coverage strategies can interact with trauma, panic, pain, dissociation, obsessive checking, and task safety, so broad body attention, body scanning, and local-global practice are not automatically appropriate for everyone. If coverage creates strain, fragmentation, numbness, or loss of ordinary responsiveness, simplify, switch, stop, or get support.
 
 ## Go Deeper
 

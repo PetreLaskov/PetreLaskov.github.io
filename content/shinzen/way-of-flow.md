@@ -41,17 +41,9 @@ When change shows up on the output side, such as walking, chanting, speaking, or
 | gripping, obsession, pressure, or stuckness | possible contractive Flow, if it makes the pattern more workable | Ordinary problem-solving, sleep, therapy, or boundaries may still matter. |
 | blissful energy, whole-field waves, or body-world breakup | advanced change territory | Route through dissolution and safety checks before making status claims. |
 
-## Common Confusions
+## When Flow Gets Chased or Forced
 
-Flow is not automatically energy, kundalini, healing, or attainment. Pleasant Flow can become state chasing. Unpleasant Flow can become destabilizing if intensity outruns support.
-
-Flow can also become a preferred aesthetic. If the practitioner starts rejecting ordinary solid-feeling experience, practice has become selective.
-
-## Safety and Scope
-
-Flow practice does not replace medical care, therapy, emergency support, consent, ordinary ethics, relationship repair, or qualified guidance. If change perception becomes frightening, disorienting, sleep-disrupting, compulsive, or impairing, slow down, ground, change method, stop, or get support.
-
-Flow does not give permission to act out impulses, ignore pain signals, override consent, or treat spontaneous movement, speech, or thought as inherently wise.
+Flow is not automatically energy, kundalini, healing, or attainment: pleasant Flow can become state chasing, and unpleasant Flow can become destabilizing if intensity outruns support. Flow can also become a preferred aesthetic - if the practitioner starts rejecting ordinary solid-feeling experience, practice has become selective. If change perception becomes frightening, disorienting, sleep-disrupting, compulsive, or impairing, slow down, ground, change method, stop, or get support. And Flow does not give permission to act out impulses, ignore pain signals, override consent, or treat spontaneous movement, speech, or thought as inherently wise.
 
 ## Go Deeper
 

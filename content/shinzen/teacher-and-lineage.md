@@ -35,8 +35,11 @@ Preserve the possibility of rare skill. Then locate it. Ask what the teacher is 
 
 Depth does not lower the bar for consent, repair, referral, legal responsibility, medical or clinical boundaries, financial clarity, sexual boundaries, or protection from coercion. A teacher's record of helping some people does not erase adverse outcomes. A critic's report is not automatically true either. The stronger question is whether the system can hear feedback over time and correct course without spiritualizing the problem away.
 
+When you are asking for help directly, do not make the teacher question larger than the practice question. Bring a bounded report, ask for a practice hypothesis, ask what is outside the helper's role, and check whether the advice makes you clearer, more responsive, and less dependent. See [Asking for Guidance](asking-for-guidance.md).
+
 ## Go Deeper
 
+- [Asking for Guidance](asking-for-guidance.md)
 - [Guidance, Scope, and Accountability](guidance-scope-and-accountability.md)
 - [Behavior and Service Test](behavior-and-service-test.md)
 - [Source and Claim Tiers](source-and-claim-tiers.md)

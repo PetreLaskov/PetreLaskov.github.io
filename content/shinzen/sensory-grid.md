@@ -68,17 +68,9 @@ During quiet sitting, a gap after inner talk ends is Gone at the ending
 moment. The quiet that remains is Hear Rest. This prevents Gone practice from
 becoming a repeated label for ongoing absence.
 
-## Common Confusions
+## Labels Are Tools, Not Verdicts
 
-The grid is pragmatic, not absolute. Smell and taste are usually folded into Feel for simplicity. "Out" means physical in origin, not necessarily outside the skin. Emotional Feel and physical Feel may need careful discrimination, but the labels are tools rather than verdicts.
-
-Another confusion is thinking that more precision is always better. Sometimes "Feel" is enough. Sometimes the useful distinction is "Feel In" versus "Feel Out." Sometimes the best move is to stop subdividing and restore contact.
-
-## Safety and Scope
-
-The grid does not provide safety rules by itself. Better labels can help distinguish Rest from shutdown, Flow from fixation, Gone from spacing out, and positive cultivation from bypass, but labels do not replace support, stop criteria, or ordinary care.
-
-If categorization becomes frantic, compulsive, dissociative, or unsafe during tasks, simplify or pause. If physical pain, medical symptoms, trauma activation, severe distress, or task risk is present, do not use the grid to override ordinary care, qualified guidance, or environmental safety.
+The grid is pragmatic, not absolute: smell and taste are usually folded into Feel for simplicity, "Out" means physical in origin rather than necessarily outside the skin, and emotional Feel and physical Feel may need careful discrimination - but the labels are tools, not verdicts. More precision is not always better; sometimes "Feel" is enough, sometimes the useful distinction is "Feel In" versus "Feel Out," and sometimes the best move is to stop subdividing and restore contact. The grid does not supply safety rules by itself: better labels can help distinguish Rest from shutdown, Flow from fixation, Gone from spacing out, and positive cultivation from bypass, but labels do not replace support, stop criteria, or ordinary care. If categorization becomes frantic, compulsive, dissociative, or unsafe during tasks, simplify or pause; and if physical pain, medical symptoms, trauma activation, severe distress, or task risk is present, do not use the grid to override ordinary care, qualified guidance, or environmental safety.
 
 ## Go Deeper
 

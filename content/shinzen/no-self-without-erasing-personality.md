@@ -73,12 +73,9 @@ This table is not a diagnosis or attainment scale. It is a public route check:
 the same no-self vocabulary can point toward freedom, confusion, distress, or
 avoidance depending on function, valence, behavior, and support.
 
-## Common Confusions
+## Telling No-Self From Distress
 
-No-self is not nihilism, dissociation, weak boundaries, ethical exemption, or hatred of personality. A healthy personality may become more fluid, ordinary, and useful.
-
-
-No-self, void, or world-insubstantiality can overlap with distress, dissociation, depression, anxiety, or DPDR-like experiences.
+No-self is not nihilism, dissociation, weak boundaries, ethical exemption, or hatred of personality; a healthy personality may become more fluid, ordinary, and useful. But no-self, void, or world-insubstantiality can overlap with distress, dissociation, depression, anxiety, or DPDR-like experiences.
 
 ## Go Deeper
 

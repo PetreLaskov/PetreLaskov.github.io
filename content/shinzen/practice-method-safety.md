@@ -52,19 +52,11 @@ Concrete examples:
 - If a task is too demanding to support technique during the task, practice afterward with the residue the task left behind.
 - If practice is worsening sleep, functioning, behavior, or support, stop treating method choice as the main question.
 
-## Common Confusions
+## When To Pause or Stop
 
-Harder is not always better. Softer is not always safer. More options are not always more skillful. Less effort can be release or collapse; more effort can be clarity or strain.
+Harder is not always better, softer is not always safer, and more options are not always more skillful: less effort can be release or collapse, and more effort can be clarity or strain. Do Nothing is not spacing out, Noting is not self-surveillance, broad awareness is not vague openness, and challenge practice is not a mandate to expose yourself to the hardest trigger available. Acting from samadhi-like depth is not proof that the action is wise - it is only green when responsiveness, task contact, consent, role duty, and feedback remain intact.
 
-Do Nothing is not spacing out. Noting is not self-surveillance. Broad awareness is not vague openness. Challenge practice is not a mandate to expose yourself to the hardest trigger available.
-
-Acting from samadhi-like depth is not proof that the action is wise. It is only green when responsiveness, task contact, consent, role duty, and feedback remain intact.
-
-## Safety and Scope
-
-Pause method optimization when the method effect cannot be separated from sleep loss, panic, trauma activation, medication or substance effects, medical symptoms, loss of functioning, teacher pressure, or altered-state fixation.
-
-Stop and seek appropriate support when practice produces severe destabilization, dangerous passivity, inability to stop, functional impairment, dissociation, DPDR-like distress, self-harm or harm risk, medical danger, or unsafe task distraction.
+Pause method optimization when the method effect cannot be separated from sleep loss, panic, trauma activation, medication or substance effects, medical symptoms, loss of functioning, teacher pressure, or altered-state fixation. Stop and seek appropriate support when practice produces severe destabilization, dangerous passivity, inability to stop, functional impairment, dissociation, DPDR-like distress, self-harm or harm risk, medical danger, or unsafe task distraction.
 
 ## Go Deeper
 

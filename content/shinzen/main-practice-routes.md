@@ -73,13 +73,9 @@ For the next session, reduce the whole menu to one container:
 | Responsive branch | the live situation changes in an obvious way | name the reason for switching before switching |
 | Pause or support | functioning, safety, conduct, or ordinary care is the real issue | stop optimizing technique and handle the practical need first |
 
-## Common Confusions
+## When Route Choice Goes Wrong
 
-Do not treat method choice as identity. One route can go deep, and broad practice can also be useful. Switching methods is not failure, but switching to avoid difficulty can become bypass.
-
-## Safety and Scope
-
-No method overrides ordinary care. Route choice is especially suspect when it increases strain, secrecy, status, dissociation, teacher dependency, avoidance of repair, or compulsive technique collecting.
+Do not treat method choice as identity: one route can go deep, and broad practice can also be useful. Switching methods is not failure, but switching to avoid difficulty can become bypass. No method overrides ordinary care, and route choice is especially suspect when it increases strain, secrecy, status, dissociation, teacher dependency, avoidance of repair, or compulsive technique collecting.
 
 ## Go Deeper
 

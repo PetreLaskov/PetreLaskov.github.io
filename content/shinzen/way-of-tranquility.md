@@ -46,15 +46,9 @@ A practitioner sits down after a busy day and every label feels like another tas
 
 A sleepy practitioner should not treat dullness as success. If the body is safe to continue, posture, eyes-open practice, and sensory clarity can let sleepiness become Rest. If fatigue or functioning is the issue, ordinary sleep and care come first.
 
-## Common Confusions
+## When Tranquility Stalls
 
-Rest is not the endpoint by itself. It can support concentration, soothe the system, and make subtle experience easier to clarify, but chasing a pleasant state can freeze practice.
-
-Nothing happening is not always nothing. It may hide subtle rest events. It may also be sleepiness, shutdown, or spacing out. The difference depends on clarity, equanimity, alertness, and functioning.
-
-## Safety and Scope
-
-Rest can help when practice is too racy or over-managed. It can also become avoidance, dullness, dissociation-like spacing out, state chasing, or an excuse to ignore active material. Night sitting, sleepiness practice, and strong tranquility practice need ordinary sleep, health, medication, task, and functioning boundaries.
+Rest is not the endpoint by itself: it can support concentration, soothe the system, and make subtle experience easier to clarify, but chasing a pleasant state can freeze practice. "Nothing happening" is not always nothing - it may hide subtle rest events, or it may be sleepiness, shutdown, or spacing out, and the difference depends on clarity, equanimity, alertness, and functioning. Rest can help when practice is too racy or over-managed, but it can also become avoidance, dullness, dissociation-like spacing out, state chasing, or an excuse to ignore active material; night sitting, sleepiness practice, and strong tranquility practice need ordinary sleep, health, medication, task, and functioning boundaries.
 
 ## Go Deeper
 

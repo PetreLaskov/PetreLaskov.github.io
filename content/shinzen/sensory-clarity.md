@@ -53,12 +53,9 @@ The public sequence is simple:
 
 The point is not to choose analysis or unity as a permanent identity. A practitioner may need clean distinctions now, a wider field later, and a return to ordinary distinctions when life, safety, relationship, or teaching requires them.
 
-## Common Confusions
+## When Clarity Overdoes It
 
-Clarity can become over-analysis. It can also become a way to avoid feeling the whole. Use detail when it helps workability, and let the frame simplify when detail stops helping.
-
-
-Increasing clarity can expose hidden pain, fear, shame, or dissociation.
+Clarity can become over-analysis, or a way to avoid feeling the whole. Use detail when it helps workability, and let the frame simplify when detail stops helping. Increasing clarity can also expose hidden pain, fear, shame, or dissociation.
 
 ## Go Deeper
 

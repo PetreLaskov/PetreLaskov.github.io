@@ -61,13 +61,9 @@ A pleasant calm may become more complete when it is enjoyed without needing it t
 
 A painful sensation may become more complete when it is more precisely known and less fought, but pain practice is never proved by toughness alone. Medical context, posture, fatigue, fear, and support remain part of the picture.
 
-## Common Confusions
+## Counterfeits of Completion
 
-Do not infer completion from long sits, strong pain, catharsis, visions, kriyas, erotic charge, Flow, Gone, or spiritual certainty. Those may matter, but they are not the criterion.
-
-Do not turn "complete experience" into a private claim no one can question. If the experience is complete but behavior becomes worse, relationships become less honest, or ordinary care disappears, the interpretation needs revision.
-
-"Complete experience" language can also become dangerous: justifying endurance, dissociation, medical neglect, emotional flooding, or avoidance of repair. Completion means less binding, not more heroic.
+Do not infer completion from long sits, strong pain, catharsis, visions, kriyas, erotic charge, Flow, Gone, or spiritual certainty - those may matter, but they are not the criterion. Do not turn "complete experience" into a private claim no one can question: if the experience is complete but behavior becomes worse, relationships become less honest, or ordinary care disappears, the interpretation needs revision. The language can itself become dangerous, justifying endurance, dissociation, medical neglect, emotional flooding, or avoidance of repair. Completion means less binding, not more heroic.
 
 ## Go Deeper
 

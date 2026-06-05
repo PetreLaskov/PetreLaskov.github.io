@@ -46,19 +46,9 @@ Science and analogy language can help a practitioner remember a pattern:
 
 Those analogies are practice supports. They do not by themselves validate a physics theory, a neuroscience claim, a technology promise, or a metaphysical system.
 
-## Common Confusions
+## Keeping Analogy Honest
 
-Do not read "science of enlightenment" as "all claims here are scientifically proven." It can mean a disciplined investigation of experience, a research aspiration, or a rhetorical bridge.
-
-Do not treat a vivid Source, love, or unity experience as a shortcut around evidence. The practical question is what claim is being made, who might be affected, and what ordinary checks are still needed.
-
-Do not treat mathematics or physics analogies as hidden doctrine. Complex numbers, polarity, time-space, energy, and nature metaphors may clarify Shinzen's model without becoming evidence that the universe literally works that way.
-
-Do not use scientific-sounding language to normalize destabilization. If a person is frightened, dissociated, sleep-deprived, medically unstable, or pressured by a teacher, analogy should not override support and safety.
-
-## Safety and Scope
-
-Science and analogy claims need humility most when readers might act on them. Medical, psychiatric, neurological, legal, relational, technological, and teacher-authority claims require ordinary evidence and appropriate expertise.
+Do not read "science of enlightenment" as "all claims here are scientifically proven" - it can mean a disciplined investigation of experience, a research aspiration, or a rhetorical bridge. Do not treat a vivid Source, love, or unity experience as a shortcut around evidence; the practical question is what claim is being made, who might be affected, and what ordinary checks are still needed. Do not treat mathematics or physics analogies as hidden doctrine - complex numbers, polarity, time-space, energy, and nature metaphors may clarify Shinzen's model without becoming evidence that the universe literally works that way. And do not use scientific-sounding language to normalize destabilization: if a person is frightened, dissociated, sleep-deprived, medically unstable, or pressured by a teacher, analogy should not override support and safety. Science and analogy claims need humility most when readers might act on them - medical, psychiatric, neurological, legal, relational, technological, and teacher-authority claims require ordinary evidence and appropriate expertise.
 
 ## Go Deeper
 

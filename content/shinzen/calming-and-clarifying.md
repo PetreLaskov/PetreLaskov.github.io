@@ -70,20 +70,9 @@ The phrase "No Rest, No Problem" is useful only when it keeps practice
 curious and safe, not when it becomes pressure to ignore exhaustion or
 distress.
 
-## Common Confusions
+## What To Watch
 
-Calm is not final proof of realization. A useful state can still become a good place to get stuck.
-
-Dry clarity is not automatically deeper than tranquility. If it lacks equanimity, support, and life integration, it may not be helping.
-
-"Nothing is happening" can mean subtle Rest, sleepiness, blankness, shutdown, or a real vanishing. The phrase needs discrimination.
-
-Alertness is not the same as agitation. Shinzen can treat wakeful clarity as
-part of meditation, but stimulant use, sleep loss, anxiety, medication
-effects, or medical issues belong under ordinary care before practice
-optimization.
-
-## Safety and Scope
+Calm is not final proof of realization - a useful state can still become a good place to get stuck. Dry clarity is not automatically deeper than tranquility; if it lacks equanimity, support, and life integration, it may not be helping. "Nothing is happening" can mean subtle Rest, sleepiness, blankness, shutdown, or a real vanishing, so the phrase needs discrimination. And alertness is not the same as agitation: wakeful clarity can be part of meditation, but stimulant use, sleep loss, anxiety, medication effects, or medical issues belong under ordinary care before practice optimization.
 
 The balance does not supply individual stop rules. High-intensity vipassana, strong absorption pursuit, sleep disruption, stimulant use, panic, dissociation, trauma activation, or functional decline need ordinary caution and support.
 

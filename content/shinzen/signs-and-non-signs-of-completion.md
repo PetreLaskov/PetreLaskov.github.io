@@ -67,18 +67,9 @@ Concrete examples:
 - A no-self glimpse may be more integrated when personality, boundaries, and
   responsibility return more flexibly.
 
-## Common Confusions
+## Reading the Signs Honestly
 
-A practice can feel profound and still not be integrated. A practice can feel ordinary and still be transformative.
-
-Completion is not a private certificate. It is a working interpretation that
-should remain corrigible by clarity, embodiment, behavior, feedback, and
-support.
-
-
-If practice worsens functioning, feeds avoidance, overrides the body, inflates
-authority, weakens relationships, or replaces needed care, treat that as a
-safety signal.
+A practice can feel profound and still not be integrated, and it can feel ordinary and still be transformative. Completion is not a private certificate; it is a working interpretation that should remain corrigible by clarity, embodiment, behavior, feedback, and support. If practice worsens functioning, feeds avoidance, overrides the body, inflates authority, weakens relationships, or replaces needed care, treat that as a safety signal.
 
 ## Go Deeper
 

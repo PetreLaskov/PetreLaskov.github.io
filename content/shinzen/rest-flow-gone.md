@@ -52,13 +52,9 @@ The same event can move through all three. A pressure may begin as stable,
 show subtle Flow when watched closely, then partially drop away as Gone. The
 useful label follows what is actually detected.
 
-## Common Confusions
+## When Subtle Practice Destabilizes
 
-Rest is not always dullness. Flow is not always energy or attainment. Gone is not the same as spacing out. The point is not to collect three experiences; it is to choose a cleaner attention handle for what is already present.
-
-## Safety and Scope
-
-Subtle practice can become destabilizing if the practitioner chases states, ignores functioning, or interprets disorientation as progress. If Rest becomes numbness, Flow becomes compulsion, or Gone becomes void fixation, simplify the practice and route through safety, support, and ordinary functioning.
+Rest is not always dullness, Flow is not always energy or attainment, and Gone is not the same as spacing out. The point is not to collect three experiences; it is to choose a cleaner attention handle for what is already present. Subtle practice can become destabilizing if the practitioner chases states, ignores functioning, or interprets disorientation as progress - if Rest becomes numbness, Flow becomes compulsion, or Gone becomes void fixation, simplify the practice and route through safety, support, and ordinary functioning.
 
 ## Go Deeper
 

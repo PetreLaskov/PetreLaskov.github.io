@@ -21,6 +21,12 @@ Equanimity may be trained through relaxation, welcoming talk, allowing, observin
 
 If equanimity cannot be found, use second-order equanimity: notice the tension, judgment, or failure-feeling as the current object. The practice becomes "can this resistance also be included?"
 
+## How Equanimity Is Learned
+
+Equanimity is not a mood you summon; it is a behavior the nervous system learns. Shinzen's account of how is unusually concrete. The deepest layers of the mind are not reached by talking to yourself or picturing things - they are reached at the level of raw body sensation, so that is where the learning happens, through an immediate feedback loop. When the body interferes with its own sensations - bracing, gripping, recoiling - the interference registers at once as suffering. When it stops interfering, that registers at once as relief or fulfillment. Felt clearly enough, often enough, the body-level mind draws its own conclusion and begins to let experience be.
+
+Shinzen sometimes frames this in deliberately rough terms - Skinnerian conditioning, training the "reptilian brain" - and then turns the analogy inside out: the behavior being conditioned is not a trick or a clench, it is noninterference itself. The framing is a teaching device, not neuroscience, and the reward is never pain. Nothing here licenses gritting through harm or punishing the body into stillness. The system learns noninterference precisely because, felt clearly, noninterference is the relief and the fight is the suffering.
+
 ## If Equanimity Is The Problem
 
 | What is happening | Useful equanimity move | Boundary |
@@ -48,13 +54,9 @@ With a pleasant calm state, equanimity may mean enjoying the ease without
 grasping for it to stay. When the state fades, the reaction to fading may
 become the next workable object.
 
-## Common Confusions
+## When Equanimity Is Not Working
 
-If equanimity suppresses emotion, blocks action, tolerates harm, or disconnects from people, it is not functioning well. Second-order equanimity can include the fact that equanimity is absent.
-
-## Safety and Scope
-
-Equanimity does not replace medical care, therapy, emergency support, consent, ordinary ethics, relationship repair, protection, or qualified guidance. Sometimes wise action is to leave, speak, treat, repair, or ask for help.
+If equanimity suppresses emotion, blocks action, tolerates harm, or disconnects from people, it is not functioning well - and second-order equanimity can include the fact that equanimity is absent. Sometimes the wise move is not more noninterference but ordinary action: to leave, speak, treat, repair, or ask for help.
 
 ## Go Deeper
 
@@ -62,5 +64,7 @@ Equanimity does not replace medical care, therapy, emergency support, consent, o
 - [Mindfulness as CCE](mindfulness-as-cce.md)
 - [Equanimity Versus Suppression](equanimity-versus-suppression.md)
 - [Equanimity Training Ladder](equanimity-training-ladder.md)
+- [Insight and Purification](insight-and-purification.md) - what CCE over time is training toward
+- [Practice Cycles and Life Architecture](practice-cycles-and-life-architecture.md) - why formal sits and retreats give this learning clean conditions
 - [Complete Experience](complete-experience.md)
 - [Completion Versus Bypass and Intensity](completion-versus-bypass-and-intensity.md)

@@ -35,7 +35,7 @@ The older Basic Mindfulness map gives a broad menu for Human Goodness practice:
 | Theme | Public meaning | Example |
 | --- | --- | --- |
 | Positive affect | wholesome emotional tones | gratitude, friendliness, compassion, love, forgiveness, courage |
-| Positive behavior | actions to stop, start, or strengthen | pausing before harsh speech, apologizing, keeping a commitment |
+| Positive behavior | actions to stop, start, or strengthen | pausing before harsh speech, apologizing, keeping a commitment, or using [Behavior Change Escalation](behavior-change-escalation.md) when insight is not enough |
 | Positive cognition | useful mental Talk | a rational phrase, a vow, a clear plan, a kind self-instruction |
 | Positive ideals | images of goodness or aspiration | a mentor, symbol, deity, lineage figure, or best-self image |
 | Positive situations | imagined beneficial outcomes | a repaired conversation, steadier parenting, useful service |
@@ -80,19 +80,9 @@ A practitioner wants to serve after a deep retreat. Human Goodness asks for a re
 
 A caregiver uses love Feel while sitting with someone ill. The practice can support presence, but it does not replace medicine, rest, family coordination, or honest decisions.
 
-## Common Confusions
+## Where Goodness Goes Wrong
 
-Human Goodness is not forced niceness. It is not the refusal to feel anger, grief, disgust, fear, or protest.
-
-It is not proof that Source contact has made action wise. It is not a claim that positive states automatically help other people. It is not a demand to radiate warmth in unsafe, coercive, or exhausting situations.
-
-It also is not mere mood repair. Positive behavior, cognition, ideals, and service make the route answerable to life.
-
-## Safety and Scope
-
-Good intention does not replace consent, feedback, competence, repair, medical care, therapy, emergency support, protection, or qualified guidance.
-
-Use extra caution if positive practice hides harm, bypasses grief, blames a sick person, inflates a teacher, fuels mania-like activation, weakens boundaries, or substitutes imagery for action. If a behavior is not changing, add ordinary supports rather than only more inner positivity.
+Human Goodness is not forced niceness, or the refusal to feel anger, grief, disgust, fear, or protest. It is not proof that Source contact has made action wise, not a claim that positive states automatically help other people, and not a demand to radiate warmth in unsafe, coercive, or exhausting situations. It is also not mere mood repair - positive behavior, cognition, ideals, and service make the route answerable to life. Good intention does not replace consent, feedback, competence, repair, or qualified care: use extra caution if positive practice hides harm, bypasses grief, blames a sick person, inflates a teacher, fuels mania-like activation, weakens boundaries, or substitutes imagery for action. If a behavior is not changing, add ordinary supports rather than only more inner positivity.
 
 ## Go Deeper
 
@@ -103,4 +93,5 @@ Use extra caution if positive practice hides harm, bypasses grief, blames a sick
 - [Source, Service, and Bodhicitta](source-service-and-bodhicitta.md)
 - [Total Happiness Aim Structure](total-happiness-aim-structure.md)
 - [Behavior and Service Test](behavior-and-service-test.md)
+- [Behavior Change Escalation](behavior-change-escalation.md)
 - [Guidance, Scope, and Accountability](guidance-scope-and-accountability.md)

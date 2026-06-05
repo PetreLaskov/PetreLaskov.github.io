@@ -32,19 +32,9 @@ In visual practice, the same principle can apply to the openness of the visual f
 
 Spaciousness does not need to be dramatic. It may be a mild sense that experience has room around it. That mildness is often safer and more usable than chasing vast states.
 
-## Common Confusions
+## Telling Space From Spacing Out
 
-Spaciousness is not the same as Rest. Rest emphasizes quiet, relaxation, blankness, or peace. Space emphasizes openness or thinness.
-
-Spaciousness is not the same as Flow. Flow emphasizes movement or change. Space may be still.
-
-Spaciousness is not automatically no-self, formless absorption, nondual awareness, or Source. Those may be related in advanced practice, but the public page should not certify them from a single spacious report.
-
-Spaciousness is also not the same as spacing out. If clarity drops, functioning worsens, or the person feels unreal, numb, or detached, route through safety before deep-map interpretation.
-
-## Safety and Scope
-
-Open, thin, vast, or formless experience can be beautiful. It can also overlap with dullness, shutdown, dissociation, depersonalization, derealization, void distress, or loss of function. The practical question is whether CCE, functioning, embodiment, and behavior are improving.
+Spaciousness is not the same as Rest, which emphasizes quiet, relaxation, blankness, or peace; Space emphasizes openness or thinness. It is not the same as Flow, which emphasizes movement or change, while Space may be still. It is not automatically no-self, formless absorption, nondual awareness, or Source - those may be related in advanced practice, but a single spacious report should not certify them. And it is not the same as spacing out: if clarity drops, functioning worsens, or the person feels unreal, numb, or detached, route through safety before deep-map interpretation. Open, thin, vast, or formless experience can be beautiful, but it can also overlap with dullness, shutdown, dissociation, depersonalization, derealization, void distress, or loss of function - the practical question is whether CCE, functioning, embodiment, and behavior are improving.
 
 ## Go Deeper
 

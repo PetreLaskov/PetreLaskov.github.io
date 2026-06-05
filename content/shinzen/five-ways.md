@@ -37,17 +37,9 @@ A practitioner may use one Way as a path, sequence several Ways as a workout, or
 | Change, vibration, pressure, vanishing, or solidity loosening is available | Flow | Does change become more workable without chasing energy or interpreting it as status? |
 | Practice is too deconstructive, bleak, self-erasing, or disconnected from conduct | Human Goodness | Do positive Feel, Image, and Talk connect to repair, consent, behavior, and service? |
 
-## Common Confusions
+## How Each Way Fails
 
-The Five Ways are not personality types. They are not a spiritual ranking. The Way of Flow is not more advanced than Human Goodness; Rest is not a retreat from real practice; positive cultivation is not automatically bypass.
-
-The slogans are routing handles, not complete instruction. "Anchor and merge" still needs clarity and safety. "Dissolve and digest" does not mean chase energy. "Love and serve" still needs behavior, consent, repair, and accountability.
-
-## Safety and Scope
-
-Each Way has a failure mode. Inner deconstruction can become rumination or dissociation. Outer anchoring can become avoidance of inner material. Rest can become shutdown. Flow can become state chasing. Positive practice can become denial or charm without conduct change.
-
-Use the Ways as route choices, not as pressure to endure, intensify, or perform progress.
+The Five Ways are not personality types, and not a spiritual ranking: the Way of Flow is not more advanced than Human Goodness, Rest is not a retreat from real practice, and positive cultivation is not automatically bypass. The slogans are routing handles, not complete instruction - "anchor and merge" still needs clarity and safety, "dissolve and digest" does not mean chase energy, and "love and serve" still needs behavior, consent, repair, and accountability. Each Way also has its own failure mode: inner deconstruction can become rumination or dissociation, outer anchoring can become avoidance of inner material, Rest can become shutdown, Flow can become state chasing, and positive practice can become denial or charm without conduct change. Use the Ways as route choices, not as pressure to endure, intensify, or perform progress.
 
 ## Go Deeper
 

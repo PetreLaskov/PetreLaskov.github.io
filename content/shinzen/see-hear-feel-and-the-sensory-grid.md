@@ -73,14 +73,9 @@ The interface also permits different levels of detail. A beginner may simply not
 
 Planning dinner during a sit can be Hear In if it appears as inner talk, See In if it appears as mental image, and Feel In if it carries body emotion. A knee ache can be Feel Out unless the main event is fear or irritation about the ache. A moment of silence after a sound ends can include Gone at the drop-off and Hear Rest in the quiet afterward.
 
-## Common Confusions
+## Using the Labels Lightly
 
-Do not think the simple labels erase the older grid. Do not think the grid requires constant microscopic analysis. Use the level of detail that supports CCE.
-
-Another confusion is treating missed notes as failure. Shinzen's later interface deliberately makes room for missed, guessed, late, averaged, and repeated notes. The point is a quality moment with experience, not perfect capture.
-
-
-More categorization is not always better. If labeling becomes frantic, dissociative, compulsive, or task-unsafe, simplify, stop, ground, or seek appropriate support.
+Do not think the simple labels erase the older grid, or that the grid requires constant microscopic analysis - use the level of detail that supports CCE. Missed notes are not failure either: Shinzen's later interface deliberately makes room for missed, guessed, late, averaged, and repeated notes, because the point is a quality moment with experience, not perfect capture. And more categorization is not always better - if labeling becomes frantic, dissociative, compulsive, or task-unsafe, simplify, stop, ground, or seek appropriate support.
 
 ## Go Deeper
 

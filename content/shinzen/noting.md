@@ -55,17 +55,9 @@ If a body sensation is intense but workable, the practitioner might note Feel or
 
 If "nothing is happening," Noting may reveal rest, subtle image, subtle talk, body quiet, or the disappearance of a previous event. The practice does not require inventing content.
 
-## Common Confusions
+## When Noting Goes Wrong
 
-Do not force labels so hard that practice becomes shame or strain. Do not use noting to push experience away. Do not assume more labels means more clarity.
-
-Noting can also become a commentary habit. If the label produces more thinking about the event than contact with the event, simplify the label or return to direct sensing.
-
-## Safety and Scope
-
-Noting can expose difficult material. If labels become frantic, shame-based, socially exposing, impossible to stop, or pressured by a teacher or retreat setting, that is method-safety data. Simplify the range, slow the pace, use a gentler label, switch methods, stop, or get support.
-
-During driving, machinery, childcare, conflict, professional duties, or care work, Noting should not divide attention from the task. If it is used at all, it should usually mean simple sensory contact with the task itself.
+Do not force labels so hard that practice becomes shame or strain, push experience away, or assume more labels mean more clarity. Noting can become a commentary habit: if the label produces more thinking about the event than contact with it, simplify the label or return to direct sensing. If labels turn frantic, shame-based, socially exposing, impossible to stop, or pressured by a teacher or retreat setting, that is method-safety data - simplify the range, slow the pace, soften the label, switch, stop, or get support. And during driving, machinery, childcare, conflict, professional duties, or care work, noting should never divide attention from the task; there it means simple sensory contact with the task itself.
 
 ## Go Deeper
 

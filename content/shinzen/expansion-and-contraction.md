@@ -30,17 +30,9 @@ The breath is a useful laboratory. The in-breath may feel like the torso expandi
 
 In more advanced practice, Shinzen links simultaneous Expansion-Contraction with Source and Zero language. Keep that route available, but bring in the source and safety boundaries before treating it as metaphysics or attainment.
 
-## Common Confusions
+## Reading the Polarity Honestly
 
-Expansion is not always good, and Contraction is not always bad. Scattering can be expansive and unhelpful. Dense contraction can become unifying if it is surrendered rather than resisted.
-
-Expansion-Contraction is not a substitute for ordinary discernment. If the body is injured, the relationship is unsafe, or the mind is destabilized, labeling the force pattern is not enough.
-
-Do not treat the polarity model as scientific proof. It is a powerful practice grammar and a Shinzen lineage-translation bridge, not established physics.
-
-## Safety and Scope
-
-Harsh intensity, pressure, being torn apart, chaotic vibration, or loss of center should route through safety pages before being romanticized as Source-side practice. Expansion-Contraction language can help some advanced reports, but it should not pressure anyone to endure overwhelming states.
+Expansion is not always good, and Contraction is not always bad: scattering can be expansive and unhelpful, while dense contraction can become unifying if it is surrendered rather than resisted. The polarity is not a substitute for ordinary discernment - if the body is injured, the relationship is unsafe, or the mind is destabilized, labeling the force pattern is not enough. And do not treat the model as scientific proof: it is a powerful practice grammar and a Shinzen lineage-translation bridge, not established physics. Harsh intensity, pressure, being torn apart, chaotic vibration, or loss of center should route through the safety pages before being romanticized as Source-side practice - the language can help some advanced reports, but it should never pressure anyone to endure overwhelming states.
 
 ## Go Deeper
 

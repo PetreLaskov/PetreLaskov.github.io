@@ -48,15 +48,9 @@ The balance becomes crucial when:
 
 In these cases, the question is not "deconstruct or reconstruct forever?" It is which movement restores clarity, equanimity, function, care, and support now.
 
-## Common Confusions
+## Holding Both Moves Honestly
 
-No-self is not personality erasure. Positive practice is not pretending. Service feeling is not service competence. Source language is not behavior verification.
-
-A mature path can include seeing through self, letting self arise, building better habits, feeling love, making mistakes, repairing them, and continuing to practice.
-
-## Safety and Scope
-
-Void distress, DPDR-like symptoms, depression, anxiety, trauma activation, weak boundaries, grandiosity, coercive teaching, or loss of functioning should not be handled by more deconstruction or more positivity alone.
+No-self is not personality erasure. Positive practice is not pretending. Service feeling is not service competence. Source language is not behavior verification. A mature path can include seeing through self, letting self arise, building better habits, feeling love, making mistakes, repairing them, and continuing to practice. But void distress, DPDR-like symptoms, depression, anxiety, trauma activation, weak boundaries, grandiosity, coercive teaching, or loss of functioning should not be handled by more deconstruction or more positivity alone.
 
 ## Go Deeper
 

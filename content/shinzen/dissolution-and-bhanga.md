@@ -48,24 +48,18 @@ The practical question is not only "is this bhanga?" It is "what route keeps CCE
 
 If the experience is workable, the practice can be simple: notice the changingness, the vanishings, the pressure forces, and the reactions. If it is not workable, safety and support govern first.
 
-## Common Confusions
+## Reading Bhanga Honestly
 
-Bhanga is not required for insight. Do not seek it because it sounds advanced.
-
-Blissful dissolution is not proof of awakening. It can become energy chasing, status comparison, visual-effect chasing, or teacher-pressure material.
-
-Harsh dissolution is not automatically purification. It may need grounding, rest, reduced intensity, teacher support, therapy, medical care, or emergency help depending on the situation.
-
-Clinical dismissal is also too simple. Some difficult practice events may be recognized inside contemplative maps. The point is to hold both possibilities without letting either one erase the other.
-
-## Safety and Scope
+Bhanga is not required for insight, so do not seek it because it sounds advanced. Blissful dissolution is not proof of awakening - it can become energy chasing, status comparison, visual-effect chasing, or teacher-pressure material. Harsh dissolution is not automatically purification; it may need grounding, rest, reduced intensity, teacher support, therapy, medical care, or emergency help depending on the situation. Clinical dismissal is also too simple: some difficult practice events may be recognized inside contemplative maps, and the point is to hold both possibilities without letting either one erase the other. If the breakup gives way to raw, hot, infant-like emotion rather than vibration or space, that hot layer is its own territory; see [Primal Feel](primal-feel.md).
 
 Pause advanced interpretation when there is severe fear, disorientation, loss of function, self-harm or harm risk, psychosis or mania-like instability, DPDR-like distress, medical or neurological concern, sleep deprivation, substance or medication effects, trauma activation, coercive teacher framing, or pressure to treat the event as proof.
 
 ## Go Deeper
 
 - [Impermanence](impermanence-path.md) - path chapter
+- [Retreat and Aftercare](retreat-and-aftercare.md)
 - [Altered Phenomena and Dissolution Safety](altered-phenomena-and-dissolution-safety.md)
+- [Primal Feel](primal-feel.md)
 - [Flow and Gone](flow-and-gone.md)
 - [Expansion and Contraction](expansion-and-contraction.md)
 - [DPDR and the Pit of the Void](dpdr-and-the-pit-of-the-void.md)

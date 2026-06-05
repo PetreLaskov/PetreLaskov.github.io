@@ -35,19 +35,14 @@ Operational questions are concrete:
 
 This reading can honor deep realization without turning it into an all-purpose credential.
 
-## Common Confusions
+## What Enlightenment Is Not
 
-Enlightenment is not thoughtlessness. It is not permanent pleasantness. It is not immunity from mistakes. It is not a clinical diagnosis. It is not a teacher certificate. It is not proof that a person's map is final.
-
-Another confusion is stage-rating. Maps can orient practice, but map hunger can become status, comparison, and displacement from practice itself. A report should be translated by actual phenomenology and life effects, not by label identity alone.
-
-## Safety and Scope
-
-No-self and emptiness claims must be distinguished from DPDR-like distress, dissociation, depression, anxiety, trauma shutdown, psychosis or mania-like instability, and loss of function. Teacher claims must be distinguished from conduct, consent, student outcomes, feedback, and accountability.
+Enlightenment is not thoughtlessness, permanent pleasantness, immunity from mistakes, a clinical diagnosis, a teacher certificate, or proof that a person's map is final. Beware stage-rating: maps can orient practice, but map hunger can become status, comparison, and displacement from practice itself, so read a report by actual phenomenology and life effects, not by label identity alone. No-self and emptiness claims must be distinguished from DPDR-like distress, dissociation, depression, anxiety, trauma shutdown, psychosis or mania-like instability, and loss of function; and teacher claims must be distinguished from conduct, consent, student outcomes, feedback, and accountability.
 
 ## Go Deeper
 
 - [The Return](the-return.md) - path chapter
+- [The Six Good-Place Traps](good-place-traps.md)
 - [No-Self Without Erasing Personality](no-self-without-erasing-personality.md)
 - [Self-Inquiry and Turn Back](self-inquiry-and-turn-back.md)
 - [DPDR and the Pit of the Void](dpdr-and-the-pit-of-the-void.md)

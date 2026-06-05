@@ -56,21 +56,9 @@ talk, body feeling, craving, fear, pride, service impulse, or confusion that
 formed around it. If those are workable, they can be met as ordinary
 See/Hear/Feel. If they are destabilizing, functioning and support lead.
 
-## Common Confusions
+## Holding the Edge Honestly
 
-Do not treat Source contact as proof of ethical maturity. Do not treat physics, math, neuroscience, AI, or ultrasound analogies as established validation. Do not treat no-self or Zero as permission to ignore ordinary life.
-
-Also do not flatten the language into nothing. Source language carries real transmission value inside Shinzen's system; the point is to keep that value without pretending the atlas has proven more than it has.
-
-## Safety and Scope
-
-Source, void, no-self, and world-insubstantiality can become distressing or destabilizing.
-
-Do not use this page to intensify blankness, chase disappearance, interpret
-DPDR-like distress as attainment, or override ordinary functioning. If Source
-language is making a person less able to sleep, work, relate, protect
-themselves, or respond to feedback, route through safety and support before
-advanced interpretation.
+Do not treat Source contact as proof of ethical maturity, physics, math, neuroscience, AI, or ultrasound analogies as established validation, or no-self and Zero as permission to ignore ordinary life. But also do not flatten the language into nothing: Source language carries real transmission value inside Shinzen's system, and the point is to keep that value without pretending the atlas has proven more than it has. Source, void, no-self, and world-insubstantiality can become distressing or destabilizing - do not use the language to intensify blankness, chase disappearance, interpret DPDR-like distress as attainment, or override ordinary functioning. If Source language is making a person less able to sleep, work, relate, protect themselves, or respond to feedback, route through safety and support before advanced interpretation.
 
 ## Go Deeper
 

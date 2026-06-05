@@ -52,17 +52,9 @@ loss of functioning, medical neglect, coercion, severe dissociation,
 DPDR-like distress, self-harm or harm risk, or practice language blocking
 needed protection and care.
 
-## Common Confusions
+## Telling Equanimity From Its Counterfeits
 
-Equanimity is not apathy. Apathy does not care what happens. Equanimity can care and act while allowing the sensory side of the moment to arise and pass.
-
-Equanimity is not suppression. Suppression pushes experience down or tightens around it. Equanimity lets experience be more fully known.
-
-Equanimity is not passivity. One can set a boundary, leave a room, seek medical care, tell the truth, cry, shake, or repair harm while practicing noninterference with the inner sensory event.
-
-Equanimity is not forced endurance. Pain, illness, trauma activation, exhaustion, or coercive pressure do not become spiritual merely because someone stays still.
-
-## Safety and Scope
+Equanimity is not apathy: apathy does not care what happens, while equanimity can care and act while allowing the sensory side of the moment to arise and pass. It is not suppression, which pushes experience down or tightens around it - equanimity lets experience be more fully known. It is not passivity: one can set a boundary, leave a room, seek medical care, tell the truth, cry, shake, or repair harm while practicing noninterference with the inner sensory event. And it is not forced endurance - pain, illness, trauma activation, exhaustion, or coercive pressure do not become spiritual merely because someone stays still.
 
 Stop optimizing equanimity technique first when there is medical risk, injury risk, panic, trauma flooding, severe dissociation, DPDR-like distress, self-harm or harm risk, coercive teacher pressure, loss of functioning, or practice language replacing ordinary care or repair.
 

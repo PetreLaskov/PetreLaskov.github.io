@@ -39,17 +39,9 @@ With positive or restful states, zooming can sometimes amplify ease by including
 | Local intensity and body-wide spread are both workable | zoom in and out | Treat this as a demanding option, not as proof of advanced practice. |
 | Zooming creates loss-of-control feelings, strain, or dissociation-like drift | simplify, turn away, stop, or get support | Do not reinterpret overwhelm as purification by default. |
 
-## Common Confusions
+## When Zooming Magnifies Too Much
 
-Zooming is not required. It is not proof of advanced practice. It is not a command to intensify contact with pain or emotion.
-
-Wider is not always better. Narrower is not always safer. The question is which scope increases CCE without overpressure.
-
-Do not chase disappearance. If the event vanishes, Gone may be noted. If it remains, the focus phase continues.
-
-## Safety and Scope
-
-Zooming can be powerful with pain, emotion, shaking, overwhelm, or body-wide activation. It can also magnify intensity or create loss-of-control feelings. It should not be used to override medical signals, trauma responses, panic, dissociation, or ordinary stop cues.
+Zooming is not required, not proof of advanced practice, and not a command to intensify contact with pain or emotion. Wider is not always better and narrower is not always safer - the question is which scope increases CCE without overpressure. Do not chase disappearance: if the event vanishes, Gone may be noted, and if it remains, the focus phase continues. Zooming can be powerful with pain, emotion, shaking, overwhelm, or body-wide activation, but it can also magnify intensity or create loss-of-control feelings, so it should not be used to override medical signals, trauma responses, panic, dissociation, or ordinary stop cues.
 
 ## Go Deeper
 

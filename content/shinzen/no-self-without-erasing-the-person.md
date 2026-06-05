@@ -15,7 +15,7 @@ When the strands tangle without clarity, self feels like a solid separate object
 
 The correction that protects this path is simple and difficult: say yes to the self-arising. Do not try to kill the self. Let the self form as experience, meet it with CCE, and let it complete. The arising of self and the cessation of self both belong to practice.
 
-This keeps no-self from becoming self-erasure. Shinzen's arc is not "disappear and stay gone." It is disentangle, de-coagulate, stop into Zero, and then re-arise. The person comes back — thought, feeling, humor, preference, responsibility, warmth — but with less automatic ownership: a home now instead of a fortress.
+This keeps no-self from becoming self-erasure. Shinzen's arc is not "disappear and stay gone." It is disentangle, de-coagulate, stop into Zero, and then re-arise. The person comes back - thought, feeling, humor, preference, responsibility, warmth - but with less automatic ownership: a home now instead of a fortress.
 
 The phrase "no longer need to make an object out of self or world" points here. It does not mean there is no body, no personality, no commitment, no boundary, no consequence. It means self and world no longer have to coagulate into hard objects in the old way.
 

@@ -47,19 +47,16 @@ A practitioner with knee pain might first notice the local pressure as Feel Out.
 
 In conversation, Focus Out can mean really seeing and hearing the other person rather than rehearsing inner talk. That is practice only while responsiveness remains intact. When the conversation needs full ordinary attention, the conversation itself leads.
 
-## Common Confusions
+## When the Body Says Stop
 
-Turning toward pain is not a badge of courage. Turning away is not always avoidance. The question is whether CCE, safety, and ordinary responsiveness improve.
-
-## Safety and Scope
-
-Physical pain, illness, injury, faintness, medical symptoms, unsafe posture, social pressure, or task demands can override practice. Strong Determination, pain practice, eyes-open Flow, and interpersonal Focus Out all need ordinary safety and consent boundaries.
+Turning toward pain is not a badge of courage, and turning away is not always avoidance - the question is whether CCE, safety, and ordinary responsiveness improve. Physical pain, illness, injury, faintness, medical symptoms, unsafe posture, social pressure, or task demands can override practice, and Strong Determination, pain practice, eyes-open Flow, and interpersonal Focus Out all need ordinary safety and consent boundaries.
 
 ## Go Deeper
 
 - [The Routes](the-routes.md) - path chapter
 - [Way of Flow](way-of-flow.md)
 - [Turn Toward and Turn Away](turn-toward-and-turn-away.md)
+- [Serious Illness and Healing](serious-illness-and-healing.md)
 - [Intensity and Embodiment Safety](intensity-and-embodiment-safety.md)
 - [Choosing a Practice Route](choosing-a-practice-route.md)
 - [Practice Method Safety](practice-method-safety.md)

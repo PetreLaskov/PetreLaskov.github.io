@@ -44,23 +44,11 @@ Auto Everything combines branches only when the simpler branches are already wor
 | Yellow | Output feels performative, impulsive, vocally or physically strained, socially odd, hard to evaluate, or too fascinating. Simplify, return to a single branch, or use ordinary grounding. |
 | Red | Driving, machinery, care duties, professional stakes, conflict, unsafe terrain, injury risk, vocal strain, dissociation, mania-like activation, coercive group pressure, interpersonal harm, or inability to stop. Stop optimizing practice first. |
 
-## Common Confusions
+## Keeping It Honest and Safe
 
-Auto output is not impulse permission. A movement, sentence, idea, or urge does not become wise because it felt spontaneous.
+Auto output is not impulse permission: a movement, sentence, idea, or urge does not become wise because it felt spontaneous. Auto speech is not revelation - it may train the automatic contour of speech, but it does not certify truth, diagnosis, prophecy, teaching authority, or instructions for someone else. Auto thought is not automatic insight; a thought that self-organizes can still be wrong, inflated, irrelevant, or incomplete, so review it with ordinary judgment, feedback, and evidence. Auto Move is not spacing out while moving - the practice is to know the automaticity, not to disappear into unconscious habit. And Auto Everything is not a license to mix methods anywhere; it carries higher method load and stronger safety requirements than a single branch.
 
-Auto speech is not revelation. It may train the automatic contour of speech, but it does not certify truth, diagnosis, prophecy, teaching authority, or instructions for someone else.
-
-Auto thought is not automatic insight. A thought that self-organizes can still be wrong, inflated, irrelevant, or incomplete. Review it with ordinary judgment, feedback, and evidence.
-
-Auto Move is not spacing out while moving. The practice is to know the automaticity, not to disappear into unconscious habit.
-
-Auto Everything is not a license to mix methods anywhere. It has higher method load and stronger safety requirements than a single branch.
-
-## Safety and Scope
-
-Keep Auto practice in safe, low-stakes settings. Do not use it for driving, tools, machinery, caregiving, emergency response, conflict, professional judgment, sexual situations, public performance, or any setting where ordinary attention, consent, precision, or accountability should lead.
-
-If spontaneous movement is injurious, frightening, contagious in a group, neurologically concerning, dissociative, or hard to stop, treat that as a safety signal before treating it as practice material. If speech or thought becomes pressured, grandiose, coercive, or socially harmful, use ordinary support and feedback rather than more Auto framing.
+Keep Auto practice in safe, low-stakes settings. Do not use it for driving, tools, machinery, caregiving, emergency response, conflict, professional judgment, sexual situations, public performance, or any setting where ordinary attention, consent, precision, or accountability should lead. If spontaneous movement is injurious, frightening, contagious in a group, neurologically concerning, dissociative, or hard to stop, treat that as a safety signal before treating it as practice material. If speech or thought becomes pressured, grandiose, coercive, or socially harmful, use ordinary support and feedback rather than more Auto framing.
 
 ## Go Deeper
 

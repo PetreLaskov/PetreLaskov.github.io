@@ -7,9 +7,9 @@ status: draft
 
 # Source, Zero, and the Honest Edge
 
-Source and Zero name the edge where experience cancels — where it thins, vanishes, and returns carrying an afterglow of peace, love, and fullness. This edge can be the most meaningful thing in a person's life and still not make them an authority on reality. Both halves of that sentence are the teaching.
+Source and Zero name the edge where experience cancels - where it thins, vanishes, and returns carrying an afterglow of peace, love, and fullness. This edge can be the most meaningful thing in a person's life and still not make them an authority on reality. Both halves of that sentence are the teaching.
 
-The honest boundary is itself the teaching. At Zero there is no one home to witness Source as an object. Whatever gets reported is the return — the afterglow, a conditioned sensory event like any other, arriving as peace, love, or meaning. The afterglow is not fake; it is simply the only side that can be known. No hidden observer stayed behind to touch the unconditioned and carry word of it back.
+The honest boundary is itself the teaching. At Zero there is no one home to witness Source as an object. Whatever gets reported is the return - the afterglow, a conditioned sensory event like any other, arriving as peace, love, or meaning. The afterglow is not fake; it is simply the only side that can be known. No hidden observer stayed behind to touch the unconditioned and carry word of it back.
 
 This is the most useful way to hold Source language: total intimacy, zero overclaim. Let the opening matter. Let it change practice. Let it soften identity and feed service. Do not turn it into proof of physics, metaphysics, teacher authority, moral purity, clinical safety, or a finished path.
 

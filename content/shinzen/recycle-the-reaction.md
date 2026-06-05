@@ -35,7 +35,7 @@ that effect is now the live problem.
 | fear after a no-self-like, empty, or vanished moment | locate the fear as body emotion, image, or talk if it is workable | stop or get guidance if panic, dissociation, sleep loss, or function decline appears |
 | alienation from ordinary people after practice | treat superiority, irritation, flatness, or aversion as inner sensory material | check behavior, repair, humility, and ordinary relationship feedback |
 | bleakness, loss of humanity, or void flatness | use CCE only in small workable doses, with reconstruction and support close by | do not assume depression, DPDR, burnout, or trauma activation is only a meditation phase |
-| post-retreat aftershock or life re-entry sensitivity | simplify the method and practice with the stirred Feel/Image/Talk after safe pauses | daily functioning, sleep, food, work, relationships, and guide contact matter first |
+| post-retreat aftershock or life re-entry sensitivity | use [Retreat and Aftercare](retreat-and-aftercare.md); simplify the method and practice with stirred Feel/Image/Talk after safe pauses | daily functioning, sleep, food, work, relationships, and guide contact matter first |
 | practice-produced distress that is severe or destabilizing | step out of technique optimization and use the safety pages | ordinary care, emergency support, clinical help, or qualified guidance outranks recycling |
 
 ## How It Shows Up In Practice
@@ -58,13 +58,9 @@ Ordinary-life example: after demanding work, past and future activation erupts a
 The fourth step is part of the method. Recycling is not proven useful just
 because the reaction has been named.
 
-## Common Confusions
+## What Recycling Is Not
 
-Recycle the reaction is not a command to continue every practice load. It is not a substitute for support. It is not a way to spiritualize panic, sleep loss, dissociation, medical risk, or teacher pressure.
-
-Pleasant reactions matter too. Attachment to bliss, clarity, Flow, no-self, or calm can distort practice choice and behavior as much as aversion to pain.
-
-The move is recursive, but it should not become compulsive self-monitoring. Sometimes the better move is simplify, rest, switch methods, stop, or ask for help.
+Recycling the reaction is not a command to continue every practice load, a substitute for support, or a way to spiritualize panic, sleep loss, dissociation, medical risk, or teacher pressure. Pleasant reactions matter too - attachment to bliss, clarity, Flow, no-self, or calm can distort practice choice and behavior as much as aversion to pain. The move is recursive, but it should not become compulsive self-monitoring; sometimes the better move is to simplify, rest, switch methods, stop, or ask for help.
 
 ## When Not To Recycle First
 
@@ -83,6 +79,8 @@ Reaction recycling is useful because it preserves practice continuity. It is ris
 - [Choosing a Practice Route](choosing-a-practice-route.md)
 - [Equanimity Training Ladder](equanimity-training-ladder.md)
 - [Practice Method Safety](practice-method-safety.md)
+- [Retreat and Aftercare](retreat-and-aftercare.md)
+- [Primal Feel](primal-feel.md)
 - [Altered Phenomena and Dissolution Safety](altered-phenomena-and-dissolution-safety.md)
 - [DPDR and the Pit of the Void](dpdr-and-the-pit-of-the-void.md)
 - [Safety, Scope, and Accountability](safety-scope-and-accountability.md)

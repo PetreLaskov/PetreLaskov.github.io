@@ -51,15 +51,9 @@ A memory image of kindness may be held as Image, but the practice should still n
 
 After void, no-self, or dark-night-like flatness, positive practice may help rebuild a functional self through warmth, aspiration, body feeling, and concrete action. That branch needs support and careful differential diagnosis when functioning is impaired.
 
-## Common Confusions
+## When Positivity Becomes Bypass
 
-Do not use positivity to avoid grief, anger, repair, action, or support. Do not turn positive states into performance pressure.
-
-Positive practice is strongest when it can coexist with truth. If the practice requires denying what hurts, it is probably becoming bypass.
-
-## Safety and Scope
-
-Positive practice can support healing and behavior, but it is not therapy, medical treatment, emergency support, consent, relationship repair, or qualified guidance. If it hides harm, bypasses grief, blames a sick person, inflates a teacher, fuels mania-like activation, or substitutes imagery for action, the behavior test has failed.
+Do not use positivity to avoid grief, anger, repair, action, or support, and do not turn positive states into performance pressure. Positive practice is strongest when it can coexist with truth; if the practice requires denying what hurts, it is probably becoming bypass. It can support healing and behavior, but it does not replace therapy, medical care, repair, or qualified help - and if it hides harm, bypasses grief, blames a sick person, inflates a teacher, fuels mania-like activation, or substitutes imagery for action, the behavior test has failed.
 
 ## Go Deeper
 

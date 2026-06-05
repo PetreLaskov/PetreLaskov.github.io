@@ -48,15 +48,9 @@ Concrete examples:
 - Spontaneous movement is not proof of progress if it risks injury, spreads through group pressure, or cannot be stopped when the setting requires it.
 - If spontaneous movement is being deliberately explored as practice rather than appearing as an intensity effect, use the tighter frame in [Auto Output Practice](auto-output-practice.md).
 
-## Common Confusions
+## Intensity Without Self-Harm
 
-Strong Determination is not body damage. Illness-as-retreat is not refusal of rest, medicine, or care. Kriyas are not automatic proof of progress. Heat, striking, stillness, crying, shaking, or catharsis are not automatically purifying.
-
-Turning toward does not mean going straight to the worst sensation. Often the wiser route is to start with the least intense workable component, or to stabilize elsewhere while allowing the challenge in the background.
-
-## Safety and Scope
-
-Stop optimizing meditation first when there is severe pain, injury risk, faintness, neurological concern, medical danger, medication or substance concern, trauma flooding, self-harm or harm risk, unsafe sleep deprivation, loss of functioning, coercive teacher pressure, or inability to care for the body.
+Strong Determination is not body damage. Illness-as-retreat is not refusal of rest, medicine, or care. Kriyas are not automatic proof of progress, and heat, striking, stillness, crying, shaking, or catharsis are not automatically purifying. Turning toward does not mean going straight to the worst sensation: often the wiser route is to start with the least intense workable component, or to stabilize elsewhere while allowing the challenge in the background. Stop optimizing meditation first when there is severe pain, injury risk, faintness, neurological concern, medical danger, medication or substance concern, trauma flooding, self-harm or harm risk, unsafe sleep deprivation, loss of functioning, coercive teacher pressure, or inability to care for the body.
 
 ## Go Deeper
 

@@ -13,27 +13,18 @@ Rest is not merely absence. In Shinzen's system, restfulness can become a clear 
 
 Relative Rest notices quiet, still, relaxed, or low-activation aspects of experience. Absolute Rest belongs closer to Do Nothing, where the practitioner releases intentional control.
 
-## Rest Flavors
+## The Six Rest Flavors
 
-Rest can appear in several sensory spaces:
+Shinzen makes rest concrete by naming six flavors - three on the outer side, three on the inner. They give attention a real object instead of a vague wish to feel calm.
 
-- visual rest: darkness, softness, blankness, stillness;
-- auditory rest: silence, quiet, low sound, space around sound;
-- body rest: relaxation, ease, neutrality, settledness;
-- emotional rest: peace, lack of emotional charge;
-- mental rest: blank screen, quiet talk, reduced image activity.
+- **Relaxation** - physical body softening, ease, settledness.
+- **Light** - open-eyed visual defocusing, letting light in; the soft wide gaze that East Asian martial arts call "far mountain gazing" and shamanic traditions call "spirit eyes."
+- **Silence** - defocused hearing, or listening to the absence of sound and the space around it.
+- **Peace** - the felt awareness of emotional charge being absent from the body.
+- **Blank** - the absence or quieting of mental imagery, the blank screen.
+- **Quiet** - the absence or quieting of internal talk.
 
-The point is to detect actual rest factors, not to manufacture a calm mood.
-
-You might notice:
-
-- visual darkness, softness, or stillness;
-- auditory quiet or silence;
-- bodily relaxation, ease, or settledness.
-
-The aim is not to force calm but to contact rest where it is already present.
-
-Rest can also be used as a support branch. If a difficult sensation is too much to contact directly, Rest may give attention somewhere stable while the difficulty remains allowed in the background.
+Each one is sensory. Ask where it is, how long it lasts, how strong it is, whether it changes. The point is to detect rest that is actually present, not to manufacture a calm mood. If a difficult sensation is too much to contact directly, one of these flavors can hold attention somewhere stable while the difficulty stays allowed in the background.
 
 ## First Minute
 
@@ -55,17 +46,15 @@ During pain or difficult emotion, Rest may be foreground while the challenge is 
 
 During sleep interruption, Rest can sometimes reframe the night as body rest plus simple continuous practice. That does not make insomnia, severe sleep loss, or medical sleep issues a meditation-only problem.
 
-## Common Confusions
+## Rest, Concentration, and the Jhana Connection
 
-Rest is not dullness by default. Dullness is also not automatically failure. The question is whether clarity and equanimity are present.
+Shinzen describes Focus on Rest as his modern reworking of some principles - not all - from the absorption practice (shamatha and jhana) of early Buddhism, recast as plain sensory procedure. Part of how absorption works is a feedback loop: a pleasant experience becomes more pleasant when you focus on it, which invites more focus, which deepens concentration and tranquility. Pleasant rest is allowed into practice for exactly this reason. It trains the concentration muscle.
 
-If rest becomes blank, shutdown, or avoidance, return to clearer sensory labels or get support.
+But the rest is a doorway, not a destination. The whole move fails if tranquility becomes a pleasant place to camp year after year. That is why rest is made sensory in the first place: a located, timed, changing rest can be seen in its impermanence, eventually known as empty, and penetrated toward what Shinzen points to as cessation or Source - which is not itself a pleasant tranquil experience, but the absence the pleasant states open onto. Enjoy the calm; do not collect it.
 
-## Safety and Scope
+## When Rest Becomes Hiding
 
-Rest can support difficult practice, but it can also become shutdown or avoidance. Be especially careful when rest language is being used around depression-like flatness, DPDR-like unrealness, trauma shutdown, medical symptoms, pain, or sleep loss.
-
-The safety question is whether Rest increases clarity and responsiveness, not whether the person looks quiet.
+Rest is not dullness by default, and dullness is not automatically failure - the question is whether clarity and equanimity are present. If rest becomes blank, shutdown, or avoidance, return to clearer sensory labels or get support. Rest can support difficult practice, but it can also become shutdown or avoidance, so be especially careful when rest language is being used around depression-like flatness, DPDR-like unrealness, trauma shutdown, medical symptoms, pain, or sleep loss. The safety question is whether Rest increases clarity and responsiveness, not whether the person looks quiet.
 
 ## Go Deeper
 
@@ -76,4 +65,5 @@ The safety question is whether Rest increases clarity and responsiveness, not wh
 - [Turn Toward and Turn Away](turn-toward-and-turn-away.md)
 - [Do Nothing](do-nothing.md)
 - [Nurture Positive](nurture-positive.md)
+- [The Six Good-Place Traps](good-place-traps.md)
 - [Practice Method Safety](practice-method-safety.md)

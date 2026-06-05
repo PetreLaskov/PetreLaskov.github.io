@@ -11,6 +11,23 @@ This atlas is strongest when it maps Shinzen's own teaching system. It becomes w
 
 Meditation systems often blur source, interpretation, and aspiration. This atlas tries not to. A useful claim can still be limited. A powerful practice handle can still be unsafe in the wrong context. A poetic Source claim can still be unproven as ontology.
 
+## What This Atlas Relies On
+
+The atlas is not a transcript archive. It is a public synthesis of Shinzen's
+teaching system, written for practice use.
+
+| Source family | How it is used here | What it does not prove |
+| --- | --- | --- |
+| Shinzen's public articles and manuals | Core definitions, CCE, Basic Mindfulness architecture, See/Hear/Feel, practice routes, and life aims. | That every phrase applies to every reader or situation. |
+| Shinzen's books and long-form teaching | Larger explanatory frames around insight, purification, happiness, no-self, Source language, and service. | That poetic, metaphysical, scientific, or historical language should be read as settled proof. |
+| Public talks, videos, retreats, and live guidance | Teaching register, examples, routing moves, practice forks, safety cautions, and idiolect worth preserving. | That a live coaching move can be copied without context, consent, capacity, or support. |
+| Cross-page synthesis | The atlas connects repeated patterns across sources so a reader can find the practice handle quickly. | That every synthesis sentence is Shinzen's exact wording. |
+| Boundary and safety pages | The atlas adds scope checks around practice, care, teacher authority, clinical-neighbor issues, behavior, and service. | That the atlas is a clinical, medical, legal, or teacher-credentialing authority. |
+
+Source trails on individual pages usually name the source family and the
+teaching frame rather than giving a dense citation apparatus. This keeps the
+public pages readable while still showing what kind of claim is being made.
+
 ## The Claim Tiers
 
 **Shinzen says**: a teaching, distinction, phrase, or practice instruction attributed to Shinzen material.
@@ -50,6 +67,25 @@ The tier should become especially explicit on pages about [Insight and Purificat
 
 If the entry question is scientific proof, neuroscience, physics, AI, ultrasound, energy, or technology, start with [Source, Science, and Analogy](source-science-and-analogy.md). If the entry question is the meaning of Source, Zero, void, or afterglow in practice, start with [Source, Zero, and Speculation](source-zero-and-speculation.md). The two routes are related, but they should not collapse into each other.
 
+## Citation And Quotation Posture
+
+This draft uses paraphrase and compact source trails by default. That is a
+deliberate public posture:
+
+- Long quotation is avoided until rights and publication policy are settled.
+- Transcript and retreat material is treated as evidence for Shinzen's
+  teaching style, practice routing, and phrases, not as material to reproduce.
+- Exact words matter when an idiolect term does practice work; otherwise the
+  atlas favors faithful public explanation over quotation.
+- Page-level source trails should be enough to show the source family behind
+  a claim without turning each page into an audit report.
+- Claims about science, medicine, therapy, ethics, metaphysics, history, or
+  teacher authority need separate evidence or a lower claim tier.
+
+If publication requires formal citations, the atlas should add them without
+changing the basic claim tiers. Footnotes can improve provenance, but they
+should not let weak claims sound stronger.
+
 ## Small Examples
 
 A retreat experience feels like no-self. The claim tier can stay modest: "something changed in the felt construction of self." It should not become "my personality is gone," "I cannot harm anyone," or "I am ready to guide others."
@@ -60,19 +96,9 @@ A science analogy makes Source language feel less vague. That may help memory an
 
 A love or service impulse appears after deep practice. That may be meaningful practice fruit. It still needs consent, competence, feedback, repair, and ordinary evidence that the action helps.
 
-## Common Confusions
+## Using the Tiers Well
 
-Do not treat "Shinzen says" as "therefore true in every domain." It can be authoritative evidence for how Shinzen teaches without being independent proof of neuroscience, medicine, metaphysics, or universal religion.
-
-Do not treat "editorial inference" as secret doctrine. It is a working interpretation.
-
-Do not treat "not established here" as dismissal. It often means the atlas is preserving the usefulness of a practice claim while refusing to overpromote it into a different domain.
-
-## Safety and Scope
-
-Claim tiers protect practitioners. They make it harder to turn intense practice, no-self, Source language, or teacher charisma into certainty where ordinary support and accountability are needed.
-
-They are also a kindness to the teachings. Keeping a claim in the right tier lets a practice handle stay useful without forcing it to carry science, medicine, ethics, metaphysics, or authority claims it cannot responsibly carry.
+Do not treat "Shinzen says" as "therefore true in every domain" - it can be authoritative evidence for how Shinzen teaches without being independent proof of neuroscience, medicine, metaphysics, or universal religion. Do not treat "editorial inference" as secret doctrine; it is a working interpretation. And do not treat "not established here" as dismissal - it often means the atlas is preserving the usefulness of a practice claim while refusing to overpromote it into a different domain. The tiers protect practitioners: they make it harder to turn intense practice, no-self, Source language, or teacher charisma into certainty where ordinary support and accountability are needed. They are also a kindness to the teachings - keeping a claim in the right tier lets a practice handle stay useful without forcing it to carry science, medicine, ethics, metaphysics, or authority claims it cannot responsibly carry.
 
 ## Go Deeper
 

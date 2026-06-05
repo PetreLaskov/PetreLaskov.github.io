@@ -35,7 +35,9 @@ The evidence stays ordinary: less distortion, more care, a more truthful relatio
 - [Condition-Independent Happiness](condition-independent-happiness.md)
 - [Source, Service, and Bodhicitta](source-service-and-bodhicitta.md)
 - [Way of Human Goodness](way-of-human-goodness.md)
+- [Practice Planning Loop](practice-planning-loop.md)
 - [Behavior and Service Test](behavior-and-service-test.md)
+- [Behavior Change Escalation](behavior-change-escalation.md)
 
 ## Next
 

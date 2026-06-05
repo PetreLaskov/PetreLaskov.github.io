@@ -56,15 +56,9 @@ With a loud sound during practice, concentration may stay with hearing, clarity 
 
 With pleasant calm, CCE asks whether calm is steady, clear, and non-grasped. If it is steady but foggy, add clarity. If it is clear but hungry, soften the grasping. If it is calm and useful, let it support practice without making it a status claim.
 
-## Common Confusions
+## What CCE Does and Doesn't Tell You
 
-CCE is not a scorecard for spiritual worth. It is not a complete clinical model. It is not a guarantee that a difficult practice is good for you.
-
-The most common public confusion is equating mindfulness with attention alone. In Shinzen's frame, focus without clarity and equanimity is incomplete. Another confusion is treating "nonjudgmental" as never making judgments. Equanimity concerns the sensory push-pull around experience; ordinary discernment still matters.
-
-## Safety and Scope
-
-Strong CCE can make difficult material more workable, but when practice increases severe distress or functional impairment, the next move is support and safety, not merely more effort.
+CCE is not a scorecard for spiritual worth, a complete clinical model, or a guarantee that a difficult practice is good for you. The most common public confusion is equating mindfulness with attention alone: in Shinzen's frame, focus without clarity and equanimity is incomplete. Another is treating "nonjudgmental" as never making judgments - equanimity concerns the sensory push-pull around experience, while ordinary discernment still matters. Strong CCE can make difficult material more workable, but when practice increases severe distress or functional impairment, the next move is support and safety, not merely more effort.
 
 ## Go Deeper
 

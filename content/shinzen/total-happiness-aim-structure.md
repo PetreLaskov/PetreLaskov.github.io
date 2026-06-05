@@ -80,23 +80,9 @@ In daily life, it may ask: is practice helping speech, repair, sleep, work, pare
 
 In teaching or helping roles, it may ask: is the action consented, competent, feedback-sensitive, and useful? Is the helper serving a real person or serving an image of being spiritual?
 
-## Common Confusions
+## Holding the Aim Honestly
 
-Do not treat the three jobs as a moral ranking. Appreciation is not lower than transcendence. Improvement is not merely an afterthought.
-
-Do not treat the four quadrants as a guarantee that one practice solves every domain. Medical care, therapy, legal protection, relationship repair, ordinary instruction, and community accountability may still be necessary.
-
-Do not treat love, Source, or service feeling as proof of ethical maturity. A person can feel deep care and still need feedback, repair, supervision, or role limits.
-
-Do not treat the periodic-table-of-happiness language as science in the strict empirical sense. It is a teaching map for extending attention across types of happiness, depths of happiness, intensities, and scopes from individual to collective life.
-
-## Safety And Scope
-
-Total Happiness language should never pressure someone to endure removable harm, skip ordinary care, serve without consent, teach beyond competence, or explain away behavior mismatch.
-
-When illness, trauma, dissociation, addiction, sleep disruption, sexuality, birth, parenting, teacher pressure, or unsafe conditions are active, route through ordinary support and the atlas safety pages before optimizing meditation strategy.
-
-Improvement supporting transcendence does not mean every stuck sit is a personal failure. It means practice and life conditions interact. Sometimes the wise next step is a technique change; sometimes it is rest, repair, treatment, accountability, better instruction, or a concrete act of service.
+Do not treat the three jobs as a moral ranking: appreciation is not lower than transcendence, and improvement is not merely an afterthought. Do not treat the four quadrants as a guarantee that one practice solves every domain - medical care, therapy, legal protection, relationship repair, ordinary instruction, and community accountability may still be necessary. Do not treat love, Source, or service feeling as proof of ethical maturity; a person can feel deep care and still need feedback, repair, supervision, or role limits. And do not treat the periodic-table-of-happiness language as science in the strict empirical sense - it is a teaching map for extending attention across types, depths, intensities, and scopes of happiness, from individual to collective life. Total Happiness language should never pressure someone to endure removable harm, skip ordinary care, serve without consent, teach beyond competence, or explain away behavior mismatch. When illness, trauma, dissociation, addiction, sleep disruption, sexuality, birth, parenting, teacher pressure, or unsafe conditions are active, route through ordinary support and the atlas safety pages before optimizing meditation strategy. Improvement supporting transcendence does not mean every stuck sit is a personal failure; it means practice and life conditions interact, and sometimes the wise next step is a technique change, sometimes rest, repair, treatment, accountability, better instruction, or a concrete act of service.
 
 ## Go Deeper
 
@@ -104,6 +90,7 @@ Improvement supporting transcendence does not mean every stuck sit is a personal
 - [Total Happiness](total-happiness.md)
 - [Condition-Independent Happiness](condition-independent-happiness.md)
 - [Behavior and Service Test](behavior-and-service-test.md)
+- [Behavior Change Escalation](behavior-change-escalation.md)
 - [Source, Service, and Bodhicitta](source-service-and-bodhicitta.md)
 - [Practice Cycles and Life Architecture](practice-cycles-and-life-architecture.md)
 - [Guidance, Scope, and Accountability](guidance-scope-and-accountability.md)

@@ -56,16 +56,9 @@ During a conversation, concentration may mean staying with listening, voice,
 and body contact. If focus makes the person less responsive or less able to
 hear the other person, the practice has lost its ordinary-life boundary.
 
-## Common Confusions
+## Using Focus Well
 
-Strong focus is not always better. If focus becomes harsh, racy, dissociated, or task-unsafe, another skill needs attention.
-
-## Safety and Scope
-
-Concentration practice does not replace sleep, medical care, therapy, emergency support, consent, ordinary ethics, relationship repair, or qualified guidance. High focus can amplify difficult material if support is weak, and focus during driving, tools, caregiving, sex, conflict, or public work must never reduce ordinary situational awareness.
-
-Shinzen's concentration frame is about available focus capacity, not a demand
-to become a constant concentration machine.
+Strong focus is not always better: if it becomes harsh, racy, dissociated, or task-unsafe, another skill needs attention. High focus can amplify difficult material when support is weak, and focus during driving, tools, caregiving, sex, conflict, or public work must never reduce ordinary situational awareness. Shinzen's concentration frame is about available focus capacity, not a demand to become a constant concentration machine.
 
 ## Go Deeper
 

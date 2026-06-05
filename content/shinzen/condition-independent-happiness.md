@@ -41,15 +41,9 @@ If conditions can be improved, improving them can be part of the practice aim. I
 
 The phrase only works when both halves stay visible.
 
-## Common Confusions
+## What It Does Not Promise
 
-Do not use deep happiness to shame someone for suffering. Do not use Don't Know to avoid facts, decisions, diagnosis, or ordinary learning. Do not use equanimity with pain to refuse medical care or protection.
-
-Do not confuse condition-independent happiness with permanent good mood. It is a change in binding, fulfillment, and responsiveness, not a promise that grief, pain, fear, or confusion will never arise.
-
-## Safety and Scope
-
-Pain, illness, trauma, depression, anxiety, dissociation, sleep disruption, medication questions, danger, abuse, or severe confusion require ordinary support and care before meditation formulas are applied.
+Do not use deep happiness to shame someone for suffering, Don't Know to avoid facts, decisions, diagnosis, or ordinary learning, or equanimity with pain to refuse medical care or protection. And do not confuse condition-independent happiness with permanent good mood: it is a change in binding, fulfillment, and responsiveness, not a promise that grief, pain, fear, or confusion will never arise. Pain, illness, trauma, depression, anxiety, dissociation, sleep disruption, medication questions, danger, abuse, or severe confusion need ordinary support and care before any meditation formula is applied.
 
 ## Go Deeper
 
@@ -57,5 +51,6 @@ Pain, illness, trauma, depression, anxiety, dissociation, sleep disruption, medi
 - [Total Happiness](total-happiness.md)
 - [Total Happiness Aim Structure](total-happiness-aim-structure.md)
 - [Complete Experience](complete-experience.md)
+- [Serious Illness and Healing](serious-illness-and-healing.md)
 - [Equanimity](equanimity.md)
 - [Behavior and Service Test](behavior-and-service-test.md)

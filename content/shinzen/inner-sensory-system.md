@@ -58,26 +58,11 @@ That means the inner sensory system has two directions:
 
 The two directions should inform each other.
 
-## Common Confusions
+## Using the Inner Map Safely
 
-Feel is not every body sensation. In this atlas, Feel usually means emotional body sensation.
+Feel is not every body sensation; here it usually means emotional body sensation. Image is not physical sight and Talk is not outer sound, but inner image and talk can be surprisingly tangible - they may seem located in the head, eyes, ears, face, chest, the space around the body, or a broader mental field. Subtle inner activity is not automatically important: sometimes faint Image, Talk, or Feel is useful to track, and sometimes the saner move is to stay with an outer sense, Rest, a simple label, or the ordinary task. Do not turn the model into a complete theory of psychology, identity, trauma, culture, or relationship; it is a practice map.
 
-Image is not physical sight. Talk is not outer sound. But inner image and talk can be surprisingly tangible: they may seem located in the head, eyes, ears, face, chest, space around the body, or a broader mental field.
-
-Subtle inner activity is not automatically important. Sometimes faint Image,
-Talk, or Feel is useful to track. Sometimes the saner move is to stay with an
-outer sense, Rest, a simple label, or the ordinary task.
-
-Do not turn the model into a complete theory of psychology, identity, trauma, culture, or relationship. It is a practice map.
-
-## Safety and Scope
-
-Inner sensory practice can touch grief, trauma, panic, shame, identity distress, dissociation, or DPDR-like material.
-
-If tracking inner components makes experience less grounded, less functional,
-more obsessive, more dissociated, or more behaviorally distorted, simplify the
-method, turn toward support, use an outer object, or stop optimizing practice
-first.
+Inner sensory practice can touch grief, trauma, panic, shame, identity distress, dissociation, or DPDR-like material. If tracking inner components makes experience less grounded, less functional, more obsessive, more dissociated, or more behaviorally distorted, simplify the method, turn toward support, use an outer object, or stop optimizing practice first.
 
 ## Go Deeper
 

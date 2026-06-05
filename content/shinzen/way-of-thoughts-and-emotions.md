@@ -45,14 +45,9 @@ For practice:
 - If Feel dominates, find location, size, intensity, movement, and edges.
 - If all three dominate, choose the strongest strand or widen to include the whole pattern.
 
-## Common Confusions
+## What Decomposition Is Not
 
-Decomposition is not analysis. It is not denial. It is not a demand to feel everything at full intensity.
-
-Do not use decomposition to avoid meaning forever. Practice can clarify the sensory engine of emotion, but ordinary reflection, conversation, repair, and action may still be needed.
-
-
-Strong emotion can require grounding, therapy, social support, medical care, or crisis help.
+Decomposition is not analysis, not denial, and not a demand to feel everything at full intensity. Do not use it to avoid meaning forever: practice can clarify the sensory engine of emotion, but ordinary reflection, conversation, repair, and action may still be needed. Strong emotion can require grounding, therapy, social support, medical care, or crisis help.
 
 ## Go Deeper
 

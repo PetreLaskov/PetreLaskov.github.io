@@ -21,6 +21,13 @@ The public pages do not carry the whole evidence machine in every body section. 
 
 Most practice instruction is Shinzen says or compiled synthesis. Slow down when a page touches Source metaphysics, science and neuroscience, clinical thresholds, teacher authority, social action, or claims about what a realization proves.
 
+For the source families, quotation posture, and how to read compact source
+trails, see [Source and Claim Tiers](source-and-claim-tiers.md). The short
+version: this atlas usually paraphrases rather than quotes, names source
+families rather than carrying dense citations on every page, and keeps
+science, medicine, therapy, metaphysics, ethics, and teacher authority in
+lower claim tiers unless separate evidence supports them.
+
 ## Safety Posture
 
 Meditation can clarify experience, loosen suffering, and change behavior; it cannot by itself assess medical risk, mental-health risk, trauma history, coercion, abuse, consent, legal danger, or whether a teacher is safe. If practice is worsening functioning, increasing severe distress, feeding harm, replacing ordinary care, or making repair and feedback seem optional, stop treating the experience as a meditation puzzle and get appropriate support.

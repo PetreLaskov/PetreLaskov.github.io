@@ -49,13 +49,9 @@ More examples:
 | "I feel ashamed" | sinking or contraction in the torso, an image of being seen, inner words of self-judgment |
 | "Something is off but I do not know what" | a subtle tug toward image space, talk space, or emotional body space, without claiming the content is known |
 
-## Common Confusions
+## Using These Labels Safely
 
-Feel is not every body sensation. In this usage it usually points to emotional body sensation. Talk is not outer sound. Image is not physical sight.
-
-## Safety and Scope
-
-Working with inner material can touch trauma, panic, shame, grief, urges, or identity distress. Direct inner tracking is not always the safest first move. If decomposition increases flooding, dissociation, rumination, compulsive self-analysis, or unsafe behavior, use a simpler outer object, Rest, ordinary support, or qualified help.
+Feel is not every body sensation; here it usually points to emotional body sensation. Talk is not outer sound, and Image is not physical sight. Working with inner material can touch trauma, panic, shame, grief, urges, or identity distress, so direct inner tracking is not always the safest first move. If decomposition increases flooding, dissociation, rumination, compulsive self-analysis, or unsafe behavior, use a simpler outer object, Rest, ordinary support, or qualified help.
 
 ## Go Deeper
 

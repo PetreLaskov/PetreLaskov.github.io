@@ -42,13 +42,9 @@ Total Happiness also gives a way to read Shinzen's positive practice. Positive F
 
 Teaching belongs here as one branch of service to others' deep happiness. The public teaching map distinguishes subtle presence, clear description, explicit instruction, professional teaching, advanced competence, path discovery, and support for teachers.
 
-## Common Confusions
+## What It Does Not Excuse
 
-Condition-independent happiness does not mean ignoring conditions. Deep happiness does not excuse bad behavior, passivity, or neglect of ordinary needs.
-
-## Safety and Scope
-
-Happiness and service language must not replace medical care, therapy, emergency support, consent, ordinary ethics, relationship repair, qualified guidance, or effective action in the world.
+Condition-independent happiness does not mean ignoring conditions, and deep happiness does not excuse bad behavior, passivity, or neglect of ordinary needs. Happiness and service language never replaces medical care, therapy, repair, ordinary ethics, or effective action in the world.
 
 ## Go Deeper
 

@@ -40,6 +40,7 @@ The test is not whether the route sounds advanced. The test is whether it trains
 - [The Five Ways](five-ways.md)
 - [The Main Practice Routes](main-practice-routes.md)
 - [Choosing a Practice Route](choosing-a-practice-route.md)
+- [Practice Planning Loop](practice-planning-loop.md)
 - [Noting](noting.md)
 - [Do Nothing](do-nothing.md)
 - [Focus on Rest](focus-on-rest.md)

@@ -41,15 +41,11 @@ Reader examples:
 - "The world feels light and workable" routes differently from "the world feels fake, threatening, or meaningless."
 - "Fear of emptiness is present and trackable" routes differently from panic, despair, isolation, self-harm thoughts, or refusal of support.
 
-## Common Confusions
+## When To Stop and Get Help
 
-No-self is not numbness. Emptiness is not nihilism. Derealization is not proof of insight. A bleak flatline is not automatically a stage. Rebuilding a positive self is not spiritual failure.
+No-self is not numbness. Emptiness is not nihilism. Derealization is not proof of insight. A bleak flatline is not automatically a stage. Rebuilding a positive self is not spiritual failure. And not all difficult meditation is "dark night": void-side difficulty is a specific family of problems around emptiness, no-self, world-insubstantiality, motivation, and meaning, while many hard experiences need simpler labels - stress, depression, anxiety, trauma activation, sleep deprivation, medical problems, relational crisis, or ordinary overwhelm.
 
-Another confusion is treating all difficult meditation as "dark night." In this atlas, void-side difficulty is a specific family of problems around emptiness, no-self, world-insubstantiality, motivation, and meaning. Many hard experiences need simpler labels: stress, depression, anxiety, trauma activation, sleep deprivation, medical problems, relational crisis, or ordinary overwhelm.
-
-## Safety and Scope
-
-Treat this as a red or yellow safety page when there is nihilism, loss of functioning, severe fear, panic, self-harm thoughts, inability to care for oneself, severe dissociation, derealization, depersonalization, psychosis or mania-like instability, trauma shutdown, substance or medication concerns, or refusal of appropriate care because the distress has been spiritualized.
+Stop and get help when there is nihilism, loss of functioning, severe fear, panic, self-harm thoughts, inability to care for oneself, severe dissociation, derealization, depersonalization, psychosis or mania-like instability, trauma shutdown, substance or medication concerns, or refusal of appropriate care because the distress has been spiritualized.
 
 ## Go Deeper
 
@@ -59,5 +55,7 @@ Treat this as a red or yellow safety page when there is nihilism, loss of functi
 - [Equanimity Versus Suppression](equanimity-versus-suppression.md)
 - [Operational Enlightenment](operational-enlightenment.md)
 - [Source, Zero, and Speculation](source-zero-and-speculation.md)
+- [Primal Feel](primal-feel.md)
+- [Retreat and Aftercare](retreat-and-aftercare.md)
 - [Safety, Scope, and Accountability](safety-scope-and-accountability.md)
 - [Guidance, Scope, and Accountability](guidance-scope-and-accountability.md)

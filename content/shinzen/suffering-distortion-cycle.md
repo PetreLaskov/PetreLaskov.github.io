@@ -55,19 +55,9 @@ This does not mean emotion disappears. Rage about harm, grief about loss, or fea
 
 Service work has the same issue. Wanting to help is not enough if one's own frustration, burnout, despair, or righteousness distorts the helping.
 
-## Common Confusions
+## How the Model Gets Misused
 
-Do not use this model to blame people for pain, trauma, illness, oppression, or difficult conditions. The cycle describes one way subjective processing can amplify suffering and distort action. It is not a total theory of life or society.
-
-Do not use practice to avoid ordinary problem solving. If a condition can be changed, changing it may be part of the path.
-
-Do not confuse relief with behavior change. A sit can feel good while the pattern remains active in speech, relationship, habit, or service.
-
-## Safety and Scope
-
-Behavior change may require therapy, recovery support, medical care, community, legal protection, coaching, relationship repair, or accountability.
-
-When suffering involves risk, coercion, severe distress, addiction, abuse, self-harm, harm to others, or medical issues, ordinary qualified support governs before meditation interpretation.
+Do not use this model to blame people for pain, trauma, illness, oppression, or difficult conditions: the cycle describes one way subjective processing can amplify suffering and distort action, not a total theory of life or society. Do not use practice to avoid ordinary problem solving - if a condition can be changed, changing it may be part of the path. And do not confuse relief with behavior change; a sit can feel good while the pattern remains active in speech, relationship, habit, or service. Behavior change may require therapy, recovery support, medical care, community, legal protection, coaching, relationship repair, or accountability, and when suffering involves risk, coercion, severe distress, addiction, abuse, self-harm, harm to others, or medical issues, ordinary qualified support governs before meditation interpretation.
 
 ## Go Deeper
 

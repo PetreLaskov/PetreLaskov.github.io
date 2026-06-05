@@ -32,19 +32,27 @@ Then a witness may appear: a quiet observer back here, watching experience over 
 
 The mature direction is ordinary-life capable: eyes open, functioning continuing, awareness less fixated around a back-here standpoint.
 
-## Common Confusions
+## Three Things "Non-Dual" Can Mean
 
-Self-inquiry is not automatically better than Noting, Rest, Do Nothing, Nurture Positive, or Gone. It works well for some people and poorly for others.
+"Non-dual awareness" is one phrase pointing at very different territory, and conflating them causes most of the confusion around it. Shinzen separates at least three:
 
-The witness is not the endpoint simply because it feels calm. It may be a useful equanimity support and still be constructed from subtle Feel, Image, and Talk.
+1. **An object with no reaction.** A sight, sound, or touch arises and no image, talk, or emotion forms around it - so there is just the object and no separate observer standing apart from it. There is still an object; what drops out is the watcher.
+2. **Formless merging.** Both the object side and the self side stay loose as Flow, merge into a single wave, and die out together into Zero. Subject and object do not just feel unified; they lose their grip and vanish.
+3. **Source and ordinary life not split.** Shinzen's own preferred use is not a special state at all but a habit: ordinary life cycling out of Zero into self-and-world and back into Zero, many times a day, without the origin ever being fully lost. Self and world keep regenerating, but they are never fundamentally severed from where they come from - "born, but not really born." The Zen image is being mounted firmly enough on the ox that no inner or outer event can buck you off.
 
-No-self is not self-hatred. If inquiry makes a person alienated, numb, nihilistic, grandiose, panicked, or less functional, the method needs reassessment.
+When the phrase comes up - your own or someone else's - it is worth asking which of the three is meant before treating it as one achievement.
 
-Turn Back is also not a license for teachers to pressure students into dissolving identity. Subtle instructions need consent, pacing, and support.
+## No Place to Stand
 
-## Safety and Scope
+Equanimity is often taught with the image of sitting on the bank and watching the river go by. It is a good metaphor and only a metaphor. Sometimes Shinzen deliberately refuses to give a home base at all - no breath, no anchor, no fixed observer - because for a practitioner with enough steadiness, not finding anywhere to stand is the practice, not a gap in it. When the search for a standpoint is dropped, figure and ground can reverse: instead of a center watching experience, the center has you.
 
-Self-inquiry can overlap with void distress, depersonalization, derealization, dissociation, obsessive self-monitoring, panic, depression, or destabilizing loss of ordinary self-continuity. Use simpler sensory practice, grounding, support, or qualified care when needed.
+The riverbank watcher can mature into becoming the river without being swept away. If it never matures, a person can sit on that bank for decades. "I don't want you to have a center," Shinzen says; "I want the center to have you."
+
+One condition is not optional: this only works when a basic measure of concentration, clarity, and equanimity is already present. Without it, having no place to stand is not advanced practice - it is disorientation, and the right response is an anchor, simpler labels, grounding, or guidance, not more groundlessness.
+
+## Where Inquiry Goes Wrong
+
+Self-inquiry is not automatically better than Noting, Rest, Do Nothing, Nurture Positive, or Gone; it works well for some people and poorly for others. The witness is not the endpoint simply because it feels calm - it may be a useful equanimity support and still be constructed from subtle Feel, Image, and Talk. No-self is not self-hatred: if inquiry makes a person alienated, numb, nihilistic, grandiose, panicked, or less functional, the method needs reassessment. And Turn Back is not a license for teachers to pressure students into dissolving identity - subtle instructions need consent, pacing, and support. Self-inquiry can overlap with void distress, depersonalization, derealization, dissociation, obsessive self-monitoring, panic, depression, or destabilizing loss of ordinary self-continuity; use simpler sensory practice, grounding, support, or qualified care when needed.
 
 ## Go Deeper
 
@@ -54,4 +62,5 @@ Self-inquiry can overlap with void distress, depersonalization, derealization, d
 - [The Inner Sensory System](inner-sensory-system.md)
 - [DPDR and the Pit of the Void](dpdr-and-the-pit-of-the-void.md)
 - [Operational Enlightenment](operational-enlightenment.md)
+- [The Six Good-Place Traps](good-place-traps.md)
 - [The Teacher and the Lineage](teacher-and-lineage.md)

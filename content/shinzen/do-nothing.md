@@ -46,17 +46,11 @@ If a practitioner feels "I do not know what technique to do," that choice-pressu
 
 If Do Nothing becomes foggy, dreamy, or unresponsive, the next move may be a few minutes of Noting, Focus on Rest, or a concrete outer-sense object.
 
-## Common Confusions
+## When Doing Nothing Misfires
 
-Do Nothing can become spacing out. It can also become an anti-technique identity. If experience becomes vague, dull, or dreamy, a more structured method may help.
+Do Nothing can become spacing out, or an anti-technique identity. If experience becomes vague, dull, or dreamy, a more structured method may help. The mature test is flexibility: if a practitioner can only do Do Nothing and cannot use structure when needed, non-effort may be hiding aversion to effort; if a practitioner can only use structure and cannot release control, effort may be hiding fear.
 
-The mature test is flexibility. If a practitioner can only do Do Nothing and cannot use structure when needed, non-effort may be hiding aversion to effort. If a practitioner can only use structure and cannot release control, effort may be hiding fear.
-
-## Safety and Scope
-
-Do Nothing should not be used to ignore medical needs, relational duties, danger, consent, or practical responsibilities. If it becomes horribly agitating, dissociative, passivity-producing, or functionally impairing, there is no spiritual requirement to continue it at that time.
-
-If Do Nothing is the only workable method, that can be a legitimate route, but the safeguard is not private certainty. Occasional competent feedback and eventual increased flexibility with more structured methods are important signs to watch.
+Do Nothing should not be used to ignore medical needs, relational duties, danger, consent, or practical responsibilities. If it becomes badly agitating, dissociative, passivity-producing, or functionally impairing, there is no spiritual requirement to continue it at that time. If it is the only workable method, that can be a legitimate route - but the safeguard is not private certainty; occasional competent feedback and eventual increased flexibility with more structured methods are the signs to watch.
 
 ## Go Deeper
 

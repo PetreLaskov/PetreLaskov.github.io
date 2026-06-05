@@ -49,17 +49,9 @@ Small examples:
 - Racing agitation: either feel the body energy directly, or keep a simple object while agitation is allowed in the background. If neither branch restores contact, simplify the sit or stop.
 - Ordinary life pressure: if a task needs full attention, do the task. Practice afterward with the residue the task left in body, image, and talk.
 
-## Common Confusions
+## Choosing the Branch Honestly
 
-Do not assume that facing the hardest part first is more authentic. Shinzen's style often starts with the workable edge.
-
-Do not assume that focusing away means making the challenge disappear. A disappearance agenda turns turn-away into suppression. The background challenge should be allowed to arise, change, or remain.
-
-Do not force Flow. If change is not clearly present, use another branch.
-
-## Safety and Scope
-
-Pain, illness, childbirth, trauma, panic, dissociation, self-harm risk, abuse, and severe destabilization require ordinary support and scope boundaries. Meditation can sometimes help one relate to difficult sensation, but it does not decide medical care, pain relief, protection, or clinical treatment.
+Do not assume that facing the hardest part first is more authentic - Shinzen's style often starts with the workable edge. Do not assume that focusing away means making the challenge disappear; a disappearance agenda turns turn-away into suppression, so the background challenge should be allowed to arise, change, or remain. And do not force Flow: if change is not clearly present, use another branch. Pain, illness, childbirth, trauma, panic, dissociation, self-harm risk, abuse, and severe destabilization require ordinary support and scope boundaries - meditation can sometimes help one relate to difficult sensation, but it does not decide medical care, pain relief, protection, or clinical treatment.
 
 ## Go Deeper
 
@@ -67,6 +59,7 @@ Pain, illness, childbirth, trauma, panic, dissociation, self-harm risk, abuse, a
 - [Practice Method Safety](practice-method-safety.md)
 - [Equanimity Versus Suppression](equanimity-versus-suppression.md)
 - [Way of Physical Senses](way-of-physical-senses.md)
+- [Serious Illness and Healing](serious-illness-and-healing.md)
 - [Way of Thoughts and Emotions](way-of-thoughts-and-emotions.md)
 - [Focus on Rest](focus-on-rest.md)
 - [Intensity and Embodiment Safety](intensity-and-embodiment-safety.md)

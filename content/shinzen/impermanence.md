@@ -50,13 +50,9 @@ physical pressure may show outward and inward force, or the sense of "me
 watching this" may flicker as image, talk, and body Feel change. These are
 practice handles, not proof that a special state has been reached.
 
-## Common Confusions
+## When Impermanence Unsettles
 
-Do not use impermanence to dismiss grief, pain, responsibility, or repair. Do not treat dissolution as automatically higher than ordinary clarity. Do not make impermanence into a pessimistic doctrine, a nihilistic mood, or a reason to prefer subtle events over ordinary life.
-
-## Safety and Scope
-
-Impermanence practice can unsettle identity and world solidity. If change perception becomes frightening, dissociative, compulsive, sleep-disrupting, or impairing, slow down, use grounding and ordinary support, and consider a safer practice route.
+Do not use impermanence to dismiss grief, pain, responsibility, or repair, treat dissolution as automatically higher than ordinary clarity, or make impermanence into a pessimistic doctrine, a nihilistic mood, or a reason to prefer subtle events over ordinary life. Impermanence practice can also unsettle identity and world solidity: if change perception becomes frightening, dissociative, compulsive, sleep-disrupting, or impairing, slow down, use grounding and ordinary support, and consider a safer practice route.
 
 ## Go Deeper
 

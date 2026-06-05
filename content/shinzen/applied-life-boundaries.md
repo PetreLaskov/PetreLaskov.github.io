@@ -13,6 +13,12 @@ Shinzen often shows how practice can enter ordinary life: illness, sleep disrupt
 
 The risk is overreach. A meditation handle can be real and still be the wrong first response if the situation needs a physician, therapist, sleep specialist, sexual-health support, birth team, pediatric care, emergency help, recovery support, legal protection, ordinary strategy, or qualified guidance.
 
+When a life event feels like a practice opening or obstacle in itself, use [Windows and Walls](windows-and-walls.md) before choosing a technique. The first move is to separate the ordinary situation, needed behavior, sensory challenge, and support boundary.
+
+When a retreat, long sit, or intense practice period changed the way ordinary
+life feels, use [Retreat and Aftercare](retreat-and-aftercare.md) before
+reading the aftereffect as proof, failure, or a reason to intensify practice.
+
 ## Core Rule
 
 Ask four questions before applying technique:
@@ -35,6 +41,8 @@ Ask four questions before applying technique:
 | Public suffering, news, conflict, or social pain | facts, strategy, collaboration, safety, role, and consequences | use Focus In so rage, grief, fear, shame, or helplessness can motivate and direct action | meditation does not replace policy, organizing, protection, expertise, or accountability |
 | Retreat aftereffects or practice momentum | rest, food, sleep, daily rhythm, teacher or peer contact, ordinary responsibilities | convert peak effects into steady practice, behavior, and service | afterglow, aftershock, or new levels are not self-validating |
 
+For a serious illness or a new diagnosis specifically - what to actually do, and what not to expect - see [Serious Illness and Healing](serious-illness-and-healing.md).
+
 ## How To Use The Map
 
 Use the domain row only as a first routing move. It does not tell you what to do medically, sexually, politically, legally, or clinically.
@@ -43,23 +51,20 @@ If the ordinary gate is active, handle that gate first. If practice remains appr
 
 If the domain becomes more risky after practice begins, stop optimizing technique and return to the ordinary gate.
 
-## Common Confusions
+## Where Practice Is Not the Answer
 
-Practice opportunity is not practice obligation. Shinzen's system can sometimes use difficult life conditions, but that does not mean a person should seek them, intensify them, or refuse ordinary help.
-
-Ordinary support first is not anti-practice. It is often what makes practice possible. Rest, medical care, repair, consent, protection, sleep, treatment, feedback, and community can be part of the path because they keep the person able to practice and respond.
-
-Domain sensitivity is not domain expertise. A meditation teacher may help with sensory parsing, method fit, or CCE, but that does not make them competent to manage illness, birth, medication, sexuality, trauma, legal danger, addiction, sleep disorders, or public action strategy.
-
-## Safety and Scope
+Practice opportunity is not practice obligation. Shinzen's system can sometimes use difficult life conditions, but that does not mean a person should seek them, intensify them, or refuse ordinary help. Ordinary support first is not anti-practice; it is often what makes practice possible. Rest, medical care, repair, consent, protection, sleep, treatment, feedback, and community can be part of the path because they keep the person able to practice and respond. And domain sensitivity is not domain expertise: a meditation teacher may help with sensory parsing, method fit, or CCE, but that does not make them competent to manage illness, birth, medication, sexuality, trauma, legal danger, addiction, sleep disorders, or public action strategy.
 
 Do not treat meditation as the first or only response when there is emergency risk, self-harm or harm risk, abuse, coercion, severe sleep loss, medical danger, medication concern, pregnancy or birth complication, infant safety issue, sexual coercion, addiction or recovery concern, mania-like or psychosis-like instability, severe dissociation, DPDR-like distress, trauma flooding, legal risk, or loss of functioning.
 
 ## Go Deeper
 
+- [Serious Illness and Healing](serious-illness-and-healing.md)
 - [Safety, Scope, and Accountability](safety-scope-and-accountability.md)
 - [Guidance, Scope, and Accountability](guidance-scope-and-accountability.md)
 - [Practice Method Safety](practice-method-safety.md)
+- [Windows and Walls](windows-and-walls.md)
+- [Retreat and Aftercare](retreat-and-aftercare.md)
 - [Intensity and Embodiment Safety](intensity-and-embodiment-safety.md)
 - [Altered Phenomena and Dissolution Safety](altered-phenomena-and-dissolution-safety.md)
 - [Practice Cycles and Life Architecture](practice-cycles-and-life-architecture.md)

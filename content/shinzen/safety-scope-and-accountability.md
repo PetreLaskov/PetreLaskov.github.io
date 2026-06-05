@@ -15,6 +15,8 @@ Practice guidance asks: what can be met with CCE now?
 
 Safety and scope ask: what must be handled first by ordinary care, consent, protection, referral, accountability, or stopping?
 
+When the answer is unclear, improve the report before improving the technique. [Practice Report Check](practice-report-check.md) helps separate context, sensory facts, CCE quality, reaction, life effect, and boundary.
+
 ## Quick Route
 
 Use this page to decide whether the atlas should help you choose a practice move, slow the whole question down, or step out of meditation language first.
@@ -43,6 +45,7 @@ Use this page as a first gate when:
 - insight feels profound but behavior is not improving;
 - medical, medication, legal, sexual, trauma, or emergency concerns are present.
 - illness, sleep, sexuality, birth, parenting, substances, dreams, public suffering, or retreat aftereffects are being turned into meditation problems before ordinary support is clear.
+- a life event is being framed as a Wall, Window, practice intensive, or "life as monastery."
 
 In these cases the question is not "which technique is most powerful?" It is "what keeps the person safe, honest, supported, and responsive while practice remains one part of the picture?"
 
@@ -56,19 +59,19 @@ In these cases the question is not "which technique is most powerful?" It is "wh
 | teacher pressure, secrecy, dependence, sexual or financial pressure, or misconduct | consent, outside feedback, accountability, and protection before loyalty to the practice frame |
 | behavior that keeps harming self or others | behavior commitments, repair, feedback, therapy, recovery, or other accountability alongside or before meditation |
 
-## Common Confusions
+## What Good Boundaries Protect
 
-Equanimity is not passivity. Complete experience is not endurance ideology. No-self is not personality erasure. Service intention does not prove beneficial action. Teacher depth does not prove teacher competence.
-
-Another confusion is thinking that a safety page is anti-practice. It is the opposite. Good boundaries preserve the usefulness of practice by keeping it from being asked to do jobs it cannot do alone.
-
-## Safety and Scope If risk is active, technique optimization should wait.
+Equanimity is not passivity. Complete experience is not endurance ideology. No-self is not personality erasure. Service intention does not prove beneficial action. Teacher depth does not prove teacher competence. And a safety page is not anti-practice - it is the opposite: good boundaries preserve the usefulness of practice by keeping it from being asked to do jobs it cannot do alone. If risk is active, technique optimization should wait.
 
 ## Go Deeper
 
 - [Applied Life Boundaries](applied-life-boundaries.md)
+- [Practice Report Check](practice-report-check.md)
+- [Behavior Change Escalation](behavior-change-escalation.md)
 - [Guidance, Scope, and Accountability](guidance-scope-and-accountability.md)
 - [Practice Method Safety](practice-method-safety.md)
+- [Windows and Walls](windows-and-walls.md)
+- [Retreat and Aftercare](retreat-and-aftercare.md)
 - [Source and Claim Tiers](source-and-claim-tiers.md)
 - [Intensity and Embodiment Safety](intensity-and-embodiment-safety.md)
 - [DPDR and the Pit of the Void](dpdr-and-the-pit-of-the-void.md)

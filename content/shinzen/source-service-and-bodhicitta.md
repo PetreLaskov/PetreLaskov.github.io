@@ -13,6 +13,17 @@ Source and Zero language can become cold if it floats away from human need. Serv
 
 Hold both sides together: deep practice may loosen the felt separation between self and world, but it does not certify conduct or teaching authority.
 
+## Where Love Comes From
+
+Love is not a single thing you must manufacture out of nothing. In Shinzen's framing it arrives through several channels, and knowing which one is available changes what you actually practice.
+
+- **Natural love, uncovered.** People come with a basic tendency toward care; what buries it is accumulated physical, emotional, and mental pain. As that stored material is allowed to surface, move, and stop being fed, the warmth that was already there gets uncovered. So when love feels absent, this is the first thing to check: do not force sentiment on top of the block. Ask what pain is covering the capacity, and meet that pain with clarity, equanimity, and support rather than suppression.
+- **Compassion learned through your own suffering.** Having actually lived inside misery and worked through it leaves an unforgettable knowledge of what a human being can carry. Later, that memory can turn into care for anyone living in the same place. Shinzen calls love of the human condition - not abstract love of humanity - the gold standard here. The honest boundary: this only counts when hardship has increased care and humility. Do not romanticize ordeal, and never tell someone still inside trauma, illness, or overload that their suffering is simply compassion training.
+- **Relative merging, through Focus Out.** Anchor attention in another person's actual sight, sound, and touch while your own inner image, talk, and emotional reaction quiet down. As the outer field expands and the self-referential side contracts, the other can be felt as not-separate - the shift from "it" or "them" toward "Thou." This is sensory, not sentimental, and it is not a license to invade. If your attention makes another person feel watched, pressured, or made responsible for your state, that needs a boundary, not more merging.
+- **Absolute merging, in shared Source.** Deeper still, subject and object can both drop into Zero, the groundless ground each moment of self and world arises from. Out of that comes a kinship image: beings share one formless origin, so concern follows. Hold this one lightly. Source itself is not love or any other positive content; love belongs to the human contact with Source and the return, never to Source as a thing. Shared-Source kinship should produce concern, not entitlement, special access, or self-certified authority.
+
+Keep the relative and absolute kinds distinct. Focus Out still has a subject meeting an object; shared Source is the claim that both poles have momentarily vanished. Both are real channels. Neither one, by itself, certifies that any particular action is wise.
+
 The service-facing side of Source has three layers:
 
 | Layer | Useful reading | Boundary |
@@ -48,19 +59,9 @@ These examples are not rules for what to do. They show how Source and service la
 
 The useful sign is not that an action feels cosmic. It is that practice leaves more room for contact, humility, repair, skill, and feedback.
 
-## Common Confusions
+## Keeping Service Honest
 
-Do not treat Source contact as ethical certification. A person can feel love, unity, emptiness, or vastness and still need feedback, repair, supervision, therapy, ordinary expertise, or role limits.
-
-Do not treat emptiness as permission to ignore suffering. "No fixed world" is incomplete if it becomes indifference to pain, injustice, family needs, illness, or conflict.
-
-Do not treat service as self-erasure. Rest, support, limits, medical care, ordinary livelihood, and personal boundaries may all be part of mature service.
-
-Do not treat healthy merging as license to invade. If relational openness makes other people feel pressured, watched, special, chosen, or dependent, it needs accountability rather than more Source language.
-
-## Safety and Scope
-
-Source-to-service claims need ordinary checks: consent, role clarity, competence, feedback, repair, protection, and sometimes professional support. Teaching, crisis care, medical decisions, sexuality, end-of-life support, and institutional roles require more than contemplative confidence.
+Do not treat Source contact as ethical certification: a person can feel love, unity, emptiness, or vastness and still need feedback, repair, supervision, therapy, ordinary expertise, or role limits. Do not treat emptiness as permission to ignore suffering - "no fixed world" is incomplete if it becomes indifference to pain, injustice, family needs, illness, or conflict. Do not treat service as self-erasure; rest, support, limits, medical care, ordinary livelihood, and personal boundaries may all be part of mature service. And do not treat healthy merging as license to invade - if relational openness makes other people feel pressured, watched, special, chosen, or dependent, it needs accountability rather than more Source language. Source-to-service claims need ordinary checks: consent, role clarity, competence, feedback, repair, protection, and sometimes professional support, because teaching, crisis care, medical decisions, sexuality, end-of-life support, and institutional roles require more than contemplative confidence.
 
 ## Go Deeper
 
