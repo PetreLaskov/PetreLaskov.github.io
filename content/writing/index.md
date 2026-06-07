@@ -9,7 +9,7 @@ confidence: established
 tags: [writing, hub, essays, AI]
 aliases: [Writing, AI Outputs, Essays]
 updated: 2026-06-07
-draft: false
+draft: true
 ---
 
 ## Essays
