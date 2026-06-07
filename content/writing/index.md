@@ -1,29 +1,19 @@
 ---
-title: "Writing"
+title: "AI Outputs"
 type: hub
-thesis: "Essays, drafts, and longer-form notes — published in public and maintained in place."
-status: 🌱
+thesis: "Synthesis essays compiled by AI from primary sources — each one a throughline across a thinker's full body of work."
+status: 🌿
 domain: [writing]
-importance: 7
+importance: 8
 confidence: established
-tags: [writing, hub, essays]
-aliases: [Essays, Writing]
-updated: 2026-04-22
+tags: [writing, hub, essays, AI]
+aliases: [Writing, AI Outputs, Essays]
+updated: 2026-06-07
 draft: false
 ---
 
-> Stub hub. Essays and drafts go in this folder.
-
 ## Essays
 
-_Finished(-ish) pieces. Links to individual pages._
-
-## Drafts
-
-_Set `draft: true` in frontmatter to hide a page from the published site
-until it's ready._
-
-## Related
-
-- [[../notes/index|Notes]] — shorter fragments and seeds
-- [[../index|Home]]
+- [[care-without-clinging|Care Without Clinging]] — Joe Carlsmith's ethics of attunement, wholeness, and a world that won't be mastered
+- [[the-art-of-seeing-that-frees|The Art of Seeing That Frees]] — Rob Burbea's dharma as one living arc: emptiness, fabrication, and soulmaking synthesized for the practitioner
+- [Shinzen Young — The Living Throughline](https://petrelaskov.xyz/shinzen-living-throughline/Shinzen%20-%20The%20Living%20Throughline.html) — a contemplative reading tracing the throughline across Shinzen's teaching
