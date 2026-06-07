@@ -7,17 +7,9 @@ status: draft
 
 # Mindfulness as CCE
 
-In Shinzen's system, mindful awareness means concentration power, sensory clarity, and equanimity working together.
+"Mindfulness" has been stretched until it means almost nothing in particular: a calm mood, a nice attitude, being present, not judging. Shinzen's move is to make it specific enough to fail a diagnosis. Mindful awareness, in his system, is three trainable skills running at once: **concentration power** holds attention on what is relevant, **sensory clarity** lets experience become distinguishable, and **equanimity** lets events arise, change, and pass without unnecessary push, pull, or freeze. When a sit is off, the question is not "was I mindful?" but which of the three just failed.
 
-This definition prevents mindfulness from collapsing into vague presence, calm mood, relaxation, or moral approval. It also gives practitioners a way to diagnose practice: maybe attention is weak, maybe sensory resolution is low, maybe resistance is high.
-
-**Concentration power** lets attention stay with what is relevant.
-
-**Sensory clarity** lets experience become distinguishable.
-
-**Equanimity** lets events arise, change, and pass without unnecessary push, pull, or freeze.
-
-The triad works as a vector. A practice can be calm but unclear, clear but harsh, steady but suppressive, or vivid but unstable.
+The triad works as a vector, not a checklist. A practice can be calm but unclear, clear but harsh, steady but suppressive, or vivid but unstable; in each, one or two of the skills are present and another is missing.
 
 ## Word Scope
 
@@ -38,15 +30,9 @@ Here the precise practice meaning is mindful awareness as CCE. That keeps the de
 
 This table is not a diagnostic instrument. It is a way to think when a session is not working.
 
-The three skills also correct each other. Concentration without clarity can become absorption without insight. Clarity without equanimity can become harsh analysis. Equanimity without clarity can become vagueness, numbness, or passive drifting. Shinzen's definition matters because it keeps those one-sided versions from being mistaken for full mindful awareness.
+The three skills also correct each other. Concentration without clarity becomes absorption without insight; clarity without equanimity becomes harsh analysis; equanimity without clarity becomes vagueness, numbness, or drifting. Shinzen's definition earns its keep by stopping each one-sided version from passing as the whole thing.
 
-When practice feels off, ask which part of CCE needs help:
-
-- If attention jumps, simplify the object or strengthen labels.
-- If experience is vague, use clearer categories or slower noting.
-- If resistance dominates, soften the body, include the reaction, or change method.
-
-The three skills also have different reward flavors. Concentration can feel like being in the zone. Clarity can feel like crispness or resolution. Equanimity can feel like release, non-stickiness, or future suffering being reduced. Those tastes are useful motivation, but they are not attainment proof.
+Each skill also has its own reward flavor. Concentration can feel like being in the zone, clarity like crispness or resolution, equanimity like release or non-stickiness, the sense of future suffering quietly draining off. Those tastes are real motivation, but a taste is not attainment proof.
 
 ## Small Practice Examples
 

@@ -7,9 +7,9 @@ status: draft
 
 # Dissolution and Bhanga
 
-Dissolution is what practice can feel like when ordinary sensory order starts to break into vibration, pressure, shimmer, vanishing, space, fear, or whole-field chaos.
+The most dangerous move in this territory is to treat "this is a known stage" as a reason to keep going. Dissolution is what practice can feel like when ordinary sensory order breaks into vibration, pressure, shimmer, vanishing, space, fear, or whole-field chaos; Shinzen's term for a strong breakup phase is bhanga. Both can be genuine contemplative material. Neither earns permission to push through something that has turned into an emergency: a breakup can be a recognized pattern and a crisis at the same time, and holding only the first half is how harsh dissolution gets driven harder exactly when it should be slowed.
 
-Shinzen's term for a strong breakup phase is bhanga. It can be blissful, harsh, mixed, or absent. It can be meaningful practice material, but it is not required, not a badge, and not a substitute for support.
+Bhanga can be blissful, harsh, mixed, or absent. It can be meaningful practice material, but it is not required, not a badge, and not a substitute for support.
 
 | Bhanga presentation | Possible Shinzen reading | Public boundary |
 | --- | --- | --- |
@@ -17,8 +17,6 @@ Shinzen's term for a strong breakup phase is bhanga. It can be blissful, harsh, 
 | Blissful bhanga | bubbly, vibratory, whole-field Flow | not attainment proof |
 | Harsh bhanga | tearing, grinding, fear, pressure, disorientation | not automatically safe to intensify |
 | Mixed bhanga | pleasant and difficult breakup together | needs pacing and support |
-
-The important move is to separate "this may be a known contemplative pattern" from "therefore keep going no matter what."
 
 ## How It Shows Up In Practice
 
@@ -50,7 +48,7 @@ If the experience is workable, the practice can be simple: notice the changingne
 
 ## Reading Bhanga Honestly
 
-Bhanga is not required for insight, so do not seek it because it sounds advanced. Blissful dissolution is not proof of awakening - it can become energy chasing, status comparison, visual-effect chasing, or teacher-pressure material. Harsh dissolution is not automatically purification; it may need grounding, rest, reduced intensity, teacher support, therapy, medical care, or emergency help depending on the situation. Clinical dismissal is also too simple: some difficult practice events may be recognized inside contemplative maps, and the point is to hold both possibilities without letting either one erase the other. If the breakup gives way to raw, hot, infant-like emotion rather than vibration or space, that hot layer is its own territory; see [Primal Feel](primal-feel.md).
+Two more cautions. First, do not go looking for bhanga because it sounds advanced; seeking the dramatic breakup is how blissful dissolution turns into status-comparison and energy-chasing, and how harsh dissolution gets pushed harder when it should be slowed. Second, hold both readings at once: a difficult event can be a recognized contemplative pattern and still need rest, grounding, therapy, or medical care, and neither the spiritual frame nor the clinical one gets to erase the other. If the breakup gives way to raw, hot, infant-like emotion rather than vibration or space, that hot layer is its own territory; see [Primal Feel](primal-feel.md).
 
 Pause advanced interpretation when there is severe fear, disorientation, loss of function, self-harm or harm risk, psychosis or mania-like instability, DPDR-like distress, medical or neurological concern, sleep deprivation, substance or medication effects, trauma activation, coercive teacher framing, or pressure to treat the event as proof.
 

@@ -7,30 +7,13 @@ status: draft
 
 # Effort Regulation
 
-Effort regulation is the art of knowing when practice should bear down and when it should ease up.
+You are using the right method and it is still going wrong. Before you reach for a different object, check the effort. The trouble is often not what you are attending to but how hard you are attending: the right method run with too much force, too little structure, too much ambition, or a quiet aversion to any structure at all. What needs tuning is the effort, not the technique.
 
-Some practice problems are not object problems. They are effort problems. A practitioner may be using the right method with too much force, too little structure, too much ambition, or too much aversion to structure.
-
-Shinzen's system keeps two corrective poles:
-
-| Pole | Typical method | Failure mode |
-| --- | --- | --- |
-| Bear down | Noting, stronger labels, systematic focus, clearer range | Racy effort, strain, shame, suppression, over-control. |
-| Ease up | Do Nothing, softer labels, broader allowing, Rest | Spaciness, dullness, avoidance, collapse, anti-method ideology. |
-
-Neither pole wins permanently. Mature practice can move between them.
+Shinzen's system keeps two corrective poles. Bearing down means Noting, stronger labels, systematic focus, a clearer range; its failure mode is racy effort, strain, shame, and over-control. Easing up means Do Nothing, softer labels, broader allowing, Rest; its failure mode is spaciness, dullness, avoidance, and collapse into anti-method ideology. Neither pole wins permanently, and mature practice moves between them.
 
 ## How It Shows Up In Practice
 
-A simple diagnostic:
-
-- If Noting becomes racy, try easing up.
-- If Do Nothing becomes spacey, try adding structure.
-- If concentration feels like fighting distractions, check for aversion to everything outside the chosen range.
-- If openness loses detail, return to parts, labels, or a narrower range.
-- If labels help briefly but become harsh, soften the labels or reduce pace.
-
-Another useful test is cross-capacity. Effortful practice is healthier when it can eventually release into non-effort. Non-effort practice is healthier when it eventually supports enough CCE for systematic practice.
+The table below is the quick diagnostic: find the row that matches what is happening now, and tune the other way. One test does not fit in a row, though. Cross-capacity: effortful practice is healthier when it can eventually release into non-effort, and non-effort practice is healthier when it can eventually carry enough concentration, clarity, and equanimity to do systematic work. A pole you cannot leave is the one to suspect.
 
 | If this is happening now... | Tune toward... | Try |
 | --- | --- | --- |
@@ -46,7 +29,7 @@ A practitioner is noting "Feel, Feel, Feel" but each label lands like a command.
 
 ## Reading Effort and Ease
 
-Effort is not the same as violence: returning to an object is different from tensing against the rest of experience. Ease is not the same as drifting; Do Nothing is not ordinary mind wandering but the release of noticed voluntary control. And low-effort broad awareness is not automatically mature - it matters whether it still carries sensory clarity, or it may be vague globality, dullness, or spacing out. Effort can be entangled with shame, trauma, compulsion, teacher pressure, retreat strain, sleep deprivation, or fear of failure; ease can be entangled with depression, dissociation, avoidance, or collapse. If either pattern becomes destabilizing or impairs functioning, do not keep optimizing alone.
+Effort is not the same as violence: returning to an object is different from tensing against the rest of experience. Ease is not drifting either; Do Nothing is not ordinary mind wandering but the release of noticed voluntary control. Low-effort broad awareness is not automatically mature; what matters is whether it still carries sensory clarity, or whether it has gone slack into vague globality, dullness, or spacing out. Sometimes effort is the wrong thing to be adjusting at all: bearing down can be shame or teacher-pressure wearing the mask of diligence, and easing up can be depression or avoidance wearing the mask of equanimity. When tuning the effort keeps not working and the pattern is destabilizing or costing you function, the question is no longer how hard you are trying: stop adjusting it alone and get another set of eyes.
 
 ## Go Deeper
 

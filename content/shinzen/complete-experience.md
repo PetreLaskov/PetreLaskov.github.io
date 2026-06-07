@@ -7,9 +7,9 @@ status: draft
 
 # Complete Experience
 
-Meet the event that is actually here as sensory experience: body sensation, image, talk, sound, sight, pleasure, pain, rest, Flow, or selfing. Give it enough concentration, sensory clarity, and equanimity, and the event can complete. It arises, changes, and passes without hardening into a thing that owns the practitioner.
+An experience that is not fully felt does not leave. It goes quiet and waits, half-met and stored, and runs the next moment from underneath. Complete experience is the other possibility: an event met with enough concentration, sensory clarity, and equanimity that it can finish, arising, changing, and passing without hardening into a thing that owns you.
 
-That is why ordinary experience can become the path. Completion does not mean the pain stops hurting, the grief stops grieving, or the pleasure stops pleasing. It means the event becomes more fully contacted and less distorted by resistance, craving, fusion, or unconsciousness: more vivid, less binding.
+That is how ordinary experience becomes the path. Completion is not the hurt turning pleasant or the loss ceasing to matter. It is the event contacted more fully and distorted less by resistance, craving, fusion, or going unconscious to it: more vivid, less binding.
 
 ## The Working Model
 
@@ -63,7 +63,7 @@ A painful sensation may become more complete when it is more precisely known and
 
 ## Counterfeits of Completion
 
-Do not infer completion from long sits, strong pain, catharsis, visions, kriyas, erotic charge, Flow, Gone, or spiritual certainty - those may matter, but they are not the criterion. Do not turn "complete experience" into a private claim no one can question: if the experience is complete but behavior becomes worse, relationships become less honest, or ordinary care disappears, the interpretation needs revision. The language can itself become dangerous, justifying endurance, dissociation, medical neglect, emotional flooding, or avoidance of repair. Completion means less binding, not more heroic.
+The counterfeit here is the private certificate: turning "complete experience" into a claim no one else is allowed to question. Long sits, strong pain, catharsis, visions, kriyas, erotic charge, Flow, Gone, and spiritual certainty can all ride alongside completion, but none of them prove it, and the language turns dangerous exactly when it starts excusing endurance, dissociation, medical neglect, or a skipped repair. The check completion cannot dodge is the plain one: if behavior is getting worse, relationships less honest, or ordinary care is vanishing, the interpretation is wrong, however complete the sit felt. Less binding, not more heroic.
 
 ## Go Deeper
 

@@ -7,11 +7,9 @@ status: draft
 
 # The Sensory Grid
 
-The Sensory Grid is Shinzen's expanded practice grammar: a way to classify experience by sensory channel and theme so attention can be routed more precisely.
+"Feel" is doing a lot of work. In one sit it is the ache in your knee, in the next the grief in your chest, in the next the body going quiet, and when you cannot tell which, the bare word stops helping. The Sensory Grid is what is hiding inside it: the three channels (See, Hear, Feel) crossed with the themes they can carry (inner, outer, Rest, Flow), so you can name the exact strand and aim attention at it instead of at a blur.
 
-See/Hear/Feel is compact enough to use during practice. The Sensory Grid explains what the compact labels are compressing. It helps a practitioner know whether "Feel" means physical touch, emotional body sensation, rest, Flow, or spaciousness in a given context.
-
-The older Basic Mindfulness grid crosses sensory channels with practice themes.
+See/Hear/Feel is the compact interface you use mid-practice; the grid is the map of what each label is compressing. It crosses sensory channels with practice themes.
 
 | Theme | See | Hear | Feel |
 | --- | --- | --- | --- |
@@ -26,15 +24,7 @@ Later See/Hear/Feel teaching keeps the three channels but lets the focus range d
 
 ## How It Shows Up In Practice
 
-The grid supports several widths of practice:
-
-| Width | Example |
-| --- | --- |
-| One cell | Feel In, such as fear in the chest. |
-| One column | Focus In, moving among Feel, Image, and Talk. |
-| One row | Focus on Feel, including physical Feel, emotional Feel, Rest, Flow, and Gone. |
-| Everything | Broad See/Hear/Feel across the whole field. |
-| Gone | Noticing vanishings wherever they occur. |
+The grid supports several widths of practice. You can work one cell, such as Feel In, fear in the chest. You can work one column, Focus In, moving among Feel, Image, and Talk. You can work one row, Focus on Feel, taking in physical Feel, emotional Feel, Rest, Flow, and Gone. You can open to Everything, broad See/Hear/Feel across the whole field. Or you can track Gone, noticing vanishings wherever they occur.
 
 The point is not to fill out a chart during meditation. The point is to give sensory clarity a usable vocabulary.
 
@@ -70,7 +60,7 @@ becoming a repeated label for ongoing absence.
 
 ## Labels Are Tools, Not Verdicts
 
-The grid is pragmatic, not absolute: smell and taste are usually folded into Feel for simplicity, "Out" means physical in origin rather than necessarily outside the skin, and emotional Feel and physical Feel may need careful discrimination - but the labels are tools, not verdicts. More precision is not always better; sometimes "Feel" is enough, sometimes the useful distinction is "Feel In" versus "Feel Out," and sometimes the best move is to stop subdividing and restore contact. The grid does not supply safety rules by itself: better labels can help distinguish Rest from shutdown, Flow from fixation, Gone from spacing out, and positive cultivation from bypass, but labels do not replace support, stop criteria, or ordinary care. If categorization becomes frantic, compulsive, dissociative, or unsafe during tasks, simplify or pause; and if physical pain, medical symptoms, trauma activation, severe distress, or task risk is present, do not use the grid to override ordinary care, qualified guidance, or environmental safety.
+The grid is pragmatic, not absolute: smell and taste are usually folded into Feel for simplicity, "Out" means physical in origin rather than necessarily outside the skin, and emotional Feel and physical Feel may need careful discrimination - but the labels are tools, not verdicts. More precision is not always better; sometimes "Feel" is enough, sometimes the useful distinction is "Feel In" versus "Feel Out," and sometimes the best move is to stop subdividing and restore contact. And the label is never the verdict. Noting "Rest" does not make a numb shutdown restful; noting "Feel Out" does not make a medical pain benign; noting "Gone" does not turn spacing-out into insight. When the raw event and the label disagree, trust the event. So when there is real pain, a medical symptom, or trauma activation in the body, the grid is for routing attention, not for talking yourself out of the help the body is asking for.
 
 ## Go Deeper
 

@@ -7,20 +7,9 @@ status: draft
 
 # Zooming
 
-Zooming is a Noting option for spatial scope: during the focus phase, attention can narrow, widen, or hold local intensity and global spread together.
+A pain can be too big to meet head-on, an emotion too diffuse to find, a sensation so sharp it takes the whole field. You do not have to switch methods or grit through it; you can change the size of your attention. Zoom in to a workable edge of the pain, a weaker region you can actually stay with. Zoom out until the sensation is one event in a wide body rather than the entire world. Or hold both at once, the sharp local point inside the broad field. That is zooming, and it changes only one thing: how attention occupies space. The core of Noting, acknowledge and focus, stays exactly the same.
 
-Some experiences are too large, too vague, or too intense when contacted all at once. Zooming gives the practitioner a way to adjust spatial scope without immediately changing the whole method.
-
-The default is simple: after acknowledging an event, do not control spatial attention unless there is a reason. Zooming is optional.
-
-| Option | Practice meaning |
-| --- | --- |
-| No control | Let attention contact the event without managing scope. |
-| Zoom in | Focus on a smaller part, often a workable edge or weaker region. |
-| Zoom out | Spread attention over the whole event or wider body field. |
-| Zoom in and out | Contact the most intense local point while also holding broad awareness. |
-
-Zooming changes how attention occupies space. It does not change the core of Noting: acknowledge and focus.
+The default is no control: after acknowledging an event, leave spatial attention alone unless there is a reason to change it. Zooming is an option you reach for, not a move you owe the practice.
 
 ## How It Shows Up In Practice
 
@@ -41,7 +30,7 @@ With positive or restful states, zooming can sometimes amplify ease by including
 
 ## When Zooming Magnifies Too Much
 
-Zooming is not required, not proof of advanced practice, and not a command to intensify contact with pain or emotion. Wider is not always better and narrower is not always safer - the question is which scope increases CCE without overpressure. Do not chase disappearance: if the event vanishes, Gone may be noted, and if it remains, the focus phase continues. Zooming can be powerful with pain, emotion, shaking, overwhelm, or body-wide activation, but it can also magnify intensity or create loss-of-control feelings, so it should not be used to override medical signals, trauma responses, panic, dissociation, or ordinary stop cues.
+Zooming is optional, never a command to crank up contact with pain or emotion. The failure mode is using scope as force: zooming in until a sensation is bigger than you can stay with, or zooming out to get away from an event rather than to see it whole. The test is plain. A change of scope should add clarity or ease pressure; if it adds pressure instead, reverse it or drop zooming. And a medical signal, panic, or a trauma response is a stop cue, not a zoom problem.
 
 ## Go Deeper
 

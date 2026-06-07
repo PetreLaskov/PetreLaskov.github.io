@@ -7,13 +7,9 @@ status: draft
 
 # Auto Output Practice
 
-Auto Output Practice is Shinzen's family of practices for noticing output that seems to organize itself: body movement, speech or chant, thought, and sometimes all three together.
+Almost every method in this atlas works on input, on what arrives to be noticed: sight, sound, sensation, emotion, image, talk. Auto Output turns the question around. What happens when the output itself, a movement, a spoken syllable, a thought, seems to arise without a central controller? Done well, this makes no-self and Flow concrete in a way that watching input rarely does. The catch is that self-arising output is seductive: the instant something moves or speaks or surfaces on its own, it begins to feel like it carries its own authority. That is the one thing it never does.
 
 The point is not to become impulsive. The point is to detect the "just happening" quality of output while concentration, sensory clarity, equanimity, ordinary agency, and safety remain intact.
-
-Most of this atlas describes how to practice with sensory input: sight, sound, body sensation, emotion, image, talk, Flow, Gone, and Source language. Auto Output turns the question around. What happens when movement, vocalization, or thought itself seems to arise without a central controller?
-
-This can make no-self and Flow more concrete. It can also become risky if the practitioner treats spontaneous-feeling output as authority, revelation, permission, or proof of realization.
 
 ## Core Map
 
@@ -46,9 +42,9 @@ Auto Everything combines branches only when the simpler branches are already wor
 
 ## Keeping It Honest and Safe
 
-Auto output is not impulse permission: a movement, sentence, idea, or urge does not become wise because it felt spontaneous. Auto speech is not revelation - it may train the automatic contour of speech, but it does not certify truth, diagnosis, prophecy, teaching authority, or instructions for someone else. Auto thought is not automatic insight; a thought that self-organizes can still be wrong, inflated, irrelevant, or incomplete, so review it with ordinary judgment, feedback, and evidence. Auto Move is not spacing out while moving - the practice is to know the automaticity, not to disappear into unconscious habit. And Auto Everything is not a license to mix methods anywhere; it carries higher method load and stronger safety requirements than a single branch.
+These cautions share one root: output does not become wise or true because it arrived on its own. Spontaneity is not authority. A self-organizing thought can still be wrong, inflated, or irrelevant, so review it with ordinary judgment and feedback before it guides anything; spontaneous-feeling speech certifies no truth, diagnosis, or instruction for someone else; and a spontaneous urge earns no permission it would not otherwise have.
 
-Keep Auto practice in safe, low-stakes settings. Do not use it for driving, tools, machinery, caregiving, emergency response, conflict, professional judgment, sexual situations, public performance, or any setting where ordinary attention, consent, precision, or accountability should lead. If spontaneous movement is injurious, frightening, contagious in a group, neurologically concerning, dissociative, or hard to stop, treat that as a safety signal before treating it as practice material. If speech or thought becomes pressured, grandiose, coercive, or socially harmful, use ordinary support and feedback rather than more Auto framing.
+The motor branches are where this turns physical. Keep Auto practice to safe, low-stakes settings and out of anything where attention, consent, or precision has to lead (the Red row above is that list). The signal that overrides everything is losing the off-switch: movement that injures, will not stop, spreads through a group, or feels neurologically wrong is a safety event, not practice material. If speech or thought turns pressured, grandiose, or coercive, go to ordinary support and feedback rather than more Auto framing.
 
 ## Go Deeper
 

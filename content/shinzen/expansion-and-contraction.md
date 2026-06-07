@@ -7,9 +7,7 @@ status: draft
 
 # Expansion and Contraction
 
-Expansion and Contraction are Shinzen's force-pattern labels for Flow: experience may spread, scatter, increase, squeeze, grip, collapse, decrease, or do both at once.
-
-Flow is easy to hear as "pleasant energy." Expansion and Contraction make it more precise. They let a practitioner notice force and direction even when the experience is not blissful, pretty, or obviously spiritual.
+Flow gets sold as pleasant energy: a nice tingling that spreads, a warm opening. So when the changing thing in front of you is none of that, when it is pressure building behind the eyes, a tightening in the gut, a sensation collapsing in on itself, it stops looking like Flow at all, and you either wrestle it back toward something pretty or give up on it. Expansion and Contraction are the repair. They name Flow by its force and direction instead of its mood: things spread, scatter, push out, open (Expansion); things squeeze, grip, gather, pull in, collapse (Contraction); often both at once. Read that way, an unpleasant change is as workable as a blissful one, and most change turns out to be some mix of the two.
 
 They also form one of Shinzen's bridges toward Source language. Use them first as sensory practice labels, not as proof of cosmology.
 
@@ -19,8 +17,6 @@ They also form one of Shinzen's bridges toward Source language. Use them first a
 | Contraction | decreasing, squeezing, gripping, gathering, pulling in | tension gripping, attention fixating, sound fading, body collapsing inward |
 | Both | expansion and contraction at the same time | a sensation spreads while thinning, breath widens while muscles contract |
 | Gone | abrupt drop-off or vanishing | the end of a sound, thought, breath phase, or sensation |
-
-The same event can contain more than one pattern. That is part of the point.
 
 ## How It Shows Up In Practice
 

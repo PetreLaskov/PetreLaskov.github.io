@@ -7,45 +7,37 @@ status: draft
 
 # Impermanence
 
-Impermanence is not a doctrine to recite while the world still feels solid. It is what experience starts showing when CCE gets fine enough. An itch moves. A mood vibrates. A thought drops. A body boundary pulses. A self-image flickers. Solidity begins to reveal itself as event.
+Impermanence is not a doctrine to recite while the world still feels solid. It is what experience starts showing once CCE gets fine enough to see it. An itch moves. A mood vibrates. A thought drops. A body boundary pulses. A self-image flickers. What looked like a thing keeps turning out to be an event.
 
-Shinzen gives this change territory several practice handles.
+Shinzen gives this changing territory several handles.
 
-**Flow** is the continuous face: movement, vibration, energy, pressure, spread, collapse, undulation, force. Flow can purify because waves and vibrations metabolize held material. It can guide because the parts already moving teach the rigid parts by example. It can unify because inner and outer events can be known as the same kind of movement.
+**Flow** is its continuous face: movement, vibration, energy, pressure, spread, collapse, undulation, force. Flow can purify, because waves metabolize held material; it can guide, because the parts already moving teach the rigid parts by example; it can unify, because inner and outer events turn out to be the same kind of motion. The [Way of Flow](way-of-flow.md) makes a whole practice of it.
 
-**Gone** is the discontinuous face: the noticed moment of vanishing, dropping, or sudden diminishing. Gone is not noticing later that something is absent. Gone is catching the vanishing itself. This trains the mind to notice endings, not only beginnings.
+**Gone** is its discontinuous face: the noticed moment of vanishing, dropping, or sudden diminishing. Gone is not realizing a second later that something is absent; it is catching the vanishing itself. You do not need advanced states for this. The next time a sound ends, or a thought you were lost in is simply no longer there, see if you can catch the edge where it goes - not the silence afterward, but the going. That edge, met directly, is the whole training in miniature: a mind learning to notice endings, not only beginnings.
 
-**Rest** is the stillness or absence that may be present before, during, or after events. It is not failed Flow. Sometimes Space is open, still, and non-dynamic, and that is a legitimate object.
+**Rest** is the stillness or absence that can be present before, during, or after events. It is not failed Flow. Sometimes [Space](spaciousness.md) is open, still, and non-dynamic, and that is a legitimate object in its own right.
 
-**Expansion-Contraction** names a deeper polarity: spreading and gathering, increasing and decreasing, opening and closing. Sequential arising and passing can leave a watcher on the bank. Simultaneous Expansion-Contraction can include the watcher in the field. The observer is not attacked; it is pulled into the same forces.
+**Expansion-Contraction** names a deeper polarity beneath both: spreading and gathering, increasing and decreasing, opening and closing. Sequential arising and passing can leave a watcher safe on the bank; simultaneous [Expansion-Contraction](expansion-and-contraction.md) can pull the watcher into the same forces. The observer is not attacked, only included.
 
-This is powerful territory, and it is easy to misuse. Bhanga, dissolution, and vibratory breakup can be beautiful, harsh, mixed, or absent. None is required for insight and purification. A practitioner can turn advanced description into craving, comparison, or fear. The map is medicine until it becomes the next object of grasping.
+This is powerful territory, and easy to misuse. Bhanga, [dissolution](dissolution-and-bhanga.md), and vibratory breakup can be beautiful, harsh, mixed, or simply absent, and none of them is required for insight or purification. The description of an advanced stage can become something to crave, compare yourself against, or dread. The map is medicine until it becomes the next thing you grasp.
 
-The practice remains plain: clarify change, allow change, and do not make a status object out of change. Flow and Gone matter because they loosen thingness, not because they certify attainment.
+So the practice stays plain: clarify change, allow change, and do not make a status object out of change. [Flow and Gone](flow-and-gone.md) matter because they loosen the felt solidity of things, not because they certify an attainment.
 
-## If Change Gets Intense
+## When Change Turns Intense
 
-| What is happening | First check |
+When the changing gets strong and you cannot tell the beautiful from the breaking, find the row that fits and start with the move on the right.
+
+| What is happening | First move |
 | --- | --- |
-| mild vibration or pulsing | can CCE stay steady and ordinary function remain intact? |
-| pleasant whole-field Flow | is grasping now the object? |
-| frightening breakup | reduce intensity, ground, orient, or get support |
-| vanishing feels bleak | route to no-self/void safety, not more metaphysics |
-| vanishing turns hot, chaotic, or infant-like | meet it as Primal Feel, in manageable doses |
-| maps are driving expectation | return to the actual sensory event |
+| mild vibration or pulsing | let it be; keep CCE steady and confirm function is intact |
+| pleasant whole-field Flow | watch for grasping, and if it is there, make the grasping the object |
+| frightening breakup or vibratory overwhelm | reduce intensity, ground, orient, get support; do not push through |
+| the vanishing turns bleak or empty | route to [void safety](dpdr-and-the-pit-of-the-void.md), not to more metaphysics |
+| it turns hot, chaotic, or infant-like | meet it as [Primal Feel](primal-feel.md), in small manageable doses |
+| maps are driving your expectations | drop the map and return to the actual sensory event |
 
-## Go Deeper
-
-- [Impermanence](impermanence.md)
-- [Rest, Flow, Gone](rest-flow-gone.md)
-- [Flow and Gone](flow-and-gone.md)
-- [Way of Flow](way-of-flow.md)
-- [Expansion and Contraction](expansion-and-contraction.md)
-- [Spaciousness](spaciousness.md)
-- [Dissolution and Bhanga](dissolution-and-bhanga.md)
-- [Primal Feel](primal-feel.md)
-- [Altered Phenomena and Dissolution Safety](altered-phenomena-and-dissolution-safety.md)
+Fear here is not proof you are doing it wrong, and it is also not a reason to override safety. [Altered Phenomena and Dissolution Safety](altered-phenomena-and-dissolution-safety.md) holds the longer version.
 
 ## Next
 
-Read [No-Self Without Erasing the Person](no-self-without-erasing-the-person.md).
+When solidity loosens, the most personal solid object is next in line: the self. That is [No-Self Without Erasing the Person](no-self-without-erasing-the-person.md). For the change practices on their own terms, see [Impermanence](impermanence.md) as a concept and [Rest, Flow, Gone](rest-flow-gone.md) for the trio in one place.

@@ -7,9 +7,7 @@ status: draft
 
 # Turn Toward and Turn Away
 
-Turn Toward and Turn Away is Shinzen's live routing fork for difficult sensory experience: contact the challenge directly, or stabilize attention elsewhere while allowing the challenge in the background.
-
-Many meditation errors come from making one branch absolute. Direct contact can become flooding or spiritualized endurance. Turning away can become suppression or avoidance. Shinzen's more useful distinction is whether the branch increases CCE while preserving ordinary safety and responsiveness.
+Something hard is here in the sit, and you have two honest options: put attention directly on it, or steady attention on something else and let the hard thing stay in the background, allowed but not chased. The error is turning either option into a rule. Make contact mandatory and it floods, or curdles into grim endurance; make turning-away automatic and it slides into suppression. The real question is never which branch is braver. It is which one keeps this workable right now: which one raises clarity and equanimity without overriding the body or basic safety.
 
 | Branch | What it means | What makes it legitimate |
 | --- | --- | --- |
@@ -51,7 +49,7 @@ Small examples:
 
 ## Choosing the Branch Honestly
 
-Do not assume that facing the hardest part first is more authentic - Shinzen's style often starts with the workable edge. Do not assume that focusing away means making the challenge disappear; a disappearance agenda turns turn-away into suppression, so the background challenge should be allowed to arise, change, or remain. And do not force Flow: if change is not clearly present, use another branch. Pain, illness, childbirth, trauma, panic, dissociation, self-harm risk, abuse, and severe destabilization require ordinary support and scope boundaries - meditation can sometimes help one relate to difficult sensation, but it does not decide medical care, pain relief, protection, or clinical treatment.
+The branch you reach for first is honest only if it is not secretly an agenda. Reaching toward the hardest part to prove something is endurance, not contact; Shinzen usually starts at the workable edge. Reaching away to make the challenge vanish is suppression wearing turn-away's clothes; the background thing has to be genuinely allowed to stay. And Flow forced where there is no actual change is just a word. The firmest line is the simplest: turn-toward is never a reason to stay inside danger. Pain, illness, childbirth, trauma, panic, dissociation, self-harm risk, abuse, and severe destabilization set a scope boundary that technique does not cross. Meditation can change how you relate to a hard sensation; it does not decide medical care, pain relief, protection, or treatment.
 
 ## Go Deeper
 

@@ -7,11 +7,7 @@ status: draft
 
 # Do Nothing
 
-Do Nothing is Shinzen's non-effort practice: when you notice an intention to control attention, drop that intention.
-
-Many practitioners over-manage attention. Do Nothing reveals the controlling impulse itself and trains the ability to release it.
-
-Do Nothing does not mean becoming passive in life. It does not mean suppressing experience, making the mind blank, or refusing wise effort. It means noticing voluntary attention-control and relaxing that move.
+Do Nothing is the practice of catching your hand on the steering wheel, and letting go. One move: when you notice yourself managing attention, drop the managing. Not the thought, not the sound, not the feeling, but the steering. It sounds like permission to space out; it is closer to the opposite: most of us steer so constantly we never feel the steering.
 
 ## What Counts As "Doing"
 

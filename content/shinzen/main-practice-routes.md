@@ -7,9 +7,7 @@ status: draft
 
 # The Main Practice Routes
 
-Shinzen's system offers several routes because different situations need different handles.
-
-A practitioner stuck in pain, thought, sleepiness, striving, grief, pleasure, or choice-confusion does not need the same instruction every time. The art is not collecting techniques. The art is matching the route to the live situation.
+The mistake is to read this as a collection: more methods, more advanced methods, a fuller toolkit. A practitioner lost in pain, racing thought, sleepiness, grief, pleasure, or plain choice-paralysis does not need one more technique. They need the one handle that fits what is actually happening. So the art here is not collecting routes; it is matching the route to the live situation.
 
 The main routes in this atlas are:
 
@@ -52,15 +50,9 @@ Before choosing a route, check the scale of the problem.
 | Hard choice between facing and stabilizing | [Turn Toward and Turn Away](turn-toward-and-turn-away.md) | keeps direct contact and support branches distinct |
 | Racy, spacey, strained, or vague practice | [Effort Regulation](effort-regulation.md) | adjusts bearing down and easing up |
 
-Start with fit:
+The behavior check sits outside the matrix: if insight is not improving conduct, the next move is not a subtler technique but ordinary behavior work and accountability.
 
-- If experience is vague, try Noting.
-- If practice is over-controlled, try Do Nothing.
-- If you need support, try Rest or positive practice.
-- If pain or emotion is strong, consider turn-toward, turn-away, or Flow.
-- If insight is not improving behavior, include behavior and accountability.
-
-One useful rule: pick the simplest route that makes the next five minutes of practice clearer and safer. The "best" route is not the most advanced; it is the one that increases CCE without losing ordinary responsiveness.
+One useful rule cuts through the whole menu: pick the simplest route that makes the next five minutes clearer and safer. The "best" route is not the most advanced; it is the one that increases CCE without losing ordinary responsiveness.
 
 Mixed practice is not automatically shallow. It becomes coherent when the practitioner knows whether they are using one route deeply, moving through a deliberate workout, or branching because the live situation changed.
 
@@ -75,7 +67,7 @@ For the next session, reduce the whole menu to one container:
 
 ## When Route Choice Goes Wrong
 
-Do not treat method choice as identity: one route can go deep, and broad practice can also be useful. Switching methods is not failure, but switching to avoid difficulty can become bypass. No method overrides ordinary care, and route choice is especially suspect when it increases strain, secrecy, status, dissociation, teacher dependency, avoidance of repair, or compulsive technique collecting.
+Do not treat method choice as identity: one route can go deep, and broad practice is also useful. Switching is not failure - but switching to avoid a difficulty is bypass, and collecting routes for their own sake is the same avoidance dressed as diligence. No method overrides ordinary care.
 
 ## Go Deeper
 

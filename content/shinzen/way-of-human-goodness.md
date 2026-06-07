@@ -7,11 +7,7 @@ status: draft
 
 # Way of Human Goodness
 
-The Way of Human Goodness is Shinzen's constructive route: practice should help build a warmer, clearer, more useful human being, not only deconstruct the feeling of self.
-
-Insight without reconstruction can become brittle, cold, or behaviorally thin. Positive practice without insight can become denial, self-improvement pressure, or private mood management.
-
-Human Goodness holds the two movements together. Practice can dissolve self-fixation, and it can also cultivate love, gratitude, repair, restraint, courage, service, and ordinary decency.
+You can see all the way through the self and become harder to live with. It happens: insight without reconstruction goes brittle, cold, behaviorally thin, the self-fixation dissolved and the warmth dissolved along with it. The opposite failure is just as real: positive practice with no insight curdles into denial, self-improvement pressure, or private mood management. Human Goodness is the route that refuses to choose, holding both movements together, so practice can dissolve self-fixation and, in the same life, cultivate love, gratitude, repair, restraint, courage, service, and ordinary decency.
 
 ## When This Route Helps
 
@@ -24,9 +20,7 @@ Human Goodness holds the two movements together. Practice can dissolve self-fixa
 | A desire to help appears | Let service become specific: listening, repair, material help, teaching within scope, or supporting conditions. | Service needs consent, competence, feedback, and role clarity. |
 | Source, no-self, or Gone has opened something deep | Let the return to human life include care, personality, speech, action, and repair. | Source contact does not certify ethics, authority, or helpfulness. |
 
-Deconstruction sees through solid selfing. Reconstruction cultivates wholesome patterns. Shinzen's system needs both.
-
-The practical question is not "Should I have a self or no self?" It is whether selfing is becoming less contracted and human expression is becoming more workable.
+The practical question is not "Should I have a self or no self?" It is whether selfing is becoming less contracted and human expression more workable.
 
 ## Six Positive Themes
 
@@ -82,7 +76,7 @@ A caregiver uses love Feel while sitting with someone ill. The practice can supp
 
 ## Where Goodness Goes Wrong
 
-Human Goodness is not forced niceness, or the refusal to feel anger, grief, disgust, fear, or protest. It is not proof that Source contact has made action wise, not a claim that positive states automatically help other people, and not a demand to radiate warmth in unsafe, coercive, or exhausting situations. It is also not mere mood repair - positive behavior, cognition, ideals, and service make the route answerable to life. Good intention does not replace consent, feedback, competence, repair, or qualified care: use extra caution if positive practice hides harm, bypasses grief, blames a sick person, inflates a teacher, fuels mania-like activation, weakens boundaries, or substitutes imagery for action. If a behavior is not changing, add ordinary supports rather than only more inner positivity.
+Human Goodness is not forced niceness, or the refusal to feel anger, grief, disgust, fear, or protest. It is not proof that Source contact has made action wise, and not a demand to radiate warmth in unsafe, coercive, or exhausting situations. It is also not mere mood repair - positive behavior, cognition, ideals, and service make the route answerable to life. Good intention does not replace consent, feedback, competence, repair, or qualified care. The test is never how warm the state is; it is whether conduct actually improves - so when a behavior is not changing, add ordinary supports rather than only more inner positivity.
 
 ## Go Deeper
 

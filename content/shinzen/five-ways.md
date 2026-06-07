@@ -7,11 +7,7 @@ status: draft
 
 # The Five Ways
 
-The Five Ways are Shinzen's thematic routing layer for Basic Mindfulness: five different ways to apply the same CCE skills to selfing, the physical world, rest, change, and goodness.
-
-The Five Ways keep practice from collapsing into one favored style. They show why Shinzen's system includes both deconstruction and reconstruction, both direct contact and support, both sensory precision and life service.
-
-The Ways are options, not rigid stages.
+It is easy to settle into one favorite move, the breath or labeling thoughts or resting, and to call that "my practice." The Five Ways are Shinzen's correction: the same three skills (concentration, sensory clarity, equanimity) aimed at five different territories, so the route can follow what the moment actually needs instead of what you happen to like. Untangle the inner world, anchor in the outer senses, rest, dissolve into Flow, or build human goodness. They are options, not a ladder; no Way outranks another.
 
 | Way | Public handle | Main move |
 | --- | --- | --- |

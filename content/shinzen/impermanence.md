@@ -7,15 +7,13 @@ status: draft
 
 # Impermanence
 
-Impermanence in this atlas means directly noticing change in sensory experience.
+The change you are looking for is smaller than you think. Not the floor dropping away or the body dissolving into light, but a sound that fades half a degree, an itch that drifts a millimeter, the end of a single out-breath. Impermanence as a practice is built from these, the smallest detectable shift, and the dramatic events people wait for are mostly beside the point.
 
-Shinzen's impermanence language is practical. It points to movement, vibration, expansion, contraction, flowing, diminishing, and vanishing as things a practitioner can notice.
-
-Impermanence is not just the idea that everything changes. It is sensory contact with change as it happens.
+Shinzen's impermanence language stays this concrete. It points to movement, vibration, expansion, contraction, flowing, diminishing, and vanishing as things you can actually catch happening.
 
 ## From Doctrine To Sensory Event
 
-The public trap is to turn impermanence into a belief. Shinzen's route is more concrete: where is the movement, the flicker, the spreading, the contraction, the fading, the ending? The doctrine becomes useful when it changes what attention can detect.
+Shinzen's route asks where, exactly: the movement, the flicker, the spreading, the contraction, the fading, the ending. The doctrine becomes useful only when it changes what attention can detect.
 
 Look for change in:
 
@@ -52,7 +50,7 @@ practice handles, not proof that a special state has been reached.
 
 ## When Impermanence Unsettles
 
-Do not use impermanence to dismiss grief, pain, responsibility, or repair, treat dissolution as automatically higher than ordinary clarity, or make impermanence into a pessimistic doctrine, a nihilistic mood, or a reason to prefer subtle events over ordinary life. Impermanence practice can also unsettle identity and world solidity: if change perception becomes frightening, dissociative, compulsive, sleep-disrupting, or impairing, slow down, use grounding and ordinary support, and consider a safer practice route.
+The misuse specific to impermanence is using it to not feel. "It is all just passing" can become a way to skim past grief, dodge a repair you owe someone, or settle into a flat nihilism where nothing is worth doing. The test is direction: seeing change should leave you more able to grieve, act, and mend, not less. When it does the opposite, when "everything is empty" has quietly become an excuse, that is the signal to return to ordinary life and what you owe it, not a sign you have gone deep.
 
 ## Go Deeper
 

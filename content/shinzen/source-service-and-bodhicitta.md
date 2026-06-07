@@ -7,11 +7,7 @@ status: draft
 
 # Source, Service, and Bodhicitta
 
-In Shinzen's system, Source language is not meant to end in private emptiness. It should return to life as care, service, repair, and a more available human being.
-
-Source and Zero language can become cold if it floats away from human need. Service language can become inflated if it claims to come from Source and then stops listening to consent, feedback, skill, and behavior.
-
-Hold both sides together: deep practice may loosen the felt separation between self and world, but it does not certify conduct or teaching authority.
+When practice loosens the felt line between self and world, a real warmth can come through the gap. The same loosening can inflate into something that only looks like warmth: a sense of authority that feels as if it comes straight from Source. Both ride out of the same opening, so both have to be held at once. Emptiness is meant to return as care, service, and repair, in a person others can actually reach, and that return never doubles as a license on your conduct or your teaching.
 
 ## Where Love Comes From
 
@@ -61,7 +57,7 @@ The useful sign is not that an action feels cosmic. It is that practice leaves m
 
 ## Keeping Service Honest
 
-Do not treat Source contact as ethical certification: a person can feel love, unity, emptiness, or vastness and still need feedback, repair, supervision, therapy, ordinary expertise, or role limits. Do not treat emptiness as permission to ignore suffering - "no fixed world" is incomplete if it becomes indifference to pain, injustice, family needs, illness, or conflict. Do not treat service as self-erasure; rest, support, limits, medical care, ordinary livelihood, and personal boundaries may all be part of mature service. And do not treat healthy merging as license to invade - if relational openness makes other people feel pressured, watched, special, chosen, or dependent, it needs accountability rather than more Source language. Source-to-service claims need ordinary checks: consent, role clarity, competence, feedback, repair, protection, and sometimes professional support, because teaching, crisis care, medical decisions, sexuality, end-of-life support, and institutional roles require more than contemplative confidence.
+Source can make the impulse to serve feel authoritative, and that feeling runs strongest exactly where the stakes are highest. The discipline is to run the ordinary checks anyway - consent, role clarity, competence, feedback, repair, protection, sometimes professional support - and to run them hardest where a deep state most wants to skip them: teaching, crisis care, medical decisions, sexuality, and end-of-life support. There, contemplative confidence is the start of the question, not the answer. Two opposite failures still need guarding against: emptiness that has slid into indifference to pain, injustice, family need, or illness is not the mature form, and neither is service that erases the server, since rest, limits, livelihood, and personal boundaries are part of it too.
 
 ## Go Deeper
 

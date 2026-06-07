@@ -7,11 +7,7 @@ status: draft
 
 # The Suffering Distortion Cycle
 
-The suffering distortion cycle is Shinzen's practical loop linking tangled sensory processing to amplified suffering and distorted action.
-
-This is where meditation becomes ethically and socially relevant. Practice is not only about feeling better inside. It is supposed to change how pain, pleasure, emotion, and thought shape behavior.
-
-Pain or difficulty is not the whole problem. The added problem is the way sensory components fuse, multiply, and drive action.
+Pain alone does not keep you down; loops do. A sensation, an image, and a line of inner talk fuse and start multiplying until the knot feels like truth, the knot pushes an action, the action makes the situation worse, and the worse situation hands back fresh pain. That circle, not the first hurt, is what practice is trying to interrupt, and it is the reason meditation turns out to be about behavior and not only about feeling better inside.
 
 Shinzen's model can be read as a loop:
 
@@ -57,7 +53,7 @@ Service work has the same issue. Wanting to help is not enough if one's own frus
 
 ## How the Model Gets Misused
 
-Do not use this model to blame people for pain, trauma, illness, oppression, or difficult conditions: the cycle describes one way subjective processing can amplify suffering and distort action, not a total theory of life or society. Do not use practice to avoid ordinary problem solving - if a condition can be changed, changing it may be part of the path. And do not confuse relief with behavior change; a sit can feel good while the pattern remains active in speech, relationship, habit, or service. Behavior change may require therapy, recovery support, medical care, community, legal protection, coaching, relationship repair, or accountability, and when suffering involves risk, coercion, severe distress, addiction, abuse, self-harm, harm to others, or medical issues, ordinary qualified support governs before meditation interpretation.
+Two misreadings to refuse. The first turns the loop into a verdict: it describes one way inner processing amplifies suffering, and it is not a theory that people earn their pain, trauma, illness, or oppression, nor that changing a bad situation is somehow unspiritual. If a condition can be changed, changing it can be the practice. The second confuses relief with change: a sit can feel good while the pattern keeps running in how you speak, treat people, and act. Real behavior change often needs more than meditation, and where the suffering involves danger, addiction, abuse, or harm to self or others, that outside help leads and the practice interpretation waits.
 
 ## Go Deeper
 

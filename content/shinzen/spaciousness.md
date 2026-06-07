@@ -7,11 +7,7 @@ status: draft
 
 # Spaciousness
 
-Spaciousness is Shinzen's later See/Hear/Feel Space dimension: openness around experience or thinness within experience can itself become the focus.
-
-"Space" can mean many things in meditation: relaxation, dissociation, formless absorption, spacious awareness, nonduality, or simply visual distance. Shinzen's usage is more specific. It is a sensory practice category that can appear in seeing, hearing, and feeling.
-
-Keeping Space distinct prevents the atlas from forcing every open or thin experience into Rest, Flow, Source, or attainment language.
+Something opens in a sit. There is suddenly room around the body, or the body itself goes thin, less dense, not quite solid. The word "space" arrives with it, and right behind the word comes a crowd of bigger ones: dissociation, formless absorption, nondual awareness, no-self, Source. Shinzen's Space dimension asks you to stay smaller and more exact than any of those. Openness and thinness are their own plain sensory category, something to notice in seeing, in hearing, and in feeling, before they are taken as evidence of anything at all.
 
 | Experience | Spaciousness reading | Do not automatically read it as... |
 | --- | --- | --- |
@@ -22,7 +18,7 @@ Keeping Space distinct prevents the atlas from forcing every open or thin experi
 | Vastness plus movement | Space with Flow | Source proof |
 | Vastness plus inward/outward force | Space with Expansion-Contraction | universal metaphysics |
 
-Spaciousness can be stable or dynamic. If movement is not salient, stay with Space. If movement becomes clear, Flow may become the better next page.
+Spaciousness can be stable or dynamic. If movement is not salient, stay with Space. If movement becomes clear, the honest label is Flow, not Space.
 
 ## How It Shows Up In Practice
 
@@ -34,7 +30,7 @@ Spaciousness does not need to be dramatic. It may be a mild sense that experienc
 
 ## Telling Space From Spacing Out
 
-Spaciousness is not the same as Rest, which emphasizes quiet, relaxation, blankness, or peace; Space emphasizes openness or thinness. It is not the same as Flow, which emphasizes movement or change, while Space may be still. It is not automatically no-self, formless absorption, nondual awareness, or Source - those may be related in advanced practice, but a single spacious report should not certify them. And it is not the same as spacing out: if clarity drops, functioning worsens, or the person feels unreal, numb, or detached, route through safety before deep-map interpretation. Open, thin, vast, or formless experience can be beautiful, but it can also overlap with dullness, shutdown, dissociation, depersonalization, derealization, void distress, or loss of function - the practical question is whether CCE, functioning, embodiment, and behavior are improving.
+Spaciousness is not the same as Rest, which emphasizes quiet, relaxation, blankness, or peace; Space emphasizes openness or thinness. It is not the same as Flow, which emphasizes movement or change, while Space may be still. It is not automatically no-self, formless absorption, nondual awareness, or Source - those may be related in advanced practice, but a single spacious report should not certify them. And it is not the same as spacing out: if clarity drops, functioning worsens, or the person feels unreal, numb, or detached, route through safety before deep-map interpretation. Open, thin, vast experience can be beautiful, and it can also shade into shutdown, the unreal detachment of depersonalization, or void distress - so the practical question stays the same: are clarity, functioning, embodiment, and behavior improving, or is the openness quietly costing you the ground?
 
 ## Go Deeper
 

@@ -7,17 +7,9 @@ status: draft
 
 # Equanimity Training Ladder
 
-Equanimity is trainable. Shinzen's materials point to a ladder of supports:
-body relaxation, accepting talk, gentle labels, spontaneous drops,
-second-order equanimity, and background permission. Use the ladder when the
-live question is not "what is equanimity?" but "what is the smallest support
-that makes noninterference more possible right now?"
+"Be equanimous" is one of those instructions that defeats itself, like "relax" or "be spontaneous." It names a result and hands you no move, so trying to obey it directly just stacks another layer of effort on whatever you were already fighting. The ladder is the way around that: not one heroic act of acceptance but a handful of small, concrete supports, used one at a time. The live question it answers is never "what is equanimity?" It is "what is the smallest thing that makes noninterference a little more possible right now?"
 
-"Be equanimous" can sound like an impossible command. The training ladder turns it into a set of practical moves. If one move is unavailable, another may still work.
-
-Equanimity can be supported deliberately, recognized when it happens on its own, or practiced second-order when it is absent.
-
-That last point is important. The moment "I cannot be equanimous" appears, the tension, judging, failure feeling, or resistance can become the next object.
+Equanimity can be set up deliberately, recognized when it drops in on its own, or, when it is simply gone, practiced on itself. That last move is the one people miss: the instant "I cannot be equanimous" shows up, the tension, the judging, the failure-feeling becomes the next thing to allow. No state is so closed that it cannot be the object.
 
 ## If This Is Happening Now
 
@@ -60,7 +52,7 @@ choose a safer or simpler method before trying to be more equanimous.
 
 ## When the Ladder Tips Into Suppression
 
-The ladder is not a command to calm down, relax every muscle, speak in a soothing voice, or accept a situation that should be changed. Background equanimity is not avoidance by default; it becomes avoidance when difficult material must be ignored, erased, or never turned toward even when capacity is available. Spontaneous drops in struggle matter because they teach the system what reduced struggle feels like - they are not trophies. If equanimity supports become forced calm, numbness, compliance, dissociation, unsafe endurance, or refusal to seek help, shift to [Equanimity Versus Suppression](equanimity-versus-suppression.md) and [Safety, Scope, and Accountability](safety-scope-and-accountability.md).
+The ladder is not a command to calm down, relax every muscle, speak in a soothing voice, or accept a situation that should be changed. Background equanimity is not avoidance by default; it becomes avoidance when difficult material must be ignored, erased, or never turned toward even when capacity is available. Spontaneous drops in struggle matter because they teach the system what reduced struggle feels like - they are not trophies. The tell is the support turning into performance: a forced calm, a soothing voice with no contact under it, holding still through what should be changed. When the ladder is producing that instead of easing struggle, the page you need is not this one but [Equanimity Versus Suppression](equanimity-versus-suppression.md), and where safety is at stake, [Safety, Scope, and Accountability](safety-scope-and-accountability.md).
 
 ## Go Deeper
 

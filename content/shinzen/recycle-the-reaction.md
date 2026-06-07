@@ -7,21 +7,9 @@ status: draft
 
 # Recycle the Reaction
 
-Recycle the reaction means practicing with the reaction to a practice effect, not only with the original object.
+The method works, and now you have a new problem: your reaction to what it did. Calm comes and you clutch at it; it fades and you are let down; a no-self moment opens and fear rushes in to fill the space. That second reaction, the wanting or the dread or the pride or the analysis, is itself sensory material, and meeting it with the same clarity and equanimity is the move. Skip it and practice slowly turns into chasing good states and panicking at ordinary meditative effects.
 
-Practice changes experience. Those changes can produce craving, aversion, fear, doubt, shame, fascination, relief, alienation, or confusion. Shinzen's handle is to bring CCE to that second layer when it is workable.
-
-Without this move, practice can become state addiction, state aversion, or freak-out about ordinary meditative effects.
-
-There are usually three layers:
-
-| Layer | Example |
-| --- | --- |
-| Original object | pain, breath, emotion, sound, thought, body sensation |
-| Practice effect | calm, Flow, Gone, no-self, agitation, clarity, boredom, intensity |
-| Reaction | wanting more, wanting it gone, fear, pride, shame, analysis, disappointment |
-
-Recycling means the reaction becomes new sensory material: Feel, Image, Talk, intensity, location, change, Rest, Flow, or Gone.
+There are usually three layers stacked up. First the original object: pain, breath, emotion, sound, a body sensation. Then the practice effect it produced: calm, Flow, Gone, no-self, agitation, boredom, a burst of clarity. Then the reaction to that effect: wanting more, wanting it gone, fear, pride, shame, analysis, disappointment. Recycling means that third layer becomes the new object, met as Feel, Image, Talk, intensity, location, or change like anything else.
 
 ## Immediate Route
 
@@ -60,7 +48,7 @@ because the reaction has been named.
 
 ## What Recycling Is Not
 
-Recycling the reaction is not a command to continue every practice load, a substitute for support, or a way to spiritualize panic, sleep loss, dissociation, medical risk, or teacher pressure. Pleasant reactions matter too - attachment to bliss, clarity, Flow, no-self, or calm can distort practice choice and behavior as much as aversion to pain. The move is recursive, but it should not become compulsive self-monitoring; sometimes the better move is to simplify, rest, switch methods, stop, or ask for help.
+Two failure modes are specific to this move. The first is using it to keep going: recycling is not a license to ride out every practice load, and it cannot spiritualize panic, sleep loss, dissociation, medical risk, or pressure from a teacher. The second is subtler. The move is recursive, and a recursive move can curdle into compulsive self-monitoring, watching the watcher watching the watcher; when that happens the honest reaction-work is to simplify, rest, switch, or stop, not to add another layer. Pleasant reactions count here too: clutching at bliss, clarity, Flow, or no-self bends practice choice as badly as fleeing pain.
 
 ## When Not To Recycle First
 

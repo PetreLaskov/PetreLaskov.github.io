@@ -7,18 +7,9 @@ status: draft
 
 # The Way of Tranquility
 
-The Way of Tranquility is Shinzen's rest route: it uses restful sensory experience and the release of attention-control to refresh practice without reducing meditation to relaxation.
+Calm divides a room of meditators. Half are starving for it and will chase any quiet they can get; the other half distrust it, certain that a restful sit is a lazy or avoidant one. Both are half-right, and the Way of Tranquility is the middle they miss: rest can be practiced with clarity, and clarity can penetrate rest, so calm becomes training rather than either a prize or a waste.
 
-Some practitioners need more calm. Others distrust calm because they associate it with dullness or avoidance. The Way of Tranquility gives a middle path: rest can be practiced with clarity, and clarity can penetrate rest.
-
-The route has two main sides:
-
-| Side | Practice meaning |
-| --- | --- |
-| Relative Rest | Notice visual, auditory, and body or emotional rest through Focus on Rest. |
-| Absolute Rest | Drop noticed intentions to control attention through Do Nothing. |
-
-Relative Rest uses Noting-like clarity. Absolute Rest uses non-effort. Neither side is automatically higher. Different people, and different sessions, may need different sides.
+The route has two main sides. Relative Rest notices visual, auditory, and body or emotional rest through Focus on Rest; it uses Noting-like clarity. Absolute Rest drops the noticed intention to control attention through Do Nothing; it uses non-effort. Neither side is automatically higher. Different people, and different sessions, may need different sides.
 
 ## If This Is Happening Now
 

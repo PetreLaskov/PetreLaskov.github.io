@@ -7,19 +7,9 @@ status: draft
 
 # Way of Thoughts and Emotions
 
-The Way of Thoughts and Emotions works with inner experience: mental image, mental talk, and emotional body sensation.
+The argument you keep re-running at 2 a.m. will not quit because its parts keep handing off to each other: a remembered face pulls up a sentence, the sentence tightens the chest, the tight chest makes the face vivid again. Fused like that, inner experience feels like a single order you have to obey. It is not one thing. It is mental image, mental talk, and emotional body sensation, looping fast enough to look solid.
 
-Much suffering is tangled inside this system. A thought is not just "a thought." It may include pictures, words, body feelings, urges, identity, memory, and future projection.
-
-Shinzen's useful move is decomposition. Instead of "I am anxious," a practitioner may notice:
-
-- image: visual thought;
-- talk: inner words;
-- Feel: emotional body sensation.
-
-## Why Decomposition Helps
-
-The strands reinforce each other. A phrase can tighten the body. A body sensation can trigger an image. An image can generate more talk. When the strands are fused, the state feels like a single command. When they are distinguished, the practitioner has options.
+Shinzen's move is to find the seams. Named separately, the picture is only an image, the words only inner talk, the body feeling only Feel, and the single command dissolves into three smaller events you can work with. The mechanics of that split are in [Feel, Image, Talk](feel-image-talk.md).
 
 ## Immediate Route For An Active Emotion
 
@@ -47,7 +37,7 @@ For practice:
 
 ## What Decomposition Is Not
 
-Decomposition is not analysis, not denial, and not a demand to feel everything at full intensity. Do not use it to avoid meaning forever: practice can clarify the sensory engine of emotion, but ordinary reflection, conversation, repair, and action may still be needed. Strong emotion can require grounding, therapy, social support, medical care, or crisis help.
+Decomposition is contact with an emotion, not a detour around it. The failure mode is staying forever in the sensory pieces: subdividing the anxiety into Feel, Image, and Talk while the thing it is about goes unhandled. Practice can clarify the sensory engine of an emotion; it does not replace the reflection, conversation, repair, or action the emotion may be calling for. Strong emotion can also need grounding, therapy, social support, medical care, or crisis help.
 
 ## Go Deeper
 

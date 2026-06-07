@@ -7,11 +7,7 @@ status: draft
 
 # Nurture Positive
 
-Nurture Positive is Shinzen's constructive practice route: deliberately create, hold, and spread wholesome subjective patterns.
-
-Deconstruction alone can become dry, cold, or destabilizing. Shinzen's system also includes deliberate reconstruction: building positive Feel, Image, Talk, ideals, love, appreciation, and service.
-
-Positive practice is not pretending everything is fine. It is the intentional cultivation of wholesome experience while preserving clarity and equanimity.
+Deliberately growing a good feeling sounds like manufacturing a fake one, and that suspicion stalls many people before they start. The craft answers it: you do not order up warmth, you invite a wholesome pattern and feel honestly whether it actually arrives, holding only the part that is real and letting it spread only as far as it genuinely spreads. This is the reconstruction side of a system better known for taking experience apart, and done with clarity and equanimity it never has to pretend everything is fine.
 
 ## What Gets Cultivated
 
@@ -53,7 +49,7 @@ After void, no-self, or dark-night-like flatness, positive practice may help reb
 
 ## When Positivity Becomes Bypass
 
-Do not use positivity to avoid grief, anger, repair, action, or support, and do not turn positive states into performance pressure. Positive practice is strongest when it can coexist with truth; if the practice requires denying what hurts, it is probably becoming bypass. It can support healing and behavior, but it does not replace therapy, medical care, repair, or qualified help - and if it hides harm, bypasses grief, blames a sick person, inflates a teacher, fuels mania-like activation, or substitutes imagery for action, the behavior test has failed.
+Do not use positivity to avoid grief, anger, repair, action, or support, and do not turn positive states into performance pressure. Positive practice is strongest when it can coexist with truth: if the practice requires denying what hurts, it is probably becoming bypass. One signal deserves its own watch - deliberately amplified warmth or energy that tips into agitation, sleeplessness, or mania-like activation means stop cultivating and get support, not radiate harder. None of this replaces therapy, medical care, repair, or qualified help.
 
 ## Go Deeper
 

@@ -7,11 +7,9 @@ status: draft
 
 # Self-Inquiry and Turn Back
 
-Self-inquiry asks awareness to turn back toward the one who is experiencing. Shinzen's Turn Back version treats this as a fit-dependent practice, not a verbal puzzle or witness-glorification exercise.
+The mind's first response to "Who am I?" is to go looking for a sentence to bring back. That hunt for a good answer is the most common way the practice misfires, because the answer was never going to be a sentence. Self-inquiry turns attention back toward the one who seems to be experiencing, and in Shinzen's Turn Back version that turning is a sensory move, not a riddle to solve.
 
-"Who am I?" can become profound, or it can become abstract, anxious, clever, or dissociative. Shinzen's useful contribution is to connect self-inquiry with sensory mindfulness: inquiry turns toward where an arising seems to come from; Gone practice notices where an event disappears.
-
-Both routes point toward Source/no-self territory, but both need CCE, fit, and safety.
+The same question can go deep or go wrong. "Who am I?" can open into something profound, or curdle into the abstract, the anxious, the clever, or the dissociative. What keeps it honest is tying it to the senses: inquiry turns toward where an arising seems to come from, the way Gone practice turns toward where an event disappears. Both point into Source and no-self territory, and both depend on concentration, clarity, equanimity, fit, and safety.
 
 | Mode | Useful direction | Common trap |
 | --- | --- | --- |
@@ -52,7 +50,7 @@ One condition is not optional: this only works when a basic measure of concentra
 
 ## Where Inquiry Goes Wrong
 
-Self-inquiry is not automatically better than Noting, Rest, Do Nothing, Nurture Positive, or Gone; it works well for some people and poorly for others. The witness is not the endpoint simply because it feels calm - it may be a useful equanimity support and still be constructed from subtle Feel, Image, and Talk. No-self is not self-hatred: if inquiry makes a person alienated, numb, nihilistic, grandiose, panicked, or less functional, the method needs reassessment. And Turn Back is not a license for teachers to pressure students into dissolving identity - subtle instructions need consent, pacing, and support. Self-inquiry can overlap with void distress, depersonalization, derealization, dissociation, obsessive self-monitoring, panic, depression, or destabilizing loss of ordinary self-continuity; use simpler sensory practice, grounding, support, or qualified care when needed.
+Self-inquiry is fit-dependent, not automatically deeper than Noting, Rest, or Gone; if it leaves a person alienated, numb, nihilistic, grandiose, or panicked, that is data the method needs reassessing, not a reason to push harder. Two cautions are specific to this practice. Because Turn Back is a subtle, teacher-led instruction, it is not a license to pressure a student into dissolving identity; it needs consent, pacing, and support. And because the practice deliberately loosens the sense of a subject, it can tip past ordinary disorientation into depersonalization, derealization, or obsessive self-monitoring. There, the live issue is grounding and care, not a cleverer answer to "who am I?"
 
 ## Go Deeper
 

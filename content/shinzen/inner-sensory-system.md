@@ -7,11 +7,7 @@ status: draft
 
 # The Inner Sensory System
 
-The inner sensory system is Shinzen's map for the inner side of experience: mental image, mental talk, and emotional body sensation.
-
-Emotion and self can feel like solid facts. Shinzen's inner sensory map makes them workable by showing the sensory strands that compose them.
-
-This is the shared field for emotion practice, no-self practice, and positive reconstruction.
+The inner life has its own sense organs. The pictures, the inner commentary, the emotion felt in the body: Image, Talk, and Feel are trackable sensory events, not a private fog, and that is what makes inner experience workable instead of only endured. One field, but it runs two directions: the same three strands let you take a stuck emotion apart and let you deliberately build a better inner state. Emotion practice, seeing through the solid-feeling self, and positive reconstruction all happen here.
 
 | Component | Public shorthand | Practice question |
 | --- | --- | --- |
@@ -23,7 +19,7 @@ The point is not to reduce a person to three parts. The point is to make the fel
 
 ## How It Shows Up In Practice
 
-Anxiety might include belly pressure, a mental image of failure, and the phrase "this will go badly." Shame might include heat in the face, an image of being seen, and inner talk about being wrong. Love might include warmth in the chest, an image of someone dear, and kind phrases.
+Anxiety might include belly pressure, a mental image of failure, and the phrase "this will go badly." Shame might include heat in the face, a replayed image of the moment, and inner talk about being wrong. Love might include warmth in the chest, an image of someone dear, and kind phrases.
 
 When the strands are fused, the state feels like one command. When the strands are distinguished, the practitioner has options: note one strand, widen to the whole pattern, look for Flow, find Rest, use Nurture Positive, or take ordinary action.
 
@@ -62,7 +58,7 @@ The two directions should inform each other.
 
 Feel is not every body sensation; here it usually means emotional body sensation. Image is not physical sight and Talk is not outer sound, but inner image and talk can be surprisingly tangible - they may seem located in the head, eyes, ears, face, chest, the space around the body, or a broader mental field. Subtle inner activity is not automatically important: sometimes faint Image, Talk, or Feel is useful to track, and sometimes the saner move is to stay with an outer sense, Rest, a simple label, or the ordinary task. Do not turn the model into a complete theory of psychology, identity, trauma, culture, or relationship; it is a practice map.
 
-Inner sensory practice can touch grief, trauma, panic, shame, identity distress, dissociation, or DPDR-like material. If tracking inner components makes experience less grounded, less functional, more obsessive, more dissociated, or more behaviorally distorted, simplify the method, turn toward support, use an outer object, or stop optimizing practice first.
+Inner work has its own way of going wrong: it can pull you so far inside that you lose the floor, more obsessive and looped, less able to act. In grief, trauma, panic, or DPDR-like territory, that ungrounding is the danger, not the depth. The move then is outward, not deeper - an outer sound, the soles of the feet, the room, a person. If inner tracking keeps leaving you less grounded and less able to function, stop tracking and come out before you do anything else.
 
 ## Go Deeper
 

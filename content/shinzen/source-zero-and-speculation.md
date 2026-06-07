@@ -7,11 +7,9 @@ status: draft
 
 # Source, Zero, and Speculation
 
-Source and Zero are Shinzen's deepest boundary language around arising, vanishing, no-self, and the non-objective edge of experience.
+The same words that open the deepest practice are a short step from trouble. Source and Zero point cleanly enough at what happens in experience: arising, vanishing, cancellation, no-self, the afterglow that follows. The trouble starts when that practice language quietly re-tools itself into something it cannot back: metaphysical certainty, spiritual status, science theater, or a private license for one's own conduct.
 
-This language is attractive and risky. It can point toward profound practice territory, but it can also become metaphysical certainty, status, science theater, or conduct self-certification.
-
-As practice language, Source and Zero point toward disappearance, arising, cancellation, no-self, and afterglow. As metaphysics, science, ethics, or authority, they require a much stronger claim than this atlas can establish.
+Used for what it is, the vocabulary is exact. Used as metaphysics, science, ethics, or authority, it is writing a check that direct experience cannot cover.
 
 The strictest public rule is the afterglow boundary: Source itself should not
 be treated as a sensory object that someone possesses. What can usually be
@@ -49,7 +47,7 @@ If Source language appears in practice, ask:
 - Are behavior and service improving?
 - Is the claim being kept in the right tier?
 
-The safest public move is to translate Source language back into practice questions. What vanished? What remained? What changed in identification? What happened to behavior after the event?
+The safest public move is exactly that translation: keep Source language answerable in practice terms before letting it become metaphysics, status, science, or a license for conduct.
 
 If the event is now over, the practice may be the return: notice the image,
 talk, body feeling, craving, fear, pride, service impulse, or confusion that
@@ -58,7 +56,7 @@ See/Hear/Feel. If they are destabilizing, functioning and support lead.
 
 ## Holding the Edge Honestly
 
-Do not treat Source contact as proof of ethical maturity, physics, math, neuroscience, AI, or ultrasound analogies as established validation, or no-self and Zero as permission to ignore ordinary life. But also do not flatten the language into nothing: Source language carries real transmission value inside Shinzen's system, and the point is to keep that value without pretending the atlas has proven more than it has. Source, void, no-self, and world-insubstantiality can become distressing or destabilizing - do not use the language to intensify blankness, chase disappearance, interpret DPDR-like distress as attainment, or override ordinary functioning. If Source language is making a person less able to sleep, work, relate, protect themselves, or respond to feedback, route through safety and support before advanced interpretation.
+The over-claims are tiered in the tables above; the harder discipline is not to over-correct into dismissal. Do not flatten Source language into nothing: it carries real transmission value inside Shinzen's system, and the work is to keep that value without pretending the atlas has proven more than it has. The failure mode that bites here runs the other way, toward inflation - using Source language to read genuine distress as attainment, calling blankness depth or taking DPDR-like fear as a sign of progress. If the language is leaving a person less able to sleep, work, relate, protect themselves, or respond to feedback, that reading is wrong however profound it feels, and safety and support come before any advanced interpretation.
 
 ## Go Deeper
 

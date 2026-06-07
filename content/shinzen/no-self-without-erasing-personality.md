@@ -7,18 +7,13 @@ status: draft
 
 # No-Self Without Erasing Personality
 
-No-self in Shinzen's system does not mean personality should disappear. It means self-experience can be seen as constructed from sensory events.
+The wants get smaller. The opinions go quiet. The boundaries soften, and the quirks start to feel like something to apologize for. Somewhere in there, no-self stopped being freedom and turned into a slow erasure of the person, the flattening logged as progress. The teaching never asked for that. In Shinzen's system, seeing self-experience as something built from sensory events is an invitation to know the person more exactly, not a permit to erase them.
 
-This distinction protects practitioners from two mistakes: clinging to a solid self as unquestioned reality, and attacking ordinary personality as if it were a spiritual problem.
-
-Self-experience can include Feel, Image, Talk, posture, location, memory, intention, and social identity. Practice can clarify these components without denying that ordinary personality and responsibility matter.
+The raw material is ordinary: Feel, Image, Talk, posture, location, memory, intention, and social identity. Practice can clarify these components while the personality, the responsibility, and the capacity to repair stay fully in play.
 
 ## Two Errors To Avoid
 
-| Error | What it misses |
-| --- | --- |
-| Solid-self literalism | self-experience is constructed, changing, and sensory-trackable |
-| Anti-self spirituality | ordinary personality, boundaries, repair, and function still matter |
+Solid-self literalism takes the self as an unquestioned given and misses that self-experience is constructed, changing, and sensory-trackable. Anti-self spirituality makes the opposite mistake: it treats ordinary personality as a spiritual problem and forgets that boundaries, repair, and function still matter.
 
 The healthier middle is to see selfing as process. Self can arise, function, soften, vanish, and re-arise without becoming either a prison or an enemy.
 
@@ -75,7 +70,7 @@ avoidance depending on function, valence, behavior, and support.
 
 ## Telling No-Self From Distress
 
-No-self is not nihilism, dissociation, weak boundaries, ethical exemption, or hatred of personality; a healthy personality may become more fluid, ordinary, and useful. But no-self, void, or world-insubstantiality can overlap with distress, dissociation, depression, anxiety, or DPDR-like experiences.
+No-self freedom and a depersonalization-style distress can feel almost identical from the inside: in both, the solid self thins out and the world loses its grip. The sensation alone will not tell you which one you are in. What tells you is what comes back. If warmth, choice, and ordinary function return, the thinning was workable. If what is left is bleak, unreal, or frightening and function drops, that is the distress reading, and the move is grounding and support, not more no-self interpretation.
 
 ## Go Deeper
 

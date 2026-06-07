@@ -7,17 +7,9 @@ status: draft
 
 # Calming and Clarifying
 
-Calming and clarifying are complementary sides of Shinzen's practice model: tranquility can support insight, and sensory clarity can work through the blockages that prevent tranquility.
+Two ways a sit quietly fails. One: it gets calm, stays calm, and nothing opens; you come out rested and exactly where you started. The other: you see everything sharply and it goes dry, brittle, a little raw, with no ground under it. These are not two kinds of meditator to pick between. They are the two halves of one practice coming apart.
 
-Meditation is often flattened into either relaxation or insight. Shinzen's system needs both sides. Rest can build concentration and support the nervous system, but rest without clarity can become a pleasant stall. Clarity can reveal how suffering is constructed, but clarity without support can become dry, strained, or destabilizing.
-
-| Side | Public meaning | Failure mode |
-| --- | --- | --- |
-| Calming | Concentration, tranquility, rest, soothing feedback, stability. | State chasing, dullness, shutdown, preference for quiet. |
-| Clarifying | Sensory discrimination, impermanence, components, precision. | Dryness, racy noting, over-analysis, unsupported exposure. |
-| Balanced practice | Deep enough to settle, clear enough to see. | Needs ongoing adjustment rather than one fixed formula. |
-
-The mature target is not calm versus insight. It is going deep while staying clear.
+Calming is the rest side: concentration, tranquility, soothing, stability. Left alone it stalls into dullness, shutdown, or a preference for quiet that slowly becomes the whole point. Clarifying is the resolution side: sensory discrimination, seeing impermanence, breaking a solid-feeling state into its components. Left alone it goes dry, racy, over-analytic, exposed with nothing to hold it. Each is the cure for the other's failure: calm gives clarity something to stand on, clarity keeps calm from going stagnant. The mature target is not calm or insight. It is going deep while staying clear.
 
 ## Calm, Clarify, Balance, Or Stop
 
@@ -72,9 +64,7 @@ distress.
 
 ## What To Watch
 
-Calm is not final proof of realization - a useful state can still become a good place to get stuck. Dry clarity is not automatically deeper than tranquility; if it lacks equanimity, support, and life integration, it may not be helping. "Nothing is happening" can mean subtle Rest, sleepiness, blankness, shutdown, or a real vanishing, so the phrase needs discrimination. And alertness is not the same as agitation: wakeful clarity can be part of meditation, but stimulant use, sleep loss, anxiety, medication effects, or medical issues belong under ordinary care before practice optimization.
-
-The balance does not supply individual stop rules. High-intensity vipassana, strong absorption pursuit, sleep disruption, stimulant use, panic, dissociation, trauma activation, or functional decline need ordinary caution and support.
+Calm is not final proof of realization - a useful state can still become a good place to get stuck. Dry clarity is not automatically deeper than tranquility; if it lacks equanimity, support, and life integration, it may not be helping. "Nothing is happening" can mean subtle Rest, sleepiness, blankness, shutdown, or a real vanishing, so the phrase needs discrimination. And alertness is not agitation - wakeful clarity is part of meditation - but when the wakefulness is really sleep loss, a stimulant, anxiety, or a medication effect, that belongs under ordinary care, not finer practice. That is the line for this whole skill: which side to favor is a practice question, but panic, trauma activation, or a real drop in functioning is a support question, and no refinement of technique answers it.
 
 ## Go Deeper
 

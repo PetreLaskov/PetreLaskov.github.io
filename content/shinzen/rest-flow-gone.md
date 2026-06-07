@@ -7,9 +7,7 @@ status: draft
 
 # Rest, Flow, Gone
 
-Rest, Flow, and Gone are three powerful ways Shinzen routes subtle and changing experience.
-
-Many practitioners know how to notice objects. Fewer know how to notice quietness, movement, and disappearance. These dimensions can make practice more flexible and more precise.
+Three questions reach what plain object-noting misses: what is still here, what is moving here, what just ended? Each trains a different kind of attention: Rest for the first, Flow for the second, Gone for the third. We get practiced at catching solid objects and then lose the thread exactly where these three live, when experience goes quiet, turns subtle, or starts to slip away.
 
 **Rest**: quiet, still, relaxed, or low-activation aspects of experience.
 
@@ -21,15 +19,7 @@ Many practitioners know how to notice objects. Fewer know how to notice quietnes
 
 Rest, Flow, and Gone are not separate worlds. A restful field can reveal subtle Flow. A flowing sensation can vanish. Gone can leave Rest or afterglow. The practitioner does not need to force a sequence, but noticing the relationships can make practice more sensitive.
 
-These themes can appear in sight, sound, body sensation, thought, emotion, and attention itself. A practitioner can note Rest when experience is quiet, Flow when change is obvious, and Gone when an event passes.
-
-Try asking:
-
-- What is still or restful here?
-- What is changing here?
-- What just ended?
-
-Each question trains a different kind of attention.
+These themes can appear in sight, sound, body sensation, thought, emotion, and attention itself.
 
 ## Use This Distinction
 
@@ -54,7 +44,7 @@ useful label follows what is actually detected.
 
 ## When Subtle Practice Destabilizes
 
-Rest is not always dullness, Flow is not always energy or attainment, and Gone is not the same as spacing out. The point is not to collect three experiences; it is to choose a cleaner attention handle for what is already present. Subtle practice can become destabilizing if the practitioner chases states, ignores functioning, or interprets disorientation as progress - if Rest becomes numbness, Flow becomes compulsion, or Gone becomes void fixation, simplify the practice and route through safety, support, and ordinary functioning.
+These are handles for what is already present, not three experiences to collect. The failure here runs the other way: hunting for Rest, Flow, or Gone, manufacturing a subtle version to label, and reading the resulting disorientation as a sign of depth. When the practice starts to feel like producing states rather than noticing them, drop back to plain See, Hear, Feel, or whatever method you already trust, and let ordinary functioning, not the subtlety of the experience, tell you whether it is working. When it will not settle even after you simplify, that is a cue to bring in outside help and stop refining the technique alone.
 
 ## Go Deeper
 

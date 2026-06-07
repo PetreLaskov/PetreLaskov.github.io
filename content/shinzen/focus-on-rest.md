@@ -7,11 +7,9 @@ status: draft
 
 # Focus on Rest
 
-Focus on Rest means noticing restful aspects of visual, auditory, and body experience.
+Three minutes in, the mind quiets, the body settles, and the verdict arrives: nothing is happening. That verdict is the mistake Focus on Rest corrects: the quiet is the something. Rest is not what is left over when practice has run out of objects to work; it is sensory material with its own texture, location, and duration, and contacting it trains concentration, clarity, and equanimity as directly as any ache or sound.
 
-Rest is not merely absence. In Shinzen's system, restfulness can become a clear object that trains concentration, clarity, equanimity, and support.
-
-Relative Rest notices quiet, still, relaxed, or low-activation aspects of experience. Absolute Rest belongs closer to Do Nothing, where the practitioner releases intentional control.
+Relative Rest notices the quiet, still, relaxed, low-activation side of experience. Absolute Rest belongs closer to Do Nothing, where you release intentional control altogether.
 
 ## The Six Rest Flavors
 
@@ -40,7 +38,7 @@ For a first trial, look for rest that is already present:
 
 ## Small Examples
 
-When "nothing is happening," check for restful events: defocused seeing, darkness, silence, inner quiet, body relaxation, emotional neutrality, or a blank mental screen. Rest practice treats those as actual sensory material.
+When the report is "nothing is happening," that is the cue to look closer, not the end of the sit: the defocused dark behind the eyes is Rest, and so is the moment the inner talk drops out. Work whichever one is actually there.
 
 During pain or difficult emotion, Rest may be foreground while the challenge is allowed in the background. This is different from trying to make the challenge disappear.
 
@@ -54,7 +52,7 @@ But the rest is a doorway, not a destination. The whole move fails if tranquilit
 
 ## When Rest Becomes Hiding
 
-Rest is not dullness by default, and dullness is not automatically failure - the question is whether clarity and equanimity are present. If rest becomes blank, shutdown, or avoidance, return to clearer sensory labels or get support. Rest can support difficult practice, but it can also become shutdown or avoidance, so be especially careful when rest language is being used around depression-like flatness, DPDR-like unrealness, trauma shutdown, medical symptoms, pain, or sleep loss. The safety question is whether Rest increases clarity and responsiveness, not whether the person looks quiet.
+Rest is not dullness by default, and dullness is not automatically failure; the question is whether clarity and equanimity are still present. The failure mode is rest sliding into a place to hide - blank, flat, checked-out - and the checkout getting called calm. So the safety question is the one that cuts: does Rest increase clarity and responsiveness, or does it only make you look quiet? Be most careful when rest language settles over depression-like flatness, trauma shutdown, or unrealness, because there it can dress a shutdown as practice.
 
 ## Go Deeper
 

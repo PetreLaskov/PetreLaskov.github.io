@@ -7,25 +7,21 @@ status: draft
 
 # Equanimity
 
-Equanimity is noninterference with sensory experience: allowing events to arise, change, and pass without unnecessary push, pull, or freeze.
+When something hurts, you are doing two things at once: feeling it, and fighting it. The bracing, the recoil, the grip, the wish for it to be over: that second layer is not the pain, and it is the part that turns a hard sensation into suffering. Equanimity is letting go of the fight while keeping the feeling. The event still arises, changes, and passes; you stop adding push, pull, and freeze to it.
 
-Equanimity is one of the main reasons difficult experience can become workable. It reduces the extra suffering created by fighting, grasping, bracing, or collapsing.
-
-Equanimity is not indifference. It is not numbness. It is not passivity. It is not liking pain. It is a way experience is held.
+This is why it is the skill that makes difficult experience workable: not by shrinking the experience but by removing the suffering layered on top. It is easy to mistake for its opposites: indifference, numbness, going limp, learning to like pain. It is none of those. It is a way experience is held, not a verdict that the experience does not matter.
 
 ## What Equanimity Changes
 
-Equanimity changes the relationship to sensory events, not necessarily the content. Pain may still hurt, grief may still ache, pleasure may still please, and anger may still energize. The difference is less interference: less tightening around, pushing away, freezing, or getting dragged.
+The content does not have to change for the relationship to it to change. Pain may still hurt, grief may still ache, pleasure may still please, anger may still energize; what drops is the interference around them: the tightening, the pushing away, the freezing, the getting dragged.
 
-Equanimity may be trained through relaxation, welcoming talk, allowing, observing resistance, noticing spontaneous drops, or including the reaction itself as practice material.
-
-If equanimity cannot be found, use second-order equanimity: notice the tension, judgment, or failure-feeling as the current object. The practice becomes "can this resistance also be included?"
+Equanimity can be trained from several directions: relaxing the body, welcoming or matter-of-fact inner talk, allowing the event, watching the resistance itself, or catching the moments when struggle lets go on its own. And when it will not come at all, its very absence is the material to work; that is second-order equanimity, and the table below is where to take it.
 
 ## How Equanimity Is Learned
 
-Equanimity is not a mood you summon; it is a behavior the nervous system learns. Shinzen's account of how is unusually concrete. The deepest layers of the mind are not reached by talking to yourself or picturing things - they are reached at the level of raw body sensation, so that is where the learning happens, through an immediate feedback loop. When the body interferes with its own sensations - bracing, gripping, recoiling - the interference registers at once as suffering. When it stops interfering, that registers at once as relief or fulfillment. Felt clearly enough, often enough, the body-level mind draws its own conclusion and begins to let experience be.
+Equanimity is not a mood you summon; it is a behavior the nervous system learns. Shinzen's account of how is unusually concrete. The deepest layers of the mind are not reached by talking to yourself or picturing things; they are reached at the level of raw body sensation, and that is where the learning happens, through an immediate feedback loop. When the body interferes with its own sensations (bracing, gripping, recoiling), the interference registers at once as suffering. When it stops interfering, that registers at once as relief or fulfillment. Felt clearly enough, often enough, the body-level mind draws its own conclusion and begins to let experience be.
 
-Shinzen sometimes frames this in deliberately rough terms - Skinnerian conditioning, training the "reptilian brain" - and then turns the analogy inside out: the behavior being conditioned is not a trick or a clench, it is noninterference itself. The framing is a teaching device, not neuroscience, and the reward is never pain. Nothing here licenses gritting through harm or punishing the body into stillness. The system learns noninterference precisely because, felt clearly, noninterference is the relief and the fight is the suffering.
+Shinzen sometimes frames this in deliberately rough terms (Skinnerian conditioning, training the "reptilian brain") and then turns the analogy inside out: the behavior being conditioned is not a trick or a clench, it is noninterference itself. The framing is a teaching device, not neuroscience, and the reward is never pain. Nothing here licenses gritting through harm or punishing the body into stillness. The system learns noninterference precisely because, felt clearly, noninterference is the relief and the fight is the suffering.
 
 ## If Equanimity Is The Problem
 

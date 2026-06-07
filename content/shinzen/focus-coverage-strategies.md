@@ -7,9 +7,7 @@ status: draft
 
 # Focus Coverage Strategies
 
-Focus coverage strategies describe how attention covers a selected field: floating naturally, scanning systematically, holding broadly, or clearing a wider field level by level.
-
-Choosing a practice route is not only choosing what to notice. It is also choosing how attention moves through what has been selected. The same body field, emotional field, or See/Hear/Feel range can feel very different depending on coverage.
+You chose the body, and you are still lost in it. Choosing what to notice is only half of a practice instruction; the other half is how attention moves through what you chose. The same field can steady you or scatter you depending only on how it is covered: whether attention drifts where it is drawn, sweeps through in order, or holds the whole thing at once. These are options, not a ladder. No coverage is more advanced than another, and the right one is simply whichever keeps you in contact.
 
 | Strategy | What it does | Useful when |
 | --- | --- | --- |
@@ -18,8 +16,6 @@ Choosing a practice route is not only choosing what to notice. It is also choosi
 | Even coverage | Attention holds the whole relevant field as broadly as possible. | The field needs integration or expansive concentration. |
 | Divide and conquer | The field is narrowed when broad coverage loses contact. | Practice is strained, vague, or too much at once. |
 | Broad field-clearing | A wider menu clears layers across the field rather than hopping shallowly. | Broad practice is genuinely productive and integrated. |
-
-These are not status levels. They are coverage options.
 
 ## How It Shows Up In Practice
 
@@ -39,11 +35,11 @@ If the field becomes too large, the practical move is to shrink it. If one cell 
 
 ## Small Example
 
-A practitioner chooses Feel Out but gets lost in a large body field. Free-floating may help if one sensation clearly calls. Systematic inventory may help if the field needs detail. Even coverage may help when the whole body can be held without strain. If all of that feels too much, the next move is not heroic concentration; it is a smaller region, a different route, or stopping to regain ordinary responsiveness.
+Feel Out, the whole torso, and it keeps slipping away from you. Free-floating helps if one sensation clearly calls; systematic inventory helps if the field needs detail; even coverage helps when the whole body can be held without strain. And if all three still feel like too much, the next move is not heroic concentration. It is a smaller region, a different route, or stopping to get your ordinary responsiveness back.
 
 ## Tuning Coverage Without Strain
 
-Free-floating is not vagueness; it still requires knowing where attention goes. Inventory is not forced sensation production - if little is detectable, do not manufacture sensation just to complete the scan. Even coverage is not automatically superior: if broad attention loses detail or strains, narrower contact may be wiser. And broad practice is not automatically shallow - it is shallow when it avoids depth, and deep when it clears the whole field in a coherent way. Coverage strategies can interact with trauma, panic, pain, dissociation, obsessive checking, and task safety, so broad body attention, body scanning, and local-global practice are not automatically appropriate for everyone. If coverage creates strain, fragmentation, numbness, or loss of ordinary responsiveness, simplify, switch, stop, or get support.
+Free-floating is not vagueness; it still requires knowing where attention goes. Inventory is not forced sensation production - if little is detectable, do not manufacture sensation just to complete the scan. Even coverage is not automatically superior: if broad attention loses detail or strains, narrower contact may be wiser. And broad practice is not automatically shallow - it is shallow when it avoids depth, and deep when it clears the whole field in a coherent way. The failure mode specific to coverage is treating it as completion: the scan becomes a checklist you owe the body, and a useful inventory turns into compulsive checking. Body scanning and broad attention are not right for everyone - for some they feed obsession, for others broad coverage fragments rather than integrates. The test is contact, not coverage. If widening the field leaves you more scattered or more numb, narrow it; if scanning has become something you cannot stop, stop it on purpose.
 
 ## Go Deeper
 

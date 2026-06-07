@@ -7,11 +7,9 @@ status: draft
 
 # Way of Physical Senses
 
-The Way of Physical Senses works with external sight, external sound, and physical body sensation. It is Shinzen's outer practice route: contact the physical world clearly enough that grounding, pain practice, movement, listening, and daily life can all train CCE.
+When the inside is too much, the outside is still there: feet on the floor, the sound of the room, the cup warm against the palm. Sight, sound, and physical touch are the practice door that never closes: always present, easy to find, steady enough to hold a sit together when inner work runs too hot or too vague. The route is simply contacting the physical world clearly enough that grounding, pain practice, movement, listening, and ordinary daily life all become places to train CCE.
 
-Outer sensory experience can ground practice without reducing practice to distraction. It also includes pain, posture, movement, sound, vision, and the body-level learning that happens during formal practice and daily life.
-
-Physical sense practice does not mean ignoring inner reactions. It means choosing outer sensory events as the main range while allowing other events to appear in the background or become relevant when needed.
+This is grounding, not distraction, and it does not mean ignoring what happens inside. You choose outer sensory events as the main range and let inner reactions sit in the background, available to become the object the moment they need to.
 
 ## Three Physical Routes
 
@@ -37,9 +35,7 @@ You might focus on:
 - sound: tones, silence, external noise;
 - touch: pressure, temperature, movement, discomfort.
 
-With discomfort, the route may be turn toward, turn away with background permission, or notice Flow.
-
-For ordinary daily life, physical senses can also be the simplest practice door: feel the feet while walking, hear sound while listening, see color while looking, feel touch while washing dishes.
+In ordinary daily life this is the simplest way in: feel the feet while walking, hear sound while listening, see color while looking, feel touch while washing dishes.
 
 ## Small Examples
 

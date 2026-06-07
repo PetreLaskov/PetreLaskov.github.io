@@ -7,18 +7,11 @@ status: draft
 
 # Deconstruction and Reconstruction
 
-Shinzen's system does not only deconstruct self. It also reconstructs wholesome human expression.
+There is a quiet cost to taking experience apart too well: the world goes thin. Nothing is quite solid, which was the point, and nothing is quite worth much either, which was not. Run on its own, taking-apart goes cold. Shinzen's system carries the other half inside it on purpose: alongside dissolving fixation, it rebuilds a warmer, more capable person.
 
-A one-sided reading of meditation can become cold, nihilistic, dissociated, or behaviorally underdeveloped. A one-sided reading of positivity can become denial, mood management, or spiritual self-improvement pressure.
+Push only the rebuilding side and it fails the opposite way, into forced cheer and the denial of real pain. So the real practice is reciprocal: deconstruction keeps the rebuilding honest, and reconstruction lets insight come back as warmth, behavior, and service.
 
-The stronger reading is reciprocal: dissolve fixation and cultivate a more helpful person.
-
-| Direction | What it does | Public risk when isolated |
-| --- | --- | --- |
-| Deconstruction | Breaks experience into sensory components, Flow, Gone, no-self, or Source-facing emptiness. | Nihilism, self-aversion, void fixation, loss of humanity, bypass of ordinary repair. |
-| Reconstruction | Builds positive Feel, Image, Talk, behavior, cognition, ideals, and service. | Forced positivity, denial of pain, moral performance, charisma without accountability. |
-
-The two directions are not enemies. Deconstruction helps positive expression become less self-protective. Reconstruction helps insight return as warmth, behavior, and service.
+Deconstruction breaks experience into sensory components: Flow, Gone, no-self, or Source-facing emptiness. Run alone, it curdles into nihilism, self-aversion, void fixation, loss of humanity, and the bypass of ordinary repair. Reconstruction builds positive Feel, Image, Talk, behavior, cognition, ideals, and service. Run alone, it hardens into forced positivity, denial of pain, moral performance, or charisma without accountability.
 
 The same balance applies to analysis and unity. [Sensory Clarity](sensory-clarity.md) may break a fused emotion, self-sense, or perception into components; under CCE, those components may then integrate as Flow, spaciousness, or a less split self/world field. Unity that forbids later distinctions is not the mature form of the balance.
 
@@ -50,7 +43,7 @@ In these cases, the question is not "deconstruct or reconstruct forever?" It is 
 
 ## Holding Both Moves Honestly
 
-No-self is not personality erasure. Positive practice is not pretending. Service feeling is not service competence. Source language is not behavior verification. A mature path can include seeing through self, letting self arise, building better habits, feeling love, making mistakes, repairing them, and continuing to practice. But void distress, DPDR-like symptoms, depression, anxiety, trauma activation, weak boundaries, grandiosity, coercive teaching, or loss of functioning should not be handled by more deconstruction or more positivity alone.
+When either move is clearly going wrong, the trap is to reach for more of the same medicine: more deconstruction to dissolve the trouble, or more positivity to paper over it. The signs are concrete - void distress or DPDR-like symptoms, depression, anxiety, trauma activation, weakened boundaries, grandiosity, coercive teaching, lost functioning - and that is the moment to stop the technique and bring in support, not to practice harder. A mature path holds both moves loosely, seeing through self and letting self arise, building better habits and still making and repairing mistakes; it does not ask either move to fix what has become a safety problem.
 
 ## Go Deeper
 

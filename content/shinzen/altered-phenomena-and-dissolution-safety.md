@@ -7,7 +7,7 @@ status: draft
 
 # Altered Phenomena and Dissolution Safety
 
-Unusual states should first be routed as sensory practice material, not as attainment, objective ontology, power, diagnosis, or authority.
+An extraordinary state arrives with its interpretation already attached. The vision feels like a message; the surge of energy feels like proof; the dissolving self feels like attainment; the bliss feels like the end of the path. That built-in certainty is the hazard here, more than the state itself, which is usually workable. The first move is to undress the state back to its sensory parts, See, Hear, Feel, Flow, Gone, and your reaction to them, before you let it tell you what it is.
 
 Shinzen's system includes Flow, Gone, no-self, visions, powers, lucid dreams, energy language, bhanga, dissolution, Source afterglow, primordial Feel, and other unusual territory.
 
@@ -44,7 +44,7 @@ Concrete examples:
 
 ## Reading These Phenomena Honestly
 
-Flow is not necessarily Kundalini, though Shinzen may translate some energy language through Flow. Gone is not automatically emptiness realization. A dream or vision is not proof of a world beyond the senses. A harsh dissolution is not automatically purifying, and a blissful one is not automatically stable integration. When what surfaces beneath emptiness is hot, chaotic, infant-like emotion rather than vibration, space, or vision, that is its own territory with its own routing; see [Primal Feel](primal-feel.md).
+Flow is not necessarily Kundalini, even where Shinzen translates some energy language through Flow; calling a sensation "energy" does not summon a separate energetic world or a charge to depend on. And when what surfaces beneath emptiness is hot, chaotic, infant-like emotion rather than vibration, space, or vision, that is its own territory with its own routing; see [Primal Feel](primal-feel.md).
 
 Source language needs the most care. Source or Zero events are followed by afterglow and interpretation, and the afterglow can be profoundly meaningful while still being a conditioned representation that needs behavior and safety checks.
 

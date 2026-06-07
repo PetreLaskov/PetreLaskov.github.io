@@ -7,23 +7,13 @@ status: draft
 
 # See/Hear/Feel and the Sensory Grid
 
-See/Hear/Feel is Shinzen's compact public interface for routing experience. The older Sensory Grid is the fuller map behind it.
+Three words sort almost anything that arises in practice: See for the visual, Hear for the auditory, Feel for the bodily and emotional. That is the whole compact interface, and it is small on purpose: small enough to use in the half-second before an experience carries you off. A label is a pointer for attention, not a metaphysical claim.
 
-Practitioners often need a small vocabulary in the middle of practice. "See, Hear, Feel" is simple enough to use. The richer grid explains why those simple labels can cover mental images, mental talk, emotional body sensation, physical sights, physical sounds, rest, flow, and vanishings.
-
-The older grid distinguishes:
-
-- inner and outer sensory events;
-- visual, auditory, and body channels;
-- restful aspects;
-- flowing or changing aspects;
-- vanishings or Gone.
-
-The later interface lets the practitioner use See, Hear, and Feel flexibly by focus range. A label is a pointer for attention, not a metaphysical claim.
+It stays that small by letting each word shift with where you aim it. "Feel" is fear in the chest when attention turns inward and the pressure of the floor when it turns outward; the range you are in supplies the meaning. The older Sensory Grid behind these three words is the map that spells out every meaning they can take.
 
 ## The Hidden Grid
 
-The compact labels work because their meaning changes with the selected range.
+Here is the interface spelled out: every meaning the three words take, by range.
 
 | Focus range | See | Hear | Feel |
 | --- | --- | --- | --- |
@@ -32,8 +22,6 @@ The compact labels work because their meaning changes with the selected range.
 | Focus on Rest | visual rest | auditory rest | body/emotional rest |
 | Focus on Flow | visual change | auditory change | body/emotional change |
 | Focus on Space | visual openness/thinness | auditory openness/thinness | somatic openness/thinness |
-
-This is why "Feel" can mean emotional body sensation in one context and physical touch in another. The active range supplies the meaning.
 
 ## Working Translations
 
@@ -75,7 +63,7 @@ Planning dinner during a sit can be Hear In if it appears as inner talk, See In 
 
 ## Using the Labels Lightly
 
-Do not think the simple labels erase the older grid, or that the grid requires constant microscopic analysis - use the level of detail that supports CCE. Missed notes are not failure either: Shinzen's later interface deliberately makes room for missed, guessed, late, averaged, and repeated notes, because the point is a quality moment with experience, not perfect capture. And more categorization is not always better - if labeling becomes frantic, dissociative, compulsive, or task-unsafe, simplify, stop, ground, or seek appropriate support.
+Do not think the simple labels erase the older grid, or that the grid requires constant microscopic analysis - use the level of detail that supports CCE. Missed notes are not failure either: Shinzen's later interface deliberately makes room for missed, guessed, late, averaged, and repeated notes, because the point is a quality moment with experience, not perfect capture. And more categorization is not always better. The mode to catch is the grid speeding into a scan: cataloguing experience faster and faster instead of touching it, labeling so you do not have to feel. That is the labels working against contact, and the move is to drop them and sense directly. If the scanning is pulling attention off something that needs it, like driving or a child or a machine, stop labeling first, not last.
 
 ## Go Deeper
 

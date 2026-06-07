@@ -7,15 +7,11 @@ status: draft
 
 # Feel, Image, Talk
 
-Feel, Image, and Talk name the inner sensory strands that often build emotion and self-experience.
+"I am angry." It arrives as one solid thing, and as long as it stays one thing it runs you. Look closer and it is three: heat or pressure in the body, an image of whoever you are angry at, and a stream of inner words building the case. Those three are Feel, Image, and Talk: the inner strands almost every emotion and self-story is built from, and the seam along which a fused state comes apart.
 
-An emotional problem can feel like one solid thing. Shinzen's inner sensory vocabulary makes it possible to see the body feeling, the mental picture, and the mental words separately.
-
-**Feel**: emotional body sensation, such as pressure, heat, contraction, expansion, vibration, ache, or pleasant warmth.
-
-**Image**: mental visual experience, such as memory scenes, future scenes, faces, shapes, or symbolic images.
-
-**Talk**: inner words, commentary, fragments, songs, arguments, plans, or self-talk.
+- **Feel**: emotional body sensation, such as pressure, heat, contraction, expansion, vibration, ache, or pleasant warmth.
+- **Image**: mental visual experience, such as memory scenes, future scenes, faces, shapes, or symbolic images.
+- **Talk**: inner words, commentary, fragments, songs, arguments, plans, or self-talk.
 
 ## The Multiplication Problem
 
@@ -40,18 +36,11 @@ the fused state.
 | Nothing is clear, but attention is pulled inward | note the tug toward image space, talk space, or emotional body space; do not invent content | turning subtle practice into interpretation |
 | Tracking makes the state hotter, vague, obsessive, or unsafe | turn away to an outer object, Rest, support, or ordinary action | treating support as failure |
 
-More examples:
-
-| Fused report | Possible decomposition |
-| --- | --- |
-| "I am angry" | heat or pressure in the body, an image of the conflict, inner phrases about blame or defense |
-| "I cannot stop worrying" | tight body sensations, future images, planning or danger-talk |
-| "I feel ashamed" | sinking or contraction in the torso, an image of being seen, inner words of self-judgment |
-| "Something is off but I do not know what" | a subtle tug toward image space, talk space, or emotional body space, without claiming the content is known |
+The same move fits other fused reports. "I cannot stop worrying" is tight body sensations, future images, and planning or danger-talk. "I feel ashamed" is sinking or contraction in the torso, an image of being seen, and inner words of self-judgment. And "something is off but I do not know what" is often just a subtle tug toward image space, talk space, or emotional body space, with the content genuinely unknown.
 
 ## Using These Labels Safely
 
-Feel is not every body sensation; here it usually points to emotional body sensation. Talk is not outer sound, and Image is not physical sight. Working with inner material can touch trauma, panic, shame, grief, urges, or identity distress, so direct inner tracking is not always the safest first move. If decomposition increases flooding, dissociation, rumination, compulsive self-analysis, or unsafe behavior, use a simpler outer object, Rest, ordinary support, or qualified help.
+Feel is not every body sensation; here it usually points to emotional body sensation, Talk is not outer sound, and Image is not physical sight. The failure to watch for is decomposition turning into one more layer of analysis: naming the strands quietly becomes thinking about them, and the loop you meant to interrupt now has a fresh way to spin. When tracking makes a state hotter, stickier, or more obsessive instead of more workable, you have left contact for commentary; drop the parsing and take an outer object, Rest, or ordinary action. And with trauma, panic, or grief already loud, going straight inward is often not the first move at all.
 
 ## Go Deeper
 

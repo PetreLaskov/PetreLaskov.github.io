@@ -7,11 +7,9 @@ status: draft
 
 # Sensory Clarity
 
-Sensory clarity is the ability to distinguish, detect, and track the components of experience.
+When experience is fused, it feels absolute. "I am fear." "This pain is unbearable." "This thought is me." There are no parts and no seams, nothing to take hold of, just one solid wall with you behind it. Sensory clarity is the skill that finds the seams: detecting an event sooner, telling one strand from another, locating it in the body, tracking its intensity and change. "Unbearable" pain, met with clarity, resolves into a hot point here, a dull ache there, a wave that swells and falls and is not, in any given second, unbearable at all.
 
-When experience is fused, it can feel absolute: "I am fear," "this pain is unbearable," "this thought is me." Clarity reveals parts, sequences, spaces, intensities, locations, and changes.
-
-Clarity is not thinking about experience. It is knowing experience more precisely as sensory event.
+Clarity is not thinking about experience. It is knowing experience more precisely as sensory event: the difference between analyzing your fear and feeling exactly where it lives and how it moves.
 
 ## Clarity Moves
 
@@ -31,7 +29,7 @@ Clarity asks:
 - Is it rest, flow, or vanishing?
 - Is the emotion body sensation, image, talk, or a combination?
 
-When experience becomes overwhelming, clarity often begins with one small distinction. "This is fear" may become "pressure in the chest plus an image plus the words 'what if'." That is already more workable.
+When experience becomes overwhelming, clarity often begins with a single distinction, one strand pulled clear of the mass. That first seam is usually enough to make the next move possible.
 
 ## Analysis And Unity
 
@@ -55,7 +53,7 @@ The point is not to choose analysis or unity as a permanent identity. A practiti
 
 ## When Clarity Overdoes It
 
-Clarity can become over-analysis, or a way to avoid feeling the whole. Use detail when it helps workability, and let the frame simplify when detail stops helping. Increasing clarity can also expose hidden pain, fear, shame, or dissociation.
+Clarity can become over-analysis, or a way to avoid feeling the whole. Use detail when it helps workability, and let the frame simplify when detail stops helping. Increasing clarity can also uncover buried pain, fear, or shame faster than equanimity can hold it; when finer detail keeps opening more than you can stay with, that is the signal to slow down and steady the attention, not to look closer.
 
 ## Go Deeper
 

@@ -7,11 +7,11 @@ status: draft
 
 # Flow and Gone
 
-An itch moves. A thought drops. A sound returns to silence. Impermanence has two faces, and both can be trained.
+You catch the sound starting. You almost never catch it stopping; attention slides off the moment of vanishing and arrives late, at the silence. We register arisings far more readily than endings, so half of every experience, the half where it leaves, goes unwitnessed. Training Gone is how you get that half back.
 
-**Flow** is continuous change: movement, vibration, pressure, spread, pulse, undulation - experience while it is happening, already in motion. **Gone** is discrete vanishing: the caught moment when something drops, ends, or diminishes. Not noticing later that something is absent, but catching the vanishing itself.
+**Flow** is continuous change: movement, vibration, pressure, spread, pulse, undulation, experience while it is happening, already in motion. **Gone** is discrete vanishing: the caught moment when something drops, ends, or diminishes. Not noticing later that something is absent, but catching the vanishing itself.
 
-Most practitioners notice beginnings more easily than endings. Flow and Gone correct that asymmetry. Together they train the nervous system to know experience as event rather than object - something that moves and stops, rather than something that sits there and owns you.
+Together they train the nervous system to know experience as event rather than object: something that moves and stops, not something that sits there and owns you.
 
 ## Practice Contrast
 
@@ -39,7 +39,7 @@ Flow and Gone can also appear together. A sensation may vibrate while it is pres
 
 ## When Flow or Gone Turns Difficult
 
-Flow and Gone are not proof of awakening. They can become status objects, and they can also become frightening when experience feels unstable. If Flow, Gone, emptiness, or dissolution becomes distressing, disorienting, addictive, or impairing, slow down, ground, stop, or seek support - be especially careful with sleep loss, retreat aftershock, DPDR-like unreality, panic, energy fixation, or pressure to treat unusual change as attainment.
+Flow and Gone are not proof of awakening, and the fear side has a specific shape here. Training attention on things vanishing can tip, in a tired or fragile stretch, from "I caught that ending" into "everything is dropping away and nothing is solid." That slide toward unreality, not the ordinary catch of a sound ending, is the signal to stop refining, open the eyes, and rest attention on something continuous and ordinary. If it keeps eroding sleep, footing, or daily function, that is a reason to involve a teacher or clinician, not a stage to push through.
 
 ## Go Deeper
 

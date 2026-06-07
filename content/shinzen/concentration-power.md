@@ -7,25 +7,13 @@ status: draft
 
 # Concentration Power
 
-Concentration power is the ability to focus on what is relevant when needed.
-
-Without concentration, practice scatters. With concentration alone, practice can become narrow, tense, or absorbed without insight. In Shinzen's system, concentration works with sensory clarity and equanimity.
-
-Concentration is not constant intensity. It includes the ability to sustain attention, return after distraction, choose an appropriate range, and sometimes relax effort when control becomes the problem.
+Say the word "concentrate" to yourself and notice what the body wants to do: the jaw sets, the brow knots, attention clamps onto the object and grips it so it cannot escape. That grip is not concentration. It is exactly what turns a sit narrow, tense, and oddly insight-proof, and when it tires out you decide you "cannot concentrate" when what you cannot do is clench hard enough. The real skill is quieter. Concentration power is the capacity to rest attention on what is relevant, return to it after it wanders, widen or narrow the range to fit the moment, and, the one move no grip can make, drop effort altogether when the controlling has itself become the problem. It is one of the three skills, and it works with sensory clarity and equanimity, never alone.
 
 ## Kinds of Concentration
 
 Concentration can be narrow, broad, effortful, relaxed, continuous, rhythmic, formal, or woven into activity. Shinzen's system values relevance: can attention stay with what matters for this practice situation?
 
-Build concentration by choosing a manageable object, staying with it, returning when attention moves, and using labels or structure when needed. Daily life practice asks for flexible concentration, not only cushion absorption.
-
-Practical supports:
-
-- narrow the range when everything is too much;
-- use spoken labels when attention disappears;
-- slow the pace when noting becomes frantic;
-- switch to Do Nothing when control itself is the problem;
-- use Rest or positive practice when the system needs support.
+Build concentration the plain way: choose a manageable object, stay with it, return when attention moves, lean on labels or structure when you need them. Two moves run the other direction and matter as much. When the controlling is itself the problem, Do Nothing is the answer: stop steering attention and let it go where it goes. When the system is simply too low to hold anything, give it Rest or a positive practice for support before asking for focus at all. Daily life, for its part, asks for flexible concentration, not only cushion absorption.
 
 ## If Concentration Is The Problem
 

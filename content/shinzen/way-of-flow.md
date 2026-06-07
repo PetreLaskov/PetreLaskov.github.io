@@ -7,19 +7,11 @@ status: draft
 
 # Way of Flow
 
-The Way of Flow notices change, movement, vibration, force, expansion, contraction, and impermanence inside experience.
-
-Experience often feels solid until its changing nature becomes clear. Flow practice makes change itself an object.
-
-Flow is ongoing change. Gone is the moment something vanishes or drops away. Both are impermanence routes, but they train different sensitivities.
+Sit with an ache long enough and it stops being a thing. What felt like a solid block of pain turns out to be pulsing, flickering, tightening and releasing, never once the fixed object it advertised itself as. That is the whole route: the change was always there, and Flow practice simply makes the change itself the object. Flow is ongoing change; Gone is the moment something vanishes or drops away. Both read impermanence, but they train different sensitivities.
 
 ## What Flow Can Look Like
 
-Flow may appear as pulsing, tingling, spreading, collapsing, vibrating, wavering, moving, melting, shimmering, thickening, thinning, expanding, or contracting. It can appear in pain, pleasure, emotional Feel, visual field, sound, mental image, mental talk, or restfulness.
-
-Look for movement in sight, sound, body sensation, emotion, thought, and restfulness. If Flow is present, note it. If it is absent, do not manufacture it.
-
-The basic instruction is modest: detect change, note it, and let the next change show itself. Flow is not something to squeeze out of experience.
+It shows up as pulsing, tingling, spreading, collapsing, vibrating, wavering, melting, shimmering, thickening, thinning, expanding, or contracting, and it shows up anywhere: pain, pleasure, emotional Feel, the visual field, sound, mental image, mental talk, even rest. If it is present, note it. If it is absent, do not manufacture it. The instruction stays modest: detect change, note it, let the next change show itself. Flow is not something to squeeze out of experience.
 
 When change shows up on the output side, such as walking, chanting, speaking, or thinking that seems to organize itself, the better public route is [Auto Output Practice](auto-output-practice.md). That frame keeps spontaneity tied to CCE and safety checks rather than turning Flow into impulse permission.
 

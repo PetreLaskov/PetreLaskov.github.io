@@ -7,26 +7,9 @@ status: draft
 
 # Signs and Non-Signs of Completion
 
-Complete experience should be judged by clarity, equanimity, embodiment, behavior, and support, not by drama.
+The reports that feel most like proof are the least reliable. "I endured a lot." "Something dramatic happened." "I felt energy, I went blank, I had a no-self experience, I can explain it spiritually." Each of these can sit on top of real change or none at all; intensity and drama are simply not the measure, and a public map has to say so before the reader turns Shinzen's strong language into an endurance ideology.
 
-Practitioners can mistake intensity for progress. A public atlas must make non-signs visible before the reader turns Shinzen's powerful language into endurance ideology.
-
-Possible signs:
-
-- sensory detail becomes clearer;
-- resistance softens without numbness;
-- suffering drops while responsiveness remains;
-- behavior becomes less driven and distorted;
-- support, repair, and ordinary care remain available.
-
-Non-signs:
-
-- "I endured a lot";
-- "something dramatic happened";
-- "I felt energy";
-- "I went blank";
-- "I had a no-self experience";
-- "I can explain it spiritually."
+What completion actually looks like is quieter. Sensory detail gets clearer. Resistance softens without going numb. Suffering drops while the power to respond stays. Behavior gets less driven. Support, repair, and ordinary care stay within reach. None of these announce themselves; they tend to be noticed afterward, in how a day goes.
 
 ## Practical Markers
 
@@ -69,7 +52,7 @@ Concrete examples:
 
 ## Reading the Signs Honestly
 
-A practice can feel profound and still not be integrated, and it can feel ordinary and still be transformative. Completion is not a private certificate; it is a working interpretation that should remain corrigible by clarity, embodiment, behavior, feedback, and support. If practice worsens functioning, feeds avoidance, overrides the body, inflates authority, weakens relationships, or replaces needed care, treat that as a safety signal.
+A sit can feel profound and change nothing, and it can feel unremarkable and quietly rearrange how you live; the feeling of the sit is the wrong instrument. Read completion the slow way instead, in what shows up over the following days: more clarity, less compulsion, repair that comes sooner. Read the failures the same way: if practice is worsening functioning, feeding avoidance, overriding the body, inflating authority, or standing in for care someone needs, that is the signal to stop working the method and bring in a person who can see you from outside.
 
 ## Go Deeper
 

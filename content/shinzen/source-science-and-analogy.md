@@ -7,11 +7,7 @@ status: draft
 
 # Source, Science, and Analogy
 
-Shinzen often uses science, mathematics, nature, and technology analogies to point at deep practice. This atlas treats those bridges as useful but carefully tiered.
-
-Analogy can make subtle practice intelligible. It can also turn contemplative language into false proof.
-
-Source, Zero, Expansion-Contraction, Flow, Gone, time, space, number, physics, biology, neuroscience, AI, and future technology should not be pushed into one claim tier. Some are practice instructions. Some are metaphors. Some are research hopes. Some are not established here.
+Shinzen reaches for complex numbers, black holes, entropy, waves, and circuitry to make the invisible parts of practice graspable, and the analogies are genuinely good. That is the catch: a good analogy lands with the force of a discovery, and the better it lands the more it impersonates evidence, until "the science of enlightenment" sounds like settled science instead of a working bridge. The system is strongest where it describes how to attend to experience, and weakest where the same words are pushed to prove what reality is outside it. The bridges are worth keeping; the discipline is to sort them by how much weight each can bear.
 
 | Claim type | Public posture | Example |
 | --- | --- | --- |
@@ -20,8 +16,6 @@ Source, Zero, Expansion-Contraction, Flow, Gone, time, space, number, physics, b
 | Analogy | helpful but limited | Expansion-Contraction compared with natural or mathematical patterns |
 | Research aspiration | speculative | future science may model contemplative processes better |
 | Objective proof | not established here | meditation proves physics, cosmology, biology, or metaphysics |
-
-The safest reading is: Shinzen's system is strongest when it describes how to attend to experience. It becomes weaker when the same language is used to prove what reality is outside experience.
 
 ## If You Came Looking For Proof
 
@@ -44,11 +38,11 @@ Science and analogy language can help a practitioner remember a pattern:
 - Expansion and Contraction can frame spreading, scattering, gripping, squeezing, increasing, decreasing, or simultaneous force patterns.
 - Source and Zero can point to the edge where arising and vanishing are interpreted in Shinzen's deepest vocabulary.
 
-Those analogies are practice supports. They do not by themselves validate a physics theory, a neuroscience claim, a technology promise, or a metaphysical system.
+They are memory aids for the practice, not the evidence behind it.
 
 ## Keeping Analogy Honest
 
-Do not read "science of enlightenment" as "all claims here are scientifically proven" - it can mean a disciplined investigation of experience, a research aspiration, or a rhetorical bridge. Do not treat a vivid Source, love, or unity experience as a shortcut around evidence; the practical question is what claim is being made, who might be affected, and what ordinary checks are still needed. Do not treat mathematics or physics analogies as hidden doctrine - complex numbers, polarity, time-space, energy, and nature metaphors may clarify Shinzen's model without becoming evidence that the universe literally works that way. And do not use scientific-sounding language to normalize destabilization: if a person is frightened, dissociated, sleep-deprived, medically unstable, or pressured by a teacher, analogy should not override support and safety. Science and analogy claims need humility most when readers might act on them - medical, psychiatric, neurological, legal, relational, technological, and teacher-authority claims require ordinary evidence and appropriate expertise.
+The move to watch is analogy hardening into proof. "Science of enlightenment" can mean a disciplined investigation of experience, a research hope, or a rhetorical bridge; it does not mean the claims here are established science. Complex numbers, polarity, time-space, energy, and nature metaphors may clarify Shinzen's model without being evidence that the universe literally works that way. A vivid Source, love, or unity experience makes this harder to hold, because its sheer force feels like proof. But the question is still what claim is being made, who might be affected, and what ordinary checks remain. The bite specific to this page is the safety one: scientific-sounding language used to talk a person out of their own alarm. If someone is frightened, dissociated, sleep-deprived, medically unstable, or pressured by a teacher, no analogy outranks that signal, and any claim a reader might act on - medical, psychiatric, legal, or teacher-authority - needs ordinary evidence and real expertise.
 
 ## Go Deeper
 

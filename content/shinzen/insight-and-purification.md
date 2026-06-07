@@ -7,13 +7,9 @@ status: draft
 
 # Insight and Purification
 
-In Shinzen's system, CCE plus time supports insight and purification.
+Sit with something unpleasant, stay steady, refuse to fight it, and a fair question arises: is anything actually happening, or is this just stoic theater? Shinzen's answer is that detailed contact does mechanical work. Met with enough clarity and equanimity over time, a stuck experience does not merely get endured; it untangles, and the charge it was holding can release. Insight is the seeing half of that, purification the releasing half.
 
-This formula is the transformation engine behind much of the system. It explains why Shinzen emphasizes detailed sensory contact rather than only belief, calm, or willpower.
-
-Insight means seeing experience more accurately. Purification means old knots of craving, aversion, confusion, and suffering can unwind as experience is completed.
-
-The claim is practice-mechanical before it is scientific.
+That is the engine behind much of the system, and it is why the training is detailed sensory contact rather than belief, calm, or willpower. The claim is practice-mechanical before it is scientific.
 
 ## The Formula And Its Limits
 
@@ -25,7 +21,7 @@ It is a practice theorem, not a lab result: what the system expects when experie
 
 ## Why It Works: Trackable Implies Tractable
 
-Why would steadiness, clarity, and noninterference change anything? The answer is mechanical, not magical. Most suffering arrives as a tangle - a body sensation, a mental image, and a strand of inner talk fused into one solid-feeling thing. Fused and unexamined, the parts do not add; they multiply. The dread feeds the image, the image sharpens the talk, the talk tightens the body, and the knot hardens into something that seems to have you.
+Most suffering arrives as a tangle: a body sensation, a mental image, and a strand of inner talk fused into one solid-feeling thing. Fused and unexamined, the parts do not add; they multiply: the dread feeds the image, the image sharpens the talk, the talk tightens the body, and the knot hardens into something that seems to have you.
 
 Sensory clarity does two things to that knot. It discriminates - separates the strands, so you can tell the raw body sensation from the picture from the words. And it detects - picks up the subtle, almost-subliminal activity underneath. Once a strand can be tracked, it can be worked with. Shinzen compresses the whole logic into three words: trackable implies tractable. The compulsion does not have to be defeated; it has to be resolved into parts small enough to meet.
 
@@ -71,7 +67,7 @@ A pleasant absorption may support purification when grasping softens and the pra
 
 ## Keeping Purification Honest
 
-Purification is not guaranteed catharsis, not proof that pain is good, and not a reason to intensify practice without support. The word can sound moralistic; here it means sensory-affective untangling, not becoming spiritually pure or superior. Trickle-down purification is not a command to hunt for hidden memories - if specific material needs deliberate retrieval or interpretation, that may belong with therapy, qualified guidance, or ordinary reflection rather than more meditation pressure. Insight and purification language can become self-punishment or medical neglect if misused.
+The one misread to guard against here is digging. Trickle-down purification is not an instruction to go hunting for buried memories or to force a catharsis; when specific material genuinely needs deliberate retrieval, that is work for therapy or qualified guidance, not for more meditation pressure. The word itself can sound moralistic, so hold it plainly: it means sensory-affective untangling, not becoming spiritually pure or superior, and it is no warrant for self-punishment or medical neglect.
 
 ## Go Deeper
 

@@ -7,9 +7,7 @@ status: draft
 
 # Choosing a Practice Route
 
-Choosing a Shinzen-style practice route means matching the method to the live aim, capacity, sensory event, and safety context.
-
-The same report can require different routes. "Thoughts are loud" means one thing during Focus In, another during Focus Out, another during Do Nothing, and another if the thoughts involve crisis or harm.
+"Thoughts are loud" is not one problem, so it cannot have one answer. During Focus In the thoughts are the object; during Focus Out they are background to let be; under Do Nothing they are control to release; and if they turn toward crisis or harm they are the reason to stop optimizing and get support. Choosing a route is reading which of these you are actually in: matching the method to the live aim, the capacity, the sensory event, and the safety context, not to the words of the report.
 
 If the report itself is vague, start with [Practice Report Check](practice-report-check.md). A route is easier to choose when context, sensory facts, CCE quality, reaction, life effect, and boundary are all at least lightly named.
 
@@ -112,7 +110,7 @@ A route is helping when the person can report some combination of clearer sensor
 
 ## Limits of a Route Map
 
-No written route map diagnoses a live practice report, and more technique is not always the right escalation. Nor does route choice rank techniques by spiritual prestige: Do Nothing is not higher than Noting, Noting is not more serious than Rest, Flow is not better than ordinary Feel - each route solves a different problem. If medical danger, self-harm, harm to others, severe dissociation, coercion, abuse, teacher pressure, or loss of functioning appears, do not optimize meditation first.
+No written route map diagnoses a live practice report, and more technique is not always the right escalation. Nor does route choice rank techniques by spiritual prestige: Do Nothing is not higher than Noting, Noting is not more serious than Rest, Flow is not better than ordinary Feel - each route solves a different problem. And no map move applies in a real emergency: the Red signals at the top of this page outrank every route here.
 
 ## Go Deeper
 
