@@ -1,7 +1,7 @@
 ---
 title: "Petre Laskov"
 type: hub
-thesis: "Writing, wikis, and projects — published in public."
+thesis: "Wikis and projects — published in public."
 status: 🌿
 domain: [meta]
 importance: 10
@@ -13,7 +13,6 @@ draft: false
 ---
 
 - [[about]] — who I am, how to reach me
-- [[writing/index|AI Outputs]] — synthesis essays compiled by AI from primary sources
 - [[projects/index|Projects]] — wikis and other builds
 
 ## Meditation & Practice

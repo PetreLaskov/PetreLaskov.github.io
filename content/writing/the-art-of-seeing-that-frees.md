@@ -9,7 +9,7 @@ confidence: established
 tags: [burbea, emptiness, soulmaking, dharma]
 aliases: [Art of Seeing That Frees]
 updated: 2026-06-03
-draft: false
+draft: true
 ---
 
 # The Art of Seeing That Frees

@@ -9,7 +9,7 @@ confidence: established
 tags: [carlsmith, ethics, attunement, care, AI-safety, spirituality]
 aliases: [Care Without Clinging]
 updated: 2026-06-04
-draft: false
+draft: true
 ---
 
 # Care Without Clinging
