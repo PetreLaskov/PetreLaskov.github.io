@@ -13,9 +13,8 @@ draft: false
 ---
 
 - [[about]] — who I am, how to reach me
-- [[projects/index|Projects]] — wikis and other builds
 
 ## Meditation & Practice
 
-- [[shinzen/index|Shinzen Young — Practice Atlas]] — 90-page walkable map of Shinzen Young's Complete Mindfulness system
-- [Aro gTér Dzogchen and Tantra Teachings Wiki](https://petrelaskov.xyz/dzogchen-tantra-wiki/)
+- [[shinzen/index|Shinzen Young — Practice Atlas]] — 90-page walkable map of Shinzen Young's Complete Mindfulness system: architecture, routes, safety, and the long arc to service
+- [Aro gTér Dzogchen and Tantra Teachings Wiki](https://petrelaskov.xyz/dzogchen-tantra-wiki/) — extensive wiki of Aro gTér teachings: Dzogchen, tantra, and the Nyingma vajrayana path
