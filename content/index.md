@@ -13,7 +13,8 @@ draft: false
 ---
 
 - [[about]] — who I am, how to reach me
-- [[projects/index|Projects]] — wikis and other builds
+- [[writing/index|AI Outputs]] — synthesis essays compiled by AI from primary sources
+- [[projects|Projects]] — wikis and other builds
 
 ## Meditation & Practice
 

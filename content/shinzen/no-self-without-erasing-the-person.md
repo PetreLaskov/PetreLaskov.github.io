@@ -3,6 +3,7 @@ title: No-Self Without Erasing the Person
 atlas_type: pillar
 tier: pillar
 status: draft
+aliases: [shinzen/no-self-without-erasing-personality]
 ---
 
 # No-Self Without Erasing the Person
