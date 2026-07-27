@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "petrelaskov.xyz",
+    baseUrl: "petrelaskov.github.io",
     ignorePatterns: ["private", "templates", ".obsidian", "raw"],
     defaultDateType: "modified",
     generateSocialImages: false,

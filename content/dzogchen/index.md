@@ -182,4 +182,4 @@ The primary books and their chapter source-pages.
 
 ---
 
-*Compiled by [Petre Laskov](https://petrelaskov.xyz/).*
+*Compiled by [Petre Laskov](https://petrelaskov.github.io/).*
