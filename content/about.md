@@ -8,7 +8,7 @@ importance: 9
 confidence: established
 tags: [bio, about]
 aliases: [about me, bio]
-updated: 2026-06-09
+updated: 2026-08-31
 draft: false
 ---
 
@@ -20,7 +20,7 @@ This website serves as the central hub for my digital presence.
 
 - **Writing as intellectual practice:** Join my weekly contemplations on [Substack](https://substack.com/@petrelaskov).
 - **Hive-mind interaction as intellectual practice:** Follow my real-time thought-stream on Twitter [@urgentwonder](https://x.com/UrgentWonder).
-- **Generative art creation:** Check out my [generated art](https://sites.google.com/d/1fnLQryQw-OCI6Occ_Abgb8ll1cmt90wp/p/1_a1nOti04N97n8qPx6s82Mca0LKyM5bD/edit), made in collaboration with Midjourney.
+- **Generative art creation:** Browse [[art/index|Imaginal AIsthetics]], a selected series created in collaboration with Midjourney v7.
 - I occasionally use Instagram as a personal [visual journal](https://www.instagram.com/petrelaskov/).
 - Here is an [[topics|index of Topics, Interests, and Stuff]] I find interesting, important, and useful.
 
@@ -28,9 +28,9 @@ This website serves as the central hub for my digital presence.
 
 I am a product of the internet era. I consider myself a secular meta-rationalist contemplative, a universalist with enlightenment values.
 
-Name dropping is the most useful way to find out if you resonate with me—I strongly resonate with the generalist approach of Joscha Bach, Naval Ravikant, Marc Andreessen, Nassim Taleb, and Tyler Cowen. Meaning, in terms of knowledge, I read broadly and obsessively try to understand and synthesize everything I find interesting, relevant, and important. Throughout the years, I relied heavily on the SSC circle—Scott Alexander, the Less Wrong community, the QRI community, the pragmatic dharma community, the non-dual mindfulness community, Meditation Twitter, AI Twitter. Favorite podcasts: Dwarkesh Podcast, Lex Fridman Podcast, TOE, etc. Most influential books: *Meditations* by Marcus Aurelius, *The Blank Slate* by Steven Pinker, *Antifragile* by Nassim Taleb, *The Sequences* by Eliezer Yudkowsky, *Thinking and Deciding* by Jonathan Baron, *The Beginning of Infinity* by David Deutsch, *MCTB 2* by Daniel Ingram, *Zen Mind, Beginner's Mind* by Suzuki Roshi.
+Name dropping is the most useful way to find out if you resonate with me—I strongly resonate with the generalist approach of Joscha Bach, Naval Ravikant, Marc Andreessen, Nassim Taleb, and Tyler Cowen. Meaning, in terms of knowledge, I read broadly and obsessively try to understand and synthesize everything I find interesting, relevant, and important. Throughout the years, I relied heavily on the SSC circle—Scott Alexander, the Less Wrong community, the QRI community, the pragmatic dharma community, the non-dual mindfulness community, Meditation Twitter, AI Twitter. Favorite podcasts: Dwarkesh Podcast, Lex Fridman Podcast, TOE, etc. Most influential books: _Meditations_ by Marcus Aurelius, _The Blank Slate_ by Steven Pinker, _Antifragile_ by Nassim Taleb, _The Sequences_ by Eliezer Yudkowsky, _Thinking and Deciding_ by Jonathan Baron, _The Beginning of Infinity_ by David Deutsch, _MCTB 2_ by Daniel Ingram, _Zen Mind, Beginner's Mind_ by Suzuki Roshi.
 
-In terms of morality, I highly resonate with sentience-centered, experience-informed, compassion-motivated, suffering-focused care ethics. A really strong exemplary reference here is my deep core resonance with Joe Carlsmith (e.g., see *on seeing more whole*, *on sincerity*, *on attunement*). I resonate with the moral intuitions of the more philosophically inclined Effective Altruists (x-risk, longtermism). *The Precipice* and *Superintelligence* might be the most important books of this century.
+In terms of morality, I highly resonate with sentience-centered, experience-informed, compassion-motivated, suffering-focused care ethics. A really strong exemplary reference here is my deep core resonance with Joe Carlsmith (e.g., see _on seeing more whole_, _on sincerity_, _on attunement_). I resonate with the moral intuitions of the more philosophically inclined Effective Altruists (x-risk, longtermism). _The Precipice_ and _Superintelligence_ might be the most important books of this century.
 
 ## History
 

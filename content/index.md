@@ -8,11 +8,15 @@ importance: 10
 confidence: established
 tags: [index, hub]
 aliases: [home, Petre Laskov]
-updated: 2026-06-07
+updated: 2026-08-31
 draft: false
 ---
 
 - [[about]] — who I am, how to reach me
+
+## Selected Work
+
+- [[art/index|Imaginal AIsthetics]] — selected AI-assisted visual work created in collaboration with Midjourney v7
 
 ## Meditation & Practice
 

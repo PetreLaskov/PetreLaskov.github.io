@@ -24,3 +24,10 @@ the `[[log]]` link and the mirrored "Recent activity" section from
 `content/index.md` so nothing on the public site duplicates this trace.
 Index can grow a curated public "What's new" section later if wanted, but
 that's editorial — not the same as this compiler log.
+
+## [2026-08-31] art | Imaginal AIsthetics published
+
+Added a dedicated AI-art portfolio page with seven selected works created in
+collaboration with Midjourney v7. Added web-optimized artwork assets, scoped
+gallery styling, and links from Home and About. Replaced the private Google
+Sites editor URL that had previously been exposed on the About page.

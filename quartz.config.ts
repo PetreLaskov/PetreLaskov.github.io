@@ -16,7 +16,6 @@ const config: QuartzConfig = {
     baseUrl: "petrelaskov.github.io",
     ignorePatterns: ["private", "templates", ".obsidian", "raw"],
     defaultDateType: "modified",
-    generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
