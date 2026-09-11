@@ -30,6 +30,18 @@ article.art-gallery {
 
   h2 {
     margin-top: 5rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--lightgray);
+    font-size: 1.8rem;
+  }
+
+  h2 + h3,
+  h2 + p + h3 {
+    margin-top: 2rem;
+  }
+
+  h3 {
+    margin-top: 5rem;
     margin-bottom: 1.1rem;
     border-bottom: 0;
     font-size: 1.45rem;
@@ -64,7 +76,8 @@ article.art-gallery {
 
 @media (max-width: 800px) {
   article.art-gallery {
-    h2 {
+    h2,
+    h3 {
       margin-top: 3.5rem;
     }
 
