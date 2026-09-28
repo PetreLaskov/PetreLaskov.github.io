@@ -9,7 +9,7 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Petre Laskov",
     pageTitleSuffix: "",
-    enableSPA: true,
+    enableSPA: false,
     enablePopovers: true,
     analytics: null,
     locale: "en-US",

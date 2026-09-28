@@ -1,9 +1,9 @@
-name: Deploy Quartz site to GitHub Pages
+name: Deploy personal website to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -26,10 +26,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Install dependencies
+      - name: Install existing archive dependencies
         run: npm ci
-      - name: Build Quartz
+      - name: Preserve existing public pages
         run: npx quartz build
+      - name: Build the new personal website
+        run: node site/scripts/build.mjs --production
+      - name: Check the new website
+        run: node site/scripts/check.mjs
+      - name: Combine the new website with existing public URLs
+        run: node site/scripts/prepare-pages.mjs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -1,61 +1,39 @@
-# petrelaskov.github.io
+# Petre Laskov
 
-Personal hub for Petre Laskov — a wiki-style second brain published with
-[Quartz 4](https://quartz.jzhao.xyz/) from an Obsidian vault, deployed to
-GitHub Pages on every push to `main`.
+Personal website: https://petrelaskov.github.io/
 
-Live site: <https://petrelaskov.github.io/>
+The current homepage has four entrances: Wisdom & practice, The Knowledge Project, Art, and About. Content in the new sections is intentionally left for later.
 
-## Layout
+## Current website
 
-- `content/` — the published site. **This folder is the Obsidian vault.**
-- `raw/` — private source documents. Ignored by Quartz, committed to git.
-- `quartz.config.ts`, `quartz.layout.ts` — site configuration and layout.
-- `.github/workflows/deploy.yml` — builds and deploys on push to `main`.
-- `CLAUDE.md` — Knowledge Compiler conventions (frontmatter schema, page
-  types, ingest/query/lint workflow). Read this first when editing.
+- Edit `site/content/site.json`.
+- Appearance: `site/public/styles.css`.
+- Templates: `site/scripts/build.mjs`.
+- Content instructions: `site/CONTENT_GUIDE.md`.
 
-## Editing in Obsidian
+The new pages are dependency-free static HTML/CSS. To preview them:
 
-1. Open Obsidian.
-2. **Open folder as vault** → select `content/`.
-3. Turn on the Obsidian options that make sense for Quartz:
-   - Settings → Files & Links → **New link format**: `Shortest path when possible`.
-   - Settings → Files & Links → **Use [[Wikilinks]]**: on.
-   - Settings → Editor → **Strict line breaks**: off (default).
-4. Write notes as normal. Every page needs YAML frontmatter — see
-   `CLAUDE.md` for the schema.
-
-## Local preview
-
-```bash
-npm install
-npx quartz build --serve
+```sh
+cd site
+npm run dev
 ```
 
-Then open <http://localhost:8080>. The site rebuilds on save.
+## Publish
 
-## Publishing
+Pushing to `main` runs the GitHub Pages workflow. It builds the existing Quartz pages, builds/checks the new edition, then overlays the new home and section pages. Only the generated `public/` folder is uploaded. Old essay, study, image and feed URLs remain available. The old homepage, About and Art entrances are replaced by the new design; their source and Git history remain preserved.
 
-```bash
-git add -A
-git commit -m "update hub"
-git push
-```
+For a full local build from the repository root:
 
-GitHub Actions builds the site and deploys to Pages. Check progress at
-<https://github.com/PetreLaskov/PetreLaskov.github.io/actions>.
-
-## One-shot build
-
-```bash
+```sh
+npm ci
 npx quartz build
+node site/scripts/build.mjs --production
+node site/scripts/check.mjs
+node site/scripts/prepare-pages.mjs
 ```
 
-Output lands in `public/` (gitignored).
+The existing `content/`, `raw/` and Quartz source are retained for continuity. Do not bulk-import them into the new sections. Quartz's exclusions and draft filter remain active. Legacy pages use full-page navigation so links can safely enter the new design.
 
-## Attribution
+## Rollback
 
-Built on [Quartz](https://github.com/jackyzha0/quartz) by Jacky Zhao. See
-`LICENSE.txt` for Quartz's MIT license. Content copyright Petre Laskov
-unless otherwise noted.
+The pre-redesign revision is tagged `pre-redesign-2026-09-28`. Revert the redesign commit to restore the previous workflow and entrance pages without rewriting history.

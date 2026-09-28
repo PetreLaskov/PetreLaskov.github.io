@@ -1,0 +1,41 @@
+{
+  "name": "Petre Laskov",
+  "url": "https://petrelaskov.github.io",
+  "description": "The online home of Petre Laskov: wisdom and practice, The Knowledge Project, art, and about.",
+  "home": {
+    "title": "Practice, inquiry & imagination.",
+    "intro": "The online home of Petre Laskov."
+  },
+  "about": {
+    "paragraphs": [],
+    "professional": [],
+    "links": [],
+    "email": ""
+  },
+  "areas": [
+    {
+      "slug": "wisdom",
+      "label": "Wisdom & practice",
+      "number": "01",
+      "description": "Wisdom traditions, contemplative practice, and learning through experience.",
+      "empty": "Resources, studies, and reflections will appear here.",
+      "items": []
+    },
+    {
+      "slug": "knowledge",
+      "label": "The Knowledge Project",
+      "number": "02",
+      "description": "Philosophy, books, ideas, and experiments in thinking with AI.",
+      "empty": "Essays, conversations, and projects will appear here.",
+      "items": []
+    },
+    {
+      "slug": "art",
+      "label": "Art",
+      "number": "03",
+      "description": "Selected images, collections, and visual experiments.",
+      "empty": "Selected work and collections will appear here.",
+      "items": []
+    }
+  ]
+}

@@ -24,3 +24,8 @@ Thumbs.db
 # Replit (from upstream Quartz; unused)
 .replit
 replit.nix
+
+# The new site source assets are versioned; only generated output is ignored.
+!site/public/
+!site/public/**
+site/dist/

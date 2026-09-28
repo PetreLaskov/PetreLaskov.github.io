@@ -1,3 +1,5 @@
+> Current website (28 September 2026): the homepage and four sections are generated from site/. Read README.md and site/CONTENT_GUIDE.md first. The instructions below apply to the retained Quartz archive, not the new homepage. Content population remains deferred.
+
 # Knowledge Compiler — petrelaskov.github.io
 
 You maintain the published personal hub of Petre Laskov, compiled from source
