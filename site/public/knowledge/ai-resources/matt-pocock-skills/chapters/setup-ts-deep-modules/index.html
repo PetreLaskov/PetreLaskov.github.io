@@ -1,0 +1,206 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>setup-ts-deep-modules — agent skill guide, critique and refactor — Petre Laskov</title><meta name="description" content="Study of Matt Pocock’s setup-ts-deep-modules skill: when to use it, strengths, criticism, proposed refactor, exact differences, an original proposal and recorded evaluations."><link rel="canonical" href="https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/setup-ts-deep-modules/"><meta property="og:type" content="article"><meta property="og:title" content="setup-ts-deep-modules — agent skill guide, critique and refactor"><meta property="og:description" content="Study of Matt Pocock’s setup-ts-deep-modules skill: when to use it, strengths, criticism, proposed refactor, exact differences, an original proposal and recorded evaluations."><meta property="og:url" content="https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/setup-ts-deep-modules/"><meta property="og:site_name" content="Petre Laskov"><meta name="twitter:card" content="summary"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/setup-ts-deep-modules/#edition","url":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/setup-ts-deep-modules/","name":"setup-ts-deep-modules — agent skill guide, critique and refactor","headline":"setup-ts-deep-modules — agent skill guide, critique and refactor","description":"Study of Matt Pocock’s setup-ts-deep-modules skill: when to use it, strengths, criticism, proposed refactor, exact differences, an original proposal and recorded evaluations.","inLanguage":"en","datePublished":"2026-09-29","dateModified":"2026-09-29","publisher":{"@type":"Person","name":"Petre Laskov","url":"https://petrelaskov.github.io/"},"isBasedOn":{"@type":"CreativeWork","name":"Matt Pocock skills","url":"https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7","author":{"@type":"Person","name":"Matt Pocock"}},"isPartOf":{"@type":"CreativeWork","name":"Matt Pocock skills — full study edition","url":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/"},"creativeWorkStatus":"AI-generated study edition with inspectable development evaluation"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Petre Laskov","item":"https://petrelaskov.github.io/"},{"@type":"ListItem","position":2,"name":"The Knowledge Project","item":"https://petrelaskov.github.io/knowledge/"},{"@type":"ListItem","position":3,"name":"AI Resources","item":"https://petrelaskov.github.io/knowledge/ai-resources/"},{"@type":"ListItem","position":4,"name":"Matt Pocock skills","item":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/"},{"@type":"ListItem","position":5,"name":"setup-ts-deep-modules — agent skill guide, critique and refactor","item":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/setup-ts-deep-modules/"}]}]}</script><style>body{margin:0;background:#f7f5ef;color:#202727;font:17px/1.75 system-ui,sans-serif}a{color:#145b77;text-underline-offset:3px}header,main,footer{width:min(900px,calc(100% - 40px));margin:auto}header{padding:28px 0;border-bottom:1px solid #d7ddd4}nav{font-size:14px;line-height:1.8}nav a{margin-right:10px}main{padding:32px 0 60px}h1{font:700 clamp(27px,5vw,40px)/1.2 Georgia,serif;overflow-wrap:anywhere}h2{font:700 27px/1.3 Georgia,serif;margin-top:40px}h3{font-size:21px}p,li{overflow-wrap:anywhere}li{margin:10px 0}.meta{font-size:13px;color:#52615b}.material-links{padding:16px 0;border-block:1px solid #d7ddd4;margin:25px 0}.material-links a{display:inline-block;margin:3px 16px 3px 0}code{font:14px/1.6 ui-monospace,Consolas,monospace;overflow-wrap:anywhere}pre{padding:18px;background:#eef0e9;border:1px solid #d7ddd4;overflow:auto}pre code{white-space:pre;overflow-wrap:normal}table{display:block;overflow:auto;border-collapse:collapse;font-size:14px}td,th{padding:9px;border:1px solid #d7ddd4;vertical-align:top}details{padding:14px;border:1px solid #d7ddd4;margin:20px 0}summary{cursor:pointer;font-weight:650;overflow-wrap:anywhere}blockquote{margin:24px 0;border-left:3px solid #205c4a;padding-left:20px}footer{padding:25px 0;font-size:13px;border-top:1px solid #d7ddd4}.chapter-list{padding-left:24px}.chapter-list p{margin:3px 0 20px;color:#52615b;font-size:15px}a:focus-visible{outline:3px solid #b5722e;outline-offset:4px}.skip{position:absolute;top:-100px}.skip:focus{top:0;background:white;padding:10px}img{max-width:100%}</style></head><body><a class="skip" href="#main">Skip to content</a><header><nav aria-label="Breadcrumb"><a href="/">Petre Laskov</a> / <a href="/knowledge/">The Knowledge Project</a> / <a href="/knowledge/ai-resources/">AI Resources</a> / <a href="/knowledge/ai-resources/matt-pocock-skills/">Matt Pocock skills</a> / <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/setup-ts-deep-modules/">setup-ts-deep-modules — agent skill guide, critique and refactor</a></nav><p class="meta">Study edition commissioned and published by Petre Laskov. Analysis, refactors and evaluations were produced with OpenAI Codex. Original skills by Matt Pocock, preserved under the MIT license. Independent reviews in this edition are AI reviews, not independent human validation. Published <time datetime="2026-09-29">29 September 2026</time>.</p></header><main id="main"><nav class="material-links" aria-label="Chapter materials"><a href="/knowledge/ai-resources/matt-pocock-skills/#setup-ts-deep-modules/chapter">Open in the full reader</a><a href="/knowledge/ai-resources/matt-pocock-skills/chapters/setup-ts-deep-modules.md">Chapter Markdown</a><a href="/knowledge/ai-resources/matt-pocock-skills/diffs/setup-ts-deep-modules.diff">Exact package diff</a><a href="/knowledge/ai-resources/matt-pocock-skills/evals/setup-ts-deep-modules.md">Evaluation record</a></nav><h1>Setup TS Deep Modules: enforce entrances, then test that the fence reaches them</h1>
+<p><strong>Source status: in-progress / beta, excluded from the promoted plugin.</strong></p>
+<p><strong>Port bet: conditional.</strong> Add dependency-cruiser rules for flat TypeScript package boundaries and verify allowed and forbidden imports across every importer root.</p>
+<h2>Source and reading map</h2>
+<ul>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/in-progress/setup-ts-deep-modules/SKILL.md">SKILL.md:7-35</a> · <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/in-progress/setup-ts-deep-modules/SKILL.md#L7">pinned upstream</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/in-progress/setup-ts-deep-modules/SKILL.md">SKILL.md:39-65</a> · <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/in-progress/setup-ts-deep-modules/SKILL.md#L39">pinned upstream</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/in-progress/setup-ts-deep-modules/SKILL.md">SKILL.md:67-102</a> · <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/in-progress/setup-ts-deep-modules/SKILL.md#L67">pinned upstream</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/in-progress/setup-ts-deep-modules/dependency-cruiser.config.cjs">dependency-cruiser.config.cjs:14-74</a> · <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/in-progress/setup-ts-deep-modules/dependency-cruiser.config.cjs#L14">pinned upstream</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/in-progress/setup-ts-deep-modules/dependency-cruiser.config.cjs">dependency-cruiser.config.cjs:88-95</a> · <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/in-progress/setup-ts-deep-modules/dependency-cruiser.config.cjs#L88">pinned upstream</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/in-progress/setup-ts-deep-modules/agents/openai.yaml">agents/openai.yaml:1-5</a> · <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/in-progress/setup-ts-deep-modules/agents/openai.yaml#L1">pinned upstream</a></li>
+</ul>
+<h2>Understand the source</h2>
+<p>This skill installs an architectural convention and a tool that enforces it. Packages live as immediate children of one root, such as src/packages. Every file directly inside a package is a public entrypoint; everything in its subfolders is private implementation. Multiple small entrypoints are encouraged, so a package need not funnel all exports through one giant index barrel. Implementation conventionally lives in lib and tests in tests, but the privacy rule applies to any subfolder.</p>
+<p>The source states four conceptual rules: outsiders enter through root files; a package&#39;s own implementation can import its internals; tests exercise public entrypoints while using their own fixtures; and dependencies must not form cycles. The bundled configuration actually contains five forbidden rules because it separately enforces test-folder privacy. This is not necessarily a behavior bug, but it is an important discrepancy between the prose count and the actual artifact.</p>
+<p>The workflow detects package manager and package root, installs dependency-cruiser, merges or creates its configuration, adds a boundary-check command, scaffolds an example package, demonstrates pass-fail-pass on an illegal test import, and writes a local convention document linked from agent instructions. The source insists that the negative test is the completion criterion. A configuration that never rejects a violation has not demonstrated enforcement.</p>
+<h2>Why it is more than folder tidiness</h2>
+<p>A deep module exposes a relatively small interface while hiding substantial behavior. The folder rule is a proxy for one part of that design: controlling which dependencies can reach implementation details. If app code imports a billing helper from billing/lib, the helper becomes an accidental public API. Later refactoring that helper can break consumers the package owner did not know existed. Enforcing entrypoints makes those dependencies visible and gives internal changes more freedom.</p>
+<p>Tests through entrypoints reinforce the same idea. A test that only passes because it can reach private helpers may lock in implementation structure rather than behavior. The source allows tests to share their own fixtures and permits integration tests across package entrypoints. It does not allow tests to import even their own package&#39;s internal implementation. That is a strong policy choice, useful for some designs and costly for algorithms whose internal properties need direct examination.</p>
+<p>Use the skill when a repository wants this flat-package convention and has actual boundary leakage to prevent. Do not apply it merely because a TypeScript repository exists. Existing package exports, nested workspaces, generated code, framework routes, or colocated tests may require a different model. A tool can enforce entrances without proving that the public API is well designed. Moving every helper to a root file would satisfy the rule while defeating its architectural intention.</p>
+<h2>Worked example and configuration audit</h2>
+<p>Consider src/packages/billing/index.ts delegating to billing/lib/calculate.ts. App code may import billing/index. Billing implementation may import its own lib/calculate. Billing tests may import ../index and their own tests/fixtures. An import from app.ts to billing/lib/calculate should fail, as should a billing test reaching ../lib/calculate, or another package importing billing/tests/fixtures.</p>
+<p>The configuration uses captured package names and dependency-cruiser&#39;s group matching to allow same-package imports while blocking cross-package internals. It also distinguishes tests from other importers. Those details are why the template should not be flattened into a few broad regular expressions without understanding its semantics. The file is CommonJS so it works in repositories whose package.json declares module type.</p>
+<p>A subtle coverage issue appears in the source command: depcruise can be pointed only at the packages root. If app code outside that root is never part of the analyzed graph, the app-to-internals rule may not see its imports. The port therefore identifies all relevant importer roots and includes them in the checked graph. Another adaptation issue is PACKAGES_ROOT being inserted into regexes without escaping; unusual path characters can change matching. The existing template also assumes a root tsconfig and a particular extension set. “Only change PACKAGES_ROOT” is too strong for arbitrary repositories.</p>
+<h2>Strengths, criticism, and why one might keep it</h2>
+<p>The pass-fail-pass requirement is the best part of the source. It turns a decorative configuration into a behavioral claim that can be challenged. The local README plus a short agent pointer is also well judged: detailed conventions live near the packages they govern, while always-loaded instructions remain small. Multiple public entrypoints avoid treating one giant barrel as the only route to encapsulation.</p>
+<p>The weakness is the gap between structural privacy and semantic depth. The tool cannot tell whether an entrypoint leaks internal types, requires consumers to orchestrate too many steps, or hides almost nothing. The strict public-only test policy may also be inappropriate for some repositories. Global cycle prohibition can exceed the requested package-boundary scope. A committed example package adds permanent demonstration code even when an existing package or temporary fixture would teach the convention better.</p>
+<p>The strongest reason to keep the original is that a clear convention can outperform a flexible system when a team is starting fresh. One root, one depth rule, and one negative example are easy to teach. The refactor preserves that default for compatible repositories, but makes compatibility, scan coverage, and meaningful negative cases explicit rather than assuming the template generalizes unchanged.</p>
+<h2>Refactor, testing boundary, and collaboration bet</h2>
+<p>The port first checks whether the repository&#39;s actual shape matches flat packages with root-file entrypoints. It retains the template as an audited starting point and merges existing configuration. It scans all relevant importers, adapts resolution options, and verifies allowed entrypoint imports, forbidden app and cross-package deep imports, test privacy, and cycles where in scope. It uses isolated fixtures or an existing representative package instead of unconditionally committing an example. Only actual observed runs count as enforcement evidence.</p>
+<p>The bundled configuration in this study package is retained without claiming that it has been executed against a target repository. Its mechanisms have been inspected; target installation and enforcement tests remain a separate action. This distinction matters because parser resolution and dependency graph coverage are properties of the real environment, not just the text of a rule.</p>
+<p>My bet is conditional adoption where the team chooses this architecture. Success means fewer accidental private dependencies and more freedom to refactor internals, with manageable exception cost. The falsifier is that developers constantly move internals into root files to bypass the rule, or the configuration blocks legitimate design more often than it prevents coupling. Passing a negative fixture is necessary evidence of enforcement, not evidence that the architecture is good.</p>
+<h2>An original proposal: contract-surface-audit</h2>
+<p>Contract-surface-audit examines what consumers must know to use a module. It traces a few real callers and asks how much sequencing, representation knowledge, error handling, and internal vocabulary the public surface exposes. The output is a small redesign proposal around one concrete consumer task, with a before/after call-site example. This complements import enforcement by testing the interface itself.</p>
+<p>For billing, callers might import only approved root files yet still fetch a customer, normalize a plan, compute discounts, select a tax strategy, and manually assemble an invoice. The public boundary exists, but the consumer owns too much billing knowledge. A proposed operation such as prepareInvoice can hide that orchestration while preserving necessary policy choices. Conversely, collapsing every operation into one opaque function may make debugging and composition worse. The audit should surface that tradeoff through actual callers.</p>
+<p>Within this collection, the proposal focuses specifically on consumer knowledge burden at a public contract rather than module size or folder boundaries. Its cost is reading representative call sites and resisting attractive abstractions unsupported by use. It fails if it simply renames functions, introduces a universal service object, or measures quality by the number of exported symbols alone. A successful redesign makes a real task simpler while keeping meaningful choices visible.</p>
+<h2>Study exercises and connections</h2>
+<p>Draw the allowed import matrix for app code, package implementation, package tests, and another package. Then mark which rows a packages-only scan can actually observe. Design one allowed and one forbidden fixture for each important boundary.</p>
+<p>Next, inspect a module that obeys the rules and count the concepts a caller must understand to accomplish one task. Does the interface hide useful complexity or merely relocate files? Compare <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/codebase-design/">codebase-design</a> for the architectural vocabulary, <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/improve-codebase-architecture/">improve-codebase-architecture</a> for redesign, and <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/setup-pre-commit/">setup-pre-commit</a> for wiring a check into a feedback surface.</p>
+<h2>Semantic delta: what the refactor changes</h2>
+<ol>
+<li><p><strong>Check architecture compatibility.</strong> Establish flat packages, entrypoint conventions, tests, and cycle scope before installing a policy. <strong>Tradeoff:</strong> Less automatic than choosing src/packages from directory presence.</p>
+</li>
+<li><p><strong>Cover all importers.</strong> Scan app and other importer roots so configured boundaries can actually observe violations. <strong>Tradeoff:</strong> The graph may be larger and reveal more preexisting issues.</p>
+</li>
+<li><p><strong>Treat the template as adaptable code.</strong> Account for five rules, regex root handling, tsconfig, and resolution rather than promising a one-variable edit. <strong>Tradeoff:</strong> Requires environment-specific inspection.</p>
+</li>
+<li><p><strong>Expand negative verification.</strong> Test distinct app, cross-package, test, fixture, and cycle behaviors instead of one illegal test import. <strong>Tradeoff:</strong> More setup work, justified by materially different rule paths.</p>
+</li>
+<li><p><strong>Avoid permanent demonstration clutter.</strong> Use isolated fixtures or representative existing packages unless a committed example is useful. <strong>Tradeoff:</strong> The repository may lack the source default copy-me template.</p>
+</li>
+<li><p><strong>Adapt Codex packaging without changing invocation.</strong> Omit Claude-only disable-model-invocation and argument-hint keys while preserving explicit-only policy in the copied agents/openai.yaml. <strong>Tradeoff:</strong> The study package targets Codex metadata rather than being a byte-identical cross-host manifest.</p>
+</li>
+</ol>
+<p>The full executable instructions are in <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-ts-deep-modules/SKILL.md">the refactor</a>. Existing invocation policy is preserved through copied agents/openai.yaml: explicit invocation only. Claude-only frontmatter keys are omitted from the Codex package; that packaging change does not change who may invoke it. The original proposal has ordinary discovery and lives in <a href="/knowledge/ai-resources/matt-pocock-skills/original-skills/contract-surface-audit/SKILL.md">contract-surface-audit</a>. These are study packages, not installed skills.</p>
+<h2>Evaluation boundary</h2>
+<p>The authorial recommendation above is a hypothesis, not an evaluation result. <a href="/knowledge/ai-resources/matt-pocock-skills/evals/setup-ts-deep-modules.md">The independent evaluation</a> contains the recorded trial responses and judgments. That run record takes precedence over predictions in this chapter. Reading the instructions and inspecting their syntax cannot prove improved collaboration; that requires a task with an observable result and an informative failure case. The source, proposed port, and original proposal should be distinguishable in any comparison.</p>
+<!-- INDEPENDENT-AUDIT -->
+<h2>Independent scrutiny</h2>
+<p>The semantic reviewer read the source and candidate independently of this chapter and its author bet. Initial verdict: <strong>clear</strong>. The public-root/private-subfolder convention, same-package implementation access, public-entrypoint tests, fixture privacy, optional cycle policy, wiring, documentation, and observed enforcement remain. The candidate correctly requires all importer roots, preventing a package-only scan from missing app imports. Its fixture matrix covers each substantive rule rather than only one test deep-import example. The unchanged template contains stale comments suggesting only PACKAGES_ROOT needs adaptation, but the entrypoint explicitly overrides that by requiring inspected resolution options and configuration merging. No additional material defect is established statically.</p>
+<p>No entrypoint repair needed. Remove stale drop-in comments on the next template edit; runtime fixture results must establish enforcement.</p>
+<p>Evidence: <a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/in-progress/setup-ts-deep-modules/SKILL.md">source/skills/in-progress/setup-ts-deep-modules/SKILL.md:24-35</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/in-progress/setup-ts-deep-modules/SKILL.md">source/skills/in-progress/setup-ts-deep-modules/SKILL.md:55-95</a>; <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-ts-deep-modules/SKILL.md">refactored/setup-ts-deep-modules/SKILL.md:8-18</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-ts-deep-modules/dependency-cruiser.config.cjs">refactored/setup-ts-deep-modules/dependency-cruiser.config.cjs:12-18</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-ts-deep-modules/dependency-cruiser.config.cjs">refactored/setup-ts-deep-modules/dependency-cruiser.config.cjs:28-94</a>. This is static inspection, not proof of a completed workflow.</p>
+<h3>Scrutiny of the original proposal</h3>
+<p>The independent portfolio reviewer read the proposed skill without this chapter&#39;s advocacy. Initial verdict for <strong>contract-surface-audit</strong>: <strong>pilot</strong>. “Pilot” means worth a bounded test; it does not mean proven or selected for installation.</p>
+<p>It examines real caller obligations, compares concrete current and proposed use, checks a second caller, and pressures the interface with an unusual legitimate case. Responsibility movement stays explicit. The unit of improvement is consumer knowledge rather than folder layout, export count, or code size. That makes this more focused than generic architecture review.</p>
+<p><strong>Weakness:</strong> A second caller may still share the same hidden assumptions. Hiding repeated orchestration can centralize policy that legitimately belongs to different consumers.</p>
+<p><strong>Suggested improvement:</strong> Keep as a standalone candidate. Choose the second caller for a meaningful policy difference rather than convenience, and state which responsibility moves and why the module is the right owner.</p>
+<p>A proposed test was: Review this storage API using two real callers. Propose a smaller public surface that removes accidental sequencing knowledge while preserving caller-owned consistency choices. Success would mean: The proposed call sites eliminate an identified accidental obligation, preserve necessary domain choices, and behave coherently on an error or unusual valid case. This is a test proposal, not an observed outcome.</p>
+<p>The full <a href="/knowledge/ai-resources/matt-pocock-skills/reviews/refactor-audit.json">refactor audit</a> and <a href="/knowledge/ai-resources/matt-pocock-skills/reviews/original-portfolio.json">initial original-portfolio review</a> preserve the independent record. No proposal inherits effectiveness from having passed a structural check.</p>
+<section><h2>Complete proposed refactor</h2><details ><summary>agents/openai.yaml</summary><pre><code>interface:
+  display_name: &quot;Setup TS Deep Modules&quot;
+  short_description: &quot;Enforce deep TypeScript modules&quot;
+policy:
+  allow_implicit_invocation: false
+</code></pre></details><details ><summary>dependency-cruiser.config.cjs</summary><pre><code>// @ts-check
+// Deep-module enforcement for dependency-cruiser.
+//
+// Each package under the packages root is a DEEP MODULE: a lot of behaviour
+// behind a small interface. A package's PUBLIC SURFACE is its ENTRY POINTS:
+// the files at the package root. Implementation lives in SUBFOLDERS and is
+// private (by convention `lib/` for implementation and `tests/` for tests,
+// though any subfolder is private). A package may expose several small entry
+// points (index.ts, client.ts, server.ts, …); prefer that over one giant
+// barrel index.
+//
+// The only thing you should ever need to edit here is PACKAGES_ROOT.
+
+/** Where packages live. One immediate child dir per package (flat, no nesting). */
+const PACKAGES_ROOT = &quot;src/packages&quot;;
+
+// --- derived patterns (no need to edit) -------------------------------------
+const R = PACKAGES_ROOT;
+/**
+ * A package's private internals: anything nested inside a package subfolder.
+ * The package's root files are its entry points and are NOT matched here:
+ * they stay importable from outside.
+ */
+const PACKAGE_INTERNALS = `^${R}/[^/]+/[^/]+/`;
+
+/** @type {import('dependency-cruiser').IConfiguration} */
+module.exports = {
+  forbidden: [
+    {
+      name: &quot;entrypoint-boundary-from-app&quot;,
+      comment:
+        &quot;App/root code may import a package's entry points (its root files), but nothing inside its subfolders.&quot;,
+      severity: &quot;error&quot;,
+      from: { pathNot: `^${R}/` }, // importer is NOT inside any package
+      to: { path: PACKAGE_INTERNALS },
+    },
+    {
+      name: &quot;entrypoint-boundary-across-packages&quot;,
+      comment:
+        &quot;A package's own files import each other freely, but may reach OTHER packages only through their entry points, never their internals.&quot;,
+      severity: &quot;error&quot;,
+      // importer is inside a package ($1), but is not a test file
+      from: { path: `^${R}/([^/]+)/`, pathNot: `^${R}/[^/]+/tests/` },
+      to: {
+        path: PACKAGE_INTERNALS,
+        pathNot: `^${R}/$1/`, // same package → intra-package freedom
+      },
+    },
+    {
+      name: &quot;tests-through-entrypoints&quot;,
+      comment:
+        &quot;A package's tests exercise it through its entry points like everyone else: they may import any package's entry points and their own tests/ fixtures, but never any package's internals, not even their own.&quot;,
+      severity: &quot;error&quot;,
+      from: { path: `^${R}/([^/]+)/tests/` }, // a test file, in package $1
+      to: {
+        path: PACKAGE_INTERNALS,
+        pathNot: `^${R}/$1/tests/`, // own tests/ fixtures → allowed
+      },
+    },
+    {
+      name: &quot;tests-folder-is-private&quot;,
+      comment:
+        &quot;A package's tests/ folder is reachable only from tests: nothing else may import fixtures.&quot;,
+      severity: &quot;error&quot;,
+      from: { pathNot: `^${R}/[^/]+/tests/` }, // importer is not itself a test
+      to: { path: `^${R}/[^/]+/tests/` },
+    },
+    {
+      name: &quot;no-circular&quot;,
+      comment: &quot;No dependency cycles. Scope to `^${R}/` if you want to allow cycles outside packages.&quot;,
+      severity: &quot;error&quot;,
+      from: {},
+      to: { circular: true },
+    },
+
+    // --- Layering (optional, off by default) ----------------------------------
+    // Interface-hiding controls HOW you import (through the entry points).
+    // Layering controls WHICH packages may depend on which. Add your own rules
+    // here, e.g.:
+    //
+    // {
+    //   name: &quot;ui-may-not-depend-on-billing&quot;,
+    //   severity: &quot;error&quot;,
+    //   from: { path: `^${R}/ui/` },
+    //   to:   { path: `^${R}/billing/` },
+    // },
+  ],
+  options: {
+    doNotFollow: { path: &quot;node_modules&quot; },
+    tsConfig: { fileName: &quot;tsconfig.json&quot; },
+    enhancedResolveOptions: {
+      extensions: [&quot;.ts&quot;, &quot;.tsx&quot;, &quot;.js&quot;, &quot;.jsx&quot;, &quot;.json&quot;],
+    },
+  },
+};
+</code></pre></details><details ><summary>LICENSE</summary><pre><code>MIT License
+
+Copyright (c) 2026 Matt Pocock
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</code></pre></details><details open><summary>SKILL.md</summary><pre><code>name: setup-ts-deep-modules
+description: &quot;Add dependency-cruiser rules for flat TypeScript package boundaries and verify allowed and forbidden imports across every importer root.&quot;</code></pre><h3>Setup TS Deep Modules</h3>
+<p>Enforce a chosen flat-package convention: root files are public entrypoints; all package subfolders are private. Preserve multiple small entrypoints rather than a barrel that reexports everything. Tests use public entrypoints and their own fixtures. Same-package implementation may use its internals.</p>
+<p>Inspect package manager, actual package layout, existing dependency-cruiser configuration, TypeScript resolution, and all importer roots. Use this convention only when it fits the requested architecture; surface a material mismatch instead of silently reorganizing the repository. Confirm whether cycle prohibition and public-only tests belong in scope.</p>
+<p>Use <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-ts-deep-modules/dependency-cruiser.config.cjs">dependency-cruiser.config.cjs</a> as an inspected template, not a universally correct drop-in. It contains five forbidden rules implementing the boundary and test-privacy policy. Adapt PACKAGES_ROOT, escape it if needed in regexes, and adapt tsconfig and resolution options. Preserve group matching that allows same-package access. Merge existing settings instead of replacing them.</p>
+<p>Install through the repository&#39;s package manager and add a boundary-check command covering every relevant importer root, including app code outside packages. Wire it into the existing check/CI path without overwriting scripts or changing aliases unnecessarily.</p>
+<p>Verify in isolated fixtures or a suitable representative package: allowed public imports and own implementation imports pass; app and cross-package deep imports fail; tests cannot import implementation or another package&#39;s fixtures; own fixtures pass; a cycle fails if cycle checking is in scope. Restore clean state and rerun. Inspect named violations so a resolver error is not mistaken for boundary enforcement.</p>
+<p>Do not claim enforcement without these observed results. Document the convention beside its packages and add a short pointer from existing agent guidance. Add a permanent example only when useful and within scope. Report actual coverage, adaptations, unresolved violations, and checks run. Structural enforcement does not itself prove a deep or well-designed API.</p>
+</details></section><section><h2>Complete original proposal: contract-surface-audit</h2><details open><summary>SKILL.md</summary><pre><code>name: contract-surface-audit
+description: &quot;Improve a module public interface by reducing the knowledge and orchestration required of real consumers.&quot;</code></pre><h3>Contract Surface Audit</h3>
+<p>Use when a module has a public boundary but callers still need too much internal knowledge. Choose one representative consumer task and read its actual call sites alongside the exported API. Do not judge the interface by export count or file size alone.</p>
+<p>List the knowledge the caller must supply: sequencing, internal representations, state transitions, error interpretation, lifecycle management, or policy decisions. Distinguish essential domain choices from accidental implementation burden. Identify the smallest repeated burden worth hiding.</p>
+<p>Sketch two interfaces for the same task: the current call sequence and a proposed surface. Show concrete code or pseudocode at the call site. Explain what knowledge moves behind the boundary and which choices remain explicit. Check a second caller so the design does not optimize only one anecdote.</p>
+<p>Pressure-test the proposal with one error or unusual but legitimate case. Avoid an opaque universal operation that hides necessary control, and avoid exposing internals merely to keep every option configurable. Prefer the smallest change that removes a real consumer obligation.</p>
+<p>If implementation is requested, migrate one vertical slice and test behavior through the public surface before expanding. Otherwise deliver the interface proposal and tradeoffs. Report the consumer task that becomes simpler, the responsibility the module now owns, and a case that would show the abstraction is wrong. Do not reorganize folders as a substitute for improving the contract.</p>
+</details></section><nav class="material-links" aria-label="Chapter materials"><a href="/knowledge/ai-resources/matt-pocock-skills/#setup-ts-deep-modules/chapter">Open in the full reader</a><a href="/knowledge/ai-resources/matt-pocock-skills/chapters/setup-ts-deep-modules.md">Chapter Markdown</a><a href="/knowledge/ai-resources/matt-pocock-skills/diffs/setup-ts-deep-modules.diff">Exact package diff</a><a href="/knowledge/ai-resources/matt-pocock-skills/evals/setup-ts-deep-modules.md">Evaluation record</a></nav></main><footer><a href="/knowledge/ai-resources/matt-pocock-skills/">Full interactive reader</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/">All 38 chapters</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/evaluation/">Evaluation method and results</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/LICENSE-MATT-POCOCK.txt">Source license</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/PUBLICATION.md">Publication details</a></footer></body></html>

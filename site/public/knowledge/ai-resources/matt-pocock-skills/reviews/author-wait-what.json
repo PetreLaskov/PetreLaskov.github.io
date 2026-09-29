@@ -1,0 +1,44 @@
+{
+  "slug": "wait-what",
+  "bucket": "productivity",
+  "chapter": "chapters/wait-what.md",
+  "refactor": "refactored/wait-what/SKILL.md",
+  "original_slug": "contrastive-explanation",
+  "original_path": "original-skills/contrastive-explanation/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "Adopt a tiny explicit repair command; judge restored comprehension rather than word count.",
+  "source_files_read": [
+    "source/skills/productivity/wait-what/agents/openai.yaml",
+    "source/skills/productivity/wait-what/SKILL.md",
+    "source/docs/productivity/wait-what.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/productivity/wait-what/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "Target the missing connection",
+      "reason": "Paraphrase may preserve confusion",
+      "tradeoff": "Slightly more directive"
+    },
+    {
+      "id": 2,
+      "change": "Translate standard cue",
+      "reason": "Avoid unverified formal compliance",
+      "tradeoff": "Lose specialized anchor"
+    },
+    {
+      "id": 3,
+      "change": "Preserve policy in supported metadata",
+      "reason": "Codex explicit-only behavior remains",
+      "tradeoff": "Omit Claude-specific key"
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

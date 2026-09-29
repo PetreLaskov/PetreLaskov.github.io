@@ -1,0 +1,232 @@
+--- a/source/skills/engineering/tdd/LICENSE
++++ b/refactored/tdd/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2026 Matt Pocock
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+--- a/source/skills/engineering/tdd/SKILL.md
++++ b/refactored/tdd/SKILL.md
+@@ -1,38 +1,24 @@
+ ---
+ name: tdd
+-description: Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests.
++description: Build defined behavior through small observed red-green slices at agreed public seams, using independent test expectations. Use for meaningful test-first work, not automatic tests for every edit.
+ ---
+ 
+-# Test-Driven Development
++# TDD
+ 
+-TDD is the red → green loop. This skill is the reference that makes that loop produce tests worth keeping: what a good test is, where tests go, the anti-patterns, and the rules of the loop. Every section applies on every cycle: consult them before and during the loop, not after.
++Before adding a test, identify behavior and an independent oracle. For mechanical wiring, formatting, or type-only changes, use the meaningful type/build/manual check instead of a test that restates the code.
+ 
+-When exploring the codebase, read `CONTEXT.md` (if it exists) so test names and interface vocabulary match the project's domain language, and respect ADRs in the area you're touching.
++Read existing domain terms and decisions. Reuse seams already agreed in the spec or conversation. For an undecided seam, recommend one and explain what it catches, what it misses, and its feedback cost; confirm consequential choices before writing tests there.
+ 
+-## What a good test is
++A seam is the interface at which callers observe behavior. Prefer the lowest-cost seam that still includes the interaction being protected. Consult codebase-design when interface shape itself is unresolved; do not launch a redesign merely to write tests.
+ 
+-Tests verify behavior through public interfaces, not implementation details. Code can change entirely; tests shouldn't. A good test reads like a specification: "user can checkout with valid cart" tells you exactly what capability exists, and it survives refactors because it doesn't care about internal structure.
++## One behavioral slice
+ 
+-See [tests.md](tests.md) for examples and [mocking.md](mocking.md) for mocking guidelines.
++1. Select one observable capability and expected result from the spec, a worked example, known literal, or independent property.
++2. Write the test through the agreed seam. Use [tests.md](tests.md) and, when substituting I/O, [mocking.md](mocking.md).
++3. Run it and observe failure for the intended missing/wrong behavior. A broken harness is not the desired red. If already green, investigate existing behavior or an insensitive assertion.
++4. Implement only enough to satisfy this slice and run it green.
++5. Continue with the next behavior informed by this result. Avoid bulk imagined tests followed by bulk implementation.
+ 
+-## Seams: where tests go
++Keep broad structural redesign in deliberate review. Small necessary behavior-preserving cleanup under green tests is permitted; do not use it to expand the feature.
+ 
+-A **seam** is the public boundary you test at: the interface where you observe behavior without reaching inside. Tests live at seams, never against internals.
+-
+-**Test only at pre-agreed seams.** Before writing any test, write down the seams under test and confirm them with the user. No test is written at an unconfirmed seam. You can't test everything, so agreeing the seams up front is how testing effort lands on the critical paths and complex logic instead of every edge case.
+-
+-Ask: "What's the public interface, and which seams should we test?"
+-
+-When the shape of that interface is itself in question (how deep the module is, where the seam belongs, what the interface should expose), call the Skill tool with "codebase-design" for the vocabulary. It is the shared source of the module, interface, depth, seam, adapter, leverage and locality terms, and it is a reference to consult, not a session to run.
+-
+-## Anti-patterns
+-
+-- **Implementation-coupled**: mocks internal collaborators, tests private methods, or verifies through a side channel (querying the database instead of using the interface). The tell: the test breaks when you refactor but behavior hasn't changed.
+-- **Tautological**: the assertion recomputes the expected value the way the code does (`expect(add(a, b)).toBe(a + b)`, a snapshot derived by hand the same way, a constant asserted equal to itself), so it passes by construction and can never disagree with the code. Expected values must come from an independent source of truth: a known-good literal, a worked example, the spec.
+-- **Horizontal slicing**: writing all tests first, then all implementation. Bulk tests verify _imagined_ behavior: you test the _shape_ of things rather than user-facing behavior, the tests go insensitive to real changes, and you commit to test structure before understanding the implementation. Work in **vertical slices** instead: one test → one implementation → repeat, each test a **tracer bullet** that responds to what the last cycle taught you.
+-
+-## Rules of the loop
+-
+-- **Red before green.** Write the failing test first, then only enough code to pass it. Don't anticipate future tests or add speculative features.
+-- **One slice at a time.** One seam, one test, one minimal implementation per cycle.
+-- **Refactoring is not part of the loop.** It belongs to the review stage (see the `code-review` skill), not the red → green implementation cycle.
++Tests should survive internal rewrites. Avoid internal mocks, private-method assertions, and expected values computed by the same logic as the implementation. One logical behavior can require multiple assertions. Record meaningful red/green evidence rather than claiming test-first from file order alone.
+--- a/source/skills/engineering/tdd/mocking.md
++++ b/refactored/tdd/mocking.md
+@@ -1,59 +1,11 @@
+-# When to Mock
++# Substituting dependencies
+ 
+-Mock at **system boundaries** only:
++Keep real owned in-process behavior inside the tested slice. Mocking every internal collaborator often removes the interaction that contains the bug.
+ 
+-- External APIs (payment, email, etc.)
+-- Databases (sometimes - prefer test DB)
+-- Time/randomness
+-- File system (sometimes)
++Substitute genuinely external or nondeterministic boundaries: network services, clock, randomness, and sometimes filesystem or database. Prefer a suitable local service or stand-in when its semantics matter. An owned remote service is still a transport boundary.
+ 
+-Don't mock:
++Inject narrow domain-shaped operations rather than a generic fetch function whose mock recreates routing logic. Example: paymentGateway.charge has a clear result/error contract.
+ 
+-- Your own classes/modules
+-- Internal collaborators
+-- Anything you control
++State what a double does not establish. An in-memory store does not prove database uniqueness or transaction behavior; a mocked HTTP success does not prove the external API accepts the request. Add integration/contract evidence where the requirement depends on those semantics.
+ 
+-## Designing for Mockability
+-
+-At system boundaries, design interfaces that are easy to mock:
+-
+-**1. Use dependency injection**
+-
+-Pass external dependencies in rather than creating them internally:
+-
+-```typescript
+-// Easy to mock
+-function processPayment(order, paymentClient) {
+-  return paymentClient.charge(order.total);
+-}
+-
+-// Hard to mock
+-function processPayment(order) {
+-  const client = new StripeClient(process.env.STRIPE_KEY);
+-  return client.charge(order.total);
+-}
+-```
+-
+-**2. Prefer SDK-style interfaces over generic fetchers**
+-
+-Create specific functions for each external operation instead of one generic function with conditional logic:
+-
+-```typescript
+-// GOOD: Each function is independently mockable
+-const api = {
+-  getUser: (id) => fetch(`/users/${id}`),
+-  getOrders: (userId) => fetch(`/users/${userId}/orders`),
+-  createOrder: (data) => fetch('/orders', { method: 'POST', body: data }),
+-};
+-
+-// BAD: Mocking requires conditional logic inside the mock
+-const api = {
+-  fetch: (endpoint, options) => fetch(endpoint, options),
+-};
+-```
+-
+-The SDK approach means:
+-- Each mock returns one specific shape
+-- No conditional logic in test setup
+-- Easier to see which endpoints a test exercises
+-- Type safety per endpoint
++Use production and test adapters when meaningful variation justifies the seam; do not add abstractions solely to satisfy a mocking preference.
+--- a/source/skills/engineering/tdd/tests.md
++++ b/refactored/tdd/tests.md
+@@ -1,77 +1,11 @@
+-# Good and Bad Tests
++# Tests that can disagree
+ 
+-## Good Tests
++Good: call calculateInvoice with a worked input totaling 40 and assert 45 because the independent contract adds delivery below 50. Then check the exact 50 threshold against a literal expected 50.
+ 
+-**Integration-style**: Test through real interfaces, not mocks of internal parts.
++Weak: compute the expected result with the same conditional and summation as production. Both can share the mistake.
+ 
+-```typescript
+-// GOOD: Tests observable behavior
+-test("user can checkout with valid cart", async () => {
+-  const cart = createCart();
+-  cart.add(product);
+-  const result = await checkout(cart, paymentMethod);
+-  expect(result.status).toBe("confirmed");
+-});
+-```
++Good: create a user and retrieve it through the intended interface. Weak: inspect private fields merely because the current implementation stores them there.
+ 
+-Characteristics:
++Test the contract. A persistence adapter or migration may legitimately use database state as its public outcome. A receipt-delivery boundary may promise exactly one send; asserting that external interaction protects behavior. Counting internal helper calls merely freezes structure.
+ 
+-- Tests behavior users/callers care about
+-- Uses public API only
+-- Survives internal refactors
+-- Describes WHAT, not HOW
+-- One logical assertion per test
+-
+-## Bad Tests
+-
+-**Implementation-detail tests**: Coupled to internal structure.
+-
+-```typescript
+-// BAD: Tests implementation details
+-test("checkout calls paymentService.process", async () => {
+-  const mockPayment = jest.mock(paymentService);
+-  await checkout(cart, payment);
+-  expect(mockPayment.process).toHaveBeenCalledWith(cart.total);
+-});
+-```
+-
+-Red flags:
+-
+-- Mocking internal collaborators
+-- Testing private methods
+-- Asserting on call counts/order
+-- Test breaks when refactoring without behavior change
+-- Test name describes HOW not WHAT
+-- Verifying through external means instead of interface
+-
+-```typescript
+-// BAD: Bypasses interface to verify
+-test("createUser saves to database", async () => {
+-  await createUser({ name: "Alice" });
+-  const row = await db.query("SELECT * FROM users WHERE name = ?", ["Alice"]);
+-  expect(row).toBeDefined();
+-});
+-
+-// GOOD: Verifies through interface
+-test("createUser makes user retrievable", async () => {
+-  const user = await createUser({ name: "Alice" });
+-  const retrieved = await getUser(user.id);
+-  expect(retrieved.name).toBe("Alice");
+-});
+-```
+-
+-**Tautological tests**: Expected value restates the implementation, so the test passes by construction.
+-
+-```typescript
+-// BAD: Expected value is recomputed the way the code computes it
+-test("calculateTotal sums line items", () => {
+-  const items = [{ price: 10 }, { price: 5 }];
+-  const expected = items.reduce((sum, i) => sum + i.price, 0);
+-  expect(calculateTotal(items)).toBe(expected);
+-});
+-
+-// GOOD: Expected value is an independent, known literal
+-test("calculateTotal sums line items", () => {
+-  expect(calculateTotal([{ price: 10 }, { price: 5 }])).toBe(15);
+-});
+-```
++Name capabilities and distinguish missing behavior from harness failure. A red test should reject a plausible wrong implementation; a green test is bounded evidence for the scenario it covers, not proof of the whole feature.

@@ -1,0 +1,52 @@
+--- a/source/skills/productivity/handoff/LICENSE
++++ b/refactored/handoff/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2026 Matt Pocock
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+--- a/source/skills/productivity/handoff/SKILL.md
++++ b/refactored/handoff/SKILL.md
+@@ -1,16 +1,17 @@
+ ---
+ name: handoff
+-description: Compact the current conversation into a handoff document for another agent to pick up.
+-argument-hint: "What will the next session be used for?"
+-disable-model-invocation: true
++description: Write a targeted portable handoff when current work must continue in another session, environment, directory, or agent.
+ ---
++# Handoff
+ 
+-Write a handoff document summarising the current conversation so a fresh agent can continue the work. Save to the temporary directory of the user's OS - not the current workspace.
++Write for the next task, using the user's stated focus when supplied. Keep the live goal, action-relevant constraints, current state, unresolved decisions, and next useful move.
+ 
+-Include a "suggested skills" section in the document, naming which skills the next agent should call the Skill tool for.
++Distinguish verified outcomes from beliefs, completed work from planned work, and user decisions from proposals where the distinction affects continuation. Preserve the reason behind a non-obvious constraint.
+ 
+-Do not duplicate content already captured in other artifacts (specs, plans, ADRs, issues, commits, diffs). Reference them by path or URL instead.
++Reference existing specs, plans, ADRs, issues, commits, and diffs instead of copying them. Make paths resolvable from the destination; verify available local references and flag ones the recipient may not access. Include a suggested-skills section with each capability's purpose; do not assume a particular invocation tool.
+ 
+-Redact any sensitive information, such as API keys, passwords, or personally identifiable information.
++Redact secrets and unnecessary personal information. Retain only nonsecret context needed for the authorized task.
+ 
+-If the user passed arguments, treat them as a description of what the next session will focus on and tailor the doc accordingly.
++Save in the actual operating system temporary directory, outside the workspace, unless the user specified another destination. Report the exact path and that temporary storage is not durable. Do not silently move or publish referenced artifacts.
++
++Read the document as a fresh receiver: can it choose the correct first action without mistaking a proposal for authorization or an unverified claim for a result? Deliver the path and any missing prerequisite.

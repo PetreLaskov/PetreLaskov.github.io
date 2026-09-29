@@ -1,0 +1,28 @@
+{
+  "runtimeErrors": [],
+  "chapters": 38,
+  "panelChecks": 228,
+  "search": {
+    "originalProposal": 1,
+    "empty": 0
+  },
+  "mobile": {
+    "360": {
+      "scrollWidth": 360,
+      "innerWidth": 360,
+      "overflow": false
+    },
+    "390": {
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "overflow": false
+    }
+  },
+  "internalLinks": {
+    "refactor": true,
+    "original": true,
+    "evaluation": true
+  },
+  "title": "Matt Pocock skills · Study compendium",
+  "pass": true
+}

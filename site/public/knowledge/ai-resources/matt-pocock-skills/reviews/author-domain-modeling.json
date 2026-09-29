@@ -1,0 +1,56 @@
+{
+  "slug": "domain-modeling",
+  "bucket": "engineering",
+  "chapter": "chapters/domain-modeling.md",
+  "refactor": "refactored/domain-modeling/SKILL.md",
+  "original_slug": "boundary-cases",
+  "original_path": "original-skills/boundary-cases/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "Pilot where ambiguous domain words cause real mistakes; keep the glossary small, context-specific, and separated from implementation decisions.",
+  "source_files_read": [
+    "source/skills/engineering/domain-modeling/ADR-FORMAT.md",
+    "source/skills/engineering/domain-modeling/agents/openai.yaml",
+    "source/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+    "source/skills/engineering/domain-modeling/SKILL.md",
+    "source/docs/engineering/domain-modeling.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "action": "retained",
+      "reason": "Retained focused source reference; entrypoint changes govern its application."
+    },
+    {
+      "file": "source/skills/engineering/domain-modeling/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    },
+    {
+      "file": "source/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "action": "retained",
+      "reason": "Retained focused source reference; entrypoint changes govern its application."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "Respect project ADR conventions",
+      "reason": "Avoid parallel sources of truth",
+      "tradeoff": "Less uniform packaging"
+    },
+    {
+      "id": 2,
+      "change": "Focus on consequential ambiguity",
+      "reason": "Harmless synonyms need not interrupt",
+      "tradeoff": "Requires judgment"
+    },
+    {
+      "id": 3,
+      "change": "Separate current from intended behavior",
+      "reason": "Code and user memory can each be wrong",
+      "tradeoff": "Explicit reconciliation"
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

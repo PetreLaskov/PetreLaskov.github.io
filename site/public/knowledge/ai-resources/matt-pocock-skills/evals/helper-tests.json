@@ -1,0 +1,131 @@
+{
+  "run_at": "2026-09-29T09:00:03.208Z",
+  "scope": "The original inspected hook is executed only as a classifier of JSON text. jq is substituted by a fixture-only JSON selector because jq is unavailable. No classified command is executed. Tests characterize the source regex policy, not host enforcement or complete shell parsing.",
+  "records": [
+    {
+      "id": "status",
+      "command": "git status",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "meets_intended_classification": true,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "id": "push",
+      "command": "git push origin HEAD",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "meets_intended_classification": true,
+      "stderr": "BLOCKED: 'git push origin HEAD' matches dangerous pattern 'git push'. The user has prevented you from doing this.",
+      "stdout": ""
+    },
+    {
+      "id": "reset",
+      "command": "git reset --hard HEAD",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "meets_intended_classification": true,
+      "stderr": "BLOCKED: 'git reset --hard HEAD' matches dangerous pattern 'git reset --hard'. The user has prevented you from doing this.",
+      "stdout": ""
+    },
+    {
+      "id": "reset-with-directory",
+      "command": "git -C repo reset --hard HEAD",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "meets_intended_classification": true,
+      "stderr": "BLOCKED: 'git -C repo reset --hard HEAD' matches dangerous pattern 'reset --hard'. The user has prevented you from doing this.",
+      "stdout": ""
+    },
+    {
+      "id": "clean-source-spelling",
+      "command": "git clean -fd",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "meets_intended_classification": true,
+      "stderr": "BLOCKED: 'git clean -fd' matches dangerous pattern 'git clean -fd'. The user has prevented you from doing this.",
+      "stdout": ""
+    },
+    {
+      "id": "clean-reordered-flags",
+      "command": "git clean -df",
+      "expected_exit": 2,
+      "actual_exit": 0,
+      "meets_intended_classification": false,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "id": "checkout-with-separator",
+      "command": "git checkout -- .",
+      "expected_exit": 2,
+      "actual_exit": 0,
+      "meets_intended_classification": false,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "id": "restore-with-option",
+      "command": "git restore --worktree .",
+      "expected_exit": 2,
+      "actual_exit": 0,
+      "meets_intended_classification": false,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "id": "branch-long-options",
+      "command": "git branch --delete --force old",
+      "expected_exit": 2,
+      "actual_exit": 0,
+      "meets_intended_classification": false,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "id": "quoted-mention",
+      "command": "printf '%s' 'git push'",
+      "expected_exit": 0,
+      "actual_exit": 2,
+      "meets_intended_classification": false,
+      "stderr": "BLOCKED: 'printf '%s' 'git push'' matches dangerous pattern 'git push'. The user has prevented you from doing this.",
+      "stdout": ""
+    },
+    {
+      "id": "composition",
+      "command": "git status && git reset --hard HEAD",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "meets_intended_classification": true,
+      "stderr": "BLOCKED: 'git status && git reset --hard HEAD' matches dangerous pattern 'git reset --hard'. The user has prevented you from doing this.",
+      "stdout": ""
+    }
+  ],
+  "syntax": [
+    {
+      "id": "hook",
+      "path": "source\\skills\\misc\\git-guardrails-claude-code\\scripts\\block-dangerous-git.sh",
+      "exit": 0,
+      "stderr": ""
+    },
+    {
+      "id": "wizard",
+      "path": "source\\skills\\engineering\\wizard\\template.sh",
+      "exit": 0,
+      "stderr": ""
+    },
+    {
+      "id": "debug-loop",
+      "path": "source\\skills\\engineering\\diagnosing-bugs\\scripts\\hitl-loop.template.sh",
+      "exit": 0,
+      "stderr": ""
+    },
+    {
+      "id": "dependency-config",
+      "path": "source\\skills\\in-progress\\setup-ts-deep-modules\\dependency-cruiser.config.cjs",
+      "exit": 0,
+      "stderr": ""
+    }
+  ]
+}

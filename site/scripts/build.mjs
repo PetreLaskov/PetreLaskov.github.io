@@ -1,3 +1,4 @@
+import './build-study-pages.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -7,6 +8,7 @@ const data=JSON.parse(fs.readFileSync(path.join(root,'content/site.json'),'utf8'
 const production=process.argv.includes('--production');
 const esc=(v='')=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl=v=>{if(typeof v!=='string'||!/^https:\/\//.test(v))throw Error('External links must use https: '+v);new URL(v);return esc(v)};
+const resourceUrl=v=>{if(typeof v==='string'&&/^\/[a-zA-Z0-9/._-]*$/.test(v)&&!v.startsWith('//')&&!v.split('/').includes('..'))return esc(v);return safeUrl(v)};
 const asset=v=>{if(!/^\/assets\/[a-zA-Z0-9_./-]+$/.test(v)||v.includes('..'))throw Error('Use /assets/ paths for local images');if(!fs.existsSync(path.join(root,'public',v)))throw Error('Missing image: '+v);return esc(v)};
 const navItems=[...data.areas,{slug:'about',label:'About',number:'04',description:'A personal introduction, professional background, and ways to connect.'}];
 if(data.areas.map(a=>a.slug).join(',')!=='wisdom,knowledge,art')throw Error('Keep the four agreed navigation areas.');
@@ -39,6 +41,7 @@ for(const area of data.areas){for(const item of area.items){
  if(!item.url&&!item.paragraphs?.length&&!item.sections?.length&&!item.image&&!item.images?.length)throw Error('Local items need text or artwork: '+key);
  if(item.images)for(const pic of item.images){if(!pic.alt||!pic.credit)throw Error('Each collection image needs alt text and credit');asset(pic.image)}
  if(item.image&&(!item.alt||!item.credit))throw Error('Artwork needs alt text and exact credit: '+key);
+ if(item.links)for(const link of item.links){if(!link.label)throw Error('Resource links need a label');resourceUrl(link.url)}
  if(item.url)safeUrl(item.url);if(item.image)asset(item.image);
  if(item.date&&!/^\d{4}-\d{2}-\d{2}$/.test(item.date))throw Error('Use YYYY-MM-DD dates');
 }}
@@ -56,8 +59,9 @@ for(const area of data.areas){
  const intro='<div class="page-head"><a class="back" href="/'+area.slug+'/">'+esc(area.label)+'</a><h1>'+esc(item.title)+'</h1><p>'+esc(item.summary)+'</p></div>';
  const meta=[item.kind,item.date,item.author||data.name,item.role,item.assistance].filter(Boolean).map(s=>'<p>'+esc(s)+'</p>').join('');
  const sections=(item.sections||[]).map(s=>'<section><h2>'+esc(s.heading)+'</h2>'+paragraphs(s.paragraphs)+'</section>').join('');
+ const resources=item.links?.length?'<section class="related"><h2>'+esc(item.linksTitle||'Resources')+'</h2><ul>'+item.links.map(link=>'<li><a href="'+resourceUrl(link.url)+'">'+esc(link.label)+'</a>'+(link.summary?'<p>'+esc(link.summary)+'</p>':'')+'</li>').join('')+'</ul></section>':'';
  const sources=item.sources?.length?'<section class="related"><h2>Sources</h2><ul>'+item.sources.map(s=>'<li><a href="'+safeUrl(s.url)+'">'+esc(s.label)+'</a>'+(s.note?' — '+esc(s.note):'')+'</li>').join('')+'</ul></section>':'';
- page(route,item.title+' — '+data.name,item.summary,intro+image(item)+(item.images||[]).map(pic=>image({...pic,title:item.title})).join('')+'<div class="article-layout"><aside class="meta" aria-label="Publication details">'+meta+'</aside><article class="prose">'+paragraphs(item.paragraphs)+sections+sources+'</article></div>',area.slug);
+ page(route,item.title+' — '+data.name,item.summary,intro+image(item)+(item.images||[]).map(pic=>image({...pic,title:item.title})).join('')+'<div class="article-layout"><aside class="meta" aria-label="Publication details">'+meta+'</aside><article class="prose">'+paragraphs(item.paragraphs)+sections+resources+sources+'</article></div>',area.slug);
  }
 }
 const about=navItems.at(-1);
@@ -69,6 +73,10 @@ const contact=(data.about.email?'<p><a href="mailto:'+esc(data.about.email)+'">'
 page('/about/','About — '+data.name,about.description,head(about)+'<div class="about-layout"><div class="prose">'+bio+'</div><aside><section class="side-section"><h2>Professional background</h2>'+work+'</section><section class="side-section"><h2>Elsewhere &amp; contact</h2>'+(contact||'<p>Links and a way to get in touch will be added here.</p>')+'</section></aside></div>','about');
 page('/404.html','Page not found — '+data.name,'This page could not be found.','<div class="not-found"><div class="eyebrow">404</div><h1>This page isn’t here.</h1><p><a href="/">Return home</a></p></div>');
 fs.writeFileSync(path.join(out,'robots.txt'),production?'User-agent: *\nAllow: /\nSitemap: '+origin+'/sitemap.xml\n':'User-agent: *\nDisallow: /\n');
-if(origin)fs.writeFileSync(path.join(out,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+routes.filter(r=>r!='/404.html').map(r=>'<url><loc>'+esc(origin+r)+'</loc></url>').join('')+'</urlset>');
+// Static editions are copied intact; include their reader entrances in discovery.
+for(const area of data.areas)for(const item of area.items)for(const link of item.links||[]){if(link.url.startsWith('/')&&fs.existsSync(path.join(out,link.url,'index.html'))&&!routes.includes(link.url))routes.push(link.url)}
+const staticRoutes=JSON.parse(fs.readFileSync(path.join(root,'content/additional-routes.json'),'utf8'));
+for(const item of staticRoutes){if(!/^\/[a-z0-9/-]+\/$/.test(item.route)||!/^\d{4}-\d{2}-\d{2}$/.test(item.lastmod)||!fs.existsSync(path.join(out,item.route,'index.html')))throw Error('Invalid static study route');if(!routes.includes(item.route))routes.push(item.route)}
+if(origin)fs.writeFileSync(path.join(out,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+routes.filter(r=>r!='/404.html').map(r=>'<url><loc>'+esc(origin+r)+'</loc>'+(staticRoutes.find(x=>x.route===r)?'<lastmod>'+staticRoutes.find(x=>x.route===r).lastmod+'</lastmod>':'')+'</url>').join('')+'</urlset>');
 fs.writeFileSync(path.join(out,'.nojekyll'),'');
 console.log('Built '+routes.length+' pages in dist/ ('+(production?'production':'private preview')+').');

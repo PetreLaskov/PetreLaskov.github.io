@@ -1,0 +1,63 @@
+{
+  "slug": "code-review",
+  "bucket": "engineering",
+  "chapter": "chapters/code-review.md",
+  "refactor": "refactored/code-review/SKILL.md",
+  "original_slug": "test-the-oracle",
+  "original_path": "original-skills/test-the-oracle/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "Preserve independent Standards and Spec axes; make the reviewed artifact explicit, prevent recursive delegation, and verify actionable findings.",
+  "source_files_read": [
+    "source/skills/engineering/code-review/SKILL.md",
+    "source/skills/engineering/code-review/agents/openai.yaml",
+    "source/docs/engineering/code-review.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "copy",
+      "reason": "Preserve source UI metadata and invocation policy exactly."
+    },
+    {
+      "file": "source/LICENSE",
+      "action": "copy",
+      "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Pin both base and reviewed state, including working changes when requested.",
+      "reason": "HEAD-only comparison cannot review implement's uncommitted result.",
+      "tradeoff": "Snapshot preparation adds a small step and untracked files need explicit handling."
+    },
+    {
+      "id": "D2",
+      "change": "Pass leaf-review briefs that forbid recursive invocation or further delegation.",
+      "reason": "The documented fan-out failure arises from ambiguous subagent scope.",
+      "tradeoff": "Leaf reviewers cannot independently recruit specialists."
+    },
+    {
+      "id": "D3",
+      "change": "Verify evidence before reporting a finding while preserving separate axes.",
+      "reason": "Aggregation should not launder an unsupported subagent claim into a conclusion.",
+      "tradeoff": "Coordinator reads relevant hunks again."
+    },
+    {
+      "id": "D4",
+      "change": "Prefer a user-supplied spec over inferred issue references.",
+      "reason": "The user can explicitly identify the authoritative contract.",
+      "tradeoff": "A mistaken supplied source must be surfaced rather than silently substituted."
+    },
+    {
+      "id": "D5",
+      "change": "Keep smell baseline in a conditional reference and require concrete change cost.",
+      "reason": "Names of smells should not generate cosmetic churn.",
+      "tradeoff": "Some weak style leads are intentionally omitted."
+    }
+  ],
+  "source_commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+  "evaluation_status": "recorded-development-trials",
+  "author_word_count": 1561
+}

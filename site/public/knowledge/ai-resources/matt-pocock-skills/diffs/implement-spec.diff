@@ -1,0 +1,71 @@
+--- a/source/skills/in-progress/implement-spec/LICENSE
++++ b/refactored/implement-spec/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2026 Matt Pocock
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+--- a/source/skills/in-progress/implement-spec/SKILL.md
++++ b/refactored/implement-spec/SKILL.md
+@@ -1,35 +1,20 @@
+ ---
+ name: implement-spec
+-description: "Implement a specification in code."
+-disable-model-invocation: true
++description: "Implement a ticketed specification on one integration branch by scheduling ready work and validating each integrated dependency."
+ ---
+ 
+-You have been provided a spec. This spec should have tickets associated with it, describing how to implement the spec.
++# Implement Spec
+ 
+-The goal is a PR which implements the entire spec on a single branch.
++Deliver the ticketed specification as one integrated branch and reviewable PR. Read the spec, tickets, repository guidance, and current work before scheduling. Resolve missing acceptance criteria or dependency cycles that prevent useful work; do not silently redesign the spec.
+ 
+-The tickets are not a list of steps. They are a **task graph** with blocking relationships between them. This means there is always a **frontier** of tickets which are ready to be grabbed.
++Maintain a compact task graph with dependencies, acceptance target, ownership, state, and integrated revision. A ticket is ready only when its blocking dependencies are integrated and their relevant checks pass. Track shared-file or unstable-interface conflicts even when tickets have no declared edge.
+ 
+-Communication to and from subagents should be sparse. Communicate primarily through **context pointers**: to the spec, tickets, research notes, and previous commits. Don't duplicate information already available via pointers.
++Create the integration branch and draft PR through available authorized tools. Link the actual spec and tickets; use closing references only for work this PR will fully deliver. If external creation is unavailable, retain the branch and report the limitation accurately.
+ 
+-**Implementer subagents** should be run in the background where possible for **maximum concurrency**.
++Dispatch independent ready tickets up to available capacity. Each implementer uses an isolated worktree and branch based on the current integration revision. Send context pointers, acceptance criteria, owned scope, and expected validation. Use shared research notes when exploration genuinely repeats across tickets.
+ 
+-## Steps
++Integrate completed work serially. Review the diff and evidence, merge or reconcile it, then run the checks needed to establish the changed contract on the integration branch. Only then unlock dependents. Failed integration returns the ticket to active work; a worker's completion report alone is insufficient.
+ 
+-1. Read the spec and tickets. Read enough to understand the task graph.
++When all tickets integrate, verify the whole spec, including interactions omitted by individual ticket tests. Run the available code-review workflow, assess findings for validity and scope, fix actionable defects, and recheck affected behavior. Mark the PR ready only when required checks pass or any remaining limitation is explicitly disclosed.
+ 
+-2. (optional) Use an **exploration subagent** to conduct any exploration required by the tickets - relevant codebase files or external documentation. Ensure the exploration subagent can save files - it should save its markdown notes in a directory outside the repo, accessible by all future subagents. This lets **implementer subagents** focus on implementation rather than exploration.
+-
+-3. Create a branch, and a draft PR. The PR should be marked as 'closing' the spec issue and tickets.
+-
+-4. Use **implementer subagents** to implement each ticket. Each implementer subagent should work in its own worktree, on its own branch.
+-
+-5. Once an **implementer subagent** completes, merge its work to the PR branch with a **merger subagent**.
+-
+-6. If this changes the **frontier** of available tickets, kick off more **implementer subagents** to work on the new tickets. This allows for maximum concurrency.
+-
+-7. Once all tickets are complete, run /code-review on the PR branch. Fix all issues raised by the code review in a single **implementer subagent**.
+-
+-8. Mark the PR as ready for review.
+-
+-9. Clean up all **implementer subagent** worktrees.
++Retire worker checkouts only after their work is accounted for and no agent or process needs them. Use the host's managed lifecycle tools when available. Report the integrated result, validation, and remaining risks without equating ticket count with completion.

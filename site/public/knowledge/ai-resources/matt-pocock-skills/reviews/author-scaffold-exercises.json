@@ -1,0 +1,59 @@
+{
+  "slug": "scaffold-exercises",
+  "bucket": "misc",
+  "chapter": "chapters/scaffold-exercises.md",
+  "refactor": "refactored/scaffold-exercises/SKILL.md",
+  "original_slug": "misconception-lab",
+  "original_path": "original-skills/misconception-lab/SKILL.md",
+  "port_bet": "conditional",
+  "summary": "Create or renumber course exercise skeletons that follow the repository conventions and pass its actual structure checks.",
+  "source_files_read": [
+    "skills/misc/scaffold-exercises/agents/openai.yaml",
+    "skills/misc/scaffold-exercises/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Inspect actual course conventions",
+      "reason": "Read existing structure and installed checks before applying the source naming and file rules.",
+      "tradeoff": "Less portable as a blind scaffold generator, more reliable in a real repository."
+    },
+    {
+      "id": "D2",
+      "change": "Make reruns preserve work",
+      "reason": "Detect collisions, create missing content, and update references during renumbering.",
+      "tradeoff": "Conflicting plans may need a concrete user decision."
+    },
+    {
+      "id": "D3",
+      "change": "Clarify primary variants",
+      "reason": "Resolve the source prose/linter mismatch by requiring a valid primary problem or explainer under this convention.",
+      "tradeoff": "Solution-only plans need an accompanying primary variant."
+    },
+    {
+      "id": "D4",
+      "change": "Separate scaffolding from teaching completeness",
+      "reason": "Report a lint-ready skeleton honestly and leave educational content work visible.",
+      "tradeoff": "The result may look less finished than a passing linter suggests."
+    },
+    {
+      "id": "D5",
+      "change": "Scope commit behavior",
+      "reason": "Commit when included in requested delivery and stage only task-owned changes.",
+      "tradeoff": "Removes the source unconditional commit as a universal default."
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

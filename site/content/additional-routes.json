@@ -1,0 +1,166 @@
+[
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/writing-for-agents/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/grilling/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/grill-me/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/teach/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/research/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/handoff/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/prototype/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/wayfinder/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/to-spec/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/domain-modeling/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/wait-what/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/grill-with-docs/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/loop-me/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/retro/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/to-tickets/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/diagnosing-bugs/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/code-review/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/tdd/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/implement/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/writing-fragments/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/writing-shape/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/writing-beats/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/to-questionnaire/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/scaffold-exercises/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/codebase-design/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/improve-codebase-architecture/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/ask-matt/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/setup-matt-pocock-skills/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/pr/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/triage/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/resolving-merge-conflicts/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/wizard/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/implement-spec/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/claude-handoff/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/setup-pre-commit/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/git-guardrails-claude-code/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/setup-ts-deep-modules/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/migrate-to-shoehorn/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/chapters/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/evaluation/",
+    "lastmod": "2026-09-29"
+  },
+  {
+    "route": "/knowledge/ai-resources/matt-pocock-skills/",
+    "lastmod": "2026-09-29"
+  }
+]

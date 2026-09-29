@@ -1,0 +1,50 @@
+{
+  "slug": "writing-for-agents",
+  "bucket": "productivity",
+  "chapter": "chapters/writing-for-agents.md",
+  "refactor": "refactored/writing-for-agents/SKILL.md",
+  "original_slug": "decision-preserving-compression",
+  "original_path": "original-skills/decision-preserving-compression/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "Adopt behavioral pruning and context-pointer discipline; treat claims about leading words and negation as hypotheses to test.",
+  "source_files_read": [
+    "source/skills/productivity/writing-for-agents/agents/openai.yaml",
+    "source/skills/productivity/writing-for-agents/SKILL-MECHANICS.md",
+    "source/skills/productivity/writing-for-agents/SKILL.md",
+    "source/docs/productivity/writing-for-agents.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/productivity/writing-for-agents/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    },
+    {
+      "file": "source/skills/productivity/writing-for-agents/SKILL-MECHANICS.md",
+      "action": "replaced",
+      "reason": "Replaces harness-specific invocation defaults with current Codex policy."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "Make leading-word advice conditional",
+      "reason": "Useful heuristics are not universal laws",
+      "tradeoff": "Less forceful prose"
+    },
+    {
+      "id": 2,
+      "change": "Compare behavior cases",
+      "reason": "Protect rare-case obligations while pruning",
+      "tradeoff": "Review effort"
+    },
+    {
+      "id": 3,
+      "change": "Rewrite invocation reference",
+      "reason": "Destination policy differs from source harness",
+      "tradeoff": "Less source-harness specificity"
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

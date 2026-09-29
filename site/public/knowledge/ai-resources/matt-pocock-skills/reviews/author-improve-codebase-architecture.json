@@ -1,0 +1,76 @@
+{
+  "slug": "improve-codebase-architecture",
+  "bucket": "engineering",
+  "chapter": "chapters/improve-codebase-architecture.md",
+  "refactor": "refactored/improve-codebase-architecture/SKILL.md",
+  "original_slug": "subtract-a-dependency",
+  "original_path": "original-skills/subtract-a-dependency/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "A visual survey of evidence-backed deepening candidates should be allowed to conclude there is no worthwhile refactor and should stop before unchosen design work.",
+  "source_files_read": [
+    "source/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+    "source/skills/engineering/improve-codebase-architecture/SKILL.md",
+    "source/skills/engineering/improve-codebase-architecture/agents/openai.yaml",
+    "source/docs/engineering/improve-codebase-architecture.md",
+    "source/LICENSE",
+    "source/out-of-scope/question-limits.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "HTML-REPORT.md",
+      "action": "rewrite",
+      "reason": "Retain visual candidate cards and before/after diagrams; use offline inline CSS/SVG, evidence labels, and actual rendering checks instead of CDN assumptions."
+    },
+    {
+      "file": "agents/openai.yaml",
+      "action": "copy",
+      "reason": "Preserve source UI metadata and invocation policy exactly."
+    },
+    {
+      "file": "source/LICENSE",
+      "action": "copy",
+      "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Permit no justified candidates and separate evidence from speculative payoff.",
+      "reason": "A survey should not manufacture cleanup demand.",
+      "tradeoff": "Some runs produce a short report instead of attractive diagrams."
+    },
+    {
+      "id": "D2",
+      "change": "Retain hot-spot scoping but relate candidates to actual upcoming changes.",
+      "reason": "Recent churn alone can reflect generated code or mechanical edits.",
+      "tradeoff": "May need one additional source of context."
+    },
+    {
+      "id": "D3",
+      "change": "Use offline HTML with inline CSS/SVG and inspect rendering when possible.",
+      "reason": "The supplied self-contained report depends on remote scripts and can silently fail.",
+      "tradeoff": "More manual diagram layout, less automatic graph rendering."
+    },
+    {
+      "id": "D4",
+      "change": "Report first, then explore only a selected candidate; honor report-only requests.",
+      "reason": "Source docs describe unwanted long interviews before options.",
+      "tradeoff": "The process ends before an implementation-ready design unless selected."
+    },
+    {
+      "id": "D5",
+      "change": "Record recurring rejected candidates only for durable reasons and actual user decision.",
+      "reason": "Temporary deprioritization is not a permanent architecture prohibition.",
+      "tradeoff": "Some suggestions may recur when conditions change."
+    },
+    {
+      "id": "P1",
+      "change": "Omit Claude-only disable-model-invocation frontmatter while copying agents/openai.yaml explicit-only policy.",
+      "reason": "The target is Codex packaging; its metadata preserves invocation intent and the bundled validator accepts the supported frontmatter.",
+      "tradeoff": "This package is not a byte-identical Claude entrypoint."
+    }
+  ],
+  "source_commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+  "evaluation_status": "recorded-development-trials",
+  "author_word_count": 1600
+}

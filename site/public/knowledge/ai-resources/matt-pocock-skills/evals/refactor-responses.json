@@ -1,0 +1,522 @@
+{
+  "condition": "refactor",
+  "execution_note": "Text-only response trial: one shared evaluator context read evals/prompts.json, all 38 refactored SKILL.md entrypoints, and only the relevant permitted support/dependency files listed below. Each fixture was answered as its own request using supplied facts and no-execution constraints. No fresh-session independence, live fixture actions, actual test runs, publication, external side effects, implementation integration, scoring, or behavioral success is claimed. Missing fixture inputs are stated rather than fabricated. Only the response artifact is saved; candidates remain unchanged.",
+  "read_files": [
+    "evals/prompts.json",
+    "refactored/writing-for-agents/SKILL.md",
+    "refactored/grilling/SKILL.md",
+    "refactored/grill-me/SKILL.md",
+    "refactored/teach/SKILL.md",
+    "refactored/research/SKILL.md",
+    "refactored/handoff/SKILL.md",
+    "refactored/prototype/SKILL.md",
+    "refactored/wayfinder/SKILL.md",
+    "refactored/to-spec/SKILL.md",
+    "refactored/domain-modeling/SKILL.md",
+    "refactored/wait-what/SKILL.md",
+    "refactored/grill-with-docs/SKILL.md",
+    "refactored/loop-me/SKILL.md",
+    "refactored/retro/SKILL.md",
+    "refactored/to-tickets/SKILL.md",
+    "refactored/diagnosing-bugs/SKILL.md",
+    "refactored/code-review/SKILL.md",
+    "refactored/tdd/SKILL.md",
+    "refactored/implement/SKILL.md",
+    "refactored/writing-fragments/SKILL.md",
+    "refactored/writing-shape/SKILL.md",
+    "refactored/writing-beats/SKILL.md",
+    "refactored/to-questionnaire/SKILL.md",
+    "refactored/scaffold-exercises/SKILL.md",
+    "refactored/codebase-design/SKILL.md",
+    "refactored/improve-codebase-architecture/SKILL.md",
+    "refactored/ask-matt/SKILL.md",
+    "refactored/setup-matt-pocock-skills/SKILL.md",
+    "refactored/pr/SKILL.md",
+    "refactored/triage/SKILL.md",
+    "refactored/resolving-merge-conflicts/SKILL.md",
+    "refactored/wizard/SKILL.md",
+    "refactored/implement-spec/SKILL.md",
+    "refactored/claude-handoff/SKILL.md",
+    "refactored/setup-pre-commit/SKILL.md",
+    "refactored/git-guardrails-claude-code/SKILL.md",
+    "refactored/setup-ts-deep-modules/SKILL.md",
+    "refactored/migrate-to-shoehorn/SKILL.md",
+    "refactored/writing-for-agents/SKILL-MECHANICS.md",
+    "refactored/teach/MISSION-FORMAT.md",
+    "refactored/teach/RESOURCES-FORMAT.md",
+    "refactored/teach/LEARNING-RECORD-FORMAT.md",
+    "refactored/prototype/LOGIC.md",
+    "refactored/prototype/UI.md",
+    "refactored/domain-modeling/CONTEXT-FORMAT.md",
+    "refactored/domain-modeling/ADR-FORMAT.md",
+    "refactored/code-review/SMELLS.md",
+    "refactored/tdd/tests.md",
+    "refactored/codebase-design/DEEPENING.md",
+    "refactored/improve-codebase-architecture/HTML-REPORT.md",
+    "refactored/setup-matt-pocock-skills/issue-tracker-local.md",
+    "refactored/setup-matt-pocock-skills/domain.md",
+    "refactored/setup-matt-pocock-skills/triage-labels.md",
+    "refactored/wizard/template.sh",
+    "refactored/git-guardrails-claude-code/references/legacy-hook-audit.md",
+    "refactored/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+    "refactored/setup-ts-deep-modules/dependency-cruiser.config.cjs"
+  ],
+  "responses": [
+    {
+      "id": "writing-for-agents-N",
+      "response": "Fix the local CSV exporter so quoted commas and embedded newlines round-trip exactly. Read the exporter and its existing tests; inspect other files only when a dependency requires it. Preserve unrelated edits.\n\nWrite to a temporary file beside the destination, finish and close it successfully, then replace the destination using the platform's supported atomic operation. If serialization, writing, or replacement fails, report failure and leave the previous destination intact.\n\nVerify a round-trip containing a comma, a quoted word, and an embedded newline against literal original values. Inject a write failure with an existing destination and compare its bytes before and after. Finish with the changed files, checks actually run, and any unmet invariant."
+    },
+    {
+      "id": "writing-for-agents-S",
+      "response": "The rewrite removes a real safety constraint and makes every invocation pay for one provider's reference. “Use best judgment” does not preserve the warning's operational meaning.\n\nKeep the short entrypoint and restore a precise pointer: “When using provider X, read the provider reference before submitting or retrying a charge.” Restore the original duplicate-charge warning beside its retry guidance; do not invent a new retry guarantee.\n\nRetain any common obligations in the entrypoint. No broader restructuring is justified by the facts given. Compare a provider-X retry case, another provider's ordinary case, and a nearby non-trigger request before claiming improvement. Those trials have not run; this is a proposed repair."
+    },
+    {
+      "id": "writing-for-agents-X",
+      "response": "The job finished, but the report didn't."
+    },
+    {
+      "id": "grilling-N",
+      "response": "❓ Q1 — Booking commitment: Does submitting a booking immediately reserve equipment, or create a request an approver can decline?\n\n➡️ Recommended: immediate confirmation, provided eligible users may reserve available equipment without case-by-case approval. That gives users a dependable reservation immediately. Choose approval if suitability or allocation requires human judgment; then a pending request must not look confirmed.\n\nThis is the first dependency: capacity and competing-request rules follow from the answer, so I will hold those questions.\n\nThe authentication provider is a repository fact to inspect, not a choice for you to guess. No repository inspection is available in this fixture, so it remains unverified and does not block this policy decision."
+    },
+    {
+      "id": "grilling-S",
+      "response": "Keeping immediate booking, single-item capacity, and email login settled, these cancellation questions are ready:\n\n❓ Q1 — Cutoff: Can a holder cancel until the booking starts, or is earlier notice required?\n➡️ Recommended: allow cancellation until start, so unused equipment can return to availability. Choose an earlier cutoff only if preparation creates a real cost.\n\n❓ Q2 — Authority: Who besides the holder may cancel?\n➡️ Recommended: a designated administrator, with a recorded reason and notice to the holder, for unavailable or unsafe equipment.\n\n❓ Q3 — Release: When does cancellation free capacity?\n➡️ Recommended: when cancellation is confirmed, atomically, so another user can book it immediately.\n\nLate cancellation and no-show treatment depend on Q1; I will leave them for the next round."
+    },
+    {
+      "id": "grilling-X",
+      "response": "102"
+    },
+    {
+      "id": "grill-me-N",
+      "response": "Let's test the decision to host, rather than design the entire group.\n\n❓ Q1 — Personal commitment: What weekly time ceiling would let you complete all six weeks even if enthusiasm dips?\n➡️ Recommended: set a firm preparation-plus-hosting limit before committing. If the group cannot fit it, simplify the format.\n\n❓ Q2 — Minimum viable group: Would you still want to host if only two people attended?\n➡️ Recommended: choose your minimum worthwhile attendance, then seek expressions of interest before an unconditional commitment.\n\n❓ Q3 — Financial exposure: Are you willing to host only if costs stay within an explicit cap?\n➡️ Recommended: yes; use a free format as the initial option.\n\n“I don't know” is useful here: it identifies the small inquiry needed before deciding."
+    },
+    {
+      "id": "grill-me-S",
+      "response": "Six weeks is settled. This stays in conversation; nothing will be saved.\n\n❓ Q1 — Hosting commitment: What condition must be met before you say yes to hosting those six weeks?\n\n➡️ Recommended: commit only if you can name a sustainable weekly time limit and the group can fit within it. A recurring event can look small while preparation and coordination consume the spare time around it.\n\nStart with the constraint you would actually defend on a difficult week: what is the maximum total time you will give it? We can test the format against that answer next. Repository contents are irrelevant to this private decision."
+    },
+    {
+      "id": "grill-me-X",
+      "response": "Six people will meet each Thursday for six weeks to read one essay."
+    },
+    {
+      "id": "teach-N",
+      "response": "The mean spreads the total equally across everyone. For salaries 20, 20, 20, 20, 120, the total is 200; dividing by five gives a mean of 40.\n\nThe median is the middle salary after sorting: 20. Half the observations lie on either side of that middle position.\n\nIn a workplace report, “average salary 40” could therefore describe a group where four of five people earn 20. The high salary pulls up the mean much more than the median. Neither number alone describes the whole distribution.\n\nTransfer question: if 120 rises to 220, what happens to the mean and median, and which better describes a typical worker here? Explain your reasoning; understanding has not yet been demonstrated."
+    },
+    {
+      "id": "teach-S",
+      "response": "Replace the current assessment with this proposed record:\n\n“Supersedes the earlier ‘mastered’ claim. Yesterday the learner answered one multiple-choice median question with hints. This demonstrates supported recognition in that instance, not independent recall, transfer, or durable mastery. No new assessment has occurred.”\n\nNext, use one short unaided application rather than another hinted choice: “For salaries 18, 18, 24, 30, 110, calculate the mean and median, then explain which you would use to describe a typical salary.”\n\nUse the explanation to choose feedback or further practice. An independent success would be new evidence, not immediate proof of durable mastery; revisit later with a different example. This is a proposed correction, not a saved record or completed test."
+    },
+    {
+      "id": "teach-X",
+      "response": "The median is 2."
+    },
+    {
+      "id": "research-N",
+      "response": "API v2 bulk deletion is not supported by the supplied current official documentation. The current reference documents DELETE /items with a single id [fixture: current official reference], and the official v2 changelog describes bulk deletion as planned [fixture: official v2 changelog].\n\nThe blog's claim that it launched conflicts with both primary sources [fixture: blog]. On this evidence, do not design a bulk-delete integration or report the feature as released.\n\nThis establishes the documented support position, not a runtime test proving every possible bulk request fails. Release evidence or an updated official contract would be needed to overturn the finding. No browsing or API calls were performed."
+    },
+    {
+      "id": "research-S",
+      "response": "No. “Independently verified 99.99% uptime” exceeds the evidence.\n\nUse: “The vendor advertises 99.99% uptime. Its status history records two outages, but durations are unavailable, so we cannot calculate observed availability. Its SLA excludes maintenance, making the contractual measurement narrower than total service availability.”\n\nVerification needs a defined observation period, outage durations, coverage of unreported failures, and consistent treatment of maintenance. Two outages alone establish neither compliance nor noncompliance: their durations matter. A marketing promise and vendor-maintained history are also not independent measurement.\n\nLabel 99.99% as the vendor's advertised figure; observed uptime remains unverified. These facts support the wording above without further research."
+    },
+    {
+      "id": "research-X",
+      "response": "Please paste the paragraph to edit; it isn't included here."
+    },
+    {
+      "id": "handoff-N",
+      "response": "Continuation handoff — CSV export fix\n\nGoal: complete the fix against /project/spec.md. Read that specification directly; the next agent shares this filesystem.\n\nCandidate: commit abc123. Verify the current revision and any intervening working changes before editing.\n\nEvidence: the focused test passed. The full suite has not run; the fix is not fully verified.\n\nNext action: test failure preservation. Start with an existing output file, force the export to fail through the real export path, and verify the previous file's bytes remain unchanged. Record the observed result before adjusting the candidate.\n\nSuggested capabilities: diagnosing-bugs for a symptom-specific failure loop; tdd for regression protection at the agreed seam.\n\nDraft only; no handoff file or transfer has been created."
+    },
+    {
+      "id": "handoff-S",
+      "response": "Portable handoff plan:\n\nGoal and specification must travel together. /tmp/spec.md is local temporary storage; abc123 is an unpushed local commit. Neither is available on the destination merely because its identifier is listed.\n\nPrepare a reviewed, secret-free package containing the specification, a Git bundle or patch with its required base identified, and a short continuation note. Omit the secret entirely; record only any necessary credential prerequisite by variable name. Include checksums and import instructions, then transfer through an authorized channel.\n\nThe receiver should confirm the spec and commit are accessible, verify the working state, and resume the stated unfinished check. Suggested capability: handoff verification plus relevant regression testing. No package, transfer, import, or successor launch has occurred."
+    },
+    {
+      "id": "handoff-X",
+      "response": "In basketball, a handoff is when a player gives the ball directly to a nearby teammate. The receiver often moves past the ball-handler, whose position can help create space from a defender."
+    },
+    {
+      "id": "prototype-N",
+      "response": "Prototype question: can readers resolve concurrent offline edits without silently losing either version?\n\nUse one self-contained experimental page with a pure state model. Show server text/revision, each reader's base revision and local text, connection status, pending edits, and conflict state after every action.\n\nActions: edit as A/B, disconnect/reconnect, sync, choose A, choose B, combine, and reset. Reject resolution when no conflict exists, with a visible explanation.\n\nScenario 1: A edits offline while B stays unchanged; reconnect A and observe one clean update.\nScenario 2: both edit the same base; reconnect in either order, preserve both versions, and require an explicit resolution.\n\nThese scenarios test the proposed conflict policy and usability. They do not establish production synchronization correctness or scale; the user's policy verdict remains pending."
+    },
+    {
+      "id": "prototype-S",
+      "response": "The prototype demonstrates an interaction using sample data. It supplies no evidence that the system can serve 100000 real users: there is no real storage, network, authentication, workload, or measured concurrency behind that claim.\n\nFirst translate “100000 users” into the expected active concurrency and operation mix. Then build the smallest representative read/write path against the intended storage and run a bounded load experiment in an isolated environment. Measure latency, throughput, failures, and resource saturation against agreed targets.\n\nA single critical path is enough to expose an early bottleneck before building the whole product. Passing it supports only that tested path and workload; the UI prototype remains useful for design review."
+    },
+    {
+      "id": "prototype-X",
+      "response": "Change “Svae” to “Save”. No file edit was executed in this fixture."
+    },
+    {
+      "id": "wayfinder-N",
+      "response": "Map: Community archive access and preservation\nDestination: decide a viable access and preservation model.\nDecisions so far: none established.\nNot yet specified: migration questions that depend on the selected model.\nOut of scope: building the website or public launch.\n\nDraft children:\n- ARCH-01 — Rights model (grilling): who may access which materials under what permissions? Open, unclaimed, no blockers.\n- ARCH-02 — Storage cost (research): compare cost assumptions and preservation options for stated volume/growth ranges; record unknown inputs. Open, unclaimed, no blockers.\n- ARCH-03 — Select viable model (grilling): combine rights and cost findings. Blocked by ARCH-01 and ARCH-02.\n\nThe frontier is ARCH-01 and ARCH-02. Storage research can proceed independently; rights remains a user-owned decision. These are draft map contents, not created tracker records."
+    },
+    {
+      "id": "wayfinder-S",
+      "response": "Storage cost is the next eligible ticket. I would inspect its scope, current blockers, and ownership alongside the map, then prepare the bounded research question and available evidence.\n\nThis fixture permits no tracker mutation, so I cannot claim the ticket or report exclusive ownership. The proposed state is “Storage cost — open, unclaimed; eligible for research; claim pending write capability.” Before actual resolution work, recheck the frontier and establish the claim, because another worker could take it meanwhile.\n\nRights model remains with its active owner. Public launch stays out of scope. No ticket would be closed and no decision added to the map until supported findings and the authorized state transition exist."
+    },
+    {
+      "id": "wayfinder-X",
+      "response": "Proposed one-line change: replace the footer's “2025” with “2026”. No file was edited in this fixture."
+    },
+    {
+      "id": "to-spec-N",
+      "response": "Draft specification — Export visible rows\n\nProblem: users need a CSV containing the records currently shown after filtering.\n\nRequired behavior:\n- A user can export the visible table rows as CSV.\n- Active filters apply to the exported rows; excluded rows are absent.\n- The download filename is exactly reports.csv.\n- Export runs without a background job.\n\nImplementation decision: use the existing export service as the agreed testing seam.\n\nAcceptance: supply distinguishable matching and nonmatching rows, apply a filter, and assert that the service's CSV contains exactly the visible rows. Verify the download filename at the existing download boundary.\n\nOut of scope: background jobs and publication. No additional format or delivery behavior is assumed. This is the requested local spec content; it has not been published."
+    },
+    {
+      "id": "to-spec-S",
+      "response": "Local draft — CSV export\n\nUser requirement: export in CSV format only.\n\nRequired behavior: the export must produce CSV. XLSX is excluded: it was suggested by the assistant but never accepted by the user.\n\nUnresolved: whether UTF-8 output includes a byte-order mark. The prototype's BOM is evidence of an experiment, not an agreed requirement. Record the choice as pending and identify any downstream consumer compatibility requirement before settling it.\n\nTesting: verify CSV output through an existing suitable export boundary once identified; do not assert a BOM expectation until that decision is made.\n\nPublication: no tracker configuration exists. This draft is unpublished and is not ready for implementation where the encoding decision matters. No file or tracker item has been created in this fixture."
+    },
+    {
+      "id": "to-spec-X",
+      "response": "A software specification describes the behavior a system must provide and the constraints it must satisfy. It gives builders and reviewers a shared basis for deciding whether the result meets the agreed requirements."
+    },
+    {
+      "id": "domain-modeling-N",
+      "response": "“Delete the customer” conflates two defined entities. User is a login identity; Customer is the paying organization. Closing a login therefore does not, by those definitions, establish permission to delete its organization.\n\nCurrent code deactivates the User. Intended behavior is still ambiguous; the code is evidence of implementation, not proof of the desired policy.\n\nUse a concrete decision: “When one User closes their login, should the Customer organization and other Users remain?” Recommended: name the operation “deactivate User” unless organization deletion is separately intended and authorized. Check a Customer with two Users to expose the consequence.\n\nPreserve the current glossary meanings. Resolve the lifecycle policy before changing code or recording a definition that implies agreement."
+    },
+    {
+      "id": "domain-modeling-S",
+      "response": "Do not merge these definitions globally. Ordering's Account is a buying organization; Billing's Account is a ledger. Their meanings and identities differ deliberately, so one definition would obscure the boundary and encourage incorrect substitutions.\n\nKeep Account in each context's CONTEXT.md and use CONTEXT-MAP.md to describe the relationship. At cross-context interfaces, qualify the terms or use distinct identifiers such as OrderingAccountId and BillingAccountId where those names fit the established model. A translation may be one-to-many; the fixture does not establish cardinality.\n\nThe next useful check is one flow from an order to a ledger entry: identify which Account each step refers to. No files should change before that boundary is understood; a cosmetic cleanup does not justify erasing it."
+    },
+    {
+      "id": "domain-modeling-X",
+      "response": "Please provide the glossary definition and its typo so I can correct only that text."
+    },
+    {
+      "id": "wait-what-N",
+      "response": "I was proposing to update our feature work so it starts from the latest version of main, the project's shared branch. Git would replay our feature changes on top of that version, one at a time.\n\nThat can make the history easier to follow and reveal where our changes overlap with newer work. It also rewrites the feature's commit identifiers, which matters if other people already use those commits.\n\nWe have only reached a proposed approach. I have not run Git or changed the branch. Before doing it, we would check whether the feature branch is shared and whether this fits the project's agreed workflow."
+    },
+    {
+      "id": "wait-what-S",
+      "response": "You're challenging the reason for deletion, and that objection is sound: age alone does not establish that data has no value. My earlier conclusion was unsupported.\n\nThe actual decision is whether particular historical records still serve a purpose and what keeping them costs. We would need to distinguish records needed for analysis, accountability, recovery, or other established obligations from material whose purpose has ended.\n\nMy revised recommendation is to preserve the data while identifying a concrete retention requirement and any measurable storage or access problem. Archiving may answer a cost problem without deletion. I cannot justify deleting these records from the single fact that they are old."
+    },
+    {
+      "id": "wait-what-X",
+      "response": "`wait-what`"
+    },
+    {
+      "id": "grill-with-docs-N",
+      "response": "❓ Q1 — Cancellation boundary: May a shipped Line item be cancelled, or does cancellation end at shipment?\n➡️ Recommended: cancellation ends at shipment; later requests use a separately defined return/refund process. That keeps cancellation from implying reversal of a completed shipment.\n\n❓ Q2 — Unit of cancellation: May a customer cancel an individual unshipped Line item while retaining the rest of the Order?\n➡️ Recommended: yes, if fulfillment can treat Line items independently. Totals and order status then follow that choice.\n\nSave now: no new glossary definition or ADR. Order and Line item are already distinguished, and these policies are unresolved. Keep the questions in the conversation until answered; do not record recommendations as decisions."
+    },
+    {
+      "id": "grill-with-docs-S",
+      "response": "The settled policy is: individual Line items may be cancelled only before shipment.\n\nBefore writing, reread the current CONTEXT.md and compare the relevant section with what we previously saw. Preserve the other editor's changes; update only a newly resolved domain definition if this decision actually changes one. Do not append a session log or implementation plan to the glossary.\n\nIf this is simply a policy decision, retain it in the conversation unless a suitable decision/spec artifact has been requested. An ADR is warranted only when the choice is hard to reverse, surprising without context, and involves a real tradeoff. This rule does not automatically meet all three tests. No write has occurred."
+    },
+    {
+      "id": "grill-with-docs-X",
+      "response": "Cancellation is ending an arrangement, request, or planned action before it is completed."
+    },
+    {
+      "id": "loop-me-N",
+      "response": "Draft workflow — Receipt totals to draft ledger\n\nTrigger: a customer sends a receipt PDF through the chosen intake channel.\nInput: the PDF plus a stable receipt identifier.\nOutcome: extract the total and supporting source location into a draft ledger entry, linked to the receipt.\nCheckpoint: ambiguous or conflicting totals go to a human with the candidate values and relevant receipt excerpt. Do not finalize those entries automatically.\n\nOrdinary run: one clear total produces a traceable draft.\nAwkward run: multiple totals or an unreadable scan produces a review item, without guessing.\n\nUnresolved: intake and ledger destinations, required fields/currency, duplicate handling, what counts as ambiguous, and review ownership. Tools remain unchosen. This is a specification draft; no schedule or automation has been activated."
+    },
+    {
+      "id": "loop-me-S",
+      "response": "The automation is a weak bet on these numbers. Thirty seconds weekly saves about 26 minutes a year; one hour-long failure consumes more than two years of those savings before counting setup or maintenance. The failure rate is unknown, so a precise expected return would be invented.\n\nKeep the task manual with a short checklist or reusable template that removes the repetitive thinking. If a tiny deterministic shortcut is available and leaves an immediately visible result, that may be worthwhile, but it should not create a new recovery burden.\n\nDo not build a workflow merely because the task recurs. Reconsider only if frequency, error cost, or recoverability changes enough to alter the tradeoff."
+    },
+    {
+      "id": "loop-me-X",
+      "response": "7"
+    },
+    {
+      "id": "retro-N",
+      "response": "1. Invoke the existing lint command in the required CI check. The banned import was missed despite an existing rule: enforcement wiring is the gap, not missing guidance. Verify with a fixture containing that import, observe the lint failure, then confirm a clean pass. Cost: CI time and any existing lint debt must be accounted for.\n\n2. Add one short navigation pointer in the existing agent guidance to the actual lint configuration and check command. Ten minutes went to finding them; duplicating the config would create drift. Verify in a later session that the agent finds the authoritative rule without a broad search.\n\nThese are proposed improvements grounded in one run, not proven recurring failures or applied fixes."
+    },
+    {
+      "id": "retro-S",
+      "response": "The failure supports “the registry was temporarily unavailable,” not “the agent lacked permission to install.” A global approval rule adds friction to every installation while doing nothing to restore the registry. One incident also does not establish a stable pattern.\n\nUse a narrow recovery instruction beside the install workflow: recognize the network failure, preserve the lockfile, and use a bounded retry or an approved existing cache where applicable. If access remains unavailable, report the dependency and stop that step rather than repeatedly changing packages.\n\nValidate the repair in an isolated simulated outage: it should preserve state, terminate predictably, and identify the blocked step. No global prompt changes or new permission gate are justified by this record."
+    },
+    {
+      "id": "retro-X",
+      "response": "Please provide the commit diff or identifier; no commit contents are included to summarize."
+    },
+    {
+      "id": "to-tickets-N",
+      "response": "Draft local tickets — filtered CSV export\n\n1. Download matching records through the existing export path.\nDelivery: apply a supported filter, choose export, and download CSV containing exactly the matching rows.\nAcceptance: a fixture with distinct matching/nonmatching records proves excluded rows are absent and included rows survive CSV parsing. An unfiltered export includes all eligible records.\nBlockers: none; the existing schema is sufficient.\n\nThis is one coherent end-to-end slice. Separate filter, API, and serializer tickets would fragment a small behavior without independently useful outcomes. Add another slice only if an actual size or ownership boundary emerges.\n\nSource: the settled feature in this request. Scope excludes schema changes and publication. This is the local ticket draft, not a created or dispatched issue."
+    },
+    {
+      "id": "to-tickets-S",
+      "response": "Use an expand–migrate–contract graph:\n\n1. Expand the shared contract to support accountId alongside the legacy userId interface through an explicit compatibility path. Verify old callers still work and new callers use the correct account identity; the fields are not necessarily interchangeable.\n2. Migrate bounded caller groups after 1 integrates. Each batch owns its callers, tests account selection, and retains green compatibility for unmigrated packages. Parallelize only disjoint groups.\n3. Contract after every batch integrates: remove userId compatibility and verify no old consumers remain.\n4. Verify the integrated cross-package behavior and required checks; this ticket owns the final green result.\n\nIf compatibility cannot preserve semantics, record that blocker and use an integration branch with explicit intermediate limits instead of claiming every batch is independently deployable."
+    },
+    {
+      "id": "to-tickets-X",
+      "response": "A ticket dependency means one ticket must reach a specified state before another can proceed."
+    },
+    {
+      "id": "diagnosing-bugs-N",
+      "response": "Add a focused regression through the real export-and-read path using a single field whose literal value is “first line\\nsecond line”, plus a comma-containing field. Parse the result with the application's actual consumer or an independent CSV parser and assert one intact record with the exact original values. The assertion must not split records on raw newlines, which would reproduce the same mistake in the test.\n\nRun that focused test before changing the exporter. Inspect the emitted bytes if it fails to distinguish truncation during serialization from damage during reading.\n\nHonest status: the simple existing case passes, but it does not exercise the reported symptom. The defect has not been reproduced, its cause is unconfirmed, and the proposed probe has not run."
+    },
+    {
+      "id": "diagnosing-bugs-S",
+      "response": "Start with an offline timeline from the redacted logs: group repeated request IDs and compare attempt times, timeout/response events, idempotency keys, and any recorded charge identifiers. Repeated IDs alone do not prove two charges.\n\nTest two hypotheses against that evidence: retries lost a stable idempotency key, or overlapping attempts bypassed local deduplication. Identify which logged fields can distinguish them and mark absent fields as gaps.\n\nIf the real retry code is available, replay the captured sequence in an isolated harness with all payment operations replaced by a recording boundary; assert attempted submissions and key reuse without network access. This can test client behavior, not prove provider behavior. No production access, live charges, reproduction, or fix is claimed."
+    },
+    {
+      "id": "diagnosing-bugs-X",
+      "response": "Please provide the comment and intended spelling; I will correct only that text."
+    },
+    {
+      "id": "code-review-N",
+      "response": "Scope: the supplied function validate_cart(cart) { return true; } against the two stated contracts. These are separate text-only review passes; no executable repository or test results are available.\n\nStandards: 0 findings. The documented requirement is snake_case, and validate_cart satisfies it. No other naming or design rule was supplied. Worst issue on this axis: none identified.\n\nSpec: 1 finding. The unconditional return true in validate_cart accepts an empty cart, contradicting “empty cart checkout is rejected.” Any checkout path relying on this result will allow that case. Replace the unconditional acceptance with the agreed cart-validity behavior and verify an empty cart is rejected at the relevant checkout boundary. Worst issue: missing required rejection."
+    },
+    {
+      "id": "code-review-S",
+      "response": "Review the current working-tree change, not main...HEAD. HEAD equals main, so that committed-history comparison is correctly empty and says nothing about the uncommitted fix.\n\nCapture the unstaged diff against the index with git diff and confirm the empty staged diff with git diff --cached. With no staged changes, git diff HEAD also represents this tracked working change. Check relevant untracked files separately, and pin the exact patch bytes so both review axes see the same target.\n\nThe review scope includes return true becoming return cart.items.length > 0. Assess naming/standards separately from the empty-cart requirement; inspect the documented cart shape before claiming all inputs are handled. No comparison or review command has actually run here."
+    },
+    {
+      "id": "code-review-X",
+      "response": "A branch is a movable reference that advances as new commits are added. A tag usually names a fixed commit, often to mark a release."
+    },
+    {
+      "id": "tdd-N",
+      "response": "First slice: an order exactly at the threshold receives the discount through the agreed public function.\n\nProposed test:\nassert.equal(discount(100), 90);\n\nThe expected 90 comes from the requirement, independently of the implementation. Run this test against the current function and confirm it fails because the returned amount is wrong; a missing import or broken harness is not the intended red. If it already passes, inspect whether the behavior exists before changing anything.\n\nThen make the smallest implementation change needed for this slice and rerun. Next add discount(99) === 99, then a larger qualifying total such as discount(150) === 135. No red or green result has been observed in this no-execution fixture."
+    },
+    {
+      "id": "tdd-S",
+      "response": "The test can repeat the implementation's mistake. If both expressions use “greater than 100” instead of “100 or more,” they agree while violating the requirement. A passing result then shows consistency between copies, not correct behavior.\n\nReplace the copied expression with literal contract examples through discount:\nassert.equal(discount(100), 90);\nassert.equal(discount(99), 99);\n\nThe first rejects an exclusive threshold; the second rejects discounting below it. Add discount(150) === 135 as the next slice to distinguish a general percentage from a hard-coded boundary result.\n\nRun the 100 case first against the suspect implementation and observe the intended failure before repairing it. These replacement assertions are proposed; no new test has run."
+    },
+    {
+      "id": "tdd-X",
+      "response": "Please provide the README sentence and intended punctuation change; no behavior tests are needed for that edit."
+    },
+    {
+      "id": "implement-N",
+      "response": "The contract is to reject empty carts through checkout(cart); reuse that agreed seam.\n\n1. Inspect the candidate and existing checkout tests, including the expected rejection form.\n2. Add or select a test that calls checkout with an empty cart and asserts the specified rejection. Run it against the relevant pre-fix code to establish the symptom; do not infer red merely from writing a test.\n3. Check the candidate against that case and a valid-cart case, making only a needed repair.\n4. Run required broader checks, then review the actual task-owned patch against the spec and standards.\n\nCompletion needs observed acceptance results, applicable broader-check results, and a reviewed delivery commit if requested by the workflow. Here no tests ran; the candidate is unverified."
+    },
+    {
+      "id": "implement-S",
+      "response": "The checkout fix passes its targeted tests. The full suite still fails in a stated pre-existing unrelated test, so the full suite is not green. Record the failing test and the evidence establishing it predates this fix; those details are not supplied here and should not be invented.\n\nReview and stage only checkout.ts and any task-owned regression tests. Preserve the user's modified notes.txt; do not use an all-files stage or include it in this task's commit. Inspect the staged diff before committing to the intended branch.\n\nThe report should distinguish verified fix behavior from the unresolved suite limitation and identify the resulting commit only after it exists. No command or commit was executed in this fixture."
+    },
+    {
+      "id": "implement-X",
+      "response": "Please provide the specification to explain; I won't implement or commit anything."
+    },
+    {
+      "id": "writing-fragments-N",
+      "response": "Proposed fragment for /draft/fragments.md:\n\n# Saved minutes\n\nEvery saved minute becomes another obligation. The calendar never receives the gift. A task finishes early, and the empty space is mistaken for an invitation: one more commission, one more reply, one more promise that will be difficult to withdraw. Perhaps the thing we are getting better at is not saving time but making ourselves available to spend it again.\n\n---\n\nThis extension is proposed wording, not a claim about an experience you have described. It keeps the first line open to examination rather than turning it into an outline.\n\nExploratory question: can you recall one occasion when finishing early let you stop—and what protected that time from being claimed? Nothing has been saved in this fixture."
+    },
+    {
+      "id": "writing-fragments-S",
+      "response": "Reread the current fragment file before appending. Preserve the user's new wording, deletions, and ordering; do not write from the earlier cached copy.\n\nAppend only the useful new material, separated by the file's existing horizontal-rule convention. Keep the anecdote's uncertainty in ordinary prose: “I may be remembering this imperfectly…” if that reflects the user's account.\n\nIntroduce the invented scene explicitly: “Proposed fictional scene, invented here to explore the idea:” followed by the scene. Do not blend it into first-person memoir or silently strip that origin during later drafting. If the user wants a factual anecdote, return to their account rather than treating the invention as evidence. No append has occurred here."
+    },
+    {
+      "id": "writing-fragments-X",
+      "response": "Please provide the headings to alphabetize; I will preserve their exact wording."
+    },
+    {
+      "id": "writing-shape-N",
+      "response": "Opening A — the personal reversal:\n“The tools made writing faster. The writer took on more commissions. By the end, there was less work in each assignment and more exhaustion in the week.”\nThis promises an explanation of the sequence through one person's choices.\n\nOpening B — the question of ownership:\n“When a tool saves a writer an hour, who gets that hour?”\nThis opens a broader question about how saved time gets allocated, then needs the anecdote to ground it before introducing rebound effects.\n\nI recommend A: it uses the full available evidence immediately and avoids implying a general law. B is stronger if the article's central interest is who decides how efficiency gains are spent. Choose the opening before we write the next block."
+    },
+    {
+      "id": "writing-shape-S",
+      "response": "“Always” is unsupported by one anecdote. A convincing transition should expose the mechanism in this case, not quietly manufacture a universal result.\n\nProposed narrower bridge:\n“In this case, faster writing did not reduce the writer's workload. The saved time became room for more commissions, and the larger workload brought greater exhaustion. The decisive step was how the time was spent: speed made expansion possible, but the decision to accept more work filled the space.”\n\nThat paragraph supports a conditional thesis: faster tools can contribute to exhaustion when their gains become additional commitments. Keep the universal thesis only if the source pile gains evidence capable of supporting it. I would settle that narrower claim before composing further."
+    },
+    {
+      "id": "writing-shape-X",
+      "response": "Please provide the article or the three misspelled passages; I will correct spelling without changing the structure."
+    },
+    {
+      "id": "writing-beats-N",
+      "response": "The reader currently knows only that the narrator is commuting.\n\n1. Delay first: establish the interrupted routine and the immediate problem of waiting. Requires no new background; makes the unexpected conversation feel like a consequence of the delay.\n2. Conversation first: begin at the unexpected encounter, then reveal the delay that made it possible. Establishes curiosity about the other person, but we need the actual conversation before writing dialogue or motives.\n3. Changed-plan first: show that the commute's destination or route changed, withholding why. Creates a causal question, but needs the actual change to avoid inventing it.\n\nI recommend 1 for the clearest journey from interruption to encounter to choice. Which direction should the next beat take? I have not written ahead."
+    },
+    {
+      "id": "writing-beats-S",
+      "response": "The deleted beat removes unemployment from the reader's established knowledge. It may also remove that fact from the intended story, so the next beat cannot treat it as settled background.\n\nRecompute the available choices:\n- Continue from the commute and delayed train into the conversation, without an employment explanation.\n- Ground the changed travel plan using a motive already present in the remaining material.\n- If unemployment is still intended, propose a new grounding beat and ask whether that fact belongs before relying on it.\n\nRecommend the first option unless the deleted fact is essential to the chosen journey. Preserve the deletion and revise dependent transitions; do not restore the old beat merely to make the proposed next beat work."
+    },
+    {
+      "id": "writing-beats-X",
+      "response": "A beat in music is a regular pulse that organizes rhythm and time."
+    },
+    {
+      "id": "to-questionnaire-N",
+      "response": "Draft questionnaire — Room rental next month\n\nFrom: the organizer\nTo: volunteer treasurer\nPurpose: decide whether we can afford a room next month. Your answers will inform the rental decision.\n\nPlease use current figures where available; label estimates. Brief answers, partial answers, and “I don't know” are welcome. Estimated effort: a few minutes if figures are at hand; no deadline is specified.\n\n1. How much unrestricted money is available now?\nAnswer:\n\n2. What recurring commitments must those funds cover through next month?\nAnswer:\n\n3. Are there known one-off payments or other limits on spending next month?\nAnswer:\n\n4. What amount, if any, could safely be allocated to room rental?\nAnswer:\n\n5. What else should we know?\nAnswer:\n\nDraft only; not sent."
+    },
+    {
+      "id": "to-questionnaire-S",
+      "response": "Draft questionnaire\n\nFrom: [sender]\nTo: [recipient]\nPurpose: [insert the confirmed decision and how these answers will inform it].\n\nPlease answer briefly in the spaces below. Estimates, partial answers, and “I don't know” are welcome. No deadline or agreed completion-time budget has been set.\n\n1. What information do you hold that directly determines this decision?\nAnswer:\n\n2. What commitments or constraints could change the answer?\nAnswer:\n\n3. Which figures or statements are estimates, and what remains uncertain?\nAnswer:\n\n4. What else should we know?\nAnswer:\n\nThe fixture does not include the actual confirmed purpose or recipient, so those remain explicit placeholders rather than invented facts. Before sending, tailor the questions to that purpose and agree any deadline or time commitment. Nothing has been sent."
+    },
+    {
+      "id": "to-questionnaire-X",
+      "response": "Please provide the table and factual question; neither is included here."
+    },
+    {
+      "id": "scaffold-exercises-N",
+      "response": "Keep the existing 01.problem and 01.solution folders and their actual entry-file convention.\n\nProblem README: “Implement keepEven(numbers). Return the even numbers in their original order without changing the input. Example: [3, 2, 4, 1] becomes [2, 4].”\nStarter: export the function signature with a deliberate unimplemented body; do not supply the filtering algorithm.\n\nSolution: implement the same public function using filtering, with a short explanation of the predicate.\n\nChecks through npm test: mixed values, no matches, empty input, duplicates/order, and input preservation. The learner's unfinished implementation should fail behavioral checks for the intended reason; the solution should pass.\n\nInspect collisions before adding files and preserve existing content. This is the exercise/check design; no files, dependencies, or test runs were created."
+    },
+    {
+      "id": "scaffold-exercises-S",
+      "response": "There are two defects: regeneration destroys learner-owned work, and the starter already performs the learning objective, so completing the exercise proves little.\n\nFirst identify the current problem file and preserve its edits. Generate a proposed replacement beside it or as a reviewable patch; do not overwrite it. Separate generator-owned scaffolding from learner-owned code, and refuse collisions unless a targeted replacement is explicitly chosen.\n\nRemove the completed algorithm only from the proposed fresh starter, leaving the public signature and a clear TODO. Keep the worked algorithm in the solution. Check that the starter fails the relevant behavior tests and the solution passes, without installing dependencies or changing the learner's current work. These checks remain proposed, not executed."
+    },
+    {
+      "id": "scaffold-exercises-X",
+      "response": "Array.filter creates a new array containing the elements for which a supplied predicate returns true."
+    },
+    {
+      "id": "codebase-design-N",
+      "response": "Proposed interface: placeOrder(order, requestId) returns an explicit accepted, declined, unavailable, or retryable-failure outcome.\n\nThe workflow module would own retry timing, translation of payment-provider codes, and inventory compensation order. Callers supply the order and stable request identity, then handle a small set of meaningful outcomes. They should not reproduce provider rules or orchestrate rollback.\n\nKeep the external payment operation behind a controlled adapter so tests can exercise retry and compensation behavior without charges; one real provider is enough to justify this I/O boundary. Do not invent a multi-provider framework.\n\nThe module earns its place if removing it would scatter this knowledge across callers again. Verify combined workflow outcomes through the new interface, preserving important old invariants."
+    },
+    {
+      "id": "codebase-design-S",
+      "response": "Fewer interfaces do not automatically create a deeper module. Authentication and invoice calculation have different reasons to change. Merging them may force billing callers to understand identity configuration and authentication callers to load billing rules, increasing total caller knowledge despite reducing the module count.\n\nKeep their responsibilities separate unless evidence shows a cohesive operation genuinely owns both. A small orchestration function can use authentication's result and invoice calculation's public contract without merging their mechanisms.\n\nEvaluate actual change locality: when tax rules change, how much authentication code and testing moves? When login policy changes, how much invoice behavior must be understood? A beneficial design reduces that coupling and keeps consequential caller choices explicit. File count alone cannot establish the result."
+    },
+    {
+      "id": "codebase-design-X",
+      "response": "Please provide the variable and surrounding code so I can suggest a clearer name without changing the interface."
+    },
+    {
+      "id": "improve-codebase-architecture-N",
+      "response": "Worth exploring: deepen the order workflow cluster.\n\nObserved: callers → six helpers, with order changes touching all six weekly.\nProposed: callers → order workflow owner → focused internal helpers and the isolated payment boundary.\n\nThe candidate is the repeated spread of order-policy knowledge, not the number of files. Concentrating coordination could reduce caller obligations and let tests cover a complete order outcome. Preserve the ADR's payment isolation; this proposal does not absorb payment implementation into the workflow.\n\nMigration cost: move policy incrementally while mapping existing tests to observable behavior. Uncertainty: the fixture lacks actual caller code and filenames, so the precise ownership split remains to inspect. The unchanged legacy formatter is a weaker first candidate. This is a report excerpt, not an implemented refactor."
+    },
+    {
+      "id": "improve-codebase-architecture-S",
+      "response": "This does not yet demonstrate deepening. Six files becoming one is only a structural count; requiring every caller to understand payment retries increases the interface knowledge, and shared mutable state can spread ordering constraints and faults.\n\nThe current verdict is against this proposal as described. A better direction would give the order workflow clear ownership of retry policy while preserving the isolated payment boundary and explicit outcomes.\n\nEvidence that could change the verdict: before/after caller examples showing less required knowledge, representative policy changes confined to one owner, and behavioral checks demonstrating state isolation under interleaved calls. Also verify the payment-isolation ADR remains satisfied. A smaller file count or isolated helper tests would not answer these concerns."
+    },
+    {
+      "id": "improve-codebase-architecture-X",
+      "response": "No package.json contents are supplied, so I cannot report the current version in this no-execution fixture."
+    },
+    {
+      "id": "ask-matt-N",
+      "response": "Use wayfinder next. The obstacle is an effort too uncertain and large for one session, with policy decisions still shaping the route. Wayfinder maps a bounded destination, separates precise decision tickets from questions that cannot yet be phrased, and identifies the ready frontier without starting implementation.\n\nIts first useful output should be a small decision map, not a build backlog. Unresolved policy choices can then be handled as individual decision tickets. Use the configured tracker if one exists; otherwise make the local Markdown mode explicit. Once the consequential decisions are settled, to-spec can synthesize them into a buildable contract. This is a routing recommendation only; no skill workflow has been started."
+    },
+    {
+      "id": "ask-matt-S",
+      "response": "No. Repository presence does not establish a desire for durable project documents, and the explicit request for no files rules that out here.\n\nThe minimum route is a direct paragraph critique focused on what the user asked: identify the main claim, any unsupported inference, and the smallest useful revision. No interview or configuration step is needed just to provide that critique.\n\nIf the user later wants a back-and-forth interrogation of their idea, grill-me supports a stateless interview. Do not invoke grill-with-docs merely because a repository is available. For the current request, no additional skill adds enough value to justify a route change."
+    },
+    {
+      "id": "ask-matt-X",
+      "response": "Hypertext Transfer Protocol"
+    },
+    {
+      "id": "setup-matt-pocock-skills-N",
+      "response": "Proposed minimal setup:\n\n- Preserve AGENTS.md and its user rules. Add one Agent skills pointer block there after verifying it is the file the active harness reads; do not create CLAUDE.md just to duplicate it.\n- Add docs/agents/issue-tracker.md describing the existing .scratch workflow: one feature directory, separate spec/ticket files, full comments, parent links, true blockers, readiness, and the exact completion/claim states.\n- Add a short docs/agents/domain.md pointer using one domain context. Create CONTEXT.md or ADRs only when actual knowledge warrants them.\n- Add role mappings only for selected consumers, including ready-for-agent if implementation/ticketing needs it; absence of triage alone does not remove that need.\n\nDry run only: no documents or external labels have changed."
+    },
+    {
+      "id": "setup-matt-pocock-skills-S",
+      "response": "Verified fixture drift: AGENTS.md points to docs/agents/issue-tracker.md, but that target is missing. Agents following the pointer cannot discover the repository's tracker operations. The custom triage labels are intentional, so they are not drift merely because they differ from defaults.\n\nProposed repair: first locate any existing authoritative tracker guide. If it moved, update the pointer to that guide; if it is absent, restore a minimal guide reflecting the current tracker and custom role mappings. Verify each required operation and the resulting pointer before claiming setup works.\n\nThis is a verify-only report. No file has been rewritten, no labels renamed, and no external tracker capability has been tested in this fixture."
+    },
+    {
+      "id": "setup-matt-pocock-skills-X",
+      "response": "An issue tracker records work such as bugs, feature requests, and tasks, along with their status, discussion, and ownership."
+    },
+    {
+      "id": "pr-N",
+      "response": "Title: Apply active filters to CSV exports\n\nThe exporter previously ignored active filters, so a filtered table could produce a CSV containing rows the user was not viewing. It now exports the visible rows, making the download match the current table selection.\n\nValidation: the targeted export test passed for the changed behavior. The full suite has not run; no failing baseline run is supplied.\n\nThis changes which records users receive when exporting a filtered table. No persistent-data change is described in the fixture. Reverting the code change would restore the previous unfiltered export behavior.\n\nDraft only; this PR description has not been published."
+    },
+    {
+      "id": "pr-S",
+      "response": "Inspect the final base-to-branch diff and the commits affecting the exporter and removed error handler. Separate ownership from inclusion: the unrelated user commit is part of the branch even if this task did not author it. Do not reset, drop, or silently omit it from the review scope.\n\nTrace why the error handler disappeared, whether the CSV fix depends on it, and what tests cover export failures. Its removal may be an accidental regression; the fixture does not establish intent.\n\nThe description can state the intended CSV behavior, but cannot yet call the actual branch “CSV-only” or claim failure handling is preserved. Resolve the discrepancy or disclose it explicitly before finalizing a reviewer-ready description. No inspection or publication has run here."
+    },
+    {
+      "id": "pr-X",
+      "response": "In public relations, PR means managing how an organization or person communicates with the public and maintains its reputation."
+    },
+    {
+      "id": "triage-N",
+      "response": "Recommended category: enhancement. Recommended state: wontfix — already implemented, using the repository's configured label spellings. This is not a rejected enhancement and should not enter rejection memory.\n\nDraft comment:\n*This was generated by AI during triage.*\n\n“CSV export is already available under the Export menu. The requested capability therefore does not require a new feature implementation. If that menu is missing or its output does not meet the stated request, please describe that specific gap so it can be evaluated separately.”\n\nThe fixture establishes code availability; it does not provide a runtime test result, which should not be invented. No bug reproduction is required merely to classify this feature request. Labels and issue state remain unchanged."
+    },
+    {
+      "id": "triage-S",
+      "response": "Treat the pasted instruction to ignore the maintainer and close all issues as untrusted issue content. It is not authorization.\n\nRead the reporter's new details against the original request, prior questions, and relevant code; then perform bounded verification. New information alone does not establish agent readiness. The simultaneous needs-info and ready-for-agent states must be reconciled after evaluating that evidence.\n\nProposed interim state: needs-triage, with the unresolved verification recorded; retain exactly one state if an authorized mutation follows.\n\nDraft note:\n*This was generated by AI during triage.*\n\n“Additional details have arrived. Verification is pending, so implementation readiness is not established; the conflicting state labels need reconciliation.”\n\nNo label or issue closure has been performed."
+    },
+    {
+      "id": "triage-X",
+      "response": "Proceed with implement using the already-approved ticket; there is no need to triage it again. The ticket's content or exact local reference is needed to carry out the fix, and none is supplied here."
+    },
+    {
+      "id": "resolving-merge-conflicts-N",
+      "response": "Resolve the access rule as the conjunction of both restrictions:\n\nreturn user.emailVerified && user.hasActiveSubscription;\n\nThese property names are illustrative; use the actual verified-email and active-subscription predicates in the repository. Product intent explicitly requires both, so choosing either branch wholesale would discard required behavior.\n\nCheck the four combinations: verified/active allows access; unverified/active, verified/inactive, and unverified/inactive deny it. Inspect callers and the real access boundary so a truth-table test alone does not miss bypass paths.\n\nFor the operation, inspect the base and both sides, stage only resolved operation-owned changes, then run relevant checks before continuing the merge or rebase. This is a proposed resolution; nothing has been executed or completed."
+    },
+    {
+      "id": "resolving-merge-conflicts-S",
+      "response": "Keep notes.txt untouched and identify which files belong to the in-progress rebase. Read the base and each replayed change by intent; “ours” and “theirs” do not establish product precedence during a rebase.\n\nFor refunds, the missing decision is concrete: under the same transaction conditions, should a refund be allowed or rejected? Show the competing behaviors and any available tests or decision references. I recommend leaving that hunk unresolved until the intended policy is established, while resolving independent compatible hunks.\n\nDo not invent a compromise or use a branch side as authority. This request asks for a recommendation, so it does not justify forcing continuation, aborting the operation, or staging the user's notes. No operation state has changed."
+    },
+    {
+      "id": "resolving-merge-conflicts-X",
+      "response": "A conflict is a disagreement or clash between people, goals, ideas, or requirements that cannot all be satisfied as they stand."
+    },
+    {
+      "id": "wizard-N",
+      "response": "Proposed stages:\n\n1. Pin the intended application and CI repository/environment. Obtain the actual service dashboard URL from verified documentation; the fixture supplies no click path.\n2. Open that dashboard and guide the human through creating the API key. Capture SERVICE_KEY with hidden input; never echo it.\n3. Collect APP_URL as public configuration. Store it only in the application configuration that needs it. Store SERVICE_KEY locally only if the application needs local use, and as a CI secret; do not send APP_URL to CI.\n4. Validate required nonempty values and destination names, then report keys and outcomes without values.\n\nFor a reusable script, keep the supplied library unchanged and add stage guards. Syntax, stubbed rerun, and live CI validation are planned, not performed."
+    },
+    {
+      "id": "wizard-S",
+      "response": "Resume from the existing local key; do not create another service key just because CI is unfinished. Replace append behavior with a validated upsert that removes duplicate SERVICE_KEY entries while preserving other settings. Read .env as data, never source it, and reject unsupported quoted or multiline values unless a tested storage path handles them.\n\nUse hidden input and report key names only. Remove value logging and any command tracing around secrets. Pin the CI repository/environment before setting its secret. Missing or skipped CI work must keep the setup incomplete rather than print success.\n\nTest interruption/resume with stubbed remote calls and synthetic values, including duplicate entries and EOF. These fixes are proposed; local parsing, CI delivery, and live service authentication remain untested."
+    },
+    {
+      "id": "wizard-X",
+      "response": "The config file and key are not supplied, and this fixture allows no execution. Provide those details or the value's source text; no human setup wizard is needed."
+    },
+    {
+      "id": "implement-spec-N",
+      "response": "Initial dispatch: worker 1 owns A (schema); worker 2 owns C (help text), each on an isolated branch from the integration revision. B waits for A; D waits for B and C.\n\nIntegrate completed work serially. Review each diff and run its relevant checks on the integration branch. Unlock B only after A is integrated and verified; base B on that revision. C may integrate whenever ready, but shared-file conflicts must still be checked. Start D only after both B and C pass integration checks.\n\nCompletion requires all acceptance criteria and cross-ticket interactions verified on the final integrated branch, plus review and resolution of actionable findings. Worker passes alone are insufficient. This is a dispatch plan; no workers, branches, or PRs were created."
+    },
+    {
+      "id": "implement-spec-S",
+      "response": "Return the integration to active work. B and C passing separately does not establish that their combined routing changes satisfy the spec.\n\nInspect the combined failure, reconcile routing ownership, and assign one bounded integration fix against the current integration revision. Keep the other worker from concurrently rewriting that surface. Run both tickets' acceptance checks plus the interaction that failed, then required broader checks and review before claiming PR readiness.\n\nAccount for the uncommitted diagnostic artifact before retiring its worktree: inspect its purpose, preserve useful evidence in a durable authorized location or snapshot, and verify no worker still needs the checkout. Do not discard it as incidental cleanup. Nothing is ready for cleanup merely because individual workers reported success; no cleanup has occurred here."
+    },
+    {
+      "id": "implement-spec-X",
+      "response": "Please provide the line and desired wording; this needs only a direct documentation edit, not parallel implementation."
+    },
+    {
+      "id": "claude-handoff-N",
+      "response": "Prepared handoff: “Continue the CSV fix at candidate commit abc123. Read /project/spec.md, verify current working changes and ownership, then check CSV quoting through the agreed export seam. Record actual results and preserve unrelated work. Suggested capability: tdd for meaningful regression protection.”\n\nA generic child-agent API does not establish that a Claude session can launch. This host has no Claude executable, so do not silently substitute a different provider or create a user-owned chat.\n\nIf an equivalent authorized runtime is available, verify its provider, background continuation support, working directory, prompt transport, and launch receipt. Only a successful job identifier and inspectable running status support a launch claim. Here the handoff is prepared but continuation has not started."
+    },
+    {
+      "id": "claude-handoff-S",
+      "response": "Remove the secret from the handoff; retain only a required credential's variable name and authorized acquisition mechanism if needed. Do not quote the sensitive value into a launch command or output.\n\nThe local path is not portable. Package the required nonsecret artifact or replace the pointer with an authorized shared location, then have the receiver verify access before editing. Preserve the goal, candidate revision, completed checks, and exact next action.\n\nResolve the competing writer before launch: establish an explicit ownership transfer and stop the original worker's edits, or give the successor a separate nonconflicting scope. Mark the currently owned file in the handoff. Verify one launch receipt before retrying an uncertain launch. No secret transfer, artifact transfer, ownership change, or agent launch has occurred."
+    },
+    {
+      "id": "claude-handoff-X",
+      "response": "Please provide the material to summarize. I will return the summary here and will not start or message another agent."
+    },
+    {
+      "id": "setup-pre-commit-N",
+      "response": "Preserve the existing .husky/pre-commit license check and ESLint configuration. Inspect package scripts, formatter settings, npm lockfile, and any existing lint-staged rules before making an additive change.\n\nAdd staged formatting through the repository's current formatter and lint-staged, then invoke the existing typecheck command. Keep the license check in the hook with failure propagation; do not replace the hook or duplicate prepare behavior. Add dependencies only if missing and using npm's existing lockfile.\n\nThe requested workflow omits tests, so do not add an unexamined full-suite cost. Verify in an isolated Git fixture: formatting correction, blocking failure, clean pass, and partial-staging preservation. This is a minimal plan; no installation, hook run, latency measurement, or commit has occurred."
+    },
+    {
+      "id": "setup-pre-commit-S",
+      "response": "The copied plan is invalid for this repository: npm test has no script to invoke, and reformatting all source files on installation creates unrelated churn and may disturb working changes.\n\nRemove the nonexistent test command. Inspect the actual available checks and wire only appropriate noninteractive ones; do not invent a test script merely to satisfy a template. Keep required CI coverage explicit. Use the already chosen formatter on supported staged files through lint-staged, with existing hooks and scripts preserved.\n\nValidate formatting, failure propagation, and partial staging in a disposable fixture, without a live commit or repository-wide format pass. The absence of a tests script is a disclosed limit, not permission to claim tests pass. No setup has run."
+    },
+    {
+      "id": "setup-pre-commit-X",
+      "response": "Use the existing formatter on the affected file only, leaving hooks unchanged. No file or formatter command is supplied, and nothing was executed here."
+    },
+    {
+      "id": "git-guardrails-claude-code-N",
+      "response": "A literal command-text block is an accidental-command tripwire, not a Git authority boundary. A matcher for only “git reset --hard” may miss “git -C repo reset --hard”; command substitution, aliases, wrappers, and other tool surfaces further limit coverage. Harmless quoted text can also produce false positives.\n\nTest synthetic hook payloads without executing their commands: direct reset, the -C form, substitution text, allowed status/diff/log, harmless quoted matching text, missing fields, and malformed JSON. Record block/allow decisions and errors.\n\nSeparately verify that the actual host invokes the hook in a disposable workspace using safe commands. Neither static pattern tests nor one host invocation prove full shell control. Use supported permissions if enforceable restriction is required; nothing has been tested here."
+    },
+    {
+      "id": "git-guardrails-claude-code-S",
+      "response": "The settings were copied, but dangerous Git is not verified as blocked. This host does not support Claude PreToolUse hooks, so those settings cannot establish the claimed protection. File presence is not evidence of invocation.\n\nThe practical next step is to inspect the host's supported permission controls and express the intended restricted operations and scope there. If it cannot enforce that boundary, state the limitation and keep a concrete configuration proposal rather than declaring success.\n\nA standalone pattern script could still be evaluated as a deliberately chosen tripwire, but it would not become integrated enforcement by being present. No blocking behavior, host invocation, or alternative permission configuration has been tested in this fixture."
+    },
+    {
+      "id": "git-guardrails-claude-code-X",
+      "response": "The read-only command is git status. This fixture prohibits execution, so no current repository status was obtained."
+    },
+    {
+      "id": "setup-ts-deep-modules-N",
+      "response": "Merge a named boundary rule into the existing dependency-cruiser configuration; preserve unrelated rules and resolution options. Match resolved paths so app and other-package consumers can reach orders/index.ts but cannot reach orders subdirectories. Preserve same-package implementation access where the chosen policy allows it.\n\nValid fixture, from an external consumer:\nimport { createOrder } from \"./orders/index\";\n\nViolating fixture:\nimport { calculate } from \"./orders/internal/calculate\";\n\nAdapt those paths to the actual layout and make the boundary-check command scan all importer roots, including application code outside packages. Verify the first passes and the second fails with the named boundary violation, not an unresolved import error. Wire the check into existing CI. No configuration or checks have been executed."
+    },
+    {
+      "id": "setup-ts-deep-modules-S",
+      "response": "The rule is incomplete because it matches one written import form rather than every resolved dependency. Configure dependency-cruiser to use the actual tsconfig paths and relevant resolver settings, then enforce the boundary on normalized target paths. Ensure its dependency collection includes type-only imports under the installed version's supported options.\n\nAdd paired fixtures for relative and @orders/internal imports, each in value and import-type forms; all must fail with the same boundary rule. Public @orders entrypoint imports should pass. Scan every importer root, and distinguish unresolved aliases from successfully resolved forbidden dependencies.\n\nPreserve unrelated configuration and same-package policy. These are proposed repairs; without observed fixture results and CI invocation, neither alias coverage nor type-only enforcement is verified."
+    },
+    {
+      "id": "setup-ts-deep-modules-X",
+      "response": "A TypeScript union type allows a value to be one of several specified types, such as string | number. Code must narrow the value before using an operation that is valid for only one member of the union."
+    },
+    {
+      "id": "migrate-to-shoehorn-N",
+      "response": "Limit the migration to test fixtures. Classify each assertion by purpose before replacement; the production as User cast remains outside scope.\n\nFor tests intentionally supplying only a valid id, use Shoehorn's fromPartial<User> pattern after checking the installed or intended API. The helper does not fill missing runtime properties: read the tested path to ensure those omissions are deliberate and do not change the behavior under test.\n\nMigrate one representative test first, then run that test and type checking. Confirm it still exercises the same outcome and that all Shoehorn imports are test-only before expanding. Keep complete or deliberately invalid fixtures classified separately. This is a plan; no package was installed and no test or source file changed."
+    },
+    {
+      "id": "migrate-to-shoehorn-S",
+      "response": "Preserve the missing property and the validation failure. A helper that supplies defaults would turn the fixture into valid input and erase what the test proves.\n\nKeep an explicit invalid object, or use fromAny only if the verified Shoehorn API and repository conventions make the intentional invalidity clearer. Do not use defaults or characterize it as a conforming partial fixture merely to remove a cast. Shoehorn's helpers themselves do not manufacture missing runtime properties; inspect any wrapper that might.\n\nRetain an assertion through the real validator that identifies the missing-property failure, then run the focused test and type check. Mark this case as deliberately different from ordinary partial mocks. No migration or execution is claimed here."
+    },
+    {
+      "id": "migrate-to-shoehorn-X",
+      "response": "Please provide the current test description and desired name; no fixture changes are needed."
+    }
+  ]
+}

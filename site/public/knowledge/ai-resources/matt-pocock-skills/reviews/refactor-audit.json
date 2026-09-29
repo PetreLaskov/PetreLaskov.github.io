@@ -1,0 +1,560 @@
+{
+  "scope": "independent semantic inspection, not executed workflow proof",
+  "reviews": [
+    {
+      "slug": "writing-for-agents",
+      "verdict": "clear",
+      "finding": "The refactor retains the source's useful machinery: conditional pointers, distinct branches, information placement, co-location, observable completion, and behavioral pruning. It also preserves the distinction between a real context boundary and merely opening another file. The added requirement to compare representative behavior is consistent with the source's model-relative no-op test rather than bureaucratic expansion. Supporting mechanics explicitly address the Codex port, and the existing per-skill invocation policies remain in agents/openai.yaml. No actionable semantic defect found.",
+      "source_evidence": [
+        "source/skills/productivity/writing-for-agents/SKILL.md:12-59",
+        "source/skills/productivity/writing-for-agents/SKILL.md:78-81",
+        "source/skills/productivity/writing-for-agents/SKILL-MECHANICS.md:9-22"
+      ],
+      "candidate_evidence": [
+        "refactored/writing-for-agents/SKILL.md:11-28",
+        "refactored/writing-for-agents/SKILL-MECHANICS.md:3-9"
+      ],
+      "recommended_change": "None from static inspection. Behavioral trials remain necessary to substantiate improved routing or brevity."
+    },
+    {
+      "slug": "grilling",
+      "verdict": "tradeoff",
+      "finding": "The dependency-aware frontier, whole-ready-round pacing, factual legwork, recommendations, and user-owned decisions survive. Bounding the tree by the next useful commitment deliberately relaxes the source's demand to visit every branch; this is a sensible defense against endless hypothetical questioning, but shifts judgment about which uncertainties matter onto the interviewer. The candidate makes that scope explicit, allows reopening a missed dependency, and retains confirmation before plan execution. This is a transparent pragmatic tradeoff rather than an identified defect.",
+      "source_evidence": [
+        "source/skills/productivity/grilling/SKILL.md:6-28"
+      ],
+      "candidate_evidence": [
+        "refactored/grilling/SKILL.md:7-22"
+      ],
+      "recommended_change": "Retain the scope bound. In trials, watch whether consequential branches are incorrectly dismissed as distant hypotheticals."
+    },
+    {
+      "slug": "grill-me",
+      "verdict": "clear",
+      "finding": "The tiny router now loads the actual grilling primitive through either the host mechanism or a sibling path, with an explicit missing-dependency outcome. The added stateless boundary clarifies the original wrapper's role in the wider toolkit without copying the primitive or turning the interview into implementation. The preserved explicit-invocation policy prevents the wrapper from competing indiscriminately with ordinary dialogue. A standalone installation still needs the primitive, but the dependency is visible and failure is not disguised as successful execution.",
+      "source_evidence": [
+        "source/skills/productivity/grill-me/SKILL.md:3-7",
+        "source/skills/engineering/ask-matt/SKILL.md:77-78"
+      ],
+      "candidate_evidence": [
+        "refactored/grill-me/SKILL.md:7-9",
+        "refactored/grill-me/agents/openai.yaml:4-5"
+      ],
+      "recommended_change": "None. Distribute the wrapper with grilling or retain the clear missing-package response."
+    },
+    {
+      "slug": "teach",
+      "verdict": "clear",
+      "finding": "The candidate preserves a mission-led, stateful learning workspace, trusted resources, short HTML lessons, reusable assets, meaningful practice, glossary discipline, and learning records distinct from coverage. Its formats consistently resolve outputs at the teaching root and distinguish claimed knowledge from demonstrated learning. The original single-file lesson language conflicted with shared assets; the new bundle/export distinction resolves that tension. Retrieval and transfer remain present, while future retrieval is suggested without pretending a schedule exists. No actionable semantic loss found.",
+      "source_evidence": [
+        "source/skills/productivity/teach/SKILL.md:12-20",
+        "source/skills/productivity/teach/SKILL.md:34-69",
+        "source/skills/productivity/teach/LEARNING-RECORD-FORMAT.md:29-46"
+      ],
+      "candidate_evidence": [
+        "refactored/teach/SKILL.md:7-26",
+        "refactored/teach/LEARNING-RECORD-FORMAT.md:3-7",
+        "refactored/teach/GLOSSARY-FORMAT.md:3-5"
+      ],
+      "recommended_change": "None from inspection. Verify actual lesson interactions and learning claims during use."
+    },
+    {
+      "slug": "research",
+      "verdict": "clear",
+      "finding": "Primary-source investigation and a single cited Markdown artifact remain the core deliverable. The coordinator/worker split repairs the source's recursive-delegation ambiguity when another skill has already spawned the researcher. Direct execution when delegation is unavailable preserves the useful capability rather than treating the host as mandatory infrastructure. The stopping rule still covers every material subquestion, with explicit unresolved gaps, and distinguishes documentation, observation, and inference. No unavailable hard dependency or unsupported proof-of-research claim was found.",
+      "source_evidence": [
+        "source/skills/engineering/research/SKILL.md:6-12",
+        "source/skills/engineering/wayfinder/SKILL.md:77-77"
+      ],
+      "candidate_evidence": [
+        "refactored/research/SKILL.md:7-21"
+      ],
+      "recommended_change": "None. Treat the explicit unresolved state as part of the deliverable, not a reason to fabricate support."
+    },
+    {
+      "slug": "handoff",
+      "verdict": "clear",
+      "finding": "The refactor retains the source's portable temporary artifact, task-focused summary, suggested skills, redaction, and pointers rather than duplicated durable content. It usefully adds destination-resolvable paths and an explicit distinction between verified state, proposals, and authorization. The recipient check is tightly related to handoff success: choosing the next action correctly. It neither claims temporary storage is durable nor moves referenced material without instruction. The package remains explicitly invoked through its preserved policy. No actionable semantic defect found.",
+      "source_evidence": [
+        "source/skills/productivity/handoff/SKILL.md:8-16"
+      ],
+      "candidate_evidence": [
+        "refactored/handoff/SKILL.md:7-17",
+        "refactored/handoff/agents/openai.yaml:4-5"
+      ],
+      "recommended_change": "None from inspection. A later handoff trial should test pointer accessibility from the actual destination."
+    },
+    {
+      "slug": "prototype",
+      "verdict": "clear",
+      "finding": "Both distinctive branches survive in their support files: a portable pure-model logic demo with guided and free-play paths, and structurally different UI variants in realistic application context. Relevant state remains visible, subjective validation requires the user's verdict, and experimental evidence is preserved. The refactor improves the source's ambiguous promotion rule by separating a validated decision from production-quality implementation. It also gates both UI selection and prototype rendering out of production. Smoke checks are appropriate for trustworthy demonstrations and do not erase the throwaway purpose.",
+      "source_evidence": [
+        "source/skills/engineering/prototype/SKILL.md:14-26",
+        "source/skills/engineering/prototype/LOGIC.md:24-48",
+        "source/skills/engineering/prototype/UI.md:16-32",
+        "source/skills/engineering/prototype/UI.md:85-112"
+      ],
+      "candidate_evidence": [
+        "refactored/prototype/SKILL.md:7-20",
+        "refactored/prototype/LOGIC.md:3-11",
+        "refactored/prototype/UI.md:3-11"
+      ],
+      "recommended_change": "None. Actual run and production-gating checks are still required for generated prototypes."
+    },
+    {
+      "slug": "wayfinder",
+      "verdict": "clear",
+      "finding": "The decision-map model remains intact: bounded destination, index rather than duplicated storage, precise tickets versus unresolved fog, separate exclusions, native blockers when available, ownership, and one nonresearch resolution per session. Research dispatch now respects readiness and avoids recursive workers. Human judgments remain with the user. The added distinction between an empty frontier and genuine completion closes a real gap around claims, cycles, and blocked tickets. Local fallback is explicit. No material lost invariant was found in the inspected planning path.",
+      "source_evidence": [
+        "source/skills/engineering/wayfinder/SKILL.md:21-101",
+        "source/skills/engineering/wayfinder/SKILL.md:105-128"
+      ],
+      "candidate_evidence": [
+        "refactored/wayfinder/SKILL.md:7-38",
+        "refactored/setup-matt-pocock-skills/issue-tracker-local.md:9-11"
+      ],
+      "recommended_change": "None for the default planning path. Keep explicit execution exceptions tied to their actual user-authorized scope."
+    },
+    {
+      "slug": "to-spec",
+      "verdict": "clear",
+      "finding": "The refactor preserves synthesis from settled discussion, repository/domain context, testing seams, consequential implementation decisions, scope exclusions, and tracker publication. Replacing an obligatorily long user-story list with distinct behaviors or internal invariants makes the output fit non-user-facing work without reducing coverage. Prototype snippets retain their precision exception. New or missing decisions are not silently invented, and unresolved drafts are not presented as ready. Publication remains the invoked action, while dispatching labels are distinguished from ordinary issue creation. No actionable defect found.",
+      "source_evidence": [
+        "source/skills/engineering/to-spec/SKILL.md:7-19",
+        "source/skills/engineering/to-spec/SKILL.md:33-69"
+      ],
+      "candidate_evidence": [
+        "refactored/to-spec/SKILL.md:7-24"
+      ],
+      "recommended_change": "None. Verify each agreed requirement against the actual generated spec rather than relying on template completeness."
+    },
+    {
+      "slug": "domain-modeling",
+      "verdict": "clear",
+      "finding": "Active model building remains distinct from merely consuming vocabulary. The candidate preserves concrete scenario testing, code-versus-intent reconciliation, immediate capture of resolved terms, lazy creation, glossary-only content, and the three-part ADR bar. Existing support formats match those obligations and retain multi-context lookup. Allowing established project conventions avoids forcing a parallel documentation system. No source invariant requires the old presumption that either code or a user statement is automatically right; the candidate correctly surfaces that conflict. No actionable semantic defect found.",
+      "source_evidence": [
+        "source/skills/engineering/domain-modeling/SKILL.md:8-74",
+        "source/skills/engineering/domain-modeling/CONTEXT-FORMAT.md:25-60"
+      ],
+      "candidate_evidence": [
+        "refactored/domain-modeling/SKILL.md:7-17",
+        "refactored/domain-modeling/ADR-FORMAT.md:29-37"
+      ],
+      "recommended_change": "None. Continue capturing only resolved definitions, not polished summaries of unresolved disputes."
+    },
+    {
+      "slug": "wait-what",
+      "verdict": "tradeoff",
+      "finding": "The source's essential act is conversational repair: restore context, use accessible language, and recover project terms. The candidate retains that act and adds open correction of prior mistakes. It intentionally drops the named ASD-STE100 standard in favor of plain connected sentences, which broadens ordinary usefulness but no longer promises that controlled language. Given that this port seeks pragmatic explanation rather than certification to the standard, that is a reasonable tradeoff. The explicit-only metadata is preserved, so a repair does not self-trigger arbitrarily.",
+      "source_evidence": [
+        "source/skills/productivity/wait-what/SKILL.md:3-7"
+      ],
+      "candidate_evidence": [
+        "refactored/wait-what/SKILL.md:3-5",
+        "refactored/wait-what/agents/openai.yaml:4-5"
+      ],
+      "recommended_change": "Retain the plain-language version unless formal Simplified Technical English compliance is an intended capability."
+    },
+    {
+      "slug": "grill-with-docs",
+      "verdict": "clear",
+      "finding": "The composition is real rather than nominal: both primitives must be loaded by host mechanism or exact sibling references, and missing dependencies are reported. The wrapper carries the source's interview-plus-domain-documentation intention without duplicating either body. It preserves inline resolved vocabulary, selective ADRs, and the shared-understanding boundary. Naming decisions that remain only in conversation clarifies the limits of this wrapper's persistence; it does not pretend every plan decision belongs in a glossary. No actionable dependency or semantic defect found.",
+      "source_evidence": [
+        "source/skills/engineering/grill-with-docs/SKILL.md:3-7",
+        "source/skills/engineering/domain-modeling/SKILL.md:60-74"
+      ],
+      "candidate_evidence": [
+        "refactored/grill-with-docs/SKILL.md:7-11"
+      ],
+      "recommended_change": "None. Ensure package distribution includes both sibling primitives."
+    },
+    {
+      "slug": "loop-me",
+      "verdict": "tradeoff",
+      "finding": "The recurring-work lens, stateful workspace, workflow specs, NOTES vocabulary, optional checkpoints, and decision-ready briefs survive. The candidate relaxes the source's impossible no-question-left completion criterion into no consequential user decision left to guess, and rejects automatic automation of every repeated activity. Those are useful adaptations. However, its compact questioning instruction no longer inherits the precise grilling frontier discipline; this is a deliberate looser interview rather than the original strict wrapper. The readiness examples partially compensate, and no concrete consequential omission is identifiable statically.",
+      "source_evidence": [
+        "source/skills/in-progress/loop-me/SKILL.md:8-32"
+      ],
+      "candidate_evidence": [
+        "refactored/loop-me/SKILL.md:8-18"
+      ],
+      "recommended_change": "Accept this tradeoff if a lighter workflow interview is intended; trials should check dependent questions and premature readiness."
+    },
+    {
+      "slug": "retro",
+      "verdict": "clear",
+      "finding": "The source's distinctive target, the agent's environment, remains central. The refactor connects observed session events to navigation, tooling, checks, instruction placement, and information access, rather than producing generic self-improvement advice. It inspects existing enforcement before adding more and distinguishes a broken check from a missing one. Relaxing the absolute preference for checks and the claim that reviewers need no exploration improves applicability without removing deterministic enforcement as a useful option. Proposed, applied, and verified changes are separated. No actionable loss found.",
+      "source_evidence": [
+        "source/skills/in-progress/retro/SKILL.md:7-25",
+        "source/skills/in-progress/retro/SKILL.md:29-44"
+      ],
+      "candidate_evidence": [
+        "refactored/retro/SKILL.md:8-18"
+      ],
+      "recommended_change": "None. Assess recommendations against actual session evidence and their likely effect on a later run."
+    },
+    {
+      "slug": "to-tickets",
+      "verdict": "clear",
+      "finding": "Vertical slices, true blockers, user agreement, one local file per ticket, remote publication, parent preservation, and the expand-migrate-contract exception remain. The refactor improves graph quality with cycle and false-dependency checks and assigns final integration ownership where intermediate batches cannot pass independently. It does not confuse parenthood with blocking or readiness with an empty blocker list. Partial-publication readback prevents duplicate issues. The added requirement for a distinguishing observation respects already-passing compatibility criteria. No material semantic defect found in the specified ticket workflow.",
+      "source_evidence": [
+        "source/skills/engineering/to-tickets/SKILL.md:25-67",
+        "source/skills/engineering/to-tickets/SKILL.md:105-105"
+      ],
+      "candidate_evidence": [
+        "refactored/to-tickets/SKILL.md:14-39"
+      ],
+      "recommended_change": "None. Keep configured label side effects within publication authorization, as already made explicit in to-spec."
+    },
+    {
+      "slug": "diagnosing-bugs",
+      "verdict": "clear",
+      "finding": "The exact-symptom loop still governs diagnosis, with observed red evidence, minimization, competing explanations, discriminating probes, a real regression seam, and rerunning the original scenario. Allowing provisional code reading to construct the loop repairs an overly rigid source prohibition. The candidate improves flaky-result calibration and avoids a toy reproduction that merely resembles the bug. The retained HITL template has an old comment saying the agent runs it, but the entrypoint explicitly requires adaptation for a user-controlled terminal; that clear controlling instruction prevents a material contradiction.",
+      "source_evidence": [
+        "source/skills/engineering/diagnosing-bugs/SKILL.md:18-138"
+      ],
+      "candidate_evidence": [
+        "refactored/diagnosing-bugs/SKILL.md:12-42",
+        "refactored/diagnosing-bugs/scripts/hitl-loop.template.sh:3-16"
+      ],
+      "recommended_change": "No behavioral repair required. Align the helper comment with the entrypoint when next touching that file."
+    },
+    {
+      "slug": "code-review",
+      "verdict": "clear",
+      "finding": "The separate Standards and Spec axes, repository-over-heuristic precedence, changed-code evidence, and unblended reporting remain. The refactor materially improves the reviewed object: both workers see pinned identical bytes, including intended working changes, rather than a HEAD diff that silently omits new work. Leaf-worker instructions prevent recursive review delegation, and unsupported findings are checked before presentation. The extracted smell reference retains all twelve source heuristics without treating them as universal violations. No actionable loss of the source's distinctive review contract found.",
+      "source_evidence": [
+        "source/skills/engineering/code-review/SKILL.md:6-87"
+      ],
+      "candidate_evidence": [
+        "refactored/code-review/SKILL.md:8-34",
+        "refactored/code-review/SMELLS.md:3-18"
+      ],
+      "recommended_change": "None. Static agreement does not establish whether future reviews will identify real defects."
+    },
+    {
+      "slug": "tdd",
+      "verdict": "tradeoff",
+      "finding": "Observed red before green, one behavioral slice, agreed caller-facing seams, independent expectations, and avoidance of imagined bulk tests remain intact. The support files now permit meaningful external interaction assertions and clearly scope what doubles establish, resolving source overgeneralizations. Allowing small behavior-preserving cleanup under green tests intentionally differs from the source's ban on refactoring during the loop. That is compatible with the skill's useful test-first purpose and the wider implementation workflow. The candidate narrows ritual tests for mechanical edits without abandoning meaningful behavioral protection.",
+      "source_evidence": [
+        "source/skills/engineering/tdd/SKILL.md:14-38",
+        "source/skills/engineering/tdd/tests.md:38-59",
+        "source/skills/engineering/tdd/mocking.md:3-14"
+      ],
+      "candidate_evidence": [
+        "refactored/tdd/SKILL.md:8-24",
+        "refactored/tdd/tests.md:3-11",
+        "refactored/tdd/mocking.md:3-11"
+      ],
+      "recommended_change": "Retain the adaptation. Watch whether 'small cleanup' is used to smuggle broader redesign into a slice."
+    },
+    {
+      "slug": "implement",
+      "verdict": "clear",
+      "finding": "Settled-work execution, TDD where useful, recurring focused checks, final broader checks, review, and committing on the intended branch all survive. The refactor removes a practical composition failure by requiring review of the actual task patch, including uncommitted changes, and resolving supported findings before delivery. It also preserves unrelated work and distinguishes acceptance evidence from a commit or deployment claim. Its extra contract-identification step addresses ambiguous tickets without reopening agreed design for taste. No material lost invariant or unavailable mandatory tool found.",
+      "source_evidence": [
+        "source/skills/engineering/implement/SKILL.md:7-15"
+      ],
+      "candidate_evidence": [
+        "refactored/implement/SKILL.md:8-22",
+        "refactored/code-review/SKILL.md:12-14"
+      ],
+      "recommended_change": "None. Required repository checks still govern the final verification scope."
+    },
+    {
+      "slug": "writing-fragments",
+      "verdict": "clear",
+      "finding": "Exploration remains genuinely unstructured: fragments begin with initial material, keep their natural size, accumulate in one file with an H1 and separators, and do not become an outline or surprise article. The crucial reread-before-write and append-only default survive, with scoped user-directed edits. The candidate relaxes relentless interviewing and forced coinage while adding useful attribution of invented experience and proposed claims. That protects the author's voice and evidence without imposing a new metadata apparatus. No actionable semantic loss found.",
+      "source_evidence": [
+        "source/skills/in-progress/writing-fragments/SKILL.md:9-17",
+        "source/skills/in-progress/writing-fragments/SKILL.md:23-77"
+      ],
+      "candidate_evidence": [
+        "refactored/writing-fragments/SKILL.md:8-18"
+      ],
+      "recommended_change": "None. Preserve the distinction between promising proposed prose and accepted authorial claims."
+    },
+    {
+      "slug": "writing-shape",
+      "verdict": "clear",
+      "finding": "The fixed read-only quarry, separate article, full initial read, reader prerequisites, competing openings, grounding, deliberate block forms, immediate saving, and user-decided closure remain. Explicit delegation can now settle routine choices without forcing repeated debates, while consequential choices remain visible. The candidate preserves the source's argumentative pushback and gap naming. Rereading before writes protects concurrent edits; checking downstream grounding after revisions improves on blindly changing one paragraph. The skill still ends before publication. No actionable semantic defect found.",
+      "source_evidence": [
+        "source/skills/in-progress/writing-shape/SKILL.md:9-26",
+        "source/skills/in-progress/writing-shape/SKILL.md:30-77"
+      ],
+      "candidate_evidence": [
+        "refactored/writing-shape/SKILL.md:8-20"
+      ],
+      "recommended_change": "None. Ensure an explicitly delegated choice is not mistaken for permission to compose the entire article ahead."
+    },
+    {
+      "slug": "writing-beats",
+      "verdict": "clear",
+      "finding": "The choose-the-next-beat mechanism survives distinctly from writing-shape: two or three reachable alternatives, explicit conceptual prerequisites, one chosen move written, then recomputation from the live article. The candidate strengthens the difference between mentioning a term and establishing understanding. It also makes the raw pile explicitly read-only and prohibits fabricated support. Requested revisions preserve other user changes while identifying downstream conceptual consequences. Ending when the journey fulfills its promise, rather than exhausting the pile, is faithful to the source. No actionable defect found.",
+      "source_evidence": [
+        "source/skills/in-progress/writing-beats/SKILL.md:9-38",
+        "source/skills/in-progress/writing-beats/SKILL.md:56-65"
+      ],
+      "candidate_evidence": [
+        "refactored/writing-beats/SKILL.md:8-18"
+      ],
+      "recommended_change": "None. Preserve the one-selected-beat boundary during actual use."
+    },
+    {
+      "slug": "to-questionnaire",
+      "verdict": "clear",
+      "finding": "The defining asymmetry is preserved: interview the user about the recipient and needed return, then ask the knowledgeable recipient the subject questions. One recipient, a flat Markdown artifact, priority order, one idea per question, answer stubs, orientation, and coverage of needed outcomes all remain. The refactor avoids re-asking supplied information and inventing deadlines. It also distinguishes creating the document from sending it, which does not reduce the source's deliverable. No overbroad trigger or material semantic defect was identified.",
+      "source_evidence": [
+        "source/skills/productivity/to-questionnaire/SKILL.md:7-52"
+      ],
+      "candidate_evidence": [
+        "refactored/to-questionnaire/SKILL.md:7-21"
+      ],
+      "recommended_change": "None. Judge the produced questionnaire by whether answers actually unlock the named decision."
+    },
+    {
+      "slug": "scaffold-exercises",
+      "verdict": "tradeoff",
+      "finding": "Section and exercise numbering, supported variants, nonempty readmes, the primary problem/explainer requirement, readme-only stubs, linting, and link-aware moves remain. The candidate correctly treats the installed linter and repository conventions as the operational source of truth rather than universalizing this author's course layout. It also avoids overwriting existing work. Committing is now conditional on requested delivery, whereas the source always commits. That is a visible delivery-policy tradeoff, not a loss of scaffolding behavior. Structural validity is correctly separated from educational completeness.",
+      "source_evidence": [
+        "source/skills/misc/scaffold-exercises/SKILL.md:8-71"
+      ],
+      "candidate_evidence": [
+        "refactored/scaffold-exercises/SKILL.md:8-18"
+      ],
+      "recommended_change": "Accept conditional commit delivery if intended for this host. No scaffold-semantic repair is indicated."
+    },
+    {
+      "slug": "codebase-design",
+      "verdict": "clear",
+      "finding": "Depth as caller leverage, total interface obligations, module/seam/adapter distinctions, locality, the deletion test, dependency categories, and alternative interfaces remain. The refactor removes rigid vocabulary policing and the two-adapter quota without turning depth into a vague preference. Its support files preserve test invariants during deepening instead of ordering wholesale deletion of old tests. Competing designs remain grounded in actual constraints rather than invented flexibility. Reference use is scoped to the chosen task. No actionable contradiction between entrypoint and rewritten support found.",
+      "source_evidence": [
+        "source/skills/engineering/codebase-design/SKILL.md:14-114",
+        "source/skills/engineering/codebase-design/DEEPENING.md:7-37",
+        "source/skills/engineering/codebase-design/DESIGN-IT-TWICE.md:11-44"
+      ],
+      "candidate_evidence": [
+        "refactored/codebase-design/SKILL.md:12-33",
+        "refactored/codebase-design/DEEPENING.md:3-11",
+        "refactored/codebase-design/DESIGN-IT-TWICE.md:3-11"
+      ],
+      "recommended_change": "None. Broad design-quality claims still need evidence from actual callers and changes."
+    },
+    {
+      "slug": "improve-codebase-architecture",
+      "verdict": "clear",
+      "finding": "The survey remains separate from detailed interface design and implementation. User scope or meaningful history guides exploration; actual friction drives candidates; an offline visual before/after report precedes user selection. Domain context, ADR conflicts, recommendation strength, deepening benefits, and the subsequent selected-candidate conversation survive. The support file now genuinely works offline and distinguishes observed architecture from proposals, correcting the source's self-contained/CDN tension. No candidate is required when evidence supports none. No material lost invariant or unavailable rendering dependency found.",
+      "source_evidence": [
+        "source/skills/engineering/improve-codebase-architecture/SKILL.md:20-71",
+        "source/skills/engineering/improve-codebase-architecture/HTML-REPORT.md:3-16"
+      ],
+      "candidate_evidence": [
+        "refactored/improve-codebase-architecture/SKILL.md:14-40",
+        "refactored/improve-codebase-architecture/HTML-REPORT.md:3-13"
+      ],
+      "recommended_change": "None. Inspect produced diagrams when rendering is available and keep unrendered review explicitly limited."
+    },
+    {
+      "slug": "ask-matt",
+      "verdict": "clear",
+      "finding": "The router still locates work by its obstacle and offers the main idea-to-build flow, triage and debugging on-ramps, wayfinding, independent tools, and context transitions. Reading a target before making a consequential claim prevents the map from overriding its actual skill. The rewritten phase support removes an unsupported universal token threshold and recognizes lossiness and host capabilities. Recommendations explicitly stop before execution. Routing by desired persistence rather than merely being in a directory is a sound adaptation. No actionable semantic defect found.",
+      "source_evidence": [
+        "source/skills/engineering/ask-matt/SKILL.md:13-90",
+        "source/skills/engineering/ask-matt/PHASE-BOUNDARIES.md:19-55"
+      ],
+      "candidate_evidence": [
+        "refactored/ask-matt/SKILL.md:8-39",
+        "refactored/ask-matt/PHASE-BOUNDARIES.md:3-12"
+      ],
+      "recommended_change": "None. Target-skill inspection should continue to override any simplified routing-table shorthand."
+    },
+    {
+      "slug": "setup-matt-pocock-skills",
+      "verdict": "clear",
+      "finding": "Repository-local tracker operations, role mappings, domain layout, and one discoverable instruction pointer remain the product. The seeds preserve GitHub/GitLab identity differences, full-body reads, publication, parent-versus-blocker distinctions, and wayfinding operations. The candidate deliberately verifies current tool support instead of shipping brittle command examples. It also fixes source assumptions about which instruction file the host reads and whether labels are needed only when triage is installed. Preserving customizations and separating configuration from provisioned remote labels makes completion claims appropriately bounded. No actionable defect found.",
+      "source_evidence": [
+        "source/skills/engineering/setup-matt-pocock-skills/SKILL.md:9-116",
+        "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md:21-30"
+      ],
+      "candidate_evidence": [
+        "refactored/setup-matt-pocock-skills/SKILL.md:8-27",
+        "refactored/setup-matt-pocock-skills/issue-tracker-local.md:3-11",
+        "refactored/setup-matt-pocock-skills/triage-labels.md:5-17"
+      ],
+      "recommended_change": "None. Ensure a generated local configuration actually names its terminal completion status, as its seed requires."
+    },
+    {
+      "slug": "pr",
+      "verdict": "clear",
+      "finding": "The refactor retains the source's useful demand for visible change shape, before/after evidence, and practical reversal consequences. It scales the visual to whether it helps and defers structure to the repository template rather than forcing three headings on every small change. Illustrative sketches are explicitly separated from execution evidence, and missing baselines are not fabricated. Credit remains present without introducing an unavailable show-me dependency. The preserved credit prose describes older near-verbatim wording, but that is an attribution-maintenance issue, not a behavioral blocker.",
+      "source_evidence": [
+        "source/skills/in-progress/pr/SKILL.md:12-168",
+        "source/skills/in-progress/pr/CREDITS.md:3-3"
+      ],
+      "candidate_evidence": [
+        "refactored/pr/SKILL.md:14-24",
+        "refactored/pr/CREDITS.md:3-3"
+      ],
+      "recommended_change": "No workflow repair needed. Update the credit prose to describe adaptation rather than near-verbatim reproduction when maintaining attribution."
+    },
+    {
+      "slug": "triage",
+      "verdict": "repair",
+      "finding": "The refactor preserves evidence gathering, category/state separation, verification, durable briefs, and rejected-concept memory, but loses an explicit terminal action. The source closes every wontfix outcome after its reason-specific explanation. Candidate branches for already-implemented and rejected-bug items only direct explanation or pointers; the final apply paragraph does not restore closure. A run can therefore label and comment a rejected issue while leaving it open, contrary to the source's completed disposition. This is a concrete workflow omission, not a request for extra approval.",
+      "source_evidence": [
+        "source/skills/engineering/triage/SKILL.md:78-86",
+        "source/skills/engineering/triage/OUT-OF-SCOPE.md:90-97"
+      ],
+      "candidate_evidence": [
+        "evals/candidate-v1/triage/SKILL.md:29-37",
+        "evals/candidate-v1/triage/OUT-OF-SCOPE.md:9-9"
+      ],
+      "recommended_change": "Explicitly close the selected issue/PR for an authorized terminal wontfix outcome after the explanation and required memory update; preserve a user's explicit label-only override."
+    },
+    {
+      "slug": "resolving-merge-conflicts",
+      "verdict": "clear",
+      "finding": "Intent recovery from primary evidence, hunk-by-hunk synthesis, no invented product behavior, project checks, and finishing the full merge/rebase survive. The candidate fixes the source's dangerous stage-everything instruction by limiting staging to the operation's changes and preserving unrelated work. It also recognizes rebase role ambiguity and regeneration of derived files. A genuine unresolved product decision can be surfaced while independent hunks proceed; abort remains unavailable as an escape from difficulty but explicit cancellation is respected. No actionable semantic defect found.",
+      "source_evidence": [
+        "source/skills/engineering/resolving-merge-conflicts/SKILL.md:6-14"
+      ],
+      "candidate_evidence": [
+        "refactored/resolving-merge-conflicts/SKILL.md:8-16"
+      ],
+      "recommended_change": "None. Report the final Git operation state rather than treating resolved files alone as completion."
+    },
+    {
+      "slug": "wizard",
+      "verdict": "repair",
+      "finding": "The entrypoint promises better input and completion handling but freezes helpers that do not implement it. set_secret/set_var convert failed required writes into successful returns with SKIPPED entries, while finish unconditionally prints Setup complete. ask/ask_secret suppress read failure and may substitute a saved value, hiding EOF from later nonempty validation. An author can add stage-level compensation, but the unchanged-library contract leaves every generated wizard to rediscover that obligation. This retained helper behavior is materially at odds with the advertised incomplete-versus-complete boundary.",
+      "source_evidence": [
+        "source/skills/engineering/wizard/SKILL.md:10-10",
+        "source/skills/engineering/wizard/SKILL.md:35-43"
+      ],
+      "candidate_evidence": [
+        "evals/candidate-v1/wizard/SKILL.md:18-24",
+        "evals/candidate-v1/wizard/template.sh:108-125",
+        "evals/candidate-v1/wizard/template.sh:143-178"
+      ],
+      "recommended_change": "Repair the shared helpers or provide explicit tested wrappers: propagate input status, distinguish required write failure, and gate successful completion. Preserve library reuse after fixing its contract."
+    },
+    {
+      "slug": "implement-spec",
+      "verdict": "clear",
+      "finding": "The full-spec integration branch and PR, task-graph frontier, isolated worker branches, context pointers, serial merging, final review, and cleanup remain. The candidate strengthens the crucial unlock rule: dependencies must be integrated and verified, not merely reported done by a worker. It also models undeclared shared-file conflicts and verifies cross-ticket interactions before delivery. Worktree retirement is tied to accounted-for work and inactive processes. Missing external PR capability is honestly reported. No material lost invariant or unsupported completion claim was found in static inspection.",
+      "source_evidence": [
+        "source/skills/in-progress/implement-spec/SKILL.md:7-35"
+      ],
+      "candidate_evidence": [
+        "refactored/implement-spec/SKILL.md:8-20"
+      ],
+      "recommended_change": "None. A runtime without isolation/delegation still needs an explicit execution strategy rather than pretending worker infrastructure exists."
+    },
+    {
+      "slug": "claude-handoff",
+      "verdict": "clear",
+      "finding": "The intended product remains immediate continuation in a named background agent, not just a summary file. Runtime verification and safe prompt transport replace an assumed CLI command, while the summary retains task focus, artifacts, suggested skills, and redaction. Active ownership is captured and the sender stops competing after successful transfer. The candidate refuses to silently create a different user-owned chat or switch provider when the requested capability is absent. Launch receipt is distinguished from completion of successor work. No actionable semantic defect found.",
+      "source_evidence": [
+        "source/skills/in-progress/claude-handoff/SKILL.md:8-18"
+      ],
+      "candidate_evidence": [
+        "refactored/claude-handoff/SKILL.md:8-16"
+      ],
+      "recommended_change": "None. Verify background-launch support in the actual installed runtime during execution."
+    },
+    {
+      "slug": "setup-pre-commit",
+      "verdict": "clear",
+      "finding": "Husky, lint-staged, staged formatting, relevant type/test checks, and working hook validation remain the useful purpose. The refactor preserves existing scripts, formatters, hooks, lockfile conventions, and partial staging rather than overwriting them with defaults. Noninteractive and latency-aware check selection is a sensible adaptation of the source's full-suite default, with departures explained and CI obligations retained. The required correction, blocking failure, and clean-pass observations substantiate more than file existence. Conditional task commits avoid using the user's index merely as a smoke test. No actionable defect found.",
+      "source_evidence": [
+        "source/skills/misc/setup-pre-commit/SKILL.md:17-91"
+      ],
+      "candidate_evidence": [
+        "refactored/setup-pre-commit/SKILL.md:8-16"
+      ],
+      "recommended_change": "None. Do not turn isolated fixture success into a claim that an untested live host invocation works."
+    },
+    {
+      "slug": "git-guardrails-claude-code",
+      "verdict": "clear",
+      "finding": "The source overclaims broad blocking from a regex over Bash command text. The refactor explicitly distinguishes enforceable permissions from an optional accidental-command tripwire and marks the retained script inactive until deliberately selected. Its separate audit correctly exposes literal matching, false positives, alternate execution paths, and malformed-input limitations without pretending static inspection is execution. Synthetic tests and host-invocation verification are distinct. This is a substantial faithful repair of the user's useful restriction intent, rather than preservation of an unsound guarantee. No additional actionable defect found.",
+      "source_evidence": [
+        "source/skills/misc/git-guardrails-claude-code/SKILL.md:8-18",
+        "source/skills/misc/git-guardrails-claude-code/scripts/block-dangerous-git.sh:3-25"
+      ],
+      "candidate_evidence": [
+        "refactored/git-guardrails-claude-code/SKILL.md:8-18",
+        "refactored/git-guardrails-claude-code/references/legacy-hook-audit.md:3-15"
+      ],
+      "recommended_change": "None. Treat the installed host's actual permission capabilities as a prerequisite for any enforcement claim."
+    },
+    {
+      "slug": "setup-ts-deep-modules",
+      "verdict": "clear",
+      "finding": "The public-root/private-subfolder convention, same-package implementation access, public-entrypoint tests, fixture privacy, optional cycle policy, wiring, documentation, and observed enforcement remain. The candidate correctly requires all importer roots, preventing a package-only scan from missing app imports. Its fixture matrix covers each substantive rule rather than only one test deep-import example. The unchanged template contains stale comments suggesting only PACKAGES_ROOT needs adaptation, but the entrypoint explicitly overrides that by requiring inspected resolution options and configuration merging. No additional material defect is established statically.",
+      "source_evidence": [
+        "source/skills/in-progress/setup-ts-deep-modules/SKILL.md:24-35",
+        "source/skills/in-progress/setup-ts-deep-modules/SKILL.md:55-95"
+      ],
+      "candidate_evidence": [
+        "refactored/setup-ts-deep-modules/SKILL.md:8-18",
+        "refactored/setup-ts-deep-modules/dependency-cruiser.config.cjs:12-18",
+        "refactored/setup-ts-deep-modules/dependency-cruiser.config.cjs:28-94"
+      ],
+      "recommended_change": "No entrypoint repair needed. Remove stale drop-in comments on the next template edit; runtime fixture results must establish enforcement."
+    },
+    {
+      "slug": "migrate-to-shoehorn",
+      "verdict": "clear",
+      "finding": "Test-only fixture migration, partial versus deliberately invalid data, installation, imports, and type verification remain. The candidate improves the source's blanket replacement guidance by classifying assertions and preserving const/narrowing or complete-fixture intent. It explicitly says helpers do not fill missing runtime properties and requires relevant tests as well as type checking. A representative migration precedes expansion, with local API verification rather than assumed helper availability. This protects what each test proves while retaining the requested migration. No actionable semantic defect found.",
+      "source_evidence": [
+        "source/skills/misc/migrate-to-shoehorn/SKILL.md:10-18",
+        "source/skills/misc/migrate-to-shoehorn/SKILL.md:65-118"
+      ],
+      "candidate_evidence": [
+        "refactored/migrate-to-shoehorn/SKILL.md:8-20"
+      ],
+      "recommended_change": "None. Verify the actual installed helper types and preserved runtime fixture behavior during migration."
+    }
+  ],
+  "critical_issues": [
+    {
+      "id": "triage-terminal-disposition",
+      "severity": "material workflow omission",
+      "slug": "triage",
+      "finding": "An authorized wontfix disposition can finish at labels/comment because closure is no longer explicit, especially for already-implemented and rejected-bug cases.",
+      "source_evidence": [
+        "source/skills/engineering/triage/SKILL.md:82-85"
+      ],
+      "candidate_evidence": [
+        "evals/candidate-v1/triage/SKILL.md:32-37"
+      ],
+      "recommended_change": "Restore reason-specific explanation followed by explicit terminal closure, except for an explicit label-only user request."
+    },
+    {
+      "id": "wizard-helper-completion-contract",
+      "severity": "material retained-support mismatch",
+      "slug": "wizard",
+      "finding": "The unchanged template hides read failure and treats failed remote writes as skips while unconditionally announcing completion; the entrypoint's improved contract relies on unstated per-stage compensation.",
+      "source_evidence": [
+        "source/skills/engineering/wizard/SKILL.md:10-10"
+      ],
+      "candidate_evidence": [
+        "evals/candidate-v1/wizard/SKILL.md:18-24",
+        "evals/candidate-v1/wizard/template.sh:108-125",
+        "evals/candidate-v1/wizard/template.sh:143-178"
+      ],
+      "recommended_change": "Repair reusable helper semantics or supply explicit tested wrappers and completion guards before treating generated wizards as reliable."
+    }
+  ],
+  "cross_skill_observations": [
+    "Invocation policies were preserved in agents/openai.yaml even where Claude-specific disable-model-invocation frontmatter was removed. Static file inspection does not prove that a particular installed host loads those policies, but no wholesale loss of explicit-only intent was found.",
+    "grill-me and grill-with-docs use actual sibling-file fallbacks and report missing primitives. research and code-review specify leaf workers, avoiding the original recursive delegation ambiguity.",
+    "code-review now includes intended uncommitted bytes, and implement explicitly sends its task patch into that review. implement-spec independently gates downstream work on integrated revisions and checks. These are coherent improvements in composition.",
+    "Tracker configuration preserves parent links separately from blockers, readiness separately from completion, and local terminal-status conventions. Generated repository configuration still has to instantiate those conventions; the seeds are instructions rather than working integrations.",
+    "Prototype branches, architecture reports, and teaching artifacts make stronger distinctions between observable evidence and subjective or proposed conclusions. Their support files were substantively rewritten rather than left with the source's production-promotion or CDN assumptions.",
+    "The two material findings above concern terminal actions and helper semantics, not a demand to reproduce every source rule. Bounded grilling, lighter workflow interviews, plain-language repair, optional small TDD cleanup, and conditional scaffold commits were treated as explicit pragmatic tradeoffs.",
+    "No candidates were edited or executed. This inspection read all 38 source/refactored entrypoints, relevant supporting files, and preserved invocation metadata without reading chapters, author reviews, evaluation material, original-skill proposals, or memory.",
+    "This is the initial-candidate audit. Triage and wizard defect references are pinned to archived evals/candidate-v1 copies because the coordinator subsequently revised the live candidates. Those revisions have not been evaluated here, and the initial findings remain unchanged."
+  ]
+}

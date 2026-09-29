@@ -1,0 +1,1006 @@
+{
+  "recorded_at": "2026-09-29T09:43:45.600914+00:00",
+  "files": [
+    {
+      "path": "refactored/ask-matt/agents/openai.yaml",
+      "trial_sha256": "d30cfa5b0e84e2ca10b8d263b9dfcc13c3aa089ae6bc26096bc549fc037d274e",
+      "published_sha256": "d30cfa5b0e84e2ca10b8d263b9dfcc13c3aa089ae6bc26096bc549fc037d274e",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/ask-matt/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/ask-matt/PHASE-BOUNDARIES.md",
+      "trial_sha256": "b98591bbe4377d5e01a01fbb113551e1a0782811475cb5a62aa5a8bb1fc62df2",
+      "published_sha256": "b98591bbe4377d5e01a01fbb113551e1a0782811475cb5a62aa5a8bb1fc62df2",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/ask-matt/SKILL.md",
+      "trial_sha256": "3f18f200231087848613313fbfbeab25f819c5188dcfa0678161dfafdcb827a7",
+      "published_sha256": "3f18f200231087848613313fbfbeab25f819c5188dcfa0678161dfafdcb827a7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/claude-handoff/agents/openai.yaml",
+      "trial_sha256": "c49d051126b7ef690418b431a4317298a5bbb2bcf4cb0661d3a06f115ce12263",
+      "published_sha256": "c49d051126b7ef690418b431a4317298a5bbb2bcf4cb0661d3a06f115ce12263",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/claude-handoff/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/claude-handoff/SKILL.md",
+      "trial_sha256": "ec3a72ac8b6411c1f3e4147e95a8be4bebd62861aa02dbea780fc6eae766c5bf",
+      "published_sha256": "ec3a72ac8b6411c1f3e4147e95a8be4bebd62861aa02dbea780fc6eae766c5bf",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/code-review/agents/openai.yaml",
+      "trial_sha256": "3f72329747a916ac8ab2b4004490c79e1be6774a8a83e5b258d6ddc7e866abfe",
+      "published_sha256": "3f72329747a916ac8ab2b4004490c79e1be6774a8a83e5b258d6ddc7e866abfe",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/code-review/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/code-review/SKILL.md",
+      "trial_sha256": "111f407e77ecedd0d5c0e16edf6a0c8c2d99b5c48f330ef9321adb8d511e67e2",
+      "published_sha256": "111f407e77ecedd0d5c0e16edf6a0c8c2d99b5c48f330ef9321adb8d511e67e2",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/code-review/SMELLS.md",
+      "trial_sha256": "f224ce03dac54a4c2460e000994b58fa0be543b633324323e7863260f15130dd",
+      "published_sha256": "f224ce03dac54a4c2460e000994b58fa0be543b633324323e7863260f15130dd",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/codebase-design/agents/openai.yaml",
+      "trial_sha256": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc",
+      "published_sha256": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/codebase-design/DEEPENING.md",
+      "trial_sha256": "e545244807243975455b66d4586636425fea701098bfd094ec30fbdbfd3d57af",
+      "published_sha256": "e545244807243975455b66d4586636425fea701098bfd094ec30fbdbfd3d57af",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/codebase-design/DESIGN-IT-TWICE.md",
+      "trial_sha256": "315358a179523659cad5cba289b180a5526e7e3cdaa630e936383a011699d35e",
+      "published_sha256": "315358a179523659cad5cba289b180a5526e7e3cdaa630e936383a011699d35e",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/codebase-design/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/codebase-design/SKILL.md",
+      "trial_sha256": "e2744762a2aa78a2be0e3db345ce11245191e2ec395c5bbf641e23af20b743cd",
+      "published_sha256": "e2744762a2aa78a2be0e3db345ce11245191e2ec395c5bbf641e23af20b743cd",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/diagnosing-bugs/agents/openai.yaml",
+      "trial_sha256": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58",
+      "published_sha256": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/diagnosing-bugs/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "trial_sha256": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f",
+      "published_sha256": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/diagnosing-bugs/SKILL.md",
+      "trial_sha256": "a25a03a10129255b25eb082637c2b23dba4cd42075cbaab033d1f9aa4925cbe3",
+      "published_sha256": "a25a03a10129255b25eb082637c2b23dba4cd42075cbaab033d1f9aa4925cbe3",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/domain-modeling/ADR-FORMAT.md",
+      "trial_sha256": "b7021c31a1c2485b07356a8110fd1fd1ae4facbab3e210983789f425f867d95b",
+      "published_sha256": "b7021c31a1c2485b07356a8110fd1fd1ae4facbab3e210983789f425f867d95b",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/domain-modeling/agents/openai.yaml",
+      "trial_sha256": "ce496c77c77a090877bff10f198c9770fb52e23088351350ea0826380f948ff8",
+      "published_sha256": "ce496c77c77a090877bff10f198c9770fb52e23088351350ea0826380f948ff8",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/domain-modeling/CONTEXT-FORMAT.md",
+      "trial_sha256": "6097d3a11b96be24425091ed6e8a744c53644d3685455b2d828100f1853b9b89",
+      "published_sha256": "6097d3a11b96be24425091ed6e8a744c53644d3685455b2d828100f1853b9b89",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/domain-modeling/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/domain-modeling/SKILL.md",
+      "trial_sha256": "edfdf63f3c3c339683d0b96f4dcf12698a509bad552c61ffb71a8b022e3c5a1f",
+      "published_sha256": "edfdf63f3c3c339683d0b96f4dcf12698a509bad552c61ffb71a8b022e3c5a1f",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/git-guardrails-claude-code/agents/openai.yaml",
+      "trial_sha256": "9151961c68ab52e07e2463df15e8ff7c9331c3b7afbf716c3461623f87c57c14",
+      "published_sha256": "9151961c68ab52e07e2463df15e8ff7c9331c3b7afbf716c3461623f87c57c14",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/git-guardrails-claude-code/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/git-guardrails-claude-code/references/legacy-hook-audit.md",
+      "trial_sha256": "95560bd3457a43a7807acb742854f204f3d9ca0d2f56fbf7cfad1d3fb1f750fd",
+      "published_sha256": "95560bd3457a43a7807acb742854f204f3d9ca0d2f56fbf7cfad1d3fb1f750fd",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+      "trial_sha256": "bb5dc3a96ae81924ff3b88b959979b4eb68b7810f6fa9bd395fb8f781e0d8c12",
+      "published_sha256": "bb5dc3a96ae81924ff3b88b959979b4eb68b7810f6fa9bd395fb8f781e0d8c12",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/git-guardrails-claude-code/SKILL.md",
+      "trial_sha256": "616602afb5a31d70b47706d8076c73a0c9cea9fc94ef2ef5e2bf610a389ce833",
+      "published_sha256": "616602afb5a31d70b47706d8076c73a0c9cea9fc94ef2ef5e2bf610a389ce833",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/grill-me/agents/openai.yaml",
+      "trial_sha256": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5",
+      "published_sha256": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/grill-me/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/grill-me/SKILL.md",
+      "trial_sha256": "32dcc6e052001426b1857255c5240cf6e28849d13b0b902c43cbd881de5d5271",
+      "published_sha256": "32dcc6e052001426b1857255c5240cf6e28849d13b0b902c43cbd881de5d5271",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/grill-with-docs/agents/openai.yaml",
+      "trial_sha256": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3",
+      "published_sha256": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/grill-with-docs/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/grill-with-docs/SKILL.md",
+      "trial_sha256": "795cfefe5266cda492d74320d8d6dbd0b8aa8e74fd671ccc3c4d2b007486da47",
+      "published_sha256": "795cfefe5266cda492d74320d8d6dbd0b8aa8e74fd671ccc3c4d2b007486da47",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/grilling/agents/openai.yaml",
+      "trial_sha256": "ad75163922ff8263acdd25ebc37420e8fcf1fccb93483fd5742e9bd26f5c45f6",
+      "published_sha256": "ad75163922ff8263acdd25ebc37420e8fcf1fccb93483fd5742e9bd26f5c45f6",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/grilling/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/grilling/SKILL.md",
+      "trial_sha256": "cbefd323eef55a2bfc00e3eb8dd8aa54be10a51eafc85060f5b83ee944689f2e",
+      "published_sha256": "cbefd323eef55a2bfc00e3eb8dd8aa54be10a51eafc85060f5b83ee944689f2e",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/handoff/agents/openai.yaml",
+      "trial_sha256": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4",
+      "published_sha256": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/handoff/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/handoff/SKILL.md",
+      "trial_sha256": "87e0bc9f8955006bd6926511ddf051bae025c759f3686ba8b193b90b63897d41",
+      "published_sha256": "87e0bc9f8955006bd6926511ddf051bae025c759f3686ba8b193b90b63897d41",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/implement/agents/openai.yaml",
+      "trial_sha256": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb",
+      "published_sha256": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/implement/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/implement/SKILL.md",
+      "trial_sha256": "fcc0b0d3de798563834452e814f3ad805c726e7897c8ad5e0f0fc19e9da3b895",
+      "published_sha256": "fcc0b0d3de798563834452e814f3ad805c726e7897c8ad5e0f0fc19e9da3b895",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/implement-spec/agents/openai.yaml",
+      "trial_sha256": "3f7f8a55426d174c0fbe13405633d130a23e14a7b8e3157e1ba88da84c41c2d3",
+      "published_sha256": "3f7f8a55426d174c0fbe13405633d130a23e14a7b8e3157e1ba88da84c41c2d3",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/implement-spec/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/implement-spec/SKILL.md",
+      "trial_sha256": "b4ff51ffd94f0b0530d8bf9462c9f55e46896010d61385a4abb6f964ccf948e7",
+      "published_sha256": "b4ff51ffd94f0b0530d8bf9462c9f55e46896010d61385a4abb6f964ccf948e7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/improve-codebase-architecture/agents/openai.yaml",
+      "trial_sha256": "6b69701fc3f4f31ec626c1ae5c090dc5c640fab147a63be81b575c2f9c5231fa",
+      "published_sha256": "6b69701fc3f4f31ec626c1ae5c090dc5c640fab147a63be81b575c2f9c5231fa",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/improve-codebase-architecture/HTML-REPORT.md",
+      "trial_sha256": "e0d32c7472acd4ff1effe61a091166634ceb85c4975ff596c4504bef1835f84e",
+      "published_sha256": "e0d32c7472acd4ff1effe61a091166634ceb85c4975ff596c4504bef1835f84e",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/improve-codebase-architecture/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/improve-codebase-architecture/SKILL.md",
+      "trial_sha256": "2811e212015009b3c599a6d30c374e6f285623f6396322214f15a0cd301c54ec",
+      "published_sha256": "2811e212015009b3c599a6d30c374e6f285623f6396322214f15a0cd301c54ec",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/loop-me/agents/openai.yaml",
+      "trial_sha256": "ec257a7995d8eba46b6a95471f5fb569798aa975a1b1c438542b1a9c82bc33d3",
+      "published_sha256": "ec257a7995d8eba46b6a95471f5fb569798aa975a1b1c438542b1a9c82bc33d3",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/loop-me/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/loop-me/SKILL.md",
+      "trial_sha256": "f42a2027f12b65fc159ed8ae58afc16d47b7299bf1bab9ca3002a846b7ccc501",
+      "published_sha256": "f42a2027f12b65fc159ed8ae58afc16d47b7299bf1bab9ca3002a846b7ccc501",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/migrate-to-shoehorn/agents/openai.yaml",
+      "trial_sha256": "43d8fbb6347d771e82eb866bae6987acede6dc1d16d46b9c69e2b06930771180",
+      "published_sha256": "43d8fbb6347d771e82eb866bae6987acede6dc1d16d46b9c69e2b06930771180",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/migrate-to-shoehorn/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/migrate-to-shoehorn/SKILL.md",
+      "trial_sha256": "3eb3b1f5cda6a0a47ae91b39da37504a9218528794aab2ebd38eeab303ae4b49",
+      "published_sha256": "3eb3b1f5cda6a0a47ae91b39da37504a9218528794aab2ebd38eeab303ae4b49",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/pr/agents/openai.yaml",
+      "trial_sha256": "33b71355c3ec06963d9a276baff9e9bf89a1ac69a5b9489a368c95021a8d6cc4",
+      "published_sha256": "33b71355c3ec06963d9a276baff9e9bf89a1ac69a5b9489a368c95021a8d6cc4",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/pr/CREDITS.md",
+      "trial_sha256": "d11be215cc3759c29619338303e962e487a4c15dc074b5791b5492fb819e9109",
+      "published_sha256": "d11be215cc3759c29619338303e962e487a4c15dc074b5791b5492fb819e9109",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/pr/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/pr/SKILL.md",
+      "trial_sha256": "c513c24f87add562c22af73fcb7c7c0b020f14e376a20f275aa40fa34cd639f5",
+      "published_sha256": "c513c24f87add562c22af73fcb7c7c0b020f14e376a20f275aa40fa34cd639f5",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/prototype/agents/openai.yaml",
+      "trial_sha256": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787",
+      "published_sha256": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/prototype/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/prototype/LOGIC.md",
+      "trial_sha256": "c9f3e1f089e0c67a40450c4b06c42cb649bfbb00b70bb97de8b322bb4393c8ec",
+      "published_sha256": "c9f3e1f089e0c67a40450c4b06c42cb649bfbb00b70bb97de8b322bb4393c8ec",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/prototype/SKILL.md",
+      "trial_sha256": "1ad65d24c445c67f73371a1d55a1d1b76f67a7600e4071ec4677010ea166c8c1",
+      "published_sha256": "1ad65d24c445c67f73371a1d55a1d1b76f67a7600e4071ec4677010ea166c8c1",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/prototype/UI.md",
+      "trial_sha256": "ad9e0ad9cd9747611ce0b9acfdfdae86272daee9d35281e652d9e737fec23764",
+      "published_sha256": "ad9e0ad9cd9747611ce0b9acfdfdae86272daee9d35281e652d9e737fec23764",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/research/agents/openai.yaml",
+      "trial_sha256": "73840328dfa6b689d81ee645d8aaf8570a0cc44d64a32b119ea6091d2828d412",
+      "published_sha256": "73840328dfa6b689d81ee645d8aaf8570a0cc44d64a32b119ea6091d2828d412",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/research/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/research/SKILL.md",
+      "trial_sha256": "b88796a8ee2dc2a9c70139f0b4e3767e86d92600dfb395829956a462d0b57dba",
+      "published_sha256": "b88796a8ee2dc2a9c70139f0b4e3767e86d92600dfb395829956a462d0b57dba",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/resolving-merge-conflicts/agents/openai.yaml",
+      "trial_sha256": "ad953099f6df6fe1b1e6e395ce38dfab3eb3a4e37461cfb318b0e81a32a35b4b",
+      "published_sha256": "ad953099f6df6fe1b1e6e395ce38dfab3eb3a4e37461cfb318b0e81a32a35b4b",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/resolving-merge-conflicts/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/resolving-merge-conflicts/SKILL.md",
+      "trial_sha256": "c3ec44389881486386cbddd93e3a883d21df35a0e32b432d021e683143f31ec1",
+      "published_sha256": "c3ec44389881486386cbddd93e3a883d21df35a0e32b432d021e683143f31ec1",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/retro/agents/openai.yaml",
+      "trial_sha256": "61afaa61443da49b3ff8fcc9d04735362bfec03e213791226134a3a21a9c6fd3",
+      "published_sha256": "61afaa61443da49b3ff8fcc9d04735362bfec03e213791226134a3a21a9c6fd3",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/retro/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/retro/SKILL.md",
+      "trial_sha256": "b6eddcb9de1b978d76704c8e8719b922f5a4b4c38a127e6eee5f51d1e147d87e",
+      "published_sha256": "b6eddcb9de1b978d76704c8e8719b922f5a4b4c38a127e6eee5f51d1e147d87e",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/scaffold-exercises/agents/openai.yaml",
+      "trial_sha256": "f3ab550f1077150f0fe728fe3ff187e8672f4df7eedc7f233cdd1a61f347f1db",
+      "published_sha256": "f3ab550f1077150f0fe728fe3ff187e8672f4df7eedc7f233cdd1a61f347f1db",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/scaffold-exercises/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/scaffold-exercises/SKILL.md",
+      "trial_sha256": "4117aa7f9ef81b6e6573a22d65768cca20382e4a68e19969b667b1bc5c4ed61a",
+      "published_sha256": "4117aa7f9ef81b6e6573a22d65768cca20382e4a68e19969b667b1bc5c4ed61a",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/agents/openai.yaml",
+      "trial_sha256": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2",
+      "published_sha256": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/domain.md",
+      "trial_sha256": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54",
+      "published_sha256": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/issue-tracker-github.md",
+      "trial_sha256": "622190fd3b98ad54e24bd1226e9f90abfe9594a04f697fb29b233fe73b0d8e16",
+      "published_sha256": "622190fd3b98ad54e24bd1226e9f90abfe9594a04f697fb29b233fe73b0d8e16",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "trial_sha256": "d211c3150fddae3ced118b4223ed450631d1490f62549b62d05db6eb9ccee241",
+      "published_sha256": "d211c3150fddae3ced118b4223ed450631d1490f62549b62d05db6eb9ccee241",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/issue-tracker-local.md",
+      "trial_sha256": "e8f868ae0941a5d94fa707d87322365860b3d9f8f3dc188553f9f0b091d5cf96",
+      "published_sha256": "5b594b4b44ff4ee428b017a9021b8b12c4b11f26f7d56165ddfc72122771fb34",
+      "status": "repaired after trial",
+      "trial_archive": "evals/candidate-v1/setup-matt-pocock-skills/issue-tracker-local.md"
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/SKILL.md",
+      "trial_sha256": "a1b013203b25322419d1106a03b585f466b6429481b0d97b1d8e4668a3213abc",
+      "published_sha256": "32d9824b7200fe5d69c46397546a90256b3800dffaf80d6e413c1c7bc4988073",
+      "status": "repaired after trial",
+      "trial_archive": "evals/candidate-v1/setup-matt-pocock-skills/SKILL.md"
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/triage-labels.md",
+      "trial_sha256": "ab77e8ac8134c075e4a84d6f65fe0b6eb29c06a618bfc0d27fccf844e49c3b2a",
+      "published_sha256": "ab77e8ac8134c075e4a84d6f65fe0b6eb29c06a618bfc0d27fccf844e49c3b2a",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-pre-commit/agents/openai.yaml",
+      "trial_sha256": "946bfa9a3cab905f4241d8dcc127a11fdcf2994027b87e198f26f7e65d88f727",
+      "published_sha256": "946bfa9a3cab905f4241d8dcc127a11fdcf2994027b87e198f26f7e65d88f727",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-pre-commit/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-pre-commit/SKILL.md",
+      "trial_sha256": "3be1dc69885c71e1d6949cbec1736bf49137ace98394a5810e42fce64f0ad3dc",
+      "published_sha256": "3be1dc69885c71e1d6949cbec1736bf49137ace98394a5810e42fce64f0ad3dc",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-ts-deep-modules/agents/openai.yaml",
+      "trial_sha256": "bf3d58c59b0e68ef3b0287ac3ab3d165b066dfd31e146ecf278e56e4df664610",
+      "published_sha256": "bf3d58c59b0e68ef3b0287ac3ab3d165b066dfd31e146ecf278e56e4df664610",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-ts-deep-modules/dependency-cruiser.config.cjs",
+      "trial_sha256": "d80c982bc496ff6fb65c91bfa5b3ffccd64396cd488f556779ce3f1bd770f376",
+      "published_sha256": "d80c982bc496ff6fb65c91bfa5b3ffccd64396cd488f556779ce3f1bd770f376",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-ts-deep-modules/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/setup-ts-deep-modules/SKILL.md",
+      "trial_sha256": "5025570a9270dc254e200ea79f9b448c51ae7d124c3620f2c485b4f64f1f8ae4",
+      "published_sha256": "5025570a9270dc254e200ea79f9b448c51ae7d124c3620f2c485b4f64f1f8ae4",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/tdd/agents/openai.yaml",
+      "trial_sha256": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac",
+      "published_sha256": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/tdd/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/tdd/mocking.md",
+      "trial_sha256": "b63a20ff5e9c88bf6c4c82eb1146024629b08ccd47b36444fcf093ba47310324",
+      "published_sha256": "b63a20ff5e9c88bf6c4c82eb1146024629b08ccd47b36444fcf093ba47310324",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/tdd/SKILL.md",
+      "trial_sha256": "3a07c637aacfefb91f9205d2211cb82c72db941b1e7ae6ebe93a1e8f2510c45a",
+      "published_sha256": "3a07c637aacfefb91f9205d2211cb82c72db941b1e7ae6ebe93a1e8f2510c45a",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/tdd/tests.md",
+      "trial_sha256": "bff5dbd2c9c436827559baccbb1b1221b8ce64675147da29e396239d2e42d0f1",
+      "published_sha256": "bff5dbd2c9c436827559baccbb1b1221b8ce64675147da29e396239d2e42d0f1",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/teach/agents/openai.yaml",
+      "trial_sha256": "80e96a4d492ad8538e609672361e8543b69e7b22ce83be0efc2e5532472ede69",
+      "published_sha256": "80e96a4d492ad8538e609672361e8543b69e7b22ce83be0efc2e5532472ede69",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/teach/GLOSSARY-FORMAT.md",
+      "trial_sha256": "17e4442d123852240974919ba450a30fa89c3e3d7440828960bb808248c9d5c9",
+      "published_sha256": "17e4442d123852240974919ba450a30fa89c3e3d7440828960bb808248c9d5c9",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/teach/LEARNING-RECORD-FORMAT.md",
+      "trial_sha256": "43d9c789a45ec3d628cd5b28e8012f1568d2bf77176d09c489f856343ca8bfef",
+      "published_sha256": "43d9c789a45ec3d628cd5b28e8012f1568d2bf77176d09c489f856343ca8bfef",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/teach/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/teach/MISSION-FORMAT.md",
+      "trial_sha256": "1c7c68fc89afa61b99bbaaafe8e19350723acb4d6749730114e79ab6aa79c589",
+      "published_sha256": "1c7c68fc89afa61b99bbaaafe8e19350723acb4d6749730114e79ab6aa79c589",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/teach/RESOURCES-FORMAT.md",
+      "trial_sha256": "7f94b25510e203b1c405210ed16d6646bb8f0dacbe2fadfe79ed3ce3e30d59d4",
+      "published_sha256": "7f94b25510e203b1c405210ed16d6646bb8f0dacbe2fadfe79ed3ce3e30d59d4",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/teach/SKILL.md",
+      "trial_sha256": "02a77bf566dd578da492ab319105a7bf7574b0abd1bbad1de635738d2aa92235",
+      "published_sha256": "02a77bf566dd578da492ab319105a7bf7574b0abd1bbad1de635738d2aa92235",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/to-questionnaire/agents/openai.yaml",
+      "trial_sha256": "0b5ed84d805809777a15371c946a70f98321e3c6400fce5fcd74df71d40e860b",
+      "published_sha256": "0b5ed84d805809777a15371c946a70f98321e3c6400fce5fcd74df71d40e860b",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/to-questionnaire/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/to-questionnaire/SKILL.md",
+      "trial_sha256": "aa82b78460c158e7d832a40b08015a85545681023bf9d3773313c70de8586a15",
+      "published_sha256": "aa82b78460c158e7d832a40b08015a85545681023bf9d3773313c70de8586a15",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/to-spec/agents/openai.yaml",
+      "trial_sha256": "55037139831219743dda1f716fe69eab3366e922529f69cc988fea3b1d34c74a",
+      "published_sha256": "55037139831219743dda1f716fe69eab3366e922529f69cc988fea3b1d34c74a",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/to-spec/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/to-spec/SKILL.md",
+      "trial_sha256": "1d29d1399ea97d7c8c56a2111325ad735284b546348445f9abe1b4cdf9fb730d",
+      "published_sha256": "1d29d1399ea97d7c8c56a2111325ad735284b546348445f9abe1b4cdf9fb730d",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/to-tickets/agents/openai.yaml",
+      "trial_sha256": "e396b8caaf6cdd95c94cf707a7ca2fa5c3a04b37ae5d4301b5b360a7ff7a34cb",
+      "published_sha256": "e396b8caaf6cdd95c94cf707a7ca2fa5c3a04b37ae5d4301b5b360a7ff7a34cb",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/to-tickets/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/to-tickets/SKILL.md",
+      "trial_sha256": "5891b75d17f71907919996f673028510b7e9a110f8a2376d0b96908192fe2c70",
+      "published_sha256": "5891b75d17f71907919996f673028510b7e9a110f8a2376d0b96908192fe2c70",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/triage/AGENT-BRIEF.md",
+      "trial_sha256": "502a6e55e23a94fde22b1d9a95f575f81b4d14686ba38dd9e3012cd0aca47ab3",
+      "published_sha256": "502a6e55e23a94fde22b1d9a95f575f81b4d14686ba38dd9e3012cd0aca47ab3",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/triage/agents/openai.yaml",
+      "trial_sha256": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae",
+      "published_sha256": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/triage/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/triage/OUT-OF-SCOPE.md",
+      "trial_sha256": "c0a697b6362cc6774d84402a8fe8be01d291dfcf1628a263cf84b123f18deb7b",
+      "published_sha256": "c0a697b6362cc6774d84402a8fe8be01d291dfcf1628a263cf84b123f18deb7b",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/triage/SKILL.md",
+      "trial_sha256": "adf34ffcc8cf94bece962ecff291bd9a33b0876efdd896d57157c802da5da173",
+      "published_sha256": "cd4996abdb04b484309b156c0385f30d5d2994d214ea58eb621c3b93ebf0f661",
+      "status": "repaired after trial",
+      "trial_archive": "evals/candidate-v1/triage/SKILL.md"
+    },
+    {
+      "path": "refactored/wait-what/agents/openai.yaml",
+      "trial_sha256": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef",
+      "published_sha256": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/wait-what/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/wait-what/SKILL.md",
+      "trial_sha256": "5cc2b0f6b59f0ceafc6cdad2b15fba558a3c69917f564a94e3473698e817d785",
+      "published_sha256": "5cc2b0f6b59f0ceafc6cdad2b15fba558a3c69917f564a94e3473698e817d785",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/wayfinder/agents/openai.yaml",
+      "trial_sha256": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a",
+      "published_sha256": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/wayfinder/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/wayfinder/SKILL.md",
+      "trial_sha256": "f99bd05e667513cf8c26797793195db6e2cf99f998482994ef67497ac1a80911",
+      "published_sha256": "f99bd05e667513cf8c26797793195db6e2cf99f998482994ef67497ac1a80911",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/wizard/agents/openai.yaml",
+      "trial_sha256": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249",
+      "published_sha256": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/wizard/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/wizard/SKILL.md",
+      "trial_sha256": "2244f644e7444adc5d0e1e9c2b1647666aca059b2bd6f005e8a844c1cb171932",
+      "published_sha256": "5e2c3aabde1752152b8f335167b7bc762688baabee3fe64e43ce696b45c6ecf5",
+      "status": "repaired after trial",
+      "trial_archive": "evals/candidate-v1/wizard/SKILL.md"
+    },
+    {
+      "path": "refactored/wizard/template.sh",
+      "trial_sha256": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3",
+      "published_sha256": "fafe165e114911870077dc5b01e374c15405d7b51096bff8371314c47112bbd6",
+      "status": "repaired after trial",
+      "trial_archive": "evals/candidate-v1/wizard/template.sh"
+    },
+    {
+      "path": "refactored/writing-beats/agents/openai.yaml",
+      "trial_sha256": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84",
+      "published_sha256": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/writing-beats/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/writing-beats/SKILL.md",
+      "trial_sha256": "efc03138e5bf63910cf2c03e5c083fd9dac11617f2bf9a755e969a9ffad1745f",
+      "published_sha256": "efc03138e5bf63910cf2c03e5c083fd9dac11617f2bf9a755e969a9ffad1745f",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/writing-for-agents/agents/openai.yaml",
+      "trial_sha256": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428",
+      "published_sha256": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/writing-for-agents/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/writing-for-agents/SKILL-MECHANICS.md",
+      "trial_sha256": "09e24b4f01cc2099824a34a6bc765a57b594a968fe55e7894fef224cf40fcf6f",
+      "published_sha256": "09e24b4f01cc2099824a34a6bc765a57b594a968fe55e7894fef224cf40fcf6f",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/writing-for-agents/SKILL.md",
+      "trial_sha256": "86478d26e1f6ba958bef4f5db973e1b8bb0587e31d201240fbefd823b1566a53",
+      "published_sha256": "86478d26e1f6ba958bef4f5db973e1b8bb0587e31d201240fbefd823b1566a53",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/writing-fragments/agents/openai.yaml",
+      "trial_sha256": "d082f54a16e95d0eb5c3bcf3e2ff7b78b8c5b2e142c5d1b8897d7f3282adbedb",
+      "published_sha256": "d082f54a16e95d0eb5c3bcf3e2ff7b78b8c5b2e142c5d1b8897d7f3282adbedb",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/writing-fragments/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/writing-fragments/SKILL.md",
+      "trial_sha256": "c0316e13b529399cc764fecf1f8814374594ed259383fb22f8245b271a1aa433",
+      "published_sha256": "c0316e13b529399cc764fecf1f8814374594ed259383fb22f8245b271a1aa433",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/writing-shape/agents/openai.yaml",
+      "trial_sha256": "7f82f71f0849ada3acb686dfe9977a7b5b1af3c1fc049ac5275b8fdf3a18c299",
+      "published_sha256": "7f82f71f0849ada3acb686dfe9977a7b5b1af3c1fc049ac5275b8fdf3a18c299",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/writing-shape/LICENSE",
+      "trial_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    },
+    {
+      "path": "refactored/writing-shape/SKILL.md",
+      "trial_sha256": "5f92a1832d225e03f7f1fdb8d540844c9fa2dfe65b258bb52accbba2f51f5163",
+      "published_sha256": "5f92a1832d225e03f7f1fdb8d540844c9fa2dfe65b258bb52accbba2f51f5163",
+      "status": "unchanged since trial",
+      "trial_archive": null
+    }
+  ]
+}

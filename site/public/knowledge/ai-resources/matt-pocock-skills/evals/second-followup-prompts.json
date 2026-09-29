@@ -1,0 +1,34 @@
+{
+  "frozen_at": "2026-09-29T09:39:50.369352+00:00",
+  "scope": "Post-result targeted development checks: repaired setup seed plus isolated writing-beats retest without changing its skill. Not held-out evidence.",
+  "cases": [
+    {
+      "id": "setup-existing-schema-repair",
+      "skill": "refactored/setup-matt-pocock-skills/SKILL.md",
+      "support": [
+        "refactored/setup-matt-pocock-skills/issue-tracker-local.md"
+      ],
+      "prompt": "Setup dry run. The repository has AGENTS.md and a local issue workflow. Verified layout: all issues live in .scratch/ISSUES.md with opaque IDs such as Q9; state is Open or Done; comments are dated bullets below each item; it has no parent links and one package. Keep that workflow. No triage skill is selected. Describe the minimal configuration changes; do not write files."
+    },
+    {
+      "id": "writing-beats-isolated-retest",
+      "skill": "refactored/writing-beats/SKILL.md",
+      "support": [],
+      "prompt": "Earlier beat establishing that the narrator lost their job was deleted by the user. The next proposed beat assumes unemployment. What changes in the next choices? No other story facts are supplied in this standalone fixture."
+    }
+  ],
+  "inputs": [
+    {
+      "path": "refactored/setup-matt-pocock-skills/SKILL.md",
+      "sha256": "32d9824b7200fe5d69c46397546a90256b3800dffaf80d6e413c1c7bc4988073"
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/issue-tracker-local.md",
+      "sha256": "5b594b4b44ff4ee428b017a9021b8b12c4b11f26f7d56165ddfc72122771fb34"
+    },
+    {
+      "path": "refactored/writing-beats/SKILL.md",
+      "sha256": "efc03138e5bf63910cf2c03e5c083fd9dac11617f2bf9a755e969a9ffad1745f"
+    }
+  ]
+}

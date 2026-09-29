@@ -1,0 +1,4213 @@
+{
+  "packages": [
+    {
+      "path": "refactored/writing-for-agents",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "86478d26e1f6ba958bef4f5db973e1b8bb0587e31d201240fbefd823b1566a53"
+    },
+    {
+      "path": "original-skills/decision-preserving-compression",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "faa460d1a9e938231e9f55d95823af670e1c1331801e836b94728f90decada78"
+    },
+    {
+      "path": "refactored/grilling",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "cbefd323eef55a2bfc00e3eb8dd8aa54be10a51eafc85060f5b83ee944689f2e"
+    },
+    {
+      "path": "original-skills/reversible-bets",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "bc80f7dd0bd0869fbe2205748d27766949db6e8dd7ebcb3efa26a300dfdf3351"
+    },
+    {
+      "path": "refactored/grill-me",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "32dcc6e052001426b1857255c5240cf6e28849d13b0b902c43cbd881de5d5271"
+    },
+    {
+      "path": "original-skills/preference-probes",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "03d66c848d0dbfe6f34d1a944a623abf63150294c4794d090fb043e94ab80540"
+    },
+    {
+      "path": "refactored/teach",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "02a77bf566dd578da492ab319105a7bf7574b0abd1bbad1de635738d2aa92235"
+    },
+    {
+      "path": "original-skills/transfer-test",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "79cc25a9bf107ae90ecb28f4a5259aa225bf6512e963584a506a6c0b87286dd1"
+    },
+    {
+      "path": "refactored/research",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "b88796a8ee2dc2a9c70139f0b4e3767e86d92600dfb395829956a462d0b57dba"
+    },
+    {
+      "path": "original-skills/evidence-fork",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "c4f0fa3c318f8b4bb5ed4061eeb31104e02e683adbba655835661741b579abe3"
+    },
+    {
+      "path": "refactored/handoff",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "87e0bc9f8955006bd6926511ddf051bae025c759f3686ba8b193b90b63897d41"
+    },
+    {
+      "path": "original-skills/resume-check",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "9e3389d01c3e9692f112f3e6e03c092029ae7047cdd696389e130c508b93b2fa"
+    },
+    {
+      "path": "refactored/prototype",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "1ad65d24c445c67f73371a1d55a1d1b76f67a7600e4071ec4677010ea166c8c1"
+    },
+    {
+      "path": "original-skills/assumption-budget",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "03bf647efb4e7e64ef4a7313863e2a9e44eadf375489e7b8a9cf1db6e25913fa"
+    },
+    {
+      "path": "refactored/wayfinder",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "f99bd05e667513cf8c26797793195db6e2cf99f998482994ef67497ac1a80911"
+    },
+    {
+      "path": "original-skills/stop-rule",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "4cabf0a2bda5a6dd8b25e096bb1e78d061048289091f245809d981cb4df0fde5"
+    },
+    {
+      "path": "refactored/to-spec",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "1d29d1399ea97d7c8c56a2111325ad735284b546348445f9abe1b4cdf9fb730d"
+    },
+    {
+      "path": "original-skills/intent-examples",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "0b33593ebf11d63c9e93d5ed771fcb74d0403864ba96549d8867cb2094565056"
+    },
+    {
+      "path": "refactored/domain-modeling",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "edfdf63f3c3c339683d0b96f4dcf12698a509bad552c61ffb71a8b022e3c5a1f"
+    },
+    {
+      "path": "original-skills/boundary-cases",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "8486025683706fb16e9c1dd747d065ec59393e1e99f9e86345e5e1a1bc08f907"
+    },
+    {
+      "path": "refactored/wait-what",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "5cc2b0f6b59f0ceafc6cdad2b15fba558a3c69917f564a94e3473698e817d785"
+    },
+    {
+      "path": "original-skills/contrastive-explanation",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "46b3e4025636ea56851c9b21196214ce89e5bc98ea5cf5d5eb4e0a9f2e846285"
+    },
+    {
+      "path": "refactored/grill-with-docs",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "795cfefe5266cda492d74320d8d6dbd0b8aa8e74fd671ccc3c4d2b007486da47"
+    },
+    {
+      "path": "original-skills/decision-thread",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "356955ff68a83854107381a2be5fc181d64a9ea278ac602352106bff1dfa3f3a"
+    },
+    {
+      "path": "refactored/loop-me",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "f42a2027f12b65fc159ed8ae58afc16d47b7299bf1bab9ca3002a846b7ccc501"
+    },
+    {
+      "path": "original-skills/workflow-payback",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "d46a28a06703b1b17c09c2d2084ece43443cf66c9615fb19d55cb16ed01f2516"
+    },
+    {
+      "path": "refactored/retro",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "b6eddcb9de1b978d76704c8e8719b922f5a4b4c38a127e6eee5f51d1e147d87e"
+    },
+    {
+      "path": "original-skills/instruction-ablation",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "aadcde191fbb2eb3ab6106cb78a337eb8c8caef9a5080f3391fc8bea53609aed"
+    },
+    {
+      "path": "refactored/to-tickets",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "5891b75d17f71907919996f673028510b7e9a110f8a2376d0b96908192fe2c70"
+    },
+    {
+      "path": "original-skills/design-the-learning-sequence",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "909a3902ff8d57242b01ba234bf4e01e9fb1ee62fa50d7aee33e2abdfb97a707"
+    },
+    {
+      "path": "refactored/diagnosing-bugs",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "a25a03a10129255b25eb082637c2b23dba4cd42075cbaab033d1f9aa4925cbe3"
+    },
+    {
+      "path": "original-skills/construct-a-counterexample",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "8f94d5841e083a49c1b2e8f88080f8e48aa943519424a7e261258f5c051bcdd6"
+    },
+    {
+      "path": "refactored/code-review",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "111f407e77ecedd0d5c0e16edf6a0c8c2d99b5c48f330ef9321adb8d511e67e2"
+    },
+    {
+      "path": "original-skills/test-the-oracle",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "7d2ab9e89a8ac18220e9915a042203e305da5b8dc9242f11621ee4d31bdbebd5"
+    },
+    {
+      "path": "refactored/tdd",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "3a07c637aacfefb91f9205d2211cb82c72db941b1e7ae6ebe93a1e8f2510c45a"
+    },
+    {
+      "path": "original-skills/change-the-representation",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "caa8a3e7e992819a12e7fd3a7592dd9cf098cc1bdb078d161c24add13e36ac62"
+    },
+    {
+      "path": "refactored/implement",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "fcc0b0d3de798563834452e814f3ad805c726e7897c8ad5e0f0fc19e9da3b895"
+    },
+    {
+      "path": "original-skills/finish-the-last-mile",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "9c418eec893a3ed75adcd57ce82228263abc8f1397bb872833c229622941c95b"
+    },
+    {
+      "path": "refactored/writing-fragments",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "c0316e13b529399cc764fecf1f8814374594ed259383fb22f8245b271a1aa433"
+    },
+    {
+      "path": "original-skills/anchored-variation",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "6c51d92ef16742b23ccde748fc92d2c3a459db3d825eb89fed31e19412db2a2b"
+    },
+    {
+      "path": "refactored/writing-shape",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "5f92a1832d225e03f7f1fdb8d540844c9fa2dfe65b258bb52accbba2f51f5163"
+    },
+    {
+      "path": "original-skills/thesis-stress-test",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "a474852fb54dbeb5d4588812f67644bbc6b6d173a1344aa28569e9c2bc4d630c"
+    },
+    {
+      "path": "refactored/writing-beats",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "efc03138e5bf63910cf2c03e5c083fd9dac11617f2bf9a755e969a9ffad1745f"
+    },
+    {
+      "path": "original-skills/reader-state-simulation",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "cf1c6c23882f4c4226e237cd48bb1f2256f2c8b3a7ee8573b284ca88a3f70dc9"
+    },
+    {
+      "path": "refactored/to-questionnaire",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "aa82b78460c158e7d832a40b08015a85545681023bf9d3773313c70de8586a15"
+    },
+    {
+      "path": "original-skills/answer-reconciliation",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "a1b50763edb3a3f38b9e62704271eb2051eb5c9635c036bf931335384c418b6f"
+    },
+    {
+      "path": "refactored/scaffold-exercises",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "4117aa7f9ef81b6e6573a22d65768cca20382e4a68e19969b667b1bc5c4ed61a"
+    },
+    {
+      "path": "original-skills/misconception-lab",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "8961db7f289bad45b7b407ebc0cbfbd38bac0766d3cf83faac08a73e933dc176"
+    },
+    {
+      "path": "refactored/codebase-design",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "e2744762a2aa78a2be0e3db345ce11245191e2ec395c5bbf641e23af20b743cd"
+    },
+    {
+      "path": "original-skills/rehearse-the-next-change",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "f1101f91919cdb53de8ec70d08ccd53149246b60da5b26fb3b26cb587e2b879d"
+    },
+    {
+      "path": "refactored/improve-codebase-architecture",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "2811e212015009b3c599a6d30c374e6f285623f6396322214f15a0cd301c54ec"
+    },
+    {
+      "path": "original-skills/subtract-a-dependency",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "75c8f5062d7b931d5e52895fc3876dbbe7cc853ceeb0948962bdaf9a70e68808"
+    },
+    {
+      "path": "refactored/ask-matt",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "3f18f200231087848613313fbfbeab25f819c5188dcfa0678161dfafdcb827a7"
+    },
+    {
+      "path": "original-skills/find-the-binding-constraint",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "81afa2215ee0db9154aa44a8b0d8c1aeb867e9f47ef57c57ccaffc7a12dafd5d"
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "32d9824b7200fe5d69c46397546a90256b3800dffaf80d6e413c1c7bc4988073"
+    },
+    {
+      "path": "original-skills/make-a-working-example",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "aa78ae9e0a06ab060045df7a1df60377da1c4abcc7ebd537807f30d36bcb7851"
+    },
+    {
+      "path": "refactored/pr",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "c513c24f87add562c22af73fcb7c7c0b020f14e376a20f275aa40fa34cd639f5"
+    },
+    {
+      "path": "original-skills/reviewer-rehearsal",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "07702972418d34c89a32e01a626504514cd7412cb5e5598ff2be6c0add1f6a76"
+    },
+    {
+      "path": "refactored/triage",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "cd4996abdb04b484309b156c0385f30d5d2994d214ea58eb621c3b93ebf0f661"
+    },
+    {
+      "path": "original-skills/find-the-unasked-question",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "dd8be08d8ca2d4bb14f77b589bced296e9907758cc8b9952816c5cd92aa42599"
+    },
+    {
+      "path": "refactored/resolving-merge-conflicts",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "c3ec44389881486386cbddd93e3a883d21df35a0e32b432d021e683143f31ec1"
+    },
+    {
+      "path": "original-skills/compose-two-plans",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "d514b2d694016e8125052901abdecdfb9eea6baae15e704388f694d90cea5c3e"
+    },
+    {
+      "path": "refactored/wizard",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "5e2c3aabde1752152b8f335167b7bc762688baabee3fe64e43ce696b45c6ecf5"
+    },
+    {
+      "path": "original-skills/make-the-tradeoff-tangible",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "2e2363bcd8fa952dc7e0ed8996885a0bb7abf94fc788c53439d8921ea09e1209"
+    },
+    {
+      "path": "refactored/implement-spec",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "b4ff51ffd94f0b0530d8bf9462c9f55e46896010d61385a4abb6f964ccf948e7"
+    },
+    {
+      "path": "original-skills/integration-contracts",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "d174823228250fbf8f3fde4aef1f68c6bd56258c774142553b759a8f6061c64a"
+    },
+    {
+      "path": "refactored/claude-handoff",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "ec3a72ac8b6411c1f3e4147e95a8be4bebd62861aa02dbea780fc6eae766c5bf"
+    },
+    {
+      "path": "original-skills/resume-probe",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "781410bb177d23d75a2ed5c69eefde2b9e8f01cd7156b516b240a881fabe7203"
+    },
+    {
+      "path": "refactored/setup-pre-commit",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "3be1dc69885c71e1d6949cbec1736bf49137ace98394a5810e42fce64f0ad3dc"
+    },
+    {
+      "path": "original-skills/feedback-budget",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "623344e40a47c49c8f4c87eabfe7b4210e1df9f8e6d87af51af0d8a499f9781b"
+    },
+    {
+      "path": "refactored/git-guardrails-claude-code",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "616602afb5a31d70b47706d8076c73a0c9cea9fc94ef2ef5e2bf610a389ce833"
+    },
+    {
+      "path": "original-skills/reversible-operation-design",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "c9211d5e764652f8cc477c8dea1d46d306b12aee61dd2fe919a2367e9e32659b"
+    },
+    {
+      "path": "refactored/setup-ts-deep-modules",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "5025570a9270dc254e200ea79f9b448c51ae7d124c3620f2c485b4f64f1f8ae4"
+    },
+    {
+      "path": "original-skills/contract-surface-audit",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "e95f9684dd4cb7c0b922ac8d4071edb9a4250ffef807ee9c09bd279a6ac17af9"
+    },
+    {
+      "path": "refactored/migrate-to-shoehorn",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "3eb3b1f5cda6a0a47ae91b39da37504a9218528794aab2ebd38eeab303ae4b49"
+    },
+    {
+      "path": "original-skills/fixture-truth",
+      "pass": true,
+      "message": "Skill is valid!",
+      "sha256": "fe06a762144ed71eea23b4e0f59c317cf7c7c3e84622f45f7e234c4726b2b8f7"
+    }
+  ],
+  "checks": [
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/ask-matt.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/code-review.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/codebase-design.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/diagnosing-bugs.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/domain-modeling.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/grill-with-docs.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/implement.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/improve-codebase-architecture.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/prototype.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/research.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/resolving-merge-conflicts.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/setup-matt-pocock-skills.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/tdd.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/to-spec.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/to-tickets.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/triage.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/wayfinder.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/engineering/wizard.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/productivity/grill-me.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/productivity/grilling.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/productivity/handoff.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/productivity/teach.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/productivity/to-questionnaire.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/productivity/wait-what.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/docs/productivity/writing-for-agents.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/out-of-scope/mainstream-issue-trackers-only.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/out-of-scope/question-limits.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/out-of-scope/setup-skill-verify-mode.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/deprecated/README.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/ask-matt/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/ask-matt/PHASE-BOUNDARIES.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/ask-matt/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/code-review/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/code-review/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/codebase-design/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/codebase-design/DEEPENING.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/codebase-design/DESIGN-IT-TWICE.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/codebase-design/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/diagnosing-bugs/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/diagnosing-bugs/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/domain-modeling/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/domain-modeling/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/grill-with-docs/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/grill-with-docs/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/implement/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/implement/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/improve-codebase-architecture/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/prototype/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/prototype/LOGIC.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/prototype/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/prototype/UI.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/README.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/research/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/research/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/resolving-merge-conflicts/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/resolving-merge-conflicts/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/triage-labels.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/tdd/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/tdd/mocking.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/tdd/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/tdd/tests.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/to-spec/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/to-spec/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/to-tickets/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/to-tickets/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/triage/AGENT-BRIEF.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/triage/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/triage/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/wayfinder/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/wayfinder/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/wizard/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/wizard/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/engineering/wizard/template.sh",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/claude-handoff/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/claude-handoff/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/implement-spec/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/implement-spec/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/loop-me/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/loop-me/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/pr/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/pr/CREDITS.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/pr/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/README.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/retro/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/retro/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/setup-ts-deep-modules/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/setup-ts-deep-modules/dependency-cruiser.config.cjs",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/setup-ts-deep-modules/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/writing-beats/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/writing-beats/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/writing-fragments/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/writing-fragments/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/writing-shape/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/in-progress/writing-shape/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/misc/git-guardrails-claude-code/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/misc/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/misc/migrate-to-shoehorn/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/misc/README.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/misc/scaffold-exercises/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/misc/scaffold-exercises/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/misc/setup-pre-commit/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/misc/setup-pre-commit/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/grill-me/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/grill-me/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/grilling/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/grilling/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/handoff/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/handoff/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/README.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/teach/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/teach/GLOSSARY-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/teach/MISSION-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/teach/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/to-questionnaire/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/to-questionnaire/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/wait-what/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/wait-what/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/writing-for-agents/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/writing-for-agents/SKILL-MECHANICS.md",
+      "pass": true
+    },
+    {
+      "check": "source hash",
+      "path": "source/skills/productivity/writing-for-agents/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\writing-for-agents.md",
+      "words": 2047,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\writing-for-agents",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\decision-preserving-compression",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "writing-for-agents",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "writing-for-agents",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/writing-for-agents/SKILL-MECHANICS.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/productivity/writing-for-agents/SKILL-MECHANICS.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/writing-for-agents/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/writing-for-agents/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/productivity/writing-for-agents/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\grilling.md",
+      "words": 1928,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\grilling",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\reversible-bets",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "grilling",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "grilling",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/grilling/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/grilling/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/productivity/grilling/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\grill-me.md",
+      "words": 2147,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\grill-me",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\preference-probes",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "grill-me",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "grill-me",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/grill-me/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/grill-me/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/productivity/grill-me/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\teach.md",
+      "words": 1968,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\teach",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\transfer-test",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "teach",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "teach",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/teach/GLOSSARY-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/productivity/teach/GLOSSARY-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/teach/MISSION-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/productivity/teach/MISSION-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/teach/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/teach/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/productivity/teach/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\research.md",
+      "words": 1886,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\research",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\evidence-fork",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "research",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "research",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/research/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/research/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/research/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\handoff.md",
+      "words": 1860,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\handoff",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\resume-check",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "handoff",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "handoff",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/handoff/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/handoff/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/productivity/handoff/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\prototype.md",
+      "words": 1901,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\prototype",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\assumption-budget",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "prototype",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "prototype",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/prototype/LOGIC.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/prototype/LOGIC.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/prototype/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/prototype/UI.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/prototype/UI.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/prototype/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/prototype/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\wayfinder.md",
+      "words": 1981,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\wayfinder",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\stop-rule",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "wayfinder",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "wayfinder",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/wayfinder/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/wayfinder/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/wayfinder/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\to-spec.md",
+      "words": 1960,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\to-spec",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\intent-examples",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "to-spec",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "to-spec",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/to-spec/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/to-spec/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/to-spec/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\domain-modeling.md",
+      "words": 1905,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\domain-modeling",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\boundary-cases",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "domain-modeling",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "domain-modeling",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/domain-modeling/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/domain-modeling/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/domain-modeling/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\wait-what.md",
+      "words": 1856,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\wait-what",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\contrastive-explanation",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "wait-what",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "wait-what",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/wait-what/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/wait-what/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/productivity/wait-what/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\grill-with-docs.md",
+      "words": 1785,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\grill-with-docs",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\decision-thread",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "grill-with-docs",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "grill-with-docs",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/grill-with-docs/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/grill-with-docs/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/grill-with-docs/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\loop-me.md",
+      "words": 2102,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\loop-me",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\workflow-payback",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "loop-me",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "loop-me",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/loop-me/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/loop-me/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/in-progress/loop-me/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\retro.md",
+      "words": 2193,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\retro",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\instruction-ablation",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "retro",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "retro",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/retro/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/retro/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/in-progress/retro/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\to-tickets.md",
+      "words": 2277,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\to-tickets",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\design-the-learning-sequence",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "to-tickets",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "to-tickets",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/to-tickets/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/to-tickets/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/to-tickets/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\diagnosing-bugs.md",
+      "words": 2267,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\diagnosing-bugs",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\construct-a-counterexample",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "diagnosing-bugs",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "diagnosing-bugs",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/diagnosing-bugs/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/diagnosing-bugs/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/diagnosing-bugs/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\code-review.md",
+      "words": 2196,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\code-review",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\test-the-oracle",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "code-review",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "code-review",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/code-review/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/code-review/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/code-review/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\tdd.md",
+      "words": 2296,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\tdd",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\change-the-representation",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "tdd",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "tdd",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/tdd/mocking.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/tdd/mocking.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/tdd/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/tdd/tests.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/tdd/tests.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/tdd/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/tdd/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\implement.md",
+      "words": 2315,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\implement",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\finish-the-last-mile",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "implement",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "implement",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/implement/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/implement/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/implement/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\writing-fragments.md",
+      "words": 2469,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\writing-fragments",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\anchored-variation",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "writing-fragments",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "writing-fragments",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/writing-fragments/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/writing-fragments/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/in-progress/writing-fragments/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\writing-shape.md",
+      "words": 2256,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\writing-shape",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\thesis-stress-test",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "writing-shape",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "writing-shape",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/writing-shape/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/writing-shape/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/in-progress/writing-shape/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\writing-beats.md",
+      "words": 2283,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\writing-beats",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\reader-state-simulation",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "writing-beats",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "writing-beats",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/writing-beats/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/writing-beats/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/in-progress/writing-beats/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\to-questionnaire.md",
+      "words": 1920,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\to-questionnaire",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\answer-reconciliation",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "to-questionnaire",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "to-questionnaire",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/to-questionnaire/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/productivity/to-questionnaire/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/productivity/to-questionnaire/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\scaffold-exercises.md",
+      "words": 2080,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\scaffold-exercises",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\misconception-lab",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "scaffold-exercises",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "scaffold-exercises",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/misc/scaffold-exercises/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/misc/scaffold-exercises/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/misc/scaffold-exercises/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\codebase-design.md",
+      "words": 2285,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\codebase-design",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\rehearse-the-next-change",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "codebase-design",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "codebase-design",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/codebase-design/DEEPENING.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/codebase-design/DEEPENING.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/codebase-design/DESIGN-IT-TWICE.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/codebase-design/DESIGN-IT-TWICE.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/codebase-design/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/codebase-design/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/codebase-design/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\improve-codebase-architecture.md",
+      "words": 2307,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\improve-codebase-architecture",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\subtract-a-dependency",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "improve-codebase-architecture",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "improve-codebase-architecture",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/improve-codebase-architecture/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/improve-codebase-architecture/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\ask-matt.md",
+      "words": 2361,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\ask-matt",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\find-the-binding-constraint",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "ask-matt",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "ask-matt",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/ask-matt/PHASE-BOUNDARIES.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/ask-matt/PHASE-BOUNDARIES.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/ask-matt/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/ask-matt/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/ask-matt/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\setup-matt-pocock-skills.md",
+      "words": 2422,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\setup-matt-pocock-skills",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\make-a-working-example",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "setup-matt-pocock-skills",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "setup-matt-pocock-skills",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/triage-labels.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/triage-labels.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/setup-matt-pocock-skills/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\pr.md",
+      "words": 2113,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\pr",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\reviewer-rehearsal",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "pr",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "pr",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/pr/CREDITS.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/in-progress/pr/CREDITS.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/pr/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/pr/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/in-progress/pr/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\triage.md",
+      "words": 2416,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\triage",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\find-the-unasked-question",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "triage",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "triage",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/triage/AGENT-BRIEF.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/triage/AGENT-BRIEF.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/triage/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/triage/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/triage/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\resolving-merge-conflicts.md",
+      "words": 2178,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\resolving-merge-conflicts",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\compose-two-plans",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "resolving-merge-conflicts",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "resolving-merge-conflicts",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/resolving-merge-conflicts/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/resolving-merge-conflicts/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/resolving-merge-conflicts/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\wizard.md",
+      "words": 2444,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\wizard",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\make-the-tradeoff-tangible",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "wizard",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "wizard",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/wizard/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/wizard/template.sh",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/wizard/template.sh",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/engineering/wizard/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/engineering/wizard/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\implement-spec.md",
+      "words": 2103,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\implement-spec",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\integration-contracts",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "implement-spec",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "implement-spec",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/implement-spec/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/implement-spec/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/in-progress/implement-spec/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\claude-handoff.md",
+      "words": 2180,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\claude-handoff",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\resume-probe",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "claude-handoff",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "claude-handoff",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/claude-handoff/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/claude-handoff/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/in-progress/claude-handoff/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\setup-pre-commit.md",
+      "words": 2075,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\setup-pre-commit",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\feedback-budget",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "setup-pre-commit",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "setup-pre-commit",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/misc/setup-pre-commit/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/misc/setup-pre-commit/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/misc/setup-pre-commit/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\git-guardrails-claude-code.md",
+      "words": 2144,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\git-guardrails-claude-code",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\reversible-operation-design",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "git-guardrails-claude-code",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "git-guardrails-claude-code",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/misc/git-guardrails-claude-code/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/misc/git-guardrails-claude-code/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/misc/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/misc/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\setup-ts-deep-modules.md",
+      "words": 2119,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\setup-ts-deep-modules",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\contract-surface-audit",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "setup-ts-deep-modules",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "setup-ts-deep-modules",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/setup-ts-deep-modules/dependency-cruiser.config.cjs",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/in-progress/setup-ts-deep-modules/dependency-cruiser.config.cjs",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/setup-ts-deep-modules/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/in-progress/setup-ts-deep-modules/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/in-progress/setup-ts-deep-modules/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "substantive chapter floor",
+      "path": "chapters\\migrate-to-shoehorn.md",
+      "words": 2050,
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "refactored\\migrate-to-shoehorn",
+      "pass": true
+    },
+    {
+      "check": "name matches directory",
+      "path": "original-skills\\fixture-truth",
+      "pass": true
+    },
+    {
+      "check": "preserved invocation metadata",
+      "path": "migrate-to-shoehorn",
+      "pass": true
+    },
+    {
+      "check": "source license in refactor",
+      "path": "migrate-to-shoehorn",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "source file recorded as read",
+      "path": "source/skills/misc/migrate-to-shoehorn/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "supporting file disposition",
+      "path": "source/skills/misc/migrate-to-shoehorn/agents/openai.yaml",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\productivity\\writing-for-agents\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\productivity\\grilling\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\productivity\\grill-me\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\productivity\\teach\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\research\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\productivity\\handoff\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\prototype\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\wayfinder\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\to-spec\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\domain-modeling\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\productivity\\wait-what\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\grill-with-docs\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\in-progress\\loop-me\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\in-progress\\retro\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\to-tickets\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\diagnosing-bugs\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\code-review\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\tdd\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\implement\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\in-progress\\writing-fragments\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\in-progress\\writing-shape\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\in-progress\\writing-beats\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\productivity\\to-questionnaire\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\misc\\scaffold-exercises\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\codebase-design\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\improve-codebase-architecture\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\ask-matt\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\setup-matt-pocock-skills\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\in-progress\\pr\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\triage\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\resolving-merge-conflicts\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\engineering\\wizard\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\in-progress\\implement-spec\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\in-progress\\claude-handoff\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\misc\\setup-pre-commit\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\misc\\git-guardrails-claude-code\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\in-progress\\setup-ts-deep-modules\\SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "checkout skill unchanged",
+      "path": "../mattpocock-skills\\skills\\misc\\migrate-to-shoehorn\\SKILL.md",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "unresolved_links": [],
+  "deltas": [
+    {
+      "slug": "writing-for-agents",
+      "changed_files": [
+        "LICENSE",
+        "SKILL-MECHANICS.md",
+        "SKILL.md"
+      ],
+      "delta_count": 3,
+      "supporting_files": [
+        "SKILL-MECHANICS.md",
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/productivity/writing-for-agents/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        },
+        {
+          "file": "source/skills/productivity/writing-for-agents/SKILL-MECHANICS.md",
+          "action": "replaced",
+          "reason": "Replaces harness-specific invocation defaults with current Codex policy."
+        }
+      ]
+    },
+    {
+      "slug": "grilling",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 3,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/productivity/grilling/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        }
+      ]
+    },
+    {
+      "slug": "grill-me",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 3,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/productivity/grill-me/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        }
+      ]
+    },
+    {
+      "slug": "teach",
+      "changed_files": [
+        "GLOSSARY-FORMAT.md",
+        "LEARNING-RECORD-FORMAT.md",
+        "LICENSE",
+        "MISSION-FORMAT.md",
+        "RESOURCES-FORMAT.md",
+        "SKILL.md"
+      ],
+      "delta_count": 4,
+      "supporting_files": [
+        "GLOSSARY-FORMAT.md",
+        "LEARNING-RECORD-FORMAT.md",
+        "MISSION-FORMAT.md",
+        "RESOURCES-FORMAT.md",
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/productivity/teach/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        },
+        {
+          "file": "source/skills/productivity/teach/GLOSSARY-FORMAT.md",
+          "action": "replaced",
+          "reason": "Restores a reachable glossary contract without domain-specific example baggage."
+        },
+        {
+          "file": "source/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+          "action": "replaced",
+          "reason": "Clarifies evidence status while preserving selective records and supersession."
+        },
+        {
+          "file": "source/skills/productivity/teach/MISSION-FORMAT.md",
+          "action": "replaced",
+          "reason": "Retains mission semantics while allowing sufficient supplied context."
+        },
+        {
+          "file": "source/skills/productivity/teach/RESOURCES-FORMAT.md",
+          "action": "replaced",
+          "reason": "Preserves curation while clarifying citation limits."
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 3,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/engineering/research/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        }
+      ]
+    },
+    {
+      "slug": "handoff",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 3,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/productivity/handoff/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        }
+      ]
+    },
+    {
+      "slug": "prototype",
+      "changed_files": [
+        "LICENSE",
+        "LOGIC.md",
+        "SKILL.md",
+        "UI.md"
+      ],
+      "delta_count": 4,
+      "supporting_files": [
+        "LOGIC.md",
+        "SKILL.md",
+        "UI.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/engineering/prototype/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        },
+        {
+          "file": "source/skills/engineering/prototype/LOGIC.md",
+          "action": "replaced",
+          "reason": "Retains single-file, pure-model, free-play, reset, and scenario invariants; replaces absolute no-tests language with focused runnable checks."
+        },
+        {
+          "file": "source/skills/engineering/prototype/UI.md",
+          "action": "replaced",
+          "reason": "Retains substantive UI mechanics and adds full production gating plus focused smoke checks."
+        }
+      ]
+    },
+    {
+      "slug": "wayfinder",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 4,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/engineering/wayfinder/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        }
+      ]
+    },
+    {
+      "slug": "to-spec",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 4,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/engineering/to-spec/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        }
+      ]
+    },
+    {
+      "slug": "domain-modeling",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 3,
+      "supporting_files": [
+        "ADR-FORMAT.md",
+        "CONTEXT-FORMAT.md",
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/engineering/domain-modeling/ADR-FORMAT.md",
+          "action": "retained",
+          "reason": "Retained focused source reference; entrypoint changes govern its application."
+        },
+        {
+          "file": "source/skills/engineering/domain-modeling/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        },
+        {
+          "file": "source/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+          "action": "retained",
+          "reason": "Retained focused source reference; entrypoint changes govern its application."
+        }
+      ]
+    },
+    {
+      "slug": "wait-what",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 3,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/productivity/wait-what/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        }
+      ]
+    },
+    {
+      "slug": "grill-with-docs",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 3,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/engineering/grill-with-docs/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        }
+      ]
+    },
+    {
+      "slug": "loop-me",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        }
+      ]
+    },
+    {
+      "slug": "retro",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 6,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        }
+      ]
+    },
+    {
+      "slug": "to-tickets",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 6,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "copy",
+          "reason": "Preserve source UI metadata and invocation policy exactly."
+        },
+        {
+          "file": "source/LICENSE",
+          "action": "copy",
+          "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+        }
+      ]
+    },
+    {
+      "slug": "diagnosing-bugs",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "scripts/hitl-loop.template.sh"
+      ],
+      "dispositions": [
+        {
+          "file": "scripts/hitl-loop.template.sh",
+          "action": "copy",
+          "reason": "Preserve small observational human-in-loop helper unchanged; constrain capture to redacted nonsecret observations and require a user-controlled terminal."
+        },
+        {
+          "file": "agents/openai.yaml",
+          "action": "copy",
+          "reason": "Preserve source UI metadata and invocation policy exactly."
+        },
+        {
+          "file": "source/LICENSE",
+          "action": "copy",
+          "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+        }
+      ]
+    },
+    {
+      "slug": "code-review",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md",
+        "SMELLS.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "copy",
+          "reason": "Preserve source UI metadata and invocation policy exactly."
+        },
+        {
+          "file": "source/LICENSE",
+          "action": "copy",
+          "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+        }
+      ]
+    },
+    {
+      "slug": "tdd",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md",
+        "mocking.md",
+        "tests.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "mocking.md",
+        "SKILL.md",
+        "tests.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "tests.md",
+          "action": "rewrite",
+          "reason": "Retain behavioral versus implementation-coupled and tautological examples; explain assertions that genuinely represent boundary contracts."
+        },
+        {
+          "file": "mocking.md",
+          "action": "rewrite",
+          "reason": "Retain external-boundary substitution and domain-shaped operations; distinguish doubles from verified production semantics."
+        },
+        {
+          "file": "agents/openai.yaml",
+          "action": "copy",
+          "reason": "Preserve source UI metadata and invocation policy exactly."
+        },
+        {
+          "file": "source/LICENSE",
+          "action": "copy",
+          "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+        }
+      ]
+    },
+    {
+      "slug": "implement",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 6,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "copy",
+          "reason": "Preserve source UI metadata and invocation policy exactly."
+        },
+        {
+          "file": "source/LICENSE",
+          "action": "copy",
+          "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+        }
+      ]
+    },
+    {
+      "slug": "writing-fragments",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 4,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        }
+      ]
+    },
+    {
+      "slug": "writing-shape",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        }
+      ]
+    },
+    {
+      "slug": "writing-beats",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        }
+      ]
+    },
+    {
+      "slug": "to-questionnaire",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 3,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "source/skills/productivity/to-questionnaire/agents/openai.yaml",
+          "action": "retained",
+          "reason": "Preserved source interface and invocation policy."
+        }
+      ]
+    },
+    {
+      "slug": "scaffold-exercises",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        }
+      ]
+    },
+    {
+      "slug": "codebase-design",
+      "changed_files": [
+        "DEEPENING.md",
+        "DESIGN-IT-TWICE.md",
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "DEEPENING.md",
+        "DESIGN-IT-TWICE.md",
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "DEEPENING.md",
+          "action": "rewrite",
+          "reason": "Retain four dependency categories and interface tests; replace blanket test deletion with demonstrated coverage substitution."
+        },
+        {
+          "file": "DESIGN-IT-TWICE.md",
+          "action": "rewrite",
+          "reason": "Retain contrasting design constraints and caller examples while supporting available concurrency and bounded design scope."
+        },
+        {
+          "file": "agents/openai.yaml",
+          "action": "copy",
+          "reason": "Preserve source UI metadata and invocation policy exactly."
+        },
+        {
+          "file": "source/LICENSE",
+          "action": "copy",
+          "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+        }
+      ]
+    },
+    {
+      "slug": "improve-codebase-architecture",
+      "changed_files": [
+        "HTML-REPORT.md",
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 6,
+      "supporting_files": [
+        "HTML-REPORT.md",
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "HTML-REPORT.md",
+          "action": "rewrite",
+          "reason": "Retain visual candidate cards and before/after diagrams; use offline inline CSS/SVG, evidence labels, and actual rendering checks instead of CDN assumptions."
+        },
+        {
+          "file": "agents/openai.yaml",
+          "action": "copy",
+          "reason": "Preserve source UI metadata and invocation policy exactly."
+        },
+        {
+          "file": "source/LICENSE",
+          "action": "copy",
+          "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+        }
+      ]
+    },
+    {
+      "slug": "ask-matt",
+      "changed_files": [
+        "LICENSE",
+        "PHASE-BOUNDARIES.md",
+        "SKILL.md"
+      ],
+      "delta_count": 6,
+      "supporting_files": [
+        "PHASE-BOUNDARIES.md",
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "PHASE-BOUNDARIES.md",
+          "action": "rewrite",
+          "reason": "Keep ordered context-choice tree; remove fixed token folklore and distinguish recoverable transcript from lossy working context."
+        },
+        {
+          "file": "agents/openai.yaml",
+          "action": "copy",
+          "reason": "Preserve source UI metadata and invocation policy exactly."
+        },
+        {
+          "file": "source/LICENSE",
+          "action": "copy",
+          "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+        }
+      ]
+    },
+    {
+      "slug": "setup-matt-pocock-skills",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md",
+        "issue-tracker-github.md",
+        "issue-tracker-gitlab.md",
+        "issue-tracker-local.md",
+        "triage-labels.md"
+      ],
+      "delta_count": 7,
+      "supporting_files": [
+        "domain.md",
+        "issue-tracker-github.md",
+        "issue-tracker-gitlab.md",
+        "issue-tracker-local.md",
+        "SKILL.md",
+        "triage-labels.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "issue-tracker-github.md",
+          "action": "rewrite",
+          "reason": "Keep GitHub conventions and relationship distinctions; verify available CLI/API capabilities rather than ship known unsupported fields."
+        },
+        {
+          "file": "issue-tracker-gitlab.md",
+          "action": "rewrite",
+          "reason": "Keep issue/MR distinction, notes-before-close, and capability-dependent blocking."
+        },
+        {
+          "file": "issue-tracker-local.md",
+          "action": "repair",
+          "reason": "Provide a new-tracker seed while explicitly giving the observed existing tracker schema priority, including single-file trackers."
+        },
+        {
+          "file": "triage-labels.md",
+          "action": "rewrite",
+          "reason": "Include category roles as well as state mapping and record whether remote labels actually exist."
+        },
+        {
+          "file": "domain.md",
+          "action": "copy",
+          "reason": "Preserve lazy creation, multi-context routing, domain vocabulary, and explicit ADR-conflict rules."
+        },
+        {
+          "file": "agents/openai.yaml",
+          "action": "copy",
+          "reason": "Preserve source UI metadata and invocation policy exactly."
+        },
+        {
+          "file": "source/LICENSE",
+          "action": "copy",
+          "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+        }
+      ]
+    },
+    {
+      "slug": "pr",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "CREDITS.md",
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        },
+        {
+          "file": "CREDITS.md",
+          "action": "retain",
+          "reason": "Preserve the source attribution to Dex Horthy and show-me."
+        }
+      ]
+    },
+    {
+      "slug": "triage",
+      "changed_files": [
+        "AGENT-BRIEF.md",
+        "LICENSE",
+        "OUT-OF-SCOPE.md",
+        "SKILL.md"
+      ],
+      "delta_count": 7,
+      "supporting_files": [
+        "AGENT-BRIEF.md",
+        "OUT-OF-SCOPE.md",
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "AGENT-BRIEF.md",
+          "action": "rewrite",
+          "reason": "Preserve current/desired behavior, interfaces, acceptance, and exclusions; add evidence status, stable source pointers, and PR remaining-work treatment."
+        },
+        {
+          "file": "OUT-OF-SCOPE.md",
+          "action": "rewrite",
+          "reason": "Preserve one file per rejected concept and distinction from already implemented; retain superseded reasoning rather than automatically deleting history."
+        },
+        {
+          "file": "agents/openai.yaml",
+          "action": "copy",
+          "reason": "Preserve source UI metadata and invocation policy exactly."
+        },
+        {
+          "file": "source/LICENSE",
+          "action": "copy",
+          "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+        }
+      ]
+    },
+    {
+      "slug": "resolving-merge-conflicts",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "copy",
+          "reason": "Preserve source UI metadata and invocation policy exactly."
+        },
+        {
+          "file": "source/LICENSE",
+          "action": "copy",
+          "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+        }
+      ]
+    },
+    {
+      "slug": "wizard",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md",
+        "template.sh"
+      ],
+      "delta_count": 6,
+      "supporting_files": [
+        "SKILL.md",
+        "template.sh",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "template.sh",
+          "action": "repair",
+          "reason": "Repair EOF, empty required input, remote failure status and incomplete summary; retain constrained serialization and explicit target validation."
+        },
+        {
+          "file": "agents/openai.yaml",
+          "action": "copy",
+          "reason": "Preserve source UI metadata and invocation policy exactly."
+        },
+        {
+          "file": "source/LICENSE",
+          "action": "copy",
+          "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+        }
+      ]
+    },
+    {
+      "slug": "implement-spec",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        }
+      ]
+    },
+    {
+      "slug": "claude-handoff",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        }
+      ]
+    },
+    {
+      "slug": "setup-pre-commit",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        }
+      ]
+    },
+    {
+      "slug": "git-guardrails-claude-code",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md",
+        "references/legacy-hook-audit.md"
+      ],
+      "delta_count": 4,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "scripts/block-dangerous-git.sh"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        },
+        {
+          "file": "scripts/block-dangerous-git.sh",
+          "action": "retain",
+          "reason": "Preserve exact legacy implementation as inactive audited baseline; not an enforcement guarantee."
+        },
+        {
+          "file": "references/legacy-hook-audit.md",
+          "action": "replace",
+          "reason": "Document concrete static findings and required target tests without claiming execution."
+        }
+      ]
+    },
+    {
+      "slug": "setup-ts-deep-modules",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 6,
+      "supporting_files": [
+        "dependency-cruiser.config.cjs",
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        },
+        {
+          "file": "dependency-cruiser.config.cjs",
+          "action": "retain",
+          "reason": "Audited source template retained; target-specific adaptation and isolated enforcement tests required before installation claims."
+        }
+      ]
+    },
+    {
+      "slug": "migrate-to-shoehorn",
+      "changed_files": [
+        "LICENSE",
+        "SKILL.md"
+      ],
+      "delta_count": 5,
+      "supporting_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "dispositions": [
+        {
+          "file": "agents/openai.yaml",
+          "action": "retain",
+          "reason": "Preserve source UI metadata and invocation policy."
+        },
+        {
+          "file": "LICENSE",
+          "action": "add",
+          "reason": "Copy repository MIT license and attribution into derived package."
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "packages": 76,
+    "package_pass": 76,
+    "checks": 533,
+    "check_pass": 533,
+    "issues": 0,
+    "unresolved_links": 0
+  }
+}

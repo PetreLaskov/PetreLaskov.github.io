@@ -1,0 +1,67 @@
+--- a/source/skills/in-progress/loop-me/LICENSE
++++ b/refactored/loop-me/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2026 Matt Pocock
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+--- a/source/skills/in-progress/loop-me/SKILL.md
++++ b/refactored/loop-me/SKILL.md
+@@ -1,32 +1,18 @@
+ ---
+ name: loop-me
+-description: Grill me about specs for the workflows I want to build, within this workspace.
+-disable-model-invocation: true
+-argument-hint: "A workflow to design, or nothing to go find one"
++description: "Interview the user about recurring work and maintain implementable workflow specifications in a stateful workspace."
+ ---
+ 
+-Run a stateful `/grilling` session whose only output is **workflow** specs. Use the grilling discipline (relentless, a round of questions at a time, a recommended answer attached to each) aimed at the vocabulary and goal below. Create, edit, and delete specs as the grilling resolves things.
++# Loop Me
+ 
+-## The loop lens
++Develop specifications for recurring work in this workspace. The output is a workflow spec, not a running automation. Read existing workflows and NOTES.md first. Learn the user's actual sources, tools, terminology, and desired relief before proposing implementation.
+ 
+-A **loop** is a recurring pattern in the user's life: their career, their week, their morning, a single repeated activity. Picturing a life as loops within loops reveals how predictable its activities really are, which is what makes them worth **delegating**. Use the lens to find loops worth specifying, and propose ones the user hasn't noticed.
++Use the loop lens to notice recurrence, then check whether the user wants that part delegated or improved. Ask compact rounds of high-value questions with recommended answers when useful. Do not treat every repeated human activity as an automation opportunity.
+ 
+-A **workflow** is the spec of one loop, made real. You run a workflow on a loop: the loop is its running instantiation. Workflows live in `workflows/*.md` and are the source of truth.
++Keep one source-of-truth spec per workflow in workflows/. Record stable vocabulary and contextual facts in NOTES.md. Distinguish the user's decisions from provisional proposals. Revise affected specs as understanding changes; preserve useful history when replacing or abandoning one rather than silently deleting meaningful decisions.
+ 
+-## Vocabulary
++Use trigger, checkpoint, brief, and schedule only when they help. No workflow needs AI or a human checkpoint by default. Prepare as much authorized useful work as possible before a checkpoint. Place it before the action that needs the user's judgment or authority. Present a concise decision-ready brief with a link to the underlying result.
+ 
+-A shared language, reached for only when a workflow calls for it: never a checklist. **Mandate nothing structural**: a workflow needs no AI, no checkpoint, and no schedule unless the grilling shows it does.
++Test the emerging spec against one ordinary run and one credible awkward case. Settle consequential ambiguities about outcome, sources, exceptions, and action boundaries. Leave routine implementation choices to the builder when they do not change user intent. Record assumptions that require later verification.
+ 
+-- **Trigger**: what fires each run, an **event** (a new email, a new issue) or a **schedule** (every morning). Event-triggering is usually the more efficient.
+-- **Checkpoint**: a human-in-the-loop point where the user is asked to verify or decide. Some workflows have none and run autonomously; some use no AI at all.
+-- **Push right**: defer the checkpoint as far as it will go. Do maximal work before involving the human, so they are asked once, late, with everything prepared.
+-- **Brief**: what a checkpoint presents, a tight, decision-ready summary (what was produced, why, and a link down to the asset itself), never the raw output. The user reads a brief, not a draft. Speed of review is imperative.
+-
+-## Definition of done
+-
+-A workflow spec is done when an implementer agent could build it without asking a single question. Grill until then; nothing is done while a question remains.
+-
+-## The workspace
+-
+-- `workflows/*.md`: one spec per workflow.
+-- `NOTES.md`: raw notes on the user's world, the tools they use, the channels they process, and their own terminology for both. When it is empty or thin, interview them about their world before specifying anything. Sharpen fuzzy terms into canonical ones as they surface, and record them here.
++A spec is ready when an implementer can build its intended behavior without guessing a consequential user decision. Do not interview indefinitely to eliminate every possible question. End with the saved spec, remaining material uncertainties, and the next implementation step; never activate a schedule or external action merely because it appears in the spec.

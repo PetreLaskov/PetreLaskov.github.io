@@ -1,0 +1,74 @@
+{
+  "slug": "teach",
+  "bucket": "productivity",
+  "chapter": "chapters/teach.md",
+  "refactor": "refactored/teach/SKILL.md",
+  "original_slug": "transfer-test",
+  "original_path": "original-skills/transfer-test/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "Pilot a dedicated learning workspace with a small baseline check, source-grounded lessons, and evidence of transfer; do not equate a polished lesson with learning.",
+  "source_files_read": [
+    "source/skills/productivity/teach/agents/openai.yaml",
+    "source/skills/productivity/teach/GLOSSARY-FORMAT.md",
+    "source/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+    "source/skills/productivity/teach/MISSION-FORMAT.md",
+    "source/skills/productivity/teach/RESOURCES-FORMAT.md",
+    "source/skills/productivity/teach/SKILL.md",
+    "source/docs/productivity/teach.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/productivity/teach/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    },
+    {
+      "file": "source/skills/productivity/teach/GLOSSARY-FORMAT.md",
+      "action": "replaced",
+      "reason": "Restores a reachable glossary contract without domain-specific example baggage."
+    },
+    {
+      "file": "source/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "action": "replaced",
+      "reason": "Clarifies evidence status while preserving selective records and supersession."
+    },
+    {
+      "file": "source/skills/productivity/teach/MISSION-FORMAT.md",
+      "action": "replaced",
+      "reason": "Retains mission semantics while allowing sufficient supplied context."
+    },
+    {
+      "file": "source/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "action": "replaced",
+      "reason": "Preserves curation while clarifying citation limits."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "Separate roots",
+      "reason": "Source relative paths mix package and workspace",
+      "tradeoff": "Explicit root selection"
+    },
+    {
+      "id": 2,
+      "change": "Add baseline and transfer choices",
+      "reason": "Source infers level without first-session evidence",
+      "tradeoff": "Small assessment cost"
+    },
+    {
+      "id": 3,
+      "change": "Repair quiz design",
+      "reason": "Equal lengths do not remove position bias",
+      "tradeoff": "Requires interaction verification"
+    },
+    {
+      "id": 4,
+      "change": "Restore glossary routing",
+      "reason": "Support file was unlinked",
+      "tradeoff": "One additional pointer"
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

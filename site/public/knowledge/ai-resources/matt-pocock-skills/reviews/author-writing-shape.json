@@ -1,0 +1,59 @@
+{
+  "slug": "writing-shape",
+  "bucket": "in-progress",
+  "chapter": "chapters/writing-shape.md",
+  "refactor": "refactored/writing-shape/SKILL.md",
+  "original_slug": "thesis-stress-test",
+  "original_path": "original-skills/thesis-stress-test/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "Shape a fixed body of raw material into a separate article through deliberate paragraph and format choices.",
+  "source_files_read": [
+    "skills/in-progress/writing-shape/agents/openai.yaml",
+    "skills/in-progress/writing-shape/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Preserve the editorial unit",
+      "reason": "Keep one agreed block at a time, the raw pile read-only, and the opening as a commitment.",
+      "tradeoff": "Retains a slower workshop workflow instead of maximizing draft speed."
+    },
+    {
+      "id": "D2",
+      "change": "Scale discussion to the decision",
+      "reason": "Explain meaningful format forks while accepting explicit delegation of routine choices.",
+      "tradeoff": "Less pedagogical repetition than the original insistence on arguing every choice."
+    },
+    {
+      "id": "D3",
+      "change": "Audit consequences of revision",
+      "reason": "Check later grounding and transitions after a changed earlier block.",
+      "tradeoff": "A targeted rewrite can reveal additional work that must be named."
+    },
+    {
+      "id": "D4",
+      "change": "Clarify claim provenance",
+      "reason": "Name absent factual support and distinguish proposed wording from invented evidence.",
+      "tradeoff": "Some polished transitions must remain unfinished until support exists."
+    },
+    {
+      "id": "D5",
+      "change": "Adapt Codex packaging without changing invocation",
+      "reason": "Omit Claude-only disable-model-invocation and argument-hint keys while preserving explicit-only policy in the copied agents/openai.yaml.",
+      "tradeoff": "The study package targets Codex metadata rather than being a byte-identical cross-host manifest."
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

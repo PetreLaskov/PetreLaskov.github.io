@@ -1,0 +1,62 @@
+{
+  "slug": "prototype",
+  "bucket": "engineering",
+  "chapter": "chapters/prototype.md",
+  "refactor": "refactored/prototype/SKILL.md",
+  "original_slug": "assumption-budget",
+  "original_path": "original-skills/assumption-budget/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "Adopt narrow prototypes for uncertainty discussion cannot settle; preserve runnable evidence and require a real user verdict on subjective choices.",
+  "source_files_read": [
+    "source/skills/engineering/prototype/agents/openai.yaml",
+    "source/skills/engineering/prototype/LOGIC.md",
+    "source/skills/engineering/prototype/SKILL.md",
+    "source/skills/engineering/prototype/UI.md",
+    "source/docs/engineering/prototype.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/engineering/prototype/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    },
+    {
+      "file": "source/skills/engineering/prototype/LOGIC.md",
+      "action": "replaced",
+      "reason": "Retains single-file, pure-model, free-play, reset, and scenario invariants; replaces absolute no-tests language with focused runnable checks."
+    },
+    {
+      "file": "source/skills/engineering/prototype/UI.md",
+      "action": "replaced",
+      "reason": "Retains substantive UI mechanics and adds full production gating plus focused smoke checks."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "Require question-relevant smoke checks",
+      "reason": "A broken demo cannot validate an idea",
+      "tradeoff": "Small extra verification cost"
+    },
+    {
+      "id": 2,
+      "change": "Gate full UI experiment",
+      "reason": "Hiding a switcher alone leaves experimental rendering reachable",
+      "tradeoff": "More careful integration"
+    },
+    {
+      "id": 3,
+      "change": "Separate verdict and promotion",
+      "reason": "Agent preference is not user validation",
+      "tradeoff": "May leave selection pending"
+    },
+    {
+      "id": 4,
+      "change": "Add preservation fallback",
+      "reason": "Not every task has Git or tracker",
+      "tradeoff": "Less uniform archival mechanism"
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

@@ -1,0 +1,57 @@
+{
+  "scope": "Post-audit targeted development probes; selected after defects or duplicate proposals were found. Not held-out benchmark cases.",
+  "cases": [
+    {
+      "id": "preference-probes-01",
+      "skill": "original-skills/preference-probes/SKILL.md",
+      "prompt": "Help revise my homepage introduction. The draft says: \"I create innovative solutions and share transformative insights.\" It feels polished and distant, but I do not yet know what \"more me\" means. The only approved facts are that I build small tools, write essays, and share notes. Give me something concrete to react to. I have not selected a direction yet."
+    },
+    {
+      "id": "anchored-variation-01",
+      "skill": "original-skills/anchored-variation/SKILL.md",
+      "prompt": "Give me three meaningful variations of this fragment: \"The kettle clicks off. Nobody moves. Outside, a delivery drone mistakes the church bell for an instruction.\" Keep the deadpan voice, the ordinary-to-absurd progression and an unresolved close. I want actual different possibilities, not three versions with adjective changes."
+    },
+    {
+      "id": "instruction-ablation-01",
+      "skill": "original-skills/instruction-ablation/SKILL.md",
+      "prompt": "I want to test whether removing a rule about checking facts improves speed. The host system already requires the same checking behavior and cannot be changed. I can omit the duplicate sentence from the task prompt. Design the comparison and tell me what conclusion a null result would support; do not launch agents."
+    },
+    {
+      "id": "thesis-stress-test-01",
+      "skill": "original-skills/thesis-stress-test/SKILL.md",
+      "prompt": "Stress-test this normative essay claim without rewriting it as a prediction: \"Public libraries should preserve room for aimless browsing, even when targeted digital services serve more requests per hour.\" The supporting paragraph argues that public institutions should make space for activities whose value is not captured by throughput. Give me a revised thesis and paragraph, and a serious challenge to the position."
+    },
+    {
+      "id": "triage-repair-full",
+      "skill": "refactored/triage/SKILL.md",
+      "prompt": "Triage issue 84 using these supplied verified facts: the requested export filter already exists in the documented settings; the reporter agrees that it meets the request. You are authorized to apply normal triage actions. Tracker tools are unavailable in this fixture. Explain the exact changes you would make and their current execution status."
+    },
+    {
+      "id": "triage-repair-label-only",
+      "skill": "refactored/triage/SKILL.md",
+      "prompt": "For issue 84 apply labels only. It is an enhancement request for a feature already implemented, so use enhancement and wontfix. Do not post comments or close it. Tracker tools are unavailable in this fixture. State the bounded next action and its execution status."
+    }
+  ],
+  "inputs": [
+    {
+      "path": "original-skills/anchored-variation/SKILL.md",
+      "sha256": "6c51d92ef16742b23ccde748fc92d2c3a459db3d825eb89fed31e19412db2a2b"
+    },
+    {
+      "path": "original-skills/instruction-ablation/SKILL.md",
+      "sha256": "aadcde191fbb2eb3ab6106cb78a337eb8c8caef9a5080f3391fc8bea53609aed"
+    },
+    {
+      "path": "original-skills/preference-probes/SKILL.md",
+      "sha256": "03d66c848d0dbfe6f34d1a944a623abf63150294c4794d090fb043e94ab80540"
+    },
+    {
+      "path": "original-skills/thesis-stress-test/SKILL.md",
+      "sha256": "a474852fb54dbeb5d4588812f67644bbc6b6d173a1344aa28569e9c2bc4d630c"
+    },
+    {
+      "path": "refactored/triage/SKILL.md",
+      "sha256": "cd4996abdb04b484309b156c0385f30d5d2994d214ea58eb621c3b93ebf0f661"
+    }
+  ]
+}

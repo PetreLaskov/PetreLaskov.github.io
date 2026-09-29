@@ -1,0 +1,48 @@
+{
+  "slug": "grill-with-docs",
+  "bucket": "engineering",
+  "chapter": "chapters/grill-with-docs.md",
+  "refactor": "refactored/grill-with-docs/SKILL.md",
+  "original_slug": "decision-thread",
+  "original_path": "original-skills/decision-thread/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "Pilot for repositories with unsettled language; distinguish glossary, durable decision, and temporary discussion.",
+  "source_files_read": [
+    "source/skills/engineering/grill-with-docs/agents/openai.yaml",
+    "source/skills/engineering/grill-with-docs/SKILL.md",
+    "source/docs/engineering/grill-with-docs.md",
+    "source/LICENSE",
+    "source/skills/productivity/grilling/SKILL.md",
+    "source/skills/engineering/domain-modeling/SKILL.md",
+    "source/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+    "source/skills/engineering/domain-modeling/ADR-FORMAT.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/engineering/grill-with-docs/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "Load actual dependencies",
+      "reason": "Avoid partial composition",
+      "tradeoff": "Larger wrapper"
+    },
+    {
+      "id": 2,
+      "change": "Report persistence boundary",
+      "reason": "Most answers are neither terms nor ADRs",
+      "tradeoff": "Short closing inventory"
+    },
+    {
+      "id": 3,
+      "change": "Omit unsupported fields",
+      "reason": "Codex metadata retains explicit-only policy",
+      "tradeoff": "Target-specific package"
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

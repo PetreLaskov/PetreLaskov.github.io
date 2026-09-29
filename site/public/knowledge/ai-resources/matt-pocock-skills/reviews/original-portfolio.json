@@ -1,0 +1,456 @@
+{
+  "scope": "independent design review, not behavior execution",
+  "reviews": [
+    {
+      "source_slug": "writing-for-agents",
+      "original_slug": "decision-preserving-compression",
+      "verdict": "pilot",
+      "strength": "The reader-action check is a useful mechanism: compress first, then compare a normal case and a boundary case against the source. Exact exceptions and status survive.",
+      "distinctness": "More specific than ordinary summarization, though it shares commitment extraction and semantic comparison with decision-thread. Its distinct deliverable is a shorter usable artifact.",
+      "weakness": "The proposed check can miss a rare but decisive exception if both selected cases are convenient. 'Material omissions' also needs a destination-relative interpretation.",
+      "example_prompt": "Reduce this incident handoff to 250 words while preserving who may restart processing, retry limits, and every condition requiring approval.",
+      "success_criterion": "The shortened handoff produces the same actions as the source on selected normal, exception, and unresolved-status cases, with accessible references for omitted detail.",
+      "recommended_change": "Retain the compact procedure. Select the boundary case from the most consequential exception, and distinguish omissions that change action from narrative intentionally removed."
+    },
+    {
+      "source_slug": "grilling",
+      "original_slug": "reversible-bets",
+      "verdict": "pilot",
+      "strength": "It translates indecision into a bounded commitment with an explicit reversal, fallback, observation, and decision rule. Preferences are correctly separated from empirical uncertainty.",
+      "distinctness": "The useful addition beyond generic advice is the precommitted review rule and accounting for costs that cannot be reversed. Evidence-fork selects observations; this skill designs an actual trial.",
+      "weakness": "A superficially cheap trial may poorly represent sustained use. The procedure warns about causal uncertainty but does not explicitly inspect representativeness or temporary novelty effects.",
+      "example_prompt": "We cannot choose between weekly written updates and a short coordination meeting. Design a two-week reversible trial that could actually change our choice.",
+      "success_criterion": "The plan names a baseline, bounded cost, observable decision-relevant outcome, reversal procedure, and possible results that lead to different next actions.",
+      "recommended_change": "Add one representativeness check: state which important conditions the small trial omits and how that limits the resulting decision. Preserve the preference-versus-observation distinction."
+    },
+    {
+      "source_slug": "grill-me",
+      "original_slug": "counterexample-search",
+      "verdict": "merge",
+      "strength": "The strongest reasonable interpretation, realistic in-scope case, and required action change make this a disciplined challenge rather than performative disagreement.",
+      "distinctness": "The mechanism is almost the same as construct-a-counterexample: scope a claim, construct a violating case, inspect it, narrowly revise, and avoid treating survival as proof.",
+      "weakness": "Separate installation would add routing competition without a materially different input, process, or output. 'Search' versus 'construct' is too small a distinction here.",
+      "example_prompt": "We claim every retry of this import is safe. Find one realistic sequence satisfying our assumptions that would duplicate an effect, then narrow the guarantee.",
+      "success_criterion": "The result identifies assumptions, a concrete violating sequence, evidence status, and the smallest justified claim or design change; unsuccessful search remains explicitly bounded.",
+      "recommended_change": "Merge both into one counterexample skill. Preserve this version's strongest-interpretation and decision-consequence checks, plus the other version's executable fixture and reasoned-versus-observed distinction."
+    },
+    {
+      "source_slug": "teach",
+      "original_slug": "transfer-test",
+      "verdict": "pilot",
+      "strength": "It separates transferable capability from fluent repetition and distinguishes conceptual failure from slips, prerequisites, and confounded tasks. The learner gets a real attempt before solution disclosure.",
+      "distinctness": "Its standalone value is a short assessment after learning, rather than an entire course or exercise-design package. It is the terminal assessment component of design-the-learning-sequence.",
+      "weakness": "A changed surface alone does not guarantee a new reasoning demand. An almost identical example could reward pattern copying while being labeled transfer.",
+      "example_prompt": "I can explain closures from the example we used. Give me one unfamiliar practical task that checks whether I can apply the idea without hints.",
+      "success_criterion": "The learner-facing task requires the target principle in a new setting, and feedback cites actual reasoning and output without claiming mastery from one answer.",
+      "recommended_change": "State what shortcut from the original example no longer works. Keep this callable alone, but share its assessment procedure with the larger learning sequence instead of duplicating instructions."
+    },
+    {
+      "source_slug": "research",
+      "original_slug": "evidence-fork",
+      "verdict": "pilot",
+      "strength": "Competing predictions and a predeclared interpretation make research discriminating. The cheapest useful observation is selected by decision impact, access, reliability, and confounding.",
+      "distinctness": "This is more concrete than 'research thoroughly' or 'consider alternatives.' It chooses an information-producing action; reversible-bets adds a sustained intervention and recovery plan.",
+      "weakness": "Choosing among named explanations can conceal a missing explanation, and ranking after one observation can imply more precision than overlapping predictions justify.",
+      "example_prompt": "This page became slower after deployment. Is the cause larger assets, slower server responses, or client rendering? Choose the cheapest measurement that separates them.",
+      "success_criterion": "The proposed measurement yields materially different predictions for plausible explanations, includes an ambiguous-result branch, and changes the next diagnostic action.",
+      "recommended_change": "Add a result category for 'none of these explanations predicts this well' and revisit the hypothesis set when observed results fit poorly. Avoid adding a mandatory third explanation."
+    },
+    {
+      "source_slug": "handoff",
+      "original_slug": "resume-check",
+      "verdict": "pilot",
+      "strength": "It checks only mutable claims that affect the next action and then resumes work. Treating a handoff as evidence rather than renewed authority is a valuable operational boundary.",
+      "distinctness": "Unlike resume-probe, this reconciles external state rather than testing a reader's comprehension. The live-state check is concrete enough to justify a compact resume mode.",
+      "weakness": "Most steps should already be ordinary competent continuation. Its added value depends on targeting genuinely drift-prone claims rather than making every resumed conversation a ceremony.",
+      "example_prompt": "Continue this migration from yesterday's handoff. Another developer may have changed the branch and completed part of the work since that note was written.",
+      "success_criterion": "The next action reflects the current checkout, ownership, prerequisites, and available artifacts; any consequential stale claim is corrected without rerunning stable history.",
+      "recommended_change": "Keep the explicit drift trigger and quiet-success behavior. Package beside resume-probe with clear routing: verify changing state first, test successor comprehension only when the handoff itself is suspect."
+    },
+    {
+      "source_slug": "prototype",
+      "original_slug": "assumption-budget",
+      "verdict": "merge",
+      "strength": "It prioritizes uncertainty by consequence, reversibility, and evidence cost without invented scoring. Leaving cheap reversible assumptions explicit helps prevent endless preparatory research.",
+      "distinctness": "The ranking step is useful, but most of the skill is an upstream selector for evidence-fork or reversible-bets rather than an independent end-to-end collaboration mechanism.",
+      "weakness": "The output can remain a tidy list of assumptions unless the selected evidence move is actually carried into the authorized task. 'Smallest set' lacks a concrete stopping basis.",
+      "example_prompt": "Before building this importer, identify which unknowns could force expensive rework and which we can safely learn while implementing.",
+      "success_criterion": "The output selects a small number of decision-changing unknowns, explains why others can wait, and specifies a next observation with a result that changes the plan.",
+      "recommended_change": "Merge it into a compact uncertainty-to-action family as the triage stage. Preserve its ranking criteria, but require an explicit handoff to observation, trial, or authorized implementation."
+    },
+    {
+      "source_slug": "wayfinder",
+      "original_slug": "stop-rule",
+      "verdict": "defer",
+      "strength": "It protects explicit requirements, separates blockers from optional improvements, and ties stopping to usability rather than fatigue or output volume. These are sound completion principles.",
+      "distinctness": "As written, it mainly restates competent task management. It does not offer a specialized stopping mechanism beyond identifying the required outcome and comparing progress with it.",
+      "weakness": "Research saturation, engineering acceptance, and aesthetic refinement need different evidence. The broad trigger can create another planning conversation without reducing actual overwork.",
+      "example_prompt": "We have researched three viable vendors and keep opening new comparisons. Define what remaining evidence could still change the selection and when to decide.",
+      "success_criterion": "A stated review point ends optional exploration once requirements are met, while a specific unresolved blocker still causes continued work.",
+      "recommended_change": "Defer standalone installation. Keep these principles in general working guidance, or narrow the skill to repeated research with an explicit decision-sensitivity test showing why another source could or could not matter."
+    },
+    {
+      "source_slug": "to-spec",
+      "original_slug": "intent-examples",
+      "verdict": "pilot",
+      "strength": "It tests prose against plausible implementations that disagree, while distinguishing proposed cases from agreed decisions. This exposes ambiguity without requiring an implementation or test framework.",
+      "distinctness": "The strongest mechanism is semantic clarification by examples tied to user intent. Boundary-cases is a classification-specialized version, and integration-contracts applies the same idea at a software seam.",
+      "weakness": "The procedure can merely illustrate an already chosen interpretation unless it deliberately constructs two reasonable outcomes for the same ambiguous case.",
+      "example_prompt": "Clarify 'users can cancel an export' with a few cases that distinguish queued, running, and already completed exports without silently choosing product policy.",
+      "success_criterion": "At least one case exposes a consequential ambiguity or confirms a needed boundary, and unresolved expectations remain labeled for the appropriate decision owner.",
+      "recommended_change": "Make the two-plausible-interpretations test central. Keep the examples few, and route classification-only problems to a shared boundary-case mode rather than installing two competing generic triggers."
+    },
+    {
+      "source_slug": "domain-modeling",
+      "original_slug": "boundary-cases",
+      "verdict": "merge",
+      "strength": "Minimal pairs differing in one decisive property are a precise way to expose classification rules. The skill protects contested categories and distinguishes values from factual premises.",
+      "distinctness": "It has a recognizable classification use case, but its core mechanism and output substantially overlap intent-examples and contrastive-explanation. It works best as a named mode.",
+      "weakness": "A single clarified rule may be inappropriate when different authorities legitimately use different boundaries. The final format suggests one rule even though the cautions allow contestation.",
+      "example_prompt": "Our policy says 'active customers receive support.' Use nearby cases to clarify whether paused subscriptions, trial accounts, and overdue renewals count.",
+      "success_criterion": "The resulting cases isolate consequential classification properties, expose genuine policy choices, and preserve multiple valid conventions where no single authority settles them.",
+      "recommended_change": "Merge into intent-examples as a classification mode, retaining minimal pairs and explicit decision authority. Permit an authority-indexed set of rules or an unresolved boundary instead of forcing one final definition."
+    },
+    {
+      "source_slug": "wait-what",
+      "original_slug": "contrastive-explanation",
+      "verdict": "pilot",
+      "strength": "It begins with the distinction that changes application, then uses a minimal pair and an overlap case. This is a practical response to confusable concepts, not a generic lecture.",
+      "distinctness": "Unlike intent-examples, it explains an existing conceptual distinction rather than negotiating a requirement. The deliverable is understanding supported by classification, not an agreed policy.",
+      "weakness": "The clean 'smallest distinction' can still oversimplify concepts with several independent dimensions. One overlap case does not always repair a misleading initial axis.",
+      "example_prompt": "I know the definitions of idempotency and deduplication, but I cannot tell which guarantee this retry design actually provides. Explain using nearly identical cases.",
+      "success_criterion": "The explanation classifies realistic cases correctly, makes the decisive feature explicit, and identifies any convention or overlap that limits the distinction.",
+      "recommended_change": "Retain the focused trigger. Allow a small comparison table when no single distinction is sufficient, and use a fresh application case when the user wants evidence of understanding."
+    },
+    {
+      "source_slug": "grill-with-docs",
+      "original_slug": "decision-thread",
+      "verdict": "pilot",
+      "strength": "It traces selected commitments through artifact transitions and compares meaning rather than matching words. Status, exceptions, ownership, and exact values are the right details to preserve.",
+      "distinctness": "This is an audit of continuity across artifacts; decision-preserving-compression instead produces a shorter artifact. Both share a semantic preservation primitive but solve different delivery problems.",
+      "weakness": "Selection of 'commitments at risk' is left intuitive. A plausible-looking destination can omit a crucial condition that was never selected for tracking.",
+      "example_prompt": "Check that the approved retention exceptions and deletion timing survived from this design discussion into the implementation tickets, and patch only material losses.",
+      "success_criterion": "Each selected consequential commitment has a destination location or a specific reported loss, and no proposal is upgraded to agreement during repair.",
+      "recommended_change": "Add a selection rule based on behavior-changing conditions and irreversible consequences. Reuse the extraction logic with compression, while keeping tracing optional and retiring it when continuity is established."
+    },
+    {
+      "source_slug": "loop-me",
+      "original_slug": "workflow-payback",
+      "verdict": "pilot",
+      "strength": "It starts from an actual run, compares manual improvement with automation, and includes maintenance, exceptions, recovery, and valued human involvement. The after-pilot check counters sunk-cost defense.",
+      "distinctness": "This is a substantive domain-specific version of reversible-bets: the accounting model and alternatives are tailored to automation decisions and go beyond a generic experiment plan.",
+      "weakness": "A short pilot can miss infrequent but expensive exceptions. A plausible time-saving estimate may dominate if the evidence record does not clearly distinguish observed and extrapolated costs.",
+      "example_prompt": "We spend time reconciling a weekly report. Decide whether to automate it, improve the spreadsheet, or keep it manual, using recent real runs.",
+      "success_criterion": "The recommendation includes total ongoing effort and reliability, tests the uncertainty that could reverse it, and can be revised after actual pilot results.",
+      "recommended_change": "Keep as a standalone candidate. Include a simple sensitivity check for rare exceptions and explicitly label which payback inputs were measured, estimated, or extrapolated."
+    },
+    {
+      "source_slug": "retro",
+      "original_slug": "instruction-ablation",
+      "verdict": "repair",
+      "strength": "It specifies paired tasks, frozen criteria, fresh contexts, isolated workspaces, negative cases, and observable behavior. That is a credible design for testing instruction costs and benefits.",
+      "distinctness": "This directly tests collaboration machinery rather than merely recommending better prompts. Its value depends on a valid contrast between the instruction-present and instruction-absent conditions.",
+      "weakness": "The instruction may still exist in inherited system guidance, another skill, or task wording. Fresh contexts alone do not establish that the intended treatment actually differs.",
+      "example_prompt": "Test whether this 'always ask before editing' rule prevents mistakes or only delays work, using one genuinely ambiguous task and one already authorized edit.",
+      "success_criterion": "Conditions differ in the intended instruction, retain equal task and permission context, and produce preserved outputs judged against predefined behavior and effort criteria.",
+      "recommended_change": "Before execution, audit both effective instruction contexts for contamination and interaction. If the rule cannot be removed or isolated, narrow the claim to an incremental wording test and prohibit causal removal recommendations."
+    },
+    {
+      "source_slug": "to-tickets",
+      "original_slug": "design-the-learning-sequence",
+      "verdict": "pilot",
+      "strength": "It sequences work by demonstrated capability and adapts to actual output. Ending with a fresh transfer case gives the sequence a stronger target than completing content.",
+      "distinctness": "Its distinct role is orchestration across exercises. Transfer-test handles one assessment; misconception-lab constructs a diagnostic exercise. This can be the entry point for that family.",
+      "weakness": "The skill assumes usable subject material and assessment judgment without specifying how to handle uncertain answer keys or cases with several valid approaches.",
+      "example_prompt": "Turn these introductory concurrency readings into three short exercises that reveal what I can actually reason about, adapting after each answer.",
+      "success_criterion": "Each exercise has an observable capability and success criterion, later tasks respond to learner evidence, and the final report separates demonstrated performance from untested ability.",
+      "recommended_change": "Pilot it as the learning-family entry point. Reuse the other two mechanisms rather than repeating them, and validate the answer criterion before attributing disagreement to the learner."
+    },
+    {
+      "source_slug": "diagnosing-bugs",
+      "original_slug": "construct-a-counterexample",
+      "verdict": "merge",
+      "strength": "It asks for the smallest in-scope violating input or sequence and explicitly separates a reasoned example from an executed result. The concurrency example demonstrates the intended specificity.",
+      "distinctness": "Its execution guidance is a useful refinement of counterexample-search, but the trigger, reasoning steps, stopping rule, and final claim repair are otherwise nearly identical.",
+      "weakness": "Keeping both skills would make selection depend on wording rather than a consequential procedural difference. Neither needs a second installed entry to cover concrete construction.",
+      "example_prompt": "Our cache claims readers never see an older value after a newer one. Build the smallest allowed event sequence that could break that guarantee.",
+      "success_criterion": "The case satisfies the stated assumptions, shows the contradiction step by step, labels execution status, and supports a proportionate change to the claim or design.",
+      "recommended_change": "Merge with counterexample-search and retain this version's concrete sequence, isolated fixture, and evidence-status language. Give technical and nontechnical examples in one skill instead of creating separate generic challengers."
+    },
+    {
+      "source_slug": "code-review",
+      "original_slug": "test-the-oracle",
+      "verdict": "pilot",
+      "strength": "It challenges a check with a plausible behavioral defect, rejects syntax failures as evidence, and requires the improved oracle to reject wrong behavior while accepting correct behavior.",
+      "distinctness": "This is a strong mechanism beyond ordinary review because it tests the observation declaring success. Fixture-truth diagnoses a narrower cause of the same false-positive testing problem.",
+      "weakness": "Restoration is specified, but the final clean-state verification is implicit. Also, one mutant can be caught for an unrelated behavioral reason rather than the intended assertion.",
+      "example_prompt": "This duplicate-payment test is green. Introduce one isolated plausible duplicate side effect and prove that the intended assertion, rather than a setup failure, catches it.",
+      "success_criterion": "Recorded execution shows the original correct case passes, the selected semantic defect fails for the intended reason, and the working state is restored.",
+      "recommended_change": "Pilot early. Add explicit failure-reason inspection and restoration verification. Incorporate fixture-truth as a diagnostic branch when hidden defaults or mock boundaries prevent the mutation from exercising the claimed behavior."
+    },
+    {
+      "source_slug": "tdd",
+      "original_slug": "change-the-representation",
+      "verdict": "pilot",
+      "strength": "It maps hidden distinctions to appropriate forms and requires an insight to return to plain language and action. Unknowns and representational losses are preserved rather than disguised.",
+      "distinctness": "The broad action is familiar good reasoning, but the form-selection examples and stop-if-uninformative rule make it a useful short intervention for genuinely stalled prose.",
+      "weakness": "The trigger remains subjective, and a polished diagram may be mistaken for discovery. The procedure does not explicitly compare what became decidable before and after the transformation.",
+      "example_prompt": "We keep talking past each other about retry states. Turn the current rules into the smallest state table that exposes missing or conflicting transitions.",
+      "success_criterion": "The new representation reveals a specific contradiction, missing state, or decision-relevant unknown, or the assistant candidly reports that it added no information.",
+      "recommended_change": "Keep the lightweight escape hatch. Require a brief before-and-after statement of the unresolved distinction, and prefer existing task artifacts over creating a separate visualization deliverable by default."
+    },
+    {
+      "source_slug": "implement",
+      "original_slug": "finish-the-last-mile",
+      "verdict": "defer",
+      "strength": "It checks the user's actual next step with the actual artifact and distinguishes created, checked, and externally completed. The explicit scope limits prevent an unnecessary delivery package.",
+      "distinctness": "This is excellent general completion hygiene, but the core behavior is already expected of a competent assistant delivering a usable result. The design offers little specialized mechanism.",
+      "weakness": "A separately triggered skill risks making basic usability checks optional or adding a redundant finishing pass even when direct verification already occurred.",
+      "example_prompt": "The converted document is ready. Check that the delivered file opens in the intended viewer and that the user can reach the sections needed for review.",
+      "success_criterion": "The promised artifact supports the immediate intended action, with any consequential remaining dependency stated accurately and without unnecessary new deliverables.",
+      "recommended_change": "Promote the concise actual-artifact and next-action checks into ordinary delivery guidance. Defer standalone installation unless real failure examples show a recurring gap that a specifically triggered skill measurably reduces."
+    },
+    {
+      "source_slug": "writing-fragments",
+      "original_slug": "counterimage",
+      "verdict": "merge",
+      "strength": "It connects a concrete contrary scene to a specific troubled sentence and supplies a replacement thesis plus an integrated paragraph. Fact and hypothetical boundaries are unusually clear.",
+      "distinctness": "The scene-first editorial technique is useful, but the whole procedure substantially overlaps thesis-stress-test's in-scope counterexample, mechanism diagnosis, claim repair, and supporting paragraph.",
+      "weakness": "The final requirement for an overturning observation assumes the thesis is empirically testable. It is less suitable for a normative argument, personal report, or deliberate metaphor.",
+      "example_prompt": "This essay says convenience always weakens attention. Find an ordinary concrete scene that seriously complicates that claim and revise one paragraph around it.",
+      "success_criterion": "The proposed scene genuinely pressures the stated claim, has explicit evidence status, and yields a stronger bounded thesis without invented autobiography or decorative caveats.",
+      "recommended_change": "Merge as the scene-based mode of thesis-stress-test. Preserve its editorial integration step, and make the final challenge appropriate to the claim type rather than requiring empirical falsifiability for every essay."
+    },
+    {
+      "source_slug": "writing-shape",
+      "original_slug": "thesis-stress-test",
+      "verdict": "repair",
+      "strength": "It distinguishes claim types, inspects the inference from support to thesis, and preserves rhetorical interest when narrowing. The revised thesis and paragraph make the advice usable.",
+      "distinctness": "The claim-type distinction gives this a stronger editorial foundation than generic counterexample search. Counterimage should become its scene-based mode rather than a second overlapping skill.",
+      "weakness": "The final instruction demands an observation that would make every revised thesis fail, contradicting the earlier recognition that normative positions, personal reports, and metaphors need different support.",
+      "example_prompt": "Review this essay's claim that a community owes newcomers hospitality. Strengthen its reasoning without converting a moral position into a scientific hypothesis.",
+      "success_criterion": "The revision preserves the kind of claim being made, exposes its actual support and tradeoff, and answers a relevant challenge without manufacturing empirical falsifiability.",
+      "recommended_change": "Branch the closing test by claim type: counterevidence for empirical claims, competing values and unacceptable implications for normative claims, fidelity for personal reports, and explanatory limits for metaphor."
+    },
+    {
+      "source_slug": "writing-beats",
+      "original_slug": "reader-state-simulation",
+      "verdict": "pilot",
+      "strength": "It traces what the text has actually equipped the reader to infer, locates the first consequential gap, and links a predicted misunderstanding to a specific passage and repair.",
+      "distinctness": "This is more precise than generic readability editing. It focuses on concept dependencies and supplies comprehension probes, while clearly labeling the exercise as model-based rather than human evidence.",
+      "weakness": "The imagined reader remains an assistant-generated model. Its first-gap judgment may miss multiple plausible reading paths or overestimate the importance of the assistant's own confusion.",
+      "example_prompt": "Audit this explanation for someone who knows basic spreadsheets but no databases. Find the first place they would likely form a wrong model of joins.",
+      "success_criterion": "The review identifies a text-supported conceptual jump, proposes a minimal repair, and produces questions whose answers would distinguish the suspected misunderstanding from usable understanding.",
+      "recommended_change": "Pilot with actual reader responses when available. Keep predicted and observed gaps separate, and avoid declaring the repaired explanation validated merely because the same model answers its own questions."
+    },
+    {
+      "source_slug": "to-questionnaire",
+      "original_slug": "answer-reconciliation",
+      "verdict": "pilot",
+      "strength": "It tracks source, scope, time, authority, and claim type before resolving apparent disagreement. Checking version and definition differences is a practical antidote to averaging incompatible answers.",
+      "distinctness": "The input is specifically returned answers against an existing decision need. That provenance-aware reconciliation is narrower and more useful than a general meeting summary.",
+      "weakness": "The deliverable says 'established' without explicitly limiting that status to what the supplied sources establish. Agreement among respondents may still be shared error or unsupported reporting.",
+      "example_prompt": "Reconcile these product, operations, and engineering answers about export retention, identifying what the specification can use and which apparent conflicts need one follow-up.",
+      "success_criterion": "Each consequential finding is traceable to an appropriately scoped source, genuine disagreements remain visible, and the follow-up resolves a decision-relevant uncertainty.",
+      "recommended_change": "Keep the procedure. Distinguish corroborated facts from consistently reported claims, and identify the authoritative verification source where respondent agreement alone cannot establish the operational fact."
+    },
+    {
+      "source_slug": "scaffold-exercises",
+      "original_slug": "misconception-lab",
+      "verdict": "pilot",
+      "strength": "It constructs a task where a plausible wrong model predicts a different response, separates answer material, and trials for shortcuts. The diagnostic criterion is stronger than exercise completion.",
+      "distinctness": "This is the exercise-authoring component of the learning family, whereas transfer-test assesses an existing learner and design-the-learning-sequence orchestrates multiple attempts.",
+      "weakness": "A single wrong answer may have several causes, so the proposed diagnostic rubric can overidentify the named misconception unless the response reveals the reasoning that produced it.",
+      "example_prompt": "Design a short exercise that distinguishes believing asynchronous operations always finish in call order from understanding completion order, without using trick wording.",
+      "success_criterion": "The task discriminates the two specified models, requires relevant reasoning, avoids an obvious answer cue, and includes a transfer variant and separate worked solution.",
+      "recommended_change": "Require a minimal reasoning trace or follow-up where identical outputs fit several explanations. Retain independent-solver trials, while reporting what the exercise can distinguish rather than claiming a psychological diagnosis."
+    },
+    {
+      "source_slug": "codebase-design",
+      "original_slug": "rehearse-the-next-change",
+      "verdict": "pilot",
+      "strength": "It evaluates designs through concrete changes and actual callers, tracks moved knowledge rather than file count, and requires a fact that could reverse the recommendation.",
+      "distinctness": "The design-rehearsal mechanism is substantive: sketching obligations under the same scenarios makes architecture comparisons inspectable without fully implementing competing designs.",
+      "weakness": "Scenario selection controls the conclusion. Even a grounded roadmap can omit present migration cost or favor the author's preferred future unless current operation is explicitly represented.",
+      "example_prompt": "Compare two notification-service designs by rehearsing adding a channel, changing retry policy, and supporting a real existing caller. Recommend one with concrete edit sketches.",
+      "success_criterion": "Both candidates face the same grounded scenarios, with visible contract, responsibility, migration, and verification consequences rather than abstract flexibility claims.",
+      "recommended_change": "Pilot this early for consequential architecture choices. Include the current design as a baseline and count the cost of reaching each candidate, while keeping speculative futures visibly lower weight."
+    },
+    {
+      "source_slug": "improve-codebase-architecture",
+      "original_slug": "subtract-a-dependency",
+      "verdict": "pilot",
+      "strength": "It treats deletion as an option, preserves hidden obligations, rehearses consumers and recovery, and compares total responsibility rather than celebrating fewer packages or lines.",
+      "distinctness": "The explicit subtraction lens can reveal alternatives ordinary optimization misses. Its contract-preserving experiment is distinct from contract-surface-audit's focus on caller knowledge.",
+      "weakness": "The scope spans software, workflows, abstractions, and data copies, whose hidden obligations differ substantially. 'Lower total obligation' needs a concrete comparison to avoid rhetorical scoring.",
+      "example_prompt": "Evaluate whether this small configuration package earns its cost or could be removed using existing platform capabilities, including migration and failure recovery.",
+      "success_criterion": "The recommendation names which obligations disappear, which move to another owner, what behavior remains verified, and whether transition cost justifies the change.",
+      "recommended_change": "Keep the subtraction mechanism but require an explicit before-and-after obligation list tied to actual consumers. Add short domain examples only if needed; avoid turning the list into a permanent governance artifact."
+    },
+    {
+      "source_slug": "ask-matt",
+      "original_slug": "find-the-binding-constraint",
+      "verdict": "merge",
+      "strength": "It checks whether the obstacle is already resolved, distinguishes types of blockage, and performs a cheap observation before generating another plan. Success is removal or elimination of a specific obstacle.",
+      "distinctness": "The intervention is useful, but its causal core is evidence-fork applied to stalled work, preceded by a scope check. It is not a substantially new diagnostic mechanism.",
+      "weakness": "'Binding' suggests a unique dominant constraint that may not exist. The instruction to update the obstacle once is arbitrary when the first check reveals a second inexpensive dependency.",
+      "example_prompt": "We keep revising the import plan without progress. Determine whether the actual blocker is missing sample data, a format decision, or a parser failure.",
+      "success_criterion": "A bounded observation removes or rules out a stated obstacle and produces a concrete authorized action, rather than a more elaborate description of the stall.",
+      "recommended_change": "Merge as the stalled-work entry point to evidence-fork. Drop the rigid single-update limit and stop by value: continue only while the next bounded check is cheaper than proceeding."
+    },
+    {
+      "source_slug": "setup-matt-pocock-skills",
+      "original_slug": "make-a-working-example",
+      "verdict": "pilot",
+      "strength": "It requires a representative complete path, realistic constraints, explicit essential-versus-incidental details, and execution in the supported environment where possible. Example data is separated from active work.",
+      "distinctness": "Examples are ordinary assistant behavior, but the runnable reference artifact and transfer check make this more useful than generic illustrative snippets or installation instructions.",
+      "weakness": "'Ask whether the example enables an analogous task' may become self-approval rather than evidence. A completed happy path can still omit the decision that causes real user mistakes.",
+      "example_prompt": "Create one runnable example showing how our plugin adds a command, handles invalid input, and returns a result, with only the prerequisites needed to adapt it.",
+      "success_criterion": "The example runs or has explicit unexecuted limits, demonstrates the targeted difficult distinction, and lets a new collaborator identify what to change for an analogous case.",
+      "recommended_change": "Choose the representative path from an actual confusion or failure. Where practical, give a fresh solver one small adaptation task; otherwise label transfer as a design intention rather than demonstrated learning."
+    },
+    {
+      "source_slug": "pr",
+      "original_slug": "reviewer-rehearsal",
+      "verdict": "pilot",
+      "strength": "A fresh reader reconstructs behavior, evidence, inspection priority, and merge concern without receiving expected answers. Comparing claims with the diff gives the rehearsal an observable output.",
+      "distinctness": "This is a specialized comprehension probe, distinct from code review: it tests whether the explanation directs review attention correctly rather than trying to approve the implementation.",
+      "weakness": "The supplied diff may let the reader repair a misleading PR body silently. A correct reconstruction therefore does not necessarily demonstrate that the body itself was helpful.",
+      "example_prompt": "Rehearse this complex migration PR with a fresh reader. Find whether its description gives the right model of rollback and directs attention to the consequential paths.",
+      "success_criterion": "The review records what the body communicates versus what the diff establishes, identifies any material misunderstanding, and links a minimal explanation repair to it.",
+      "recommended_change": "Have the reader explicitly attribute each key conclusion to body, diff, or inference. If necessary, stage body-first then diff inspection to isolate which wording misdirects attention without revealing expected answers."
+    },
+    {
+      "source_slug": "triage",
+      "original_slug": "find-the-unasked-question",
+      "verdict": "merge",
+      "strength": "It limits omissions to questions that control a decision, answers factual questions itself, and respects deliberate user scope. This helps avoid indiscriminate questioning disguised as insight.",
+      "distinctness": "Its useful role is an initial framing check. The resulting work usually becomes assumption-budget, evidence-fork, or an explicit preference decision rather than a separate mechanism.",
+      "weakness": "The trigger 'may be solving the wrong problem' is broad enough to invite routine reframing of well-posed tasks. The listed inspection categories can still generate generic consulting questions.",
+      "example_prompt": "Before we optimize this onboarding form, identify whether one omitted question could change the plan, using the user drop-off evidence already available.",
+      "success_criterion": "Every surfaced question maps to a different feasible next action, and the assistant either resolves it from evidence or presents a genuine decision for the authorized owner.",
+      "recommended_change": "Merge into the uncertainty or framing entry point. Require a concrete discrepancy in the current plan before invoking it, and allow 'no consequential omission found' without producing a mandatory question."
+    },
+    {
+      "source_slug": "resolving-merge-conflicts",
+      "original_slug": "compose-two-plans",
+      "verdict": "pilot",
+      "strength": "It compares intentions, commitments, assumptions, resources, and dependency order before synthesis. Permission to recommend one plan prevents a cosmetic compromise or simple concatenation.",
+      "distinctness": "The mechanism is recognizable plan integration, but the explicit capacity check and realistic execution scenario make it more disciplined than ordinary 'combine these ideas' responses.",
+      "weakness": "Preserving useful intention while changing form can conceal a changed commitment. The instruction to identify consequential omissions helps, but transformed obligations also need visibility.",
+      "example_prompt": "Combine these research and delivery plans into one feasible month of work, preserving hard commitments and identifying where the same people or deadlines conflict.",
+      "success_criterion": "The resulting plan has coherent responsibilities and order, fits actual resource constraints, and transparently explains material exclusions or changes to original commitments.",
+      "recommended_change": "Include materially transformed commitments alongside omissions. When priorities do not decide a conflict, keep the proposed tradeoff explicitly provisional rather than allowing a polished unified plan to imply agreement."
+    },
+    {
+      "source_slug": "wizard",
+      "original_slug": "make-the-tradeoff-tangible",
+      "verdict": "pilot",
+      "strength": "It chooses adjustable variables, separates measured inputs from assumptions, exposes the model, and checks representative and boundary calculations. The artifact is connected to a real decision.",
+      "distinctness": "Unlike the mostly textual portfolio, this produces an exploratory instrument whose dependency can be manipulated directly. Its value comes from appropriate model choice, not interactivity itself.",
+      "weakness": "The stated success of 'better understanding' is not directly established by a working interface. A transparent but incomplete model can still anchor the user on the wrong decision variables.",
+      "example_prompt": "Build a small interactive comparison of staffing coverage and response delay using our measured arrival rates, with assumptions visibly editable and an easy reset.",
+      "success_criterion": "Controls change the intended consequences correctly, boundary calculations agree with independent checks, and the artifact exposes which plausible assumptions reverse the decision.",
+      "recommended_change": "Identify material factors the model omits and ask for one decision-relevant interpretation if learning is being evaluated. Treat correct calculation and improved user understanding as separate evidence claims."
+    },
+    {
+      "source_slug": "implement-spec",
+      "original_slug": "integration-contracts",
+      "verdict": "pilot",
+      "strength": "It resolves a concrete case that plausible implementations would handle differently, assigns a shared contract location and change authority, and tests actual behavior during integration.",
+      "distinctness": "The mechanism applies intent examples to independently owned components, adding coordination, version-sensitive agreement, and compatibility checks. Those additions justify a separate operational skill.",
+      "weakness": "When the contract changes during active parallel work, 'change the contract and consumers together' may not be possible without a transition or explicit acknowledgment from each owner.",
+      "example_prompt": "Two agents are building export production and download delivery independently. Define the minimum shared contract for readiness, absence, failure, and duplicate completion events.",
+      "success_criterion": "Both sides use the same concrete examples, no consequential seam ambiguity is mislabeled independent, and integrated behavior is checked against the agreed boundary.",
+      "recommended_change": "Add a lightweight change rule for active work: identify affected owners and compatible versions before updating a shared contract. Avoid declaring integration readiness from example agreement alone."
+    },
+    {
+      "source_slug": "claude-handoff",
+      "original_slug": "resume-probe",
+      "verdict": "pilot",
+      "strength": "It asks a fresh receiver for the actual objective, authoritative state, constraints, uncertainty, and first action with artifact references. Read-only probing prevents the test from becoming uncontrolled continuation.",
+      "distinctness": "This operational comprehension test is stronger than simply polishing a handoff. Resume-check verifies live claims; this checks whether another context can find and use them.",
+      "weakness": "The sender can compare against its own mistaken understanding, and a plausible first action remains only a proposal unless performed. The skill mostly acknowledges, but cannot eliminate, those limits.",
+      "example_prompt": "Test whether this handoff lets a fresh agent safely continue the migration. Give it only successor-visible artifacts and inspect its proposed first action.",
+      "success_criterion": "A fresh context cites authoritative artifacts, reconstructs the authorized objective accurately, and proposes or performs an appropriate bounded first step without hidden context.",
+      "recommended_change": "Pilot early. Keep an independent current-state reference for judging mismatches, and report reconstructed, proposed, and executed behavior separately so fluent planning is not counted as successful continuation."
+    },
+    {
+      "source_slug": "setup-pre-commit",
+      "original_slug": "feedback-budget",
+      "verdict": "pilot",
+      "strength": "It maps existing checks to the decisions they influence and balances detection, delay, reliability, and effort. One measured improvement keeps this from becoming a toolchain redesign exercise.",
+      "distinctness": "This is specific engineering workflow design, with defect coverage and timing as the mechanism. Workflow-payback concerns whether to automate; this places already valuable signals appropriately.",
+      "weakness": "Moving an expensive check later may preserve nominal coverage while losing enforcement before an irreversible decision. 'Continued coverage' needs to include when failure can still block the action.",
+      "example_prompt": "Our commit hook takes twelve minutes and developers bypass it. Reposition existing checks so useful failures arrive promptly without losing required protection before merge.",
+      "success_criterion": "Representative before-and-after runs show feedback timing, intended failures remain visible at actionable points, and mandatory coverage and enforcement are preserved.",
+      "recommended_change": "Track each moved check's latest safe blocking point, not just whether it still runs somewhere. Verify a failure travels to the intended decision owner as well as measuring duration."
+    },
+    {
+      "source_slug": "git-guardrails-claude-code",
+      "original_slug": "reversible-operation-design",
+      "verdict": "pilot",
+      "strength": "It distinguishes code reversal from undoing effects, ties preview to current state, bounds computed paths, and accounts for partial completion. Recovery is treated as an actual supported capability.",
+      "distinctness": "This is a concrete operational design skill rather than a generic caution checklist. Its state-consistent preview and recovery obligations differ materially from reversible-bets' experimental decision process.",
+      "weakness": "The needed recovery mechanism can vary greatly across files, identifiers, and external systems. A representative sample may not reveal a failure mode unique to a later batch.",
+      "example_prompt": "Plan and execute this authorized bulk rename so targets are previewed from current state, partial completion is recorded, and the original paths can be recovered.",
+      "success_criterion": "Actual affected targets match the scoped preview, state drift cannot silently broaden the operation, and recovery evidence covers the state the operation changes.",
+      "recommended_change": "Retain as a strong pilot. Select the recovery sample by consequential state variation, and explicitly distinguish a tested representative reversal from an untested claim that every completed unit can be restored."
+    },
+    {
+      "source_slug": "setup-ts-deep-modules",
+      "original_slug": "contract-surface-audit",
+      "verdict": "pilot",
+      "strength": "It examines real caller obligations, compares concrete current and proposed use, checks a second caller, and pressures the interface with an unusual legitimate case. Responsibility movement stays explicit.",
+      "distinctness": "The unit of improvement is consumer knowledge rather than folder layout, export count, or code size. That makes this more focused than generic architecture review.",
+      "weakness": "A second caller may still share the same hidden assumptions. Hiding repeated orchestration can centralize policy that legitimately belongs to different consumers.",
+      "example_prompt": "Review this storage API using two real callers. Propose a smaller public surface that removes accidental sequencing knowledge while preserving caller-owned consistency choices.",
+      "success_criterion": "The proposed call sites eliminate an identified accidental obligation, preserve necessary domain choices, and behave coherently on an error or unusual valid case.",
+      "recommended_change": "Keep as a standalone candidate. Choose the second caller for a meaningful policy difference rather than convenience, and state which responsibility moves and why the module is the right owner."
+    },
+    {
+      "source_slug": "migrate-to-shoehorn",
+      "original_slug": "fixture-truth",
+      "verdict": "merge",
+      "strength": "It reads fixture, mocks, assertion, and exercised path together, separating essential setup from noise. It correctly permits incomplete fixtures and narrowing an overstated test claim.",
+      "distinctness": "Its diagnostic focus on hidden defaults and replaced behavior is useful, but the validating mechanism is the same isolated defect challenge used by test-the-oracle.",
+      "weakness": "Installed separately, both skills trigger on important green tests that may pass for the wrong reason and produce closely related mutations, assertion repairs, and execution reports.",
+      "example_prompt": "Audit this mocked cancellation test. Determine whether the fixture bypasses real cancellation behavior and construct one counterexample the test should reject.",
+      "success_criterion": "The analysis shows which setup actually causes the pass, repairs or narrows the claimed behavior, and records whether the intended defect is detected after repair.",
+      "recommended_change": "Merge into test-the-oracle as its fixture-and-mock diagnostic mode. Preserve the rule that fixture completeness is not truth and retain exact execution status when a counterexample cannot be run."
+    }
+  ],
+  "portfolio_observations": [
+    "Method: Read publication-manifest.json to obtain the 38 source-to-original mappings, then read every mapped original-skills/<slug>/SKILL.md in full. No chapter commentary, author bets, evaluation rubrics, other reviews, or user memory informed the initial judgments. All example prompts and success criteria are proposed tests, not executed results.",
+    "Verdicts: 'pilot' means the design has a sufficiently concrete mechanism to justify a bounded behavior test, not that it is proven valuable or should immediately be installed. 'merge' means preserve useful mechanisms inside a clearer family. 'repair' means fix a consequential validity defect before interpreting a pilot. 'defer' means the text is sound guidance but a separate skill has not yet earned its routing and context cost.",
+    "The portfolio is strongest where it forces an inspectable contrast: test-the-oracle compares correct and deliberately wrong behavior; resume-probe checks a fresh receiver's artifact-grounded next action; reviewer-rehearsal reconstructs a PR's meaning; rehearse-the-next-change exposes actual obligations under competing designs. These mechanisms can reveal something a fluent explanation alone cannot. They deserve early pilots, along with integration-contracts and decision-preserving-compression.",
+    "Thirty-eight source mappings do not justify thirty-eight separately installed skills. The clearest duplicate pairs are counterexample-search/construct-a-counterexample and counterimage/thesis-stress-test. Fixture-truth fits as a diagnostic mode in test-the-oracle. Boundary-cases fits as a classification mode in intent-examples. Consolidation should preserve the stronger local details rather than merely deleting one file.",
+    "An uncertainty-to-action family would make routing clearer: assumption-budget selects consequential unknowns; evidence-fork chooses a discriminating observation; reversible-bets designs a sustained reversible trial. Find-the-binding-constraint and find-the-unasked-question are useful entry modes for stalls and framing defects. The first three represent different stages; the latter two do not need competing generic diagnostic identities.",
+    "The learning family contains legitimate separable outputs: design-the-learning-sequence orchestrates adaptive practice, misconception-lab authors a diagnostic exercise, and transfer-test assesses application in a new case. Keep them callable at those different scopes, but share assessment principles. Likewise, resume-check validates changing external state while resume-probe tests successor comprehension; neither is a substitute for the other.",
+    "Most triggers include sensible exclusions and most procedures stop after a decision-relevant result. The broadest entries still overlap ordinary assistant duties: stop-rule and finish-the-last-mile chiefly encode completion hygiene; find-the-unasked-question can become routine reframing. Trigger testing should include nearby tasks where extra procedure would waste time, not only ideal prompts that explicitly ask for each named mechanism.",
+    "Observable artifacts are common, but outcome claims need stricter separation. A runnable example does not establish transfer; a comprehension question does not establish comprehension; a proposed next action does not establish successful continuation; a working interactive model does not establish better judgment. Reader-state-simulation and several fresh-agent probes already acknowledge this boundary. Pilots should preserve it in their reports.",
+    "The designs favor clarification, verification, counterexamples, and controlled repair. That is useful but narrower than a major expansion of collaborative capability: many are disciplined microprocedures for known good practice. The portfolio's ambition should be tested by what new usable work or better decisions it enables, not by the number of named thinking moves or the elegance of instructions.",
+    "Run a small first wave rather than all 38: choose mechanisms with clear artifacts and nearest-negative cases, preserve task context, compare against ordinary assistance, and count unnecessary questions, duplicate work, and time as costs. Instruction-ablation could support this only after its treatment-contamination defect is repaired. Do not interpret a successful static audit or a few rehearsals as general behavioral effectiveness."
+  ],
+  "critical_issues": [
+    {
+      "id": "ORIG-001",
+      "skills": [
+        "instruction-ablation"
+      ],
+      "issue": "The central experiment does not require verifying that the selected instruction is actually absent from the absent condition. The text calls for fresh contexts with equal task information, but an equivalent rule can remain in inherited instructions, another skill, or the task itself.",
+      "consequence": "A null contrast could be attributed to a useless instruction when both conditions still receive it. The resulting retain/remove recommendation would lack the causal interpretation the skill is intended to support, even if contexts are fresh and outputs are preserved.",
+      "required_repair": "Inspect and record effective treatment contexts before running. Identify equivalent inherited rules and interactions. If the intended removal cannot be achieved, call the comparison an incremental wording experiment and restrict the recommendation accordingly."
+    },
+    {
+      "id": "ORIG-002",
+      "skills": [
+        "thesis-stress-test",
+        "counterimage"
+      ],
+      "issue": "Thesis-stress-test explicitly distinguishes empirical, causal, normative, personal, and metaphorical claims, then universally instructs: 'End with a specific observation that would make the revised thesis fail.' Counterimage similarly demands an overturning observation without a claim-type branch.",
+      "consequence": "For normative positions, personal reports, and deliberate metaphors, this can replace the author's kind of claim with an inappropriate empirical test, weakening or distorting the work the skill is supposed to preserve.",
+      "required_repair": "Select the challenge by claim type. Use counterevidence for empirical claims, competing values or unacceptable implications for normative claims, fidelity and scope for personal reports, and explanatory usefulness or limits for metaphor. Merge counterimage as an editorial mode only after carrying this distinction through the closing test."
+    }
+  ]
+}

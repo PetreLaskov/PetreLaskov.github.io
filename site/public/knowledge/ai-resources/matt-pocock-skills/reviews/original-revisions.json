@@ -1,0 +1,22 @@
+[
+  {
+    "source_slug": "grill-me",
+    "old_original": "counterexample-search",
+    "old_sha256": "1a941c068776f5ae3d40a4136194074697712304f913eb9135d283639f84aea8",
+    "archived_at": "reviews/superseded-originals/counterexample-search",
+    "new_original": "preference-probes",
+    "new_sha256": "03d66c848d0dbfe6f34d1a944a623abf63150294c4794d090fb043e94ab80540",
+    "reason": "Independent portfolio review identified near-duplication with construct-a-counterexample. Replace the duplicate with concrete elicitation of tacit preferences.",
+    "evidence": "reviews/original-portfolio.json; replacement behavior not yet tested at this revision"
+  },
+  {
+    "source_slug": "writing-fragments",
+    "old_original": "counterimage",
+    "old_sha256": "e2b7834929f6a0b732af7a2f36e00f33a7d48495325927eec541cfdfe040f9d8",
+    "archived_at": "reviews/superseded-originals/counterimage",
+    "new_original": "anchored-variation",
+    "new_sha256": "6c51d92ef16742b23ccde748fc92d2c3a459db3d825eb89fed31e19412db2a2b",
+    "reason": "Independent portfolio review identified substantial overlap with thesis-stress-test. Replace the duplicate with identity-preserving creative variation.",
+    "evidence": "reviews/original-portfolio.json; replacement behavior not yet tested at this revision"
+  }
+]

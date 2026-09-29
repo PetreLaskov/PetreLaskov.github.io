@@ -1,0 +1,19 @@
+{
+  "scope": "fresh-agent targeted text probes",
+  "inputs_read": [
+    "evals/second-followup-prompts.json",
+    "refactored/setup-matt-pocock-skills/SKILL.md",
+    "refactored/setup-matt-pocock-skills/issue-tracker-local.md",
+    "refactored/writing-beats/SKILL.md"
+  ],
+  "responses": [
+    {
+      "id": "setup-existing-schema-repair",
+      "response": "The minimal setup preserves the existing single-file tracker.\n\n1. Add or reconcile docs/agents/issue-tracker.md to document .scratch/ISSUES.md as the authoritative tracker. Resolve items by their exact opaque IDs, such as Q9; read each full item and its dated comment bullets; append comments in that same format; and close an item by changing its state from Open to Done. Preserve the existing item format when creating issues. Do not introduce numbered ticket files, per-feature directories, or replacement status names.\n2. Add or update one Agent skills pointer block in the instruction file the active harness reads, pointing to that tracker document. Use AGENTS.md if it is that entry point, preserving its existing content and any deliberate pointer arrangement. The fixture confirms that AGENTS.md exists, but does not establish which file the harness consumes.\n\nDocument that parent links are unsupported. Blocking relationships are separate: their representation, if any, is not supplied here, so leave that capability unresolved rather than adding a field or treating parent membership as blocking. The exact ID-allocation rule for creating new items is also unspecified; do not derive it from the example Q9. Label/category, readiness, and claim operations would need their existing conventions confirmed if a selected downstream workflow requires them. No triage mapping is needed on the supplied scope; a different selected workflow could still require role mappings.\n\nKeep one domain context for the single package. No domain split, speculative CONTEXT.md or ADRs, tracker migration, or remote provisioning is called for. This is a dry run: these are proposed document changes, and no files have been written."
+    },
+    {
+      "id": "writing-beats-isolated-retest",
+      "response": "The deletion removes job loss and unemployment from the established story facts. It does not establish that the narrator is employed. Recompute the next beat's prerequisites: the proposed beat is no longer reachable while it depends on unemployment.\n\nThe next choices become:\n\n- Rework that beat so it does not depend on the narrator's employment status, if its actual material permits this.\n- Ground unemployment again only if you explicitly choose to establish it and supply or confirm the factual material. Do not silently restore the deleted beat.\n- Choose a different beat supported by the remaining established material.\n\nThis standalone fixture supplies neither the proposed beat's text nor any remaining story material, so I cannot offer concrete narrative beats without inventing facts. The immediate change is to withdraw the unemployment-dependent proposal and keep its prerequisite visibly unresolved. No next beat should be written before you choose a supported move."
+    }
+  ]
+}

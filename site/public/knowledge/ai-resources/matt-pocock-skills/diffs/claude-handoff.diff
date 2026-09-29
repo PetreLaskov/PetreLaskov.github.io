@@ -1,0 +1,52 @@
+--- a/source/skills/in-progress/claude-handoff/LICENSE
++++ b/refactored/claude-handoff/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2026 Matt Pocock
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+--- a/source/skills/in-progress/claude-handoff/SKILL.md
++++ b/refactored/claude-handoff/SKILL.md
+@@ -1,18 +1,16 @@
+ ---
+ name: claude-handoff
+-description: Hand the current conversation off to a fresh background agent that picks up the work immediately.
+-argument-hint: "What will the next session be used for?"
+-disable-model-invocation: true
++description: "Continue authorized work in a fresh background Claude session using a concise handoff grounded in durable artifacts."
+ ---
+ 
+-Write a handoff summary of the current conversation so a fresh agent can continue the work. Instead of saving it, launch a background agent seeded with the summary as its prompt: `claude --bg --name "<descriptive name>" "<handoff summary>"`. It starts in the current working directory and returns immediately; the user manages it with `claude agents`.
++# Claude Handoff
+ 
+-Always pass `-n`/`--name` with a descriptive name (e.g. `--name "Fix login bug"`); it sets the display name shown in the job list, session picker, and terminal title.
++Transfer the explicitly requested continuation to a fresh background Claude agent. Use the user's stated next focus; otherwise preserve the current unfinished objective.
+ 
+-Include a "suggested skills" section in the summary, naming which skills the next agent should call the Skill tool for.
++Inspect current working directory, branch or revision, uncommitted changes relevant to the task, and any active ownership. Write a concise handoff containing the objective, current state, authoritative artifact pointers, important failed approaches, next useful action, and boundaries of already authorized work. Include suggested available skills. Reference existing artifacts rather than copying them. Exclude secrets and unnecessary personal information.
+ 
+-Do not duplicate content already captured in other artifacts (specs, plans, ADRs, issues, commits, diffs). Reference them by path or URL instead.
++Verify the installed runtime supports the intended background launch. Use its supported prompt transport with proper shell quoting or argument passing; never interpolate arbitrary summary text into a shell command. Give the job a descriptive name. In another host, use a native equivalent only if it actually supports the same authorized continuation; do not silently create a separate user-owned chat or switch provider.
+ 
+-Redact any sensitive information, such as API keys, passwords, or personally identifiable information, since the summary becomes the agent's prompt.
++Tell the successor to verify the current artifacts and working state before editing. Name any files still owned by another worker. Once launch succeeds, stop competing work on the transferred unit.
+ 
+-If the user passed arguments, treat them as a description of what the next session will focus on and tailor the summary accordingly.
++Inspect the launch result. Report the job identifier or usable link, its directory and focus, and how the user can manage it. Do not claim the successor is running without a successful receipt. If launch is unsupported or fails, save or present the handoff and state that continuation has not started. Do not repeatedly retry an uncertain launch and risk duplicate agents.

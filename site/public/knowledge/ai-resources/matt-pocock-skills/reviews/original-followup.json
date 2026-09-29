@@ -1,0 +1,82 @@
+{
+  "scope": "independent design review, not behavior execution",
+  "review_basis": "Read only the current SKILL.md files for preference-probes, anchored-variation, instruction-ablation, and thesis-stress-test. Compared the two repairs with the concerns recorded in my baseline review. No follow-up trial prompts, responses, rubrics, chapter commentary, or other reviews were read.",
+  "reviews": [
+    {
+      "source_slug": "grill-me",
+      "original_slug": "preference-probes",
+      "verdict": "pilot",
+      "current_design_judgment": "This is a materially different collaboration mechanism from the replaced counterexample skill. Controlled examples elicit tacit preference, then a fresh application tests whether the inferred local rule travels.",
+      "strengths": [
+        "The trigger distinguishes unclear taste from a precise edit or a request for one final answer.",
+        "Keeping content and unrelated dimensions steady makes the user's comparison interpretable.",
+        "It refuses to convert assistant recommendations or a single choice into a permanent user preference."
+      ],
+      "remaining_weakness": "The assistant still chooses the contrast dimension and labels it. That can anchor the user's response or miss the actual source of dissatisfaction, even when both examples are respectable.",
+      "recommended_refinement": "Allow 'neither, for a different reason' and treat rejection of the contrast as evidence that the chosen dimension was wrong. When useful, obtain the immediate reaction before explaining the intended labels.",
+      "observable_result": "A selected or rejected feature supports a narrow provisional rule, its application to a fresh passage remains correctable, and the task ends with an improved artifact rather than a taste questionnaire.",
+      "prior_concern_resolution": "The counterexample duplication is resolved in design by replacing the mechanism; this says nothing yet about executed effectiveness."
+    },
+    {
+      "source_slug": "writing-fragments",
+      "original_slug": "anchored-variation",
+      "verdict": "pilot",
+      "current_design_judgment": "The replacement has a distinct creative purpose: change meaningful dimensions while preserving specific relationships that give an artifact its identity. It earns a separate trigger from editorial claim testing.",
+      "strengths": [
+        "Anchors must be operational and user requirements stay separate from the assistant's interpretation.",
+        "Variations must differ in mechanism, with the artifact doing most of the explanatory work.",
+        "Comparison against the source guards against generic polishing that satisfies literal constraints while flattening their effect."
+      ],
+      "remaining_weakness": "The same assistant may select the signature, generate variations, and certify that the signature survives. Interpretive anchors can therefore become self-confirming, especially for work whose effect is difficult to describe.",
+      "recommended_refinement": "Ground each consequential interpreted anchor in a concrete feature of the supplied artifact, and keep judgments about preserved effect provisional until user selection or other relevant evidence supports them.",
+      "observable_result": "The alternatives visibly differ on named dimensions, retain the concrete required features, and expose a useful creative choice with stated costs.",
+      "prior_concern_resolution": "The overlap with thesis-stress-test is removed. The old counterimage requirement for an empirically overturning observation is absent from this replacement."
+    },
+    {
+      "source_slug": "retro",
+      "original_slug": "instruction-ablation",
+      "verdict": "pilot",
+      "current_design_judgment": "The added treatment-context inspection directly repairs the baseline validity defect. A comparison now requires verified absence of equivalent instructions or must be described as a narrower wording experiment.",
+      "strengths": [
+        "The new paragraph checks inherited instructions, other skills, and task wording before running.",
+        "It protects higher-priority requirements and explicitly limits conclusions when true absence cannot be established.",
+        "Existing paired tasks, predefined criteria, fresh contexts, preserved outputs, and nearby negative cases remain intact."
+      ],
+      "remaining_weakness": "Small samples and environmental differences can still produce apparent effects. The text mentions repetition and uncertainty but does not explicitly hold model configuration, available tools, or mutable external state constant.",
+      "recommended_refinement": "For consequential retention or removal decisions, record relevant model/tool configuration and control mutable task state. Treat unobservable context as a limit rather than claiming a complete effective-context inventory.",
+      "observable_result": "The report documents an actual treatment contrast or its narrower substitute and ties a bounded recommendation to preserved outputs and predefined observable criteria.",
+      "prior_concern_resolution": "ORIG-001 is resolved in the instructions. Whether a future execution successfully verifies absence remains an execution question."
+    },
+    {
+      "source_slug": "writing-shape",
+      "original_slug": "thesis-stress-test",
+      "verdict": "pilot",
+      "current_design_judgment": "The closing challenge now preserves claim type instead of forcing every thesis into empirical falsifiability. The repair is explicit and consistent with the opening distinction between kinds of support.",
+      "strengths": [
+        "Empirical assertions, normative positions, personal reports, and metaphors receive different closing challenges.",
+        "Replacing 'evidence' with 'support' avoids implying that every stronger formulation needs a new empirical observation.",
+        "The procedure still demands concrete editorial work while protecting explanatory interest from empty qualification."
+      ],
+      "remaining_weakness": "The procedure continues to assume that a replacement thesis and supporting paragraph are needed. A well-supported claim could receive unnecessary revision simply because the workflow expects a repair.",
+      "recommended_refinement": "Permit a justified 'retain the thesis' result when scrutiny finds no consequential gap; then provide only the clarification or support that would actually improve the passage.",
+      "observable_result": "The critique uses the appropriate kind of challenge, identifies the actual inferential or value issue, and offers a revision whose force and limitations remain faithful to the author's claim.",
+      "prior_concern_resolution": "ORIG-002 is resolved in this current text. The separately affected counterimage design has been replaced by anchored-variation, which no longer contains the defect."
+    }
+  ],
+  "prior_issue_status": [
+    {
+      "id": "ORIG-001",
+      "status": "resolved_in_text",
+      "evidence": "Instruction Ablation now requires inspecting effective treatment contexts and verifying absence of the chosen instruction and equivalent rules; unverifiable absence becomes an incremental wording experiment.",
+      "limit": "This establishes a better procedure, not that any experiment has achieved a valid contrast."
+    },
+    {
+      "id": "ORIG-002",
+      "status": "resolved_in_text",
+      "evidence": "Thesis Stress Test now branches its closing challenge by claim type; Anchored Variation replaces Counterimage without the universal overturning-observation demand.",
+      "limit": "A future run must still preserve claim type in its actual critique and edits."
+    }
+  ],
+  "portfolio_delta": "The replacements reduce genuine duplication while expanding the portfolio toward preference elicitation and creative generation. Their outputs are concrete and their stop rules are proportionate. All four current designs are suitable for bounded pilots; no new critical textual defect was identified.",
+  "critical_issues": []
+}

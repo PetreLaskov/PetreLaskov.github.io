@@ -1,0 +1,7 @@
+# Execution notes and deviations
+
+The original protocol remains intact. The no-supplied-skill condition was added before response trials in PROTOCOL-ADDENDUM.md. Actual scoring used three fresh grading agents, rather than the coordinator named in the first protocol draft. Each grader saw one disjoint packet of cases, fixed assertions, and per-case anonymized A/B/C labels. The condition map was withheld. This reduces direct condition favoritism; recognizable wording and shared model tendencies still limit independence. One grader assessed each response; no inter-rater reliability was measured.
+
+The 114-case comparison refers to candidate v1, frozen in CONDITIONS.json. Final wizard, triage and setup-matt-pocock-skills have later repairs. Their original packages are preserved under candidate-v1 and verified against the frozen hashes. Other refactored files retain their tested bytes. The final original proposal replacements and validity repairs have independent design review; four revised originals have text smoke evidence. The other 34 originals have design review and package validation only.
+
+Follow-up prompts and criteria were saved before the fresh response-producing agents read them, but after the defects were known. They therefore test repairs; they are not unseen proof of general benefit. All scores and first responses are retained, including losses, ties, partials and rubric limitations. Helper tests are isolated executable checks with their own stated scope.

@@ -1,0 +1,370 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>wizard — agent skill guide, critique and refactor — Petre Laskov</title><meta name="description" content="Study of Matt Pocock’s wizard skill: when to use it, strengths, criticism, proposed refactor, exact differences, an original proposal and recorded evaluations."><link rel="canonical" href="https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/wizard/"><meta property="og:type" content="article"><meta property="og:title" content="wizard — agent skill guide, critique and refactor"><meta property="og:description" content="Study of Matt Pocock’s wizard skill: when to use it, strengths, criticism, proposed refactor, exact differences, an original proposal and recorded evaluations."><meta property="og:url" content="https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/wizard/"><meta property="og:site_name" content="Petre Laskov"><meta name="twitter:card" content="summary"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/wizard/#edition","url":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/wizard/","name":"wizard — agent skill guide, critique and refactor","headline":"wizard — agent skill guide, critique and refactor","description":"Study of Matt Pocock’s wizard skill: when to use it, strengths, criticism, proposed refactor, exact differences, an original proposal and recorded evaluations.","inLanguage":"en","datePublished":"2026-09-29","dateModified":"2026-09-29","publisher":{"@type":"Person","name":"Petre Laskov","url":"https://petrelaskov.github.io/"},"isBasedOn":{"@type":"CreativeWork","name":"Matt Pocock skills","url":"https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7","author":{"@type":"Person","name":"Matt Pocock"}},"isPartOf":{"@type":"CreativeWork","name":"Matt Pocock skills — full study edition","url":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/"},"creativeWorkStatus":"AI-generated study edition with inspectable development evaluation"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Petre Laskov","item":"https://petrelaskov.github.io/"},{"@type":"ListItem","position":2,"name":"The Knowledge Project","item":"https://petrelaskov.github.io/knowledge/"},{"@type":"ListItem","position":3,"name":"AI Resources","item":"https://petrelaskov.github.io/knowledge/ai-resources/"},{"@type":"ListItem","position":4,"name":"Matt Pocock skills","item":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/"},{"@type":"ListItem","position":5,"name":"wizard — agent skill guide, critique and refactor","item":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/wizard/"}]}]}</script><style>body{margin:0;background:#f7f5ef;color:#202727;font:17px/1.75 system-ui,sans-serif}a{color:#145b77;text-underline-offset:3px}header,main,footer{width:min(900px,calc(100% - 40px));margin:auto}header{padding:28px 0;border-bottom:1px solid #d7ddd4}nav{font-size:14px;line-height:1.8}nav a{margin-right:10px}main{padding:32px 0 60px}h1{font:700 clamp(27px,5vw,40px)/1.2 Georgia,serif;overflow-wrap:anywhere}h2{font:700 27px/1.3 Georgia,serif;margin-top:40px}h3{font-size:21px}p,li{overflow-wrap:anywhere}li{margin:10px 0}.meta{font-size:13px;color:#52615b}.material-links{padding:16px 0;border-block:1px solid #d7ddd4;margin:25px 0}.material-links a{display:inline-block;margin:3px 16px 3px 0}code{font:14px/1.6 ui-monospace,Consolas,monospace;overflow-wrap:anywhere}pre{padding:18px;background:#eef0e9;border:1px solid #d7ddd4;overflow:auto}pre code{white-space:pre;overflow-wrap:normal}table{display:block;overflow:auto;border-collapse:collapse;font-size:14px}td,th{padding:9px;border:1px solid #d7ddd4;vertical-align:top}details{padding:14px;border:1px solid #d7ddd4;margin:20px 0}summary{cursor:pointer;font-weight:650;overflow-wrap:anywhere}blockquote{margin:24px 0;border-left:3px solid #205c4a;padding-left:20px}footer{padding:25px 0;font-size:13px;border-top:1px solid #d7ddd4}.chapter-list{padding-left:24px}.chapter-list p{margin:3px 0 20px;color:#52615b;font-size:15px}a:focus-visible{outline:3px solid #b5722e;outline-offset:4px}.skip{position:absolute;top:-100px}.skip:focus{top:0;background:white;padding:10px}img{max-width:100%}</style></head><body><a class="skip" href="#main">Skip to content</a><header><nav aria-label="Breadcrumb"><a href="/">Petre Laskov</a> / <a href="/knowledge/">The Knowledge Project</a> / <a href="/knowledge/ai-resources/">AI Resources</a> / <a href="/knowledge/ai-resources/matt-pocock-skills/">Matt Pocock skills</a> / <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/wizard/">wizard — agent skill guide, critique and refactor</a></nav><p class="meta">Study edition commissioned and published by Petre Laskov. Analysis, refactors and evaluations were produced with OpenAI Codex. Original skills by Matt Pocock, preserved under the MIT license. Independent reviews in this edition are AI reviews, not independent human validation. Published <time datetime="2026-09-29">29 September 2026</time>.</p></header><main id="main"><nav class="material-links" aria-label="Chapter materials"><a href="/knowledge/ai-resources/matt-pocock-skills/#wizard/chapter">Open in the full reader</a><a href="/knowledge/ai-resources/matt-pocock-skills/chapters/wizard.md">Chapter Markdown</a><a href="/knowledge/ai-resources/matt-pocock-skills/diffs/wizard.diff">Exact package diff</a><a href="/knowledge/ai-resources/matt-pocock-skills/evals/wizard.md">Evaluation record</a></nav><h1>Wizard — turn a human-only procedure into a usable instrument</h1>
+<p><strong>Study question:</strong> when are instructions better delivered as an interactive tool?</p>
+<h2>Understand the original</h2>
+<p>Wizard generates a Bash script for procedures that require a human: visiting a dashboard, obtaining a credential, setting a service option, or performing a carefully sequenced cutover. The agent writes the tool; the human runs it. The goal is to stop scattering a long sequence of clicks, copied values, and configuration edits through chat. A stage presents one focused task, opens the relevant page, captures the result, and writes it to the intended destination. [S1]</p>
+<p>The source ships an actual library in template.sh. It handles progress display, browser opening across common systems including WSL, visible and hidden input, existing-value defaults, dotenv upserts, GitHub secrets and variables, confirmation prompts, and a closing summary. The skill tells authors not to modify the library above the STAGES marker. They should scope the procedure and write stage calls using the provided helpers.</p>
+<p>Scoping comes first. The agent inspects the repository&#39;s configuration needs and CI references, then identifies every manual action and value. For each value it must know where the human obtains it, where it is stored, and whether it is secret. Exact dashboard instructions should come from current evidence, not invented memory. The ordered stages are shown before the wizard is authored.</p>
+<p>The artifact is ephemeral by default. A one-off procedure need not become permanent repository infrastructure. A repeatable onboarding path can be committed and linked from the README when requested. The agent checks syntax and traces value routing but does not run the live wizard end to end, because doing so would open browsers and wait for the human.</p>
+<h2>A worked example</h2>
+<p>A small application needs a public service URL, a local development API key, and a CI deployment token. The repository reveals that local development reads SERVICE_URL and DEV_API_KEY, while a workflow reads DEPLOY_TOKEN. A useful wizard has separate stages for the local service and deployment credentials rather than asking the user to paste all values into chat.</p>
+<p>The local stage opens the correct dashboard, gives the precise navigation path, uses visible input for the public URL and hidden input for the key, then writes only the appropriate values locally. The deployment stage sends the user to the token page and stores the token only in the configured CI destination if local use is unnecessary. Hidden input prevents ordinary terminal echo, while the closing summary names keys rather than printing their values.</p>
+<p>Now suppose the token is a multiline private key. The source helper writes raw KEY=VALUE lines; it does not encode general dotenv syntax. Passing the key through that helper would be wrong even if Bash quoting is correct. The wizard should choose a supported secret-store or file path and validate that design, or stop with a precise unsupported format. The library&#39;s convenience is valuable only inside its actual contract.</p>
+<p>For a migration, restarting is another trap. Enter can reuse values already saved in .env, but it does not prove that a destructive stage is safe to repeat. The stage must inspect current state or explicitly distinguish completed and pending actions. “Re-runnable input prompts” and “idempotent migration” are different claims.</p>
+<h2>What it gets right</h2>
+<p>The source recognizes that the human can be a participant in an executable workflow rather than a person expected to reconstruct instructions from chat. Progress, one-screen stages, browser opening, and hidden input all reduce friction. The agent can continue to handle automated steps while isolating the part only the human can do.</p>
+<p>The fixed library is also a sound authoring boundary. Rewriting secret input and configuration manipulation from scratch for every task would create unnecessary variation. A reusable, reviewed helper makes stage authors focus on the specific journey and destinations. The source&#39;s instruction to avoid inventing dashboard steps is particularly important because those interfaces change.</p>
+<p>The strongest reason to keep the original is the artifact&#39;s immediacy. A short generated wizard can be easier to use than a general onboarding platform. Replacing it with a complex orchestration engine would undermine the “one focused task at a time” experience. Porting should preserve the small tool, the human-controlled run, and the distinction between ephemeral and repeatable use.</p>
+<h2>Criticism and actual helper limits</h2>
+<p>The phrase “idempotent .env upserts” is true only in a limited sense: repeated writes replace lines matching the key. It does not mean arbitrary values round-trip through every dotenv parser. The helper uses raw text, regex matching for keys, and a simple last-line lookup. Names should therefore be fixed valid identifiers, and values should be restricted to a clearly supported single-line bare form unless another tested serializer is used. [S2]</p>
+<p>Input handling also deserves attention. The template accepts EOF with “or true,” which can leave an empty value that later stages persist. A generated stage should reject empty required values and stop if no interactive terminal is available. Existing quoted dotenv values may be returned with their quotes intact. The initial candidate tried to address this through author-stage constraints alone. Independent review showed that saved-value fallback made those constraints insufficient. The final port repairs required input handling in the shared helper, while retaining stage validation for supported values and terminal availability.</p>
+<p>The GitHub helpers infer destination from the current environment and downgrade failures to skipped items. A user can therefore reach a completion banner while required CI setup remains pending. The source does list skipped operations, which is useful, but the generated procedure should pin the intended repository/environment and distinguish complete from partially configured. The helper does not track successful public variables in the same summary array as secrets, another reason to trace every required output. [S3]</p>
+<p>The docs overstate a few properties. They mention progress with time remaining, while the template displays stage count. They also describe portability unconditionally, but running requires Bash and relevant commands; Windows PowerShell alone is not Bash. Claims that the model is never connected to the terminal depend on the actual execution setup. Human-run hidden entry is a good boundary, but it is not a universal guarantee about every host.</p>
+<h2>Porting bet and dependency cost</h2>
+<p><strong>Bet: pilot on a modest repeatable setup.</strong> This could improve collaboration when several human-only steps otherwise require repeated explanation. For one short dashboard action, a clear instruction is probably cheaper. Its falsifier is whether the wizard reduces mistakes and backtracking without creating configuration corruption or ambiguous completion. Observe one real run and its result before treating the template as proven for that environment.</p>
+<p>Dependencies include Bash, a usable terminal, a browser-opening mechanism or manual URL fallback, and gh for GitHub operations. Those are requirements of the artifact, not of merely writing it. A native PowerShell environment may need an existing Bash installation or a separately designed native workflow; the skill should not install a shell merely because the template assumes one.</p>
+<p>The initial helper is preserved under evals/candidate-v1/wizard. The final candidate repairs EOF, empty required input, failed remote-write status, and the completion headline. Isolated Bash fixtures exercised source, initial candidate and repair: the source and initial candidate met 4 of 14 selected checks; the repair met all 14. These are targeted regression checks after a known defect, not independent benchmark evidence. Live dashboards, real credential storage, and CI integration were not exercised. <a href="/knowledge/ai-resources/matt-pocock-skills/evals/WIZARD-REPAIR.md">Read the executed checks</a>.</p>
+<h2>Refactor: a precise contract around a useful library</h2>
+<p>The new entrypoint inventories required variable names and destinations without dumping existing secret values. It identifies which steps genuinely need a human and lets the agent perform ordinary authorized automation itself. The stage plan includes required outputs, validation, and irreversible actions.</p>
+<p>When the supplied repaired template fits, stage code validates fixed key names, required nonempty input, and supported bare single-line values before calling write_env. Values containing whitespace, comments, expansion-sensitive characters, or multiline content require a different tested storage path. This is a concrete limitation, not a generic warning about secrets.</p>
+<p>Generated scripts receive syntax checks and, where the complexity warrants it, isolated tests with stubbed browser and remote commands. The author still does not run the real procedure. The final handoff tells the user where to run it, what destination it will affect, and what remains unverified. A rerun must check action state rather than relying only on saved values.</p>
+<h2>Original proposal: Make the Tradeoff Tangible</h2>
+<p>The inspired proposal creates a small manipulable model when a decision depends on quantities, timing, or competing preferences that are hard to grasp in prose. It could be a local interactive page, a spreadsheet, or a simple control panel. The user changes a few meaningful inputs and sees consequences immediately.</p>
+<p>For planning a study week, controls might vary session length and number of topics, showing time for practice versus reading. For a system design, controls might vary batch size and latency assumptions, showing a transparent estimated tradeoff. The artifact should expose its assumptions and distinguish measured inputs from illustrative ones. It is a thinking instrument, not a prediction machine.</p>
+<p>The novelty claim is limited: interactive models and what-if analysis are established. The proposal focuses on the collaboration benefit of letting the user explore rather than repeatedly asking the assistant to recalculate. Its cost is building and validating the model. Its falsifier is whether changing inputs teaches a real dependency or changes a decision. An attractive interface with arbitrary assumptions can be worse than a clear paragraph.</p>
+<h2>Study and transfer</h2>
+<ol>
+<li>Trace each captured value from source to destination and identify which are genuinely secret.</li>
+<li>Explain why hidden input does not make raw dotenv serialization correct.</li>
+<li>Distinguish a safe rerun of value capture from a safe rerun of a cutover.</li>
+<li>Choose a decision where an interactive model would teach more than another explanation.</li>
+</ol>
+<p>Read <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/setup-matt-pocock-skills/">setup-matt-pocock-skills</a> for repository configuration and <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/implement/">implement</a> for the point at which a human-only step may block delivery. Wizard&#39;s value is turning a procedure into an instrument the user can actually operate.</p>
+<h2>Numbered semantic delta</h2>
+<ol>
+<li><p><strong>D1: Read variable names and configuration needs without exposing existing secret values.</strong> Scoping can inspect required keys without importing credentials into model context. Tradeoff: Some state must be checked through presence/metadata rather than raw file output.</p>
+</li>
+<li><p><strong>D2: Declare remaining helper limitations and validate supported values in generated stages.</strong> write_env emits raw KEY=VALUE and is not a general dotenv serializer. Tradeoff: Multiline or quoted-sensitive values require a different tested path.</p>
+</li>
+<li><p><strong>D3: Pin repository/environment destinations and verify runtime prerequisites before remote writes.</strong> gh infers context; the source could display completion after skipped operations. The final helper returns failure and displays incomplete when required operations fail. Tradeoff: A generated wizard needs a short preflight and accurate final status.</p>
+</li>
+<li><p><strong>D4: Distinguish resumable value entry from safe rerun of irreversible actions.</strong> Saved defaults do not make a migration or account action idempotent. Tradeoff: Action stages need their own observed-state check.</p>
+</li>
+<li><p><strong>D5: Validate generated code statically and with isolated stubs where useful; never run the live interactive procedure as author.</strong> Syntax alone cannot prove value routing or EOF behavior. Tradeoff: Fixture validation adds effort for complex wizards, while live execution remains the human&#39;s step.</p>
+</li>
+</ol>
+<h2>Artifacts and evaluation</h2>
+<p><a href="/knowledge/ai-resources/matt-pocock-skills/refactored/wizard/SKILL.md">Refactored skill</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/original-skills/make-the-tradeoff-tangible/SKILL.md">Original proposal: make-the-tradeoff-tangible</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/diffs/wizard.diff">Exact source diff</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/evals/wizard.md">Independent evaluation</a></p>
+<p>These are authored candidates, not installed skills. The linked independent evaluation records the actual text responses, case-bound grades and limitations. The design bet in this chapter is distinct from those observations. Source documentation issue reports are historical claims in the pinned bundle, not independently reproduced measurements.</p>
+<h2>Source locators</h2>
+<ul>
+<li><strong>S1:</strong> <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/engineering/wizard/SKILL.md#L8-L44">skills/engineering/wizard/SKILL.md, lines 8-44</a> (<a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/wizard/SKILL.md">local snapshot</a>).</li>
+<li><strong>S2:</strong> <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/engineering/wizard/template.sh#L77-L139">skills/engineering/wizard/template.sh, lines 77-139</a> (<a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/wizard/template.sh">local snapshot</a>).</li>
+<li><strong>S3:</strong> <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/engineering/wizard/template.sh#L141-L204">skills/engineering/wizard/template.sh, lines 141-204</a> (<a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/wizard/template.sh">local snapshot</a>).</li>
+<li><strong>S4:</strong> <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/docs/engineering/wizard.md#L42-L77">docs/engineering/wizard.md, lines 42-77</a> (<a href="/knowledge/ai-resources/matt-pocock-skills/source/docs/engineering/wizard.md">local snapshot</a>).</li>
+</ul>
+<h2>Supporting-resource disposition</h2>
+<ul>
+<li>template.sh: <strong>repair</strong> — Preserve the small shared library while making EOF and empty required input fail, returning nonzero for failed remote writes, and reporting incomplete when skips remain. Bare-value serialization and target identity still require explicit stage validation.</li>
+<li>agents/openai.yaml: <strong>copy</strong> — Preserve source UI metadata and invocation policy exactly.</li>
+<li>source/LICENSE: <strong>copy</strong> — Retain Matt Pocock MIT attribution in every refactored package.</li>
+</ul>
+<!-- INDEPENDENT-AUDIT -->
+<h2>Independent scrutiny</h2>
+<p>The semantic reviewer read the source and candidate independently of this chapter and its author bet. Initial verdict: <strong>repair</strong>. The entrypoint promises better input and completion handling but freezes helpers that do not implement it. set_secret/set_var convert failed required writes into successful returns with SKIPPED entries, while finish unconditionally prints Setup complete. ask/ask_secret suppress read failure and may substitute a saved value, hiding EOF from later nonempty validation. An author can add stage-level compensation, but the unchanged-library contract leaves every generated wizard to rediscover that obligation. This retained helper behavior is materially at odds with the advertised incomplete-versus-complete boundary.</p>
+<p>Repair the shared helpers or provide explicit tested wrappers: propagate input status, distinguish required write failure, and gate successful completion. Preserve library reuse after fixing its contract.</p>
+<p>Evidence: <a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/wizard/SKILL.md">source/skills/engineering/wizard/SKILL.md:10-10</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/wizard/SKILL.md">source/skills/engineering/wizard/SKILL.md:35-43</a>; <a href="/knowledge/ai-resources/matt-pocock-skills/evals/candidate-v1/wizard/SKILL.md">evals/candidate-v1/wizard/SKILL.md:18-24</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/evals/candidate-v1/wizard/template.sh">evals/candidate-v1/wizard/template.sh:108-125</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/evals/candidate-v1/wizard/template.sh">evals/candidate-v1/wizard/template.sh:143-178</a>. This is static inspection, not proof of a completed workflow.</p>
+<p><strong>Repair and retest:</strong> the final shared template now enforces the missing input/failure/completion contract. <a href="/knowledge/ai-resources/matt-pocock-skills/evals/WIZARD-REPAIR.md">Fourteen isolated regression checks</a> pass on the repair. The initial text-trial grade applies to the archived candidate; the repair has separate evidence. The remaining raw dotenv serializer and inferred GitHub target are still limits requiring stage validation.</p>
+<h3>Scrutiny of the original proposal</h3>
+<p>The independent portfolio reviewer read the proposed skill without this chapter&#39;s advocacy. Initial verdict for <strong>make-the-tradeoff-tangible</strong>: <strong>pilot</strong>. “Pilot” means worth a bounded test; it does not mean proven or selected for installation.</p>
+<p>It chooses adjustable variables, separates measured inputs from assumptions, exposes the model, and checks representative and boundary calculations. The artifact is connected to a real decision. Unlike the mostly textual portfolio, this produces an exploratory instrument whose dependency can be manipulated directly. Its value comes from appropriate model choice, not interactivity itself.</p>
+<p><strong>Weakness:</strong> The stated success of &#39;better understanding&#39; is not directly established by a working interface. A transparent but incomplete model can still anchor the user on the wrong decision variables.</p>
+<p><strong>Suggested improvement:</strong> Identify material factors the model omits and ask for one decision-relevant interpretation if learning is being evaluated. Treat correct calculation and improved user understanding as separate evidence claims.</p>
+<p>A proposed test was: Build a small interactive comparison of staffing coverage and response delay using our measured arrival rates, with assumptions visibly editable and an easy reset. Success would mean: Controls change the intended consequences correctly, boundary calculations agree with independent checks, and the artifact exposes which plausible assumptions reverse the decision. This is a test proposal, not an observed outcome.</p>
+<p>The full <a href="/knowledge/ai-resources/matt-pocock-skills/reviews/refactor-audit.json">refactor audit</a> and <a href="/knowledge/ai-resources/matt-pocock-skills/reviews/original-portfolio.json">initial original-portfolio review</a> preserve the independent record. No proposal inherits effectiveness from having passed a structural check.</p>
+<section><h2>Complete proposed refactor</h2><details ><summary>agents/openai.yaml</summary><pre><code>interface:
+  display_name: &quot;Wizard&quot;
+  short_description: &quot;Generate an interactive setup wizard&quot;
+</code></pre></details><details ><summary>LICENSE</summary><pre><code>MIT License
+
+Copyright (c) 2026 Matt Pocock
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</code></pre></details><details open><summary>SKILL.md</summary><pre><code>name: wizard
+description: Generate a staged interactive Bash procedure for several genuinely human-only setup or transition steps. Use when a reusable local instrument is clearer than repeated dashboard instructions.</code></pre><h3>Wizard</h3>
+<p>The agent authors; the human runs the live procedure in a terminal they control. Do ordinary authorized automated steps directly instead of assigning them to the human.</p>
+<h2>Scope</h2>
+<p>Read required variable names, examples, workflow references, and current/target state without printing existing secrets into context. Identify each manual stage, where values come from, exact destinations, sensitivity, and validation. Use current documentation or observed UI for dashboard steps; label unknowns rather than invent clicks.</p>
+<p>Show the concrete stages and destinations. Reuse prior authorization; resolve only consequential missing choices. A single simple step may need no script.</p>
+<h2>Author with the supplied template</h2>
+<p>Read and copy <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/wizard/template.sh">template.sh</a>. This port repairs input and completion handling in the upstream helper. Its ask helpers require nonempty values; an explicit Enter can reuse a saved value, but EOF fails. Required remote writes return failure and recorded skips make finish report incomplete. Keep this supplied library above STAGES unchanged; author focused stages below it and set TOTAL_STAGES. Open each URL before requesting its value. Use ask_secret for secrets and persist only values actually needed locally/CI.</p>
+<p>The helper is not a universal dotenv serializer. Use fixed valid environment identifiers and validate required nonempty input in each generated stage. write_env supports only deliberately constrained bare single-line values; reject whitespace, newlines, comment/expansion-sensitive syntax, and quoted existing values unless a separate tested storage path handles them. Never source an existing .env to parse it. For multiline/private-key material, use an appropriate validated file/secret-store path rather than raw write_env.</p>
+<p>Require an interactive terminal and stop on missing required input instead of persisting EOF as empty. Pin the intended repository/environment before gh writes. Treat skipped required operations as incomplete, not overall success.</p>
+<p>For irreversible stages, show the actual action and confirmation. Saved values make entry resumable; they do not make the action idempotent. Check current state before rerunning migrations/cutovers.</p>
+<h2>Validate and deliver</h2>
+<p>Run bash -n and shellcheck if available. Trace every value to the planned destination and every CI name to its actual use. For nontrivial stage logic, test isolated fixtures with stubbed browser/remote commands; do not execute the live interactive procedure as author.</p>
+<p>State Bash/tool prerequisites, exact run directory and command, intended destinations, checks performed, and live steps not tested. One-off scripts remain scratch artifacts; retain/commit a repeatable setup path only when requested. Summaries name keys and outcomes, never secret values.</p>
+</details><details ><summary>template.sh</summary><pre><code>#!/usr/bin/env bash
+#
+# A wizard walks a human through a manual procedure, step by step.
+# Generated by the /wizard skill.
+#
+# Everything above the &quot;STAGES&quot; marker is the wizard library: do not hand-edit
+# it. Author the per-step stages below the marker.
+
+set -euo pipefail
+
+# ──────────────────────────────────────────────────────────────────────────
+# Wizard library: delightful, consistent UX, identical across every wizard.
+# ──────────────────────────────────────────────────────────────────────────
+
+if [[ -t 1 ]] &amp;&amp; command -v tput &gt;/dev/null 2&gt;&amp;1 &amp;&amp; [[ &quot;$(tput colors 2&gt;/dev/null || echo 0)&quot; -ge 8 ]]; then
+  BOLD=$(tput bold); DIM=$(tput dim); RESET=$(tput sgr0)
+  BLUE=$(tput setaf 4); GREEN=$(tput setaf 2); YELLOW=$(tput setaf 3); RED=$(tput setaf 1)
+else
+  BOLD=&quot;&quot;; DIM=&quot;&quot;; RESET=&quot;&quot;; BLUE=&quot;&quot;; GREEN=&quot;&quot;; YELLOW=&quot;&quot;; RED=&quot;&quot;
+fi
+
+# Author sets this at the top of the stages section.
+TOTAL_STAGES=0
+
+_STAGE_INDEX=0
+ENV_FILE=&quot;${ENV_FILE:-.env}&quot;
+WRITTEN_ENV=()    # KEYs written to ENV_FILE this run
+WRITTEN_SECRET=() # secret NAMEs set this run
+SKIPPED=()        # things we couldn't do (e.g. gh missing)
+
+# _clear wipes the terminal so only the current step is on screen. No-op when
+# output isn't a terminal, so piped logs stay readable.
+_clear() {
+  [[ -t 1 ]] || return 0
+  if command -v tput &gt;/dev/null 2&gt;&amp;1; then tput clear; else printf '\033[2J\033[3J\033[H'; fi
+}
+
+# banner &quot;Title&quot; shows the opening frame: what this wizard does.
+banner() {
+  _clear
+  printf '\n%s%s  %s%s\n' &quot;$BOLD&quot; &quot;$BLUE&quot; &quot;$1&quot; &quot;$RESET&quot;
+  printf '%s  %s stages%s\n\n' &quot;$DIM&quot; &quot;$TOTAL_STAGES&quot; &quot;$RESET&quot;
+  printf '%s  You drive the browser; this wizard tells you exactly what to do and\n' &quot;$DIM&quot;
+  printf '  captures the values you copy back. Stop any time with Ctrl-C and re-run\n'
+  printf '  later, since it remembers values already saved.%s\n' &quot;$RESET&quot;
+  pause &quot;Ready to start?&quot;
+}
+
+# stage &quot;Name&quot; clears the screen, then announces a stage and shows progress.
+# Clearing keeps only the current step on screen.
+stage() {
+  _clear
+  _STAGE_INDEX=$((_STAGE_INDEX + 1))
+  printf '\n%s%s▸ Stage %s/%s · %s%s\n' \
+    &quot;$BOLD&quot; &quot;$BLUE&quot; &quot;$_STAGE_INDEX&quot; &quot;$TOTAL_STAGES&quot; &quot;$1&quot; &quot;$RESET&quot;
+}
+
+# say &quot;...&quot; prints a plain instruction line.
+say()  { printf '  %s\n' &quot;$1&quot;; }
+# step &quot;...&quot; is a numbered-feeling action the human takes in the browser.
+step() { printf '  %s•%s %s\n' &quot;$BLUE&quot; &quot;$RESET&quot; &quot;$1&quot;; }
+note() { printf '  %s%s%s\n' &quot;$DIM&quot; &quot;$1&quot; &quot;$RESET&quot;; }
+warn() { printf '  %s⚠ %s%s\n' &quot;$YELLOW&quot; &quot;$1&quot; &quot;$RESET&quot;; }
+
+# open_url URL opens it in the human's browser, cross-platform incl. WSL.
+open_url() {
+  local url=&quot;$1&quot;
+  printf '  %s↗ opening%s %s\n' &quot;$GREEN&quot; &quot;$RESET&quot; &quot;$url&quot;
+  { if   command -v wslview     &gt;/dev/null 2&gt;&amp;1; then wslview &quot;$url&quot;
+    elif command -v explorer.exe &gt;/dev/null 2&gt;&amp;1; then explorer.exe &quot;$url&quot;
+    elif command -v xdg-open    &gt;/dev/null 2&gt;&amp;1; then xdg-open &quot;$url&quot;
+    elif command -v open        &gt;/dev/null 2&gt;&amp;1; then open &quot;$url&quot;
+    else warn &quot;couldn't open a browser; visit it manually: $url&quot;; fi
+  } &gt;/dev/null 2&gt;&amp;1 || warn &quot;couldn't open a browser, so visit it manually: $url&quot;
+}
+
+# pause &quot;msg&quot; waits for the human to confirm they've done the manual part.
+pause() {
+  printf '  %s%s%s ' &quot;$DIM&quot; &quot;${1:-Press Enter to continue}&quot; &quot;$RESET&quot;
+  if ! read -r _; then
+    SKIPPED+=(&quot;manual confirmation: input ended&quot;)
+    warn &quot;input ended; setup is incomplete&quot; &gt;&amp;2
+    return 1
+  fi
+}
+
+# confirm &quot;question&quot; is a y/N gate; returns success on yes.
+confirm() {
+  local reply=&quot;&quot;
+  printf '  %s? %s [y/N] ' &quot;$YELLOW&quot; &quot;$1&quot;
+  read -r reply || true
+  [[ &quot;$reply&quot; =~ ^[Yy] ]]
+}
+
+# _existing KEY: current value of KEY in ENV_FILE, if any.
+_existing() {
+  [[ -f &quot;$ENV_FILE&quot; ]] || return 1
+  local line; line=$(grep -E &quot;^${1}=&quot; &quot;$ENV_FILE&quot; | tail -n1) || return 1
+  printf '%s' &quot;${line#*=}&quot;
+}
+
+# ask KEY &quot;Prompt&quot; reads a value into $KEY. Offers the existing .env value as
+# a default on re-runs (Enter keeps it). Visible input (non-secret).
+ask() {
+  local key=&quot;$1&quot; prompt=&quot;$2&quot; current input
+  current=$(_existing &quot;$key&quot; || true)
+  if [[ -n &quot;$current&quot; ]]; then
+    printf '  %s%s%s %s[Enter keeps current]%s ' &quot;$BOLD&quot; &quot;$prompt&quot; &quot;$RESET&quot; &quot;$DIM&quot; &quot;$RESET&quot;
+  else
+    printf '  %s%s%s ' &quot;$BOLD&quot; &quot;$prompt&quot; &quot;$RESET&quot;
+  fi
+  if ! read -r input; then
+    SKIPPED+=(&quot;required input $key: input ended&quot;)
+    warn &quot;input ended before $key; setup is incomplete&quot; &gt;&amp;2
+    return 1
+  fi
+  [[ -z &quot;$input&quot; &amp;&amp; -n &quot;$current&quot; ]] &amp;&amp; input=&quot;$current&quot;
+  if [[ -z &quot;$input&quot; ]]; then
+    SKIPPED+=(&quot;required input $key: empty&quot;)
+    warn &quot;$key is required&quot; &gt;&amp;2
+    return 1
+  fi
+  printf -v &quot;$key&quot; '%s' &quot;$input&quot;
+}
+
+# ask_secret KEY &quot;Prompt&quot; is like ask, but input is hidden.
+ask_secret() {
+  local key=&quot;$1&quot; prompt=&quot;$2&quot; current input
+  current=$(_existing &quot;$key&quot; || true)
+  if [[ -n &quot;$current&quot; ]]; then
+    printf '  %s%s%s %s[Enter keeps current]%s ' &quot;$BOLD&quot; &quot;$prompt&quot; &quot;$RESET&quot; &quot;$DIM&quot; &quot;$RESET&quot;
+  else
+    printf '  %s%s%s ' &quot;$BOLD&quot; &quot;$prompt&quot; &quot;$RESET&quot;
+  fi
+  if ! read -rs input; then
+    printf '\n'
+    SKIPPED+=(&quot;required secret $key: input ended&quot;)
+    warn &quot;input ended before $key; setup is incomplete&quot; &gt;&amp;2
+    return 1
+  fi
+  printf '\n'
+  [[ -z &quot;$input&quot; &amp;&amp; -n &quot;$current&quot; ]] &amp;&amp; input=&quot;$current&quot;
+  if [[ -z &quot;$input&quot; ]]; then
+    SKIPPED+=(&quot;required secret $key: empty&quot;)
+    warn &quot;$key is required&quot; &gt;&amp;2
+    return 1
+  fi
+  printf -v &quot;$key&quot; '%s' &quot;$input&quot;
+}
+
+# write_env KEY VALUE upserts KEY=VALUE into ENV_FILE (creates it; replaces
+# any existing line). Idempotent.
+write_env() {
+  local key=&quot;$1&quot; value=&quot;$2&quot; tmp
+  touch &quot;$ENV_FILE&quot;
+  tmp=$(mktemp)
+  grep -vE &quot;^${key}=&quot; &quot;$ENV_FILE&quot; &gt; &quot;$tmp&quot; || true
+  printf '%s=%s\n' &quot;$key&quot; &quot;$value&quot; &gt;&gt; &quot;$tmp&quot;
+  mv &quot;$tmp&quot; &quot;$ENV_FILE&quot;
+  WRITTEN_ENV+=(&quot;$key&quot;)
+  printf '  %s✓ wrote%s %s → %s\n' &quot;$GREEN&quot; &quot;$RESET&quot; &quot;$key&quot; &quot;$ENV_FILE&quot;
+}
+
+# set_secret NAME VALUE sets a GitHub Actions repo secret via gh. Falls back
+# to a recorded warning and failure status if gh is unavailable, unauthenticated,
+# or the write fails. Do not suppress this status in generated stages.
+set_secret() {
+  local name=&quot;$1&quot; value=&quot;$2&quot;
+  if command -v gh &gt;/dev/null 2&gt;&amp;1 &amp;&amp; gh auth status &gt;/dev/null 2&gt;&amp;1; then
+    if printf '%s' &quot;$value&quot; | gh secret set &quot;$name&quot; &gt;/dev/null 2&gt;&amp;1; then
+      WRITTEN_SECRET+=(&quot;$name&quot;)
+      printf '  %s✓ set%s GitHub secret %s\n' &quot;$GREEN&quot; &quot;$RESET&quot; &quot;$name&quot;
+      return
+    fi
+  fi
+  SKIPPED+=(&quot;GitHub secret $name (set it manually: gh secret set $name)&quot;)
+  warn &quot;skipped GitHub secret $name: gh unavailable, unauthenticated, or write failed&quot; &gt;&amp;2
+  return 1
+}
+
+# set_var NAME VALUE sets a GitHub Actions repo variable (non-secret).
+set_var() {
+  local name=&quot;$1&quot; value=&quot;$2&quot;
+  if command -v gh &gt;/dev/null 2&gt;&amp;1 &amp;&amp; gh auth status &gt;/dev/null 2&gt;&amp;1; then
+    if gh variable set &quot;$name&quot; --body &quot;$value&quot; &gt;/dev/null 2&gt;&amp;1; then
+      printf '  %s✓ set%s GitHub variable %s\n' &quot;$GREEN&quot; &quot;$RESET&quot; &quot;$name&quot;
+      return
+    fi
+  fi
+  SKIPPED+=(&quot;GitHub variable $name&quot;)
+  warn &quot;skipped GitHub variable $name: gh unavailable, unauthenticated, or write failed&quot; &gt;&amp;2
+  return 1
+}
+
+# finish clears, then shows a closing summary of everything configured.
+finish() {
+  _clear
+  if (( ${#SKIPPED[@]} )); then
+    printf '\n%s%s  Setup incomplete%s\n' &quot;$BOLD&quot; &quot;$YELLOW&quot; &quot;$RESET&quot;
+  else
+    printf '\n%s%s  ✓ Setup complete%s\n' &quot;$BOLD&quot; &quot;$GREEN&quot; &quot;$RESET&quot;
+  fi
+  (( ${#WRITTEN_ENV[@]} ))    &amp;&amp; note &quot;wrote ${#WRITTEN_ENV[@]} value(s) to $ENV_FILE: ${WRITTEN_ENV[*]}&quot;
+  (( ${#WRITTEN_SECRET[@]} )) &amp;&amp; note &quot;set ${#WRITTEN_SECRET[@]} GitHub secret(s): ${WRITTEN_SECRET[*]}&quot;
+  if (( ${#SKIPPED[@]} )); then
+    printf '\n'; warn &quot;still to do by hand:&quot;
+    for s in &quot;${SKIPPED[@]}&quot;; do note &quot;  - $s&quot;; done
+    printf '\n'
+    return 1
+  fi
+  printf '\n'
+}
+
+# ──────────────────────────────────────────────────────────────────────────
+# STAGES: author this section. One stage() per step the human takes.
+# Replace the example below. Set TOTAL_STAGES to match the stages you write.
+# ──────────────────────────────────────────────────────────────────────────
+
+TOTAL_STAGES=1
+
+banner &quot;Stripe setup&quot;
+
+# ── Example stage: replace with your real steps ───────────────────────────
+stage &quot;Stripe: API keys&quot;
+say &quot;We'll grab your Stripe test keys and store them for local dev + CI.&quot;
+open_url &quot;https://dashboard.stripe.com/test/apikeys&quot;
+step &quot;On the API keys page, copy the Publishable key (starts pk_test_).&quot;
+ask STRIPE_PUBLISHABLE_KEY &quot;Paste the publishable key:&quot;
+step &quot;Click 'Reveal test key' on the Secret key row, then copy it.&quot;
+ask_secret STRIPE_SECRET_KEY &quot;Paste the secret key:&quot;
+write_env STRIPE_PUBLISHABLE_KEY &quot;$STRIPE_PUBLISHABLE_KEY&quot;
+write_env STRIPE_SECRET_KEY &quot;$STRIPE_SECRET_KEY&quot;
+set_secret STRIPE_SECRET_KEY &quot;$STRIPE_SECRET_KEY&quot;   # CI needs this one
+# ──────────────────────────────────────────────────────────────────────────
+
+finish
+</code></pre></details></section><section><h2>Complete original proposal: make-the-tradeoff-tangible</h2><details open><summary>SKILL.md</summary><pre><code>name: make-the-tradeoff-tangible
+description: Build a small transparent interactive model for a decision whose tradeoffs depend on quantities, timing, or adjustable assumptions. Use when manipulating a few inputs would teach more than repeated prose.</code></pre><h3>Make the Tradeoff Tangible</h3>
+<p>Create a thinking instrument, not an authoritative prediction.</p>
+<ol>
+<li>Identify the decision, the few variables the user can change, and the consequence they need to understand.</li>
+<li>Separate measured inputs, user preferences, and illustrative assumptions. Use a simple model whose relationships can be explained; do not invent empirical precision.</li>
+<li>Choose the lightest usable artifact: local interactive page, spreadsheet, or another supported control surface. Keep the model and labels visible.</li>
+<li>Implement meaningful controls and an immediate consequence view. Include units, sensible bounds, and an easy reset. Avoid decorative interactivity.</li>
+<li>Validate representative and boundary inputs against hand calculations or an independent source. Check that the displayed interpretation matches the model.</li>
+<li>Let the user explore; explain which conclusions survive across plausible assumptions and which depend on one uncertain value.</li>
+</ol>
+<p>Do not build this for a one-step fact or a decision already clear in prose. Do not imply a simulation is observed reality. Success is better understanding of a real dependency or a better-grounded decision, not visual polish alone.</p>
+</details></section><nav class="material-links" aria-label="Chapter materials"><a href="/knowledge/ai-resources/matt-pocock-skills/#wizard/chapter">Open in the full reader</a><a href="/knowledge/ai-resources/matt-pocock-skills/chapters/wizard.md">Chapter Markdown</a><a href="/knowledge/ai-resources/matt-pocock-skills/diffs/wizard.diff">Exact package diff</a><a href="/knowledge/ai-resources/matt-pocock-skills/evals/wizard.md">Evaluation record</a></nav></main><footer><a href="/knowledge/ai-resources/matt-pocock-skills/">Full interactive reader</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/">All 38 chapters</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/evaluation/">Evaluation method and results</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/LICENSE-MATT-POCOCK.txt">Source license</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/PUBLICATION.md">Publication details</a></footer></body></html>

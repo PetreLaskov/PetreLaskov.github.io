@@ -1,0 +1,50 @@
+{
+  "slug": "wayfinder",
+  "bucket": "engineering",
+  "chapter": "chapters/wayfinder.md",
+  "refactor": "refactored/wayfinder/SKILL.md",
+  "original_slug": "stop-rule",
+  "original_path": "original-skills/stop-rule/SKILL.md",
+  "port_bet": "conditional",
+  "summary": "Use only when planning genuinely exceeds one session; keep destination, dependencies, claims, and user-owned decisions explicit.",
+  "source_files_read": [
+    "source/skills/engineering/wayfinder/agents/openai.yaml",
+    "source/skills/engineering/wayfinder/SKILL.md",
+    "source/docs/engineering/wayfinder.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/engineering/wayfinder/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "User-owned execution exception",
+      "reason": "Notes could self-authorize implementation",
+      "tradeoff": "More explicit scope"
+    },
+    {
+      "id": 2,
+      "change": "Ready research and claim verification",
+      "reason": "Dependency and concurrency rules need enforcement",
+      "tradeoff": "Additional targeted reads"
+    },
+    {
+      "id": 3,
+      "change": "Completion requires resolved work",
+      "reason": "No frontier can mean blocked or cyclic",
+      "tradeoff": "More accurate blocked reporting"
+    },
+    {
+      "id": 4,
+      "change": "Preserve invalidated history",
+      "reason": "Avoid designing around stale choices",
+      "tradeoff": "Small reconciliation cost"
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

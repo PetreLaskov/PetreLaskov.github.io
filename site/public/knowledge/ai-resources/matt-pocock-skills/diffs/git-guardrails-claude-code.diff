@@ -1,0 +1,148 @@
+--- a/source/skills/misc/git-guardrails-claude-code/LICENSE
++++ b/refactored/git-guardrails-claude-code/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2026 Matt Pocock
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+--- a/source/skills/misc/git-guardrails-claude-code/SKILL.md
++++ b/refactored/git-guardrails-claude-code/SKILL.md
+@@ -1,95 +1,18 @@
+ ---
+ name: git-guardrails-claude-code
+-description: Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.
++description: "Configure scoped Claude Code git restrictions with an explicit distinction between enforceable permissions and a limited legacy command-pattern tripwire."
+ ---
+ 
+-# Setup Git Guardrails
++# Git Guardrails for Claude Code
+ 
+-Sets up a PreToolUse hook that intercepts and blocks dangerous git commands before Claude executes them.
++Set up the scoped Git restriction the user requested. Establish whether they want enforceable authority limits or a best-effort accidental-command tripwire, and which operations and project/global scope are intended. Reuse clear scope from the request rather than asking again.
+ 
+-## What Gets Blocked
++Inspect the installed host's current permission and hook interfaces before editing. Prefer a supported permission boundary for an enforcement requirement. Do not claim that a Bash command-text filter covers aliases, wrapper scripts, other tools, or all shell syntax.
+ 
+-- `git push` (all variants including `--force`)
+-- `git reset --hard`
+-- `git clean -f` / `git clean -fd`
+-- `git branch -D`
+-- `git checkout .` / `git restore .`
++The retained [legacy script](scripts/block-dangerous-git.sh) is an inactive reference implementation of substring/regex matching. Read [its audit](references/legacy-hook-audit.md) before considering installation. It is not a security boundary and must not be silently installed to satisfy a stronger restriction request.
+ 
+-When blocked, Claude sees a message telling it that it does not have authority to access these commands.
++For a deliberately chosen tripwire, prepare the exact scoped hook entry and script path using the host's supported schema. Confirm required Bash and jq behavior. Merge settings without replacing unrelated fields or duplicating the hook. Use robust path quoting appropriate to the actual shell. Keep a recoverable copy of the configuration being changed.
+ 
+-## Steps
++Test hook decisions with synthetic payloads that never execute the candidate Git commands: prohibited direct forms, allowed reads, harmless quoted text, global Git options, and malformed input. Record misses and false positives. Then verify actual host invocation in a disposable workspace; direct script execution alone does not establish integration.
+ 
+-### 1. Ask scope
+-
+-Ask the user: install for **this project only** (`.claude/settings.json`) or **all projects** (`~/.claude/settings.json`)?
+-
+-### 2. Copy the hook script
+-
+-The bundled script is at: [scripts/block-dangerous-git.sh](scripts/block-dangerous-git.sh)
+-
+-Copy it to the target location based on scope:
+-
+-- **Project**: `.claude/hooks/block-dangerous-git.sh`
+-- **Global**: `~/.claude/hooks/block-dangerous-git.sh`
+-
+-Make it executable with `chmod +x`.
+-
+-### 3. Add hook to settings
+-
+-Add to the appropriate settings file:
+-
+-**Project** (`.claude/settings.json`):
+-
+-```json
+-{
+-  "hooks": {
+-    "PreToolUse": [
+-      {
+-        "matcher": "Bash",
+-        "hooks": [
+-          {
+-            "type": "command",
+-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/block-dangerous-git.sh"
+-          }
+-        ]
+-      }
+-    ]
+-  }
+-}
+-```
+-
+-**Global** (`~/.claude/settings.json`):
+-
+-```json
+-{
+-  "hooks": {
+-    "PreToolUse": [
+-      {
+-        "matcher": "Bash",
+-        "hooks": [
+-          {
+-            "type": "command",
+-            "command": "~/.claude/hooks/block-dangerous-git.sh"
+-          }
+-        ]
+-      }
+-    ]
+-  }
+-}
+-```
+-
+-If the settings file already exists, merge the hook into the existing `hooks.PreToolUse` array. Don't overwrite other settings.
+-
+-### 4. Ask about customization
+-
+-Ask if user wants to add or remove any patterns from the blocked list. Edit the copied script accordingly.
+-
+-### 5. Verify
+-
+-Run a quick test:
+-
+-```bash
+-echo '{"tool_input":{"command":"git push origin main"}}' | <path-to-script>
+-```
+-
+-Should exit with code 2 and print a BLOCKED message to stderr.
++Report the precise restriction or tripwire installed, scope, observed tests, and uncovered execution paths. If the host cannot supply the requested enforcement, preserve a concrete proposal and say so instead of claiming success. Do not repeatedly broaden a fragile regex list and represent it as complete shell control.
+--- a/source/skills/misc/git-guardrails-claude-code/references/legacy-hook-audit.md
++++ b/refactored/git-guardrails-claude-code/references/legacy-hook-audit.md
+@@ -0,0 +1,15 @@
++# Legacy hook audit
++
++This is a static inspection of the retained source script, not an execution result. No live hook has been installed by this package's authoring process.
++
++The script reads stdin, uses jq to extract tool_input.command, and grep -qE to match a fixed list. It exits 2 on a match and 0 otherwise. It does not parse a shell or Git argv.
++
++- Direct `git push` matches, but intervening Git global options can avoid that literal substring.
++- Harmless commands containing quoted matching text can be blocked.
++- Alias, wrapper, script-file, alternative-tool, and environment-mediated execution are outside its claimed parser capability because it has none.
++- Invalid JSON or missing jq has no explicit fail-closed branch in the source.
++- The Bash matcher in settings covers that named tool surface, not every way to modify a repository.
++
++Before a chosen tripwire is installed, run synthetic decision payloads for prohibited direct forms, allowed status/diff/log reads, global options, quoted text, malformed JSON, and the actual paths used by the host. Do not execute the dangerous Git commands themselves. Record exact outcomes and limitations. Then separately verify hook invocation in a disposable workspace.
++
++A source pattern test is not proof of host integration; host integration is not proof of complete enforcement. Use a supported permission mechanism when the user requires authority restriction.

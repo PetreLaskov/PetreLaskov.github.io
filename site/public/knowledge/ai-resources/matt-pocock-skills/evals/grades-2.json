@@ -1,0 +1,1681 @@
+{
+  "cases": [
+    {
+      "id": "grilling-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            0
+          ],
+          "critical": false,
+          "evidence": [
+            "Opens with 'First decision' and asks request versus confirmed reservation before conditional capacity questions; explicitly says choose the booking promise before the capacity rule.",
+            "Calls authentication 'a repository fact we can inspect later' and does not ask the user to identify it.",
+            "No booking model is recommended; the response poses alternatives and consequences without choosing a reasoned starting recommendation."
+          ],
+          "notes": "Dependency-order credit follows the assertion's stated order: the decision is asked first, although dependent questions are bundled into the same round."
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks booking commitment first and says capacity questions will be held until the answer.",
+            "Says the authentication provider is a repository fact to inspect, not something for the user to guess.",
+            "Recommends immediate confirmation for eligible self-service reservations because it gives a dependable reservation; leaves approval available when human judgment is needed."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks what submitting a booking means and defers dependent questions 'until you choose.'",
+            "Directs authentication to repository inspection and explicitly says it has not inspected the repository.",
+            "Recommends immediate confirmation absent a separate eligibility or allocation judgment, while leaving a real approval-policy choice to the user."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "grilling-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks when cancellation releases capacity, including near-start, already-started, and collected-equipment cases.",
+            "Assumes immediate rebooking and single-item exclusivity; does not reopen booking model, capacity model, or login.",
+            "Stays with cancellation timing, availability, and races; its 'proposed starting policy' does not claim all project decisions are settled."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks the cancellation cutoff and operator cancellation authority, with consequences for staffing and unavailable equipment.",
+            "Explicitly states immediate booking, single-item capacity, and email login remain settled.",
+            "Calls these the first policy choices for the ten-minute session and reserves further cancellation stress cases."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks cutoff, authority, and when capacity is released, each with a policy recommendation.",
+            "Begins by keeping immediate booking, single-item capacity, and email login settled.",
+            "Limits the round to cancellation and leaves late cancellation/no-show treatment for a later dependent round."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "grilling-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Returns exactly '102'."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Returns exactly '102'."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Returns exactly '102'."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "research-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Contrasts the single-id reference and 'planned' changelog with an unestablished released bulk feature.",
+            "Bases the documented support position on the current official reference and official changelog, not the conflicting blog.",
+            "Uses fixture labels for both official sources and the blog, expressly naming their conflict."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says bulk deletion lacks documented support and the changelog describes it as planned.",
+            "Treats the current official endpoint/changelog as stronger support evidence than the blog launch claim.",
+            "Labels current official reference, official v2 changelog, and blog; explicitly acknowledges the contradiction."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says single-item deletion is documented, bulk deletion is planned, and released availability is not established.",
+            "Requires updated official or primary evidence before accepting the blog's launch claim.",
+            "Includes fixture labels for each source and explains the blog conflicts with first-party sources."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "research-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explicitly rejects 'Independently verified 99.99% uptime' as exceeding the evidence.",
+            "Separates vendor advertising, missing outage durations, and an SLA excluding maintenance.",
+            "Requests an observation period, durations, coverage of unreported failures, and consistent maintenance treatment; notes vendor history is not independent measurement."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Answers 'No' and rejects independently verified wording.",
+            "Distinguishes marketing claim, duration/window gaps, and contractual maintenance exclusions.",
+            "Lists durations, denominator/period, maintenance treatment, and independent measurement, saying they are not supplied."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says the facts support a vendor advertisement, not an independently verified percentage.",
+            "Separates claimed uptime, unknown downtime/measurement period, and SLA compliance versus user availability.",
+            "Calls for durations and coverage over a defined period and explicit availability definition, ideally supported by independent monitoring."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "research-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for the missing paragraph to replace colour with color; no research proposed."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for the paragraph because it is not included; no research proposed."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for the paragraph and promises the specified replacement; no research proposed."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "wayfinder-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines the destination as deciding the access/preservation model and explicitly excludes building and launch.",
+            "Separates rights-policy and storage-cost tickets from migration questions that are 'Not yet specified.'",
+            "Places rights and storage on the current frontier, later model selection depends on their findings, and rights is a policy decision with the community."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Destination is choosing a viable model; explicitly says not to create implementation or launch tasks.",
+            "Names rights decision and storage investigation as frontier work and defers migration until requirements are expressible.",
+            "Model comparison combines rights constraints and storage evidence; research proceeds conditionally without deciding the rights policy."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "States the decision destination and excludes building or public launch.",
+            "Creates draft rights/storage tickets and leaves migration in 'Not yet specified.'",
+            "Model selection is blocked by both rights and cost findings; the frontier is those two tickets, and rights remains user-owned."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "wayfinder-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says to leave the active rights worker's ownership intact.",
+            "Selects unclaimed, unblocked Storage cost and keeps Public launch outside scope.",
+            "Says no claim/update can occur and labels the record proposed, investigation not started, tracker unchanged."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Leaves Rights model's active claim intact.",
+            "Selects Storage cost as eligible and Public launch as outside the destination.",
+            "Limits present work to preparation; future assignment/resolution is conditional on tracker writes and evidence; current state unchanged."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "States Rights model remains with its active owner.",
+            "Selects Storage cost and expressly keeps Public launch out of scope.",
+            "Proposes open/unclaimed with claim pending write capability; says no claim, closure, or decision update has occurred."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "wayfinder-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Gives only the year substitution and says no edit occurred; no map."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Describes replacing 2025 with 2026 and the missing exact patch input; no map."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Proposes a one-line year substitution; no decision map."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "wait-what-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains taking feature changes and replaying them after the latest changes on main.",
+            "Connects the sequence to reviewability, conflicts with newer changes, and changed commit identifiers affecting collaborators.",
+            "States nothing has been rebased and explains the operation in ordinary sequence/change terms."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains main as the shared branch and Git replaying feature changes one at a time on its latest version.",
+            "Explains easier history, overlap with newer work, and changed identifiers when other people use existing commits.",
+            "Explicitly says no Git ran or branch changed; defines main and describes replay instead of leaving rebase jargon unexplained."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains moving feature changes so they follow the latest main changes, with 'first main, then our work.'",
+            "Connects that ordering to readable history, conflicts in shared code, and effects on people using existing commits.",
+            "States it is a proposal and no Git/commit movement occurred; the re-pitch explains the operation without another opaque replacement term."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "wait-what-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says 'You objected to the decision, not the words.'",
+            "Acknowledges old age does not establish lack of value and withdraws age-only deletion.",
+            "Recommends keeping the data while evaluating uses, obligations, cost, and reversibility; archive is conditional."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Recognizes a challenge to the reason for deletion, not to vocabulary.",
+            "Calls the age-only conclusion unsupported.",
+            "Recommends preservation while determining retention needs and actual costs/access problems, with archiving as a possible response."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Recognizes the objection is to the reason for deletion.",
+            "Withdraws deletion based on age alone.",
+            "Recommends preservation while identifying the problem and comparing retention, archival, and deletion."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "wait-what-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Returns only the code-formatted identifier `wait-what`."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Returns only the code-formatted identifier `wait-what`."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Returns only the code-formatted identifier `wait-what`."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "retro-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says to wire the existing lint command into CI and explicitly rejects a duplicate rule.",
+            "Links a short canonical-configuration pointer to the ten minutes spent locating it.",
+            "Limits recommendations to the supplied failures; makes no personality inference or global rule."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Recommends invoking the existing lint rule in CI and checking its violating-fixture behavior.",
+            "Identifies the ten-minute search as discoverability evidence and proposes a link to canonical config/command.",
+            "Calls the recommendations direct consequences of this record, without personal or global-policy claims."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Identifies enforcement wiring as the gap and recommends the existing lint command in CI.",
+            "Uses the ten-minute search to justify one navigation pointer to actual configuration/command.",
+            "Explicitly says these are proposals from one run, not proven recurring failures or applied fixes."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "retro-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Distinguishes temporary registry unavailability from missing installation permission.",
+            "Says a global approval rule adds unrelated friction and one incident is not a stable pattern.",
+            "Proposes bounded retry or existing cache, preserving lockfile and reporting/stopping the blocked step if unavailable."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Calls the registry outage an availability failure rather than a permission problem.",
+            "Rejects asking permission for every installation on this single incident.",
+            "Proposes error classification, bounded retry, preserved lockfile, and continued independent work with verification gaps reported."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Distinguishes an availability failure from a permission problem.",
+            "Rejects an always rule across every agent prompt as unsupported by one run.",
+            "Suggests bounded retry or documented offline cache and reporting persistent blockage rather than false success or unrelated dependency changes."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "retro-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks only for the commit diff/contents needed for a change summary."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks only for the commit diff/changes to summarize."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for the missing commit diff or identifier; no retrospective."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "code-review-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Separates Standards: 0 findings for snake_case from Spec: 1 finding for empty-cart acceptance.",
+            "Cites validate_cart and its unconditional return true against the stated empty-cart rejection requirement.",
+            "Identifies text-only review with no executable repo/results and adds no unrelated defect."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Uses distinct Standards and Spec assessments, naming conformance versus missing rejection.",
+            "Cites validate_cart's snake_case name and return true for every input, including empty carts.",
+            "Calls the review static with no test result available; findings remain on the supplied contracts."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Separates naming conformance from the conditional checkout rejection defect.",
+            "Cites snake_case validate_cart and unconditional true, while checking how the result permits checkout.",
+            "Says no executable repo/test result exists and scopes wider assessment to unavailable evidence."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "code-review-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains the empty committed-history diff cannot reveal the requested unstaged change.",
+            "Names the current unstaged working-tree diff and the supplied true-to-length condition.",
+            "Gives git diff or git diff HEAD and identifies contract/checkout questions as needing review rather than verified results."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains main...HEAD is empty because HEAD equals main but omits uncommitted work.",
+            "Specifies the uncommitted return-condition change as the review target.",
+            "Gives git diff HEAD -- and distinctions for unstaged/staged/untracked coverage; says the condition appears to reject empties but full contract/tests are absent."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says the empty committed-history comparison says nothing about the uncommitted fix.",
+            "Specifies the current working-tree return-condition change and relevant untracked scope.",
+            "Describes git diff against index, cached confirmation, and git diff HEAD equivalence here; says inspect cart shape before wider claims and no command ran."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "code-review-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains branch movement and normally fixed release tags, without reviewing the project."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains movable branches and normally fixed named tags; no review initiated."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains advancing branches versus tags kept at a point unless deliberately moved; no review initiated."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "writing-fragments-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "The proposed fragment starts with the supplied line verbatim.",
+            "Asks for an occasion when finishing early allowed stopping and what protected the time, eliciting further material.",
+            "Provides a fragment and one exploratory question, not an article outline."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Preserves 'Every saved minute becomes another obligation.' at the fragment's start.",
+            "Asks about possible sources of the next obligation, opening experiential possibilities rather than prescribing sections.",
+            "Supplies only a proposed continuation and exploratory question; no outline."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Retains the original line verbatim as separate raw material.",
+            "Asks whether others claim the time or the writer volunteers it, suggesting another fragment rather than a structure.",
+            "Provides separate fragment material and one question, with no article outline."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "writing-fragments-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says reread the current file and append without writing back an older whole-file copy.",
+            "Labels the recollection tentative and scene 'Invented scene - assistant proposal; not autobiographical evidence.'",
+            "Appends material and leaves later inclusion/fiction decisions open; imposes no outline."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says reread and preserve edits, order, and deletions, and not rebuild from an earlier copy.",
+            "Uses readable labels for tentative recollection and imagined scene and prohibits unqualified first-person memory.",
+            "Keeps separate fragments and later choices, without prescribing article structure."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says reread current file, preserve new wording/deletions/order, and avoid cached-copy writing.",
+            "Explicitly labels the scene fictional, retains anecdote uncertainty, and prohibits later silent loss of provenance.",
+            "Proposes appending useful new material and keeps factual versus fictional possibilities open; no outline."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "writing-fragments-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests the missing headings solely to alphabetize them."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests headings and promises exact wording preservation; no new fragments."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests the missing headings solely to alphabetize them."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "to-questionnaire-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Questions cover unrestricted funds, recurring commitments, other unavoidable costs, and feasible room spending next month.",
+            "Directly addresses the known volunteer treasurer and room-rental decision instead of re-interviewing the user.",
+            "Provides amount/answer spaces, welcomes estimates/partial answers and uncertainty, and says draft only, not sent."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks unrestricted money, commitments through next month, one-off limits, and safe room allocation.",
+            "Uses the known treasurer recipient and rental purpose directly.",
+            "Provides Answer fields, permits estimates/partial answers/'I don't know', and says not sent."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Targets unrestricted funds/income, commitments/reserve, and safe maximum room cost.",
+            "Directly drafts for the volunteer treasurer with the established room-rental purpose.",
+            "Uses blank answer spaces, accepts estimates and unknowns, and explicitly says draft not sent."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "to-questionnaire-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explicitly states no deadline or agreed completion-time budget is set.",
+            "Marks purpose/recipient placeholders and missing logistics instead of inventing them.",
+            "Asks for decision-determining information, constraints, uncertainty, and other relevant facts."
+          ],
+          "notes": "The packet provides no actual purpose; generic decision-focused questions and explicit placeholders satisfy the assertion without invented context."
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says deadline and expected completion time are not agreed; makes no time promise.",
+            "Clearly labels purpose, recipient, and context as placeholders and discloses absent logistics.",
+            "Questions target decision-relevant information, constraints, and uncertainties."
+          ],
+          "notes": "Specific tailoring cannot be evidenced because the packet omits the purpose; the response transparently supplies a focused template."
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explicitly omits deadline and effort promises.",
+            "Explains that actual purpose is unstated and logistics must be agreed before sending.",
+            "Asks facts/figures, commitments, impactful unknowns, and existing records relevant to the decision."
+          ],
+          "notes": "The questions are necessarily generic because the prompt supplies no concrete purpose, and the response discloses that limitation."
+        }
+      }
+    },
+    {
+      "id": "to-questionnaire-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests the missing table and question, with no external questionnaire."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests the table and factual question because neither is included, without involving another person."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests the missing table and factual question, without an external questionnaire."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "improve-codebase-architecture-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Prioritizes weekly six-helper order changes over the stable formatter's file count.",
+            "Says preserve ADR payment isolation through a narrow payment boundary.",
+            "Describes distributed coordination before and an owning order operation after, with representative-change validation proposed rather than claimed."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Selects recurring six-helper order-policy spread and calls the unchanged formatter a weaker candidate.",
+            "Explicitly preserves payment isolation and excludes absorbing payment implementation.",
+            "Provides before/after ownership, benefits/costs, and missing-code uncertainty, saying it is a report excerpt, not an implemented refactor."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Prioritizes recurring order-change friction over the formatter stable for a year.",
+            "Keeps payment-specific behavior behind the existing isolated seam required by the ADR.",
+            "Describes a proposed coordination module and locality benefit while saying exact interface/measured benefit need exploration."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "improve-codebase-architecture-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says file count is an implementation detail; depth concerns behavior gained for caller knowledge required.",
+            "Identifies exported retry knowledge and shared-state ordering/failure burdens.",
+            "Proposes comparing caller decisions/state/order and tracing a payment-policy change plus concurrent operation; clear state isolation and reduced choreography could reverse the verdict."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Distinguishes structural file count from required interface knowledge.",
+            "Identifies retry knowledge expansion and state-spread ordering constraints/faults.",
+            "Requests before/after callers, policy changes confined to one owner, and behavioral state-isolation checks under interleaved calls."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says six-to-one files says little about depth and exported retry complexity makes the interface harder.",
+            "Connects shared mutable state to hidden or uncontrolled interactions between callers.",
+            "Requests representative caller comparisons and invariant/state-isolation checks demonstrating independent callers cannot interfere."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "improve-codebase-architecture-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests package.json/version input only; no architecture survey."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Reports the missing package.json content only; no survey."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Reports inability to obtain the version without file contents in the fixture; no survey."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "pr-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains ignored filters previously exported unseen records and the new visible-row behavior matches the filtered view.",
+            "Accurately states targeted export test passed and full suite was not run.",
+            "Calls it an unpublished draft and adds no unrelated completed achievement."
+          ],
+          "notes": "CSV format is assumed rather than supplied in this case, but the row-selection behavior and the evaluated validation/publication claims are accurate."
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains unviewed filtered-out rows before versus visible rows after.",
+            "Reports targeted test passed and full suite not run without inventing a failing baseline.",
+            "Labels the draft unpublished and does not claim unrelated work; rollback is a conditional explanation, not an executed achievement."
+          ],
+          "notes": "The CSV-format assumption and rollback discussion are extra to the fixture; they are not evidence of fabricated execution or an unrelated accomplishment."
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "States that export changes from ignoring active filters to using visible rows matching the filtered table.",
+            "Distinguishes fixture-established prior behavior, targeted test pass, and full-suite gap.",
+            "Says draft only and no PR published; rollback is explicitly not exercised."
+          ],
+          "notes": "CSV is an extra format assumption; the illustrative diff is clearly behavioral shorthand, not a claimed repository patch."
+        }
+      }
+    },
+    {
+      "id": "pr-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Proposes inspecting full PR diff against actual base, relevant commits, and the unexpected handler removal's export-failure effects.",
+            "Separates CSV fix, user commit, and removal; forbids silently dropping the user's commit.",
+            "Limits description to intended CSV behavior until discrepancies are understood, forbidding claims of CSV-only scope or preserved error handling."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Proposes full actual-base diff plus commit/file history and analysis of removed handler behavior.",
+            "Distinguishes user work from fix and rejects attribution or reversion by guesswork.",
+            "Requires unresolved broader scope/deletion disclosure and only observed/supplied results, with no validation or publication claimed."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Calls for final base-to-branch diff and tracing the removed handler's purpose, dependency, and failure tests.",
+            "Separates ownership from branch inclusion and forbids dropping or silently omitting unrelated user work.",
+            "Allows intended behavior wording but withholds CSV-only/preserved-failure-handling claims until discrepancy resolution or disclosure."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "pr-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines PR as public relations and public communication/relationships."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains public-relations communication and reputation, without GitHub meaning."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explicitly expands PR as public relations and explains communication/relationships/reputation."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "wizard-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            0
+          ],
+          "critical": false,
+          "evidence": [
+            "Separates public APP_URL configuration from masked, non-printed SERVICE_KEY secret storage.",
+            "Identifies SERVICE_KEY as the only CI value and places APP_URL in ordinary application configuration.",
+            "Only says to guide dashboard key creation; it provides no verified service-specific steps and never explicitly marks the dashboard URL/click path unknown."
+          ],
+          "notes": "This is a plan, not fabricated execution. Generic plausible dashboard guidance does not meet the assertion requiring verified steps or explicitly unknown UI paths."
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Uses hidden input for SERVICE_KEY, forbids echoing it, and calls APP_URL public configuration.",
+            "Explicitly says SERVICE_KEY is a CI secret and 'do not send APP_URL to CI.'",
+            "Requires a dashboard URL from verified documentation and states the fixture supplies no click path."
+          ],
+          "notes": "The reference to a 'supplied library' is unsupported in the fixture, but does not change these assertion results or claim execution."
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Calls APP_URL public and SERVICE_KEY secret, using hidden input and never printing the key.",
+            "Says 'Only SERVICE_KEY goes to CI' and uses the CI secret store.",
+            "Explicitly states the service/dashboard path is unspecified and exact clicks must be established, not invented."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "wizard-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Retains the local key, replaces append with duplicate-cleaning upsert, and resumes unfinished CI work.",
+            "Uses hidden input, names-only reports, and removes value logging/command tracing.",
+            "Proposes stubbed interruption tests and explicitly says parsing, CI delivery, and live authentication remain untested."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Detects existing SERVICE_KEY, writes exactly one entry, preserves other content, and resumes at CI.",
+            "Masks input and limits logging to completion/redacted errors; values must not appear in logs or diffs.",
+            "Separates local/CI stages, denies .env proves CI completion, and lists rerun/redaction/service/CI checks as untested."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Uses idempotent single-entry upsert, retains existing key, and resumes the pending CI step.",
+            "Removes value logging/shell tracing, uses hidden input and secret-safe CI transfer.",
+            "Lists rerun, duplicate, redaction, CI write, and actual CI use as untested; withholds setup completion pending destination confirmation."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "wizard-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests missing config file/key and explicitly says no human setup wizard is needed."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests the config file/value directly; no wizard generated."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests file/key directly and states a setup wizard is unnecessary."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "setup-pre-commit-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Preserves the existing pre-commit license check with failure propagation and forbids replacing the hook.",
+            "Reuses existing formatter, typecheck, ESLint, and npm lockfile; dependencies only if missing.",
+            "Separates staged formatting via lint-staged from invocation of the existing typecheck command."
+          ],
+          "notes": "Whole-project typechecking is conveyed by invoking the existing command separately, though the phrase 'whole-project' is not used."
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Says keep the existing license check and do not overwrite the hook during Husky initialization.",
+            "Reuses existing formatter/scripts/ESLint and specifically the existing npm typecheck command.",
+            "Makes formatting staged-only while appending the existing npm typecheck as a separate hook command."
+          ],
+          "notes": "The ordinary project typecheck is distinct from lint-staged formatting; no staged filenames are proposed as typecheck inputs."
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explicitly preserves and verifies the existing license check.",
+            "Reuses current formatting/typecheck commands, avoids a second lint configuration, and proposes only missing staged support.",
+            "Explicitly says run typecheck with normal project configuration rather than treating individual staged files as a complete TypeScript project."
+          ],
+          "notes": "npm is not named, but existing commands are reused and no package-manager replacement is proposed."
+        }
+      }
+    },
+    {
+      "id": "setup-pre-commit-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Removes the nonexistent npm test command and refuses invented placeholder test setup.",
+            "Rejects whole-source installation formatting; limits formatting to supported staged files.",
+            "Proposes validating formatting, failure propagation, and partial staging in a disposable fixture."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            0.5
+          ],
+          "critical": false,
+          "evidence": [
+            "Removes the absent npm test command; meaningful tests would be a separate task.",
+            "Says installation should add setup files without reformatting source, with formatting only on staged supported files.",
+            "Calls for verifying actual hook commands and behavior in an isolated example, but does not identify or explicitly exercise blocking/failure propagation."
+          ],
+          "notes": "Behavioral verification is present, but the failure-behavior part of the assertion is ambiguous rather than clearly met."
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Removes nonexistent npm test and rejects a placeholder just to pass.",
+            "Limits installation to needed config/dependencies and formatting to staged supported files.",
+            "Calls for validating actual commands with a staged fixture that proves formatting and failure propagation."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "setup-pre-commit-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Uses the existing formatter only on the affected file and leaves hooks unchanged."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for the narrow formatting input and says no hooks should change."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for the affected file/issue and uses the existing formatter without hook changes."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "migrate-to-shoehorn-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Limits inventory/replacement to partial User test fixtures and forbids installation.",
+            "Uses the exact id example, inspects exercised properties and invalid/missing-data intent, and proposes rerunning affected behavioral cases.",
+            "Explicitly leaves the production as User cast unchanged and flags any concern separately."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Limits migration to partial test fixtures, with no package installation and dependency availability a prerequisite.",
+            "The replacement retains id: 'u1'; it also requires preserving intentionally invalid runtime shapes and running affected tests.",
+            "Explicitly leaves production cast unchanged and checks for accidental production imports."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Restricts changes/imports to test fixtures and classifies fixture purpose first.",
+            "Preserves deliberate omissions/runtime behavior and the same outcome, verifying a representative test before expansion.",
+            "Explicitly keeps the production as User cast outside scope."
+          ],
+          "notes": "The exact literal u1 is not repeated, but the proposal preserves the supplied fixture's purpose and tested outcome without proposing value changes."
+        }
+      }
+    },
+    {
+      "id": "migrate-to-shoehorn-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explicitly preserves the missing property and rejects defaults that erase invalid-input coverage.",
+            "Keeps a deliberate invalid object and allows a narrow exceptional cast instead of universal conversion.",
+            "Retains the assertion for the specific missing-property validation failure and requires checking that the omission survives migration."
+          ],
+          "notes": "This receives credit for a targeted behavioral assertion in a proposed approach; it does not explicitly say to run that test, and no execution is inferred."
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Preserves missing-property input and validation failure, rejecting default-filling.",
+            "Treats deliberately invalid fixtures separately and permits helpers only after API/convention verification.",
+            "Requires an assertion through the real validator and explicitly running the focused test plus typecheck."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Keeps the incomplete runtime object and demands any helper leave its shape unchanged.",
+            "Allows retaining the narrow test-only assertion rather than changing meaning for a mechanical migration.",
+            "Requires the check to assert required-property failure and optionally property absence, with helper behavior verification."
+          ],
+          "notes": "Verification is described as required behavior, not claimed executed; explicit test-run wording is unnecessary for this proposal assertion."
+        }
+      }
+    },
+    {
+      "id": "migrate-to-shoehorn-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks only for current and replacement test description."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks only for current test description and replacement."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for description/name and explicitly says no fixture changes are needed."
+          ],
+          "notes": ""
+        }
+      }
+    }
+  ]
+}

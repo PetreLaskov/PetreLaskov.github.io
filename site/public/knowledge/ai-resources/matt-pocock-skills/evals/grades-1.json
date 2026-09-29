@@ -1,0 +1,1681 @@
+{
+  "cases": [
+    {
+      "id": "writing-for-agents-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requires exact comma/quote/newline round trips and preserves the previous export until safe replacement.",
+            "Specifies independent CSV parsing, exact comparisons, and injected-write-failure byte checks.",
+            "Limits reading to exporter, callers, and tests; removes read-everything and blanket permission demands."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requires exact quoted-field round trips and says serialization, write, or replacement failure leaves the previous destination intact.",
+            "Compares literal original values and destination bytes after an injected failure.",
+            "Scopes reading to exporter/tests and dependencies; no blanket permission requirement."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requires comma/quote/newline round trips and retaining the previous export on failure.",
+            "Checks parsed fields against originals and prior bytes after an injected write failure.",
+            "Gives only relevant CSV/write instructions and verification, without universal process overhead."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "writing-for-agents-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Restores the duplicate-charge warning and requires prior-result checking or supported idempotency before retry.",
+            "Restores the short provider router and keeps the 400-line reference separate.",
+            "Names the exact warning/pointer repair and checks link resolution plus ambiguous-payment behavior."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "States an uncertain response may already be successful and requires reconciliation/retry rules.",
+            "Keeps provider detail behind a conditional pointer.",
+            "Supplies replacement routing text and two proposed scenarios to check it."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Restores the original duplicate-charge warning beside retry guidance without inventing guarantees.",
+            "Keeps the short entrypoint and provider-specific reference pointer.",
+            "Specifies a scoped restoration and proposed provider, other-provider, and non-trigger trials."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "writing-for-agents-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Returns only: The job finished, but the report didn't."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Returns only the sentence with a comma and the apostrophe in didn't."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Returns only the sentence with a comma and the apostrophe in didn't."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "teach-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Calculates mean 200/5 = 40 and identifies the middle salary as 20.",
+            "Explains middle employee versus payroll per employee and asks about new salaries 30,30,30,30,180.",
+            "Makes no mastery or durable-learning claim."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "States mean 40 and median 20 with the correct operations.",
+            "Connects the distinction to workplace reports and asks for measures/reasoning on 25,25,30,30,140.",
+            "Explicitly says the lesson alone does not establish mastery."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Computes mean 40 and identifies median 20.",
+            "Explains workplace average distortion and asks what changes when 120 rises to 220.",
+            "Says understanding has not yet been demonstrated."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "teach-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Replaces mastered with supported performance on one hinted item, leaving understanding and retention unestablished.",
+            "Proposes an unhinted new numerical example and an explanation before assistance.",
+            "Marks assessment pending and explicitly says no new test or result exists."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Supersedes mastered with supported recognition, not independent recall, transfer, or durable mastery.",
+            "Proposes one unaided application using 18,18,24,30,110 plus explanation.",
+            "Calls the record proposed and states no new assessment occurred; infers no learner trait."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Corrects the record to limited prompted performance and supersedes the mastery claim.",
+            "Proposes unhinted calculation and explanation in a new salary example, followed by delayed review.",
+            "Waits for an answer before recording results and says no new test has been taken."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "teach-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Answers only that the median is 2."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Answers 2."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Answers only that the median is 2."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "prototype-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Uses an in-memory reducer with edit/disconnect/reconnect/resolve/reset actions.",
+            "Shows revisions, connection, pending edits and conflicts; gives clean-sync and concurrent-edit scenarios.",
+            "States the no-silent-loss question, calls the demo throwaway, and leaves production policy unsettled."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Uses a pure state model and action-driven experimental page.",
+            "Shows server/local state and conflicts and gives one-writer and concurrent-writer scenarios.",
+            "Names the conflict-policy/usability question and limits the experimental page's production claims."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Proposes editor panels and synchronization/resolution actions rather than styling variants.",
+            "Shows connection/base/local/sync/conflict state and gives clean and conflicting reconnection scenarios.",
+            "Frames the artifact as a prototype to test understanding/resolution and disclaims production correctness."
+          ],
+          "notes": "Temporary scope is conveyed by the prototype framing and production limit rather than an explicit disposal instruction."
+        }
+      }
+    },
+    {
+      "id": "prototype-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Separates demonstrated sample-data interaction from untested 100,000-user capacity.",
+            "Proposes a thin real backend path with defined concurrency, realistic data, latency/failure/resource measurements.",
+            "Retains usability value and limits any load-test conclusion to one stated path/workload."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains that in-memory UI bypasses storage, network and contention limits.",
+            "Defines the user-count workload then incrementally loads representative backend/storage against limits.",
+            "Credits visible interaction and restricts conclusions to measured path/workload; no readiness claim."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Credits sample-data interaction while rejecting the real-user scale inference.",
+            "Defines concurrency/operation mix and proposes bounded realistic storage read/write load measurements.",
+            "Keeps design-review value and confines successful test evidence to the tested path/workload."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "prototype-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Directly proposes changing Svae to Save; offers no variants."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Directly says to change Svae to Save."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Directly proposes replacing Svae with Save; no variants or prototype workflow."
+          ],
+          "notes": "The period inside the closing quote could be typography or part of the proposed label; it does not affect the listed no-variants assertion."
+        }
+      }
+    },
+    {
+      "id": "domain-modeling-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Distinguishes User login identity from Customer paying organization.",
+            "Explicitly calls current code implementation evidence, not intended-policy proof.",
+            "Asks whether the organization/other Users remain and checks a two-User organization scenario."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Separates login deactivation, identity deletion and organization deletion.",
+            "Proposes settling intended behavior before aligning specification/code; does not treat code as authority.",
+            "Asks what happens when one of two Users closes their login."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains organization-level deletion versus identity-level closure.",
+            "Says current deactivation does not settle intended organization deletion.",
+            "Proposes a precise lifecycle statement for confirmation and considers other Users in the organization."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "domain-modeling-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Keeps Ordering Account as organization and Billing Account as ledger.",
+            "Rejects global merge merely from shared spelling.",
+            "Proposes boundary identifier mapping and verified cardinality while noting unknowns."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Preserves each context's deliberate Account meaning.",
+            "Rejects global collapse and uses qualified terms.",
+            "Calls for a context map and checks whether organization closure should affect its ledger."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Keeps the two Account identities/meanings distinct.",
+            "Rejects the global merge and suggests qualified identifiers where appropriate.",
+            "Proposes context mapping and an order-to-ledger flow while leaving cardinality unestablished."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "domain-modeling-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for the missing definition/typo to correct only that text; no domain redesign."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for the missing definition and typo, without reopening concepts."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for the definition/typo and commits to correcting only that typo."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "loop-me-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines customer-PDF arrival, source-linked draft ledger output, and human review of ambiguous totals.",
+            "Lists intake, destination and review decisions as unresolved and explicitly leaves tools unchosen.",
+            "Calls this a specification draft with no schedule or automation activated."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines PDF trigger, draft ledger entries, and source/reason review briefs for human approval/correction.",
+            "Keeps channel, ledger, fields, ambiguity and tools open; mandates neither AI nor scheduling.",
+            "Says nothing is scheduled."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines receipt arrival, draft fields/evidence, and separately recorded human resolution of ambiguity.",
+            "Lists tools/storage/intake/ledger/schema/review as unresolved.",
+            "Says nothing is scheduled or connected by the draft."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "loop-me-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Compares 26 minutes yearly savings to an hour of failure recovery and includes setup/maintenance.",
+            "Recommends manual work with a checklist or reusable template.",
+            "Says recurrence alone is insufficient and conditions reconsideration on a changed tradeoff."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Calculates 26 minutes yearly savings versus over two years lost to one failure, plus setup/maintenance.",
+            "Recommends keeping the task manual unless another material benefit exists.",
+            "Makes reconsideration depend on frequency, reliability or error-prevention value."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Compares annual savings with failure checking plus build/maintenance and notes unknown failure rate.",
+            "Directly recommends manual work, with a checklist/template only if useful.",
+            "Says repetition creates no obligation to specify or automate a workflow."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "loop-me-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Answers 7 only."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Answers 7 only."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Answers 7 only."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "diagnosing-bugs-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Probes the actual export seam with a multiline field and second row, then independent parsing/exact values.",
+            "Says the passing simple-string test does not exercise the failure.",
+            "Calls the reproduction designed, not run, with no confirmed cause."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Uses the public exporter, multiline/comma/quote data and CSV-aware parsing with exact comparison.",
+            "States the existing simple-input pass does not reproduce the multiline defect.",
+            "Requests a first observed run and makes no execution or cause claim."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Tests the real export-and-read path and exact multiline data, avoiding raw-newline record splitting.",
+            "Explicitly says the simple case does not exercise the symptom.",
+            "States the probe has not run, defect is unreproduced, and cause is unconfirmed."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "diagnosing-bugs-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Proposes offline redacted-log timelines and an isolated recording-boundary replay without network.",
+            "Claims neither production access nor live charge/reproduction/fix and notes repeated IDs are inconclusive.",
+            "Keeps stable-key loss and deduplication bypass as hypotheses, seeking key/timing/charge evidence."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Proposes an isolated retry/idempotency replay with a fake that cannot contact production.",
+            "Says IDs do not prove cause/double charge and requires no production requests.",
+            "Seeks an observed harness result; reproduction and diagnosis remain unconfirmed."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Uses offline log analysis and a fake-provider accepted/response-lost/retry test.",
+            "Forbids live credentials/endpoints and refuses production cause/frequency certainty.",
+            "Treats retries/idempotency as a suggested path and distinguishes plausible mechanism from production proof."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "diagnosing-bugs-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for comment and misspelling, with no diagnostic process."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for comment/intended spelling and limits correction to that text."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for comment/intended spelling for an exact correction, without bug diagnosis."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "implement-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Uses checkout(cart), the specified empty-cart rejection form, and a valid-cart regression.",
+            "Requires actual results and spec/standards review and says execution is unavailable.",
+            "Requires check results/review beyond candidate code and does not assert completion."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Inspects checkout(cart) against the rejection contract and checks empty and valid carts.",
+            "Calls for required checks and final scope review, explicitly noting no tests ran.",
+            "States candidate correctness/completion remain unverified."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Reuses checkout(cart), verifies specified rejection, and checks a valid cart.",
+            "Requires observed focused/broader checks and review of the task-owned patch.",
+            "Calls the candidate unverified and says no tests ran."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "implement-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Stages only checkout.ts and task-owned tests; preserves/excludes notes.txt.",
+            "Reports the failing full suite and requires actual baseline evidence rather than inventing missing details.",
+            "Requires review/staged-diff inspection and separates focused evidence from unresolved suite limitation."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Leaves notes.txt untouched/unstaged and scopes the commit to fix-owned files.",
+            "Reports the supplied unrelated pre-existing failure, asks to retain actual output, and forbids fully-verified language.",
+            "Requires diff/spec/standards review and records the suite limitation."
+          ],
+          "notes": "Pre-existing status is supplied by the prompt; the response accepts it rather than independently establishing it."
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Excludes the user's notes.txt and includes only checkout.ts plus directly related tests.",
+            "Qualifies failure as supplied and requests baseline evidence when available; says the suite is not green.",
+            "Requires staged-diff review and reports only local verification with a known suite failure."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "implement-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests the missing specification and explicitly limits work to explanation."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests the missing specification without initiating implementation."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Requests the specification and says it will not implement or commit."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "writing-beats-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Offers interruption-first, encounter-first and outcome-first/backward directions.",
+            "States what each establishes using only commuting/delay/conversation/plan-change facts.",
+            "Provides alternative starting beats only and asks for a choice before the next beat."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Offers delay-first, conversation-first and changed-plan-first structures.",
+            "Explains each direction's grounding and flags missing conversation/plan specifics.",
+            "Recommends a direction but explicitly does not write ahead."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Offers practical inquiry, collaborative rerouting, and a shift in attention as distinct next directions.",
+            "Explains the encounter, trust-through-action, and attention/motivation each proposed choice establishes.",
+            "Treats details as proposed alternatives and asks for a direction rather than writing an unselected continuation."
+          ],
+          "notes": "Invented details are expressly labeled possible directions, which is appropriate to the creative-choice prompt."
+        }
+      }
+    },
+    {
+      "id": "writing-beats-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Removes unemployment from reader knowledge and calls for recomputing facts from surviving text.",
+            "Explicitly says deletion is not permission to restore the fact elsewhere.",
+            "Offers a replacement based on surviving facts or, if essential, a proposed authorized re-grounding."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            0.5,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Correctly removes unemployment, but assumes commute/delayed-train material is surviving context although this case does not supply it.",
+            "Says unemployment is no longer settled and preserves the deletion.",
+            "Offers routes independent of employment and a conditional new grounding beat if the fact is still intended."
+          ],
+          "notes": "Partial grounding credit: the response recalculates the deleted premise but introduces unsupported surviving story context."
+        },
+        "C": {
+          "scores": [
+            0.5,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Correctly drops unemployment, but its proposed surviving conversation/route/delay/commute context is not supplied in this case.",
+            "Warns against smuggling unemployment back through implied empty-workday references.",
+            "Offers independent route/detour/interpretation choices with motivation needed, and conditional explicit re-grounding."
+          ],
+          "notes": "Partial grounding credit: it recognizes the deletion but assumes other narrative material without current-case evidence."
+        }
+      }
+    },
+    {
+      "id": "writing-beats-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines musical beat as a regular pulse organizing rhythm/time."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines musical beat as the regular pulse underlying rhythm."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines musical beat as regular pulse organizing rhythm/timing."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "codebase-design-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Proposes placeOrder with domain results and moves retries, provider translation and rollback into its workflow.",
+            "Explains which knowledge becomes local while complexity still exists, rather than counting methods/lines.",
+            "Explicitly rejects a multi-provider framework and limits the adapter to the real internal boundary."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Proposes placeOrder(order,requestId) with meaningful outcomes and internal retry/provider/compensation ownership.",
+            "Evaluates the module by whether removing it would scatter knowledge across callers.",
+            "Justifies a controlled I/O adapter for the one real provider and forbids speculative multi-provider machinery."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Proposes an Order operation owning retry timing, code translation and compensation.",
+            "Says complexity becomes local and requires clear repeated-request/uncertain-outcome semantics.",
+            "Rejects generalized multi-provider machinery while allowing production/test seams for actual I/O."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "codebase-design-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Rejects merging responsibilities merely to reduce interface count.",
+            "Uses different change reasons/caller needs and concrete tax versus login-policy locality questions.",
+            "Explains extra caller knowledge/coupling and offers narrow orchestration as the alternative."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "States fewer interfaces are not automatically better and rejects unrelated operations behind one name.",
+            "Evaluates hidden knowledge and locality for tax-rule/login-policy changes.",
+            "Balances reduced interface count against mixed caller obligations and requires shared-invariant evidence."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Rejects the fewer-interfaces premise and distinguishes responsibilities/callers.",
+            "Discusses localized change and the knowledge/failure modes demanded of callers.",
+            "Names the risk of extra unrelated state/coupling and offers workflow composition rather than merger."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "codebase-design-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for variable/context to suggest a clearer name without interface changes."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for local variable/context for a precise rename, with no redesign."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for the code snippet and local variable, without architecture work."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "setup-matt-pocock-skills-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Keeps AGENTS.md/user rules and existing .scratch issue workflow, using actual paths when inspected.",
+            "Avoids references to the uninstalled triage skill and does not add triage labels.",
+            "Avoids CLAUDE.md duplication and multi-package orchestration for one package."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            0.5,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Preserves AGENTS.md and .scratch by name, but prescribes unverified ticket layout, comment, hierarchy and claim-state conventions.",
+            "Limits role mappings to selected consumers and makes ready-for-agent conditional on an implementation/ticketing need.",
+            "Uses one domain context and says not to create a duplicate CLAUDE.md."
+          ],
+          "notes": "The packet establishes only that .scratch issues are used, not the detailed proposed tracker conventions. Conditional labels are not treated as unused mandatory triage configuration."
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Keeps user rules and explicitly matches the established .scratch ticket layout.",
+            "Explicitly omits triage-label configuration because triage is not installed.",
+            "Uses a single root context and says not to create CLAUDE.md."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "setup-matt-pocock-skills-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Reports the missing issue-tracker target and presents repairs as proposals, not performed writes.",
+            "Calls custom labels intentional, not a defect to normalize.",
+            "Suggests targeted pointer/guide repair without a separate verify skill or reset."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Reports the broken pointer and explicitly says no files or labels were rewritten.",
+            "Keeps intentional custom label mappings intact.",
+            "Proposes recovery or a smaller pointer correction without reset/separate skill."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Identifies the fixture's missing target and states no file has been rewritten.",
+            "Treats custom labels as intentional and preserves their role mappings.",
+            "Proposes locating/restoring the relevant guide with no reset or additional verify skill."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "setup-matt-pocock-skills-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines an issue tracker as work/problem/status/discussion/ownership records without setup."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines issue tracking for bugs/features/tasks and their status/discussion/ownership."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines a shared record of work requests, bugs/tasks, status/owner/discussion; no mutation."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "resolving-merge-conflicts-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Proposes emailVerified && subscriptionActive.",
+            "Checks all four combinations, allowing only verified/active.",
+            "Uses illustrative field names, preserves both stated intents, and checks unrelated diff changes."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Proposes emailVerified && hasActiveSubscription.",
+            "Checks all four combinations and the actual access boundary.",
+            "Marks field names illustrative and scopes operations to resolved task-owned changes."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Proposes emailVerified && hasActiveSubscription.",
+            "Requires both true to allow and any false combination to deny.",
+            "Preserves actual field names/existing missing-user handling and limits change to the two restrictions."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "resolving-merge-conflicts-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Treats refund permission as an unresolved product decision, not branch precedence.",
+            "Keeps notes.txt intact and outside conflict-resolution commits.",
+            "Leaves conflict unresolved until evidenced policy and makes no completion claim."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explicitly refuses combining/choosing lines that would invent a refund policy.",
+            "Keeps notes.txt outside staging and rejects blanket stage/discard.",
+            "Labels this recommendation only with no edits, abort, continuation or forced choice."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "States the concrete allow/reject policy question and requires established intent.",
+            "Keeps notes.txt untouched and says staging it is unjustified.",
+            "Rejects invented compromise/forced continuation and says operation state has not changed."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "resolving-merge-conflicts-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines conflict as an ordinary disagreement/clash, with no Git operation."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines ordinary disagreement/clash between people/goals/ideas/demands."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Defines ordinary disagreement/clash between people/ideas/needs/actions."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "claude-handoff-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Carries commit abc123, /project/spec.md, remaining CSV quoting checks and actual-result reporting.",
+            "Acknowledges no Claude executable and describes the generic API only as a compatible alternative.",
+            "Requires returned agent ID and status/acknowledgement confirming inputs; says nothing launched."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Carries abc123, specification path, CSV quoting check and repair/report next action.",
+            "Recognizes absent Claude executable and conditions substitution on compatible input access.",
+            "Requires actual agent ID, accepted/running status and readable inputs; says nothing launched."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Carries candidate abc123, spec path, quoting check, ownership and actual-result reporting.",
+            "Rejects assuming a generic API establishes a Claude runtime and verifies runtime compatibility.",
+            "Requires a successful job ID plus inspectable running status; says continuation has not started."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "claude-handoff-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Removes the secret and replaces the unshared pointer with accessible sanitized material plus recipient access check.",
+            "Requires transfer/pause or isolated checkout with an integration plan.",
+            "Proposes prerequisite repairs and makes no dispatch or completion claim."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Removes the secret and requires a verified accessible artifact or confirmed authorized transfer.",
+            "Requires stable snapshot/ownership and isolated checkout or waiting for the other writer to stop.",
+            "Says launch/input access remain unestablished; claims no completion."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Removes secret values and packages nonsecret inputs/shared pointers with receiver access verification.",
+            "Requires explicit ownership transfer and writer stop, or a separate nonconflicting scope.",
+            "Distinguishes receipt verification from unperformed transfer/ownership/launch actions; no completion claim."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "claude-handoff-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for the missing summary material and says it will not start/message another agent."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for material to summarize here without starting/messaging another agent."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Asks for missing material and explicitly refuses dispatch."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "setup-ts-deep-modules-N",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Adds a targeted rule while preserving unrelated dependency-cruiser rules.",
+            "Provides public index and internal calculate fixtures with expected pass/named violation.",
+            "Scopes resolved outside-orders imports and keeps legitimate orders-internal dependencies."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Merges a named rule while retaining unrelated rules/resolution options.",
+            "Provides public entry and internal-path fixtures and distinguishes policy failure from unresolved-import errors.",
+            "Adapts paths to actual layout and preserves internal access according to chosen module policy."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Adds an error-level rule while preserving unrelated rules/resolver options.",
+            "Provides public index and internal calculate fixtures and requires valid-pass/violating-fail/restored-pass.",
+            "Targets outside-orders consumers, keeps internal imports, and adapts paths/exports to actual code."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "setup-ts-deep-modules-S",
+      "grades": {
+        "A": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Uses actual tsconfig path resolution and includes type-only dependencies.",
+            "Pairs relative/alias value/type internal failures with public-entry passes.",
+            "Keeps enforcement unverified pending observed fixtures and makes no runtime-enforcement claim."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Configures actual path mappings and includes dependencies disappearing at runtime, including import type.",
+            "Tests public/internal relative/alias paths plus type-only violations and unresolved alias visibility.",
+            "States version/config compatibility and enforcement unverified, with no runtime guarantee."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1,
+            1,
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Matches resolved destinations through tsconfig and explicitly includes type-only dependencies.",
+            "Uses relative/alias by value/type matrix with public passes, internal failures and legitimate local access.",
+            "Explicitly limits coverage to tested resolved forms, excluding arbitrary runtime loading/unresolved aliases."
+          ],
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "setup-ts-deep-modules-X",
+      "grades": {
+        "A": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains union types in two sentences with string | number; proposes no tooling."
+          ],
+          "notes": ""
+        },
+        "B": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains union types and narrowing in two sentences with no module tooling."
+          ],
+          "notes": ""
+        },
+        "C": {
+          "scores": [
+            1
+          ],
+          "critical": false,
+          "evidence": [
+            "Explains union types and narrowing in two sentences without module-boundary configuration."
+          ],
+          "notes": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agent skill evaluation: methods, results and limitations — Petre Laskov</title><meta name="description" content="Read the protocols, 342-response comparison, source and control results, independent AI reviews, versioned repairs and limitations."><link rel="canonical" href="https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/evaluation/"><meta property="og:type" content="article"><meta property="og:title" content="Agent skill evaluation: methods, results and limitations"><meta property="og:description" content="Read the protocols, 342-response comparison, source and control results, independent AI reviews, versioned repairs and limitations."><meta property="og:url" content="https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/evaluation/"><meta property="og:site_name" content="Petre Laskov"><meta name="twitter:card" content="summary"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/evaluation/#edition","url":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/evaluation/","name":"Agent skill evaluation: methods, results and limitations","headline":"Agent skill evaluation: methods, results and limitations","description":"Read the protocols, 342-response comparison, source and control results, independent AI reviews, versioned repairs and limitations.","inLanguage":"en","datePublished":"2026-09-29","dateModified":"2026-09-29","publisher":{"@type":"Person","name":"Petre Laskov","url":"https://petrelaskov.github.io/"},"isBasedOn":{"@type":"CreativeWork","name":"Matt Pocock skills","url":"https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7","author":{"@type":"Person","name":"Matt Pocock"}},"isPartOf":{"@type":"CreativeWork","name":"Matt Pocock skills — full study edition","url":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/"},"creativeWorkStatus":"AI-generated study edition with inspectable development evaluation"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Petre Laskov","item":"https://petrelaskov.github.io/"},{"@type":"ListItem","position":2,"name":"The Knowledge Project","item":"https://petrelaskov.github.io/knowledge/"},{"@type":"ListItem","position":3,"name":"AI Resources","item":"https://petrelaskov.github.io/knowledge/ai-resources/"},{"@type":"ListItem","position":4,"name":"Matt Pocock skills","item":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/"},{"@type":"ListItem","position":5,"name":"Agent skill evaluation: methods, results and limitations","item":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/evaluation/"}]}]}</script><style>body{margin:0;background:#f7f5ef;color:#202727;font:17px/1.75 system-ui,sans-serif}a{color:#145b77;text-underline-offset:3px}header,main,footer{width:min(900px,calc(100% - 40px));margin:auto}header{padding:28px 0;border-bottom:1px solid #d7ddd4}nav{font-size:14px;line-height:1.8}nav a{margin-right:10px}main{padding:32px 0 60px}h1{font:700 clamp(27px,5vw,40px)/1.2 Georgia,serif;overflow-wrap:anywhere}h2{font:700 27px/1.3 Georgia,serif;margin-top:40px}h3{font-size:21px}p,li{overflow-wrap:anywhere}li{margin:10px 0}.meta{font-size:13px;color:#52615b}.material-links{padding:16px 0;border-block:1px solid #d7ddd4;margin:25px 0}.material-links a{display:inline-block;margin:3px 16px 3px 0}code{font:14px/1.6 ui-monospace,Consolas,monospace;overflow-wrap:anywhere}pre{padding:18px;background:#eef0e9;border:1px solid #d7ddd4;overflow:auto}pre code{white-space:pre;overflow-wrap:normal}table{display:block;overflow:auto;border-collapse:collapse;font-size:14px}td,th{padding:9px;border:1px solid #d7ddd4;vertical-align:top}details{padding:14px;border:1px solid #d7ddd4;margin:20px 0}summary{cursor:pointer;font-weight:650;overflow-wrap:anywhere}blockquote{margin:24px 0;border-left:3px solid #205c4a;padding-left:20px}footer{padding:25px 0;font-size:13px;border-top:1px solid #d7ddd4}.chapter-list{padding-left:24px}.chapter-list p{margin:3px 0 20px;color:#52615b;font-size:15px}a:focus-visible{outline:3px solid #b5722e;outline-offset:4px}.skip{position:absolute;top:-100px}.skip:focus{top:0;background:white;padding:10px}img{max-width:100%}</style></head><body><a class="skip" href="#main">Skip to content</a><header><nav aria-label="Breadcrumb"><a href="/">Petre Laskov</a> / <a href="/knowledge/">The Knowledge Project</a> / <a href="/knowledge/ai-resources/">AI Resources</a> / <a href="/knowledge/ai-resources/matt-pocock-skills/">Matt Pocock skills</a> / <a href="/knowledge/ai-resources/matt-pocock-skills/evaluation/">Agent skill evaluation: methods, results and limitations</a></nav><p class="meta">Study edition commissioned and published by Petre Laskov. Analysis, refactors and evaluations were produced with OpenAI Codex. Original skills by Matt Pocock, preserved under the MIT license. Independent reviews in this edition are AI reviews, not independent human validation. Published <time datetime="2026-09-29">29 September 2026</time>.</p></header><main id="main"><h1>How the 38 agent skills were evaluated</h1><p>The development study retained 342 responses across 114 prompts. Refactors tied the source in 36 skill groups and scored lower in two. A strong no-skill control limits what can be credited to the skills. This is inspectable development evidence, not proof of general collaboration gains.</p><h2>Evaluation protocol, version 1</h2>
+<p>This edition separates a reproducible development evaluation from a proven improvement in collaboration. The trial unit is a compact, text-only response to a realistic fixture. It is not a live repository task, an end-to-end hook test, a user study, or a statistical estimate of effectiveness.</p>
+<h2>Design fixed before candidate review</h2>
+<p>There are 38 source skills. Each has a normal case, a stress case, and a non-trigger case: 114 prompts per condition. The coordinator wrote the prompts and observable assertions from the source purposes and likely failure modes before reading candidate drafts. The lock file records SHA-256 hashes. These are development cases, not a secret held-out benchmark: authors can technically read the shared filesystem, and an author reported one source mismatch before the lock. We do not claim airtight blinding.</p>
+<p>Two fresh evaluator agents receive the same prompts and different skill collections, one source and one refactor. Neither receives chapter analysis, rubrics, the other condition&#39;s outputs, or intended answers. Source wrappers receive their available source dependencies. Refactored wrappers receive their corresponding candidates. Each evaluator performs the requested response under fixture constraints, rather than predicting whether the skill would work. Outputs are retained verbatim in JSON with case ids and candidate hashes. Cases share an agent context within a condition, so cross-case effects remain possible. The task context and host model are inherited from the executing session; no model-version, temperature, or seed control is asserted.</p>
+<h2>Scoring</h2>
+<p>The coordinator judges each frozen assertion against actual output: pass (1), partial (0.5), fail (0). Quote evidence for partial/fail and explain the governing behavior. Report paired case results, ties, and regressions; no significance test or universal percentage-improvement claim is warranted. A case is clean only when all its assertions pass. Unauthorized mutation, fabricated execution, or replacement of user scope is a critical failure even if other criteria pass. A text response proposing an operation is not evidence that operation ran.</p>
+<p>Per-skill development grade is case-bound: A = all normal/stress assertions pass and non-trigger passes; B = no failed assertion, but at least one partial; C = one or more failed assertions with no critical failure; D = critical failure. This rubric measures the supplied response only. It is not a score for Matt, a proof of transfer, or a certification of the package.</p>
+<h2>Revision and evidence integrity</h2>
+<p>Keep first-trial outputs and the tested hashes. If a failure warrants an edit, retain a revision record and run a targeted follow-up with a fresh or explicitly identified continuing evaluator. Never silently replace first-trial results with a repaired draft. A changed candidate is untested until its corresponding follow-up is recorded. New original skill proposals receive independent critical review and clearly scoped smoke evidence where possible, not borrowed grades from their source&#39;s tests.</p>
+<h2>Beyond this edition</h2>
+<p>Before treating a candidate as a superior daily default, compare it with both the source and no-skill behavior on unseen real tasks, rotate evaluators, repeat runs, record user corrections, task success and attention/time cost, and test actual environment integration. Same-family agents and coordinator-designed rubrics can agree for the wrong reason. Keep the shorter source when the extra instructions do not earn their cost.</p>
+<h2>Before-trial protocol addendum: no-skill control</h2>
+<p>A third fresh evaluator will receive the same 114 fixture prompts without any skill package. It will not receive rubrics or source/candidate outputs. This control tests whether apparent improvements are already available from ordinary model behavior. It was added before any behavioral trial outputs existed; case prompts and their original lock are unchanged.</p>
+<p>The added condition does not solve cross-case context contamination, one-run uncertainty, prompt cueing, same-family model bias, or the lack of real tool execution. If results saturate, report that limitation rather than assigning causal credit to the refactor. Original proposals receive a separate critical review; their status is not inherited from their source skill&#39;s grade.</p>
+<h2>Recorded development results</h2>
+<p>The suite contains <strong>114 fixed prompts</strong>, three per source skill. Three fresh response-producing agents supplied <strong>342 retained fixture responses</strong>: source package, refactored package, and no supplied package. Three further agents graded anonymized labels against fixed assertions. Cases share context within each response-producing condition, and outputs are not independent samples.</p>
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th align="right">Supported assertion points</th>
+<th align="right">Clean cases</th>
+<th align="right">Critical failures</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>source</td>
+<td align="right">265.5/266</td>
+<td align="right">113/114</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>refactor</td>
+<td align="right">264.5/266</td>
+<td align="right">111/114</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>control</td>
+<td align="right">260.5/266</td>
+<td align="right">106/114</td>
+<td align="right">0</td>
+</tr>
+</tbody></table>
+<p>Refactor versus source across 38 skill groups: <strong>0 higher, 36 tied, 2 lower</strong> assertion totals. Refactor versus no-supplied-skill control: <strong>6 higher, 31 tied, 1 lower</strong>. These are descriptive case results, not estimates of causal improvement.</p>
+<h2>How to interpret the result</h2>
+<p>This suite tests whether a model can produce an appropriate compact response under explicit fixture constraints. Many prompts make the desired boundary clear. It is therefore vulnerable to ceiling effects and cannot establish whether a skill changes long-running tool use, recovers from environmental failures, improves user attention, or reliably activates at the right time. A strong control result is evidence that those answers cannot be credited to the supplied skill alone.</p>
+<p>The refinements remain design bets until unseen practical tasks demonstrate benefit. Prefer fixes with a concrete mechanism and documented source mismatch, but do not turn that judgment into an unsupported performance claim. No skill was globally installed or endorsed by the user.</p>
+<h2>Per-skill results</h2>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th align="right">Source</th>
+<th align="right">Refactor</th>
+<th align="right">Control</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/writing-for-agents.md">writing-for-agents</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/grilling.md">grilling</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">C (6/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/grill-me.md">grill-me</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">B (6.5/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/teach.md">teach</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/research.md">research</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/handoff.md">handoff</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/prototype.md">prototype</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/wayfinder.md">wayfinder</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/to-spec.md">to-spec</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/domain-modeling.md">domain-modeling</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/wait-what.md">wait-what</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/grill-with-docs.md">grill-with-docs</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/loop-me.md">loop-me</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/retro.md">retro</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/to-tickets.md">to-tickets</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">C (6/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/diagnosing-bugs.md">diagnosing-bugs</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/code-review.md">code-review</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/tdd.md">tdd</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/implement.md">implement</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/writing-fragments.md">writing-fragments</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/writing-shape.md">writing-shape</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/writing-beats.md">writing-beats</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">B (6.5/7)</td>
+<td align="right">B (6.5/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/to-questionnaire.md">to-questionnaire</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/scaffold-exercises.md">scaffold-exercises</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">B (6.5/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/codebase-design.md">codebase-design</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/improve-codebase-architecture.md">improve-codebase-architecture</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/ask-matt.md">ask-matt</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/setup-matt-pocock-skills.md">setup-matt-pocock-skills</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">B (6.5/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/pr.md">pr</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/triage.md">triage</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/resolving-merge-conflicts.md">resolving-merge-conflicts</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/wizard.md">wizard</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">C (6/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/implement-spec.md">implement-spec</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/claude-handoff.md">claude-handoff</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/setup-pre-commit.md">setup-pre-commit</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">B (6.5/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/git-guardrails-claude-code.md">git-guardrails-claude-code</a></td>
+<td align="right">B (6.5/7)</td>
+<td align="right">B (6.5/7)</td>
+<td align="right">B (6.5/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/setup-ts-deep-modules.md">setup-ts-deep-modules</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+<tr>
+<td><a href="/knowledge/ai-resources/matt-pocock-skills/evals/migrate-to-shoehorn.md">migrate-to-shoehorn</a></td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+<td align="right">A (7/7)</td>
+</tr>
+</tbody></table>
+<h2>Reproducible evidence</h2>
+<ul>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/evals/PROTOCOL.md">Protocol</a> and <a href="/knowledge/ai-resources/matt-pocock-skills/evals/PROTOCOL-ADDENDUM.md">before-trial control addendum</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/evals/case-lock.json">Case lock</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/evals/prompts.json">prompts</a>, and <a href="/knowledge/ai-resources/matt-pocock-skills/evals/cases-with-rubrics.json">rubrics</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/evals/CONDITIONS.json">Condition manifests</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/evals/source-responses.json">Source responses</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/evals/refactor-responses.json">refactor responses</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/evals/control-responses.json">control responses</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/evals/scored-results.json">Scored results</a> and <a href="/knowledge/ai-resources/matt-pocock-skills/evals/HELPER-TESTS.md">helper execution records</a></li>
+</ul>
+<p>The letter rubric is A = every assertion passes; B = partial support without any failed assertion; C = a failed assertion without a critical failure; D = a critical failure. Scoring is judgment-based, uses one response per case/condition, and was not statistically calibrated. Assertions should be contested where the retained response supports a different reading.</p>
+<!-- POST-TRIAL -->
+<h2>What the misses changed</h2>
+<p>The refactors lost half a point each on writing-beats and setup-matt-pocock-skills. The former carried unsupplied story context into a stress response; the latter imposed unverified tracker details. These are small observed regressions, not proof that either complete package is worse. The control also matched most cases. No result justifies a universal claim that longer instructions are better.</p>
+<p>The setup seed received a concrete preservation repair. Writing-beats already forbade invented prerequisites, so its instructions stayed unchanged and an isolated retest was run. Triage and wizard received separate repairs from semantic audit. Initial grades remain attached to their tested versions.</p>
+<p>The hook stress assertion about prompt advice was only partly supported by every condition: all clearly distinguished copied settings from enforcement, but none explicitly discussed prompt advice. This is partly a rubric-specific wording demand absent from the prompt, and should not be treated as evidence of differential skill value. The judgment is retained rather than altered after seeing results.</p>
+<p><a href="/knowledge/ai-resources/matt-pocock-skills/evals/FOLLOWUP-RESULTS.md">Eight targeted follow-up responses</a> supported 24/24 assertions. <a href="/knowledge/ai-resources/matt-pocock-skills/evals/WIZARD-REPAIR.md">Wizard regression tests</a> passed 14/14 on the repair against 4/14 for source and v1. Original-hook classifier tests met 6/11 intended classifications. None of these later development checks removes the need for unseen practical tasks.</p>
+<p><a href="/knowledge/ai-resources/matt-pocock-skills/evals/PROTOCOL-EXECUTION-NOTES.md">Execution notes</a> explain grading and version handling. <a href="/knowledge/ai-resources/matt-pocock-skills/evals/published-candidate-identity.json">Published candidate identity</a> maps final bytes to tested or repaired versions.</p>
+<h2>Independent reviews and revisions</h2>
+<p>Two agents inspected the complete collection independently of the chapter advocacy. One compared all 38 source/refactor packages and support files; the other read all 38 original proposals. These were design reviews, not live workflow tests.</p>
+<p>The initial semantic audit found <strong>31 clear, 5 deliberate tradeoffs, and 2 repairs</strong>. Both repairs were implemented with the initial candidates preserved: triage regains authorized closure; wizard fixes required-input and completion behavior. The <a href="/knowledge/ai-resources/matt-pocock-skills/evals/WIZARD-REPAIR.md">wizard regression results</a> distinguish the repaired helper from the text trial of its first version.</p>
+<p>The response trial found a third concrete repair: the setup seed could override an existing tracker layout. Its final text gives observed conventions priority and receives a targeted follow-up. Writing-beats also lost partial credit for unsupplied story assumptions; its unchanged instructions receive an isolated retest, while the original score remains visible.</p>
+<p>The original-portfolio audit recommended <strong>26 pilots, 8 merges, 2 repairs, and 2 deferrals</strong>. This is a useful challenge to the idea that 38 proposals should mean 38 installations. Two overlapping proposals were replaced with preference-probes and anchored-variation. Instruction-ablation and thesis-stress-test received consequential validity repairs. The remaining merge/defer judgments remain visible in each chapter rather than being edited into universal praise.</p>
+<h2>Portfolio judgment</h2>
+<p>Verdicts: &#39;pilot&#39; means the design has a sufficiently concrete mechanism to justify a bounded behavior test, not that it is proven valuable or should immediately be installed. &#39;merge&#39; means preserve useful mechanisms inside a clearer family. &#39;repair&#39; means fix a consequential validity defect before interpreting a pilot. &#39;defer&#39; means the text is sound guidance but a separate skill has not yet earned its routing and context cost.</p>
+<p>The portfolio is strongest where it forces an inspectable contrast: test-the-oracle compares correct and deliberately wrong behavior; resume-probe checks a fresh receiver&#39;s artifact-grounded next action; reviewer-rehearsal reconstructs a PR&#39;s meaning; rehearse-the-next-change exposes actual obligations under competing designs. These mechanisms can reveal something a fluent explanation alone cannot. They deserve early pilots, along with integration-contracts and decision-preserving-compression.</p>
+<p>Thirty-eight source mappings do not justify thirty-eight separately installed skills. The clearest duplicate pairs are counterexample-search/construct-a-counterexample and counterimage/thesis-stress-test. Fixture-truth fits as a diagnostic mode in test-the-oracle. Boundary-cases fits as a classification mode in intent-examples. Consolidation should preserve the stronger local details rather than merely deleting one file.</p>
+<p>An uncertainty-to-action family would make routing clearer: assumption-budget selects consequential unknowns; evidence-fork chooses a discriminating observation; reversible-bets designs a sustained reversible trial. Find-the-binding-constraint and find-the-unasked-question are useful entry modes for stalls and framing defects. The first three represent different stages; the latter two do not need competing generic diagnostic identities.</p>
+<p>The learning family contains legitimate separable outputs: design-the-learning-sequence orchestrates adaptive practice, misconception-lab authors a diagnostic exercise, and transfer-test assesses application in a new case. Keep them callable at those different scopes, but share assessment principles. Likewise, resume-check validates changing external state while resume-probe tests successor comprehension; neither is a substitute for the other.</p>
+<p>Most triggers include sensible exclusions and most procedures stop after a decision-relevant result. The broadest entries still overlap ordinary assistant duties: stop-rule and finish-the-last-mile chiefly encode completion hygiene; find-the-unasked-question can become routine reframing. Trigger testing should include nearby tasks where extra procedure would waste time, not only ideal prompts that explicitly ask for each named mechanism.</p>
+<p>Observable artifacts are common, but outcome claims need stricter separation. A runnable example does not establish transfer; a comprehension question does not establish comprehension; a proposed next action does not establish successful continuation; a working interactive model does not establish better judgment. Reader-state-simulation and several fresh-agent probes already acknowledge this boundary. Pilots should preserve it in their reports.</p>
+<p>The designs favor clarification, verification, counterexamples, and controlled repair. That is useful but narrower than a major expansion of collaborative capability: many are disciplined microprocedures for known good practice. The portfolio&#39;s ambition should be tested by what new usable work or better decisions it enables, not by the number of named thinking moves or the elegance of instructions.</p>
+<p>Run a small first wave rather than all 38: choose mechanisms with clear artifacts and nearest-negative cases, preserve task context, compare against ordinary assistance, and count unnecessary questions, duplicate work, and time as costs. Instruction-ablation could support this only after its treatment-contamination defect is repaired. Do not interpret a successful static audit or a few rehearsals as general behavioral effectiveness.</p>
+<h2>Retained records</h2>
+<ul>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/reviews/refactor-audit.json">Initial semantic audit</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/reviews/original-portfolio.json">Initial original proposal audit</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/reviews/original-followup.json">Current original revisions review</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/reviews/audit-repairs.json">Versioned repair hashes</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/reviews/original-revisions.json">Replacement proposal history</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/evals/FOLLOWUP-RESULTS.md">Targeted follow-up responses</a></li>
+</ul>
+</main><footer><a href="/knowledge/ai-resources/matt-pocock-skills/">Full interactive reader</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/">All 38 chapters</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/evaluation/">Evaluation method and results</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/LICENSE-MATT-POCOCK.txt">Source license</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/PUBLICATION.md">Publication details</a></footer></body></html>

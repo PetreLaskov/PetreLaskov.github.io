@@ -1,0 +1,59 @@
+{
+  "slug": "claude-handoff",
+  "bucket": "in-progress",
+  "chapter": "chapters/claude-handoff.md",
+  "refactor": "refactored/claude-handoff/SKILL.md",
+  "original_slug": "resume-probe",
+  "original_path": "original-skills/resume-probe/SKILL.md",
+  "port_bet": "conditional",
+  "summary": "Continue authorized work in a fresh background Claude session using a concise handoff grounded in durable artifacts.",
+  "source_files_read": [
+    "skills/in-progress/claude-handoff/agents/openai.yaml",
+    "skills/in-progress/claude-handoff/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Add a continuation contract",
+      "reason": "Make current state, ownership, and next action explicit while keeping durable details behind pointers.",
+      "tradeoff": "A slightly longer handoff replaces some of the original minimalism."
+    },
+    {
+      "id": "D2",
+      "change": "Separate launch attempt from successful transfer",
+      "reason": "Require a supported runtime, safe prompt transport, and a launch receipt.",
+      "tradeoff": "Unsupported environments receive a usable handoff without automatic continuation."
+    },
+    {
+      "id": "D3",
+      "change": "Avoid competing writers",
+      "reason": "Name remaining ownership and stop work on the transferred unit after successful launch.",
+      "tradeoff": "Concurrency is reduced at the transfer boundary to protect continuity."
+    },
+    {
+      "id": "D4",
+      "change": "Keep host semantics visible",
+      "reason": "Do not silently map Claude background jobs to a different provider or user-owned chat.",
+      "tradeoff": "A universal-looking command becomes an explicitly conditional capability."
+    },
+    {
+      "id": "D5",
+      "change": "Adapt Codex packaging without changing invocation",
+      "reason": "Omit Claude-only disable-model-invocation and argument-hint keys while preserving explicit-only policy in the copied agents/openai.yaml.",
+      "tradeoff": "The study package targets Codex metadata rather than being a byte-identical cross-host manifest."
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

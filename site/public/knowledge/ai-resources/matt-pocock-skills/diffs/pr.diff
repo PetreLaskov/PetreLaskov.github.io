@@ -1,0 +1,202 @@
+--- a/source/skills/in-progress/pr/LICENSE
++++ b/refactored/pr/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2026 Matt Pocock
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+--- a/source/skills/in-progress/pr/SKILL.md
++++ b/refactored/pr/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: pr
+-description: "Use when writing a PR body."
++description: "Write concise pull request bodies that explain changed behavior, show appropriate evidence, and identify concrete reversal costs."
+ metadata:
+   credits:
+     skill: show-me
+@@ -9,160 +9,16 @@
+     url: "https://github.com/humanlayer/skills/blob/main/plugins/show-me/skills/show-me/SKILL.md"
+ ---
+ 
+-Use this template for writing the PR body:
++# PR
+ 
+-```markdown
+-## Summary
++Write a body a new reviewer can use. Read the actual requirement, final diff, repository PR template, and validation results. Use the project's domain language; CONTEXT.md is helpful when present, not a required dependency.
+ 
+-<diagram, diff-sketch, or tree>
++Lead with the concrete problem and resulting behavior. For a meaningful change, include the smallest visual that clarifies its shape: pseudocode for an algorithm, a call tree for control flow, a shallow file tree for ownership, a diff sketch for a structural change, or Mermaid for interaction. Omit the visual when a sentence is clearer. Label sketches as illustrations rather than executable evidence.
+ 
+-## Evidence
++Pair before and after evidence when available. Use screenshots for visual claims and execution results for behavioral claims. Name what actually ran and what it established. Never manufacture a failing baseline, passing run, screenshot, or output. If only the changed version was tested, say so. Note important unverified behavior succinctly.
+ 
+-- **Before:** <screenshot/output/failing test run>
+-  **After:** <screenshot/output/passing test run>
++Describe merge consequences concretely: affected users or consumers, persistent changes, and what rollback would require. A one-way/two-way door label can summarize that explanation but cannot replace it. Mention intentionally excluded behavior only when it prevents a likely scope misunderstanding.
+ 
+-## Merge Danger
++Keep detail proportional to the change and fit the repository template. Rewrite the title and body around the final implementation if scope changed. Do not narrate abandoned approaches unless they explain a live tradeoff. Writing the body does not independently authorize publication or merging.
+ 
+-**Door:** <one-way or two-way>
+-
+-<optional: description>
+-
+-**Blast Radius:** <one-word description>
+-
+-<optional: potential ramifications of merge>
+-```
+-
+-## Sections
+-
+-Skip all preambles and keep prose brief. Use the user's domain language from `CONTEXT.md`.
+-
+-### Summary
+-
+-Pick the smallest view that makes the key point clear.
+-
+-- Show logic or an algorithm as pseudocode:
+-
+-```text
+-on(save)
+-  if content is unchanged
+-    return cached result
+-  write new content
+-  return fresh result
+-```
+-
+-- Show runtime control flow as a call tree:
+-
+-```text
+-submitForm
+-  createSession
+-    persistPrompt
+-    launchAgent
+-  navigateToSession
+-```
+-
+-- Show UI structure as a component tree, including state and module boundaries that matter:
+-
+-```tsx
+-<SessionPage>(apps / example / src / routes / session.tsx);
+-useSessionEvents() < SessionToolbar > <RunSkillButton>(packages / ui);
+-```
+-
+-- Show file responsibility or a broad refactor as a shallow file tree:
+-
+-```text
+-src/
+-├── commands/       # parses user actions
+-├── sessions/       # owns session state
+-└── transport/      # sends API requests
+-```
+-
+-- Show component interaction, control flow, or data flow with Mermaid:
+-
+-```mermaid
+-sequenceDiagram
+-    participant User
+-    participant UI
+-    participant Daemon
+-    User->>UI: choose command
+-    UI->>Daemon: send expanded prompt
+-    Daemon-->>UI: stream result
+-```
+-
+-- Use `diff` when the point is what changes and the surrounding shape already exists. Match the diff shape to the topic.
+-
+-For a component change:
+-
+-```diff
+- <SessionPage>
+-   useSessionEvents()
+-   <SessionToolbar>
+-+    <RunSkillButton />
+-   <SessionTimeline>
+-+    <SkillResultCard />
+-```
+-
+-For a file-layout change:
+-
+-```diff
+- src/
+- ├── commands/
+-+│   └── show-me.ts       # expands the slash command
+- ├── sessions/
+--└── transport.ts
+-+└── transport/
+-+    ├── client.ts
+-+    └── stream.ts
+-```
+-
+-For a call-tree or call-stack change:
+-
+-```diff
+- submitForm
+-   createSession
+-     persistPrompt
+-+    expandSkillMention
+-     launchAgent
+--  navigateToSession
+-+  navigateToSession
+-+    subscribeToEvents
+-```
+-
+-For a state or control-flow change:
+-
+-```diff
+- on(save)
+--  write content
+-+  if content is unchanged
+-+    return cached result
+-+  write new content
+-+  invalidate cache
+-```
+-
+-- Show the whole block when most of it is new, when omitted context would hide ownership or order, or when the user needs a copyable target shape:
+-
+-```ts
+-function expandSkill(command: string): string {
+-  const skillName = command.slice(1);
+-  return `use the ${skillName} skill`;
+-}
+-```
+-
+-#### Guidance
+-
+-Place each visual next to the short text it supports. Keep only the calls, files, props, states, and boundaries needed to answer the user's current question or the options to resolve the current discussion point.
+-
+-You may use one of these, you may use several, it is unlikely you will use all of them. Use your judgement and don't overwhelm the user.
+-
+-### Evidence
+-
+-Concrete evidence that the change works. Show a before and after.
+-
+-Screenshots are S-tier - when the environment is set up for it and the change is visual.
+-
+-Execution-based evidence is A-tier. Test results, console output. Show the exact test that now fails and passes, using pseudocode.
+-
+-### Merge Danger
+-
+-Describe whether it's a one-way or two-way door. You can walk back through two-way doors, but not one-way doors. A PR that is cheap to roll back is lower risk. Changes that involve destructive actions or hard-to-reverse decisions are one-way doors.
+-
+-The blast radius is the potential impact or scope of the changes introduced by this PR. Consider all possibilities. Examples are layout shift, breakages for consumers, mobile responsiveness, etc.
++The visual-shaping guidance derives from Dex Horthy's show-me; see [CREDITS.md](CREDITS.md).

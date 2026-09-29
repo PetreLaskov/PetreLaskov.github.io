@@ -1,0 +1,54 @@
+--- a/source/skills/engineering/research/LICENSE
++++ b/refactored/research/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2026 Matt Pocock
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+--- a/source/skills/engineering/research/SKILL.md
++++ b/refactored/research/SKILL.md
+@@ -1,12 +1,21 @@
+ ---
+ name: research
+-description: Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.
++description: Investigate a bounded question against primary sources and save a cited Markdown answer for a decision or later session.
+ ---
++# Research
+ 
+-Spin up a **background agent** to do the research, so you keep working while it reads.
++Establish the question, relevant version or date, material subquestions, and output location from the request and repository conventions. Ask only for missing scope that materially changes the work.
+ 
+-Its job:
++## Coordinator
++When background delegation is available and useful, dispatch one researcher with the answer contract and file path. Tell it explicitly that it is the worker and must perform this research itself. Keep working on independent tasks. If already acting as the delegated researcher, skip delegation. If delegation is unavailable, do the work directly and say so.
+ 
+-1. Investigate the question against **primary sources** (official docs, source code, specs, first-party APIs), not a secondary write-up of them. Follow every claim back to the source that owns it.
+-2. Write the findings to a single Markdown file, citing each claim's source.
+-3. Save it where the repo already keeps such notes; match the existing convention, and if there is none, put it somewhere sensible and say where.
++## Researcher
++Follow claims to the primary sources that own them: official docs, specifications, source, or first-party APIs. Distinguish documented guarantees, implementation behavior, observed results, and inference. A first-party source is not automatically evidence for every claim it makes.
++
++Investigate material contradictions rather than smoothing them away. Keep version and date scope visible where they affect the answer. Use secondary material only as a lead to primary evidence, not as a substitute for the required support.
++
++Stop when each material subquestion is supported or explicitly unresolved. Continue searching only where another source could change a material conclusion.
++
++Write one Markdown file in the established notes location, or a sensible task-local location if none exists. Include the question, usable findings with source links or exact code locators, consequential caveats, and unresolved points. Cite the claim at the scope the source actually supports.
++
++Return the file path and a concise answer to the coordinating task. Do not create PRs, publish, or clean up unrelated artifacts merely to deliver research.

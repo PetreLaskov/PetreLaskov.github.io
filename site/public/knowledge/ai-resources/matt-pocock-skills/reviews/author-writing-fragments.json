@@ -1,0 +1,55 @@
+{
+  "slug": "writing-fragments",
+  "bucket": "in-progress",
+  "chapter": "chapters/writing-fragments.md",
+  "refactor": "refactored/writing-fragments/SKILL.md",
+  "original_slug": "anchored-variation",
+  "original_path": "original-skills/anchored-variation/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "Mine heterogeneous writing fragments through conversation without prematurely imposing an outline.",
+  "source_files_read": [
+    "skills/in-progress/writing-fragments/agents/openai.yaml",
+    "skills/in-progress/writing-fragments/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Preserve rawness while marking origin",
+      "reason": "Retain the single-file fragment format, but identify invented examples and proposed claims when needed to prevent false attribution.",
+      "tradeoff": "A little visible attribution interrupts an otherwise seamless notebook."
+    },
+    {
+      "id": "D2",
+      "change": "Replace relentless questioning with responsive pursuit",
+      "reason": "Keep the interview vigorous while selecting questions by the material they can uncover and recognizing repetition.",
+      "tradeoff": "The assistant must exercise editorial judgment rather than follow a forceful slogan."
+    },
+    {
+      "id": "D3",
+      "change": "Make the phase transition explicit",
+      "reason": "Stop at a pause or a user-chosen move to composition; do not smuggle in an outline.",
+      "tradeoff": "A user expecting an immediate finished article needs a different workflow."
+    },
+    {
+      "id": "D4",
+      "change": "Adapt Codex packaging without changing invocation",
+      "reason": "Omit Claude-only disable-model-invocation and argument-hint keys while preserving explicit-only policy in the copied agents/openai.yaml.",
+      "tradeoff": "The study package targets Codex metadata rather than being a byte-identical cross-host manifest."
+    }
+  ],
+  "initial_original_slug": "counterimage",
+  "original_revision_reason": "Independent portfolio review identified substantial overlap with thesis-stress-test. Replace the duplicate with identity-preserving creative variation.",
+  "evaluation_status": "recorded-development-trials"
+}

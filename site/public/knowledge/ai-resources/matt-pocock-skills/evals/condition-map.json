@@ -1,0 +1,917 @@
+{
+  "note": "Not supplied to graders; labels vary by case. Response content can still reveal condition, so this is limited anonymization.",
+  "mappings": [
+    {
+      "id": "writing-for-agents-N",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "writing-for-agents-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "writing-for-agents-X",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "grilling-N",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "grilling-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "grilling-X",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "grill-me-N",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "grill-me-S",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "grill-me-X",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "teach-N",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "teach-S",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "teach-X",
+      "mapping": {
+        "A": "source",
+        "B": "control",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "research-N",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "research-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "research-X",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "handoff-N",
+      "mapping": {
+        "A": "source",
+        "B": "control",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "handoff-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "handoff-X",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "prototype-N",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "prototype-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "prototype-X",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "wayfinder-N",
+      "mapping": {
+        "A": "source",
+        "B": "control",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "wayfinder-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "wayfinder-X",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "to-spec-N",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "to-spec-S",
+      "mapping": {
+        "A": "source",
+        "B": "control",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "to-spec-X",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "domain-modeling-N",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "domain-modeling-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "domain-modeling-X",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "wait-what-N",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "wait-what-S",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "wait-what-X",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "grill-with-docs-N",
+      "mapping": {
+        "A": "source",
+        "B": "control",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "grill-with-docs-S",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "grill-with-docs-X",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "loop-me-N",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "loop-me-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "loop-me-X",
+      "mapping": {
+        "A": "source",
+        "B": "control",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "retro-N",
+      "mapping": {
+        "A": "source",
+        "B": "control",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "retro-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "retro-X",
+      "mapping": {
+        "A": "source",
+        "B": "control",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "to-tickets-N",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "to-tickets-S",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "to-tickets-X",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "diagnosing-bugs-N",
+      "mapping": {
+        "A": "source",
+        "B": "control",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "diagnosing-bugs-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "diagnosing-bugs-X",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "code-review-N",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "code-review-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "code-review-X",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "tdd-N",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "tdd-S",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "tdd-X",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "implement-N",
+      "mapping": {
+        "A": "source",
+        "B": "control",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "implement-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "implement-X",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "writing-fragments-N",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "writing-fragments-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "writing-fragments-X",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "writing-shape-N",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "writing-shape-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "writing-shape-X",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "writing-beats-N",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "writing-beats-S",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "writing-beats-X",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "to-questionnaire-N",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "to-questionnaire-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "to-questionnaire-X",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "scaffold-exercises-N",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "scaffold-exercises-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "scaffold-exercises-X",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "codebase-design-N",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "codebase-design-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "codebase-design-X",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "improve-codebase-architecture-N",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "improve-codebase-architecture-S",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "improve-codebase-architecture-X",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "ask-matt-N",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "ask-matt-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "ask-matt-X",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "setup-matt-pocock-skills-N",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "setup-matt-pocock-skills-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "setup-matt-pocock-skills-X",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "pr-N",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "pr-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "pr-X",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "triage-N",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "triage-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "triage-X",
+      "mapping": {
+        "A": "source",
+        "B": "refactor",
+        "C": "control"
+      }
+    },
+    {
+      "id": "resolving-merge-conflicts-N",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "resolving-merge-conflicts-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "resolving-merge-conflicts-X",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "wizard-N",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "wizard-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "wizard-X",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "implement-spec-N",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "implement-spec-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "implement-spec-X",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "claude-handoff-N",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "claude-handoff-S",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "claude-handoff-X",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "setup-pre-commit-N",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "setup-pre-commit-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "setup-pre-commit-X",
+      "mapping": {
+        "A": "refactor",
+        "B": "control",
+        "C": "source"
+      }
+    },
+    {
+      "id": "git-guardrails-claude-code-N",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "git-guardrails-claude-code-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "git-guardrails-claude-code-X",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "setup-ts-deep-modules-N",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "setup-ts-deep-modules-S",
+      "mapping": {
+        "A": "refactor",
+        "B": "source",
+        "C": "control"
+      }
+    },
+    {
+      "id": "setup-ts-deep-modules-X",
+      "mapping": {
+        "A": "source",
+        "B": "control",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "migrate-to-shoehorn-N",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    },
+    {
+      "id": "migrate-to-shoehorn-S",
+      "mapping": {
+        "A": "control",
+        "B": "refactor",
+        "C": "source"
+      }
+    },
+    {
+      "id": "migrate-to-shoehorn-X",
+      "mapping": {
+        "A": "control",
+        "B": "source",
+        "C": "refactor"
+      }
+    }
+  ]
+}

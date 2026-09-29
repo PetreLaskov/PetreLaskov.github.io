@@ -1,0 +1,187 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>domain-modeling — agent skill guide, critique and refactor — Petre Laskov</title><meta name="description" content="Study of Matt Pocock’s domain-modeling skill: when to use it, strengths, criticism, proposed refactor, exact differences, an original proposal and recorded evaluations."><link rel="canonical" href="https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/domain-modeling/"><meta property="og:type" content="article"><meta property="og:title" content="domain-modeling — agent skill guide, critique and refactor"><meta property="og:description" content="Study of Matt Pocock’s domain-modeling skill: when to use it, strengths, criticism, proposed refactor, exact differences, an original proposal and recorded evaluations."><meta property="og:url" content="https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/domain-modeling/"><meta property="og:site_name" content="Petre Laskov"><meta name="twitter:card" content="summary"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/domain-modeling/#edition","url":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/domain-modeling/","name":"domain-modeling — agent skill guide, critique and refactor","headline":"domain-modeling — agent skill guide, critique and refactor","description":"Study of Matt Pocock’s domain-modeling skill: when to use it, strengths, criticism, proposed refactor, exact differences, an original proposal and recorded evaluations.","inLanguage":"en","datePublished":"2026-09-29","dateModified":"2026-09-29","publisher":{"@type":"Person","name":"Petre Laskov","url":"https://petrelaskov.github.io/"},"isBasedOn":{"@type":"CreativeWork","name":"Matt Pocock skills","url":"https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7","author":{"@type":"Person","name":"Matt Pocock"}},"isPartOf":{"@type":"CreativeWork","name":"Matt Pocock skills — full study edition","url":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/"},"creativeWorkStatus":"AI-generated study edition with inspectable development evaluation"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Petre Laskov","item":"https://petrelaskov.github.io/"},{"@type":"ListItem","position":2,"name":"The Knowledge Project","item":"https://petrelaskov.github.io/knowledge/"},{"@type":"ListItem","position":3,"name":"AI Resources","item":"https://petrelaskov.github.io/knowledge/ai-resources/"},{"@type":"ListItem","position":4,"name":"Matt Pocock skills","item":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/"},{"@type":"ListItem","position":5,"name":"domain-modeling — agent skill guide, critique and refactor","item":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/domain-modeling/"}]}]}</script><style>body{margin:0;background:#f7f5ef;color:#202727;font:17px/1.75 system-ui,sans-serif}a{color:#145b77;text-underline-offset:3px}header,main,footer{width:min(900px,calc(100% - 40px));margin:auto}header{padding:28px 0;border-bottom:1px solid #d7ddd4}nav{font-size:14px;line-height:1.8}nav a{margin-right:10px}main{padding:32px 0 60px}h1{font:700 clamp(27px,5vw,40px)/1.2 Georgia,serif;overflow-wrap:anywhere}h2{font:700 27px/1.3 Georgia,serif;margin-top:40px}h3{font-size:21px}p,li{overflow-wrap:anywhere}li{margin:10px 0}.meta{font-size:13px;color:#52615b}.material-links{padding:16px 0;border-block:1px solid #d7ddd4;margin:25px 0}.material-links a{display:inline-block;margin:3px 16px 3px 0}code{font:14px/1.6 ui-monospace,Consolas,monospace;overflow-wrap:anywhere}pre{padding:18px;background:#eef0e9;border:1px solid #d7ddd4;overflow:auto}pre code{white-space:pre;overflow-wrap:normal}table{display:block;overflow:auto;border-collapse:collapse;font-size:14px}td,th{padding:9px;border:1px solid #d7ddd4;vertical-align:top}details{padding:14px;border:1px solid #d7ddd4;margin:20px 0}summary{cursor:pointer;font-weight:650;overflow-wrap:anywhere}blockquote{margin:24px 0;border-left:3px solid #205c4a;padding-left:20px}footer{padding:25px 0;font-size:13px;border-top:1px solid #d7ddd4}.chapter-list{padding-left:24px}.chapter-list p{margin:3px 0 20px;color:#52615b;font-size:15px}a:focus-visible{outline:3px solid #b5722e;outline-offset:4px}.skip{position:absolute;top:-100px}.skip:focus{top:0;background:white;padding:10px}img{max-width:100%}</style></head><body><a class="skip" href="#main">Skip to content</a><header><nav aria-label="Breadcrumb"><a href="/">Petre Laskov</a> / <a href="/knowledge/">The Knowledge Project</a> / <a href="/knowledge/ai-resources/">AI Resources</a> / <a href="/knowledge/ai-resources/matt-pocock-skills/">Matt Pocock skills</a> / <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/domain-modeling/">domain-modeling — agent skill guide, critique and refactor</a></nav><p class="meta">Study edition commissioned and published by Petre Laskov. Analysis, refactors and evaluations were produced with OpenAI Codex. Original skills by Matt Pocock, preserved under the MIT license. Independent reviews in this edition are AI reviews, not independent human validation. Published <time datetime="2026-09-29">29 September 2026</time>.</p></header><main id="main"><nav class="material-links" aria-label="Chapter materials"><a href="/knowledge/ai-resources/matt-pocock-skills/#domain-modeling/chapter">Open in the full reader</a><a href="/knowledge/ai-resources/matt-pocock-skills/chapters/domain-modeling.md">Chapter Markdown</a><a href="/knowledge/ai-resources/matt-pocock-skills/diffs/domain-modeling.diff">Exact package diff</a><a href="/knowledge/ai-resources/matt-pocock-skills/evals/domain-modeling.md">Evaluation record</a></nav><h1>Domain modeling: make the concepts agree</h1>
+<p><strong>Source:</strong> <a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/domain-modeling/SKILL.md">source/skills/engineering/domain-modeling/SKILL.md</a> at <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/engineering/domain-modeling/SKILL.md">Matt Pocock commit c55ee46073ed</a>. Human commentary: <a href="/knowledge/ai-resources/matt-pocock-skills/source/docs/engineering/domain-modeling.md">source/docs/engineering/domain-modeling.md</a>. These are the pinned study materials, not claims about the latest upstream release.</p>
+<p><strong>Collaboration bet: PILOT.</strong> Pilot where ambiguous domain words cause real mistakes; keep the glossary small, context-specific, and separated from implementation decisions.</p>
+<h2>Understand the skill</h2>
+<p>Domain-modeling is the active discipline of making a project&#39;s concepts precise. Reading existing vocabulary is not enough to trigger it. The skill challenges overloaded terms, proposes canonical words, invents concrete scenarios, compares user statements with code, and writes resolved definitions immediately (source SKILL.md:8, 44–64).</p>
+<p>Its artifacts have distinct jobs. CONTEXT.md is a glossary and nothing else. A root CONTEXT-MAP.md, when present, points to several bounded contexts. ADRs record selected architectural decisions, under docs/adr/ by the source convention. Everything is created lazily: no term means no empty glossary, and no qualifying decision means no empty ADR directory (SKILL.md:10–40).</p>
+<p>The glossary reference requires tight definitions of what something <strong>is</strong>, with aliases to avoid when competing names cause confusion. General programming concepts do not belong merely because the project uses them (CONTEXT-FORMAT.md:25–30). The same term can need different meanings in different contexts; the map supplies the boundary instead of forcing one universal definition.</p>
+<p>The ADR bar is unusually selective. All three conditions must hold: hard to reverse, surprising without context, and the result of a real tradeoff (SKILL.md:66–74; ADR-FORMAT.md:29–47). The format can be one paragraph. Its value is preserving why a non-obvious choice was made, not filling a template.</p>
+<h2>Worked example: one word, several concepts</h2>
+<p>Suppose the team uses “account” for a login identity, a paying organization, and a billing relationship. The agent should not choose the prettiest synonym and perform a global rename. It first asks which concept is meant in the current discussion and examines code where the distinction matters.</p>
+<p>A concrete scenario reveals the model: one person signs into two organizations; an organization changes its billing contact; a suspended login leaves invoices intact. If one Account object cannot explain these cases cleanly, there may be several concepts. The user might settle on User, Organization, and Billing Account. The glossary records those definitions; code changes remain a separate authorized task.</p>
+<p>Now suppose two contexts use “Customer” differently. Ordering means the party placing an order; Billing means the entity legally liable for payment. Forcing one definition could erase a real business distinction. A context map can name the boundary and relationship. The skill&#39;s purpose is conceptual agreement within the relevant context, not vocabulary uniformity everywhere.</p>
+<p>If the team chooses to reference customers across contexts by identifier rather than share mutable objects, that may qualify for an ADR. If it simply chooses the clearer button label, it probably does not. Importance alone is not the ADR criterion.</p>
+<h2>What it gets right</h2>
+<p>Concrete scenarios are the skill&#39;s strongest instrument. Abstract definitions can appear compatible until a case exposes conflicting ownership, identity, or lifecycle. A term is good when it supports consistent decisions in those cases, not when it sounds like domain-driven design.</p>
+<p>Cross-checking the code is also valuable. The user may describe intended behavior while the code reflects an older model. Surfacing that mismatch lets the team distinguish current reality from a proposed change. Automatically treating either as authoritative would be a mistake: code can be wrong, and a remembered rule can be outdated.</p>
+<p>Inline glossary updates preserve a resolved distinction before it is diluted by later discussion. The strict glossary boundary prevents the file from becoming a second specification. The minimal ADR format keeps the cost low enough that genuinely important reasoning may actually be recorded.</p>
+<h2>When to use it and when to abstain</h2>
+<p>Use it when terms are overloaded, different people mean different things, an entity&#39;s identity is unclear, or an architectural decision needs its reason preserved. It can help document an existing repository, but that is active modeling work requiring the user&#39;s domain understanding—not simply extracting identifiers from code.</p>
+<p>Do not invoke it merely to read CONTEXT.md. Do not build a glossary for every small script. A shared language earns maintenance when it prevents repeated ambiguity at naming boundaries such as interfaces, schema fields, statuses, and commands.</p>
+<p>Ordinary prose can tolerate synonyms. Applying alias bans to every sentence can make communication rigid without improving the model. The refactor focuses correction on ambiguity that changes behavior or ownership. It preserves the source&#39;s precision while allowing natural explanation.</p>
+<h2>Criticism and the strongest case for retaining the original</h2>
+<p>The source names fixed ADR paths and numbering. Teams with established conventions may already have accepted-decision formats elsewhere. A port that creates a parallel docs/adr directory can split the source of truth. Respecting the repository&#39;s existing convention is a small pragmatic change with high value.</p>
+<p>The instruction to call out conflicting terminology immediately can interrupt useful flow for harmless wording. A phrase deserves interruption when it conceals a different concept, not merely because it uses a noncanonical synonym in ordinary conversation. Over-enforcement can make the glossary feel like a language police force.</p>
+<p>The source compares code and current domain documents but does not direct the agent to search known prior decisions outside them. If a supplied issue or design note already settled a term, ignoring it can reopen debate unnecessarily. The repair should be targeted: inspect relevant referenced history, not search every closed issue on every noun.</p>
+<p>The strongest case for the original is that these constraints keep it focused. Its two references are small and meaningful. Making it a general requirements ledger would undermine the glossary-only rule. The refactor should preserve the three-part ADR gate and lazy artifacts rather than “improve” them into comprehensive documentation.</p>
+<h2>Portability and collaboration bet</h2>
+<p>There are no executable scripts. The package depends on repository reads, targeted file edits, and a conversation capable of resolving ambiguity. Its ordinary discovery policy should remain. ADRs are offered rather than automatically assumed, and any existing authorization to record decisions should be respected without repeatedly asking for the same permission.</p>
+<p>My <strong>pilot</strong> bet is reduced re-explanation and fewer concept-level mistakes where the domain is complex enough to justify a glossary. The falsifier is a growing artifact that the user cannot defend, definitions that merely rename code, or continued conceptual mistakes despite perfect vocabulary compliance. Correct nouns over a wrong model are not progress.</p>
+<h2>Refactor and numbered delta</h2>
+<ol>
+<li><strong>Begin with the relevant context and conventions.</strong> Read the map or root glossary and existing ADR practice. This avoids a competing documentation system.</li>
+<li><strong>Distinguish current and intended behavior.</strong> When code and conversation disagree, surface the mismatch without automatically rewriting either.</li>
+<li><strong>Challenge consequential ambiguity.</strong> Preserve active modeling while avoiding needless correction of harmless prose.</li>
+<li><strong>Keep definitions and decisions separate.</strong> The original glossary-only invariant and all-three ADR gate remain intact.</li>
+<li><strong>Consult relevant known history.</strong> Follow a supplied decision reference when it bears on the term. Do not turn vocabulary work into a repository-wide audit.</li>
+<li><strong>Preserve inline capture and lazy creation.</strong> The refactor does not defer glossary updates until a polished final report.</li>
+</ol>
+<p>A meaningful trial should include a harmless synonym, a genuine overloaded term, a code/intention mismatch, and a routine decision that fails one ADR gate. Creating a file in every case would be failure, not thoroughness.</p>
+<h2>Original proposal: boundary-cases</h2>
+<p>Boundary-cases is a compact modeling tool for any proposed category or rule. It constructs nearby cases that differ in one decisive property, then asks whether the rule classifies them as intended. Unlike domain-modeling, it does not require a repository or glossary. Its output is the clarified boundary and the cases that make it understandable.</p>
+<p>Suppose a policy distinguishes “minor” from “major” changes. The skill chooses a change with tiny code size but large user impact, and another with large internal churn but unchanged behavior. Those cases expose whether the boundary concerns effort, risk, compatibility, or experience. It does not merely list edge cases; it selects cases that discriminate between competing meanings.</p>
+<p>Within this collection, this isolates a mechanism used implicitly by several skills but not packaged as a standalone capability. Its cost is that invented cases may be unrealistic. The skill therefore checks relevance and stops when more cases do not change the rule. Its falsifier is a list of exotic hypotheticals that adds anxiety without making the boundary more usable.</p>
+<h2>Study exercises and connections</h2>
+<p>Choose a term used in three places in a project. Write a concrete scenario where two meanings diverge. Decide whether the fix is a definition, separate concepts, or separate contexts. Do not rename anything until that decision is clear.</p>
+<p>Apply the ADR&#39;s three conditions to three recent choices. Explain the failed condition for each rejected record. Compare <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/grill-with-docs/">grill-with-docs</a> for the composed interview, <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/to-spec/">to-spec</a> for implementation commitments, and <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/writing-for-agents/">writing-for-agents</a> for keeping the resulting artifacts precise.</p>
+<h2>Package and evaluation record</h2>
+<p>Read the <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/domain-modeling/SKILL.md">complete refactored skill</a>, the <a href="/knowledge/ai-resources/matt-pocock-skills/original-skills/boundary-cases/SKILL.md">original proposal</a>, and the <a href="/knowledge/ai-resources/matt-pocock-skills/reviews/author-domain-modeling.json">author metadata</a>. The metadata accounts for every source support file. The refactor retains Matt&#39;s MIT notice and existing invocation policy; the original proposal uses ordinary discovery. Neither package is installed by this chapter.</p>
+<p><a href="/knowledge/ai-resources/matt-pocock-skills/evals/domain-modeling.md">Independent behavioral evaluation</a> now records the trial responses and case-bound grades. The bet above remains a design hypothesis, not a demonstrated collaboration gain. Judge the recorded trial on the behavior it actually tested; tidy formatting alone cannot establish improvement.</p>
+<!-- INDEPENDENT-AUDIT -->
+<h2>Independent scrutiny</h2>
+<p>The semantic reviewer read the source and candidate independently of this chapter and its author bet. Initial verdict: <strong>clear</strong>. Active model building remains distinct from merely consuming vocabulary. The candidate preserves concrete scenario testing, code-versus-intent reconciliation, immediate capture of resolved terms, lazy creation, glossary-only content, and the three-part ADR bar. Existing support formats match those obligations and retain multi-context lookup. Allowing established project conventions avoids forcing a parallel documentation system. No source invariant requires the old presumption that either code or a user statement is automatically right; the candidate correctly surfaces that conflict. No actionable semantic defect found.</p>
+<p>None. Continue capturing only resolved definitions, not polished summaries of unresolved disputes.</p>
+<p>Evidence: <a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/domain-modeling/SKILL.md">source/skills/engineering/domain-modeling/SKILL.md:8-74</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/domain-modeling/CONTEXT-FORMAT.md">source/skills/engineering/domain-modeling/CONTEXT-FORMAT.md:25-60</a>; <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/domain-modeling/SKILL.md">refactored/domain-modeling/SKILL.md:7-17</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/domain-modeling/ADR-FORMAT.md">refactored/domain-modeling/ADR-FORMAT.md:29-37</a>. This is static inspection, not proof of a completed workflow.</p>
+<h3>Scrutiny of the original proposal</h3>
+<p>The independent portfolio reviewer read the proposed skill without this chapter&#39;s advocacy. Initial verdict for <strong>boundary-cases</strong>: <strong>merge</strong>. “Pilot” means worth a bounded test; it does not mean proven or selected for installation.</p>
+<p>Minimal pairs differing in one decisive property are a precise way to expose classification rules. The skill protects contested categories and distinguishes values from factual premises. It has a recognizable classification use case, but its core mechanism and output substantially overlap intent-examples and contrastive-explanation. It works best as a named mode.</p>
+<p><strong>Weakness:</strong> A single clarified rule may be inappropriate when different authorities legitimately use different boundaries. The final format suggests one rule even though the cautions allow contestation.</p>
+<p><strong>Suggested improvement:</strong> Merge into intent-examples as a classification mode, retaining minimal pairs and explicit decision authority. Permit an authority-indexed set of rules or an unresolved boundary instead of forcing one final definition.</p>
+<p>A proposed test was: Our policy says &#39;active customers receive support.&#39; Use nearby cases to clarify whether paused subscriptions, trial accounts, and overdue renewals count. Success would mean: The resulting cases isolate consequential classification properties, expose genuine policy choices, and preserve multiple valid conventions where no single authority settles them. This is a test proposal, not an observed outcome.</p>
+<p>The full <a href="/knowledge/ai-resources/matt-pocock-skills/reviews/refactor-audit.json">refactor audit</a> and <a href="/knowledge/ai-resources/matt-pocock-skills/reviews/original-portfolio.json">initial original-portfolio review</a> preserve the independent record. No proposal inherits effectiveness from having passed a structural check.</p>
+<section><h2>Complete proposed refactor</h2><details ><summary>ADR-FORMAT.md</summary><h3>ADR Format</h3>
+<p>ADRs live in <code>docs/adr/</code> and use sequential numbering: <code>0001-slug.md</code>, <code>0002-slug.md</code>, etc.</p>
+<p>Create the <code>docs/adr/</code> directory lazily: only when the first ADR is needed.</p>
+<h2>Template</h2>
+<pre><code class="language-md"># {Short title of the decision}
+
+{1-3 sentences: what&#39;s the context, what did we decide, and why.}
+</code></pre>
+<p>That&#39;s it. An ADR can be a single paragraph. The value is in recording <em>that</em> a decision was made and <em>why</em>, not in filling out sections.</p>
+<h2>Optional sections</h2>
+<p>Only include these when they add genuine value. Most ADRs won&#39;t need them.</p>
+<ul>
+<li><strong>Status</strong> frontmatter (<code>proposed | accepted | deprecated | superseded by ADR-NNNN</code>): useful when decisions are revisited</li>
+<li><strong>Considered Options</strong>: only when the rejected alternatives are worth remembering</li>
+<li><strong>Consequences</strong>: only when non-obvious downstream effects need to be called out</li>
+</ul>
+<h2>Numbering</h2>
+<p>Scan <code>docs/adr/</code> for the highest existing number and increment by one.</p>
+<h2>When to offer an ADR</h2>
+<p>All three of these must be true:</p>
+<ol>
+<li><strong>Hard to reverse</strong>: the cost of changing your mind later is meaningful</li>
+<li><strong>Surprising without context</strong>: a future reader will look at the code and wonder &quot;why on earth did they do it this way?&quot;</li>
+<li><strong>The result of a real trade-off</strong>: there were genuine alternatives and you picked one for specific reasons</li>
+</ol>
+<p>If a decision is easy to reverse, skip it: you&#39;ll just reverse it. If it&#39;s not surprising, nobody will wonder why. If there was no real alternative, there&#39;s nothing to record beyond &quot;we did the obvious thing.&quot;</p>
+<h3>What qualifies</h3>
+<ul>
+<li><strong>Architectural shape.</strong> &quot;We&#39;re using a monorepo.&quot; &quot;The write model is event-sourced, the read model is projected into Postgres.&quot;</li>
+<li><strong>Integration patterns between contexts.</strong> &quot;Ordering and Billing communicate via domain events, not synchronous HTTP.&quot;</li>
+<li><strong>Technology choices that carry lock-in.</strong> Database, message bus, auth provider, deployment target. Not every library: just the ones that would take a quarter to swap out.</li>
+<li><strong>Boundary and scope decisions.</strong> &quot;Customer data is owned by the Customer context; other contexts reference it by ID only.&quot; The explicit no-s are as valuable as the yes-s.</li>
+<li><strong>Deliberate deviations from the obvious path.</strong> &quot;We&#39;re using manual SQL instead of an ORM because X.&quot; Anything where a reasonable reader would assume the opposite. These stop the next engineer from &quot;fixing&quot; something that was deliberate.</li>
+<li><strong>Constraints not visible in the code.</strong> &quot;We can&#39;t use AWS because of compliance requirements.&quot; &quot;Response times must be under 200ms because of the partner API contract.&quot;</li>
+<li><strong>Rejected alternatives when the rejection is non-obvious.</strong> If you considered GraphQL and picked REST for subtle reasons, record it; otherwise someone will suggest GraphQL again in six months.</li>
+</ul>
+</details><details ><summary>agents/openai.yaml</summary><pre><code>interface:
+  display_name: &quot;Domain Modeling&quot;
+  short_description: &quot;Build and sharpen a domain model&quot;
+</code></pre></details><details ><summary>CONTEXT-FORMAT.md</summary><h3>CONTEXT.md Format</h3>
+<h2>Structure</h2>
+<pre><code class="language-md"># {Context Name}
+
+{One or two sentence description of what this context is and why it exists.}
+
+## Language
+
+**Order**:
+{A one or two sentence description of the term}
+_Avoid_: Purchase, transaction
+
+**Invoice**:
+A request for payment sent to a customer after delivery.
+_Avoid_: Bill, payment request
+
+**Customer**:
+A person or organization that places orders.
+_Avoid_: Client, buyer, account
+</code></pre>
+<h2>Rules</h2>
+<ul>
+<li><strong>Be opinionated.</strong> When multiple words exist for the same concept, pick the best one and list the others under <code>_Avoid_</code>.</li>
+<li><strong>Keep definitions tight.</strong> One or two sentences max. Define what it IS, not what it does.</li>
+<li><strong>Only include terms specific to this project&#39;s context.</strong> General programming concepts (timeouts, error types, utility patterns) don&#39;t belong even if the project uses them extensively. Before adding a term, ask: is this a concept unique to this context, or a general programming concept? Only the former belongs.</li>
+<li><strong>Group terms under subheadings</strong> when natural clusters emerge. If all terms belong to a single cohesive area, a flat list is fine.</li>
+</ul>
+<h2>Single vs multi-context repos</h2>
+<p><strong>Single context (most repos):</strong> One <code>CONTEXT.md</code> at the repo root.</p>
+<p><strong>Multiple contexts:</strong> A <code>CONTEXT-MAP.md</code> at the repo root lists the contexts, where they live, and how they relate to each other:</p>
+<pre><code class="language-md"># Context Map
+
+## Contexts
+
+- [Ordering](refactored/domain-modeling/src/ordering/CONTEXT.md): receives and tracks customer orders
+- [Billing](refactored/domain-modeling/src/billing/CONTEXT.md): generates invoices and processes payments
+- [Fulfillment](refactored/domain-modeling/src/fulfillment/CONTEXT.md): manages warehouse picking and shipping
+
+## Relationships
+
+- **Ordering → Fulfillment**: Ordering emits `OrderPlaced` events; Fulfillment consumes them to start picking
+- **Fulfillment → Billing**: Fulfillment emits `ShipmentDispatched` events; Billing consumes them to generate invoices
+- **Ordering ↔ Billing**: Shared types for `CustomerId` and `Money`
+</code></pre>
+<p>The skill infers which structure applies:</p>
+<ul>
+<li>If <code>CONTEXT-MAP.md</code> exists, read it to find contexts</li>
+<li>If only a root <code>CONTEXT.md</code> exists, single context</li>
+<li>If neither exists, create a root <code>CONTEXT.md</code> lazily when the first term is resolved</li>
+</ul>
+<p>When multiple contexts exist, infer which one the current topic relates to. If unclear, ask.</p>
+</details><details ><summary>LICENSE</summary><pre><code>MIT License
+
+Copyright (c) 2026 Matt Pocock
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</code></pre></details><details open><summary>SKILL.md</summary><pre><code>name: domain-modeling
+description: Sharpen project terminology and conceptual boundaries, maintain CONTEXT.md, and record qualifying architecture decisions.</code></pre><h3>Domain modeling</h3>
+<p>Use for changing the model, not merely reading existing vocabulary.</p>
+<p>Find the relevant CONTEXT.md through CONTEXT-MAP.md when present; otherwise use the root glossary. Read applicable ADRs and established documentation conventions. Follow known relevant decision references when they bear on the topic.</p>
+<p>Challenge ambiguity that changes meaning, ownership, identity, or behavior. Propose precise terms and test relationships with concrete scenarios. When code and a user statement disagree, distinguish current behavior from intended behavior and resolve the mismatch with the user; do not assume either is automatically correct.</p>
+<p>Capture a resolved term inline using <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/domain-modeling/CONTEXT-FORMAT.md">CONTEXT-FORMAT.md</a>. CONTEXT.md remains a glossary: no implementation plan, general programming dictionary, or running session notes. Create it only when there is a resolved term.</p>
+<p>Offer an ADR only when the choice is all three: hard to reverse, surprising without context, and a real tradeoff. Use existing project conventions; otherwise use <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/domain-modeling/ADR-FORMAT.md">ADR-FORMAT.md</a>. Respect already established authorization to record decisions. A session with no qualifying ADR needs none.</p>
+<p>Report unresolved conceptual conflicts rather than writing a polished definition that hides them.</p>
+</details></section><section><h2>Complete original proposal: boundary-cases</h2><details open><summary>SKILL.md</summary><pre><code>name: boundary-cases
+description: Clarify a category, policy, or conceptual rule by constructing realistic nearby cases that expose where its boundary lies.</code></pre><h3>Boundary cases</h3>
+<p>State the proposed rule and why classification matters. Identify competing interpretations rather than assuming the wording has one meaning.</p>
+<p>Construct a small set of realistic cases. Prefer minimal pairs differing in one decisive property, plus an ordinary case that should clearly belong and one that should clearly not. Explain why each case is relevant.</p>
+<p>Apply the rule and expose inconsistent or surprising results. Ask the user to choose only where the boundary reflects their values or domain authority; investigate factual premises yourself.</p>
+<p>Return the clarified rule, its known exception if any, and the smallest set of cases that explains it. Do not force a binary where the subject is continuous or contested. Stop when further cases do not change the boundary.</p>
+</details></section><nav class="material-links" aria-label="Chapter materials"><a href="/knowledge/ai-resources/matt-pocock-skills/#domain-modeling/chapter">Open in the full reader</a><a href="/knowledge/ai-resources/matt-pocock-skills/chapters/domain-modeling.md">Chapter Markdown</a><a href="/knowledge/ai-resources/matt-pocock-skills/diffs/domain-modeling.diff">Exact package diff</a><a href="/knowledge/ai-resources/matt-pocock-skills/evals/domain-modeling.md">Evaluation record</a></nav></main><footer><a href="/knowledge/ai-resources/matt-pocock-skills/">Full interactive reader</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/">All 38 chapters</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/evaluation/">Evaluation method and results</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/LICENSE-MATT-POCOCK.txt">Source license</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/PUBLICATION.md">Publication details</a></footer></body></html>

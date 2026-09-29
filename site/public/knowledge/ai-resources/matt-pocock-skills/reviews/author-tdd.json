@@ -1,0 +1,75 @@
+{
+  "slug": "tdd",
+  "bucket": "engineering",
+  "chapter": "chapters/tdd.md",
+  "refactor": "refactored/tdd/SKILL.md",
+  "original_slug": "change-the-representation",
+  "original_path": "original-skills/change-the-representation/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "Retain vertical red-green slices, independent expected values, and agreed behavioral seams; calibrate whether a test earns its cost and explain seam choices.",
+  "source_files_read": [
+    "source/skills/engineering/tdd/mocking.md",
+    "source/skills/engineering/tdd/SKILL.md",
+    "source/skills/engineering/tdd/tests.md",
+    "source/skills/engineering/tdd/agents/openai.yaml",
+    "source/docs/engineering/tdd.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "tests.md",
+      "action": "rewrite",
+      "reason": "Retain behavioral versus implementation-coupled and tautological examples; explain assertions that genuinely represent boundary contracts."
+    },
+    {
+      "file": "mocking.md",
+      "action": "rewrite",
+      "reason": "Retain external-boundary substitution and domain-shaped operations; distinguish doubles from verified production semantics."
+    },
+    {
+      "file": "agents/openai.yaml",
+      "action": "copy",
+      "reason": "Preserve source UI metadata and invocation policy exactly."
+    },
+    {
+      "file": "source/LICENSE",
+      "action": "copy",
+      "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Ask whether the change has meaningful behavior and an independent oracle before adding tests.",
+      "reason": "Mechanical changes can induce tautological tests.",
+      "tradeoff": "Some work is verified by type/build/manual checks rather than a new test."
+    },
+    {
+      "id": "D2",
+      "change": "Reuse existing seam agreement and explain catches, misses, and cost for new choices.",
+      "reason": "A label-only seam question transfers expert judgment to the user without help.",
+      "tradeoff": "A new seam proposal includes a little more explanation."
+    },
+    {
+      "id": "D3",
+      "change": "Require observing the intended red failure, not just creating a test before code.",
+      "reason": "An import error or already-green assertion does not establish sensitivity.",
+      "tradeoff": "Each meaningful slice includes an explicit execution."
+    },
+    {
+      "id": "D4",
+      "change": "Preserve separate structural review while allowing necessary local cleanup under green tests.",
+      "reason": "Broad redesign should not derail the loop, but an absolute ban can accumulate avoidable duplication.",
+      "tradeoff": "This deliberately differs from the source's strict review-only refactoring rule."
+    },
+    {
+      "id": "D5",
+      "change": "Qualify blanket bans on call counts and database observations by the actual contract.",
+      "reason": "A notification boundary may promise exactly one send; a persistence interface may be the real public contract.",
+      "tradeoff": "Requires understanding the seam rather than matching forbidden syntax."
+    }
+  ],
+  "source_commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+  "evaluation_status": "recorded-development-trials",
+  "author_word_count": 1578
+}

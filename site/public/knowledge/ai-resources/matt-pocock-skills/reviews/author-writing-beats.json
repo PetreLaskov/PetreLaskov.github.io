@@ -1,0 +1,59 @@
+{
+  "slug": "writing-beats",
+  "bucket": "in-progress",
+  "chapter": "chapters/writing-beats.md",
+  "refactor": "refactored/writing-beats/SKILL.md",
+  "original_slug": "reader-state-simulation",
+  "original_path": "original-skills/reader-state-simulation/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "Build an article one chosen beat at a time while tracking the concepts each beat requires and establishes.",
+  "source_files_read": [
+    "skills/in-progress/writing-beats/agents/openai.yaml",
+    "skills/in-progress/writing-beats/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Make grounding behavioral",
+      "reason": "Track what the reader can understand or distinguish rather than treating prior mention as sufficient.",
+      "tradeoff": "The model must make a fallible prediction about understanding."
+    },
+    {
+      "id": "D2",
+      "change": "Rebuild state after edits",
+      "reason": "Recompute prerequisites actually established by the saved article after substantial user changes.",
+      "tradeoff": "Adds a rereading step when a small edit changes meaning."
+    },
+    {
+      "id": "D3",
+      "change": "Keep the whole promise visible",
+      "reason": "Add a short reader promise to constrain locally attractive but globally drifting pivots.",
+      "tradeoff": "Slightly narrows the original adventure-like freedom."
+    },
+    {
+      "id": "D4",
+      "change": "Name absent support",
+      "reason": "Handle missing facts or scenes as gaps, preserving the fixed-pile boundary.",
+      "tradeoff": "Some tempting beats remain unavailable until the author supplies material."
+    },
+    {
+      "id": "D5",
+      "change": "Adapt Codex packaging without changing invocation",
+      "reason": "Omit Claude-only disable-model-invocation and argument-hint keys while preserving explicit-only policy in the copied agents/openai.yaml.",
+      "tradeoff": "The study package targets Codex metadata rather than being a byte-identical cross-host manifest."
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

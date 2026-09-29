@@ -1,0 +1,44 @@
+{
+  "slug": "research",
+  "bucket": "engineering",
+  "chapter": "chapters/research.md",
+  "refactor": "refactored/research/SKILL.md",
+  "original_slug": "evidence-fork",
+  "original_path": "original-skills/evidence-fork/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "Adopt bounded primary-source research with one delegation level, explicit unresolved claims, and a useful result file.",
+  "source_files_read": [
+    "source/skills/engineering/research/agents/openai.yaml",
+    "source/skills/engineering/research/SKILL.md",
+    "source/docs/engineering/research.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/engineering/research/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "Separate worker role",
+      "reason": "Source delegation can recurse",
+      "tradeoff": "Slightly longer dispatch"
+    },
+    {
+      "id": 2,
+      "change": "Bound questions and stopping",
+      "reason": "Source has no stop criterion",
+      "tradeoff": "Requires explicit scope"
+    },
+    {
+      "id": 3,
+      "change": "Distinguish evidence kinds",
+      "reason": "Primary-source status does not establish all claims",
+      "tradeoff": "More careful attribution"
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "grill-me",
+  "bucket": "productivity",
+  "chapter": "chapters/grill-me.md",
+  "refactor": "refactored/grill-me/SKILL.md",
+  "original_slug": "preference-probes",
+  "original_path": "original-skills/preference-probes/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "Keep a deliberate entrypoint for serious inquiry, with verified dependency loading and no automatic workspace creation.",
+  "source_files_read": [
+    "source/skills/productivity/grill-me/agents/openai.yaml",
+    "source/skills/productivity/grill-me/SKILL.md",
+    "source/docs/productivity/grill-me.md",
+    "source/LICENSE",
+    "source/skills/productivity/grilling/SKILL.md",
+    "source/out-of-scope/question-limits.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/productivity/grill-me/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "Add dependency fallback",
+      "reason": "Named invocation is not portable",
+      "tradeoff": "Slightly larger wrapper"
+    },
+    {
+      "id": 2,
+      "change": "State stateless contract",
+      "reason": "Human docs promise no workspace artifacts",
+      "tradeoff": "Limits automatic persistence"
+    },
+    {
+      "id": 3,
+      "change": "Omit Claude-only keys",
+      "reason": "Policy preserved in copied Codex metadata",
+      "tradeoff": "Target-specific packaging"
+    }
+  ],
+  "initial_original_slug": "counterexample-search",
+  "original_revision_reason": "Independent portfolio review identified near-duplication with construct-a-counterexample. Replace the duplicate with concrete elicitation of tacit preferences.",
+  "evaluation_status": "recorded-development-trials"
+}

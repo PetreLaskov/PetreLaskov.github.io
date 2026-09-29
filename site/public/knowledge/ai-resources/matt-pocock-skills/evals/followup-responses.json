@@ -1,0 +1,63 @@
+{
+  "scope": "Post-audit targeted development probes; selected after defects or duplicate proposals were found. Not held-out benchmark cases. Independent text-only behavior responses; no fixture side effects executed.",
+  "inputs_read": [
+    ".\\evals\\followup-prompts.json",
+    ".\\original-skills\\preference-probes\\SKILL.md",
+    ".\\original-skills\\anchored-variation\\SKILL.md",
+    ".\\original-skills\\instruction-ablation\\SKILL.md",
+    ".\\original-skills\\thesis-stress-test\\SKILL.md",
+    ".\\refactored\\triage\\SKILL.md"
+  ],
+  "input_hashes": [
+    {
+      "path": ".\\evals\\followup-prompts.json",
+      "sha256": "124c32511511185a1ab34bcec2ba2c8f6a437fa8734910859778befa4847697c"
+    },
+    {
+      "path": ".\\original-skills\\preference-probes\\SKILL.md",
+      "sha256": "03d66c848d0dbfe6f34d1a944a623abf63150294c4794d090fb043e94ab80540"
+    },
+    {
+      "path": ".\\original-skills\\anchored-variation\\SKILL.md",
+      "sha256": "6c51d92ef16742b23ccde748fc92d2c3a459db3d825eb89fed31e19412db2a2b"
+    },
+    {
+      "path": ".\\original-skills\\instruction-ablation\\SKILL.md",
+      "sha256": "aadcde191fbb2eb3ab6106cb78a337eb8c8caef9a5080f3391fc8bea53609aed"
+    },
+    {
+      "path": ".\\original-skills\\thesis-stress-test\\SKILL.md",
+      "sha256": "a474852fb54dbeb5d4588812f67644bbc6b6d173a1344aa28569e9c2bc4d630c"
+    },
+    {
+      "path": ".\\refactored\\triage\\SKILL.md",
+      "sha256": "cd4996abdb04b484309b156c0385f30d5d2994d214ea58eb621c3b93ebf0f661"
+    }
+  ],
+  "responses": [
+    {
+      "id": "preference-probes-01",
+      "response": "My working guess is that the distance comes from the broad claims—“innovative” and “transformative”—rather than from anything missing about your work. Here are two concrete introductions with the same facts:\n\n**A — Start with you**\n> I build small tools, write essays, and share notes.\n\n**B — Start with the visitor**\n> Here you’ll find the small tools I build, the essays I write, and the notes I share.\n\nA is shorter and more direct. B gives the reader a little more orientation, at the cost of a longer sentence. Neither needs a claim about how impressive the work is.\n\nWhich feels closer, and which specific phrase would you keep or reject? A hybrid is available if you like A’s brevity and B’s welcome.\n\nUntil you’ve reacted, I’d use A as a provisional starting point. The local working rule would be: name the work plainly before describing its significance. Applied to a nearby homepage heading, that gives “Tools, essays, and notes.” That is a proposal to test here, not a settled rule for your voice."
+    },
+    {
+      "id": "anchored-variation-01",
+      "response": "I’m keeping the flat delivery, the move from an ordinary room to a machine misreading the world, and a close that leaves something pending.\n\n**1. Change the timing**\n> The kettle clicks off. Nobody moves. Outside, a delivery drone approaches the church tower at each stroke of the bell. Between strokes it holds its position.\n\nThis stays closest to the original: the bell still directs the drone, but the mistake unfolds through movement and pauses. It gains a visible rhythm and loses the original’s sudden snap.\n\n**2. Change what the drone thinks the bell is**\n> The kettle clicks off. Nobody moves. The drone’s instructions say to leave the parcel with a neighbour. The church bell rings. It asks for a surname.\n\nThe sound becomes a possible recipient instead of a command. The ordinary delivery procedure carries the absurdity, and the unanswered question keeps the close open. The cost is a little more setup and a more human-seeming drone.\n\n**3. Change the scale**\n> The kettle clicks off. Nobody moves. Outside, the church bell rings and every delivery drone in the street begins to descend. One has brought a mattress.\n\nThe same misunderstanding becomes a public event. The domestic opening and matter-of-fact voice survive, while the mattress adds a practical problem nobody has addressed. It is more overtly comic and less solitary than the original."
+    },
+    {
+      "id": "instruction-ablation-01",
+      "response": "This can test the effect of repeating the rule in the task prompt. It cannot test the effect of removing the checking requirement, because that requirement remains active in both conditions.\n\nUse an **incremental wording experiment**:\n\n1. **Record the effective contexts.** Preserve the host’s checking rule in both conditions. Save the complete task prompt, other supplied instructions and skills, model/settings, source material, tool access, and permissions. Confirm that the sole intended difference is the duplicate sentence. Record explicitly that equivalent checking instructions remain present in both conditions.\n2. **Pair the prompts.** A includes the duplicate checking sentence; B omits only that sentence. Keep the substantive task and all artifacts identical within each pair. Use separate fresh contexts and counterbalance the order across repeated runs. No agents need to be launched now.\n3. **Include two task types.** Use a case where checking matters, such as a question whose supplied draft conflicts with an authoritative source in a fixed reference packet. Also use a nearby case with no new factual claims, such as rewriting a supplied paragraph while preserving its content. The second case tests whether repetition adds unnecessary work; the host’s requirements still govern it.\n4. **Freeze the measures before running.** Record end-to-end elapsed time, checking actions and tool calls, answer accuracy against a prewritten answer key, unsupported additions, and compliance with the host rule. Predefine a practically meaningful time difference—for example, 10%—and keep latency conditions comparable. Use repeated samples; report the paired differences and their uncertainty, not just one faster answer.\n5. **Inspect the outputs.** A speed gain accompanied by skipped required checks is a compliance failure, not an acceptable efficiency improvement. If tools, model settings, or independent contexts cannot be held comparable, label the result exploratory.\n\nA null result would support: “Within these tested tasks and this host context, we detected no additional effect from repeating the checking sentence.” If the uncertainty is narrow enough to exclude your predefined meaningful speed difference, you can also say that a speed effect of that size was not supported here. A noisy null only leaves the question unresolved.\n\nIt would not show that checking itself is costless, unnecessary, or safe to remove. The host rule may already be doing all the work. Until results exist, I would leave the host requirement intact and treat removal of the duplicate task sentence as the candidate change under test. No experiment or prompt change has been executed."
+    },
+    {
+      "id": "thesis-stress-test-01",
+      "response": "Your claim is normative: a library owes its public something that request throughput cannot fully represent. The supporting paragraph gives a reason to reject throughput as the sole standard. It still needs to explain why aimless browsing deserves a protected place and how much competing service it can reasonably displace.\n\n**Revised thesis**\n> Public libraries should preserve a meaningful opportunity for aimless browsing, even at some cost to service throughput, provided that doing so does not undermine basic access to essential services.\n\n**Revised supporting paragraph**\n> A public library should make room for people who have not yet decided what they are looking for. This follows from a commitment to self-directed inquiry: people should have some freedom to encounter and pursue interests that no service has selected in advance. Targeted digital services are valuable, and serving requests efficiently is a legitimate public responsibility. But throughput measures how quickly an institution answers expressed requests; it cannot by itself decide how much room the institution should leave for purposes still taking shape. Preserving a meaningful opportunity to browse therefore deserves a place in the library’s allocation of space and resources. That commitment has limits: where essential access is threatened, the form or extent of provision for browsing should be reconsidered.\n\nThis revision retains the willingness to incur a real efficiency cost while making the competing duty explicit. It does not depend on predicting that browsing will eventually produce more measurable benefits.\n\nThe smallest useful addition would be a short argument for why self-directed, unplanned inquiry belongs among a library’s public obligations, paired with one concrete allocation example showing what protecting browsing would cost. The value argument supports the obligation; the example makes the burden assessable. Neither a high browsing count nor an uplifting anecdote would settle the tradeoff alone.\n\n**Serious challenge:** Consider a library with a persistent queue for essential digital access and little spare space. Protecting browsing might give scarce resources to people with time to wander while others cannot complete urgent tasks. If you regard equal access to essential services as a stronger obligation, how much browsing space should survive that conflict—and would your position still protect a meaningful opportunity once the people bearing its cost have an equal say?"
+    },
+    {
+      "id": "triage-repair-full",
+      "response": "Issue 84 should be classified as **enhancement / wontfix — already implemented**, using the supplied verified facts. The request is satisfied by the existing export filter in the documented settings, and the reporter agrees.\n\nI would make these changes:\n\n- Set the category to `enhancement` and the triage state to `wontfix`. Remove `bug` and any conflicting triage-state labels (`needs-triage`, `needs-info`, `ready-for-agent`, or `ready-for-human`) if present. Preserve unrelated labels.\n- Post this comment:\n\n> *This was generated by AI during triage.*\n>\n> The requested export filter is already available in the documented settings. The reporter has confirmed that this existing filter meets the request. Closing as already implemented; no additional implementation is needed.\n\n- Close issue 84. Do not add it to rejection memory: the feature already exists, so this is not a rejection of the feature.\n- Read back the labels and open/closed status to confirm the changes.\n\n**Execution status:** All changes are prepared and unapplied. Tracker tools are unavailable, so I have not inspected or changed the live labels, posted the comment, closed the issue, or performed read-back verification. The bounded next step is to resolve issue 84 in the tracker, inspect its current labels/status, and apply the authorized changes above."
+    },
+    {
+      "id": "triage-repair-label-only",
+      "response": "The next action is to resolve issue 84 in the tracker and update labels only: add `enhancement` and `wontfix`, remove `bug` and any conflicting triage-state labels if present, and preserve unrelated labels. Then read back the labels and issue status to verify the result.\n\n**Execution status:** Unapplied; tracker tools are unavailable. No labels have been changed, no comment has been posted, and closure is unapplied. The live open/closed status has not been inspected. The authorized action remains limited to labels."
+    }
+  ]
+}

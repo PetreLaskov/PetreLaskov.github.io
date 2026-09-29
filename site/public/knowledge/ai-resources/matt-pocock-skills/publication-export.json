@@ -1,0 +1,3917 @@
+{
+  "published_at": "2026-09-29T09:57:20.963888+00:00",
+  "canonical": "https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/",
+  "reader_payload_unchanged": true,
+  "omitted": [
+    "reviews/project-NEXT-before-compendium.md"
+  ],
+  "normalization": "Host-specific paths only; chapter/source/package/diff/reader bytes unchanged.",
+  "files": [
+    {
+      "path": "BUILD-STATUS.md",
+      "source_sha256": "a05d8b8103e2cdf195f3101ba989882b91061b5f85544dfab4f6294b80132d88",
+      "published_sha256": "a05d8b8103e2cdf195f3101ba989882b91061b5f85544dfab4f6294b80132d88",
+      "changed": false
+    },
+    {
+      "path": "chapters/ask-matt.md",
+      "source_sha256": "93a8883a5f097058d303bb95f45eab7c4edf86caf15f5220b74aea272a0e7868",
+      "published_sha256": "93a8883a5f097058d303bb95f45eab7c4edf86caf15f5220b74aea272a0e7868",
+      "changed": false
+    },
+    {
+      "path": "chapters/claude-handoff.md",
+      "source_sha256": "6cfcd377ca1f948e4a79a1ccd748ccfe4c1f289015bda666e1279ba561952ee1",
+      "published_sha256": "6cfcd377ca1f948e4a79a1ccd748ccfe4c1f289015bda666e1279ba561952ee1",
+      "changed": false
+    },
+    {
+      "path": "chapters/code-review.md",
+      "source_sha256": "198415cf790b7773b298e34b979b04fe6dc3e964fdbae5f6f4435aedc69b2161",
+      "published_sha256": "198415cf790b7773b298e34b979b04fe6dc3e964fdbae5f6f4435aedc69b2161",
+      "changed": false
+    },
+    {
+      "path": "chapters/codebase-design.md",
+      "source_sha256": "1fc6d7b34c9a166a2247e22bd2a8826f30ed4cfb2d4a5efca0185c937457bbbf",
+      "published_sha256": "1fc6d7b34c9a166a2247e22bd2a8826f30ed4cfb2d4a5efca0185c937457bbbf",
+      "changed": false
+    },
+    {
+      "path": "chapters/diagnosing-bugs.md",
+      "source_sha256": "50a3a0f0969de083e1fa78ae70a87b32f7a492a39b0a416e240a8b5875b97216",
+      "published_sha256": "50a3a0f0969de083e1fa78ae70a87b32f7a492a39b0a416e240a8b5875b97216",
+      "changed": false
+    },
+    {
+      "path": "chapters/domain-modeling.md",
+      "source_sha256": "3d49d3c745caace3753a96a2c115478e0fec5fc80888bfb0426faeeba257c4e2",
+      "published_sha256": "3d49d3c745caace3753a96a2c115478e0fec5fc80888bfb0426faeeba257c4e2",
+      "changed": false
+    },
+    {
+      "path": "chapters/git-guardrails-claude-code.md",
+      "source_sha256": "55c6963dce185d1ac2a1ccb746605a0d1b48aad2eb4b053d5b46abb97e335463",
+      "published_sha256": "55c6963dce185d1ac2a1ccb746605a0d1b48aad2eb4b053d5b46abb97e335463",
+      "changed": false
+    },
+    {
+      "path": "chapters/grill-me.md",
+      "source_sha256": "be38248d9db60fa19efeed98309dc16b48c5a4cf77b7b4f4b64f614f70036908",
+      "published_sha256": "be38248d9db60fa19efeed98309dc16b48c5a4cf77b7b4f4b64f614f70036908",
+      "changed": false
+    },
+    {
+      "path": "chapters/grill-with-docs.md",
+      "source_sha256": "338e4625bc9d6437261ef33f0b4e1912fd903586243ad356603bcb6f318bfa28",
+      "published_sha256": "338e4625bc9d6437261ef33f0b4e1912fd903586243ad356603bcb6f318bfa28",
+      "changed": false
+    },
+    {
+      "path": "chapters/grilling.md",
+      "source_sha256": "b717c141144d6740e50a00315270db9cef134c0731099f74926a512551a765e4",
+      "published_sha256": "b717c141144d6740e50a00315270db9cef134c0731099f74926a512551a765e4",
+      "changed": false
+    },
+    {
+      "path": "chapters/handoff.md",
+      "source_sha256": "7ead2f4e8f6c2c02eb4808f511b2e573d741c245705395ac0c490ba4fed59b3d",
+      "published_sha256": "7ead2f4e8f6c2c02eb4808f511b2e573d741c245705395ac0c490ba4fed59b3d",
+      "changed": false
+    },
+    {
+      "path": "chapters/implement-spec.md",
+      "source_sha256": "714166f835229aa2e946057fa0896d570bd1323bc3b2211d6bdceeae0f1040f0",
+      "published_sha256": "714166f835229aa2e946057fa0896d570bd1323bc3b2211d6bdceeae0f1040f0",
+      "changed": false
+    },
+    {
+      "path": "chapters/implement.md",
+      "source_sha256": "c35b6d7993b4f85f2240e364513c414b2f7f7bf416c3f38d9cdab3f841c39af2",
+      "published_sha256": "c35b6d7993b4f85f2240e364513c414b2f7f7bf416c3f38d9cdab3f841c39af2",
+      "changed": false
+    },
+    {
+      "path": "chapters/improve-codebase-architecture.md",
+      "source_sha256": "7c913f9488d84d8d9d414a38f36622d7d31780dff70995a1ed85b00c47cbc2ac",
+      "published_sha256": "7c913f9488d84d8d9d414a38f36622d7d31780dff70995a1ed85b00c47cbc2ac",
+      "changed": false
+    },
+    {
+      "path": "chapters/loop-me.md",
+      "source_sha256": "79d7129bb7fb2e49468d4e37d76b3b33f0a59c6d7324331219d388f1c39f8500",
+      "published_sha256": "79d7129bb7fb2e49468d4e37d76b3b33f0a59c6d7324331219d388f1c39f8500",
+      "changed": false
+    },
+    {
+      "path": "chapters/migrate-to-shoehorn.md",
+      "source_sha256": "28c1655bf5ee3e33806148d91a4c750ee6b70b062637a3e75a9e68fcbc417a78",
+      "published_sha256": "28c1655bf5ee3e33806148d91a4c750ee6b70b062637a3e75a9e68fcbc417a78",
+      "changed": false
+    },
+    {
+      "path": "chapters/pr.md",
+      "source_sha256": "5ce3173bad182c6d2678bf68c293094184186785f8434f7fa5d98a3a04f014e2",
+      "published_sha256": "5ce3173bad182c6d2678bf68c293094184186785f8434f7fa5d98a3a04f014e2",
+      "changed": false
+    },
+    {
+      "path": "chapters/prototype.md",
+      "source_sha256": "a37329960bfb2bc807c5d45451c3afffe7a200a12ae98b4d9d24d47f4d1e05d6",
+      "published_sha256": "a37329960bfb2bc807c5d45451c3afffe7a200a12ae98b4d9d24d47f4d1e05d6",
+      "changed": false
+    },
+    {
+      "path": "chapters/research.md",
+      "source_sha256": "5670d33721d71a5aa73389e229094269e5527f4a6d02068bd88aadb8d820ad02",
+      "published_sha256": "5670d33721d71a5aa73389e229094269e5527f4a6d02068bd88aadb8d820ad02",
+      "changed": false
+    },
+    {
+      "path": "chapters/resolving-merge-conflicts.md",
+      "source_sha256": "acd7f85f1572db53e615ab75fd2985d47fce992fc8544fc390cb82092b910981",
+      "published_sha256": "acd7f85f1572db53e615ab75fd2985d47fce992fc8544fc390cb82092b910981",
+      "changed": false
+    },
+    {
+      "path": "chapters/retro.md",
+      "source_sha256": "776c978baf59dc8620fd4ae5ed229be5bfeab78232fda76046e5e89b55e93191",
+      "published_sha256": "776c978baf59dc8620fd4ae5ed229be5bfeab78232fda76046e5e89b55e93191",
+      "changed": false
+    },
+    {
+      "path": "chapters/scaffold-exercises.md",
+      "source_sha256": "f6ba1516e9667c7687e5ca0e4f1a91e05f18f69b548ac7f5f08ce7a037902bfe",
+      "published_sha256": "f6ba1516e9667c7687e5ca0e4f1a91e05f18f69b548ac7f5f08ce7a037902bfe",
+      "changed": false
+    },
+    {
+      "path": "chapters/setup-matt-pocock-skills.md",
+      "source_sha256": "fd2a0c94be76c69bd9804b2281c428d71917c8bf51f84f9ccec2c205e3847ee6",
+      "published_sha256": "fd2a0c94be76c69bd9804b2281c428d71917c8bf51f84f9ccec2c205e3847ee6",
+      "changed": false
+    },
+    {
+      "path": "chapters/setup-pre-commit.md",
+      "source_sha256": "02994ee834ab821fb2179485d40fd31ddff5867842cf10087b0fb81741a94f27",
+      "published_sha256": "02994ee834ab821fb2179485d40fd31ddff5867842cf10087b0fb81741a94f27",
+      "changed": false
+    },
+    {
+      "path": "chapters/setup-ts-deep-modules.md",
+      "source_sha256": "d350ed762b491d7d2aa32b8d6b4edce0097dc514594e47b94c0a4dcaf2393da2",
+      "published_sha256": "d350ed762b491d7d2aa32b8d6b4edce0097dc514594e47b94c0a4dcaf2393da2",
+      "changed": false
+    },
+    {
+      "path": "chapters/tdd.md",
+      "source_sha256": "99ab68a183a27cf938975abc21a5fc22505f254284a09de567e0eb5602474e5b",
+      "published_sha256": "99ab68a183a27cf938975abc21a5fc22505f254284a09de567e0eb5602474e5b",
+      "changed": false
+    },
+    {
+      "path": "chapters/teach.md",
+      "source_sha256": "b95cdadd6f88113dc4201a4886d5a00cd1baabb13fb32974702377ded6ce0856",
+      "published_sha256": "b95cdadd6f88113dc4201a4886d5a00cd1baabb13fb32974702377ded6ce0856",
+      "changed": false
+    },
+    {
+      "path": "chapters/to-questionnaire.md",
+      "source_sha256": "d0d03dc05f265529377bd52234faebabdbb4696a8c1c352611f625de34804ae1",
+      "published_sha256": "d0d03dc05f265529377bd52234faebabdbb4696a8c1c352611f625de34804ae1",
+      "changed": false
+    },
+    {
+      "path": "chapters/to-spec.md",
+      "source_sha256": "df32a9338c1aa2b9872b5943aa91570d44fff742ba6ee73a8d504bc44c223256",
+      "published_sha256": "df32a9338c1aa2b9872b5943aa91570d44fff742ba6ee73a8d504bc44c223256",
+      "changed": false
+    },
+    {
+      "path": "chapters/to-tickets.md",
+      "source_sha256": "6ea4e6fe749caa8f2b3eb11e05016e62f0ffea283c4e4bed4e2cab08687ee711",
+      "published_sha256": "6ea4e6fe749caa8f2b3eb11e05016e62f0ffea283c4e4bed4e2cab08687ee711",
+      "changed": false
+    },
+    {
+      "path": "chapters/triage.md",
+      "source_sha256": "ef99691c7018e4d47fe8835ab0011efca1fcdcfa969a005f521a5a303f8fedf6",
+      "published_sha256": "ef99691c7018e4d47fe8835ab0011efca1fcdcfa969a005f521a5a303f8fedf6",
+      "changed": false
+    },
+    {
+      "path": "chapters/wait-what.md",
+      "source_sha256": "3648ab38a36b1aab06943d6db2da8dea1fe50be4e118c5e85801bf608f985048",
+      "published_sha256": "3648ab38a36b1aab06943d6db2da8dea1fe50be4e118c5e85801bf608f985048",
+      "changed": false
+    },
+    {
+      "path": "chapters/wayfinder.md",
+      "source_sha256": "0b8edc6ee0f50bbc499ef11df8cca513c8a7a2d60577154f428bc6283ebabec5",
+      "published_sha256": "0b8edc6ee0f50bbc499ef11df8cca513c8a7a2d60577154f428bc6283ebabec5",
+      "changed": false
+    },
+    {
+      "path": "chapters/wizard.md",
+      "source_sha256": "4a76574df3c9901ed9cebd3e20f47118dda240dd12fed64bf670ca6dc2a0acc0",
+      "published_sha256": "4a76574df3c9901ed9cebd3e20f47118dda240dd12fed64bf670ca6dc2a0acc0",
+      "changed": false
+    },
+    {
+      "path": "chapters/writing-beats.md",
+      "source_sha256": "e927ae0e65082326ebe31869335a5b1b0abc4ca89daccab6c32e6e3ef44cbf7e",
+      "published_sha256": "e927ae0e65082326ebe31869335a5b1b0abc4ca89daccab6c32e6e3ef44cbf7e",
+      "changed": false
+    },
+    {
+      "path": "chapters/writing-for-agents.md",
+      "source_sha256": "1207c9ad82afcfa091456c57aff7129faea1b414dc3c6b12410b53b557012fe7",
+      "published_sha256": "1207c9ad82afcfa091456c57aff7129faea1b414dc3c6b12410b53b557012fe7",
+      "changed": false
+    },
+    {
+      "path": "chapters/writing-fragments.md",
+      "source_sha256": "3d0c3ae6cba737be7b681442bb9a99562e5ee1df18be26c9b85f25b5e9c29130",
+      "published_sha256": "3d0c3ae6cba737be7b681442bb9a99562e5ee1df18be26c9b85f25b5e9c29130",
+      "changed": false
+    },
+    {
+      "path": "chapters/writing-shape.md",
+      "source_sha256": "3c685ae92fca04937f54059c0f46332ea8b520972e575b2ff56a236093cca3cc",
+      "published_sha256": "3c685ae92fca04937f54059c0f46332ea8b520972e575b2ff56a236093cca3cc",
+      "changed": false
+    },
+    {
+      "path": "COMPENDIUM.html",
+      "source_sha256": "f60a795f56492cb63a7678439d8943548cb39e4e52805be5e40ce68d942db4df",
+      "published_sha256": "f60a795f56492cb63a7678439d8943548cb39e4e52805be5e40ce68d942db4df",
+      "changed": false
+    },
+    {
+      "path": "COMPENDIUM.md",
+      "source_sha256": "25cd4aab4358166a478fe416400cd68cd4a943729fa3a0b9cf4f28176c597595",
+      "published_sha256": "25cd4aab4358166a478fe416400cd68cd4a943729fa3a0b9cf4f28176c597595",
+      "changed": false
+    },
+    {
+      "path": "diffs/ask-matt.diff",
+      "source_sha256": "b197f97c6d72b58c3201ae6822a0b7257a321dea3c9262d7d4cbc512efa1b5bf",
+      "published_sha256": "b197f97c6d72b58c3201ae6822a0b7257a321dea3c9262d7d4cbc512efa1b5bf",
+      "changed": false
+    },
+    {
+      "path": "diffs/claude-handoff.diff",
+      "source_sha256": "59eb10c21ca47cc61c55fad25face38cf6cbbdf9701b0125df157fc368e0b081",
+      "published_sha256": "59eb10c21ca47cc61c55fad25face38cf6cbbdf9701b0125df157fc368e0b081",
+      "changed": false
+    },
+    {
+      "path": "diffs/code-review.diff",
+      "source_sha256": "3d4dc5e372184dcd0d9e812b75d7e567272fed4202b56489be564a4b44c38c65",
+      "published_sha256": "3d4dc5e372184dcd0d9e812b75d7e567272fed4202b56489be564a4b44c38c65",
+      "changed": false
+    },
+    {
+      "path": "diffs/codebase-design.diff",
+      "source_sha256": "0e14e9505e209063fa1a73dd3861f34c6c46960c59486a804e1f24b9996a20b4",
+      "published_sha256": "0e14e9505e209063fa1a73dd3861f34c6c46960c59486a804e1f24b9996a20b4",
+      "changed": false
+    },
+    {
+      "path": "diffs/diagnosing-bugs.diff",
+      "source_sha256": "b79282242a9fa946ea96143cf3cc7ee64562017e7c2c498b0a36b80850a151d1",
+      "published_sha256": "b79282242a9fa946ea96143cf3cc7ee64562017e7c2c498b0a36b80850a151d1",
+      "changed": false
+    },
+    {
+      "path": "diffs/domain-modeling.diff",
+      "source_sha256": "6fab2a369c55dd6eecd7c820dd3ddce5e5ec92ee58531ba61e5041372c72f6db",
+      "published_sha256": "6fab2a369c55dd6eecd7c820dd3ddce5e5ec92ee58531ba61e5041372c72f6db",
+      "changed": false
+    },
+    {
+      "path": "diffs/git-guardrails-claude-code.diff",
+      "source_sha256": "3ba2c1cbadb27960ff79876c410b44bd25e064b9b6b77a7e3ce9429dc8bf0600",
+      "published_sha256": "3ba2c1cbadb27960ff79876c410b44bd25e064b9b6b77a7e3ce9429dc8bf0600",
+      "changed": false
+    },
+    {
+      "path": "diffs/grill-me.diff",
+      "source_sha256": "359bd074065a3fe0e32c0050446b1e4ed3d5e23411faac9a9d36f4bc0da43d1f",
+      "published_sha256": "359bd074065a3fe0e32c0050446b1e4ed3d5e23411faac9a9d36f4bc0da43d1f",
+      "changed": false
+    },
+    {
+      "path": "diffs/grill-with-docs.diff",
+      "source_sha256": "496fc5ec29ecf6a7d1e4406136594463955361a6847bb2807070844de410e767",
+      "published_sha256": "496fc5ec29ecf6a7d1e4406136594463955361a6847bb2807070844de410e767",
+      "changed": false
+    },
+    {
+      "path": "diffs/grilling.diff",
+      "source_sha256": "01fd2df4c302bacfae05fddc8b3fc29988089bf0c9176e094d8d623c3745362d",
+      "published_sha256": "01fd2df4c302bacfae05fddc8b3fc29988089bf0c9176e094d8d623c3745362d",
+      "changed": false
+    },
+    {
+      "path": "diffs/handoff.diff",
+      "source_sha256": "e8f491c0e2207a054ab82cc6d57b13ecbb4b24fca4140e0c42ee0455f16c5d19",
+      "published_sha256": "e8f491c0e2207a054ab82cc6d57b13ecbb4b24fca4140e0c42ee0455f16c5d19",
+      "changed": false
+    },
+    {
+      "path": "diffs/implement-spec.diff",
+      "source_sha256": "96696309feb2a581bbc8a52086e376fca867f0a2f42dbeb8df88a10f71abfa54",
+      "published_sha256": "96696309feb2a581bbc8a52086e376fca867f0a2f42dbeb8df88a10f71abfa54",
+      "changed": false
+    },
+    {
+      "path": "diffs/implement.diff",
+      "source_sha256": "a05f667bc5a6b36b240c7615520c0f1589bac0868fbd14dcc5448ecdaa6a74bc",
+      "published_sha256": "a05f667bc5a6b36b240c7615520c0f1589bac0868fbd14dcc5448ecdaa6a74bc",
+      "changed": false
+    },
+    {
+      "path": "diffs/improve-codebase-architecture.diff",
+      "source_sha256": "6d44dd9884f8c40a05b4515638449cca6c02c579f0d14699f0e2cb1ecd8e9037",
+      "published_sha256": "6d44dd9884f8c40a05b4515638449cca6c02c579f0d14699f0e2cb1ecd8e9037",
+      "changed": false
+    },
+    {
+      "path": "diffs/loop-me.diff",
+      "source_sha256": "00cb9d35c98ec62e083ab37d47672f0ade0b71c361799c6ca72251d8c402bee1",
+      "published_sha256": "00cb9d35c98ec62e083ab37d47672f0ade0b71c361799c6ca72251d8c402bee1",
+      "changed": false
+    },
+    {
+      "path": "diffs/migrate-to-shoehorn.diff",
+      "source_sha256": "b37d54371a1834425a65cda20b1e1fe3d193dab7d379305d6a44db7138bc91d8",
+      "published_sha256": "b37d54371a1834425a65cda20b1e1fe3d193dab7d379305d6a44db7138bc91d8",
+      "changed": false
+    },
+    {
+      "path": "diffs/pr.diff",
+      "source_sha256": "5154eb92d5f76319aa216e2c864334218b0d2206083ba3eadba0a44e144e4b56",
+      "published_sha256": "5154eb92d5f76319aa216e2c864334218b0d2206083ba3eadba0a44e144e4b56",
+      "changed": false
+    },
+    {
+      "path": "diffs/prototype.diff",
+      "source_sha256": "de9672b2d3e933060d74673dcf84b8ecb43b101e1fe19ae97143eec0f5e5d2b3",
+      "published_sha256": "de9672b2d3e933060d74673dcf84b8ecb43b101e1fe19ae97143eec0f5e5d2b3",
+      "changed": false
+    },
+    {
+      "path": "diffs/research.diff",
+      "source_sha256": "55600296a0cba6d65f62a670e4a65ad9051f6e11743b1bdb062255f6acdf5ceb",
+      "published_sha256": "55600296a0cba6d65f62a670e4a65ad9051f6e11743b1bdb062255f6acdf5ceb",
+      "changed": false
+    },
+    {
+      "path": "diffs/resolving-merge-conflicts.diff",
+      "source_sha256": "0a1b173eac99c04d395a943bf7ca83d605a39aec19e0afddabef8fcbe628f00f",
+      "published_sha256": "0a1b173eac99c04d395a943bf7ca83d605a39aec19e0afddabef8fcbe628f00f",
+      "changed": false
+    },
+    {
+      "path": "diffs/retro.diff",
+      "source_sha256": "017a57256f8400723a1a18c7cb2293edf9eb2f311da2250072e4cfdf7daf8833",
+      "published_sha256": "017a57256f8400723a1a18c7cb2293edf9eb2f311da2250072e4cfdf7daf8833",
+      "changed": false
+    },
+    {
+      "path": "diffs/scaffold-exercises.diff",
+      "source_sha256": "071c1bf2f78a5df9f1729c08243fab8d029aef17bb484fd1c429ad2523175722",
+      "published_sha256": "071c1bf2f78a5df9f1729c08243fab8d029aef17bb484fd1c429ad2523175722",
+      "changed": false
+    },
+    {
+      "path": "diffs/setup-matt-pocock-skills.diff",
+      "source_sha256": "74e5a6de675afde670e7d9f2b2a11778fd7d4d49dae1218d08ffde174890d2d2",
+      "published_sha256": "74e5a6de675afde670e7d9f2b2a11778fd7d4d49dae1218d08ffde174890d2d2",
+      "changed": false
+    },
+    {
+      "path": "diffs/setup-pre-commit.diff",
+      "source_sha256": "b57c57c0b6754af09c19cf0d25a32cc27b193a92fecc1d339304bc4a41c354a4",
+      "published_sha256": "b57c57c0b6754af09c19cf0d25a32cc27b193a92fecc1d339304bc4a41c354a4",
+      "changed": false
+    },
+    {
+      "path": "diffs/setup-ts-deep-modules.diff",
+      "source_sha256": "ab7970c20b98b70888b23fee1769e9f450879a8ace8f3fbd441c57162436abb1",
+      "published_sha256": "ab7970c20b98b70888b23fee1769e9f450879a8ace8f3fbd441c57162436abb1",
+      "changed": false
+    },
+    {
+      "path": "diffs/tdd.diff",
+      "source_sha256": "8f493cdc4892a6fba4249785f33b6b24ef887e9ba6b33a3798afec0aa3512d9e",
+      "published_sha256": "8f493cdc4892a6fba4249785f33b6b24ef887e9ba6b33a3798afec0aa3512d9e",
+      "changed": false
+    },
+    {
+      "path": "diffs/teach.diff",
+      "source_sha256": "b91ed35571902cfc04916b2254529df499cccb38b0f399e2f8484d0c6b77a056",
+      "published_sha256": "b91ed35571902cfc04916b2254529df499cccb38b0f399e2f8484d0c6b77a056",
+      "changed": false
+    },
+    {
+      "path": "diffs/to-questionnaire.diff",
+      "source_sha256": "65cbbdf47a813ac28320674866dbb4eb7215ecb8d29896ca61896f108b8ad144",
+      "published_sha256": "65cbbdf47a813ac28320674866dbb4eb7215ecb8d29896ca61896f108b8ad144",
+      "changed": false
+    },
+    {
+      "path": "diffs/to-spec.diff",
+      "source_sha256": "796793f6acbf81ec74e8b59cc40dda5339c5fb06a846b5fca4429369b383a472",
+      "published_sha256": "796793f6acbf81ec74e8b59cc40dda5339c5fb06a846b5fca4429369b383a472",
+      "changed": false
+    },
+    {
+      "path": "diffs/to-tickets.diff",
+      "source_sha256": "a54d195c6c81059fe78a19410925f8b5f9a108d02d2f5e5518cc86e32b3f3b1f",
+      "published_sha256": "a54d195c6c81059fe78a19410925f8b5f9a108d02d2f5e5518cc86e32b3f3b1f",
+      "changed": false
+    },
+    {
+      "path": "diffs/triage.diff",
+      "source_sha256": "984de7c2cc95edc205de076dbd54e28af86c12fb413a9b852b7be43f74b5e9f5",
+      "published_sha256": "984de7c2cc95edc205de076dbd54e28af86c12fb413a9b852b7be43f74b5e9f5",
+      "changed": false
+    },
+    {
+      "path": "diffs/wait-what.diff",
+      "source_sha256": "101b771f425d681869adcd413d4034d761355668ab20686affac22d3880d97b1",
+      "published_sha256": "101b771f425d681869adcd413d4034d761355668ab20686affac22d3880d97b1",
+      "changed": false
+    },
+    {
+      "path": "diffs/wayfinder.diff",
+      "source_sha256": "15e5b339034b82af6e7994aceab0165d396b6f2c1e3eebf2848a17063bc41412",
+      "published_sha256": "15e5b339034b82af6e7994aceab0165d396b6f2c1e3eebf2848a17063bc41412",
+      "changed": false
+    },
+    {
+      "path": "diffs/wizard.diff",
+      "source_sha256": "9d3f267e89f315b183a8dd2b65e62366601bb75b11a63860f02789d1f61ba99d",
+      "published_sha256": "9d3f267e89f315b183a8dd2b65e62366601bb75b11a63860f02789d1f61ba99d",
+      "changed": false
+    },
+    {
+      "path": "diffs/writing-beats.diff",
+      "source_sha256": "1d468cb89541a4cbc2056c1b3dd3c9206108597ca73e123e0a71da64d09e08df",
+      "published_sha256": "1d468cb89541a4cbc2056c1b3dd3c9206108597ca73e123e0a71da64d09e08df",
+      "changed": false
+    },
+    {
+      "path": "diffs/writing-for-agents.diff",
+      "source_sha256": "1ed6c2cb5f361d5a3db06f97eff3df8902851f10a03caccdd43f8c0423b859b7",
+      "published_sha256": "1ed6c2cb5f361d5a3db06f97eff3df8902851f10a03caccdd43f8c0423b859b7",
+      "changed": false
+    },
+    {
+      "path": "diffs/writing-fragments.diff",
+      "source_sha256": "0254261496fc80addcd8df4b9ad34603d717efcb49a19271c8c951b68e51c644",
+      "published_sha256": "0254261496fc80addcd8df4b9ad34603d717efcb49a19271c8c951b68e51c644",
+      "changed": false
+    },
+    {
+      "path": "diffs/writing-shape.diff",
+      "source_sha256": "42a8bd3bdac358b02c370a4da2b8aede49e149aeba631a611b4a9c76697c44b8",
+      "published_sha256": "42a8bd3bdac358b02c370a4da2b8aede49e149aeba631a611b4a9c76697c44b8",
+      "changed": false
+    },
+    {
+      "path": "evals/ask-matt.md",
+      "source_sha256": "8c23d861e9cea64738ac8a1c9a01f708dff9cdea752ccc45014f5d7ff3084758",
+      "published_sha256": "8c23d861e9cea64738ac8a1c9a01f708dff9cdea752ccc45014f5d7ff3084758",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/setup-matt-pocock-skills/agents/openai.yaml",
+      "source_sha256": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2",
+      "published_sha256": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/setup-matt-pocock-skills/domain.md",
+      "source_sha256": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54",
+      "published_sha256": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/setup-matt-pocock-skills/issue-tracker-github.md",
+      "source_sha256": "622190fd3b98ad54e24bd1226e9f90abfe9594a04f697fb29b233fe73b0d8e16",
+      "published_sha256": "622190fd3b98ad54e24bd1226e9f90abfe9594a04f697fb29b233fe73b0d8e16",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "source_sha256": "d211c3150fddae3ced118b4223ed450631d1490f62549b62d05db6eb9ccee241",
+      "published_sha256": "d211c3150fddae3ced118b4223ed450631d1490f62549b62d05db6eb9ccee241",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/setup-matt-pocock-skills/issue-tracker-local.md",
+      "source_sha256": "e8f868ae0941a5d94fa707d87322365860b3d9f8f3dc188553f9f0b091d5cf96",
+      "published_sha256": "e8f868ae0941a5d94fa707d87322365860b3d9f8f3dc188553f9f0b091d5cf96",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/setup-matt-pocock-skills/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/setup-matt-pocock-skills/SKILL.md",
+      "source_sha256": "a1b013203b25322419d1106a03b585f466b6429481b0d97b1d8e4668a3213abc",
+      "published_sha256": "a1b013203b25322419d1106a03b585f466b6429481b0d97b1d8e4668a3213abc",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/setup-matt-pocock-skills/triage-labels.md",
+      "source_sha256": "ab77e8ac8134c075e4a84d6f65fe0b6eb29c06a618bfc0d27fccf844e49c3b2a",
+      "published_sha256": "ab77e8ac8134c075e4a84d6f65fe0b6eb29c06a618bfc0d27fccf844e49c3b2a",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/triage/AGENT-BRIEF.md",
+      "source_sha256": "502a6e55e23a94fde22b1d9a95f575f81b4d14686ba38dd9e3012cd0aca47ab3",
+      "published_sha256": "502a6e55e23a94fde22b1d9a95f575f81b4d14686ba38dd9e3012cd0aca47ab3",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/triage/agents/openai.yaml",
+      "source_sha256": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae",
+      "published_sha256": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/triage/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/triage/OUT-OF-SCOPE.md",
+      "source_sha256": "c0a697b6362cc6774d84402a8fe8be01d291dfcf1628a263cf84b123f18deb7b",
+      "published_sha256": "c0a697b6362cc6774d84402a8fe8be01d291dfcf1628a263cf84b123f18deb7b",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/triage/SKILL.md",
+      "source_sha256": "adf34ffcc8cf94bece962ecff291bd9a33b0876efdd896d57157c802da5da173",
+      "published_sha256": "adf34ffcc8cf94bece962ecff291bd9a33b0876efdd896d57157c802da5da173",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/wizard/agents/openai.yaml",
+      "source_sha256": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249",
+      "published_sha256": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/wizard/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/wizard/SKILL.md",
+      "source_sha256": "2244f644e7444adc5d0e1e9c2b1647666aca059b2bd6f005e8a844c1cb171932",
+      "published_sha256": "2244f644e7444adc5d0e1e9c2b1647666aca059b2bd6f005e8a844c1cb171932",
+      "changed": false
+    },
+    {
+      "path": "evals/candidate-v1/wizard/template.sh",
+      "source_sha256": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3",
+      "published_sha256": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3",
+      "changed": false
+    },
+    {
+      "path": "evals/case-lock.json",
+      "source_sha256": "0465f4c6ed51cb0528afa9fb640f83070466b101c275a4146c057a733fcf5724",
+      "published_sha256": "0465f4c6ed51cb0528afa9fb640f83070466b101c275a4146c057a733fcf5724",
+      "changed": false
+    },
+    {
+      "path": "evals/cases-with-rubrics.json",
+      "source_sha256": "e8bf69bc171cd88abed700d0c35593838a21d1a57b8259f283747b2ea6b1d27c",
+      "published_sha256": "e8bf69bc171cd88abed700d0c35593838a21d1a57b8259f283747b2ea6b1d27c",
+      "changed": false
+    },
+    {
+      "path": "evals/claude-handoff.md",
+      "source_sha256": "18f6d1366e65afc81c91f08fa0e233726ea8b4df50c94d1e473c3528f3459e43",
+      "published_sha256": "18f6d1366e65afc81c91f08fa0e233726ea8b4df50c94d1e473c3528f3459e43",
+      "changed": false
+    },
+    {
+      "path": "evals/code-review.md",
+      "source_sha256": "9a4d6416457c020ccdcd3b9e9ad83bb01d918bfdee9267bde3abe49c52e1e67d",
+      "published_sha256": "9a4d6416457c020ccdcd3b9e9ad83bb01d918bfdee9267bde3abe49c52e1e67d",
+      "changed": false
+    },
+    {
+      "path": "evals/codebase-design.md",
+      "source_sha256": "31a25bbe9ef3c572ee9652855b899663e4e8dfc76dab2bd008d36d270743f9ac",
+      "published_sha256": "31a25bbe9ef3c572ee9652855b899663e4e8dfc76dab2bd008d36d270743f9ac",
+      "changed": false
+    },
+    {
+      "path": "evals/condition-map.json",
+      "source_sha256": "ccbc27f551fa9c8036e2a00c28ded886d9b9d8d9272cb5b0cb8b83b3edd595b8",
+      "published_sha256": "ccbc27f551fa9c8036e2a00c28ded886d9b9d8d9272cb5b0cb8b83b3edd595b8",
+      "changed": false
+    },
+    {
+      "path": "evals/CONDITIONS.json",
+      "source_sha256": "45dd46b85a18d026a22bc1688906b69d5e42d398ed2ba8c87af8c1c4d32c4ee9",
+      "published_sha256": "45dd46b85a18d026a22bc1688906b69d5e42d398ed2ba8c87af8c1c4d32c4ee9",
+      "changed": false
+    },
+    {
+      "path": "evals/control-responses.json",
+      "source_sha256": "6a08055b1299f20907f89e37a1036b33dd241fa5d6634f9f6d2ec691379bca9e",
+      "published_sha256": "6a08055b1299f20907f89e37a1036b33dd241fa5d6634f9f6d2ec691379bca9e",
+      "changed": false
+    },
+    {
+      "path": "evals/diagnosing-bugs.md",
+      "source_sha256": "ceb928c27839bc5f1949542a2af54fa0a9b6076a8ac9d9fd3d0ef6fdfb40c27b",
+      "published_sha256": "ceb928c27839bc5f1949542a2af54fa0a9b6076a8ac9d9fd3d0ef6fdfb40c27b",
+      "changed": false
+    },
+    {
+      "path": "evals/domain-modeling.md",
+      "source_sha256": "4cd07d4b8435a88d5ac341f241bc4f9066f5e687208326f98516cdacfd606232",
+      "published_sha256": "4cd07d4b8435a88d5ac341f241bc4f9066f5e687208326f98516cdacfd606232",
+      "changed": false
+    },
+    {
+      "path": "evals/followup-grades.json",
+      "source_sha256": "353ce75e652aff8f1dba941046b6ebc406982e8119aa1d9349274a85825cedeb",
+      "published_sha256": "353ce75e652aff8f1dba941046b6ebc406982e8119aa1d9349274a85825cedeb",
+      "changed": false
+    },
+    {
+      "path": "evals/followup-prompts.json",
+      "source_sha256": "124c32511511185a1ab34bcec2ba2c8f6a437fa8734910859778befa4847697c",
+      "published_sha256": "124c32511511185a1ab34bcec2ba2c8f6a437fa8734910859778befa4847697c",
+      "changed": false
+    },
+    {
+      "path": "evals/followup-responses.json",
+      "source_sha256": "8fc17b58ccf08a698f2f4c32813a80d2e20bdcf057be9485fc173f98ed0bf3d9",
+      "published_sha256": "5f0e1456888f0196bf53096e82722b611c27ae5e989ce30a6341558e9b10fff4",
+      "changed": true
+    },
+    {
+      "path": "evals/FOLLOWUP-RESULTS.md",
+      "source_sha256": "90b9489ed26793a51c077a88bb133e74187830c3a0228cd6b4520713463cbe18",
+      "published_sha256": "90b9489ed26793a51c077a88bb133e74187830c3a0228cd6b4520713463cbe18",
+      "changed": false
+    },
+    {
+      "path": "evals/followup-with-rubrics.json",
+      "source_sha256": "a3124693d25b0e88ab4fdd1c8783e14cb4c85ab0bd870c8167856df7a640d932",
+      "published_sha256": "a3124693d25b0e88ab4fdd1c8783e14cb4c85ab0bd870c8167856df7a640d932",
+      "changed": false
+    },
+    {
+      "path": "evals/git-guardrails-claude-code.md",
+      "source_sha256": "3be52f0171c0b3d890ee3938c39bda1d8e2896bb29e609002c973b42c234518b",
+      "published_sha256": "3be52f0171c0b3d890ee3938c39bda1d8e2896bb29e609002c973b42c234518b",
+      "changed": false
+    },
+    {
+      "path": "evals/grades-1.json",
+      "source_sha256": "007a29ff2d289d0e50579f6b730890eec367b62d1c38047602fe5250b0d195f3",
+      "published_sha256": "007a29ff2d289d0e50579f6b730890eec367b62d1c38047602fe5250b0d195f3",
+      "changed": false
+    },
+    {
+      "path": "evals/grades-2.json",
+      "source_sha256": "5ab306db0485d1a18008eb7e7fe82c515322ca0d4d3a69115872d57a5b38743a",
+      "published_sha256": "5ab306db0485d1a18008eb7e7fe82c515322ca0d4d3a69115872d57a5b38743a",
+      "changed": false
+    },
+    {
+      "path": "evals/grades-3.json",
+      "source_sha256": "458458335411718c11c371ffc9808de67c3f318d7f2ea1f8ac8565a504a2e69f",
+      "published_sha256": "458458335411718c11c371ffc9808de67c3f318d7f2ea1f8ac8565a504a2e69f",
+      "changed": false
+    },
+    {
+      "path": "evals/grill-me.md",
+      "source_sha256": "cb729573fd89b2202f493f72386cd642c736ab1ec09d458cea854991943aa32d",
+      "published_sha256": "cb729573fd89b2202f493f72386cd642c736ab1ec09d458cea854991943aa32d",
+      "changed": false
+    },
+    {
+      "path": "evals/grill-with-docs.md",
+      "source_sha256": "a4145d032d672f7ff634b4560b531928b69691114cb74b98e1df080fbed035ba",
+      "published_sha256": "a4145d032d672f7ff634b4560b531928b69691114cb74b98e1df080fbed035ba",
+      "changed": false
+    },
+    {
+      "path": "evals/grilling.md",
+      "source_sha256": "49b31adbab821eaa268e25079ef6c9300bf8bc3bb14e0cd4bc0d6b8ea4d321bb",
+      "published_sha256": "49b31adbab821eaa268e25079ef6c9300bf8bc3bb14e0cd4bc0d6b8ea4d321bb",
+      "changed": false
+    },
+    {
+      "path": "evals/handoff.md",
+      "source_sha256": "e3cd48cff06047bc853f90e9da65aaa678dd7a5f41389ba52764a15eaf710846",
+      "published_sha256": "e3cd48cff06047bc853f90e9da65aaa678dd7a5f41389ba52764a15eaf710846",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/jq-fixture-wrapper.sh",
+      "source_sha256": "6c8ade3b80f15af146c8fa1bd40852c35da2bfd1f366a7da3d66af9f04656bdd",
+      "published_sha256": "c7be524a916a93de20ae0ba79f471f81ec8f75c3b1d498bd38c595d4e7da9e1c",
+      "changed": true
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/ask-empty-required/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/ask-empty-required/run.sh",
+      "source_sha256": "cf97565564bba5abf9f992799148e7307e4423bf3377e828e3b77d053e499d46",
+      "published_sha256": "cf97565564bba5abf9f992799148e7307e4423bf3377e828e3b77d053e499d46",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/ask-eof-with-saved-value/fixture.env",
+      "source_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "published_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/ask-eof-with-saved-value/run.sh",
+      "source_sha256": "75bf9f1d081ca9ff77f0097bac69a2580c934e67c8a5cc894e9426b5a9899d5a",
+      "published_sha256": "75bf9f1d081ca9ff77f0097bac69a2580c934e67c8a5cc894e9426b5a9899d5a",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/ask-explicit-enter-reuses/fixture.env",
+      "source_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "published_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/ask-explicit-enter-reuses/run.sh",
+      "source_sha256": "79f1f8ec633f9ba8b7c20582acf4e94fcf296289e94d85afc6be91f1d41ac357",
+      "published_sha256": "79f1f8ec633f9ba8b7c20582acf4e94fcf296289e94d85afc6be91f1d41ac357",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/ask-new-value/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/ask-new-value/run.sh",
+      "source_sha256": "e858dabe6461a21bd0a85d0d017976328fe5da8eace6ff6c8bc0e6fd67d58513",
+      "published_sha256": "e858dabe6461a21bd0a85d0d017976328fe5da8eace6ff6c8bc0e6fd67d58513",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/failed-stage-stops-before-write/fixture.env",
+      "source_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "published_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/failed-stage-stops-before-write/run.sh",
+      "source_sha256": "59330cf36fd2f72bc3f4c39d38dd042374576beace4618b7fddc89fe39bc46f0",
+      "published_sha256": "59330cf36fd2f72bc3f4c39d38dd042374576beace4618b7fddc89fe39bc46f0",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/finish-after-failure/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/finish-after-failure/run.sh",
+      "source_sha256": "37f718318e153fb37021e202311eab5ba594621ab7839916ab5d5057bbadb79e",
+      "published_sha256": "37f718318e153fb37021e202311eab5ba594621ab7839916ab5d5057bbadb79e",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/pause-eof/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/pause-eof/run.sh",
+      "source_sha256": "ca5db17d213adc2b98e41789b438cef8f9ac3a802560f1d6c813455b47e28224",
+      "published_sha256": "ca5db17d213adc2b98e41789b438cef8f9ac3a802560f1d6c813455b47e28224",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/secret-auth-failure/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/secret-auth-failure/run.sh",
+      "source_sha256": "e1498b7ced20ee0ea29fa5b7dfa6a8bbf249eac807c664237a1335d6d9d4df65",
+      "published_sha256": "e1498b7ced20ee0ea29fa5b7dfa6a8bbf249eac807c664237a1335d6d9d4df65",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/secret-empty-required/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/secret-empty-required/run.sh",
+      "source_sha256": "387d25656812362dead54fc46a967c73b379814062d230de94d8c18d4668f6b8",
+      "published_sha256": "387d25656812362dead54fc46a967c73b379814062d230de94d8c18d4668f6b8",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/secret-eof-with-saved-value/fixture.env",
+      "source_sha256": "315ef0294d4e93507e3ea75d8e2ab95fc5b014965d2f464f77b8314b1325326d",
+      "published_sha256": "315ef0294d4e93507e3ea75d8e2ab95fc5b014965d2f464f77b8314b1325326d",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/secret-eof-with-saved-value/run.sh",
+      "source_sha256": "3d9dd9e3aa49fbb2a08e858b91b64f7b7b579b24878e4c4aad02e25ff51b5fe9",
+      "published_sha256": "3d9dd9e3aa49fbb2a08e858b91b64f7b7b579b24878e4c4aad02e25ff51b5fe9",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/secret-explicit-enter-reuses/fixture.env",
+      "source_sha256": "315ef0294d4e93507e3ea75d8e2ab95fc5b014965d2f464f77b8314b1325326d",
+      "published_sha256": "315ef0294d4e93507e3ea75d8e2ab95fc5b014965d2f464f77b8314b1325326d",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/secret-explicit-enter-reuses/run.sh",
+      "source_sha256": "2bb09a239ad1c4fa26a0f83242c655b4327c3613d78318c8e728daaefc4b8056",
+      "published_sha256": "2bb09a239ad1c4fa26a0f83242c655b4327c3613d78318c8e728daaefc4b8056",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/secret-write-failure/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/secret-write-failure/run.sh",
+      "source_sha256": "ed78c5b0bf95cfb7d3e00cd4089cab735cbbbf727220c7fd03ef7f11e60a9dc5",
+      "published_sha256": "ed78c5b0bf95cfb7d3e00cd4089cab735cbbbf727220c7fd03ef7f11e60a9dc5",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/success-completes/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/success-completes/run.sh",
+      "source_sha256": "d2f1e62db5c019a304b597cb364de8fb751b9a0fec01271737e62e0cdea4c217",
+      "published_sha256": "d2f1e62db5c019a304b597cb364de8fb751b9a0fec01271737e62e0cdea4c217",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/variable-write-failure/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/repaired/variable-write-failure/run.sh",
+      "source_sha256": "5eac3f48d5e2e90a3bd624bf2dd884db29f6c88f04ac075cd14f7928dac0e250",
+      "published_sha256": "5eac3f48d5e2e90a3bd624bf2dd884db29f6c88f04ac075cd14f7928dac0e250",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/ask-empty-required/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/ask-empty-required/run.sh",
+      "source_sha256": "7d4c5ef4bd9af47a04116d24c941303359f78b32272877ca0b7a805f4ebbed62",
+      "published_sha256": "7d4c5ef4bd9af47a04116d24c941303359f78b32272877ca0b7a805f4ebbed62",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/ask-eof-with-saved-value/fixture.env",
+      "source_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "published_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/ask-eof-with-saved-value/run.sh",
+      "source_sha256": "7ed787cc0ca4b61f0ef105b10e3aa791618b9a3b8f413a74ba1c054cc843a747",
+      "published_sha256": "7ed787cc0ca4b61f0ef105b10e3aa791618b9a3b8f413a74ba1c054cc843a747",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/ask-explicit-enter-reuses/fixture.env",
+      "source_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "published_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/ask-explicit-enter-reuses/run.sh",
+      "source_sha256": "2f5878b1a11e120dc19e3512139b8f9333781cd17cd7b12426dfd683ef721a88",
+      "published_sha256": "2f5878b1a11e120dc19e3512139b8f9333781cd17cd7b12426dfd683ef721a88",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/ask-new-value/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/ask-new-value/run.sh",
+      "source_sha256": "68ac9860d5f8b4469b58e187d470b34ba1d2e034e35fefd40defdc36bc5c25df",
+      "published_sha256": "68ac9860d5f8b4469b58e187d470b34ba1d2e034e35fefd40defdc36bc5c25df",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/failed-stage-stops-before-write/fixture.env",
+      "source_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "published_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/failed-stage-stops-before-write/run.sh",
+      "source_sha256": "fecd101c4d2eda080a2a35bbfd7b48dee7e0ec26f10707b6e02592f66756ed0b",
+      "published_sha256": "fecd101c4d2eda080a2a35bbfd7b48dee7e0ec26f10707b6e02592f66756ed0b",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/finish-after-failure/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/finish-after-failure/run.sh",
+      "source_sha256": "68db13f9b98464b27212570ad3857f61741f50aa86b01885bd7ec1223a49f217",
+      "published_sha256": "68db13f9b98464b27212570ad3857f61741f50aa86b01885bd7ec1223a49f217",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/pause-eof/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/pause-eof/run.sh",
+      "source_sha256": "4adacac6038c29f8401d59132f2913aff75428bf3a27b86f747203bd2ab3fdec",
+      "published_sha256": "4adacac6038c29f8401d59132f2913aff75428bf3a27b86f747203bd2ab3fdec",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/secret-auth-failure/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/secret-auth-failure/run.sh",
+      "source_sha256": "7c0527465fe6015f8d04dfcb25aea983e648190814b38d5310b0937215b7e481",
+      "published_sha256": "7c0527465fe6015f8d04dfcb25aea983e648190814b38d5310b0937215b7e481",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/secret-empty-required/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/secret-empty-required/run.sh",
+      "source_sha256": "83fd29e8a959278ece7ff6890b983fa1c7135bfa8e3582e9bd763cc1f8a7fd0b",
+      "published_sha256": "83fd29e8a959278ece7ff6890b983fa1c7135bfa8e3582e9bd763cc1f8a7fd0b",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/secret-eof-with-saved-value/fixture.env",
+      "source_sha256": "315ef0294d4e93507e3ea75d8e2ab95fc5b014965d2f464f77b8314b1325326d",
+      "published_sha256": "315ef0294d4e93507e3ea75d8e2ab95fc5b014965d2f464f77b8314b1325326d",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/secret-eof-with-saved-value/run.sh",
+      "source_sha256": "91142ffcb3538086b409d3efe8b0fcc4d276c999ef720f6dad5fd1a61e1fddf9",
+      "published_sha256": "91142ffcb3538086b409d3efe8b0fcc4d276c999ef720f6dad5fd1a61e1fddf9",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/secret-explicit-enter-reuses/fixture.env",
+      "source_sha256": "315ef0294d4e93507e3ea75d8e2ab95fc5b014965d2f464f77b8314b1325326d",
+      "published_sha256": "315ef0294d4e93507e3ea75d8e2ab95fc5b014965d2f464f77b8314b1325326d",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/secret-explicit-enter-reuses/run.sh",
+      "source_sha256": "0956de0e230740b2b1098cf93e5216489f6b8f3d35fd38de8b67445ec74ac832",
+      "published_sha256": "0956de0e230740b2b1098cf93e5216489f6b8f3d35fd38de8b67445ec74ac832",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/secret-write-failure/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/secret-write-failure/run.sh",
+      "source_sha256": "d550e5224afd8fa70191cdc243dd4eff297022218213bebb4a1b5325b362589d",
+      "published_sha256": "d550e5224afd8fa70191cdc243dd4eff297022218213bebb4a1b5325b362589d",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/success-completes/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/success-completes/run.sh",
+      "source_sha256": "d5b548e56da1f5123639b605f307ef893e3c8b3ac0e4b6472482f06c59fb53d1",
+      "published_sha256": "d5b548e56da1f5123639b605f307ef893e3c8b3ac0e4b6472482f06c59fb53d1",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/variable-write-failure/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/source/variable-write-failure/run.sh",
+      "source_sha256": "65dfa45580a6a9ce5b37cdf81ee67c9a85c84c5b7ce971a563c6c803772d09c5",
+      "published_sha256": "65dfa45580a6a9ce5b37cdf81ee67c9a85c84c5b7ce971a563c6c803772d09c5",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/ask-empty-required/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/ask-empty-required/run.sh",
+      "source_sha256": "7d4c5ef4bd9af47a04116d24c941303359f78b32272877ca0b7a805f4ebbed62",
+      "published_sha256": "7d4c5ef4bd9af47a04116d24c941303359f78b32272877ca0b7a805f4ebbed62",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/ask-eof-with-saved-value/fixture.env",
+      "source_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "published_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/ask-eof-with-saved-value/run.sh",
+      "source_sha256": "7ed787cc0ca4b61f0ef105b10e3aa791618b9a3b8f413a74ba1c054cc843a747",
+      "published_sha256": "7ed787cc0ca4b61f0ef105b10e3aa791618b9a3b8f413a74ba1c054cc843a747",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/ask-explicit-enter-reuses/fixture.env",
+      "source_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "published_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/ask-explicit-enter-reuses/run.sh",
+      "source_sha256": "2f5878b1a11e120dc19e3512139b8f9333781cd17cd7b12426dfd683ef721a88",
+      "published_sha256": "2f5878b1a11e120dc19e3512139b8f9333781cd17cd7b12426dfd683ef721a88",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/ask-new-value/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/ask-new-value/run.sh",
+      "source_sha256": "68ac9860d5f8b4469b58e187d470b34ba1d2e034e35fefd40defdc36bc5c25df",
+      "published_sha256": "68ac9860d5f8b4469b58e187d470b34ba1d2e034e35fefd40defdc36bc5c25df",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/failed-stage-stops-before-write/fixture.env",
+      "source_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "published_sha256": "ae569838584c8be918e46c9e721fbca56d690f5524e1da522183dfdc37a19aa4",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/failed-stage-stops-before-write/run.sh",
+      "source_sha256": "fecd101c4d2eda080a2a35bbfd7b48dee7e0ec26f10707b6e02592f66756ed0b",
+      "published_sha256": "fecd101c4d2eda080a2a35bbfd7b48dee7e0ec26f10707b6e02592f66756ed0b",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/finish-after-failure/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/finish-after-failure/run.sh",
+      "source_sha256": "68db13f9b98464b27212570ad3857f61741f50aa86b01885bd7ec1223a49f217",
+      "published_sha256": "68db13f9b98464b27212570ad3857f61741f50aa86b01885bd7ec1223a49f217",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/pause-eof/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/pause-eof/run.sh",
+      "source_sha256": "4adacac6038c29f8401d59132f2913aff75428bf3a27b86f747203bd2ab3fdec",
+      "published_sha256": "4adacac6038c29f8401d59132f2913aff75428bf3a27b86f747203bd2ab3fdec",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/secret-auth-failure/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/secret-auth-failure/run.sh",
+      "source_sha256": "7c0527465fe6015f8d04dfcb25aea983e648190814b38d5310b0937215b7e481",
+      "published_sha256": "7c0527465fe6015f8d04dfcb25aea983e648190814b38d5310b0937215b7e481",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/secret-empty-required/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/secret-empty-required/run.sh",
+      "source_sha256": "83fd29e8a959278ece7ff6890b983fa1c7135bfa8e3582e9bd763cc1f8a7fd0b",
+      "published_sha256": "83fd29e8a959278ece7ff6890b983fa1c7135bfa8e3582e9bd763cc1f8a7fd0b",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/secret-eof-with-saved-value/fixture.env",
+      "source_sha256": "315ef0294d4e93507e3ea75d8e2ab95fc5b014965d2f464f77b8314b1325326d",
+      "published_sha256": "315ef0294d4e93507e3ea75d8e2ab95fc5b014965d2f464f77b8314b1325326d",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/secret-eof-with-saved-value/run.sh",
+      "source_sha256": "91142ffcb3538086b409d3efe8b0fcc4d276c999ef720f6dad5fd1a61e1fddf9",
+      "published_sha256": "91142ffcb3538086b409d3efe8b0fcc4d276c999ef720f6dad5fd1a61e1fddf9",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/secret-explicit-enter-reuses/fixture.env",
+      "source_sha256": "315ef0294d4e93507e3ea75d8e2ab95fc5b014965d2f464f77b8314b1325326d",
+      "published_sha256": "315ef0294d4e93507e3ea75d8e2ab95fc5b014965d2f464f77b8314b1325326d",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/secret-explicit-enter-reuses/run.sh",
+      "source_sha256": "0956de0e230740b2b1098cf93e5216489f6b8f3d35fd38de8b67445ec74ac832",
+      "published_sha256": "0956de0e230740b2b1098cf93e5216489f6b8f3d35fd38de8b67445ec74ac832",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/secret-write-failure/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/secret-write-failure/run.sh",
+      "source_sha256": "d550e5224afd8fa70191cdc243dd4eff297022218213bebb4a1b5325b362589d",
+      "published_sha256": "d550e5224afd8fa70191cdc243dd4eff297022218213bebb4a1b5325b362589d",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/success-completes/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/success-completes/run.sh",
+      "source_sha256": "d5b548e56da1f5123639b605f307ef893e3c8b3ac0e4b6472482f06c59fb53d1",
+      "published_sha256": "d5b548e56da1f5123639b605f307ef893e3c8b3ac0e4b6472482f06c59fb53d1",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/variable-write-failure/fixture.env",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-fixtures/wizard/v1/variable-write-failure/run.sh",
+      "source_sha256": "65dfa45580a6a9ce5b37cdf81ee67c9a85c84c5b7ce971a563c6c803772d09c5",
+      "published_sha256": "65dfa45580a6a9ce5b37cdf81ee67c9a85c84c5b7ce971a563c6c803772d09c5",
+      "changed": false
+    },
+    {
+      "path": "evals/helper-tests.json",
+      "source_sha256": "a77c750a1532641091b581179c3197186b0245e33216be92cd6685a63080dd99",
+      "published_sha256": "a77c750a1532641091b581179c3197186b0245e33216be92cd6685a63080dd99",
+      "changed": false
+    },
+    {
+      "path": "evals/HELPER-TESTS.md",
+      "source_sha256": "4d2c4f120e20c52898b4602ee91c0df0f191057a30c5110ccbd7e423fdd0614c",
+      "published_sha256": "4d2c4f120e20c52898b4602ee91c0df0f191057a30c5110ccbd7e423fdd0614c",
+      "changed": false
+    },
+    {
+      "path": "evals/implement-spec.md",
+      "source_sha256": "8b3694bf2215d69c21e1e1d2d1f28a0c957a9e6c655901958824ee35376ba6f1",
+      "published_sha256": "8b3694bf2215d69c21e1e1d2d1f28a0c957a9e6c655901958824ee35376ba6f1",
+      "changed": false
+    },
+    {
+      "path": "evals/implement.md",
+      "source_sha256": "f673679d31111005de1fd043ebca9e1cd0f472d3b4d57ae5af1e714a2e67198d",
+      "published_sha256": "f673679d31111005de1fd043ebca9e1cd0f472d3b4d57ae5af1e714a2e67198d",
+      "changed": false
+    },
+    {
+      "path": "evals/improve-codebase-architecture.md",
+      "source_sha256": "9a2d2c41e013f8b2e50ea55a04f7203253423ae02e8281161333fae0bc004fc5",
+      "published_sha256": "9a2d2c41e013f8b2e50ea55a04f7203253423ae02e8281161333fae0bc004fc5",
+      "changed": false
+    },
+    {
+      "path": "evals/judging-packet-1.json",
+      "source_sha256": "c760ba5ee0a8da31162e45e51715258aa4bfea50a0618c68efd99a69c79c0339",
+      "published_sha256": "c760ba5ee0a8da31162e45e51715258aa4bfea50a0618c68efd99a69c79c0339",
+      "changed": false
+    },
+    {
+      "path": "evals/judging-packet-2.json",
+      "source_sha256": "cacd694129f92466effd14c75d70f8780c6fad4c15828d46ef8715dee9ab71e3",
+      "published_sha256": "cacd694129f92466effd14c75d70f8780c6fad4c15828d46ef8715dee9ab71e3",
+      "changed": false
+    },
+    {
+      "path": "evals/judging-packet-3.json",
+      "source_sha256": "84d75d2cc762aabb18757ccd2c6960e4a48ac7f56ad9963cfd74685f0f18b06c",
+      "published_sha256": "84d75d2cc762aabb18757ccd2c6960e4a48ac7f56ad9963cfd74685f0f18b06c",
+      "changed": false
+    },
+    {
+      "path": "evals/loop-me.md",
+      "source_sha256": "c70fc0b02956463e7424d9683789951855dc3be152636ebf918e3eaae11d0157",
+      "published_sha256": "c70fc0b02956463e7424d9683789951855dc3be152636ebf918e3eaae11d0157",
+      "changed": false
+    },
+    {
+      "path": "evals/migrate-to-shoehorn.md",
+      "source_sha256": "c2a5ffed551efa87472aed310a6ac787a4c41f08f9564efbf15efdd8188cac6c",
+      "published_sha256": "c2a5ffed551efa87472aed310a6ac787a4c41f08f9564efbf15efdd8188cac6c",
+      "changed": false
+    },
+    {
+      "path": "evals/pr.md",
+      "source_sha256": "cc9d4c6d90ee4d2286ea63562b3bb9ce089625d6cec2513209cb8c3f5c684002",
+      "published_sha256": "cc9d4c6d90ee4d2286ea63562b3bb9ce089625d6cec2513209cb8c3f5c684002",
+      "changed": false
+    },
+    {
+      "path": "evals/prompts.json",
+      "source_sha256": "a2a7d3cf36434fc412aebd9a3e6f3039b01511e05ae967c4c842fa65be6db0c9",
+      "published_sha256": "a2a7d3cf36434fc412aebd9a3e6f3039b01511e05ae967c4c842fa65be6db0c9",
+      "changed": false
+    },
+    {
+      "path": "evals/PROTOCOL-ADDENDUM.md",
+      "source_sha256": "b3055bd3841f3ecc8a4614b36400c779dbea18026b3fd81abb07dea6684ebe9c",
+      "published_sha256": "b3055bd3841f3ecc8a4614b36400c779dbea18026b3fd81abb07dea6684ebe9c",
+      "changed": false
+    },
+    {
+      "path": "evals/PROTOCOL-EXECUTION-NOTES.md",
+      "source_sha256": "668770afa101ad1db21e4b7f21e2008fc6c04588344aa58abbd476f087334c25",
+      "published_sha256": "668770afa101ad1db21e4b7f21e2008fc6c04588344aa58abbd476f087334c25",
+      "changed": false
+    },
+    {
+      "path": "evals/PROTOCOL.md",
+      "source_sha256": "56906002a3e5f1fea95411ad933423f2621bb3268c4f561ff6222959ba26855c",
+      "published_sha256": "56906002a3e5f1fea95411ad933423f2621bb3268c4f561ff6222959ba26855c",
+      "changed": false
+    },
+    {
+      "path": "evals/prototype.md",
+      "source_sha256": "313eb21d63eab51f1758e348d0f0d26ed295ef345ace2fb862bf2874672356bc",
+      "published_sha256": "313eb21d63eab51f1758e348d0f0d26ed295ef345ace2fb862bf2874672356bc",
+      "changed": false
+    },
+    {
+      "path": "evals/published-candidate-identity.json",
+      "source_sha256": "6b007341246657f2c9f49a1ea6a355939c40d0091fc33a0b746e73f05c14acd4",
+      "published_sha256": "6b007341246657f2c9f49a1ea6a355939c40d0091fc33a0b746e73f05c14acd4",
+      "changed": false
+    },
+    {
+      "path": "evals/refactor-responses.json",
+      "source_sha256": "41b21d938c53883458c939865949c4af9f24f4e4294ddaf0215322fb187873cd",
+      "published_sha256": "41b21d938c53883458c939865949c4af9f24f4e4294ddaf0215322fb187873cd",
+      "changed": false
+    },
+    {
+      "path": "evals/research.md",
+      "source_sha256": "4e268ed5f8bdb6357d5824e272a6caf9d365fe18945003d02acd58be1af1d2d8",
+      "published_sha256": "4e268ed5f8bdb6357d5824e272a6caf9d365fe18945003d02acd58be1af1d2d8",
+      "changed": false
+    },
+    {
+      "path": "evals/resolving-merge-conflicts.md",
+      "source_sha256": "f9e187c5481576fa4cb88c22dee8849968f49a960f00a9a5fa9f42468504e0f5",
+      "published_sha256": "f9e187c5481576fa4cb88c22dee8849968f49a960f00a9a5fa9f42468504e0f5",
+      "changed": false
+    },
+    {
+      "path": "evals/RESULTS.md",
+      "source_sha256": "8e56980cd2aaac0ddbe1ce35c2c56824f7972cf7a1cf7495d748f134f98f0b07",
+      "published_sha256": "8e56980cd2aaac0ddbe1ce35c2c56824f7972cf7a1cf7495d748f134f98f0b07",
+      "changed": false
+    },
+    {
+      "path": "evals/retro.md",
+      "source_sha256": "066f58c0a77989ec995d9756ec394bebaba439d11ea599ad05a3c921d3f77326",
+      "published_sha256": "066f58c0a77989ec995d9756ec394bebaba439d11ea599ad05a3c921d3f77326",
+      "changed": false
+    },
+    {
+      "path": "evals/scaffold-exercises.md",
+      "source_sha256": "9c3266876a0f6bde7178ce7c3852bdc6a141e09793fec3ea1ef367ee6fe4fdf1",
+      "published_sha256": "9c3266876a0f6bde7178ce7c3852bdc6a141e09793fec3ea1ef367ee6fe4fdf1",
+      "changed": false
+    },
+    {
+      "path": "evals/scored-results.json",
+      "source_sha256": "5a543041ceb0b929666189f834a03dc6255c95d056a40b4d40efae3fe943eb12",
+      "published_sha256": "5a543041ceb0b929666189f834a03dc6255c95d056a40b4d40efae3fe943eb12",
+      "changed": false
+    },
+    {
+      "path": "evals/second-followup-grades.json",
+      "source_sha256": "89820d622deafe80139294bee02cae93091783a6a594d53f01ffaee8f4054a58",
+      "published_sha256": "89820d622deafe80139294bee02cae93091783a6a594d53f01ffaee8f4054a58",
+      "changed": false
+    },
+    {
+      "path": "evals/second-followup-prompts.json",
+      "source_sha256": "53dd89d1cd125f2c8bd4422428a6bd483b083e9958127b0df7df02e7c68fb540",
+      "published_sha256": "53dd89d1cd125f2c8bd4422428a6bd483b083e9958127b0df7df02e7c68fb540",
+      "changed": false
+    },
+    {
+      "path": "evals/second-followup-responses.json",
+      "source_sha256": "4265755f7435c343d926d2360bc85a6411a70a4e4b405b4d4ed1489e3b720ca2",
+      "published_sha256": "4265755f7435c343d926d2360bc85a6411a70a4e4b405b4d4ed1489e3b720ca2",
+      "changed": false
+    },
+    {
+      "path": "evals/second-followup-with-rubrics.json",
+      "source_sha256": "4c0284a97850bee63d116ab44619007cad7fef0b33e24f5f204ab2276325fdf7",
+      "published_sha256": "4c0284a97850bee63d116ab44619007cad7fef0b33e24f5f204ab2276325fdf7",
+      "changed": false
+    },
+    {
+      "path": "evals/setup-matt-pocock-skills.md",
+      "source_sha256": "1c237011f4927c13d2bdee34e87dd5ce37f9890c052b6c068a5bfb7b1d5e8fd8",
+      "published_sha256": "1c237011f4927c13d2bdee34e87dd5ce37f9890c052b6c068a5bfb7b1d5e8fd8",
+      "changed": false
+    },
+    {
+      "path": "evals/setup-pre-commit.md",
+      "source_sha256": "65e38e4cf912550d24c84bacdb07a61446faf025c164544459a3818b92248333",
+      "published_sha256": "65e38e4cf912550d24c84bacdb07a61446faf025c164544459a3818b92248333",
+      "changed": false
+    },
+    {
+      "path": "evals/setup-ts-deep-modules.md",
+      "source_sha256": "423e674d1fdefad10f30f5aad7df2f280910e71a2b85d5da907114d7f490a4f1",
+      "published_sha256": "423e674d1fdefad10f30f5aad7df2f280910e71a2b85d5da907114d7f490a4f1",
+      "changed": false
+    },
+    {
+      "path": "evals/source-responses.json",
+      "source_sha256": "a9f3e27d51c803751b288c56063136caf4e7908a195d538d571746baa73306b1",
+      "published_sha256": "a9f3e27d51c803751b288c56063136caf4e7908a195d538d571746baa73306b1",
+      "changed": false
+    },
+    {
+      "path": "evals/tdd.md",
+      "source_sha256": "d2ed1b560e0dab98059232aeabc09ee12658b24a1a5246122507640e83751817",
+      "published_sha256": "d2ed1b560e0dab98059232aeabc09ee12658b24a1a5246122507640e83751817",
+      "changed": false
+    },
+    {
+      "path": "evals/teach.md",
+      "source_sha256": "bff1cb97b241a96a2e8a6192d9d96bb53ec6eb3ffea32eb403231a38c428571e",
+      "published_sha256": "bff1cb97b241a96a2e8a6192d9d96bb53ec6eb3ffea32eb403231a38c428571e",
+      "changed": false
+    },
+    {
+      "path": "evals/to-questionnaire.md",
+      "source_sha256": "6cedcaf0f220e20fac2a329ca714a6017d6b0abf3e3e1ba90629152bcca0c72f",
+      "published_sha256": "6cedcaf0f220e20fac2a329ca714a6017d6b0abf3e3e1ba90629152bcca0c72f",
+      "changed": false
+    },
+    {
+      "path": "evals/to-spec.md",
+      "source_sha256": "08d8f69408b0749c517b944230f89e2d3d4be8af1102f658b24a1bed53e2f5da",
+      "published_sha256": "08d8f69408b0749c517b944230f89e2d3d4be8af1102f658b24a1bed53e2f5da",
+      "changed": false
+    },
+    {
+      "path": "evals/to-tickets.md",
+      "source_sha256": "98ec4efabb5a8301aced98aef14228af2e7c8b17b627a2b66ecc5ab7d62c18ae",
+      "published_sha256": "98ec4efabb5a8301aced98aef14228af2e7c8b17b627a2b66ecc5ab7d62c18ae",
+      "changed": false
+    },
+    {
+      "path": "evals/triage.md",
+      "source_sha256": "0dd6b4fe576d6da4632b53d47d61402d5af130ebed2a6552fb726980a7d25b33",
+      "published_sha256": "0dd6b4fe576d6da4632b53d47d61402d5af130ebed2a6552fb726980a7d25b33",
+      "changed": false
+    },
+    {
+      "path": "evals/wait-what.md",
+      "source_sha256": "701a12c3827deccd80f43fc095e490fc931d32a09d433e8923a4b8d0cd94c5c6",
+      "published_sha256": "701a12c3827deccd80f43fc095e490fc931d32a09d433e8923a4b8d0cd94c5c6",
+      "changed": false
+    },
+    {
+      "path": "evals/wayfinder.md",
+      "source_sha256": "fc03f5ec45eda58c5a203fb35af4e3c4b2bcce19d0b317852b2424c5783f8d54",
+      "published_sha256": "fc03f5ec45eda58c5a203fb35af4e3c4b2bcce19d0b317852b2424c5783f8d54",
+      "changed": false
+    },
+    {
+      "path": "evals/wizard-repair-tests.json",
+      "source_sha256": "8810d22d36961dceea874f4ea59776eae2597f50be39282c7f41dcddd9718e4d",
+      "published_sha256": "30d898f3a746de8d94ffaf1d59a04f5a4a41ad3ff55ae99d330be77bc2489912",
+      "changed": true
+    },
+    {
+      "path": "evals/WIZARD-REPAIR.md",
+      "source_sha256": "b7d773586dc26b7825df00348b0d3ff1d992ececee77a3f7721528c090b78074",
+      "published_sha256": "b7d773586dc26b7825df00348b0d3ff1d992ececee77a3f7721528c090b78074",
+      "changed": false
+    },
+    {
+      "path": "evals/wizard.md",
+      "source_sha256": "4cc92d02d4ed1176652c94ac2fb78f1f1ca691b807205ac8992d62a8ab6752b2",
+      "published_sha256": "4cc92d02d4ed1176652c94ac2fb78f1f1ca691b807205ac8992d62a8ab6752b2",
+      "changed": false
+    },
+    {
+      "path": "evals/writing-beats.md",
+      "source_sha256": "861a36f32759a029f3e64739609499b9c1c95cbc818c82fdbbd0c9c4b61d552e",
+      "published_sha256": "861a36f32759a029f3e64739609499b9c1c95cbc818c82fdbbd0c9c4b61d552e",
+      "changed": false
+    },
+    {
+      "path": "evals/writing-for-agents.md",
+      "source_sha256": "7e8947fefe55b4adf94b176170da6ca3ef29dd96183a1109e8f0b61a8f98f0c8",
+      "published_sha256": "7e8947fefe55b4adf94b176170da6ca3ef29dd96183a1109e8f0b61a8f98f0c8",
+      "changed": false
+    },
+    {
+      "path": "evals/writing-fragments.md",
+      "source_sha256": "01ade646d1716b629996bb76bfd72b8846274cf04926a260947137ab9c7a5954",
+      "published_sha256": "01ade646d1716b629996bb76bfd72b8846274cf04926a260947137ab9c7a5954",
+      "changed": false
+    },
+    {
+      "path": "evals/writing-shape.md",
+      "source_sha256": "c548a530c61791e67cf8194358ff5d6232a6767338662fe7e2d2447597160eb5",
+      "published_sha256": "c548a530c61791e67cf8194358ff5d6232a6767338662fe7e2d2447597160eb5",
+      "changed": false
+    },
+    {
+      "path": "LICENSE-MATT-POCOCK.txt",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "original-skills/anchored-variation/SKILL.md",
+      "source_sha256": "6c51d92ef16742b23ccde748fc92d2c3a459db3d825eb89fed31e19412db2a2b",
+      "published_sha256": "6c51d92ef16742b23ccde748fc92d2c3a459db3d825eb89fed31e19412db2a2b",
+      "changed": false
+    },
+    {
+      "path": "original-skills/answer-reconciliation/SKILL.md",
+      "source_sha256": "a1b50763edb3a3f38b9e62704271eb2051eb5c9635c036bf931335384c418b6f",
+      "published_sha256": "a1b50763edb3a3f38b9e62704271eb2051eb5c9635c036bf931335384c418b6f",
+      "changed": false
+    },
+    {
+      "path": "original-skills/assumption-budget/SKILL.md",
+      "source_sha256": "03bf647efb4e7e64ef4a7313863e2a9e44eadf375489e7b8a9cf1db6e25913fa",
+      "published_sha256": "03bf647efb4e7e64ef4a7313863e2a9e44eadf375489e7b8a9cf1db6e25913fa",
+      "changed": false
+    },
+    {
+      "path": "original-skills/boundary-cases/SKILL.md",
+      "source_sha256": "8486025683706fb16e9c1dd747d065ec59393e1e99f9e86345e5e1a1bc08f907",
+      "published_sha256": "8486025683706fb16e9c1dd747d065ec59393e1e99f9e86345e5e1a1bc08f907",
+      "changed": false
+    },
+    {
+      "path": "original-skills/change-the-representation/SKILL.md",
+      "source_sha256": "caa8a3e7e992819a12e7fd3a7592dd9cf098cc1bdb078d161c24add13e36ac62",
+      "published_sha256": "caa8a3e7e992819a12e7fd3a7592dd9cf098cc1bdb078d161c24add13e36ac62",
+      "changed": false
+    },
+    {
+      "path": "original-skills/compose-two-plans/SKILL.md",
+      "source_sha256": "d514b2d694016e8125052901abdecdfb9eea6baae15e704388f694d90cea5c3e",
+      "published_sha256": "d514b2d694016e8125052901abdecdfb9eea6baae15e704388f694d90cea5c3e",
+      "changed": false
+    },
+    {
+      "path": "original-skills/construct-a-counterexample/SKILL.md",
+      "source_sha256": "8f94d5841e083a49c1b2e8f88080f8e48aa943519424a7e261258f5c051bcdd6",
+      "published_sha256": "8f94d5841e083a49c1b2e8f88080f8e48aa943519424a7e261258f5c051bcdd6",
+      "changed": false
+    },
+    {
+      "path": "original-skills/contract-surface-audit/SKILL.md",
+      "source_sha256": "e95f9684dd4cb7c0b922ac8d4071edb9a4250ffef807ee9c09bd279a6ac17af9",
+      "published_sha256": "e95f9684dd4cb7c0b922ac8d4071edb9a4250ffef807ee9c09bd279a6ac17af9",
+      "changed": false
+    },
+    {
+      "path": "original-skills/contrastive-explanation/SKILL.md",
+      "source_sha256": "46b3e4025636ea56851c9b21196214ce89e5bc98ea5cf5d5eb4e0a9f2e846285",
+      "published_sha256": "46b3e4025636ea56851c9b21196214ce89e5bc98ea5cf5d5eb4e0a9f2e846285",
+      "changed": false
+    },
+    {
+      "path": "original-skills/decision-preserving-compression/SKILL.md",
+      "source_sha256": "faa460d1a9e938231e9f55d95823af670e1c1331801e836b94728f90decada78",
+      "published_sha256": "faa460d1a9e938231e9f55d95823af670e1c1331801e836b94728f90decada78",
+      "changed": false
+    },
+    {
+      "path": "original-skills/decision-thread/SKILL.md",
+      "source_sha256": "356955ff68a83854107381a2be5fc181d64a9ea278ac602352106bff1dfa3f3a",
+      "published_sha256": "356955ff68a83854107381a2be5fc181d64a9ea278ac602352106bff1dfa3f3a",
+      "changed": false
+    },
+    {
+      "path": "original-skills/design-the-learning-sequence/SKILL.md",
+      "source_sha256": "909a3902ff8d57242b01ba234bf4e01e9fb1ee62fa50d7aee33e2abdfb97a707",
+      "published_sha256": "909a3902ff8d57242b01ba234bf4e01e9fb1ee62fa50d7aee33e2abdfb97a707",
+      "changed": false
+    },
+    {
+      "path": "original-skills/evidence-fork/SKILL.md",
+      "source_sha256": "c4f0fa3c318f8b4bb5ed4061eeb31104e02e683adbba655835661741b579abe3",
+      "published_sha256": "c4f0fa3c318f8b4bb5ed4061eeb31104e02e683adbba655835661741b579abe3",
+      "changed": false
+    },
+    {
+      "path": "original-skills/feedback-budget/SKILL.md",
+      "source_sha256": "623344e40a47c49c8f4c87eabfe7b4210e1df9f8e6d87af51af0d8a499f9781b",
+      "published_sha256": "623344e40a47c49c8f4c87eabfe7b4210e1df9f8e6d87af51af0d8a499f9781b",
+      "changed": false
+    },
+    {
+      "path": "original-skills/find-the-binding-constraint/SKILL.md",
+      "source_sha256": "81afa2215ee0db9154aa44a8b0d8c1aeb867e9f47ef57c57ccaffc7a12dafd5d",
+      "published_sha256": "81afa2215ee0db9154aa44a8b0d8c1aeb867e9f47ef57c57ccaffc7a12dafd5d",
+      "changed": false
+    },
+    {
+      "path": "original-skills/find-the-unasked-question/SKILL.md",
+      "source_sha256": "dd8be08d8ca2d4bb14f77b589bced296e9907758cc8b9952816c5cd92aa42599",
+      "published_sha256": "dd8be08d8ca2d4bb14f77b589bced296e9907758cc8b9952816c5cd92aa42599",
+      "changed": false
+    },
+    {
+      "path": "original-skills/finish-the-last-mile/SKILL.md",
+      "source_sha256": "9c418eec893a3ed75adcd57ce82228263abc8f1397bb872833c229622941c95b",
+      "published_sha256": "9c418eec893a3ed75adcd57ce82228263abc8f1397bb872833c229622941c95b",
+      "changed": false
+    },
+    {
+      "path": "original-skills/fixture-truth/SKILL.md",
+      "source_sha256": "fe06a762144ed71eea23b4e0f59c317cf7c7c3e84622f45f7e234c4726b2b8f7",
+      "published_sha256": "fe06a762144ed71eea23b4e0f59c317cf7c7c3e84622f45f7e234c4726b2b8f7",
+      "changed": false
+    },
+    {
+      "path": "original-skills/instruction-ablation/SKILL.md",
+      "source_sha256": "aadcde191fbb2eb3ab6106cb78a337eb8c8caef9a5080f3391fc8bea53609aed",
+      "published_sha256": "aadcde191fbb2eb3ab6106cb78a337eb8c8caef9a5080f3391fc8bea53609aed",
+      "changed": false
+    },
+    {
+      "path": "original-skills/integration-contracts/SKILL.md",
+      "source_sha256": "d174823228250fbf8f3fde4aef1f68c6bd56258c774142553b759a8f6061c64a",
+      "published_sha256": "d174823228250fbf8f3fde4aef1f68c6bd56258c774142553b759a8f6061c64a",
+      "changed": false
+    },
+    {
+      "path": "original-skills/intent-examples/SKILL.md",
+      "source_sha256": "0b33593ebf11d63c9e93d5ed771fcb74d0403864ba96549d8867cb2094565056",
+      "published_sha256": "0b33593ebf11d63c9e93d5ed771fcb74d0403864ba96549d8867cb2094565056",
+      "changed": false
+    },
+    {
+      "path": "original-skills/make-a-working-example/SKILL.md",
+      "source_sha256": "aa78ae9e0a06ab060045df7a1df60377da1c4abcc7ebd537807f30d36bcb7851",
+      "published_sha256": "aa78ae9e0a06ab060045df7a1df60377da1c4abcc7ebd537807f30d36bcb7851",
+      "changed": false
+    },
+    {
+      "path": "original-skills/make-the-tradeoff-tangible/SKILL.md",
+      "source_sha256": "2e2363bcd8fa952dc7e0ed8996885a0bb7abf94fc788c53439d8921ea09e1209",
+      "published_sha256": "2e2363bcd8fa952dc7e0ed8996885a0bb7abf94fc788c53439d8921ea09e1209",
+      "changed": false
+    },
+    {
+      "path": "original-skills/misconception-lab/SKILL.md",
+      "source_sha256": "8961db7f289bad45b7b407ebc0cbfbd38bac0766d3cf83faac08a73e933dc176",
+      "published_sha256": "8961db7f289bad45b7b407ebc0cbfbd38bac0766d3cf83faac08a73e933dc176",
+      "changed": false
+    },
+    {
+      "path": "original-skills/preference-probes/SKILL.md",
+      "source_sha256": "03d66c848d0dbfe6f34d1a944a623abf63150294c4794d090fb043e94ab80540",
+      "published_sha256": "03d66c848d0dbfe6f34d1a944a623abf63150294c4794d090fb043e94ab80540",
+      "changed": false
+    },
+    {
+      "path": "original-skills/reader-state-simulation/SKILL.md",
+      "source_sha256": "cf1c6c23882f4c4226e237cd48bb1f2256f2c8b3a7ee8573b284ca88a3f70dc9",
+      "published_sha256": "cf1c6c23882f4c4226e237cd48bb1f2256f2c8b3a7ee8573b284ca88a3f70dc9",
+      "changed": false
+    },
+    {
+      "path": "original-skills/rehearse-the-next-change/SKILL.md",
+      "source_sha256": "f1101f91919cdb53de8ec70d08ccd53149246b60da5b26fb3b26cb587e2b879d",
+      "published_sha256": "f1101f91919cdb53de8ec70d08ccd53149246b60da5b26fb3b26cb587e2b879d",
+      "changed": false
+    },
+    {
+      "path": "original-skills/resume-check/SKILL.md",
+      "source_sha256": "9e3389d01c3e9692f112f3e6e03c092029ae7047cdd696389e130c508b93b2fa",
+      "published_sha256": "9e3389d01c3e9692f112f3e6e03c092029ae7047cdd696389e130c508b93b2fa",
+      "changed": false
+    },
+    {
+      "path": "original-skills/resume-probe/SKILL.md",
+      "source_sha256": "781410bb177d23d75a2ed5c69eefde2b9e8f01cd7156b516b240a881fabe7203",
+      "published_sha256": "781410bb177d23d75a2ed5c69eefde2b9e8f01cd7156b516b240a881fabe7203",
+      "changed": false
+    },
+    {
+      "path": "original-skills/reversible-bets/SKILL.md",
+      "source_sha256": "bc80f7dd0bd0869fbe2205748d27766949db6e8dd7ebcb3efa26a300dfdf3351",
+      "published_sha256": "bc80f7dd0bd0869fbe2205748d27766949db6e8dd7ebcb3efa26a300dfdf3351",
+      "changed": false
+    },
+    {
+      "path": "original-skills/reversible-operation-design/SKILL.md",
+      "source_sha256": "c9211d5e764652f8cc477c8dea1d46d306b12aee61dd2fe919a2367e9e32659b",
+      "published_sha256": "c9211d5e764652f8cc477c8dea1d46d306b12aee61dd2fe919a2367e9e32659b",
+      "changed": false
+    },
+    {
+      "path": "original-skills/reviewer-rehearsal/SKILL.md",
+      "source_sha256": "07702972418d34c89a32e01a626504514cd7412cb5e5598ff2be6c0add1f6a76",
+      "published_sha256": "07702972418d34c89a32e01a626504514cd7412cb5e5598ff2be6c0add1f6a76",
+      "changed": false
+    },
+    {
+      "path": "original-skills/stop-rule/SKILL.md",
+      "source_sha256": "4cabf0a2bda5a6dd8b25e096bb1e78d061048289091f245809d981cb4df0fde5",
+      "published_sha256": "4cabf0a2bda5a6dd8b25e096bb1e78d061048289091f245809d981cb4df0fde5",
+      "changed": false
+    },
+    {
+      "path": "original-skills/subtract-a-dependency/SKILL.md",
+      "source_sha256": "75c8f5062d7b931d5e52895fc3876dbbe7cc853ceeb0948962bdaf9a70e68808",
+      "published_sha256": "75c8f5062d7b931d5e52895fc3876dbbe7cc853ceeb0948962bdaf9a70e68808",
+      "changed": false
+    },
+    {
+      "path": "original-skills/test-the-oracle/SKILL.md",
+      "source_sha256": "7d2ab9e89a8ac18220e9915a042203e305da5b8dc9242f11621ee4d31bdbebd5",
+      "published_sha256": "7d2ab9e89a8ac18220e9915a042203e305da5b8dc9242f11621ee4d31bdbebd5",
+      "changed": false
+    },
+    {
+      "path": "original-skills/thesis-stress-test/SKILL.md",
+      "source_sha256": "a474852fb54dbeb5d4588812f67644bbc6b6d173a1344aa28569e9c2bc4d630c",
+      "published_sha256": "a474852fb54dbeb5d4588812f67644bbc6b6d173a1344aa28569e9c2bc4d630c",
+      "changed": false
+    },
+    {
+      "path": "original-skills/transfer-test/SKILL.md",
+      "source_sha256": "79cc25a9bf107ae90ecb28f4a5259aa225bf6512e963584a506a6c0b87286dd1",
+      "published_sha256": "79cc25a9bf107ae90ecb28f4a5259aa225bf6512e963584a506a6c0b87286dd1",
+      "changed": false
+    },
+    {
+      "path": "original-skills/workflow-payback/SKILL.md",
+      "source_sha256": "d46a28a06703b1b17c09c2d2084ece43443cf66c9615fb19d55cb16ed01f2516",
+      "published_sha256": "d46a28a06703b1b17c09c2d2084ece43443cf66c9615fb19d55cb16ed01f2516",
+      "changed": false
+    },
+    {
+      "path": "OVERVIEW.md",
+      "source_sha256": "eb7f8d4d797d6aaea3527e9c8d7bec5f94dbfb7c02159acaafe2f5b5e803ad5e",
+      "published_sha256": "eb7f8d4d797d6aaea3527e9c8d7bec5f94dbfb7c02159acaafe2f5b5e803ad5e",
+      "changed": false
+    },
+    {
+      "path": "PORTING-BETS.md",
+      "source_sha256": "6b97051446d5c44c3ab1100db2a3fcb33fd467c9b4e61d062c49de5d49ffb681",
+      "published_sha256": "6b97051446d5c44c3ab1100db2a3fcb33fd467c9b4e61d062c49de5d49ffb681",
+      "changed": false
+    },
+    {
+      "path": "publication-manifest.json",
+      "source_sha256": "a0ab3f677282907c630691c8274eba5a4d3f4f9c838253902d32fc02d2f701d2",
+      "published_sha256": "a0ab3f677282907c630691c8274eba5a4d3f4f9c838253902d32fc02d2f701d2",
+      "changed": false
+    },
+    {
+      "path": "reader-link-validation.json",
+      "source_sha256": "2858df89187fb1b4058bf82807938ac57e4ee2dffa050f269c05503ed153b407",
+      "published_sha256": "2858df89187fb1b4058bf82807938ac57e4ee2dffa050f269c05503ed153b407",
+      "changed": false
+    },
+    {
+      "path": "reader-validation.json",
+      "source_sha256": "0ebed489e06f54cda0bef1697365234a6a9833dbe7eceae9e1bb9431cb1b976c",
+      "published_sha256": "0ebed489e06f54cda0bef1697365234a6a9833dbe7eceae9e1bb9431cb1b976c",
+      "changed": false
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "9a7ae493fb3b4bd0cec6c5b3e75d91b5cfca2150ad98d62b9c775416fd672c95",
+      "published_sha256": "9a7ae493fb3b4bd0cec6c5b3e75d91b5cfca2150ad98d62b9c775416fd672c95",
+      "changed": false
+    },
+    {
+      "path": "refactored/ask-matt/agents/openai.yaml",
+      "source_sha256": "d30cfa5b0e84e2ca10b8d263b9dfcc13c3aa089ae6bc26096bc549fc037d274e",
+      "published_sha256": "d30cfa5b0e84e2ca10b8d263b9dfcc13c3aa089ae6bc26096bc549fc037d274e",
+      "changed": false
+    },
+    {
+      "path": "refactored/ask-matt/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/ask-matt/PHASE-BOUNDARIES.md",
+      "source_sha256": "b98591bbe4377d5e01a01fbb113551e1a0782811475cb5a62aa5a8bb1fc62df2",
+      "published_sha256": "b98591bbe4377d5e01a01fbb113551e1a0782811475cb5a62aa5a8bb1fc62df2",
+      "changed": false
+    },
+    {
+      "path": "refactored/ask-matt/SKILL.md",
+      "source_sha256": "3f18f200231087848613313fbfbeab25f819c5188dcfa0678161dfafdcb827a7",
+      "published_sha256": "3f18f200231087848613313fbfbeab25f819c5188dcfa0678161dfafdcb827a7",
+      "changed": false
+    },
+    {
+      "path": "refactored/claude-handoff/agents/openai.yaml",
+      "source_sha256": "c49d051126b7ef690418b431a4317298a5bbb2bcf4cb0661d3a06f115ce12263",
+      "published_sha256": "c49d051126b7ef690418b431a4317298a5bbb2bcf4cb0661d3a06f115ce12263",
+      "changed": false
+    },
+    {
+      "path": "refactored/claude-handoff/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/claude-handoff/SKILL.md",
+      "source_sha256": "ec3a72ac8b6411c1f3e4147e95a8be4bebd62861aa02dbea780fc6eae766c5bf",
+      "published_sha256": "ec3a72ac8b6411c1f3e4147e95a8be4bebd62861aa02dbea780fc6eae766c5bf",
+      "changed": false
+    },
+    {
+      "path": "refactored/code-review/agents/openai.yaml",
+      "source_sha256": "3f72329747a916ac8ab2b4004490c79e1be6774a8a83e5b258d6ddc7e866abfe",
+      "published_sha256": "3f72329747a916ac8ab2b4004490c79e1be6774a8a83e5b258d6ddc7e866abfe",
+      "changed": false
+    },
+    {
+      "path": "refactored/code-review/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/code-review/SKILL.md",
+      "source_sha256": "111f407e77ecedd0d5c0e16edf6a0c8c2d99b5c48f330ef9321adb8d511e67e2",
+      "published_sha256": "111f407e77ecedd0d5c0e16edf6a0c8c2d99b5c48f330ef9321adb8d511e67e2",
+      "changed": false
+    },
+    {
+      "path": "refactored/code-review/SMELLS.md",
+      "source_sha256": "f224ce03dac54a4c2460e000994b58fa0be543b633324323e7863260f15130dd",
+      "published_sha256": "f224ce03dac54a4c2460e000994b58fa0be543b633324323e7863260f15130dd",
+      "changed": false
+    },
+    {
+      "path": "refactored/codebase-design/agents/openai.yaml",
+      "source_sha256": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc",
+      "published_sha256": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc",
+      "changed": false
+    },
+    {
+      "path": "refactored/codebase-design/DEEPENING.md",
+      "source_sha256": "e545244807243975455b66d4586636425fea701098bfd094ec30fbdbfd3d57af",
+      "published_sha256": "e545244807243975455b66d4586636425fea701098bfd094ec30fbdbfd3d57af",
+      "changed": false
+    },
+    {
+      "path": "refactored/codebase-design/DESIGN-IT-TWICE.md",
+      "source_sha256": "315358a179523659cad5cba289b180a5526e7e3cdaa630e936383a011699d35e",
+      "published_sha256": "315358a179523659cad5cba289b180a5526e7e3cdaa630e936383a011699d35e",
+      "changed": false
+    },
+    {
+      "path": "refactored/codebase-design/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/codebase-design/SKILL.md",
+      "source_sha256": "e2744762a2aa78a2be0e3db345ce11245191e2ec395c5bbf641e23af20b743cd",
+      "published_sha256": "e2744762a2aa78a2be0e3db345ce11245191e2ec395c5bbf641e23af20b743cd",
+      "changed": false
+    },
+    {
+      "path": "refactored/diagnosing-bugs/agents/openai.yaml",
+      "source_sha256": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58",
+      "published_sha256": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58",
+      "changed": false
+    },
+    {
+      "path": "refactored/diagnosing-bugs/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "source_sha256": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f",
+      "published_sha256": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f",
+      "changed": false
+    },
+    {
+      "path": "refactored/diagnosing-bugs/SKILL.md",
+      "source_sha256": "a25a03a10129255b25eb082637c2b23dba4cd42075cbaab033d1f9aa4925cbe3",
+      "published_sha256": "a25a03a10129255b25eb082637c2b23dba4cd42075cbaab033d1f9aa4925cbe3",
+      "changed": false
+    },
+    {
+      "path": "refactored/domain-modeling/ADR-FORMAT.md",
+      "source_sha256": "b7021c31a1c2485b07356a8110fd1fd1ae4facbab3e210983789f425f867d95b",
+      "published_sha256": "b7021c31a1c2485b07356a8110fd1fd1ae4facbab3e210983789f425f867d95b",
+      "changed": false
+    },
+    {
+      "path": "refactored/domain-modeling/agents/openai.yaml",
+      "source_sha256": "ce496c77c77a090877bff10f198c9770fb52e23088351350ea0826380f948ff8",
+      "published_sha256": "ce496c77c77a090877bff10f198c9770fb52e23088351350ea0826380f948ff8",
+      "changed": false
+    },
+    {
+      "path": "refactored/domain-modeling/CONTEXT-FORMAT.md",
+      "source_sha256": "6097d3a11b96be24425091ed6e8a744c53644d3685455b2d828100f1853b9b89",
+      "published_sha256": "6097d3a11b96be24425091ed6e8a744c53644d3685455b2d828100f1853b9b89",
+      "changed": false
+    },
+    {
+      "path": "refactored/domain-modeling/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/domain-modeling/SKILL.md",
+      "source_sha256": "edfdf63f3c3c339683d0b96f4dcf12698a509bad552c61ffb71a8b022e3c5a1f",
+      "published_sha256": "edfdf63f3c3c339683d0b96f4dcf12698a509bad552c61ffb71a8b022e3c5a1f",
+      "changed": false
+    },
+    {
+      "path": "refactored/git-guardrails-claude-code/agents/openai.yaml",
+      "source_sha256": "9151961c68ab52e07e2463df15e8ff7c9331c3b7afbf716c3461623f87c57c14",
+      "published_sha256": "9151961c68ab52e07e2463df15e8ff7c9331c3b7afbf716c3461623f87c57c14",
+      "changed": false
+    },
+    {
+      "path": "refactored/git-guardrails-claude-code/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/git-guardrails-claude-code/references/legacy-hook-audit.md",
+      "source_sha256": "95560bd3457a43a7807acb742854f204f3d9ca0d2f56fbf7cfad1d3fb1f750fd",
+      "published_sha256": "95560bd3457a43a7807acb742854f204f3d9ca0d2f56fbf7cfad1d3fb1f750fd",
+      "changed": false
+    },
+    {
+      "path": "refactored/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+      "source_sha256": "bb5dc3a96ae81924ff3b88b959979b4eb68b7810f6fa9bd395fb8f781e0d8c12",
+      "published_sha256": "bb5dc3a96ae81924ff3b88b959979b4eb68b7810f6fa9bd395fb8f781e0d8c12",
+      "changed": false
+    },
+    {
+      "path": "refactored/git-guardrails-claude-code/SKILL.md",
+      "source_sha256": "616602afb5a31d70b47706d8076c73a0c9cea9fc94ef2ef5e2bf610a389ce833",
+      "published_sha256": "616602afb5a31d70b47706d8076c73a0c9cea9fc94ef2ef5e2bf610a389ce833",
+      "changed": false
+    },
+    {
+      "path": "refactored/grill-me/agents/openai.yaml",
+      "source_sha256": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5",
+      "published_sha256": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5",
+      "changed": false
+    },
+    {
+      "path": "refactored/grill-me/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/grill-me/SKILL.md",
+      "source_sha256": "32dcc6e052001426b1857255c5240cf6e28849d13b0b902c43cbd881de5d5271",
+      "published_sha256": "32dcc6e052001426b1857255c5240cf6e28849d13b0b902c43cbd881de5d5271",
+      "changed": false
+    },
+    {
+      "path": "refactored/grill-with-docs/agents/openai.yaml",
+      "source_sha256": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3",
+      "published_sha256": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3",
+      "changed": false
+    },
+    {
+      "path": "refactored/grill-with-docs/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/grill-with-docs/SKILL.md",
+      "source_sha256": "795cfefe5266cda492d74320d8d6dbd0b8aa8e74fd671ccc3c4d2b007486da47",
+      "published_sha256": "795cfefe5266cda492d74320d8d6dbd0b8aa8e74fd671ccc3c4d2b007486da47",
+      "changed": false
+    },
+    {
+      "path": "refactored/grilling/agents/openai.yaml",
+      "source_sha256": "ad75163922ff8263acdd25ebc37420e8fcf1fccb93483fd5742e9bd26f5c45f6",
+      "published_sha256": "ad75163922ff8263acdd25ebc37420e8fcf1fccb93483fd5742e9bd26f5c45f6",
+      "changed": false
+    },
+    {
+      "path": "refactored/grilling/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/grilling/SKILL.md",
+      "source_sha256": "cbefd323eef55a2bfc00e3eb8dd8aa54be10a51eafc85060f5b83ee944689f2e",
+      "published_sha256": "cbefd323eef55a2bfc00e3eb8dd8aa54be10a51eafc85060f5b83ee944689f2e",
+      "changed": false
+    },
+    {
+      "path": "refactored/handoff/agents/openai.yaml",
+      "source_sha256": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4",
+      "published_sha256": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4",
+      "changed": false
+    },
+    {
+      "path": "refactored/handoff/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/handoff/SKILL.md",
+      "source_sha256": "87e0bc9f8955006bd6926511ddf051bae025c759f3686ba8b193b90b63897d41",
+      "published_sha256": "87e0bc9f8955006bd6926511ddf051bae025c759f3686ba8b193b90b63897d41",
+      "changed": false
+    },
+    {
+      "path": "refactored/implement/agents/openai.yaml",
+      "source_sha256": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb",
+      "published_sha256": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb",
+      "changed": false
+    },
+    {
+      "path": "refactored/implement/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/implement/SKILL.md",
+      "source_sha256": "fcc0b0d3de798563834452e814f3ad805c726e7897c8ad5e0f0fc19e9da3b895",
+      "published_sha256": "fcc0b0d3de798563834452e814f3ad805c726e7897c8ad5e0f0fc19e9da3b895",
+      "changed": false
+    },
+    {
+      "path": "refactored/implement-spec/agents/openai.yaml",
+      "source_sha256": "3f7f8a55426d174c0fbe13405633d130a23e14a7b8e3157e1ba88da84c41c2d3",
+      "published_sha256": "3f7f8a55426d174c0fbe13405633d130a23e14a7b8e3157e1ba88da84c41c2d3",
+      "changed": false
+    },
+    {
+      "path": "refactored/implement-spec/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/implement-spec/SKILL.md",
+      "source_sha256": "b4ff51ffd94f0b0530d8bf9462c9f55e46896010d61385a4abb6f964ccf948e7",
+      "published_sha256": "b4ff51ffd94f0b0530d8bf9462c9f55e46896010d61385a4abb6f964ccf948e7",
+      "changed": false
+    },
+    {
+      "path": "refactored/improve-codebase-architecture/agents/openai.yaml",
+      "source_sha256": "6b69701fc3f4f31ec626c1ae5c090dc5c640fab147a63be81b575c2f9c5231fa",
+      "published_sha256": "6b69701fc3f4f31ec626c1ae5c090dc5c640fab147a63be81b575c2f9c5231fa",
+      "changed": false
+    },
+    {
+      "path": "refactored/improve-codebase-architecture/HTML-REPORT.md",
+      "source_sha256": "e0d32c7472acd4ff1effe61a091166634ceb85c4975ff596c4504bef1835f84e",
+      "published_sha256": "e0d32c7472acd4ff1effe61a091166634ceb85c4975ff596c4504bef1835f84e",
+      "changed": false
+    },
+    {
+      "path": "refactored/improve-codebase-architecture/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/improve-codebase-architecture/SKILL.md",
+      "source_sha256": "2811e212015009b3c599a6d30c374e6f285623f6396322214f15a0cd301c54ec",
+      "published_sha256": "2811e212015009b3c599a6d30c374e6f285623f6396322214f15a0cd301c54ec",
+      "changed": false
+    },
+    {
+      "path": "refactored/loop-me/agents/openai.yaml",
+      "source_sha256": "ec257a7995d8eba46b6a95471f5fb569798aa975a1b1c438542b1a9c82bc33d3",
+      "published_sha256": "ec257a7995d8eba46b6a95471f5fb569798aa975a1b1c438542b1a9c82bc33d3",
+      "changed": false
+    },
+    {
+      "path": "refactored/loop-me/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/loop-me/SKILL.md",
+      "source_sha256": "f42a2027f12b65fc159ed8ae58afc16d47b7299bf1bab9ca3002a846b7ccc501",
+      "published_sha256": "f42a2027f12b65fc159ed8ae58afc16d47b7299bf1bab9ca3002a846b7ccc501",
+      "changed": false
+    },
+    {
+      "path": "refactored/migrate-to-shoehorn/agents/openai.yaml",
+      "source_sha256": "43d8fbb6347d771e82eb866bae6987acede6dc1d16d46b9c69e2b06930771180",
+      "published_sha256": "43d8fbb6347d771e82eb866bae6987acede6dc1d16d46b9c69e2b06930771180",
+      "changed": false
+    },
+    {
+      "path": "refactored/migrate-to-shoehorn/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/migrate-to-shoehorn/SKILL.md",
+      "source_sha256": "3eb3b1f5cda6a0a47ae91b39da37504a9218528794aab2ebd38eeab303ae4b49",
+      "published_sha256": "3eb3b1f5cda6a0a47ae91b39da37504a9218528794aab2ebd38eeab303ae4b49",
+      "changed": false
+    },
+    {
+      "path": "refactored/pr/agents/openai.yaml",
+      "source_sha256": "33b71355c3ec06963d9a276baff9e9bf89a1ac69a5b9489a368c95021a8d6cc4",
+      "published_sha256": "33b71355c3ec06963d9a276baff9e9bf89a1ac69a5b9489a368c95021a8d6cc4",
+      "changed": false
+    },
+    {
+      "path": "refactored/pr/CREDITS.md",
+      "source_sha256": "d11be215cc3759c29619338303e962e487a4c15dc074b5791b5492fb819e9109",
+      "published_sha256": "d11be215cc3759c29619338303e962e487a4c15dc074b5791b5492fb819e9109",
+      "changed": false
+    },
+    {
+      "path": "refactored/pr/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/pr/SKILL.md",
+      "source_sha256": "c513c24f87add562c22af73fcb7c7c0b020f14e376a20f275aa40fa34cd639f5",
+      "published_sha256": "c513c24f87add562c22af73fcb7c7c0b020f14e376a20f275aa40fa34cd639f5",
+      "changed": false
+    },
+    {
+      "path": "refactored/prototype/agents/openai.yaml",
+      "source_sha256": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787",
+      "published_sha256": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787",
+      "changed": false
+    },
+    {
+      "path": "refactored/prototype/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/prototype/LOGIC.md",
+      "source_sha256": "c9f3e1f089e0c67a40450c4b06c42cb649bfbb00b70bb97de8b322bb4393c8ec",
+      "published_sha256": "c9f3e1f089e0c67a40450c4b06c42cb649bfbb00b70bb97de8b322bb4393c8ec",
+      "changed": false
+    },
+    {
+      "path": "refactored/prototype/SKILL.md",
+      "source_sha256": "1ad65d24c445c67f73371a1d55a1d1b76f67a7600e4071ec4677010ea166c8c1",
+      "published_sha256": "1ad65d24c445c67f73371a1d55a1d1b76f67a7600e4071ec4677010ea166c8c1",
+      "changed": false
+    },
+    {
+      "path": "refactored/prototype/UI.md",
+      "source_sha256": "ad9e0ad9cd9747611ce0b9acfdfdae86272daee9d35281e652d9e737fec23764",
+      "published_sha256": "ad9e0ad9cd9747611ce0b9acfdfdae86272daee9d35281e652d9e737fec23764",
+      "changed": false
+    },
+    {
+      "path": "refactored/research/agents/openai.yaml",
+      "source_sha256": "73840328dfa6b689d81ee645d8aaf8570a0cc44d64a32b119ea6091d2828d412",
+      "published_sha256": "73840328dfa6b689d81ee645d8aaf8570a0cc44d64a32b119ea6091d2828d412",
+      "changed": false
+    },
+    {
+      "path": "refactored/research/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/research/SKILL.md",
+      "source_sha256": "b88796a8ee2dc2a9c70139f0b4e3767e86d92600dfb395829956a462d0b57dba",
+      "published_sha256": "b88796a8ee2dc2a9c70139f0b4e3767e86d92600dfb395829956a462d0b57dba",
+      "changed": false
+    },
+    {
+      "path": "refactored/resolving-merge-conflicts/agents/openai.yaml",
+      "source_sha256": "ad953099f6df6fe1b1e6e395ce38dfab3eb3a4e37461cfb318b0e81a32a35b4b",
+      "published_sha256": "ad953099f6df6fe1b1e6e395ce38dfab3eb3a4e37461cfb318b0e81a32a35b4b",
+      "changed": false
+    },
+    {
+      "path": "refactored/resolving-merge-conflicts/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/resolving-merge-conflicts/SKILL.md",
+      "source_sha256": "c3ec44389881486386cbddd93e3a883d21df35a0e32b432d021e683143f31ec1",
+      "published_sha256": "c3ec44389881486386cbddd93e3a883d21df35a0e32b432d021e683143f31ec1",
+      "changed": false
+    },
+    {
+      "path": "refactored/retro/agents/openai.yaml",
+      "source_sha256": "61afaa61443da49b3ff8fcc9d04735362bfec03e213791226134a3a21a9c6fd3",
+      "published_sha256": "61afaa61443da49b3ff8fcc9d04735362bfec03e213791226134a3a21a9c6fd3",
+      "changed": false
+    },
+    {
+      "path": "refactored/retro/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/retro/SKILL.md",
+      "source_sha256": "b6eddcb9de1b978d76704c8e8719b922f5a4b4c38a127e6eee5f51d1e147d87e",
+      "published_sha256": "b6eddcb9de1b978d76704c8e8719b922f5a4b4c38a127e6eee5f51d1e147d87e",
+      "changed": false
+    },
+    {
+      "path": "refactored/scaffold-exercises/agents/openai.yaml",
+      "source_sha256": "f3ab550f1077150f0fe728fe3ff187e8672f4df7eedc7f233cdd1a61f347f1db",
+      "published_sha256": "f3ab550f1077150f0fe728fe3ff187e8672f4df7eedc7f233cdd1a61f347f1db",
+      "changed": false
+    },
+    {
+      "path": "refactored/scaffold-exercises/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/scaffold-exercises/SKILL.md",
+      "source_sha256": "4117aa7f9ef81b6e6573a22d65768cca20382e4a68e19969b667b1bc5c4ed61a",
+      "published_sha256": "4117aa7f9ef81b6e6573a22d65768cca20382e4a68e19969b667b1bc5c4ed61a",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/agents/openai.yaml",
+      "source_sha256": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2",
+      "published_sha256": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/domain.md",
+      "source_sha256": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54",
+      "published_sha256": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/issue-tracker-github.md",
+      "source_sha256": "622190fd3b98ad54e24bd1226e9f90abfe9594a04f697fb29b233fe73b0d8e16",
+      "published_sha256": "622190fd3b98ad54e24bd1226e9f90abfe9594a04f697fb29b233fe73b0d8e16",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "source_sha256": "d211c3150fddae3ced118b4223ed450631d1490f62549b62d05db6eb9ccee241",
+      "published_sha256": "d211c3150fddae3ced118b4223ed450631d1490f62549b62d05db6eb9ccee241",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/issue-tracker-local.md",
+      "source_sha256": "5b594b4b44ff4ee428b017a9021b8b12c4b11f26f7d56165ddfc72122771fb34",
+      "published_sha256": "5b594b4b44ff4ee428b017a9021b8b12c4b11f26f7d56165ddfc72122771fb34",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/SKILL.md",
+      "source_sha256": "32d9824b7200fe5d69c46397546a90256b3800dffaf80d6e413c1c7bc4988073",
+      "published_sha256": "32d9824b7200fe5d69c46397546a90256b3800dffaf80d6e413c1c7bc4988073",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-matt-pocock-skills/triage-labels.md",
+      "source_sha256": "ab77e8ac8134c075e4a84d6f65fe0b6eb29c06a618bfc0d27fccf844e49c3b2a",
+      "published_sha256": "ab77e8ac8134c075e4a84d6f65fe0b6eb29c06a618bfc0d27fccf844e49c3b2a",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-pre-commit/agents/openai.yaml",
+      "source_sha256": "946bfa9a3cab905f4241d8dcc127a11fdcf2994027b87e198f26f7e65d88f727",
+      "published_sha256": "946bfa9a3cab905f4241d8dcc127a11fdcf2994027b87e198f26f7e65d88f727",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-pre-commit/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-pre-commit/SKILL.md",
+      "source_sha256": "3be1dc69885c71e1d6949cbec1736bf49137ace98394a5810e42fce64f0ad3dc",
+      "published_sha256": "3be1dc69885c71e1d6949cbec1736bf49137ace98394a5810e42fce64f0ad3dc",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-ts-deep-modules/agents/openai.yaml",
+      "source_sha256": "bf3d58c59b0e68ef3b0287ac3ab3d165b066dfd31e146ecf278e56e4df664610",
+      "published_sha256": "bf3d58c59b0e68ef3b0287ac3ab3d165b066dfd31e146ecf278e56e4df664610",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-ts-deep-modules/dependency-cruiser.config.cjs",
+      "source_sha256": "d80c982bc496ff6fb65c91bfa5b3ffccd64396cd488f556779ce3f1bd770f376",
+      "published_sha256": "d80c982bc496ff6fb65c91bfa5b3ffccd64396cd488f556779ce3f1bd770f376",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-ts-deep-modules/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/setup-ts-deep-modules/SKILL.md",
+      "source_sha256": "5025570a9270dc254e200ea79f9b448c51ae7d124c3620f2c485b4f64f1f8ae4",
+      "published_sha256": "5025570a9270dc254e200ea79f9b448c51ae7d124c3620f2c485b4f64f1f8ae4",
+      "changed": false
+    },
+    {
+      "path": "refactored/tdd/agents/openai.yaml",
+      "source_sha256": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac",
+      "published_sha256": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac",
+      "changed": false
+    },
+    {
+      "path": "refactored/tdd/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/tdd/mocking.md",
+      "source_sha256": "b63a20ff5e9c88bf6c4c82eb1146024629b08ccd47b36444fcf093ba47310324",
+      "published_sha256": "b63a20ff5e9c88bf6c4c82eb1146024629b08ccd47b36444fcf093ba47310324",
+      "changed": false
+    },
+    {
+      "path": "refactored/tdd/SKILL.md",
+      "source_sha256": "3a07c637aacfefb91f9205d2211cb82c72db941b1e7ae6ebe93a1e8f2510c45a",
+      "published_sha256": "3a07c637aacfefb91f9205d2211cb82c72db941b1e7ae6ebe93a1e8f2510c45a",
+      "changed": false
+    },
+    {
+      "path": "refactored/tdd/tests.md",
+      "source_sha256": "bff5dbd2c9c436827559baccbb1b1221b8ce64675147da29e396239d2e42d0f1",
+      "published_sha256": "bff5dbd2c9c436827559baccbb1b1221b8ce64675147da29e396239d2e42d0f1",
+      "changed": false
+    },
+    {
+      "path": "refactored/teach/agents/openai.yaml",
+      "source_sha256": "80e96a4d492ad8538e609672361e8543b69e7b22ce83be0efc2e5532472ede69",
+      "published_sha256": "80e96a4d492ad8538e609672361e8543b69e7b22ce83be0efc2e5532472ede69",
+      "changed": false
+    },
+    {
+      "path": "refactored/teach/GLOSSARY-FORMAT.md",
+      "source_sha256": "17e4442d123852240974919ba450a30fa89c3e3d7440828960bb808248c9d5c9",
+      "published_sha256": "17e4442d123852240974919ba450a30fa89c3e3d7440828960bb808248c9d5c9",
+      "changed": false
+    },
+    {
+      "path": "refactored/teach/LEARNING-RECORD-FORMAT.md",
+      "source_sha256": "43d9c789a45ec3d628cd5b28e8012f1568d2bf77176d09c489f856343ca8bfef",
+      "published_sha256": "43d9c789a45ec3d628cd5b28e8012f1568d2bf77176d09c489f856343ca8bfef",
+      "changed": false
+    },
+    {
+      "path": "refactored/teach/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/teach/MISSION-FORMAT.md",
+      "source_sha256": "1c7c68fc89afa61b99bbaaafe8e19350723acb4d6749730114e79ab6aa79c589",
+      "published_sha256": "1c7c68fc89afa61b99bbaaafe8e19350723acb4d6749730114e79ab6aa79c589",
+      "changed": false
+    },
+    {
+      "path": "refactored/teach/RESOURCES-FORMAT.md",
+      "source_sha256": "7f94b25510e203b1c405210ed16d6646bb8f0dacbe2fadfe79ed3ce3e30d59d4",
+      "published_sha256": "7f94b25510e203b1c405210ed16d6646bb8f0dacbe2fadfe79ed3ce3e30d59d4",
+      "changed": false
+    },
+    {
+      "path": "refactored/teach/SKILL.md",
+      "source_sha256": "02a77bf566dd578da492ab319105a7bf7574b0abd1bbad1de635738d2aa92235",
+      "published_sha256": "02a77bf566dd578da492ab319105a7bf7574b0abd1bbad1de635738d2aa92235",
+      "changed": false
+    },
+    {
+      "path": "refactored/to-questionnaire/agents/openai.yaml",
+      "source_sha256": "0b5ed84d805809777a15371c946a70f98321e3c6400fce5fcd74df71d40e860b",
+      "published_sha256": "0b5ed84d805809777a15371c946a70f98321e3c6400fce5fcd74df71d40e860b",
+      "changed": false
+    },
+    {
+      "path": "refactored/to-questionnaire/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/to-questionnaire/SKILL.md",
+      "source_sha256": "aa82b78460c158e7d832a40b08015a85545681023bf9d3773313c70de8586a15",
+      "published_sha256": "aa82b78460c158e7d832a40b08015a85545681023bf9d3773313c70de8586a15",
+      "changed": false
+    },
+    {
+      "path": "refactored/to-spec/agents/openai.yaml",
+      "source_sha256": "55037139831219743dda1f716fe69eab3366e922529f69cc988fea3b1d34c74a",
+      "published_sha256": "55037139831219743dda1f716fe69eab3366e922529f69cc988fea3b1d34c74a",
+      "changed": false
+    },
+    {
+      "path": "refactored/to-spec/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/to-spec/SKILL.md",
+      "source_sha256": "1d29d1399ea97d7c8c56a2111325ad735284b546348445f9abe1b4cdf9fb730d",
+      "published_sha256": "1d29d1399ea97d7c8c56a2111325ad735284b546348445f9abe1b4cdf9fb730d",
+      "changed": false
+    },
+    {
+      "path": "refactored/to-tickets/agents/openai.yaml",
+      "source_sha256": "e396b8caaf6cdd95c94cf707a7ca2fa5c3a04b37ae5d4301b5b360a7ff7a34cb",
+      "published_sha256": "e396b8caaf6cdd95c94cf707a7ca2fa5c3a04b37ae5d4301b5b360a7ff7a34cb",
+      "changed": false
+    },
+    {
+      "path": "refactored/to-tickets/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/to-tickets/SKILL.md",
+      "source_sha256": "5891b75d17f71907919996f673028510b7e9a110f8a2376d0b96908192fe2c70",
+      "published_sha256": "5891b75d17f71907919996f673028510b7e9a110f8a2376d0b96908192fe2c70",
+      "changed": false
+    },
+    {
+      "path": "refactored/triage/AGENT-BRIEF.md",
+      "source_sha256": "502a6e55e23a94fde22b1d9a95f575f81b4d14686ba38dd9e3012cd0aca47ab3",
+      "published_sha256": "502a6e55e23a94fde22b1d9a95f575f81b4d14686ba38dd9e3012cd0aca47ab3",
+      "changed": false
+    },
+    {
+      "path": "refactored/triage/agents/openai.yaml",
+      "source_sha256": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae",
+      "published_sha256": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae",
+      "changed": false
+    },
+    {
+      "path": "refactored/triage/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/triage/OUT-OF-SCOPE.md",
+      "source_sha256": "c0a697b6362cc6774d84402a8fe8be01d291dfcf1628a263cf84b123f18deb7b",
+      "published_sha256": "c0a697b6362cc6774d84402a8fe8be01d291dfcf1628a263cf84b123f18deb7b",
+      "changed": false
+    },
+    {
+      "path": "refactored/triage/SKILL.md",
+      "source_sha256": "cd4996abdb04b484309b156c0385f30d5d2994d214ea58eb621c3b93ebf0f661",
+      "published_sha256": "cd4996abdb04b484309b156c0385f30d5d2994d214ea58eb621c3b93ebf0f661",
+      "changed": false
+    },
+    {
+      "path": "refactored/wait-what/agents/openai.yaml",
+      "source_sha256": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef",
+      "published_sha256": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef",
+      "changed": false
+    },
+    {
+      "path": "refactored/wait-what/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/wait-what/SKILL.md",
+      "source_sha256": "5cc2b0f6b59f0ceafc6cdad2b15fba558a3c69917f564a94e3473698e817d785",
+      "published_sha256": "5cc2b0f6b59f0ceafc6cdad2b15fba558a3c69917f564a94e3473698e817d785",
+      "changed": false
+    },
+    {
+      "path": "refactored/wayfinder/agents/openai.yaml",
+      "source_sha256": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a",
+      "published_sha256": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a",
+      "changed": false
+    },
+    {
+      "path": "refactored/wayfinder/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/wayfinder/SKILL.md",
+      "source_sha256": "f99bd05e667513cf8c26797793195db6e2cf99f998482994ef67497ac1a80911",
+      "published_sha256": "f99bd05e667513cf8c26797793195db6e2cf99f998482994ef67497ac1a80911",
+      "changed": false
+    },
+    {
+      "path": "refactored/wizard/agents/openai.yaml",
+      "source_sha256": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249",
+      "published_sha256": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249",
+      "changed": false
+    },
+    {
+      "path": "refactored/wizard/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/wizard/SKILL.md",
+      "source_sha256": "5e2c3aabde1752152b8f335167b7bc762688baabee3fe64e43ce696b45c6ecf5",
+      "published_sha256": "5e2c3aabde1752152b8f335167b7bc762688baabee3fe64e43ce696b45c6ecf5",
+      "changed": false
+    },
+    {
+      "path": "refactored/wizard/template.sh",
+      "source_sha256": "fafe165e114911870077dc5b01e374c15405d7b51096bff8371314c47112bbd6",
+      "published_sha256": "fafe165e114911870077dc5b01e374c15405d7b51096bff8371314c47112bbd6",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-beats/agents/openai.yaml",
+      "source_sha256": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84",
+      "published_sha256": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-beats/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-beats/SKILL.md",
+      "source_sha256": "efc03138e5bf63910cf2c03e5c083fd9dac11617f2bf9a755e969a9ffad1745f",
+      "published_sha256": "efc03138e5bf63910cf2c03e5c083fd9dac11617f2bf9a755e969a9ffad1745f",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-for-agents/agents/openai.yaml",
+      "source_sha256": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428",
+      "published_sha256": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-for-agents/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-for-agents/SKILL-MECHANICS.md",
+      "source_sha256": "09e24b4f01cc2099824a34a6bc765a57b594a968fe55e7894fef224cf40fcf6f",
+      "published_sha256": "09e24b4f01cc2099824a34a6bc765a57b594a968fe55e7894fef224cf40fcf6f",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-for-agents/SKILL.md",
+      "source_sha256": "86478d26e1f6ba958bef4f5db973e1b8bb0587e31d201240fbefd823b1566a53",
+      "published_sha256": "86478d26e1f6ba958bef4f5db973e1b8bb0587e31d201240fbefd823b1566a53",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-fragments/agents/openai.yaml",
+      "source_sha256": "d082f54a16e95d0eb5c3bcf3e2ff7b78b8c5b2e142c5d1b8897d7f3282adbedb",
+      "published_sha256": "d082f54a16e95d0eb5c3bcf3e2ff7b78b8c5b2e142c5d1b8897d7f3282adbedb",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-fragments/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-fragments/SKILL.md",
+      "source_sha256": "c0316e13b529399cc764fecf1f8814374594ed259383fb22f8245b271a1aa433",
+      "published_sha256": "c0316e13b529399cc764fecf1f8814374594ed259383fb22f8245b271a1aa433",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-shape/agents/openai.yaml",
+      "source_sha256": "7f82f71f0849ada3acb686dfe9977a7b5b1af3c1fc049ac5275b8fdf3a18c299",
+      "published_sha256": "7f82f71f0849ada3acb686dfe9977a7b5b1af3c1fc049ac5275b8fdf3a18c299",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-shape/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "refactored/writing-shape/SKILL.md",
+      "source_sha256": "5f92a1832d225e03f7f1fdb8d540844c9fa2dfe65b258bb52accbba2f51f5163",
+      "published_sha256": "5f92a1832d225e03f7f1fdb8d540844c9fa2dfe65b258bb52accbba2f51f5163",
+      "changed": false
+    },
+    {
+      "path": "REPRODUCE.md",
+      "source_sha256": "9fa7c8f4828e338bfd5e86765b44338a7a257867358724a92dca0f5e58c614d6",
+      "published_sha256": "d3519a36f14d3fc4b4453945d7dbb725a37f01f5e53f39dfda1ad9ed45a05140",
+      "changed": true
+    },
+    {
+      "path": "reviews/audit-repairs.json",
+      "source_sha256": "3cf8acfba5241a5e28b894b5a50a542b860382be287b64307973cbdb787fd507",
+      "published_sha256": "3cf8acfba5241a5e28b894b5a50a542b860382be287b64307973cbdb787fd507",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-ask-matt.json",
+      "source_sha256": "ed4ed52a060f06cb066943b01fab8772fdd4f1580269a29d98fd7ce475a6f334",
+      "published_sha256": "ed4ed52a060f06cb066943b01fab8772fdd4f1580269a29d98fd7ce475a6f334",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-claude-handoff.json",
+      "source_sha256": "ac960c3fba63de4ecbb9d685fd8f2ae9ea7b4203c7a64b1daae257b144db1137",
+      "published_sha256": "ac960c3fba63de4ecbb9d685fd8f2ae9ea7b4203c7a64b1daae257b144db1137",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-code-review.json",
+      "source_sha256": "00ee0524d953d0ae9c292cedbaafe27bb89a5f6378086ff38ef41b8a3ccdf2d1",
+      "published_sha256": "00ee0524d953d0ae9c292cedbaafe27bb89a5f6378086ff38ef41b8a3ccdf2d1",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-codebase-design.json",
+      "source_sha256": "602b6d665852c98ad6c0b2a5b748af2a867f5d7fab1e3b64d7925986352220ca",
+      "published_sha256": "602b6d665852c98ad6c0b2a5b748af2a867f5d7fab1e3b64d7925986352220ca",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-diagnosing-bugs.json",
+      "source_sha256": "ef63f2ba69071cd7ba8609913a616452750ccdc04863f10ad3d532ed810b3a70",
+      "published_sha256": "ef63f2ba69071cd7ba8609913a616452750ccdc04863f10ad3d532ed810b3a70",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-domain-modeling.json",
+      "source_sha256": "78210438293db9fdf8df1923facd88525dc4e3c7515dee50c9c6a89b322f3218",
+      "published_sha256": "78210438293db9fdf8df1923facd88525dc4e3c7515dee50c9c6a89b322f3218",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-git-guardrails-claude-code.json",
+      "source_sha256": "d759af45b2d03e009d096586b7275fccee644e76ce5f711bd2997727e5e1cc96",
+      "published_sha256": "d759af45b2d03e009d096586b7275fccee644e76ce5f711bd2997727e5e1cc96",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-grill-me.json",
+      "source_sha256": "22e15b479fa058a604b38ba06dc31f9799e132100ec60cb22234e1e32a77b60e",
+      "published_sha256": "22e15b479fa058a604b38ba06dc31f9799e132100ec60cb22234e1e32a77b60e",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-grill-with-docs.json",
+      "source_sha256": "1f2fa1053f611f263188ef066959f8f37a5644c412c74a2826c813c5d7e5cab8",
+      "published_sha256": "1f2fa1053f611f263188ef066959f8f37a5644c412c74a2826c813c5d7e5cab8",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-grilling.json",
+      "source_sha256": "a089aa40a8bdd53fcb530995716a65cb0da067e6f50df9573497955739fd3bfd",
+      "published_sha256": "a089aa40a8bdd53fcb530995716a65cb0da067e6f50df9573497955739fd3bfd",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-handoff.json",
+      "source_sha256": "7a1741171333f7b51f790a8178bf9ceab18ff1aa35bd698f5342e223e33680ac",
+      "published_sha256": "7a1741171333f7b51f790a8178bf9ceab18ff1aa35bd698f5342e223e33680ac",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-implement-spec.json",
+      "source_sha256": "ba53dd03f2c99ecd96afc69b7b1c72e94b3a49749c249da6c708ebca1fd0b72b",
+      "published_sha256": "ba53dd03f2c99ecd96afc69b7b1c72e94b3a49749c249da6c708ebca1fd0b72b",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-implement.json",
+      "source_sha256": "77fb9b4d03d289e428cbcce42677e847136d13344bead7db7a0ec8742a8d6894",
+      "published_sha256": "77fb9b4d03d289e428cbcce42677e847136d13344bead7db7a0ec8742a8d6894",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-improve-codebase-architecture.json",
+      "source_sha256": "575ffe75d4e69f1dca8d4e73e07c14c8df57ba247e1852c58e7954c1d90ab251",
+      "published_sha256": "575ffe75d4e69f1dca8d4e73e07c14c8df57ba247e1852c58e7954c1d90ab251",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-loop-me.json",
+      "source_sha256": "ec7d7fcefa88cd3ec5bff862581b05b6b03e803b79e6f976c6b34acfc408ec30",
+      "published_sha256": "ec7d7fcefa88cd3ec5bff862581b05b6b03e803b79e6f976c6b34acfc408ec30",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-migrate-to-shoehorn.json",
+      "source_sha256": "3eb033dca6940d71beeb93639db1d144ea04781f192fffe518cd955b8cd87531",
+      "published_sha256": "3eb033dca6940d71beeb93639db1d144ea04781f192fffe518cd955b8cd87531",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-pr.json",
+      "source_sha256": "56a0e5befb17eeb0c264d4ca0329a74126d8f8a659f98b3e16055a2e5099fe1b",
+      "published_sha256": "56a0e5befb17eeb0c264d4ca0329a74126d8f8a659f98b3e16055a2e5099fe1b",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-prototype.json",
+      "source_sha256": "9955306306ba250942deeee1ca58358dc5b10f6dec8b408195de3ee9c946ab2f",
+      "published_sha256": "9955306306ba250942deeee1ca58358dc5b10f6dec8b408195de3ee9c946ab2f",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-research.json",
+      "source_sha256": "9276d0a12049c385c347a21da109f654230467e8dc4eb89d729f86621de4b114",
+      "published_sha256": "9276d0a12049c385c347a21da109f654230467e8dc4eb89d729f86621de4b114",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-resolving-merge-conflicts.json",
+      "source_sha256": "b61b684d71b3329e6955dfe2be0e608022e3802114aec8b8a2e0d118767cd88a",
+      "published_sha256": "b61b684d71b3329e6955dfe2be0e608022e3802114aec8b8a2e0d118767cd88a",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-retro.json",
+      "source_sha256": "cac4d644d6788a18f94a1713ef851a07e2575795669e0b8a63315531bb12863d",
+      "published_sha256": "cac4d644d6788a18f94a1713ef851a07e2575795669e0b8a63315531bb12863d",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-scaffold-exercises.json",
+      "source_sha256": "fe291ae8b087fb98576a3607e4023f23788a7d47b973da86465232ec06447d7c",
+      "published_sha256": "fe291ae8b087fb98576a3607e4023f23788a7d47b973da86465232ec06447d7c",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-setup-matt-pocock-skills.json",
+      "source_sha256": "acfe952b24323411e6f0210bc6242a86609940cf953f8987b0a9c377f70c703a",
+      "published_sha256": "acfe952b24323411e6f0210bc6242a86609940cf953f8987b0a9c377f70c703a",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-setup-pre-commit.json",
+      "source_sha256": "9105e3f3be1616d49c80d857a3e3e6a1d5604b8cb3e9b358497c6b829bcda630",
+      "published_sha256": "9105e3f3be1616d49c80d857a3e3e6a1d5604b8cb3e9b358497c6b829bcda630",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-setup-ts-deep-modules.json",
+      "source_sha256": "d55fbe704ffe09241e47e83bd6471767a76c8de5b06694f92a071840ea082991",
+      "published_sha256": "d55fbe704ffe09241e47e83bd6471767a76c8de5b06694f92a071840ea082991",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-tdd.json",
+      "source_sha256": "b3da470e5ff3536b2c60975158a7a3ca455e36e4ada1a7465241f93d1bdb5aa5",
+      "published_sha256": "b3da470e5ff3536b2c60975158a7a3ca455e36e4ada1a7465241f93d1bdb5aa5",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-teach.json",
+      "source_sha256": "a7106a68626d882aef6d76e47301d0909e717f00f86ae5ceaf2769afd4091563",
+      "published_sha256": "a7106a68626d882aef6d76e47301d0909e717f00f86ae5ceaf2769afd4091563",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-to-questionnaire.json",
+      "source_sha256": "fb80025ae80af37b3cf6b3c8cfe508ed5c7fdb62cbfa8319782069020cf8b3a3",
+      "published_sha256": "fb80025ae80af37b3cf6b3c8cfe508ed5c7fdb62cbfa8319782069020cf8b3a3",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-to-spec.json",
+      "source_sha256": "f1cab2c5e5dc8003e21563f007dd9e6c326c47ab22f05aaca966e927b23960df",
+      "published_sha256": "f1cab2c5e5dc8003e21563f007dd9e6c326c47ab22f05aaca966e927b23960df",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-to-tickets.json",
+      "source_sha256": "59e632883a2578a7c3375f2d9ab3802b27f437aac8790e57d82ca63b41932630",
+      "published_sha256": "59e632883a2578a7c3375f2d9ab3802b27f437aac8790e57d82ca63b41932630",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-triage.json",
+      "source_sha256": "b25656385416e96186851765f6f9af1e184769588b6c584961c4039e2dbe5a80",
+      "published_sha256": "b25656385416e96186851765f6f9af1e184769588b6c584961c4039e2dbe5a80",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-wait-what.json",
+      "source_sha256": "cc2261510903ea8d537853eb1695762e345777cb2250f8c9b2514848a3845b73",
+      "published_sha256": "cc2261510903ea8d537853eb1695762e345777cb2250f8c9b2514848a3845b73",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-wayfinder.json",
+      "source_sha256": "9bd49542595afef9c68a7473d35a588c25a79536c52868bd0662653affb13692",
+      "published_sha256": "9bd49542595afef9c68a7473d35a588c25a79536c52868bd0662653affb13692",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-wizard.json",
+      "source_sha256": "eaa8087a488b0430a2684ec3166b6281c71a53084afb0d408b6a1633a6f1d088",
+      "published_sha256": "eaa8087a488b0430a2684ec3166b6281c71a53084afb0d408b6a1633a6f1d088",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-writing-beats.json",
+      "source_sha256": "1a504df2662b0a28bde12f245ad4a415b5a6abc8a7c87e88363ea1b8273f94d6",
+      "published_sha256": "1a504df2662b0a28bde12f245ad4a415b5a6abc8a7c87e88363ea1b8273f94d6",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-writing-for-agents.json",
+      "source_sha256": "7c301324bb41b2df758b6875084ebcde11b1f593af66a922bd3cdd0af6c832fa",
+      "published_sha256": "7c301324bb41b2df758b6875084ebcde11b1f593af66a922bd3cdd0af6c832fa",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-writing-fragments.json",
+      "source_sha256": "5cad01cee092bf1804ff2f373beca69887c68fd215b4a11581422ba980088e33",
+      "published_sha256": "5cad01cee092bf1804ff2f373beca69887c68fd215b4a11581422ba980088e33",
+      "changed": false
+    },
+    {
+      "path": "reviews/author-writing-shape.json",
+      "source_sha256": "d1b30f89c9dc71aa9f26bcd884ba1c887ec01caf77ca807e164fa5fcd78fbc8f",
+      "published_sha256": "d1b30f89c9dc71aa9f26bcd884ba1c887ec01caf77ca807e164fa5fcd78fbc8f",
+      "changed": false
+    },
+    {
+      "path": "reviews/original-followup.json",
+      "source_sha256": "5c611082c46697d668ff74f1e5d5f209a64f51cf25e2a6b388317251fa7a4b48",
+      "published_sha256": "5c611082c46697d668ff74f1e5d5f209a64f51cf25e2a6b388317251fa7a4b48",
+      "changed": false
+    },
+    {
+      "path": "reviews/original-portfolio.json",
+      "source_sha256": "93d700ebefa30eb04d96b08d17f5b6bed9af49302d663a16a3d6c36f5210e860",
+      "published_sha256": "93d700ebefa30eb04d96b08d17f5b6bed9af49302d663a16a3d6c36f5210e860",
+      "changed": false
+    },
+    {
+      "path": "reviews/original-revisions.json",
+      "source_sha256": "8b52928dc7ed58d635cb56f3fbc6310451503e62e663272d1b69112f2d6c07b5",
+      "published_sha256": "8b52928dc7ed58d635cb56f3fbc6310451503e62e663272d1b69112f2d6c07b5",
+      "changed": false
+    },
+    {
+      "path": "reviews/original-v1/instruction-ablation/SKILL.md",
+      "source_sha256": "fac0d76ecd01c50a7a6e3c08725ad92db7ca449387b34932d67caac4a9f59e8b",
+      "published_sha256": "fac0d76ecd01c50a7a6e3c08725ad92db7ca449387b34932d67caac4a9f59e8b",
+      "changed": false
+    },
+    {
+      "path": "reviews/original-v1/thesis-stress-test/SKILL.md",
+      "source_sha256": "710050e48fcef9bab4dc2d70088a58c77ef058c9f0b3c558574b126a6a375269",
+      "published_sha256": "710050e48fcef9bab4dc2d70088a58c77ef058c9f0b3c558574b126a6a375269",
+      "changed": false
+    },
+    {
+      "path": "reviews/reader-screenshots/compendium-chapter.png",
+      "source_sha256": "c58d27ff461990e56d1350713081e2852f87717d5036e26a505f3a5d4b102dac",
+      "published_sha256": "c58d27ff461990e56d1350713081e2852f87717d5036e26a505f3a5d4b102dac",
+      "changed": false
+    },
+    {
+      "path": "reviews/reader-screenshots/compendium-mobile.png",
+      "source_sha256": "e513f92ed831cc0a31cd2cbe85267ddca1f2413225870dcf83c68ea647e370f2",
+      "published_sha256": "e513f92ed831cc0a31cd2cbe85267ddca1f2413225870dcf83c68ea647e370f2",
+      "changed": false
+    },
+    {
+      "path": "reviews/reader-screenshots/compendium-overview.png",
+      "source_sha256": "71ce3763837c73296b6352f36fb017b7b4dd82b4955c5fbcc1ad6c2ff797fe4e",
+      "published_sha256": "71ce3763837c73296b6352f36fb017b7b4dd82b4955c5fbcc1ad6c2ff797fe4e",
+      "changed": false
+    },
+    {
+      "path": "reviews/refactor-audit.json",
+      "source_sha256": "c70de14a97e22da4acc66bbaecdff2c3240f5adc33b12ba755fd8d82d8dfdd14",
+      "published_sha256": "c70de14a97e22da4acc66bbaecdff2c3240f5adc33b12ba755fd8d82d8dfdd14",
+      "changed": false
+    },
+    {
+      "path": "reviews/superseded-originals/counterexample-search/author-metadata-before-revision.json",
+      "source_sha256": "9b5e0c1bded5eb49295f9a6c885c9b62d3c4d6a9ada9c259c560c75f0ba4a430",
+      "published_sha256": "9b5e0c1bded5eb49295f9a6c885c9b62d3c4d6a9ada9c259c560c75f0ba4a430",
+      "changed": false
+    },
+    {
+      "path": "reviews/superseded-originals/counterexample-search/chapter-before-revision.md",
+      "source_sha256": "4097384b851d362aea69f5376834ae1e6be6750b6d1f8ee42d89843aea7eaa8e",
+      "published_sha256": "4097384b851d362aea69f5376834ae1e6be6750b6d1f8ee42d89843aea7eaa8e",
+      "changed": false
+    },
+    {
+      "path": "reviews/superseded-originals/counterexample-search/SKILL.md",
+      "source_sha256": "1a941c068776f5ae3d40a4136194074697712304f913eb9135d283639f84aea8",
+      "published_sha256": "1a941c068776f5ae3d40a4136194074697712304f913eb9135d283639f84aea8",
+      "changed": false
+    },
+    {
+      "path": "reviews/superseded-originals/counterimage/author-metadata-before-revision.json",
+      "source_sha256": "bc9c4fd45c6adc4395da8fae8a9b9cfd79cb1ad191b322342d81710c0e1538f8",
+      "published_sha256": "bc9c4fd45c6adc4395da8fae8a9b9cfd79cb1ad191b322342d81710c0e1538f8",
+      "changed": false
+    },
+    {
+      "path": "reviews/superseded-originals/counterimage/chapter-before-revision.md",
+      "source_sha256": "6990ed452a2558b4c4ef2ad5cac4b32dc3ef1564f9b81c70eb9cbaf33d8ea262",
+      "published_sha256": "6990ed452a2558b4c4ef2ad5cac4b32dc3ef1564f9b81c70eb9cbaf33d8ea262",
+      "changed": false
+    },
+    {
+      "path": "reviews/superseded-originals/counterimage/SKILL.md",
+      "source_sha256": "e2b7834929f6a0b732af7a2f36e00f33a7d48495325927eec541cfdfe040f9d8",
+      "published_sha256": "e2b7834929f6a0b732af7a2f36e00f33a7d48495325927eec541cfdfe040f9d8",
+      "changed": false
+    },
+    {
+      "path": "REVIEWS.md",
+      "source_sha256": "7e7a6f9621dbf7a6859515bcee61c1096755ae9d78936a56632ed0119de2d758",
+      "published_sha256": "7e7a6f9621dbf7a6859515bcee61c1096755ae9d78936a56632ed0119de2d758",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/ask-matt.md",
+      "source_sha256": "d6406fa7dc348a3ac408c1d00c79f6e629e95087e0a41057c5c58683a3694ab7",
+      "published_sha256": "d6406fa7dc348a3ac408c1d00c79f6e629e95087e0a41057c5c58683a3694ab7",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/code-review.md",
+      "source_sha256": "393f1ddfd298785f8b9382ede5c12867fb57e213c3d0ad0352abf729bac5e03a",
+      "published_sha256": "393f1ddfd298785f8b9382ede5c12867fb57e213c3d0ad0352abf729bac5e03a",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/codebase-design.md",
+      "source_sha256": "61c848b834e8093606e1eb7a96ce2dd585b9715e326f711e41f5c54a1a24ec92",
+      "published_sha256": "61c848b834e8093606e1eb7a96ce2dd585b9715e326f711e41f5c54a1a24ec92",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/diagnosing-bugs.md",
+      "source_sha256": "372efa5c99a74074603e0354e548941af742f24389e8ea65877f36d2e5efe501",
+      "published_sha256": "372efa5c99a74074603e0354e548941af742f24389e8ea65877f36d2e5efe501",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/domain-modeling.md",
+      "source_sha256": "daff25ba72200d210a04dfe360a76432b2b6b99bb85e95f9741c278b86daa4e0",
+      "published_sha256": "daff25ba72200d210a04dfe360a76432b2b6b99bb85e95f9741c278b86daa4e0",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/grill-with-docs.md",
+      "source_sha256": "fa2083767c7a8d68f923ed1c202d45ed8ee3bf249f84493f2ca4b279dc926768",
+      "published_sha256": "fa2083767c7a8d68f923ed1c202d45ed8ee3bf249f84493f2ca4b279dc926768",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/implement.md",
+      "source_sha256": "61a480c04d195184c39e4b5d90914b258b1929a50d09bbe45c7f6f98316dd948",
+      "published_sha256": "61a480c04d195184c39e4b5d90914b258b1929a50d09bbe45c7f6f98316dd948",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/improve-codebase-architecture.md",
+      "source_sha256": "ec1fe63f46c4e07a5128a83c1602e501a7bc73d2fe9fed0487386566cd1d1fc2",
+      "published_sha256": "ec1fe63f46c4e07a5128a83c1602e501a7bc73d2fe9fed0487386566cd1d1fc2",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/prototype.md",
+      "source_sha256": "c780a78e3feaa2be0f88ec8a9523356065350346f4290b41f082b87faead2444",
+      "published_sha256": "c780a78e3feaa2be0f88ec8a9523356065350346f4290b41f082b87faead2444",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/research.md",
+      "source_sha256": "d37a21dc7e80728d9976d7f7d56ef498760a883c2d4603e8e77628ea24afcb6c",
+      "published_sha256": "d37a21dc7e80728d9976d7f7d56ef498760a883c2d4603e8e77628ea24afcb6c",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/resolving-merge-conflicts.md",
+      "source_sha256": "a54fe83d0152c00cb20a76f530736a6528346fa9ab55da026a7c9b9bdee763a4",
+      "published_sha256": "a54fe83d0152c00cb20a76f530736a6528346fa9ab55da026a7c9b9bdee763a4",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/setup-matt-pocock-skills.md",
+      "source_sha256": "430983d8f1d88fff44822735dd3ea9e0b2092c7aba2b191e4028a6d623ba498d",
+      "published_sha256": "430983d8f1d88fff44822735dd3ea9e0b2092c7aba2b191e4028a6d623ba498d",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/tdd.md",
+      "source_sha256": "b01043c2369760f9bd4d95480e5bc10686ffe14d92d7137c5b7ba5dcc5320354",
+      "published_sha256": "b01043c2369760f9bd4d95480e5bc10686ffe14d92d7137c5b7ba5dcc5320354",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/to-spec.md",
+      "source_sha256": "0bc4f469457e172457536ac33976292e6b9590e644588ec8e72ad69ca36b21b4",
+      "published_sha256": "0bc4f469457e172457536ac33976292e6b9590e644588ec8e72ad69ca36b21b4",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/to-tickets.md",
+      "source_sha256": "589f67d41c1557f4b30a17354af73a1ce8477e0f4dc9721ec8560269fd3604bd",
+      "published_sha256": "589f67d41c1557f4b30a17354af73a1ce8477e0f4dc9721ec8560269fd3604bd",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/triage.md",
+      "source_sha256": "e3d5634ce3daad6d852769ca4e7f7a0e03e75e34115963b8a70bb62d7393fc19",
+      "published_sha256": "e3d5634ce3daad6d852769ca4e7f7a0e03e75e34115963b8a70bb62d7393fc19",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/wayfinder.md",
+      "source_sha256": "a047b55ce0001fe60663c8deba8fe74699c9078c32335da37b66922bc9bd1509",
+      "published_sha256": "a047b55ce0001fe60663c8deba8fe74699c9078c32335da37b66922bc9bd1509",
+      "changed": false
+    },
+    {
+      "path": "source/docs/engineering/wizard.md",
+      "source_sha256": "47ae0f6a0e53ef583b2e0b05a4e86bddc64239d10af075a62828eeaf1bf01989",
+      "published_sha256": "47ae0f6a0e53ef583b2e0b05a4e86bddc64239d10af075a62828eeaf1bf01989",
+      "changed": false
+    },
+    {
+      "path": "source/docs/productivity/grill-me.md",
+      "source_sha256": "6dd16cda6c72dec50eb662d831b245efc05a87226033084cabb1c07474b1f142",
+      "published_sha256": "6dd16cda6c72dec50eb662d831b245efc05a87226033084cabb1c07474b1f142",
+      "changed": false
+    },
+    {
+      "path": "source/docs/productivity/grilling.md",
+      "source_sha256": "db62cd9fb16f8ced17a0708dd14985c1e9579c2ec97e2f108aac629b15f4cc3b",
+      "published_sha256": "db62cd9fb16f8ced17a0708dd14985c1e9579c2ec97e2f108aac629b15f4cc3b",
+      "changed": false
+    },
+    {
+      "path": "source/docs/productivity/handoff.md",
+      "source_sha256": "c845da08739b2f7a47d38259136fe41fd4dfbf586543b666fdea925faab6d27e",
+      "published_sha256": "c845da08739b2f7a47d38259136fe41fd4dfbf586543b666fdea925faab6d27e",
+      "changed": false
+    },
+    {
+      "path": "source/docs/productivity/teach.md",
+      "source_sha256": "9e24c6c04b6666f3800340835680b107990d86e0e892a3a7dc8259fb6fd8b0c2",
+      "published_sha256": "9e24c6c04b6666f3800340835680b107990d86e0e892a3a7dc8259fb6fd8b0c2",
+      "changed": false
+    },
+    {
+      "path": "source/docs/productivity/to-questionnaire.md",
+      "source_sha256": "588201ce5f3c3f06845433e7b1ede378ee02decbd5bbab397c6375aa16207d49",
+      "published_sha256": "588201ce5f3c3f06845433e7b1ede378ee02decbd5bbab397c6375aa16207d49",
+      "changed": false
+    },
+    {
+      "path": "source/docs/productivity/wait-what.md",
+      "source_sha256": "dd47c6d4e5da7b8751ace9d08f1f3005d68bb5eb5ff364cedc68c4c55d3e32a1",
+      "published_sha256": "dd47c6d4e5da7b8751ace9d08f1f3005d68bb5eb5ff364cedc68c4c55d3e32a1",
+      "changed": false
+    },
+    {
+      "path": "source/docs/productivity/writing-for-agents.md",
+      "source_sha256": "053cc19653f8cd34db25022e7575b78055b9498fd6f510eb75a330f6a55f1559",
+      "published_sha256": "053cc19653f8cd34db25022e7575b78055b9498fd6f510eb75a330f6a55f1559",
+      "changed": false
+    },
+    {
+      "path": "source/LICENSE",
+      "source_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "published_sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+      "changed": false
+    },
+    {
+      "path": "source/out-of-scope/mainstream-issue-trackers-only.md",
+      "source_sha256": "4fc15781cd057d7056f7133fffcc23bed74dbf82a4b0e8bbfe44ecc356d2f1f8",
+      "published_sha256": "4fc15781cd057d7056f7133fffcc23bed74dbf82a4b0e8bbfe44ecc356d2f1f8",
+      "changed": false
+    },
+    {
+      "path": "source/out-of-scope/question-limits.md",
+      "source_sha256": "c6f28e5930bd6a6f81247b8a73089bcfd43133b39a8e80ba360301df053d9aa0",
+      "published_sha256": "c6f28e5930bd6a6f81247b8a73089bcfd43133b39a8e80ba360301df053d9aa0",
+      "changed": false
+    },
+    {
+      "path": "source/out-of-scope/setup-skill-verify-mode.md",
+      "source_sha256": "7eb0de3614ee8710233e8771da36808aa4c1166e29e8f966780111c8fc76cc7e",
+      "published_sha256": "7eb0de3614ee8710233e8771da36808aa4c1166e29e8f966780111c8fc76cc7e",
+      "changed": false
+    },
+    {
+      "path": "source/skills/deprecated/README.md",
+      "source_sha256": "54e9b67d7e4690436253d549561caeadbe9ed1cdac954cfb190c59811f5593c8",
+      "published_sha256": "54e9b67d7e4690436253d549561caeadbe9ed1cdac954cfb190c59811f5593c8",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/ask-matt/agents/openai.yaml",
+      "source_sha256": "d30cfa5b0e84e2ca10b8d263b9dfcc13c3aa089ae6bc26096bc549fc037d274e",
+      "published_sha256": "d30cfa5b0e84e2ca10b8d263b9dfcc13c3aa089ae6bc26096bc549fc037d274e",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/ask-matt/PHASE-BOUNDARIES.md",
+      "source_sha256": "4e2a891beb182df8c2eb2a7dfbff20ba43ae008d29c77ac41b005181018f7ccd",
+      "published_sha256": "4e2a891beb182df8c2eb2a7dfbff20ba43ae008d29c77ac41b005181018f7ccd",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/ask-matt/SKILL.md",
+      "source_sha256": "d8934db5ccf28b8c6e43d44d88801936d3831ab5666280b26d6f0852a312dc63",
+      "published_sha256": "d8934db5ccf28b8c6e43d44d88801936d3831ab5666280b26d6f0852a312dc63",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/code-review/agents/openai.yaml",
+      "source_sha256": "3f72329747a916ac8ab2b4004490c79e1be6774a8a83e5b258d6ddc7e866abfe",
+      "published_sha256": "3f72329747a916ac8ab2b4004490c79e1be6774a8a83e5b258d6ddc7e866abfe",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/code-review/SKILL.md",
+      "source_sha256": "3abbdfe52540f9242e16589fae2cc423b3d98994c37683944462b29bab89495c",
+      "published_sha256": "3abbdfe52540f9242e16589fae2cc423b3d98994c37683944462b29bab89495c",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/codebase-design/agents/openai.yaml",
+      "source_sha256": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc",
+      "published_sha256": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/codebase-design/DEEPENING.md",
+      "source_sha256": "a67260cb384580b60430486edeb47a6e656ea5f8a42b7196b24461459031f00c",
+      "published_sha256": "a67260cb384580b60430486edeb47a6e656ea5f8a42b7196b24461459031f00c",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/codebase-design/DESIGN-IT-TWICE.md",
+      "source_sha256": "4c3b083988c0b34449dfef3f4fcee963e3d7fc614c71beacfaa51023f1b24d78",
+      "published_sha256": "4c3b083988c0b34449dfef3f4fcee963e3d7fc614c71beacfaa51023f1b24d78",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/codebase-design/SKILL.md",
+      "source_sha256": "362b0bec828219d9f4b08ca7c466164e67253bdd817359258e60d2e9c5692a8f",
+      "published_sha256": "362b0bec828219d9f4b08ca7c466164e67253bdd817359258e60d2e9c5692a8f",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/diagnosing-bugs/agents/openai.yaml",
+      "source_sha256": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58",
+      "published_sha256": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "source_sha256": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f",
+      "published_sha256": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/diagnosing-bugs/SKILL.md",
+      "source_sha256": "bca66b7141da7d225b7dfd1abf6f2bee657b8044d3897604055e760749c71724",
+      "published_sha256": "bca66b7141da7d225b7dfd1abf6f2bee657b8044d3897604055e760749c71724",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "source_sha256": "b7021c31a1c2485b07356a8110fd1fd1ae4facbab3e210983789f425f867d95b",
+      "published_sha256": "b7021c31a1c2485b07356a8110fd1fd1ae4facbab3e210983789f425f867d95b",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/domain-modeling/agents/openai.yaml",
+      "source_sha256": "ce496c77c77a090877bff10f198c9770fb52e23088351350ea0826380f948ff8",
+      "published_sha256": "ce496c77c77a090877bff10f198c9770fb52e23088351350ea0826380f948ff8",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "source_sha256": "6097d3a11b96be24425091ed6e8a744c53644d3685455b2d828100f1853b9b89",
+      "published_sha256": "6097d3a11b96be24425091ed6e8a744c53644d3685455b2d828100f1853b9b89",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/domain-modeling/SKILL.md",
+      "source_sha256": "dd4c753a617bd7db97c34fd3e049581c4bc0c0590e8a8b1f97d3b9d6013131dc",
+      "published_sha256": "dd4c753a617bd7db97c34fd3e049581c4bc0c0590e8a8b1f97d3b9d6013131dc",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/grill-with-docs/agents/openai.yaml",
+      "source_sha256": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3",
+      "published_sha256": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/grill-with-docs/SKILL.md",
+      "source_sha256": "abc0fa7948db18b5fb0e1cc1c522ac5ff47d874e2da1e5df60619d79be11f38b",
+      "published_sha256": "abc0fa7948db18b5fb0e1cc1c522ac5ff47d874e2da1e5df60619d79be11f38b",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/implement/agents/openai.yaml",
+      "source_sha256": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb",
+      "published_sha256": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/implement/SKILL.md",
+      "source_sha256": "30cd7bc1ebfb3891e85a1eed3b3b81aea0fa4ad4553a784de7f8e421b2d223e0",
+      "published_sha256": "30cd7bc1ebfb3891e85a1eed3b3b81aea0fa4ad4553a784de7f8e421b2d223e0",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/improve-codebase-architecture/agents/openai.yaml",
+      "source_sha256": "6b69701fc3f4f31ec626c1ae5c090dc5c640fab147a63be81b575c2f9c5231fa",
+      "published_sha256": "6b69701fc3f4f31ec626c1ae5c090dc5c640fab147a63be81b575c2f9c5231fa",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "source_sha256": "870acb4262373ae536af7d1f4a9b56d33e7e7faa632bd425c09edb4f897fb828",
+      "published_sha256": "870acb4262373ae536af7d1f4a9b56d33e7e7faa632bd425c09edb4f897fb828",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "source_sha256": "ab67dc77f7fb0e82ac2ce45e3680c4f90bd68f638c86522996cdf03426084ac7",
+      "published_sha256": "ab67dc77f7fb0e82ac2ce45e3680c4f90bd68f638c86522996cdf03426084ac7",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/prototype/agents/openai.yaml",
+      "source_sha256": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787",
+      "published_sha256": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/prototype/LOGIC.md",
+      "source_sha256": "8d7e31de7ce73b8e62f207e3f3ecbd90a7a54fdc728f8965f5f0739976f9959a",
+      "published_sha256": "8d7e31de7ce73b8e62f207e3f3ecbd90a7a54fdc728f8965f5f0739976f9959a",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/prototype/SKILL.md",
+      "source_sha256": "f74ae01f4fc454d3a4ef21271920f1706e626271e715dda0559e489f45c792c3",
+      "published_sha256": "f74ae01f4fc454d3a4ef21271920f1706e626271e715dda0559e489f45c792c3",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/prototype/UI.md",
+      "source_sha256": "5ea83263ba72174c9055d58045f053d6577c0db6802c1e15bd1468dd16f78a0b",
+      "published_sha256": "5ea83263ba72174c9055d58045f053d6577c0db6802c1e15bd1468dd16f78a0b",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/README.md",
+      "source_sha256": "c0a0546b0fd6e3d10024601abafede603a69d81d5ad84195340926735d5afac8",
+      "published_sha256": "c0a0546b0fd6e3d10024601abafede603a69d81d5ad84195340926735d5afac8",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/research/agents/openai.yaml",
+      "source_sha256": "73840328dfa6b689d81ee645d8aaf8570a0cc44d64a32b119ea6091d2828d412",
+      "published_sha256": "73840328dfa6b689d81ee645d8aaf8570a0cc44d64a32b119ea6091d2828d412",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/research/SKILL.md",
+      "source_sha256": "524b404b1ca373a8b00f63a64667ec4b0a61c3c9cf4e8f246e639be859bb6979",
+      "published_sha256": "524b404b1ca373a8b00f63a64667ec4b0a61c3c9cf4e8f246e639be859bb6979",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/resolving-merge-conflicts/agents/openai.yaml",
+      "source_sha256": "ad953099f6df6fe1b1e6e395ce38dfab3eb3a4e37461cfb318b0e81a32a35b4b",
+      "published_sha256": "ad953099f6df6fe1b1e6e395ce38dfab3eb3a4e37461cfb318b0e81a32a35b4b",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/resolving-merge-conflicts/SKILL.md",
+      "source_sha256": "d97e7320010bbe7d32313c574acd47cec830d64edd59c956bd0ce2cba84e6ad7",
+      "published_sha256": "d97e7320010bbe7d32313c574acd47cec830d64edd59c956bd0ce2cba84e6ad7",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/setup-matt-pocock-skills/agents/openai.yaml",
+      "source_sha256": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2",
+      "published_sha256": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "source_sha256": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54",
+      "published_sha256": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "source_sha256": "0809582ea8cf5f91fd72ae2b59aa62a07c1236ad194ef7dd40d9e2f01c3e753b",
+      "published_sha256": "0809582ea8cf5f91fd72ae2b59aa62a07c1236ad194ef7dd40d9e2f01c3e753b",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "source_sha256": "6fe462c8dbffdf90e66d2ee62f6fa74666d777d0933c244e2a22a295848cb3ab",
+      "published_sha256": "6fe462c8dbffdf90e66d2ee62f6fa74666d777d0933c244e2a22a295848cb3ab",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "source_sha256": "a604b658f0730eae3107671b09323ed8382bd546e82dc3bedc265bccbeb35021",
+      "published_sha256": "a604b658f0730eae3107671b09323ed8382bd546e82dc3bedc265bccbeb35021",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "source_sha256": "86c0dee483fb69f7f5ecfcd010f6d7cbb30df2c47a9b059ac95f98380f383d86",
+      "published_sha256": "86c0dee483fb69f7f5ecfcd010f6d7cbb30df2c47a9b059ac95f98380f383d86",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/setup-matt-pocock-skills/triage-labels.md",
+      "source_sha256": "493d08d7a8007d3604cdf64d45717045034a5037c9e9917bae1ad9340fad75b8",
+      "published_sha256": "493d08d7a8007d3604cdf64d45717045034a5037c9e9917bae1ad9340fad75b8",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/tdd/agents/openai.yaml",
+      "source_sha256": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac",
+      "published_sha256": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/tdd/mocking.md",
+      "source_sha256": "73a10b6a26b56197c738a764c1e4205af98c74553f4a713795997f6bc35b917d",
+      "published_sha256": "73a10b6a26b56197c738a764c1e4205af98c74553f4a713795997f6bc35b917d",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/tdd/SKILL.md",
+      "source_sha256": "193b791c489d1640ccfb58d7cbd60fc9e059ef44632b3c92f208784cfe45ab78",
+      "published_sha256": "193b791c489d1640ccfb58d7cbd60fc9e059ef44632b3c92f208784cfe45ab78",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/tdd/tests.md",
+      "source_sha256": "0b401f98bd3684d2fea6440d6946afcf8f5f68ac6a65599dd7a2b90dd9f02eb5",
+      "published_sha256": "0b401f98bd3684d2fea6440d6946afcf8f5f68ac6a65599dd7a2b90dd9f02eb5",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/to-spec/agents/openai.yaml",
+      "source_sha256": "55037139831219743dda1f716fe69eab3366e922529f69cc988fea3b1d34c74a",
+      "published_sha256": "55037139831219743dda1f716fe69eab3366e922529f69cc988fea3b1d34c74a",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/to-spec/SKILL.md",
+      "source_sha256": "c73a2250beac0479e384f5466e834bb54ce6e30b7f8705e9999ba840d9d59b36",
+      "published_sha256": "c73a2250beac0479e384f5466e834bb54ce6e30b7f8705e9999ba840d9d59b36",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/to-tickets/agents/openai.yaml",
+      "source_sha256": "e396b8caaf6cdd95c94cf707a7ca2fa5c3a04b37ae5d4301b5b360a7ff7a34cb",
+      "published_sha256": "e396b8caaf6cdd95c94cf707a7ca2fa5c3a04b37ae5d4301b5b360a7ff7a34cb",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/to-tickets/SKILL.md",
+      "source_sha256": "8082bc6ef165027c5df3215763055f4a9668878bf27f25f582db78a14c3ed3c1",
+      "published_sha256": "8082bc6ef165027c5df3215763055f4a9668878bf27f25f582db78a14c3ed3c1",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/triage/AGENT-BRIEF.md",
+      "source_sha256": "9160800ad5483816f5bcd7f5aa62cfb6dbb16e6343d0754b9bb739815145fa15",
+      "published_sha256": "9160800ad5483816f5bcd7f5aa62cfb6dbb16e6343d0754b9bb739815145fa15",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/triage/agents/openai.yaml",
+      "source_sha256": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae",
+      "published_sha256": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "source_sha256": "a48a2c63f0520eaa08cd68705030a77428e7ba6647834c7a644ad9cda396e4ae",
+      "published_sha256": "a48a2c63f0520eaa08cd68705030a77428e7ba6647834c7a644ad9cda396e4ae",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/triage/SKILL.md",
+      "source_sha256": "652c815971c2df925cee0f250ae2596f50fde19328305f3c55afd157a7f06fe6",
+      "published_sha256": "652c815971c2df925cee0f250ae2596f50fde19328305f3c55afd157a7f06fe6",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/wayfinder/agents/openai.yaml",
+      "source_sha256": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a",
+      "published_sha256": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/wayfinder/SKILL.md",
+      "source_sha256": "3362fa360948f8526e88ebe8184f5402f9b5f4d9dced2ba0ed2721f64ae3de5a",
+      "published_sha256": "3362fa360948f8526e88ebe8184f5402f9b5f4d9dced2ba0ed2721f64ae3de5a",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/wizard/agents/openai.yaml",
+      "source_sha256": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249",
+      "published_sha256": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/wizard/SKILL.md",
+      "source_sha256": "dbefb750eae07d9f8b05ab1084f6acfdda2752df2a6b577c46a505e2bc790164",
+      "published_sha256": "dbefb750eae07d9f8b05ab1084f6acfdda2752df2a6b577c46a505e2bc790164",
+      "changed": false
+    },
+    {
+      "path": "source/skills/engineering/wizard/template.sh",
+      "source_sha256": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3",
+      "published_sha256": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/claude-handoff/agents/openai.yaml",
+      "source_sha256": "c49d051126b7ef690418b431a4317298a5bbb2bcf4cb0661d3a06f115ce12263",
+      "published_sha256": "c49d051126b7ef690418b431a4317298a5bbb2bcf4cb0661d3a06f115ce12263",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/claude-handoff/SKILL.md",
+      "source_sha256": "7f99b9c489c8d55374d261c31e2dcf7e75c2ee103dbb64e87b18971a05449f21",
+      "published_sha256": "7f99b9c489c8d55374d261c31e2dcf7e75c2ee103dbb64e87b18971a05449f21",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/implement-spec/agents/openai.yaml",
+      "source_sha256": "3f7f8a55426d174c0fbe13405633d130a23e14a7b8e3157e1ba88da84c41c2d3",
+      "published_sha256": "3f7f8a55426d174c0fbe13405633d130a23e14a7b8e3157e1ba88da84c41c2d3",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/implement-spec/SKILL.md",
+      "source_sha256": "986c0becc03a5b72d1c8b04c8e7c0830b8b9baae109acba404d0f1a8831966a5",
+      "published_sha256": "986c0becc03a5b72d1c8b04c8e7c0830b8b9baae109acba404d0f1a8831966a5",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/loop-me/agents/openai.yaml",
+      "source_sha256": "ec257a7995d8eba46b6a95471f5fb569798aa975a1b1c438542b1a9c82bc33d3",
+      "published_sha256": "ec257a7995d8eba46b6a95471f5fb569798aa975a1b1c438542b1a9c82bc33d3",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/loop-me/SKILL.md",
+      "source_sha256": "38ac316635d244abfdc1526edec49596f9284b36595f5a212fc5983894b6094a",
+      "published_sha256": "38ac316635d244abfdc1526edec49596f9284b36595f5a212fc5983894b6094a",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/pr/agents/openai.yaml",
+      "source_sha256": "33b71355c3ec06963d9a276baff9e9bf89a1ac69a5b9489a368c95021a8d6cc4",
+      "published_sha256": "33b71355c3ec06963d9a276baff9e9bf89a1ac69a5b9489a368c95021a8d6cc4",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/pr/CREDITS.md",
+      "source_sha256": "d11be215cc3759c29619338303e962e487a4c15dc074b5791b5492fb819e9109",
+      "published_sha256": "d11be215cc3759c29619338303e962e487a4c15dc074b5791b5492fb819e9109",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/pr/SKILL.md",
+      "source_sha256": "ff14ed2aa5e1f040b781afb5da44357b6f1dc2b0476089ca970a9e704ef05699",
+      "published_sha256": "ff14ed2aa5e1f040b781afb5da44357b6f1dc2b0476089ca970a9e704ef05699",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/README.md",
+      "source_sha256": "bf78171f4650ff165ba6fae1109abd47fd2dc5853c4d5de46f6b0ab1c26f10bd",
+      "published_sha256": "bf78171f4650ff165ba6fae1109abd47fd2dc5853c4d5de46f6b0ab1c26f10bd",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/retro/agents/openai.yaml",
+      "source_sha256": "61afaa61443da49b3ff8fcc9d04735362bfec03e213791226134a3a21a9c6fd3",
+      "published_sha256": "61afaa61443da49b3ff8fcc9d04735362bfec03e213791226134a3a21a9c6fd3",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/retro/SKILL.md",
+      "source_sha256": "42110f533f169026d037cf141b9f6c2752c6d914903be4758c38a68349e83e78",
+      "published_sha256": "42110f533f169026d037cf141b9f6c2752c6d914903be4758c38a68349e83e78",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/setup-ts-deep-modules/agents/openai.yaml",
+      "source_sha256": "bf3d58c59b0e68ef3b0287ac3ab3d165b066dfd31e146ecf278e56e4df664610",
+      "published_sha256": "bf3d58c59b0e68ef3b0287ac3ab3d165b066dfd31e146ecf278e56e4df664610",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/setup-ts-deep-modules/dependency-cruiser.config.cjs",
+      "source_sha256": "d80c982bc496ff6fb65c91bfa5b3ffccd64396cd488f556779ce3f1bd770f376",
+      "published_sha256": "d80c982bc496ff6fb65c91bfa5b3ffccd64396cd488f556779ce3f1bd770f376",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/setup-ts-deep-modules/SKILL.md",
+      "source_sha256": "3709fc7d62ea75cd7da1d6f21e33d58d758766fb8f5247a859687d7ed63c213e",
+      "published_sha256": "3709fc7d62ea75cd7da1d6f21e33d58d758766fb8f5247a859687d7ed63c213e",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/writing-beats/agents/openai.yaml",
+      "source_sha256": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84",
+      "published_sha256": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/writing-beats/SKILL.md",
+      "source_sha256": "b23f7851987dab7828c83d42df98090ccebff586b64908ce6a5e772440214621",
+      "published_sha256": "b23f7851987dab7828c83d42df98090ccebff586b64908ce6a5e772440214621",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/writing-fragments/agents/openai.yaml",
+      "source_sha256": "d082f54a16e95d0eb5c3bcf3e2ff7b78b8c5b2e142c5d1b8897d7f3282adbedb",
+      "published_sha256": "d082f54a16e95d0eb5c3bcf3e2ff7b78b8c5b2e142c5d1b8897d7f3282adbedb",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/writing-fragments/SKILL.md",
+      "source_sha256": "3be6ffe9386ddd6de8b320c331295953995792fd65d0972aa2a28524ead73e90",
+      "published_sha256": "3be6ffe9386ddd6de8b320c331295953995792fd65d0972aa2a28524ead73e90",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/writing-shape/agents/openai.yaml",
+      "source_sha256": "7f82f71f0849ada3acb686dfe9977a7b5b1af3c1fc049ac5275b8fdf3a18c299",
+      "published_sha256": "7f82f71f0849ada3acb686dfe9977a7b5b1af3c1fc049ac5275b8fdf3a18c299",
+      "changed": false
+    },
+    {
+      "path": "source/skills/in-progress/writing-shape/SKILL.md",
+      "source_sha256": "c13cbc364fbceefce654d9a4b0331113ff47efe90ce2523c2de23ecef63fefbd",
+      "published_sha256": "c13cbc364fbceefce654d9a4b0331113ff47efe90ce2523c2de23ecef63fefbd",
+      "changed": false
+    },
+    {
+      "path": "source/skills/misc/git-guardrails-claude-code/agents/openai.yaml",
+      "source_sha256": "9151961c68ab52e07e2463df15e8ff7c9331c3b7afbf716c3461623f87c57c14",
+      "published_sha256": "9151961c68ab52e07e2463df15e8ff7c9331c3b7afbf716c3461623f87c57c14",
+      "changed": false
+    },
+    {
+      "path": "source/skills/misc/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+      "source_sha256": "bb5dc3a96ae81924ff3b88b959979b4eb68b7810f6fa9bd395fb8f781e0d8c12",
+      "published_sha256": "bb5dc3a96ae81924ff3b88b959979b4eb68b7810f6fa9bd395fb8f781e0d8c12",
+      "changed": false
+    },
+    {
+      "path": "source/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "source_sha256": "12d335b84bcf984b213b527014262233f27ffa1eb807db466832ff711b96f41f",
+      "published_sha256": "12d335b84bcf984b213b527014262233f27ffa1eb807db466832ff711b96f41f",
+      "changed": false
+    },
+    {
+      "path": "source/skills/misc/migrate-to-shoehorn/agents/openai.yaml",
+      "source_sha256": "43d8fbb6347d771e82eb866bae6987acede6dc1d16d46b9c69e2b06930771180",
+      "published_sha256": "43d8fbb6347d771e82eb866bae6987acede6dc1d16d46b9c69e2b06930771180",
+      "changed": false
+    },
+    {
+      "path": "source/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "source_sha256": "200c11163ecd56d908ec431154e4b452cd6afeb3de91e5b54434f543f0822201",
+      "published_sha256": "200c11163ecd56d908ec431154e4b452cd6afeb3de91e5b54434f543f0822201",
+      "changed": false
+    },
+    {
+      "path": "source/skills/misc/README.md",
+      "source_sha256": "ac9240fb282e0d008a16d1581eb06750b1e1125d8dec277b951c10358f2bbb9f",
+      "published_sha256": "ac9240fb282e0d008a16d1581eb06750b1e1125d8dec277b951c10358f2bbb9f",
+      "changed": false
+    },
+    {
+      "path": "source/skills/misc/scaffold-exercises/agents/openai.yaml",
+      "source_sha256": "f3ab550f1077150f0fe728fe3ff187e8672f4df7eedc7f233cdd1a61f347f1db",
+      "published_sha256": "f3ab550f1077150f0fe728fe3ff187e8672f4df7eedc7f233cdd1a61f347f1db",
+      "changed": false
+    },
+    {
+      "path": "source/skills/misc/scaffold-exercises/SKILL.md",
+      "source_sha256": "de28db7a0954db55c11ba1e3cc0fd4c037bf0f5cb8313cb292e319bcce47f424",
+      "published_sha256": "de28db7a0954db55c11ba1e3cc0fd4c037bf0f5cb8313cb292e319bcce47f424",
+      "changed": false
+    },
+    {
+      "path": "source/skills/misc/setup-pre-commit/agents/openai.yaml",
+      "source_sha256": "946bfa9a3cab905f4241d8dcc127a11fdcf2994027b87e198f26f7e65d88f727",
+      "published_sha256": "946bfa9a3cab905f4241d8dcc127a11fdcf2994027b87e198f26f7e65d88f727",
+      "changed": false
+    },
+    {
+      "path": "source/skills/misc/setup-pre-commit/SKILL.md",
+      "source_sha256": "e069e6a23069ebdba946d4dea11e5d663c10640c6b14b55c4585c81b1a256ac9",
+      "published_sha256": "e069e6a23069ebdba946d4dea11e5d663c10640c6b14b55c4585c81b1a256ac9",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/grill-me/agents/openai.yaml",
+      "source_sha256": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5",
+      "published_sha256": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/grill-me/SKILL.md",
+      "source_sha256": "19e660207b447acf6ee0d600471c02e549c7aca8fb3ab38fdc2c7056aa442fc8",
+      "published_sha256": "19e660207b447acf6ee0d600471c02e549c7aca8fb3ab38fdc2c7056aa442fc8",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/grilling/agents/openai.yaml",
+      "source_sha256": "ad75163922ff8263acdd25ebc37420e8fcf1fccb93483fd5742e9bd26f5c45f6",
+      "published_sha256": "ad75163922ff8263acdd25ebc37420e8fcf1fccb93483fd5742e9bd26f5c45f6",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/grilling/SKILL.md",
+      "source_sha256": "d806733216b16e51adad834e724bfec5540a436d06395bfc75b843cda9f7404b",
+      "published_sha256": "d806733216b16e51adad834e724bfec5540a436d06395bfc75b843cda9f7404b",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/handoff/agents/openai.yaml",
+      "source_sha256": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4",
+      "published_sha256": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/handoff/SKILL.md",
+      "source_sha256": "96f8045f01f569daa3737150d918b7201ccd090905fb10cefedd326e4001f551",
+      "published_sha256": "96f8045f01f569daa3737150d918b7201ccd090905fb10cefedd326e4001f551",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/README.md",
+      "source_sha256": "7ede5ba0f9728e60800142de533fd93f824823be5235f46cb6512059c025f959",
+      "published_sha256": "7ede5ba0f9728e60800142de533fd93f824823be5235f46cb6512059c025f959",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/teach/agents/openai.yaml",
+      "source_sha256": "80e96a4d492ad8538e609672361e8543b69e7b22ce83be0efc2e5532472ede69",
+      "published_sha256": "80e96a4d492ad8538e609672361e8543b69e7b22ce83be0efc2e5532472ede69",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/teach/GLOSSARY-FORMAT.md",
+      "source_sha256": "22f851b265a3bec5a333937cc7ff1250136c9b6512787ae2eb51a2a14e35c341",
+      "published_sha256": "22f851b265a3bec5a333937cc7ff1250136c9b6512787ae2eb51a2a14e35c341",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "source_sha256": "d49c754ea416a075534d0ba1428a0beba1327ae527c2d1af0333908d08e25d05",
+      "published_sha256": "d49c754ea416a075534d0ba1428a0beba1327ae527c2d1af0333908d08e25d05",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/teach/MISSION-FORMAT.md",
+      "source_sha256": "44ea82d5f57a626086bde99c70cd229cdef67998e8502c1cbcd50504f57f989a",
+      "published_sha256": "44ea82d5f57a626086bde99c70cd229cdef67998e8502c1cbcd50504f57f989a",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "source_sha256": "377e70f83d41fdc2623037410600194655a2f7df41000925c24cc437da074ab5",
+      "published_sha256": "377e70f83d41fdc2623037410600194655a2f7df41000925c24cc437da074ab5",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/teach/SKILL.md",
+      "source_sha256": "3377485cbb1d62782122c1cc8cab4ceb37d5457c0543889784f3d7d9ca359e04",
+      "published_sha256": "3377485cbb1d62782122c1cc8cab4ceb37d5457c0543889784f3d7d9ca359e04",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/to-questionnaire/agents/openai.yaml",
+      "source_sha256": "0b5ed84d805809777a15371c946a70f98321e3c6400fce5fcd74df71d40e860b",
+      "published_sha256": "0b5ed84d805809777a15371c946a70f98321e3c6400fce5fcd74df71d40e860b",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/to-questionnaire/SKILL.md",
+      "source_sha256": "77825120815c21400f82e2794faf342d1d1a4ab1493be3fe061857885d26b768",
+      "published_sha256": "77825120815c21400f82e2794faf342d1d1a4ab1493be3fe061857885d26b768",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/wait-what/agents/openai.yaml",
+      "source_sha256": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef",
+      "published_sha256": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/wait-what/SKILL.md",
+      "source_sha256": "dcaa44ef972d5a3f9bda65a69442fb11e36eb41b7e9bb0dc8b63031ba0582fdb",
+      "published_sha256": "dcaa44ef972d5a3f9bda65a69442fb11e36eb41b7e9bb0dc8b63031ba0582fdb",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/writing-for-agents/agents/openai.yaml",
+      "source_sha256": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428",
+      "published_sha256": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/writing-for-agents/SKILL-MECHANICS.md",
+      "source_sha256": "86f112c08d785cc224c13dcda75c0724b74bd62622cc61d4b7ab3dbbaf37f6fc",
+      "published_sha256": "86f112c08d785cc224c13dcda75c0724b74bd62622cc61d4b7ab3dbbaf37f6fc",
+      "changed": false
+    },
+    {
+      "path": "source/skills/productivity/writing-for-agents/SKILL.md",
+      "source_sha256": "1c0c4ebf2d221917591144f0ced4fe46dae13301cb3d6d93fc88ecf0dda6aed2",
+      "published_sha256": "1c0c4ebf2d221917591144f0ced4fe46dae13301cb3d6d93fc88ecf0dda6aed2",
+      "changed": false
+    },
+    {
+      "path": "source-manifest.json",
+      "source_sha256": "3ca35398decc10b50a3b89dc9556ef4951d69001ffb2c10043e7dc5bffae110c",
+      "published_sha256": "3ca35398decc10b50a3b89dc9556ef4951d69001ffb2c10043e7dc5bffae110c",
+      "changed": false
+    },
+    {
+      "path": "tools/assemble-compendium.mjs",
+      "source_sha256": "8fa6833b354a4ae6c5cdcbfde589f70e1ef62c50238fe77f7a89f6cbac93a117",
+      "published_sha256": "72ea68d5fddddbfe1e9ae43aaa981b280ca0af85ff0305b1214bf7d387f7c8d2",
+      "changed": true
+    },
+    {
+      "path": "tools/build-lab.mjs",
+      "source_sha256": "2e102e97af3efe0248a426eb8dbdcc4246f46c370487884785ea43ae36546cb4",
+      "published_sha256": "5931d84282c79237b7bccf635266fcff2046ec7e6417ea93af2f6a27d149fe18",
+      "changed": true
+    },
+    {
+      "path": "tools/check-reader.mjs",
+      "source_sha256": "fedad38e22ce767fb2d47d0f05a3429907e52b99667e673a4a83d8ca77e8e9a4",
+      "published_sha256": "8ed17a46dc93ac6fa92e1f8d5a8b9df6c521a93b84cb5176cd1c4c8e5eba265a",
+      "changed": true
+    },
+    {
+      "path": "tools/compile-evaluation.mjs",
+      "source_sha256": "c9311488e35a1063b3e70f247d8afeb94ba1bbcfb29b1700d02fca21af0cf3c3",
+      "published_sha256": "41e71048baf105c3aabf680d2d621559324653b3af83796ffb6e3c6085a6a598",
+      "changed": true
+    },
+    {
+      "path": "tools/compile-followups.py",
+      "source_sha256": "cfab62840d84b996623cfa55d0181712f2c08273fa934d816613ea9ac60328f5",
+      "published_sha256": "664c74ec207abf36c3e2afbe1f735f34db4b6f28a9268b1fd2ec0e60e1e456fe",
+      "changed": true
+    },
+    {
+      "path": "tools/freeze-conditions.mjs",
+      "source_sha256": "183e16763f8843bcfdd7c428eb1ec35b9cbd5346df4c4ca5d04e0495abb16abf",
+      "published_sha256": "de8f775300cddd59f730ff41ba947c76d9caebf357b95044e69f322d4110c9b1",
+      "changed": true
+    },
+    {
+      "path": "tools/integrate-audits.py",
+      "source_sha256": "616ec150a1ceaa7eb0741e6ffdafb032a7376f8701762dd6f5c6731c9769e759",
+      "published_sha256": "1655dc97e5a3a36237b98df6a6ebe8f9c48e9404920f1dec3aa1606acbe13676",
+      "changed": true
+    },
+    {
+      "path": "tools/prepare-followup.py",
+      "source_sha256": "b940634b65bcf422af6e784a0349a8c998dbac706c6e5160dfe51f99d775d31d",
+      "published_sha256": "1314b52cbd1f714c917eb8117bdd95f80e7bb39cfe6fe33acdeb61d52e71275e",
+      "changed": true
+    },
+    {
+      "path": "tools/prepare-judging.mjs",
+      "source_sha256": "9f3abe9765821f3af8d9a5e7e9e889b2d0867d184727005a32c815c7085e2586",
+      "published_sha256": "ce6ab14a5fd351fdb43047db4226072504b4d24478b3dc86cd4434b929e80d7d",
+      "changed": true
+    },
+    {
+      "path": "tools/refine-originals.py",
+      "source_sha256": "50a546484242126a79e6ba9bbd848609723b2a4d3f2af4415e2d615ec6a20494",
+      "published_sha256": "c658f2f78bbb6e355b17ff6882143d019413a403751938c6aedb983667065ea5",
+      "changed": true
+    },
+    {
+      "path": "tools/repair-audits.py",
+      "source_sha256": "cfaba477793f1974037f1d8e41ebc584a7480176f868bfa30319fcba2d0bb108",
+      "published_sha256": "d69f39f679c844d7ca5951ce582159eb9a02405da6863801a592f010ad260c32",
+      "changed": true
+    },
+    {
+      "path": "tools/repair-setup-seed.py",
+      "source_sha256": "1eef2844fa411a7910dceb149c0c000f23815aadb6388e2cd38c9429553d18a4",
+      "published_sha256": "3ce5b9012ce80bfa345343c77194012aa62f87f5700937d1584af016d0d86adf",
+      "changed": true
+    },
+    {
+      "path": "tools/test-source-helper.mjs",
+      "source_sha256": "6a84fd6e15fc9d52c77985769f42e114a1e22ed7d3ec4528f1c2edb2b0d21308",
+      "published_sha256": "8135d4275fdc2fff37680c93bf1da5132f09e0654d03323605fb097f637ebb07",
+      "changed": true
+    },
+    {
+      "path": "tools/test-wizard-repair.mjs",
+      "source_sha256": "bc45df3b5ed9a013dfe9d60e0c4b28cb8e2930776b2c644f691d98532ea1296d",
+      "published_sha256": "dac83be84c993b223ef09eac72ee27baa30147ae796f852e8769a3cc00711874",
+      "changed": true
+    },
+    {
+      "path": "tools/validate-compendium.py",
+      "source_sha256": "f98a1c978655c820ab1cf313ae8019afc9f8075b785b62eaa898c79168f31a09",
+      "published_sha256": "bccce7ad0dfa47f75639e299e1070b3f2360658fd7bf5b2ee8dc98b562c61467",
+      "changed": true
+    },
+    {
+      "path": "validation.json",
+      "source_sha256": "39580b4fad82edfd7dff4986697484d85d59aae921e01bc7ea4205dafe78a997",
+      "published_sha256": "9a009b14f740eb426eeb211df20d9569f73a8f948ebd35a62ec7a06096bd86f7",
+      "changed": true
+    },
+    {
+      "path": "VALIDATION.md",
+      "source_sha256": "cabe4f3ff9a65b0cf1cfdc6fcc65badb743e1cca3bb67d4f9cb6fd6bfeb62b85",
+      "published_sha256": "cabe4f3ff9a65b0cf1cfdc6fcc65badb743e1cca3bb67d4f9cb6fd6bfeb62b85",
+      "changed": false
+    }
+  ]
+}

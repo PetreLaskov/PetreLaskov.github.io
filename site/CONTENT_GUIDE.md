@@ -70,3 +70,11 @@ Keep the order of `items` and `images` intentional; it is the displayed order. D
 Add `"draft": true` to an item to omit its entry and page from the build. Draft image files should remain outside `public/` until selected; omitting an item does not make files in the public assets directory private.
 
 Rebuild after changing content. Removing an item and rebuilding removes its generated page, too. Correct the maintained source edition and site summary together when a substantive claim changes.
+
+## Resource collections and complete study editions
+
+Local pages can include `linksTitle` and a `links` list. Each entry has `label`, `url` (HTTPS or a site-root path), and optional `summary`. AI Resources at `/knowledge/ai-resources/` uses this to link full editions.
+
+The Matt Pocock study edition is preserved under `public/knowledge/ai-resources/matt-pocock-skills/`. Its `index.html` adds publication navigation and attribution around the unchanged reader. Keep its source, candidate packages, exact diffs, evaluations, and license files together. `PUBLICATION.md` and `publication-export.json` document the public copy. Do not replace this full edition with a summary page or strip its evaluation limitations.
+
+`build-study-pages.mjs` derives 38 complete HTML chapters, a chapter index, and a method/results page from the preserved reader data before the main build. It supplies `content/additional-routes.json` for the sitemap. Keep commentary, source attribution and evidence limits visible; do not add hidden ranking claims, synthetic ratings or keyword variants.

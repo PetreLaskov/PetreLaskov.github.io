@@ -1,0 +1,8 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';
+const root='.';
+const walk=p=>fs.readdirSync(p,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(p,e.name)):[path.join(p,e.name)]);
+const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const files=sub=>walk(path.join(root,sub)).map(p=>({path:path.relative(root,p).replaceAll('\\','/'),sha256:sha(p)}));
+const manifest=JSON.parse(fs.readFileSync(path.join(root,'source-manifest.json'),'utf8'));
+const out={recorded_at:new Date().toISOString(),prompt_sha256:sha(path.join(root,'evals/prompts.json')),rubric_sha256:sha(path.join(root,'evals/cases-with-rubrics.json')),source_identity_frozen_at:manifest.captured,candidate_identity_frozen_before_refactor_trial:true,model:'Parent model inherited by fresh evaluator agents; exact serving revision and sampling controls not exposed.',response_context:'One fresh agent per condition; cases share context within condition. No case operations executed; only inputs read and responses retained.',source:{agent:'trial_source',files:files('source/skills')},refactor:{agent:'trial_refactor',files:files('refactored')},control:{agent:'trial_control',files:[],note:'No supplied skill package. Ordinary host instructions and model capabilities remain present.'}};
+const dest=path.join(root,'evals/CONDITIONS.json');if(fs.existsSync(dest))throw new Error('Manifest already exists; preserve tested identities.');fs.writeFileSync(dest,JSON.stringify(out,null,2));console.log(JSON.stringify({sourceFiles:out.source.files.length,refactorFiles:out.refactor.files.length}));

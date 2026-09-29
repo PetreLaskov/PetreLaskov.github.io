@@ -1,0 +1,254 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>setup-matt-pocock-skills — agent skill guide, critique and refactor — Petre Laskov</title><meta name="description" content="Study of Matt Pocock’s setup-matt-pocock-skills skill: when to use it, strengths, criticism, proposed refactor, exact differences, an original proposal and recorded evaluations."><link rel="canonical" href="https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/setup-matt-pocock-skills/"><meta property="og:type" content="article"><meta property="og:title" content="setup-matt-pocock-skills — agent skill guide, critique and refactor"><meta property="og:description" content="Study of Matt Pocock’s setup-matt-pocock-skills skill: when to use it, strengths, criticism, proposed refactor, exact differences, an original proposal and recorded evaluations."><meta property="og:url" content="https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/setup-matt-pocock-skills/"><meta property="og:site_name" content="Petre Laskov"><meta name="twitter:card" content="summary"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/setup-matt-pocock-skills/#edition","url":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/setup-matt-pocock-skills/","name":"setup-matt-pocock-skills — agent skill guide, critique and refactor","headline":"setup-matt-pocock-skills — agent skill guide, critique and refactor","description":"Study of Matt Pocock’s setup-matt-pocock-skills skill: when to use it, strengths, criticism, proposed refactor, exact differences, an original proposal and recorded evaluations.","inLanguage":"en","datePublished":"2026-09-29","dateModified":"2026-09-29","publisher":{"@type":"Person","name":"Petre Laskov","url":"https://petrelaskov.github.io/"},"isBasedOn":{"@type":"CreativeWork","name":"Matt Pocock skills","url":"https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7","author":{"@type":"Person","name":"Matt Pocock"}},"isPartOf":{"@type":"CreativeWork","name":"Matt Pocock skills — full study edition","url":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/"},"creativeWorkStatus":"AI-generated study edition with inspectable development evaluation"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Petre Laskov","item":"https://petrelaskov.github.io/"},{"@type":"ListItem","position":2,"name":"The Knowledge Project","item":"https://petrelaskov.github.io/knowledge/"},{"@type":"ListItem","position":3,"name":"AI Resources","item":"https://petrelaskov.github.io/knowledge/ai-resources/"},{"@type":"ListItem","position":4,"name":"Matt Pocock skills","item":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/"},{"@type":"ListItem","position":5,"name":"setup-matt-pocock-skills — agent skill guide, critique and refactor","item":"https://petrelaskov.github.io/knowledge/ai-resources/matt-pocock-skills/chapters/setup-matt-pocock-skills/"}]}]}</script><style>body{margin:0;background:#f7f5ef;color:#202727;font:17px/1.75 system-ui,sans-serif}a{color:#145b77;text-underline-offset:3px}header,main,footer{width:min(900px,calc(100% - 40px));margin:auto}header{padding:28px 0;border-bottom:1px solid #d7ddd4}nav{font-size:14px;line-height:1.8}nav a{margin-right:10px}main{padding:32px 0 60px}h1{font:700 clamp(27px,5vw,40px)/1.2 Georgia,serif;overflow-wrap:anywhere}h2{font:700 27px/1.3 Georgia,serif;margin-top:40px}h3{font-size:21px}p,li{overflow-wrap:anywhere}li{margin:10px 0}.meta{font-size:13px;color:#52615b}.material-links{padding:16px 0;border-block:1px solid #d7ddd4;margin:25px 0}.material-links a{display:inline-block;margin:3px 16px 3px 0}code{font:14px/1.6 ui-monospace,Consolas,monospace;overflow-wrap:anywhere}pre{padding:18px;background:#eef0e9;border:1px solid #d7ddd4;overflow:auto}pre code{white-space:pre;overflow-wrap:normal}table{display:block;overflow:auto;border-collapse:collapse;font-size:14px}td,th{padding:9px;border:1px solid #d7ddd4;vertical-align:top}details{padding:14px;border:1px solid #d7ddd4;margin:20px 0}summary{cursor:pointer;font-weight:650;overflow-wrap:anywhere}blockquote{margin:24px 0;border-left:3px solid #205c4a;padding-left:20px}footer{padding:25px 0;font-size:13px;border-top:1px solid #d7ddd4}.chapter-list{padding-left:24px}.chapter-list p{margin:3px 0 20px;color:#52615b;font-size:15px}a:focus-visible{outline:3px solid #b5722e;outline-offset:4px}.skip{position:absolute;top:-100px}.skip:focus{top:0;background:white;padding:10px}img{max-width:100%}</style></head><body><a class="skip" href="#main">Skip to content</a><header><nav aria-label="Breadcrumb"><a href="/">Petre Laskov</a> / <a href="/knowledge/">The Knowledge Project</a> / <a href="/knowledge/ai-resources/">AI Resources</a> / <a href="/knowledge/ai-resources/matt-pocock-skills/">Matt Pocock skills</a> / <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/setup-matt-pocock-skills/">setup-matt-pocock-skills — agent skill guide, critique and refactor</a></nav><p class="meta">Study edition commissioned and published by Petre Laskov. Analysis, refactors and evaluations were produced with OpenAI Codex. Original skills by Matt Pocock, preserved under the MIT license. Independent reviews in this edition are AI reviews, not independent human validation. Published <time datetime="2026-09-29">29 September 2026</time>.</p></header><main id="main"><nav class="material-links" aria-label="Chapter materials"><a href="/knowledge/ai-resources/matt-pocock-skills/#setup-matt-pocock-skills/chapter">Open in the full reader</a><a href="/knowledge/ai-resources/matt-pocock-skills/chapters/setup-matt-pocock-skills.md">Chapter Markdown</a><a href="/knowledge/ai-resources/matt-pocock-skills/diffs/setup-matt-pocock-skills.diff">Exact package diff</a><a href="/knowledge/ai-resources/matt-pocock-skills/evals/setup-matt-pocock-skills.md">Evaluation record</a></nav><h1>Setup Matt Pocock Skills — put repository variation at one seam</h1>
+<p><strong>Study question:</strong> how can the same workflow serve different projects without turning every skill into a configuration language?</p>
+<h2>Understand the original</h2>
+<p>Setup configures three repository-specific facts: where work items live, what triage labels mean, and where domain documents belong. It writes those answers under docs/agents and points to them from the repository&#39;s instruction file. The skills remain the same across repositories; the configuration supplies the variable part. This is a practical use of indirection. Instead of editing every skill to use a different tracker, one local document describes the workflow. [S1]</p>
+<p>The process is conversational rather than a deterministic installer. It inspects remotes, existing instruction files, prior configuration, scratch directories, domain documentation, and monorepo signals. It recommends a tracker based on the repository, asks about label vocabulary if triage is present, and defaults to a single domain context unless a genuine multi-package structure warrants more. It presents concrete draft documents before writing them. [S2]</p>
+<p>GitHub, GitLab, and local Markdown have seed templates. Other trackers are supported through a prose description of the actual workflow. This is a deliberate distinction between first-class maintained integrations and a custom escape hatch. The out-of-scope record rejects adding a dedicated backend for every new tool because command shapes and parsing are long-term maintenance obligations. It does not prohibit users from describing a custom tracker. [S7]</p>
+<p>The domain document template is particularly sensible. Consumers read CONTEXT.md or the context map and relevant ADRs if they exist, but proceed silently if they do not. Domain-modeling creates documents when real terms and decisions arise. Setup configures where future knowledge belongs; it does not populate an empty architectural filing cabinet.</p>
+<h2>A worked example</h2>
+<p>Suppose a repository uses GitLab for issues, has an existing AGENTS.md, and contains one application with no meaningful context split. Setup reads the remote and existing conventions, recommends GitLab, preserves the current label names if they already serve the canonical roles, and writes a single-context domain configuration.</p>
+<p>The resulting issue-tracker document explains that GitLab comments are notes, that issues and merge requests use different number spaces, and that closing an issue with an explanation is a note followed by closure. It records whether native blocking links are available in that installation and what text fallback means if they are not. A separate label table maps “awaiting-details” to the canonical needs-info role if that is the repository&#39;s existing vocabulary.</p>
+<p>Now make the repository local-only. The same downstream ticket skill should write one file per ticket under a feature directory, with stable IDs and blocker references. There is no need to simulate a remote issue API or install a tracker. The important invariant is that a fresh implementer can resolve an exact ticket and determine which blockers are complete. [S4]</p>
+<p>Finally, suppose both CLAUDE.md and AGENTS.md exist, and Codex is the active host. The original chooses CLAUDE.md first. That may leave the new pointers in a file Codex does not consume automatically. A correct port checks the active harness and preserves the repository&#39;s existing canonical instruction relationship rather than selecting by filename existence alone.</p>
+<h2>What it gets right</h2>
+<p>The strongest architectural idea is separating a workflow from its local transport. A tracker is where plans are stored and related, not the essence of planning. The prose configuration is inspectable and editable. It avoids modifying installed skills, which could be overwritten by updates, and lets repository collaborators share the same routing decisions.</p>
+<p>The source also avoids overbuilding. It does not invent a formal configuration language for a handful of facts. The custom-tracker path asks for a short description rather than requiring a new plugin implementation. The single-context default prevents a small project from acquiring monorepo-style documentation simply because such a pattern exists.</p>
+<p>The strongest reason to keep the original is its narrow scope. Requests to configure tone, interview cadence, and every skill behavior are explicitly outside its job. That refusal keeps setup comprehensible. User preferences belong in the ordinary instruction layer rather than a new configuration subsystem that every skill must interpret.</p>
+<h2>Criticism and limits</h2>
+<p>The source promises configuration but does not ensure operational readiness. A label mapping can say ready-for-agent while that remote label does not exist. Later issue creation then fails. This is not solved by adding more prose claiming setup is complete. The tool should distinguish files written, capability checked, and external objects provisioned. If the user authorized local configuration only, missing remote labels remain an explicit pending action. [S5]</p>
+<p>Label creation is not the only gap. Setup skips label configuration when triage is not installed, but to-tickets also applies ready-for-agent. Discovery of one skill is therefore an imperfect test of downstream needs. The correct question is which configured workflows consume the roles.</p>
+<p>The GitHub seed includes an external-PR listing command with an authorAssociation JSON field that the accompanying docs identify as unsupported by that CLI path. More broadly, parent-child relationships and blocking dependencies are different. A child issue belongs to a parent; it is not necessarily blocked by that parent or by its siblings. Templates should preserve this distinction and verify the available interface instead of carrying brittle command folklore. [S3]</p>
+<p>The domain topology inference also needs restraint. A workspaces field does not prove that the project contains multiple domain contexts. A monorepo may share one vocabulary, and a single repository may contain several. The source uses monorepo signals to decide whether to offer the choice; the refactor keeps them as signals rather than turning package count into domain truth.</p>
+<h2>Porting bet and dependency cost</h2>
+<p><strong>Bet: conditional.</strong> Adopt this when we adopt several tracker-dependent skills in a real repository. For standalone explanation, writing, or occasional coding, the setup overhead is unnecessary. Its falsifier is whether downstream skills can resolve and create work items without guessing the tracker, labels, or document location. A setup that produces files but does not reduce those errors is not earning its place.</p>
+<p>The dependency cost is maintained local configuration and, for remote trackers, an available authenticated connector or CLI. Authentication is not assumed merely because a remote URL exists. The refactor can check read-only capability and prepare concrete configuration without performing an external write. It retains the source&#39;s prompt-driven character.</p>
+<p>The source rejects a separate verify/check mode because a natural-language request can already scope setup to verification. The refactor respects that decision: “check current setup without rewriting” is handled inside the same entrypoint, with no new flag or sibling validator. This is an example of improving clarity while honoring an explicit rejected feature. [S6]</p>
+<h2>Refactor: configuration that tells the truth</h2>
+<p>The proposed version records a repository identity, tracker surface, operations, relationship semantics, label mapping, and domain layout. It writes pointers into the instruction file actually read by the active host, preserving unrelated content and avoiding duplicate blocks. Existing customizations are reconciled rather than reset to the current seeds.</p>
+<p>The remote templates become concise operational contracts. They still describe reading full bodies and comments, creating work items, posting comments, changing labels, closing, and managing wayfinding maps. However, exact flags and fields are checked against the available tool when setting up a repository. A copied command is a starting point, not evidence that the installed version supports it.</p>
+<p>The local template distinguishes wayfinding tickets resolved by decisions from implementation tickets completed by verification. Both use one file per ticket, but “resolved” must not accidentally mean the same thing in every workflow. The label table includes the category roles that triage expects and a place to record actual remote existence.</p>
+<h2>Original proposal: Make a Working Example</h2>
+<p>The inspired proposal takes a different route to shared understanding: make one small, real example that uses the system correctly. Instead of writing more general instructions, select a representative path and construct the smallest artifact a future collaborator can run, inspect, or copy. The example should contain a meaningful input, expected output, and explanation of the decisions it demonstrates.</p>
+<p>For local issue tracking, that might be one sample feature with a spec and two genuinely dependent tickets, explicitly marked as an example rather than active work. For a data pipeline, it might be a tiny fixture and a command that produces a known output. For a writing style, it could be a worked before/after passage with annotations. The example makes an abstract convention concrete without turning it into an exhaustive manual.</p>
+<p>The novelty claim is limited: worked examples and executable documentation are established teaching methods. The proposal focuses on choosing the example that carries the most decision-relevant information. Its cost is maintaining the example as the system changes. Its falsifier is whether a fresh collaborator can perform an analogous task from it without copying irrelevant incidental choices. An example that only runs on the author&#39;s hidden environment fails.</p>
+<h2>Study and transfer</h2>
+<ol>
+<li>Separate a tracker role from its label spelling and from the existence of that label.</li>
+<li>Explain the difference between a parent link and a blocking edge.</li>
+<li>Identify which setup facts should be shared in a repository and which belong in personal instructions.</li>
+<li>Design one small example that teaches a convention better than another page of prose.</li>
+</ol>
+<p>Read <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/to-tickets/">to-tickets</a> and <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/triage/">triage</a> to see which contracts setup must support. A good setup skill reduces variation at the right seam; it should not become the place where every preference in the collaboration is configured.</p>
+<h2>Numbered semantic delta</h2>
+<ol>
+<li><p><strong>D1: Write pointers into the instruction file the active harness actually consumes.</strong> Preferring CLAUDE.md merely because it exists can hide configuration from Codex. Tradeoff: Mixed-harness repos need one deliberate canonical pointer decision.</p>
+</li>
+<li><p><strong>D2: Treat label mapping and existing remote labels as different facts.</strong> Writing a vocabulary table does not provision the tracker. Tradeoff: Setup can end with a precise pending external step.</p>
+</li>
+<li><p><strong>D3: Cover all known downstream label consumers, not triage discovery alone.</strong> to-tickets applies ready-for-agent even if triage is not installed. Tradeoff: Slightly broader dependency inspection.</p>
+</li>
+<li><p><strong>D4: Verify command capability read-only and distinguish parent links from blocking links.</strong> Source templates contain a documented unsupported JSON field and relationship ambiguity. Tradeoff: Templates are capability instructions rather than timeless command recipes.</p>
+</li>
+<li><p><strong>D5: Honor natural-language verify-only requests within the same skill.</strong> The project&#39;s explicit out-of-scope rationale rejects a duplicate verification mode. Tradeoff: No separate command surface or rigid schema checker is introduced.</p>
+</li>
+<li><p><strong>P1: Omit Claude-only disable-model-invocation frontmatter while copying agents/openai.yaml explicit-only policy.</strong> The target is Codex packaging; its metadata preserves invocation intent and the bundled validator accepts the supported frontmatter. Tradeoff: This package is not a byte-identical Claude entrypoint.</p>
+</li>
+</ol>
+<h2>Artifacts and evaluation</h2>
+<p><a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-matt-pocock-skills/SKILL.md">Refactored skill</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/original-skills/make-a-working-example/SKILL.md">Original proposal: make-a-working-example</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/diffs/setup-matt-pocock-skills.diff">Exact source diff</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/evals/setup-matt-pocock-skills.md">Independent evaluation</a></p>
+<p>These are authored candidates, not installed skills. The linked independent evaluation records the actual text responses, case-bound grades and limitations. The design bet in this chapter is distinct from those observations. Source documentation issue reports are historical claims in the pinned bundle, not independently reproduced measurements.</p>
+<h2>Source locators</h2>
+<ul>
+<li><strong>S1:</strong> <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/engineering/setup-matt-pocock-skills/SKILL.md#L9-L61">skills/engineering/setup-matt-pocock-skills/SKILL.md, lines 9-61</a> (<a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/setup-matt-pocock-skills/SKILL.md">local snapshot</a>).</li>
+<li><strong>S2:</strong> <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/engineering/setup-matt-pocock-skills/SKILL.md#L63-L116">skills/engineering/setup-matt-pocock-skills/SKILL.md, lines 63-116</a> (<a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/setup-matt-pocock-skills/SKILL.md">local snapshot</a>).</li>
+<li><strong>S3:</strong> <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md#L16-L45">skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md, lines 16-45</a> (<a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md">local snapshot</a>).</li>
+<li><strong>S4:</strong> <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md#L5-L30">skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md, lines 5-30</a> (<a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md">local snapshot</a>).</li>
+<li><strong>S5:</strong> <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/docs/engineering/setup-matt-pocock-skills.md#L57-L82">docs/engineering/setup-matt-pocock-skills.md, lines 57-82</a> (<a href="/knowledge/ai-resources/matt-pocock-skills/source/docs/engineering/setup-matt-pocock-skills.md">local snapshot</a>).</li>
+<li><strong>S6:</strong> <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/out-of-scope/setup-skill-verify-mode.md#L3-L11">out-of-scope/setup-skill-verify-mode.md, lines 3-11</a> (<a href="/knowledge/ai-resources/matt-pocock-skills/source/out-of-scope/setup-skill-verify-mode.md">local snapshot</a>).</li>
+<li><strong>S7:</strong> <a href="https://github.com/mattpocock/skills/blob/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/out-of-scope/mainstream-issue-trackers-only.md#L3-L21">out-of-scope/mainstream-issue-trackers-only.md, lines 3-21</a> (<a href="/knowledge/ai-resources/matt-pocock-skills/source/out-of-scope/mainstream-issue-trackers-only.md">local snapshot</a>).</li>
+</ul>
+<h2>Supporting-resource disposition</h2>
+<ul>
+<li>issue-tracker-github.md: <strong>rewrite</strong> — Keep GitHub conventions and relationship distinctions; verify available CLI/API capabilities rather than ship known unsupported fields.</li>
+<li>issue-tracker-gitlab.md: <strong>rewrite</strong> — Keep issue/MR distinction, notes-before-close, and capability-dependent blocking.</li>
+<li>issue-tracker-local.md: <strong>rewrite</strong> — Keep one file per ticket and map conventions; disambiguate implementation completion from wayfinding resolution.</li>
+<li>triage-labels.md: <strong>rewrite</strong> — Include category roles as well as state mapping and record whether remote labels actually exist.</li>
+<li>domain.md: <strong>copy</strong> — Preserve lazy creation, multi-context routing, domain vocabulary, and explicit ADR-conflict rules.</li>
+<li>agents/openai.yaml: <strong>copy</strong> — Preserve source UI metadata and invocation policy exactly.</li>
+<li>source/LICENSE: <strong>copy</strong> — Retain Matt Pocock MIT attribution in every refactored package.</li>
+</ul>
+<!-- INDEPENDENT-AUDIT -->
+<h2>Independent scrutiny</h2>
+<p>The semantic reviewer read the source and candidate independently of this chapter and its author bet. Initial verdict: <strong>clear</strong>. Repository-local tracker operations, role mappings, domain layout, and one discoverable instruction pointer remain the product. The seeds preserve GitHub/GitLab identity differences, full-body reads, publication, parent-versus-blocker distinctions, and wayfinding operations. The candidate deliberately verifies current tool support instead of shipping brittle command examples. It also fixes source assumptions about which instruction file the host reads and whether labels are needed only when triage is installed. Preserving customizations and separating configuration from provisioned remote labels makes completion claims appropriately bounded. No actionable defect found.</p>
+<p>None. Ensure a generated local configuration actually names its terminal completion status, as its seed requires.</p>
+<p>Evidence: <a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/setup-matt-pocock-skills/SKILL.md">source/skills/engineering/setup-matt-pocock-skills/SKILL.md:9-116</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/source/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md">source/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md:21-30</a>; <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-matt-pocock-skills/SKILL.md">refactored/setup-matt-pocock-skills/SKILL.md:8-27</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-matt-pocock-skills/issue-tracker-local.md">refactored/setup-matt-pocock-skills/issue-tracker-local.md:3-11</a>, <a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-matt-pocock-skills/triage-labels.md">refactored/setup-matt-pocock-skills/triage-labels.md:5-17</a>. This is static inspection, not proof of a completed workflow.</p>
+<p><strong>Additional trial finding and repair:</strong> although static inspection found no material defect, the initial response imposed the example tracker layout on an unspecified existing tracker. The final entrypoint and local seed now explicitly give observed conventions priority, including an existing single-file tracker. The original lower grade remains recorded. <a href="/knowledge/ai-resources/matt-pocock-skills/evals/FOLLOWUP-RESULTS.md">Targeted follow-up evidence</a> checks a concrete existing schema; no live configuration was written.</p>
+<h3>Scrutiny of the original proposal</h3>
+<p>The independent portfolio reviewer read the proposed skill without this chapter&#39;s advocacy. Initial verdict for <strong>make-a-working-example</strong>: <strong>pilot</strong>. “Pilot” means worth a bounded test; it does not mean proven or selected for installation.</p>
+<p>It requires a representative complete path, realistic constraints, explicit essential-versus-incidental details, and execution in the supported environment where possible. Example data is separated from active work. Examples are ordinary assistant behavior, but the runnable reference artifact and transfer check make this more useful than generic illustrative snippets or installation instructions.</p>
+<p><strong>Weakness:</strong> &#39;Ask whether the example enables an analogous task&#39; may become self-approval rather than evidence. A completed happy path can still omit the decision that causes real user mistakes.</p>
+<p><strong>Suggested improvement:</strong> Choose the representative path from an actual confusion or failure. Where practical, give a fresh solver one small adaptation task; otherwise label transfer as a design intention rather than demonstrated learning.</p>
+<p>A proposed test was: Create one runnable example showing how our plugin adds a command, handles invalid input, and returns a result, with only the prerequisites needed to adapt it. Success would mean: The example runs or has explicit unexecuted limits, demonstrates the targeted difficult distinction, and lets a new collaborator identify what to change for an analogous case. This is a test proposal, not an observed outcome.</p>
+<p>The full <a href="/knowledge/ai-resources/matt-pocock-skills/reviews/refactor-audit.json">refactor audit</a> and <a href="/knowledge/ai-resources/matt-pocock-skills/reviews/original-portfolio.json">initial original-portfolio review</a> preserve the independent record. No proposal inherits effectiveness from having passed a structural check.</p>
+<section><h2>Complete proposed refactor</h2><details ><summary>agents/openai.yaml</summary><pre><code>interface:
+  display_name: &quot;Setup Matt Pocock Skills&quot;
+  short_description: &quot;Configure a repo for the skills&quot;
+policy:
+  allow_implicit_invocation: false
+</code></pre></details><details ><summary>domain.md</summary><h3>Domain Docs</h3>
+<p>How the engineering skills should consume this repo&#39;s domain documentation when exploring the codebase.</p>
+<h2>Before exploring, read these</h2>
+<ul>
+<li><strong><code>CONTEXT.md</code></strong> at the repo root, or</li>
+<li><strong><code>CONTEXT-MAP.md</code></strong> at the repo root if it exists: it points at one <code>CONTEXT.md</code> per context. Read each one relevant to the topic.</li>
+<li><strong><code>docs/adr/</code></strong>: read ADRs that touch the area you&#39;re about to work in. In multi-context repos, also check <code>src/&lt;context&gt;/docs/adr/</code> for context-scoped decisions.</li>
+</ul>
+<p>If any of these files don&#39;t exist, <strong>proceed silently</strong>. Don&#39;t flag their absence; don&#39;t suggest creating them upfront. The <code>/domain-modeling</code> skill (reached via <code>/grill-with-docs</code> and <code>/improve-codebase-architecture</code>) creates them lazily when terms or decisions actually get resolved.</p>
+<h2>File structure</h2>
+<p>Single-context repo (most repos):</p>
+<pre><code>/
+├── CONTEXT.md
+├── docs/adr/
+│   ├── 0001-event-sourced-orders.md
+│   └── 0002-postgres-for-write-model.md
+└── src/
+</code></pre>
+<p>Multi-context repo (presence of <code>CONTEXT-MAP.md</code> at the root):</p>
+<pre><code>/
+├── CONTEXT-MAP.md
+├── docs/adr/                          ← system-wide decisions
+└── src/
+    ├── ordering/
+    │   ├── CONTEXT.md
+    │   └── docs/adr/                  ← context-specific decisions
+    └── billing/
+        ├── CONTEXT.md
+        └── docs/adr/
+</code></pre>
+<h2>Use the glossary&#39;s vocabulary</h2>
+<p>When your output names a domain concept (in an issue title, a refactor proposal, a hypothesis, a test name), use the term as defined in <code>CONTEXT.md</code>. Don&#39;t drift to synonyms the glossary explicitly avoids.</p>
+<p>If the concept you need isn&#39;t in the glossary yet, that&#39;s a signal: either you&#39;re inventing language the project doesn&#39;t use (reconsider) or there&#39;s a real gap (note it for <code>/domain-modeling</code>).</p>
+<h2>Flag ADR conflicts</h2>
+<p>If your output contradicts an existing ADR, surface it explicitly rather than silently overriding:</p>
+<blockquote>
+<p><em>Contradicts ADR-0007 (event-sourced orders), but worth reopening because…</em></p>
+</blockquote>
+</details><details ><summary>issue-tracker-github.md</summary><h3>Issue tracker: GitHub</h3>
+<p>Record owner/repo and the supported connector or gh CLI. Read an exact issue/PR with full body, comments, labels, author, and current state; listing summaries are for selection only.</p>
+<p>GitHub issues and PRs share a number space. Resolve the surface explicitly. Use structured body arguments or body files for multiline creation/comments. Verify current commands and supported JSON fields through the available tool before recording examples.</p>
+<p>PRs as a request surface: no. If enabled, document how to identify external authors using a supported API field; do not assume gh pr list exposes authorAssociation. Explicitly named PRs remain resolvable regardless of discovery filters.</p>
+<p>Publishing a spec creates an issue. Publishing tickets creates one issue each. Preserve parent-child links separately from native blocking dependencies; where blocking is unavailable, use explicit Blocked by references and disclose the fallback. A ticket is actionable only when blockers are complete and it is unclaimed.</p>
+<p>Wayfinding: a map issue owns decision-ticket children. Record map/type labels, claim via assignment, resolution via an answer followed by closure, and a decision pointer back to the map. Check label existence before use. Read back mutations to verify identifiers and relations.</p>
+</details><details ><summary>issue-tracker-gitlab.md</summary><h3>Issue tracker: GitLab</h3>
+<p>Record host/project and the supported connector or glab CLI. Read full issue/MR body, notes, labels, author, and state; read the diff for an MR.</p>
+<p>Issues and MRs use separate number spaces. Resolve the surface explicitly. GitLab comments are notes; post a closing explanation before closing when the tool does not support a combined operation. Use supported structured or file-backed multiline input.</p>
+<p>MRs as a request surface: no. If enabled, record the supported membership check for external-author discovery. Explicitly named MRs are still eligible regardless of discovery filtering.</p>
+<p>Publish one issue per spec or ticket. Parent relationships and blockers are distinct. Verify whether native blocking is available for this project/tier; otherwise record explicit Blocked by references and disclose that text is the fallback.</p>
+<p>Wayfinding: a map issue with child issue references, map/type labels, blockers, and assignment. Claim before work; resolve by posting the answer, closing the child, and recording a decision pointer in the map. Verify actual CLI/API capabilities and labels when configuring; do not treat a seed example as current-tool evidence.</p>
+</details><details ><summary>issue-tracker-local.md</summary><h3>Issue tracker: Local Markdown</h3>
+<p>This is a seed for a new tracker, not a migration rule. If the repository already uses local issues, inspect and document its actual paths, fields, comments, relationships and terminal states. Those conventions take precedence over the layout below, including an existing single-file tracker. Do not invent details that have not been inspected or require a migration merely to match this seed.</p>
+<p>For a new tracker: one feature/effort per .scratch/<slug>/ directory. The spec is spec.md. Tickets are separate files in issues/<NN>-<slug>.md, numbered blockers-first. Never combine all tickets in one shared file.</p>
+<p>Resolve IDs within an explicit feature/effort; a bare 03 is ambiguous across directories. Each ticket records title, category where relevant, Status, Blocked by stable ticket IDs/paths, behavior/decision, and acceptance criteria. Append discussion under Comments.</p>
+<p>Implementation work uses readiness plus completion evidence: a ready-for-agent ticket may still have blockers; a completed ticket records the verified result. Document the exact terminal status used here so frontier queries agree with implement.</p>
+<p>Wayfinding work uses map.md and decision-ticket files. Type identifies research/prototype/grilling/task. Claim records owner and claimed status before work. Resolve appends Answer, marks resolved, and adds a gist and link to Decisions-so-far in the map.</p>
+<p>Frontier: open, unclaimed tickets whose actual blockers are complete under their workflow&#39;s terminal status. Parent membership alone is not blocking. Preserve one authoritative acceptance list rather than duplicating it inside comments.</p>
+</details><details ><summary>LICENSE</summary><pre><code>MIT License
+
+Copyright (c) 2026 Matt Pocock
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</code></pre></details><details open><summary>SKILL.md</summary><pre><code>name: setup-matt-pocock-skills
+description: Configure repository-local tracker operations, triage-role mappings, and domain-document layout for Matt Pocock's engineering workflows; also inspect existing setup when requested.</code></pre><h3>Setup Matt Pocock Skills</h3>
+<p>Keep repo variation in docs/agents, not edits to installed skills. Honor a verify-only request without creating a new mode or writing files.</p>
+<p>Inspect existing remotes, instruction files, docs/agents, domain docs, scratch conventions, and downstream workflow needs. Check which instruction file the active harness actually reads; do not prefer CLAUDE.md solely because it exists. Preserve a deliberate existing canonical pointer arrangement.</p>
+<p>Recommend the existing tracker or one matching the actual remote: GitHub, GitLab, local Markdown, or the user&#39;s custom workflow. Existing authorization and explicit choices settle questions; ask only for consequential missing choices. Default to one domain context unless actual domain separation justifies more.</p>
+<p>Adapt the relevant seed to the observed repository. Existing tracker paths and schema take precedence; an example layout is not evidence of the current layout. If inspection is unavailable, identify the exact schema details to confirm rather than filling them in from the seed.</p>
+<p>Use the relevant seed:</p>
+<ul>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-matt-pocock-skills/issue-tracker-github.md">issue-tracker-github.md</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-matt-pocock-skills/issue-tracker-gitlab.md">issue-tracker-gitlab.md</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-matt-pocock-skills/issue-tracker-local.md">issue-tracker-local.md</a></li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-matt-pocock-skills/triage-labels.md">triage-labels.md</a> when any selected workflow consumes these roles</li>
+<li><a href="/knowledge/ai-resources/matt-pocock-skills/refactored/setup-matt-pocock-skills/domain.md">domain.md</a> for lazy domain-document creation and reading rules</li>
+</ul>
+<p>For remote tools, verify repository identity and supported read operations without mutation. Distinguish label mappings from labels that exist; check needed roles, including bug/enhancement and ready-for-agent consumers outside triage. Create missing external objects only when that action is authorized; otherwise identify the exact pending step.</p>
+<p>Record how to read full bodies/comments, create, comment, label, close, and manage parent and blocking relationships. These are different relations. Verify available flags/fields against current tool capabilities; do not copy unsupported command shapes blindly. Keep external PR/MR discovery off unless requested or already configured.</p>
+<p>Present concrete document changes when choices remain to be approved. Write/update one Agent skills pointer block in the host-consumed instruction file, preserving surrounding content, and the selected docs/agents files. Reconcile prior customizations; do not reset them to templates.</p>
+<p>Verify written paths and pointers. Report files configured, read capabilities checked, and any unresolved external provisioning separately. Missing CONTEXT.md/ADRs are normal; create them only when actual domain knowledge is established.</p>
+</details><details ><summary>triage-labels.md</summary><h3>Triage role mapping</h3>
+<p>Map canonical roles to this repository&#39;s actual labels. Do not rename existing labels merely to match the defaults.</p>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Default spelling</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>bug</td>
+<td>bug</td>
+<td>Broken promised behavior</td>
+</tr>
+<tr>
+<td>enhancement</td>
+<td>enhancement</td>
+<td>New or improved behavior</td>
+</tr>
+<tr>
+<td>needs-triage</td>
+<td>needs-triage</td>
+<td>Maintainer evaluation needed</td>
+</tr>
+<tr>
+<td>needs-info</td>
+<td>needs-info</td>
+<td>Specific reporter information missing</td>
+</tr>
+<tr>
+<td>ready-for-agent</td>
+<td>ready-for-agent</td>
+<td>Specified for agent work; check blockers separately</td>
+</tr>
+<tr>
+<td>ready-for-human</td>
+<td>ready-for-human</td>
+<td>Human next action needed</td>
+</tr>
+<tr>
+<td>wontfix</td>
+<td>wontfix</td>
+<td>Will not be actioned under the recorded reason</td>
+</tr>
+</tbody></table>
+<p>Record chosen spellings and whether each required remote label was observed to exist. A mapping file does not create labels. Configure roles needed by any selected workflow, including to-tickets, even when triage itself is absent.</p>
+<p>Maintain exactly one category and one triage state where triage applies. Blockers and implementation completion are separate facts; document the repository&#39;s conventions rather than adding contradictory state labels.</p>
+</details></section><section><h2>Complete original proposal: make-a-working-example</h2><details open><summary>SKILL.md</summary><pre><code>name: make-a-working-example
+description: Create a small representative example that teaches a workflow, interface, format, or convention through concrete input and output. Use when prose guidance remains hard to apply.</code></pre><h3>Make a Working Example</h3>
+<p>Choose the smallest example that teaches the consequential decisions.</p>
+<ol>
+<li>Identify what a new collaborator needs to learn and the mistake the example should prevent.</li>
+<li>Select a representative path with realistic constraints. Avoid a toy so simple it omits the hard distinction.</li>
+<li>Produce the example artifact with input, expected result, and only the explanation needed to show why it works. Mark examples clearly so they cannot be mistaken for active work or real data.</li>
+<li>Run or inspect it using the actual supported environment where possible. Record prerequisites and any unexecuted part.</li>
+<li>Explain which parts are essential and which are incidental values the learner should change.</li>
+<li>Ask whether the example enables an analogous task; if it merely encourages copying without understanding, revise the example.</li>
+</ol>
+<p>Prefer one complete path over many fragments. Do not build a tutorial framework or duplicate the whole manual. For live services, use authorized fixtures or a documented dry run rather than creating sample production records.</p>
+</details></section><nav class="material-links" aria-label="Chapter materials"><a href="/knowledge/ai-resources/matt-pocock-skills/#setup-matt-pocock-skills/chapter">Open in the full reader</a><a href="/knowledge/ai-resources/matt-pocock-skills/chapters/setup-matt-pocock-skills.md">Chapter Markdown</a><a href="/knowledge/ai-resources/matt-pocock-skills/diffs/setup-matt-pocock-skills.diff">Exact package diff</a><a href="/knowledge/ai-resources/matt-pocock-skills/evals/setup-matt-pocock-skills.md">Evaluation record</a></nav></main><footer><a href="/knowledge/ai-resources/matt-pocock-skills/">Full interactive reader</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/chapters/">All 38 chapters</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/evaluation/">Evaluation method and results</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/LICENSE-MATT-POCOCK.txt">Source license</a> · <a href="/knowledge/ai-resources/matt-pocock-skills/PUBLICATION.md">Publication details</a></footer></body></html>

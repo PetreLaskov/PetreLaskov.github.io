@@ -1,0 +1,69 @@
+{
+  "slug": "implement",
+  "bucket": "engineering",
+  "chapter": "chapters/implement.md",
+  "refactor": "refactored/implement/SKILL.md",
+  "original_slug": "finish-the-last-mile",
+  "original_path": "original-skills/finish-the-last-mile/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "The very short source correctly trusts settled work; a portable version needs exact ticket identity, review of the actual patch, and evidence-backed completion.",
+  "source_files_read": [
+    "source/skills/engineering/implement/SKILL.md",
+    "source/skills/engineering/implement/agents/openai.yaml",
+    "source/docs/engineering/implement.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "copy",
+      "reason": "Preserve source UI metadata and invocation policy exactly."
+    },
+    {
+      "file": "source/LICENSE",
+      "action": "copy",
+      "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Resolve exact work identity and accept an agreed conversation plan as input.",
+      "reason": "Bare issue numbers and file-only assumptions can select the wrong work.",
+      "tradeoff": "A brief start-of-work contract adds a few lines."
+    },
+    {
+      "id": "D2",
+      "change": "Reuse agreed seams and ask only when the missing choice affects implementation.",
+      "reason": "Pre-agreed should not mean silently skipped or repeatedly reapproved.",
+      "tradeoff": "Requires reading prior decisions carefully."
+    },
+    {
+      "id": "D3",
+      "change": "Review actual task changes before committing, then resolve material findings.",
+      "reason": "The source pair reviews HEAD while implement has not committed and does not act on review findings.",
+      "tradeoff": "Review must support a working snapshot or a disclosed alternative."
+    },
+    {
+      "id": "D4",
+      "change": "Commit only task-owned changes to the intended current branch and report shared-checkout conflicts.",
+      "reason": "Stage-all and competing writers can mix work.",
+      "tradeoff": "Some concurrent work must be isolated or serialized."
+    },
+    {
+      "id": "D5",
+      "change": "Reconcile acceptance evidence and authorized tracker completion.",
+      "reason": "A commit alone does not unblock a dependency graph.",
+      "tradeoff": "Completion may remain partially pending when verification or tracker access is unavailable."
+    },
+    {
+      "id": "P1",
+      "change": "Omit Claude-only disable-model-invocation frontmatter while copying agents/openai.yaml explicit-only policy.",
+      "reason": "The target is Codex packaging; its metadata preserves invocation intent and the bundled validator accepts the supported frontmatter.",
+      "tradeoff": "This package is not a byte-identical Claude entrypoint."
+    }
+  ],
+  "source_commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+  "evaluation_status": "recorded-development-trials",
+  "author_word_count": 1626
+}

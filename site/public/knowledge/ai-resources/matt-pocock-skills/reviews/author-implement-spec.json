@@ -1,0 +1,59 @@
+{
+  "slug": "implement-spec",
+  "bucket": "in-progress",
+  "chapter": "chapters/implement-spec.md",
+  "refactor": "refactored/implement-spec/SKILL.md",
+  "original_slug": "integration-contracts",
+  "original_path": "original-skills/integration-contracts/SKILL.md",
+  "port_bet": "conditional",
+  "summary": "Implement a ticketed specification on one integration branch by scheduling ready work and validating each integrated dependency.",
+  "source_files_read": [
+    "skills/in-progress/implement-spec/agents/openai.yaml",
+    "skills/in-progress/implement-spec/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Define dependency satisfaction",
+      "reason": "Unlock a dependent only after its prerequisite integrates and relevant checks pass on the shared branch.",
+      "tradeoff": "Reduces apparent concurrency while preventing work on rejected intermediate states."
+    },
+    {
+      "id": "D2",
+      "change": "Add ownership-aware scheduling",
+      "reason": "Include shared files and unstable contracts as real constraints alongside ticket edges.",
+      "tradeoff": "Requires a little coordinator state beyond the source graph."
+    },
+    {
+      "id": "D3",
+      "change": "Make integration a validated transition",
+      "reason": "Serialize merges and rerun contract-relevant checks before accepting completion.",
+      "tradeoff": "Adds integration work that per-ticket passing tests cannot replace."
+    },
+    {
+      "id": "D4",
+      "change": "Qualify review and cleanup",
+      "reason": "Fix valid in-scope findings and retire worktrees only after ownership and work are accounted for.",
+      "tradeoff": "Avoids automatic action on speculative comments or unexamined checkouts."
+    },
+    {
+      "id": "D5",
+      "change": "Adapt Codex packaging without changing invocation",
+      "reason": "Omit Claude-only disable-model-invocation and argument-hint keys while preserving explicit-only policy in the copied agents/openai.yaml.",
+      "tradeoff": "The study package targets Codex metadata rather than being a byte-identical cross-host manifest."
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

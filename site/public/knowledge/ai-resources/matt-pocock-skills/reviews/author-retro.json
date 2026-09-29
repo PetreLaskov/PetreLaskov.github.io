@@ -1,0 +1,65 @@
+{
+  "slug": "retro",
+  "bucket": "in-progress",
+  "chapter": "chapters/retro.md",
+  "refactor": "refactored/retro/SKILL.md",
+  "original_slug": "instruction-ablation",
+  "original_path": "original-skills/instruction-ablation/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "Review an actual coding session and recommend targeted improvements to navigation, checks, instructions, and information access.",
+  "source_files_read": [
+    "skills/in-progress/retro/agents/openai.yaml",
+    "skills/in-progress/retro/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Use causal candidates instead of category completion",
+      "reason": "Connect each recommendation to a session event, mechanism, and observable next-run effect.",
+      "tradeoff": "Requires more reasoning per recommendation and often yields fewer suggestions."
+    },
+    {
+      "id": "D2",
+      "change": "Qualify deterministic-check absolutism",
+      "reason": "Prefer mechanical enforcement when the pattern and maintenance economics justify it.",
+      "tradeoff": "Some rare mechanical mistakes will remain handled by ordinary review."
+    },
+    {
+      "id": "D3",
+      "change": "Route standards by need",
+      "reason": "Give implementers critical invariants when needed instead of reserving all standards for reviewers.",
+      "tradeoff": "May add a small amount of implementation context."
+    },
+    {
+      "id": "D4",
+      "change": "Separate diagnosis from mutation",
+      "reason": "Present or prepare improvements without treating retrospective analysis as permission to alter global tooling.",
+      "tradeoff": "Some useful changes remain proposals until implementation is in scope."
+    },
+    {
+      "id": "D5",
+      "change": "Retain status honesty",
+      "reason": "Treat the source as a substantive beta procedure despite its bucket description as a stub.",
+      "tradeoff": "Readers must carry a slightly untidy upstream status distinction."
+    },
+    {
+      "id": "D6",
+      "change": "Adapt Codex packaging without changing invocation",
+      "reason": "Omit Claude-only disable-model-invocation and argument-hint keys while preserving explicit-only policy in the copied agents/openai.yaml.",
+      "tradeoff": "The study package targets Codex metadata rather than being a byte-identical cross-host manifest."
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

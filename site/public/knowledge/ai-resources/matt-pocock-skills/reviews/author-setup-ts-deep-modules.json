@@ -1,0 +1,71 @@
+{
+  "slug": "setup-ts-deep-modules",
+  "bucket": "in-progress",
+  "chapter": "chapters/setup-ts-deep-modules.md",
+  "refactor": "refactored/setup-ts-deep-modules/SKILL.md",
+  "original_slug": "contract-surface-audit",
+  "original_path": "original-skills/contract-surface-audit/SKILL.md",
+  "port_bet": "conditional",
+  "summary": "Add dependency-cruiser rules for flat TypeScript package boundaries and verify allowed and forbidden imports across every importer root.",
+  "source_files_read": [
+    "skills/in-progress/setup-ts-deep-modules/agents/openai.yaml",
+    "skills/in-progress/setup-ts-deep-modules/dependency-cruiser.config.cjs",
+    "skills/in-progress/setup-ts-deep-modules/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    },
+    {
+      "file": "dependency-cruiser.config.cjs",
+      "action": "retain",
+      "reason": "Audited source template retained; target-specific adaptation and isolated enforcement tests required before installation claims."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Check architecture compatibility",
+      "reason": "Establish flat packages, entrypoint conventions, tests, and cycle scope before installing a policy.",
+      "tradeoff": "Less automatic than choosing src/packages from directory presence."
+    },
+    {
+      "id": "D2",
+      "change": "Cover all importers",
+      "reason": "Scan app and other importer roots so configured boundaries can actually observe violations.",
+      "tradeoff": "The graph may be larger and reveal more preexisting issues."
+    },
+    {
+      "id": "D3",
+      "change": "Treat the template as adaptable code",
+      "reason": "Account for five rules, regex root handling, tsconfig, and resolution rather than promising a one-variable edit.",
+      "tradeoff": "Requires environment-specific inspection."
+    },
+    {
+      "id": "D4",
+      "change": "Expand negative verification",
+      "reason": "Test distinct app, cross-package, test, fixture, and cycle behaviors instead of one illegal test import.",
+      "tradeoff": "More setup work, justified by materially different rule paths."
+    },
+    {
+      "id": "D5",
+      "change": "Avoid permanent demonstration clutter",
+      "reason": "Use isolated fixtures or representative existing packages unless a committed example is useful.",
+      "tradeoff": "The repository may lack the source default copy-me template."
+    },
+    {
+      "id": "D6",
+      "change": "Adapt Codex packaging without changing invocation",
+      "reason": "Omit Claude-only disable-model-invocation and argument-hint keys while preserving explicit-only policy in the copied agents/openai.yaml.",
+      "tradeoff": "The study package targets Codex metadata rather than being a byte-identical cross-host manifest."
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

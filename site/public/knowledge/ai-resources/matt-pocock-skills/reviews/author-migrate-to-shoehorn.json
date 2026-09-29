@@ -1,0 +1,59 @@
+{
+  "slug": "migrate-to-shoehorn",
+  "bucket": "misc",
+  "chapter": "chapters/migrate-to-shoehorn.md",
+  "refactor": "refactored/migrate-to-shoehorn/SKILL.md",
+  "original_slug": "fixture-truth",
+  "original_path": "original-skills/fixture-truth/SKILL.md",
+  "port_bet": "conditional",
+  "summary": "Replace suitable TypeScript test assertions with intention-specific Shoehorn helpers while preserving fixture semantics and test coverage.",
+  "source_files_read": [
+    "skills/misc/migrate-to-shoehorn/agents/openai.yaml",
+    "skills/misc/migrate-to-shoehorn/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Classify before transforming",
+      "reason": "Choose helpers by fixture intent rather than assertion syntax alone.",
+      "tradeoff": "Migration is slower than blanket replacement."
+    },
+    {
+      "id": "D2",
+      "change": "Correct the safety claim",
+      "reason": "Explain that helpers neither populate omitted properties nor make deliberate invalid data safe.",
+      "tradeoff": "The library benefit is narrower and more precise than a type-safe slogan."
+    },
+    {
+      "id": "D3",
+      "change": "Preserve exactness where useful",
+      "reason": "Keep complete fixtures and legitimate assertions when partial conversion weakens their purpose.",
+      "tradeoff": "Some as expressions deliberately remain."
+    },
+    {
+      "id": "D4",
+      "change": "Validate behavior as well as types",
+      "reason": "Run relevant tests, inspect assertions, and check production-import boundaries.",
+      "tradeoff": "Requires more than the source final typecheck."
+    },
+    {
+      "id": "D5",
+      "change": "Respect repository dependency conventions",
+      "reason": "Use the actual package manager and test/development placement appropriate to the project.",
+      "tradeoff": "The install command varies instead of always using npm i."
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

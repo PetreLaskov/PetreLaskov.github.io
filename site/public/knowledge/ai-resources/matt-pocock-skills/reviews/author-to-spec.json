@@ -1,0 +1,50 @@
+{
+  "slug": "to-spec",
+  "bucket": "engineering",
+  "chapter": "chapters/to-spec.md",
+  "refactor": "refactored/to-spec/SKILL.md",
+  "original_slug": "intent-examples",
+  "original_path": "original-skills/intent-examples/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "Pilot for work spanning sessions; preserve exact decisions, confirm only unsettled test seams, and keep readiness distinct from execution.",
+  "source_files_read": [
+    "source/skills/engineering/to-spec/agents/openai.yaml",
+    "source/skills/engineering/to-spec/SKILL.md",
+    "source/docs/engineering/to-spec.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/engineering/to-spec/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "Coverage replaces story length",
+      "reason": "Long lists can invent scope",
+      "tradeoff": "Less uniform template"
+    },
+    {
+      "id": 2,
+      "change": "Reuse seam agreement",
+      "reason": "No-interview intent should avoid repeated checks",
+      "tradeoff": "Requires reading prior context"
+    },
+    {
+      "id": 3,
+      "change": "Separate ready from dispatch",
+      "reason": "Labels can trigger implementation",
+      "tradeoff": "May intentionally omit source ready label"
+    },
+    {
+      "id": 4,
+      "change": "Keep draft on blocked publication",
+      "reason": "Missing setup need not erase useful work",
+      "tradeoff": "Local artifact to manage"
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

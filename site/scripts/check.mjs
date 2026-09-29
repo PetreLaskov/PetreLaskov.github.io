@@ -11,9 +11,10 @@ for(const file of files){
  for(const match of html.matchAll(/(?:href|src)="([^"]+)"/g)){
   const ref=match[1];if(ref.startsWith('data:')||ref.startsWith('mailto:')||/^https:\/\//.test(ref))continue;
   const [url,hash]=ref.split('#');
-  const target=url?path.join(root,url.endsWith('/')?url+'index.html':url):path.join(root,file);
+  const base=url.startsWith('/')?root:path.dirname(path.join(root,file));
+  const target=url?path.join(base,url.endsWith('/')?url+'index.html':url):path.join(root,file);
   if(!fs.existsSync(target))throw Error('Broken link in '+file+': '+ref);
-  if(hash&&!fs.readFileSync(target,'utf8').includes('id="'+hash+'"'))throw Error('Missing anchor '+ref);
+  if(hash){const text=fs.readFileSync(target,'utf8');const reader=text.match(/<script type="application\/json" id="data">([\s\S]*?)<\/script>/);const parts=hash.split('/');const readerState=reader&&parts.length===2&&['chapter','source','refactor','diff','original','eval'].includes(parts[1])&&JSON.parse(reader[1]).reader.some(s=>s.slug===parts[0]);if(!readerState&&!text.includes('id="'+hash+'"'))throw Error('Missing anchor '+ref)}
   links++;
  }
 }

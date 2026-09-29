@@ -1,0 +1,44 @@
+{
+  "slug": "to-questionnaire",
+  "bucket": "productivity",
+  "chapter": "chapters/to-questionnaire.md",
+  "refactor": "refactored/to-questionnaire/SKILL.md",
+  "original_slug": "answer-reconciliation",
+  "original_path": "original-skills/answer-reconciliation/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "Adopt for a decision blocked on another person's knowledge; preserve one recipient, a flat fillable document, and no automatic sending.",
+  "source_files_read": [
+    "source/skills/productivity/to-questionnaire/agents/openai.yaml",
+    "source/skills/productivity/to-questionnaire/SKILL.md",
+    "source/docs/productivity/to-questionnaire.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/productivity/to-questionnaire/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "Reuse supplied recipient context",
+      "reason": "Avoid redundant two-exchange ritual",
+      "tradeoff": "Less fixed sequence"
+    },
+    {
+      "id": 2,
+      "change": "Do not invent deadline",
+      "reason": "Template requests timing not established by source inputs",
+      "tradeoff": "May leave timing unspecified"
+    },
+    {
+      "id": 3,
+      "change": "Preserve single recipient and draft boundary",
+      "reason": "Scope is a document not delivery workflow",
+      "tradeoff": "No automatic routing or sending"
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

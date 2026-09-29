@@ -1,0 +1,107 @@
+{
+  "slug": "setup-matt-pocock-skills",
+  "bucket": "engineering",
+  "chapter": "chapters/setup-matt-pocock-skills.md",
+  "refactor": "refactored/setup-matt-pocock-skills/SKILL.md",
+  "original_slug": "make-a-working-example",
+  "original_path": "original-skills/make-a-working-example/SKILL.md",
+  "port_bet": "conditional",
+  "summary": "Repository-local prose configuration is a good indirection point; setup must target the active harness, verify capabilities honestly, and preserve existing decisions.",
+  "source_files_read": [
+    "source/skills/engineering/setup-matt-pocock-skills/domain.md",
+    "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+    "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+    "source/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+    "source/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+    "source/skills/engineering/setup-matt-pocock-skills/triage-labels.md",
+    "source/skills/engineering/setup-matt-pocock-skills/agents/openai.yaml",
+    "source/docs/engineering/setup-matt-pocock-skills.md",
+    "source/LICENSE",
+    "source/out-of-scope/setup-skill-verify-mode.md",
+    "source/out-of-scope/mainstream-issue-trackers-only.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "issue-tracker-github.md",
+      "action": "rewrite",
+      "reason": "Keep GitHub conventions and relationship distinctions; verify available CLI/API capabilities rather than ship known unsupported fields."
+    },
+    {
+      "file": "issue-tracker-gitlab.md",
+      "action": "rewrite",
+      "reason": "Keep issue/MR distinction, notes-before-close, and capability-dependent blocking."
+    },
+    {
+      "file": "issue-tracker-local.md",
+      "action": "repair",
+      "reason": "Provide a new-tracker seed while explicitly giving the observed existing tracker schema priority, including single-file trackers."
+    },
+    {
+      "file": "triage-labels.md",
+      "action": "rewrite",
+      "reason": "Include category roles as well as state mapping and record whether remote labels actually exist."
+    },
+    {
+      "file": "domain.md",
+      "action": "copy",
+      "reason": "Preserve lazy creation, multi-context routing, domain vocabulary, and explicit ADR-conflict rules."
+    },
+    {
+      "file": "agents/openai.yaml",
+      "action": "copy",
+      "reason": "Preserve source UI metadata and invocation policy exactly."
+    },
+    {
+      "file": "source/LICENSE",
+      "action": "copy",
+      "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Write pointers into the instruction file the active harness actually consumes.",
+      "reason": "Preferring CLAUDE.md merely because it exists can hide configuration from Codex.",
+      "tradeoff": "Mixed-harness repos need one deliberate canonical pointer decision."
+    },
+    {
+      "id": "D2",
+      "change": "Treat label mapping and existing remote labels as different facts.",
+      "reason": "Writing a vocabulary table does not provision the tracker.",
+      "tradeoff": "Setup can end with a precise pending external step."
+    },
+    {
+      "id": "D3",
+      "change": "Cover all known downstream label consumers, not triage discovery alone.",
+      "reason": "to-tickets applies ready-for-agent even if triage is not installed.",
+      "tradeoff": "Slightly broader dependency inspection."
+    },
+    {
+      "id": "D4",
+      "change": "Verify command capability read-only and distinguish parent links from blocking links.",
+      "reason": "Source templates contain a documented unsupported JSON field and relationship ambiguity.",
+      "tradeoff": "Templates are capability instructions rather than timeless command recipes."
+    },
+    {
+      "id": "D5",
+      "change": "Honor natural-language verify-only requests within the same skill.",
+      "reason": "The project's explicit out-of-scope rationale rejects a duplicate verification mode.",
+      "tradeoff": "No separate command surface or rigid schema checker is introduced."
+    },
+    {
+      "id": "P1",
+      "change": "Omit Claude-only disable-model-invocation frontmatter while copying agents/openai.yaml explicit-only policy.",
+      "reason": "The target is Codex packaging; its metadata preserves invocation intent and the bundled validator accepts the supported frontmatter.",
+      "tradeoff": "This package is not a byte-identical Claude entrypoint."
+    },
+    {
+      "id": "TRIAL-SEED",
+      "change": "Make existing tracker conventions override the example seed in both entrypoint and support file.",
+      "reason": "The first response trial invented an uninspected layout despite a preservation instruction.",
+      "tradeoff": "Missing schema details remain explicit until inspected; a seed cannot fill them in as facts."
+    }
+  ],
+  "source_commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+  "evaluation_status": "recorded-v1-with-versioned-repairs",
+  "author_word_count": 1559
+}

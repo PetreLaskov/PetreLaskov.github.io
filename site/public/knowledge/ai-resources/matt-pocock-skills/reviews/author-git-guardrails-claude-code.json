@@ -1,0 +1,64 @@
+{
+  "slug": "git-guardrails-claude-code",
+  "bucket": "misc",
+  "chapter": "chapters/git-guardrails-claude-code.md",
+  "refactor": "refactored/git-guardrails-claude-code/SKILL.md",
+  "original_slug": "reversible-operation-design",
+  "original_path": "original-skills/reversible-operation-design/SKILL.md",
+  "port_bet": "defer",
+  "summary": "Configure scoped Claude Code git restrictions with an explicit distinction between enforceable permissions and a limited legacy command-pattern tripwire.",
+  "source_files_read": [
+    "skills/misc/git-guardrails-claude-code/agents/openai.yaml",
+    "skills/misc/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+    "skills/misc/git-guardrails-claude-code/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    },
+    {
+      "file": "scripts/block-dangerous-git.sh",
+      "action": "retain",
+      "reason": "Preserve exact legacy implementation as inactive audited baseline; not an enforcement guarantee."
+    },
+    {
+      "file": "references/legacy-hook-audit.md",
+      "action": "replace",
+      "reason": "Document concrete static findings and required target tests without claiming execution."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Correct the claim boundary",
+      "reason": "Distinguish supported permissions from a limited command-pattern tripwire; the retained script is inactive by default.",
+      "tradeoff": "The port may decline to promise enforcement the source title implies."
+    },
+    {
+      "id": "D2",
+      "change": "Preserve scope and configuration",
+      "reason": "Reuse explicit project/global scope and merge existing hooks without duplication.",
+      "tradeoff": "Requires inspecting current settings rather than pasting a sample."
+    },
+    {
+      "id": "D3",
+      "change": "Broaden meaningful verification",
+      "reason": "Separate synthetic decision tests from actual host invocation and include permitted reads plus known limitations.",
+      "tradeoff": "More verification work than one blocked payload."
+    },
+    {
+      "id": "D4",
+      "change": "Audit rather than disguise the legacy helper",
+      "reason": "Retain the exact source helper with a limitation reference and no assertion of current execution.",
+      "tradeoff": "The package is transparent about unresolved enforcement rather than pretending the code was hardened."
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

@@ -1,0 +1,56 @@
+--- a/source/skills/engineering/implement/LICENSE
++++ b/refactored/implement/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2026 Matt Pocock
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+--- a/source/skills/engineering/implement/SKILL.md
++++ b/refactored/implement/SKILL.md
+@@ -1,15 +1,22 @@
+ ---
+ name: implement
+-description: "Implement a piece of work based on a spec or set of tickets."
+-disable-model-invocation: true
++description: Build already-agreed work from a specific ticket, spec, or conversation plan, verify it, review the actual change, and finish the agreed local delivery.
+ ---
+ 
+-Implement the work described by the user in the spec or tickets.
++# Implement
+ 
+-Use /tdd where possible, at pre-agreed seams.
++Execute the settled contract; do not reopen design choices on preference.
+ 
+-Run typechecking regularly, single test files regularly, and the full test suite once at the end.
++Resolve the exact ticket/spec or accepted conversation plan. State its identity and intended result. Read relevant repo instructions, agreed test seams, and blockers. Check current branch/worktree and unrelated changes. Do not guess what a bare number refers to.
+ 
+-Once done, use /code-review to review the work.
++If the contract conflicts with observed code or an unfinished dependency, surface the concrete conflict and resolve only the necessary decision. Otherwise proceed.
+ 
+-Commit your work to the current branch.
++Build one bounded piece of work using TDD where it protects meaningful behavior, at already-agreed seams. Reuse prior agreement rather than asking again. When a seam is genuinely undecided, recommend it with what it catches and misses before testing there.
++
++Run focused tests and typechecks as useful during implementation, then the required broader checks once at the end. Do not invent low-value tests for mechanical changes merely to perform a ritual.
++
++Review the actual task-owned patch, including uncommitted changes, against its spec and repository standards. Use code-review when available; ensure its pinned scope includes the new work. Resolve supported material findings within scope and rerun affected checks. Do not chase cosmetic suggestions indefinitely.
++
++Commit task-owned changes to the intended current branch unless the user chose another delivery mode. Inspect staged content; preserve unrelated user work. Do not amend another task's commit or operate competing writers through one shared index.
++
++Reconcile acceptance criteria with evidence. Update the work item when its completion is part of the authorized workflow; otherwise report the precise pending update. Finish with the result, checks, commit if made, and any unmet criterion or required human step. Do not imply deployment or external publication occurred.

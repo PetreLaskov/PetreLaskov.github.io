@@ -1,0 +1,63 @@
+{
+  "slug": "resolving-merge-conflicts",
+  "bucket": "engineering",
+  "chapter": "chapters/resolving-merge-conflicts.md",
+  "refactor": "refactored/resolving-merge-conflicts/SKILL.md",
+  "original_slug": "compose-two-plans",
+  "original_path": "original-skills/compose-two-plans/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "Trace each conflicting change to its purpose, preserve compatible behavior, and complete the operation without sweeping unrelated work into the commit.",
+  "source_files_read": [
+    "source/skills/engineering/resolving-merge-conflicts/SKILL.md",
+    "source/skills/engineering/resolving-merge-conflicts/agents/openai.yaml",
+    "source/docs/engineering/resolving-merge-conflicts.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "copy",
+      "reason": "Preserve source UI metadata and invocation policy exactly."
+    },
+    {
+      "file": "source/LICENSE",
+      "action": "copy",
+      "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Inventory operation state and pre-existing changes before editing.",
+      "reason": "A conflict resolver needs to know which operation and changes it owns.",
+      "tradeoff": "A short state check precedes resolution."
+    },
+    {
+      "id": "D2",
+      "change": "Use three-way content and primary intent, with explicit rebase-side semantics.",
+      "reason": "Ours/theirs labels can mislead during replay and do not establish intent.",
+      "tradeoff": "History reading may take longer than mechanical marker deletion."
+    },
+    {
+      "id": "D3",
+      "change": "Pause only genuinely incompatible, unresolved intent rather than inventing behavior.",
+      "reason": "Always resolve cannot justify choosing an unstated product goal.",
+      "tradeoff": "Some conflicts remain pending a decision."
+    },
+    {
+      "id": "D4",
+      "change": "Stage only resolved operation-owned changes, not everything.",
+      "reason": "Unrelated local edits can otherwise be committed accidentally.",
+      "tradeoff": "Requires file-level staging inspection."
+    },
+    {
+      "id": "D5",
+      "change": "Preserve no-abort default while allowing explicit user cancellation.",
+      "reason": "Persistence is appropriate until the user changes the goal.",
+      "tradeoff": "The absolute source prohibition becomes scoped to the authorized operation."
+    }
+  ],
+  "source_commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+  "evaluation_status": "recorded-development-trials",
+  "author_word_count": 1566
+}

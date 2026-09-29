@@ -1,0 +1,65 @@
+{
+  "slug": "pr",
+  "bucket": "in-progress",
+  "chapter": "chapters/pr.md",
+  "refactor": "refactored/pr/SKILL.md",
+  "original_slug": "reviewer-rehearsal",
+  "original_path": "original-skills/reviewer-rehearsal/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "Write concise pull request bodies that explain changed behavior, show appropriate evidence, and identify concrete reversal costs.",
+  "source_files_read": [
+    "skills/in-progress/pr/agents/openai.yaml",
+    "skills/in-progress/pr/CREDITS.md",
+    "skills/in-progress/pr/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    },
+    {
+      "file": "CREDITS.md",
+      "action": "retain",
+      "reason": "Preserve the source attribution to Dex Horthy and show-me."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Lead with behavior and primary intent",
+      "reason": "Add a concise problem/result statement grounded in the requirement, rather than relying on a visual alone.",
+      "tradeoff": "A little prose precedes the source preferred sketch."
+    },
+    {
+      "id": "D2",
+      "change": "Scale the representation",
+      "reason": "Use the smallest useful visual and omit it when it adds no information.",
+      "tradeoff": "Less uniformity across PR bodies."
+    },
+    {
+      "id": "D3",
+      "change": "Separate evidence from illustration",
+      "reason": "Report actual before/after observations and label pseudocode or unrun expectations.",
+      "tradeoff": "Some PRs will honestly show less evidence than the template appears to promise."
+    },
+    {
+      "id": "D4",
+      "change": "Explain reversal concretely",
+      "reason": "Replace a bare door and one-word blast radius with persistent effects and rollback requirements.",
+      "tradeoff": "Risk discussion may need more than a label."
+    },
+    {
+      "id": "D5",
+      "change": "Retain attribution",
+      "reason": "Preserve source credits metadata and CREDITS.md for the borrowed visual guidance.",
+      "tradeoff": "Adds a small support file to the derived package."
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

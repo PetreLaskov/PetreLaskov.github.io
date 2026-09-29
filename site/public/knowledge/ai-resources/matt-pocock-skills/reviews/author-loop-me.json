@@ -1,0 +1,59 @@
+{
+  "slug": "loop-me",
+  "bucket": "in-progress",
+  "chapter": "chapters/loop-me.md",
+  "refactor": "refactored/loop-me/SKILL.md",
+  "original_slug": "workflow-payback",
+  "original_path": "original-skills/workflow-payback/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "Interview the user about recurring work and maintain implementable workflow specifications in a stateful workspace.",
+  "source_files_read": [
+    "skills/in-progress/loop-me/agents/openai.yaml",
+    "skills/in-progress/loop-me/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Replace impossible completeness with decision completeness",
+      "reason": "Require consequential decisions to be settled while leaving ordinary implementation choices open.",
+      "tradeoff": "The implementer may still ask a legitimate new question."
+    },
+    {
+      "id": "D2",
+      "change": "Ground the interview in actual runs",
+      "reason": "Use ordinary and awkward examples to reveal missing behavior efficiently.",
+      "tradeoff": "Adds a short simulation rather than relying entirely on conversation."
+    },
+    {
+      "id": "D3",
+      "change": "Bound push-right by the decision",
+      "reason": "Delay human interruption through authorized preparation, but stop before the action requiring that judgment.",
+      "tradeoff": "Some workflows retain an earlier checkpoint than maximum automation would prefer."
+    },
+    {
+      "id": "D4",
+      "change": "Preserve state distinctions",
+      "reason": "Keep proposals, settled decisions, and abandoned workflow history legible.",
+      "tradeoff": "Slightly more file stewardship than unrestricted create-edit-delete."
+    },
+    {
+      "id": "D5",
+      "change": "Adapt Codex packaging without changing invocation",
+      "reason": "Omit Claude-only disable-model-invocation and argument-hint keys while preserving explicit-only policy in the copied agents/openai.yaml.",
+      "tradeoff": "The study package targets Codex metadata rather than being a byte-identical cross-host manifest."
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

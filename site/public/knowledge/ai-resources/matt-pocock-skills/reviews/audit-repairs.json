@@ -1,0 +1,92 @@
+[
+  {
+    "path": "refactored/triage/SKILL.md",
+    "issue": "Restore the source terminal disposition without overriding label-only scope.",
+    "before_sha256": "adf34ffcc8cf94bece962ecff291bd9a33b0876efdd896d57157c802da5da173",
+    "after_sha256": "cd4996abdb04b484309b156c0385f30d5d2994d214ea58eb621c3b93ebf0f661"
+  },
+  {
+    "path": "refactored/wizard/template.sh",
+    "issue": "Stop on EOF in manual confirmation.",
+    "before_sha256": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3",
+    "after_sha256": "28f093410ce104fc3fa455be1d92ae71b28113580bbea5cf6b50ada3118f5c46"
+  },
+  {
+    "path": "refactored/wizard/template.sh",
+    "issue": "EOF cannot reuse a saved value; require nonempty input.",
+    "before_sha256": "28f093410ce104fc3fa455be1d92ae71b28113580bbea5cf6b50ada3118f5c46",
+    "after_sha256": "bc0ff98f74eae44e42ec805fc70b72a7987ba34aac7e8b870498a43db8575e4a"
+  },
+  {
+    "path": "refactored/wizard/template.sh",
+    "issue": "Secret input has the same required-input contract without printing values.",
+    "before_sha256": "bc0ff98f74eae44e42ec805fc70b72a7987ba34aac7e8b870498a43db8575e4a",
+    "after_sha256": "32ca8243a8b095ece8b62c724686947909b6750a24f37d151b6e2d93bc3d98d5"
+  },
+  {
+    "path": "refactored/wizard/template.sh",
+    "issue": "Failed required remote secret writes return failure.",
+    "before_sha256": "32ca8243a8b095ece8b62c724686947909b6750a24f37d151b6e2d93bc3d98d5",
+    "after_sha256": "9753d5941a232b9cbce31b2a522daef8c944e2dcb88f3797715928171d8d2e00"
+  },
+  {
+    "path": "refactored/wizard/template.sh",
+    "issue": "Failed required remote variable writes return failure.",
+    "before_sha256": "9753d5941a232b9cbce31b2a522daef8c944e2dcb88f3797715928171d8d2e00",
+    "after_sha256": "b0d39e12917bea2fe771d04d2c0e41238cf776cea387cf4fbd72c8497e1c1d27"
+  },
+  {
+    "path": "refactored/wizard/template.sh",
+    "issue": "Completion headline must agree with recorded failures.",
+    "before_sha256": "b0d39e12917bea2fe771d04d2c0e41238cf776cea387cf4fbd72c8497e1c1d27",
+    "after_sha256": "434d183d61ecd7225e1f543de24e1d7121e1894c6ead9bfc20d35658fa955554"
+  },
+  {
+    "path": "refactored/wizard/template.sh",
+    "issue": "Incomplete setup exits unsuccessfully.",
+    "before_sha256": "434d183d61ecd7225e1f543de24e1d7121e1894c6ead9bfc20d35658fa955554",
+    "after_sha256": "18f48a387ba87177eb6f2e50a896eb5dffa8666f7bebd6c562dae15992f7bdc3"
+  },
+  {
+    "path": "refactored/wizard/template.sh",
+    "issue": "Document the repaired helper return contract.",
+    "before_sha256": "18f48a387ba87177eb6f2e50a896eb5dffa8666f7bebd6c562dae15992f7bdc3",
+    "after_sha256": "fafe165e114911870077dc5b01e374c15405d7b51096bff8371314c47112bbd6"
+  },
+  {
+    "path": "refactored/wizard/SKILL.md",
+    "issue": "Distinguish repaired port template from the upstream original.",
+    "before_sha256": "2244f644e7444adc5d0e1e9c2b1647666aca059b2bd6f005e8a844c1cb171932",
+    "after_sha256": "1073eac8e3232f960416941fe6255b35c68e38584aa732b777ee0ceec69634f7"
+  },
+  {
+    "path": "refactored/wizard/SKILL.md",
+    "issue": "Expose the executable contract to wizard authors.",
+    "before_sha256": "1073eac8e3232f960416941fe6255b35c68e38584aa732b777ee0ceec69634f7",
+    "after_sha256": "5e2c3aabde1752152b8f335167b7bc762688baabee3fe64e43ce696b45c6ecf5"
+  },
+  {
+    "path": "original-skills/instruction-ablation/SKILL.md",
+    "issue": "ORIG-001: prevent treatment contamination from masquerading as a valid ablation.",
+    "before_sha256": "fac0d76ecd01c50a7a6e3c08725ad92db7ca449387b34932d67caac4a9f59e8b",
+    "after_sha256": "aadcde191fbb2eb3ab6106cb78a337eb8c8caef9a5080f3391fc8bea53609aed"
+  },
+  {
+    "path": "original-skills/thesis-stress-test/SKILL.md",
+    "issue": "ORIG-002: preserve the kind of claim during the final challenge.",
+    "before_sha256": "710050e48fcef9bab4dc2d70088a58c77ef058c9f0b3c558574b126a6a375269",
+    "after_sha256": "a474852fb54dbeb5d4588812f67644bbc6b6d173a1344aa28569e9c2bc4d630c"
+  },
+  {
+    "path": "refactored/setup-matt-pocock-skills/issue-tracker-local.md",
+    "issue": "Recorded trial imposed seed conventions on an unspecified existing tracker; make observed conventions authoritative.",
+    "before_sha256": "e8f868ae0941a5d94fa707d87322365860b3d9f8f3dc188553f9f0b091d5cf96",
+    "after_sha256": "5b594b4b44ff4ee428b017a9021b8b12c4b11f26f7d56165ddfc72122771fb34"
+  },
+  {
+    "path": "refactored/setup-matt-pocock-skills/SKILL.md",
+    "issue": "Recorded trial imposed seed conventions on an unspecified existing tracker; make observed conventions authoritative.",
+    "before_sha256": "a1b013203b25322419d1106a03b585f466b6429481b0d97b1d8e4668a3213abc",
+    "after_sha256": "32d9824b7200fe5d69c46397546a90256b3800dffaf80d6e413c1c7bc4988073"
+  }
+]

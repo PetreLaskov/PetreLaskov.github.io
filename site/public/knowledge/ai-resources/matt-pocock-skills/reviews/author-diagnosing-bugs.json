@@ -1,0 +1,69 @@
+{
+  "slug": "diagnosing-bugs",
+  "bucket": "engineering",
+  "chapter": "chapters/diagnosing-bugs.md",
+  "refactor": "refactored/diagnosing-bugs/SKILL.md",
+  "original_slug": "construct-a-counterexample",
+  "original_path": "original-skills/construct-a-counterexample/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "Keep the exact-symptom red loop as the core gate; distinguish harness construction from confirmed explanation and calibrate activation and stochastic evidence.",
+  "source_files_read": [
+    "source/skills/engineering/diagnosing-bugs/SKILL.md",
+    "source/skills/engineering/diagnosing-bugs/agents/openai.yaml",
+    "source/skills/engineering/diagnosing-bugs/scripts/hitl-loop.template.sh",
+    "source/docs/engineering/diagnosing-bugs.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "scripts/hitl-loop.template.sh",
+      "action": "copy",
+      "reason": "Preserve small observational human-in-loop helper unchanged; constrain capture to redacted nonsecret observations and require a user-controlled terminal."
+    },
+    {
+      "file": "agents/openai.yaml",
+      "action": "copy",
+      "reason": "Preserve source UI metadata and invocation policy exactly."
+    },
+    {
+      "file": "source/LICENSE",
+      "action": "copy",
+      "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Narrow activation to hard diagnosis or a demonstrated need for the full loop.",
+      "reason": "The broad broken/slow trigger overreaches ordinary explanatory questions.",
+      "tradeoff": "Some tasks start with a lightweight inspection before escalation."
+    },
+    {
+      "id": "D2",
+      "change": "Allow provisional ideas needed to construct a repro, but no causal conclusion or fix without symptom evidence.",
+      "reason": "Reading code to find a runnable path is often necessary.",
+      "tradeoff": "Requires discipline to keep provisional harness ideas from becoming assumed causes."
+    },
+    {
+      "id": "D3",
+      "change": "Minimize until further reduction no longer improves diagnosis, rather than demand a global minimum.",
+      "reason": "A strict every-element-load-bearing gate can consume more time than the diagnosis.",
+      "tradeoff": "Repros may retain harmless scaffolding."
+    },
+    {
+      "id": "D4",
+      "change": "Record stochastic baseline, repetitions, and comparison conditions.",
+      "reason": "A few passing stress runs do not establish that a flake is gone.",
+      "tradeoff": "Intermittent bugs need more careful result statements."
+    },
+    {
+      "id": "D5",
+      "change": "Reuse triage reproduction and explicitly hand off missing test seams.",
+      "reason": "Avoid redundant setup and make the architectural finding actionable.",
+      "tradeoff": "Existing evidence must be checked for matching environment and symptom."
+    }
+  ],
+  "source_commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+  "evaluation_status": "recorded-development-trials",
+  "author_word_count": 1580
+}

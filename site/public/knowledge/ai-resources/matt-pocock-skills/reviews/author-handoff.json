@@ -1,0 +1,44 @@
+{
+  "slug": "handoff",
+  "bucket": "productivity",
+  "chapter": "chapters/handoff.md",
+  "refactor": "refactored/handoff/SKILL.md",
+  "original_slug": "resume-check",
+  "original_path": "original-skills/resume-check/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "Adopt targeted portable handoffs with explicit state and resolvable references; retain the temporary-file default without pretending it is durable.",
+  "source_files_read": [
+    "source/skills/productivity/handoff/agents/openai.yaml",
+    "source/skills/productivity/handoff/SKILL.md",
+    "source/docs/productivity/handoff.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/productivity/handoff/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "Carry verification and decision status",
+      "reason": "Prevent false premises after compression",
+      "tradeoff": "A little extra context"
+    },
+    {
+      "id": 2,
+      "change": "Check usable references",
+      "reason": "Pointers can fail across environments",
+      "tradeoff": "Targeted read cost"
+    },
+    {
+      "id": 3,
+      "change": "Retain temp with explicit limitation",
+      "reason": "Source default is transient by design",
+      "tradeoff": "User may need durable destination"
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

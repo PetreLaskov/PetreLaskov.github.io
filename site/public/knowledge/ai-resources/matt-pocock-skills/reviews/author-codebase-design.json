@@ -1,0 +1,75 @@
+{
+  "slug": "codebase-design",
+  "bucket": "engineering",
+  "chapter": "chapters/codebase-design.md",
+  "refactor": "refactored/codebase-design/SKILL.md",
+  "original_slug": "rehearse-the-next-change",
+  "original_path": "original-skills/rehearse-the-next-change/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "Depth is caller leverage, not code volume; retain the glossary and alternative designs while making costs and reference-only scope explicit.",
+  "source_files_read": [
+    "source/skills/engineering/codebase-design/DEEPENING.md",
+    "source/skills/engineering/codebase-design/DESIGN-IT-TWICE.md",
+    "source/skills/engineering/codebase-design/SKILL.md",
+    "source/skills/engineering/codebase-design/agents/openai.yaml",
+    "source/docs/engineering/codebase-design.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "DEEPENING.md",
+      "action": "rewrite",
+      "reason": "Retain four dependency categories and interface tests; replace blanket test deletion with demonstrated coverage substitution."
+    },
+    {
+      "file": "DESIGN-IT-TWICE.md",
+      "action": "rewrite",
+      "reason": "Retain contrasting design constraints and caller examples while supporting available concurrency and bounded design scope."
+    },
+    {
+      "file": "agents/openai.yaml",
+      "action": "copy",
+      "reason": "Preserve source UI metadata and invocation policy exactly."
+    },
+    {
+      "file": "source/LICENSE",
+      "action": "copy",
+      "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Make reference-only behavior explicit and scope alternative design to the selected module.",
+      "reason": "A glossary should not authorize a redesign campaign.",
+      "tradeoff": "The user or driver must actually select a design problem."
+    },
+    {
+      "id": "D2",
+      "change": "Keep defined vocabulary but permit exact project and technology terms.",
+      "reason": "Calling an HTTP API an API or a deployed service a service need not obscure module reasoning.",
+      "tradeoff": "Slightly weaker enforced vocabulary uniformity."
+    },
+    {
+      "id": "D3",
+      "change": "Evaluate total caller obligations, not method count alone.",
+      "reason": "One method with modes, sequencing, and hidden errors may be a huge interface.",
+      "tradeoff": "Depth remains a judgment rather than a numeric score."
+    },
+    {
+      "id": "D4",
+      "change": "Treat second-adapter and public-test heuristics as evidence, not universal laws.",
+      "reason": "Policy boundaries and localized diagnostic tests can be justified independently.",
+      "tradeoff": "Requires explaining exceptions."
+    },
+    {
+      "id": "D5",
+      "change": "Replace shallow tests only after verifying that new tests preserve meaningful coverage.",
+      "reason": "Interface tests need not cover every old invariant automatically.",
+      "tradeoff": "A temporary overlap may remain during migration."
+    }
+  ],
+  "source_commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+  "evaluation_status": "recorded-development-trials",
+  "author_word_count": 1599
+}

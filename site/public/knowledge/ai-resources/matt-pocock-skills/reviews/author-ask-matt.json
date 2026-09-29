@@ -1,0 +1,75 @@
+{
+  "slug": "ask-matt",
+  "bucket": "engineering",
+  "chapter": "chapters/ask-matt.md",
+  "refactor": "refactored/ask-matt/SKILL.md",
+  "original_slug": "find-the-binding-constraint",
+  "original_path": "original-skills/find-the-binding-constraint/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "A compact map is valuable when it recommends the next justified step without silently becoming an executor; routing claims need the actual target skill.",
+  "source_files_read": [
+    "source/skills/engineering/ask-matt/PHASE-BOUNDARIES.md",
+    "source/skills/engineering/ask-matt/SKILL.md",
+    "source/skills/engineering/ask-matt/agents/openai.yaml",
+    "source/docs/engineering/ask-matt.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "PHASE-BOUNDARIES.md",
+      "action": "rewrite",
+      "reason": "Keep ordered context-choice tree; remove fixed token folklore and distinguish recoverable transcript from lossy working context."
+    },
+    {
+      "file": "agents/openai.yaml",
+      "action": "copy",
+      "reason": "Preserve source UI metadata and invocation policy exactly."
+    },
+    {
+      "file": "source/LICENSE",
+      "action": "copy",
+      "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "State recommend-and-stop in the entrypoint.",
+      "reason": "The source documentation promises this but the source skill leaves it implicit.",
+      "tradeoff": "Requires a separate invocation to execute the recommendation."
+    },
+    {
+      "id": "D2",
+      "change": "Verify only load-bearing target claims against its actual SKILL.md.",
+      "reason": "A map is secondary evidence and can lag its territory.",
+      "tradeoff": "A little more reading before confident routing."
+    },
+    {
+      "id": "D3",
+      "change": "Treat hidden explicit-only skills as availability unknown, not absent.",
+      "reason": "Discovery listings can omit installed skills.",
+      "tradeoff": "May leave a capability unresolved rather than invent a substitute."
+    },
+    {
+      "id": "D4",
+      "change": "Replace the fixed smart-zone token figure with host evidence and observable context risk.",
+      "reason": "Capacity and degradation vary by model and task.",
+      "tradeoff": "Loses an easy numeric rule of thumb."
+    },
+    {
+      "id": "D5",
+      "change": "Keep routes as a concise decision table with optional phase-boundary reference.",
+      "reason": "Preserves branches while reducing repeated narrative.",
+      "tradeoff": "Less of Matt's conversational exposition inside the operational prompt."
+    },
+    {
+      "id": "P1",
+      "change": "Omit Claude-only disable-model-invocation frontmatter while copying agents/openai.yaml explicit-only policy.",
+      "reason": "The target is Codex packaging; its metadata preserves invocation intent and the bundled validator accepts the supported frontmatter.",
+      "tradeoff": "This package is not a byte-identical Claude entrypoint."
+    }
+  ],
+  "source_commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+  "evaluation_status": "recorded-development-trials",
+  "author_word_count": 1659
+}

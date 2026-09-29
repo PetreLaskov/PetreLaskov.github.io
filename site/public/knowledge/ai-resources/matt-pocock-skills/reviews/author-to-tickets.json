@@ -1,0 +1,69 @@
+{
+  "slug": "to-tickets",
+  "bucket": "engineering",
+  "chapter": "chapters/to-tickets.md",
+  "refactor": "refactored/to-tickets/SKILL.md",
+  "original_slug": "design-the-learning-sequence",
+  "original_path": "original-skills/design-the-learning-sequence/SKILL.md",
+  "port_bet": "adopt",
+  "summary": "Preserve tracer-bullet slices and the wide-refactor exception; add discriminating acceptance, true blocking semantics, and resumable publication.",
+  "source_files_read": [
+    "source/skills/engineering/to-tickets/SKILL.md",
+    "source/skills/engineering/to-tickets/agents/openai.yaml",
+    "source/docs/engineering/to-tickets.md",
+    "source/LICENSE"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "copy",
+      "reason": "Preserve source UI metadata and invocation policy exactly."
+    },
+    {
+      "file": "source/LICENSE",
+      "action": "copy",
+      "reason": "Retain Matt Pocock MIT attribution in every refactored package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Test whether decomposition is needed and prefer the fewest independently useful slices.",
+      "reason": "A small coherent change should not become a ticket bureaucracy.",
+      "tradeoff": "Less parallelism when splitting would create coordination without value."
+    },
+    {
+      "id": "D2",
+      "change": "Give each ticket a demo/verification path and criterion that distinguishes the base from completion.",
+      "reason": "Acceptance can otherwise be already true or depend on another ticket's unowned work.",
+      "tradeoff": "More thought per ticket before publication."
+    },
+    {
+      "id": "D3",
+      "change": "Validate blocker graph and distinguish parent membership from execution dependency.",
+      "reason": "Native sub-issue links do not mean blocked-by.",
+      "tradeoff": "Some relationships need separate API operations."
+    },
+    {
+      "id": "D4",
+      "change": "Keep stable locator hints with provenance when they reduce rediscovery, without treating stale paths as requirements.",
+      "reason": "A blanket path ban can throw away useful evidence.",
+      "tradeoff": "Hints must be explicitly non-normative and refreshed by implementers."
+    },
+    {
+      "id": "D5",
+      "change": "Read back published tickets and resume partial publication using created IDs.",
+      "reason": "A retry after partial success should not duplicate work items.",
+      "tradeoff": "Publication has a small reconciliation step."
+    },
+    {
+      "id": "P1",
+      "change": "Omit Claude-only disable-model-invocation frontmatter while copying agents/openai.yaml explicit-only policy.",
+      "reason": "The target is Codex packaging; its metadata preserves invocation intent and the bundled validator accepts the supported frontmatter.",
+      "tradeoff": "This package is not a byte-identical Claude entrypoint."
+    }
+  ],
+  "source_commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+  "evaluation_status": "recorded-development-trials",
+  "author_word_count": 1596
+}

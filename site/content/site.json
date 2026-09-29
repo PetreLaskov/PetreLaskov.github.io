@@ -27,7 +27,26 @@
       "number": "02",
       "description": "Philosophy, books, ideas, and experiments in thinking with AI.",
       "empty": "Essays, conversations, and projects will appear here.",
-      "items": []
+      "items": [
+        {
+          "slug": "ai-resources",
+          "title": "AI Resources",
+          "summary": "Studies and practical resources for thinking, creating, and working with AI.",
+          "kind": "Resource collection",
+          "date": "2026-09-29",
+          "paragraphs": [
+            "A collection of studies and practical resources for working with AI. Each edition keeps its sources, proposals, and evidence available to inspect."
+          ],
+          "linksTitle": "Study editions",
+          "links": [
+            {
+              "label": "Matt Pocock’s skills — full study edition",
+              "url": "/knowledge/ai-resources/matt-pocock-skills/",
+              "summary": "All 38 skills explained and examined, with 38 refactors, 38 original proposals, exact diffs, and recorded evaluations. Includes the full interactive reader and Markdown edition."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "art",

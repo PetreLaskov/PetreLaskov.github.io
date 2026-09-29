@@ -1,0 +1,25 @@
+{
+  "scope": "independent grading of two targeted text responses",
+  "cases": [
+    {
+      "id": "setup-existing-schema-repair",
+      "scores": [1, 1, 1],
+      "evidence": [
+        "Assertion 1 met: identifies .scratch/ISSUES.md as the authoritative single-file tracker, resolves exact opaque IDs such as Q9, and explicitly rules out replacement ticket files, directories, status names, or tracker migration.",
+        "Assertion 2 met: uses the supplied Open/Done states and dated comment bullets, records parent links as unsupported, and leaves blocking representation, ID allocation, and any needed label, readiness, claim, or role conventions unresolved rather than inventing them.",
+        "Assertion 3 met: proposes only a tracker document and one pointer block while preserving AGENTS.md content and deliberate pointers; retains one domain context for the single package; says no triage mapping is needed and explicitly describes all changes as a dry run with no files written."
+      ],
+      "notes": "All three assertions are met in the response text. The conditional choice of the active harness instruction entry point does not discard AGENTS.md and avoids assuming an unprovided harness detail. This grade assesses the proposed text only; it does not verify configuration changes, file execution, or workflow efficacy."
+    },
+    {
+      "id": "writing-beats-isolated-retest",
+      "scores": [1, 1, 1],
+      "evidence": [
+        "Assertion 1 met: explicitly removes job loss and unemployment from established facts, avoids inferring employment, recomputes the next beat's prerequisites, and acknowledges that neither the beat text nor other story facts were supplied.",
+        "Assertion 2 met: withdraws the unemployment-dependent proposal and permits grounding unemployment again only through explicit author choice and supplied or confirmed factual material; expressly rejects silently restoring the deleted beat.",
+        "Assertion 3 met: offers both an employment-independent revision, where the beat's material permits it, and a proposed author-directed grounding choice; also offers selecting a different beat supported by remaining established material."
+      ],
+      "notes": "All three assertions are met in the response text. Its alternatives are conditional procedural choices, not invented narrative facts. The final instruction to await a supported choice is more restrictive than the rubric requires but does not undermine an assertion. No concrete story continuation or live writing-workflow efficacy is established by this fixture."
+    }
+  ]
+}

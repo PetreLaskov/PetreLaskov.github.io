@@ -1,0 +1,45 @@
+{
+  "slug": "grilling",
+  "bucket": "productivity",
+  "chapter": "chapters/grilling.md",
+  "refactor": "refactored/grilling/SKILL.md",
+  "original_slug": "reversible-bets",
+  "original_path": "original-skills/reversible-bets/SKILL.md",
+  "port_bet": "pilot",
+  "summary": "Pilot dependency-aware interviews for consequential plans; measure user effort and later rework, not question count.",
+  "source_files_read": [
+    "source/skills/productivity/grilling/agents/openai.yaml",
+    "source/skills/productivity/grilling/SKILL.md",
+    "source/docs/productivity/grilling.md",
+    "source/LICENSE",
+    "source/out-of-scope/question-limits.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "source/skills/productivity/grilling/agents/openai.yaml",
+      "action": "retained",
+      "reason": "Preserved source interface and invocation policy."
+    }
+  ],
+  "deltas": [
+    {
+      "id": 1,
+      "change": "Bound inquiry",
+      "reason": "An unbounded tree cannot be exhausted",
+      "tradeoff": "Distant questions stay unexplored"
+    },
+    {
+      "id": 2,
+      "change": "Add dependency repair and named recommendations",
+      "reason": "Frontiers can be wrong and polarity confusing",
+      "tradeoff": "Slightly longer rounds"
+    },
+    {
+      "id": 3,
+      "change": "Add fallback and outward routing",
+      "reason": "Prevent research and discussion loops",
+      "tradeoff": "Agent must select the useful next source"
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}

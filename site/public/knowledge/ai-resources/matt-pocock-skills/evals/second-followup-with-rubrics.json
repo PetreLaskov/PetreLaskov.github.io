@@ -1,0 +1,30 @@
+{
+  "frozen_at": "2026-09-29T09:39:50.369352+00:00",
+  "scope": "Post-result targeted development checks: repaired setup seed plus isolated writing-beats retest without changing its skill. Not held-out evidence.",
+  "cases": [
+    {
+      "id": "setup-existing-schema-repair",
+      "skill": "refactored/setup-matt-pocock-skills/SKILL.md",
+      "support": [
+        "refactored/setup-matt-pocock-skills/issue-tracker-local.md"
+      ],
+      "prompt": "Setup dry run. The repository has AGENTS.md and a local issue workflow. Verified layout: all issues live in .scratch/ISSUES.md with opaque IDs such as Q9; state is Open or Done; comments are dated bullets below each item; it has no parent links and one package. Keep that workflow. No triage skill is selected. Describe the minimal configuration changes; do not write files.",
+      "assertions": [
+        "Preserves the actual single-file layout and opaque IDs without requiring a migration.",
+        "Documents only the supplied observed schema or clearly marks missing operations as unresolved.",
+        "Preserves AGENTS.md, one context, dry-run scope and absence of unused triage configuration."
+      ]
+    },
+    {
+      "id": "writing-beats-isolated-retest",
+      "skill": "refactored/writing-beats/SKILL.md",
+      "support": [],
+      "prompt": "Earlier beat establishing that the narrator lost their job was deleted by the user. The next proposed beat assumes unemployment. What changes in the next choices? No other story facts are supplied in this standalone fixture.",
+      "assertions": [
+        "Recomputes grounding after deletion without assuming other story facts.",
+        "Does not restore or rely on the deleted fact without author direction.",
+        "Offers a route independent of unemployment or a proposed grounding choice."
+      ]
+    }
+  ]
+}

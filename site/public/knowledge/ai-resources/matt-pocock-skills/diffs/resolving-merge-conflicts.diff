@@ -1,0 +1,50 @@
+--- a/source/skills/engineering/resolving-merge-conflicts/LICENSE
++++ b/refactored/resolving-merge-conflicts/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2026 Matt Pocock
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+--- a/source/skills/engineering/resolving-merge-conflicts/SKILL.md
++++ b/refactored/resolving-merge-conflicts/SKILL.md
+@@ -1,14 +1,16 @@
+ ---
+ name: resolving-merge-conflicts
+-description: "Use when you need to resolve an in-progress git merge/rebase conflict."
++description: Resolve an in-progress Git merge or rebase by preserving each side's intended behavior, verifying the synthesis, and completing the operation.
+ ---
+ 
+-1. **See the current state** of the merge/rebase. Check git history, and the conflicting files.
++# Resolve Merge Conflicts
+ 
+-2. **Find the primary sources** for each conflict. Understand deeply why each change was made, and what the original intent was. Read the commit messages, check the PRs, check original issues/tickets.
++1. Inspect Git state: operation, branch, base/replayed commit, unmerged paths, index, and pre-existing unrelated changes. Work on the current operation; do not restart or abort it by default.
++2. Read three-way content and recover why each side changed using commits, tests, and available PRs/issues. Treat ours/theirs as Git roles, not judgments; rebase labels can be counterintuitive.
++3. Resolve each hunk by intent. Preserve compatible behavior with the smallest synthesis. For incompatible intentions, follow the stated merge goal or authoritative decision and record the tradeoff. If precedence is genuinely missing, ask the concrete decision while completing independent hunks. Do not invent product behavior to conceal a clash.
++4. Regenerate generated artifacts from correctly merged sources when the repo supplies the workflow. Inspect affected callers and run the project's relevant checks, then required broader checks. Fix failures introduced by the resolution.
++5. Inspect and stage only operation-owned resolved changes. Preserve unrelated local work. Complete the merge or continue the rebase through every remaining commit, repeating the process for later conflicts.
+ 
+-3. **Resolve each hunk.** Preserve both intents where possible. Where incompatible, pick the one matching the merge's stated goal and note the trade-off. Do **not** invent new behaviour. Always resolve; never `--abort`.
++Never use abort as an escape from difficult resolution. If the user explicitly cancels or changes the intended operation, follow that new instruction with appropriate preservation of work.
+ 
+-4. Discover the project's **automated checks** and run them, typically typecheck, then tests, then format. Fix anything the merge broke.
+-
+-5. **Finish the merge/rebase.** Stage everything and commit. If rebasing, continue the rebase process until all commits are rebased.
++Report the final operation state, intentional tradeoffs, checks, and any unresolved decision. A completed operation does not require deleting unrelated dirty work.

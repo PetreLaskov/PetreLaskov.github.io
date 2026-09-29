@@ -1,0 +1,59 @@
+{
+  "slug": "setup-pre-commit",
+  "bucket": "misc",
+  "chapter": "chapters/setup-pre-commit.md",
+  "refactor": "refactored/setup-pre-commit/SKILL.md",
+  "original_slug": "feedback-budget",
+  "original_path": "original-skills/feedback-budget/SKILL.md",
+  "port_bet": "conditional",
+  "summary": "Integrate Husky and lint-staged with existing repository checks while preserving scripts, staged work, and usable commit latency.",
+  "source_files_read": [
+    "skills/misc/setup-pre-commit/agents/openai.yaml",
+    "skills/misc/setup-pre-commit/SKILL.md"
+  ],
+  "supporting_disposition": [
+    {
+      "file": "agents/openai.yaml",
+      "action": "retain",
+      "reason": "Preserve source UI metadata and invocation policy."
+    },
+    {
+      "file": "LICENSE",
+      "action": "add",
+      "reason": "Copy repository MIT license and attribution into derived package."
+    }
+  ],
+  "deltas": [
+    {
+      "id": "D1",
+      "change": "Preserve the existing workflow",
+      "reason": "Merge hooks, prepare scripts, formatting rules, and workspace conventions instead of initializing over them.",
+      "tradeoff": "Installation needs a small repository inspection."
+    },
+    {
+      "id": "D2",
+      "change": "Use actual package-manager evidence",
+      "reason": "Read packageManager metadata and lockfiles, resolving conflicts instead of defaulting blindly to npm.",
+      "tradeoff": "An ambiguous repository may need a targeted clarification."
+    },
+    {
+      "id": "D3",
+      "change": "Budget local feedback",
+      "reason": "Choose noninteractive useful checks and account for slow or external suites while preserving required CI coverage.",
+      "tradeoff": "The hook may not run the source entire default suite."
+    },
+    {
+      "id": "D4",
+      "change": "Test staging and failure behavior",
+      "reason": "Use isolated fixtures for formatting, blocking failures, clean runs, and partial-staging preservation.",
+      "tradeoff": "Verification is more involved than checking files or running lint-staged once."
+    },
+    {
+      "id": "D5",
+      "change": "Scope the commit",
+      "reason": "Use a live commit only when it belongs to the task and stage only owned changes.",
+      "tradeoff": "Removes unconditional committing as an installation proof."
+    }
+  ],
+  "evaluation_status": "recorded-development-trials"
+}
