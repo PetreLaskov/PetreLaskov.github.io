@@ -35,9 +35,9 @@ _Petre Laskov · AI-assisted image_
 
 ### Something warm
 
-![A woman offers a cup to a bearded man at a sunlit table, with a child nearby.](assets/something-warm.webp)
+![A woman offers a cup to St Clement at a sunlit table, with a child nearby.](assets/something-warm.webp)
 
-Kindness for the disturbed spirits too. There is room at this table before anyone has sorted themselves out.
+St Clement at the table. Bread, tea, and a little warmth.
 
 _Petre Laskov · AI-assisted image_
 
@@ -49,11 +49,10 @@ A bedside moment, after Yi Yi (2000). Staying close when there is nothing you ca
 
 _Petre Laskov · AI-assisted image_
 
-### A stitch in the afternoon
+### What remains
 
 ![An older woman sews beside a bright window in a quiet room.](assets/a-stitch-in-the-afternoon.webp)
 
-What remains after someone is gone? The room, the familiar gestures, another afternoon to get through.
 
 _Petre Laskov · AI-assisted image_
 
@@ -61,7 +60,7 @@ _Petre Laskov · AI-assisted image_
 
 ![A child plays on a tiled floor beside an open doorway leading into sunlight.](assets/the-door-is-open.webp)
 
-A child at play, an open door, someone nearby. So much of a life begins in the care we barely notice.
+From some of my earliest memories in Пробиштип, with my grandmother.
 
 _Petre Laskov · AI-assisted image_
 
@@ -151,7 +150,7 @@ _Petre Laskov · AI-assisted image_
 
 ## Light, dreams & other detours
 
-Compassion taking a visible form, beauty we cannot keep, and a forest enjoying itself.
+Compassion taking a visible form, beauty we cannot keep, and room for mystery.
 
 ### Lotus at dusk
 
@@ -163,9 +162,9 @@ _Petre Laskov · AI-assisted image_
 
 ### Here, take my hand
 
-![A woman beside a lake reaches towards the viewer, with mountains and sunset behind her.](assets/here-take-my-hand.webp)
+![Tara beside a lake reaches towards the viewer, with mountains and sunset behind her.](assets/here-take-my-hand.webp)
 
-A hand offered without asking you to be different first. There is a place for you in this kindness.
+Tara’s compassionate embrace, open to all beings.
 
 _Petre Laskov · AI-assisted image_
 
@@ -185,11 +184,11 @@ Being close to someone in their pain, without needing it to end on our timetable
 
 _Petre Laskov · AI-assisted image_
 
-### The forest got carried away
+### Deep in the glowing heart
 
 ![Golden sunbeams fall through a lush forest onto a bright carpet of flowers.](assets/the-forest-got-carried-away.webp)
 
-Deep in the glowing heart. The forest gets a little extravagant; I am happy to let it.
+Where words fall silent.
 
 _Petre Laskov · AI-assisted image_
 
@@ -197,7 +196,7 @@ _Petre Laskov · AI-assisted image_
 
 ![An enormous mechanical hand and weathered figure resting in water beside a ruined city.](assets/after-the-noise.webp)
 
-An enormous hand, worn down among the ruins. I keep coming back to how much strength can need care.
+Inspired by the Zen saying: “Gain is delusion; loss is enlightenment.”
 
 _Petre Laskov · AI-assisted image_
 

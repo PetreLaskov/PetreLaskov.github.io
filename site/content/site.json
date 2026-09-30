@@ -74,11 +74,11 @@
               "title": "Something warm",
               "image": "/assets/art/something-warm.webp",
               "thumbnail": "/assets/art/something-warm-thumb.webp",
-              "alt": "A woman offers a cup to a bearded man at a sunlit table, with a child nearby.",
+              "alt": "A woman offers a cup to St Clement at a sunlit table, with a child nearby.",
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1024,
               "height": 1536,
-              "description": "Kindness for the disturbed spirits too. There is room at this table before anyone has sorted themselves out."
+              "description": "St Clement at the table. Bread, tea, and a little warmth."
             },
             {
               "slug": "staying",
@@ -93,14 +93,14 @@
             },
             {
               "slug": "a-stitch-in-the-afternoon",
-              "title": "A stitch in the afternoon",
+              "title": "What remains",
               "image": "/assets/art/a-stitch-in-the-afternoon.webp",
               "thumbnail": "/assets/art/a-stitch-in-the-afternoon-thumb.webp",
               "alt": "An older woman sews beside a bright window in a quiet room.",
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1448,
               "height": 1086,
-              "description": "What remains after someone is gone? The room, the familiar gestures, another afternoon to get through."
+              "description": ""
             },
             {
               "slug": "the-door-is-open",
@@ -111,7 +111,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1122,
               "height": 1402,
-              "description": "A child at play, an open door, someone nearby. So much of a life begins in the care we barely notice."
+              "description": "From some of my earliest memories in Пробиштип, with my grandmother."
             },
             {
               "slug": "one-more-note",
@@ -239,7 +239,7 @@
         {
           "slug": "light-and-detours",
           "title": "Light, dreams & other detours",
-          "summary": "Compassion taking a visible form, beauty we cannot keep, and a forest enjoying itself.",
+          "summary": "Compassion taking a visible form, beauty we cannot keep, and room for mystery.",
           "kind": "AI-assisted visual art",
           "image": "/assets/art/lotus-at-dusk.webp",
           "thumbnail": "/assets/art/lotus-at-dusk-thumb.webp",
@@ -255,11 +255,11 @@
               "title": "Here, take my hand",
               "image": "/assets/art/here-take-my-hand.webp",
               "thumbnail": "/assets/art/here-take-my-hand-thumb.webp",
-              "alt": "A woman beside a lake reaches towards the viewer, with mountains and sunset behind her.",
+              "alt": "Tara beside a lake reaches towards the viewer, with mountains and sunset behind her.",
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1198,
               "height": 1313,
-              "description": "A hand offered without asking you to be different first. There is a place for you in this kindness."
+              "description": "Tara’s compassionate embrace, open to all beings."
             },
             {
               "slug": "a-little-light",
@@ -285,14 +285,14 @@
             },
             {
               "slug": "the-forest-got-carried-away",
-              "title": "The forest got carried away",
+              "title": "Deep in the glowing heart",
               "image": "/assets/art/the-forest-got-carried-away.webp",
               "thumbnail": "/assets/art/the-forest-got-carried-away-thumb.webp",
               "alt": "Golden sunbeams fall through a lush forest onto a bright carpet of flowers.",
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1856,
               "height": 2464,
-              "description": "Deep in the glowing heart. The forest gets a little extravagant; I am happy to let it."
+              "description": "Where words fall silent."
             },
             {
               "slug": "after-the-noise",
@@ -303,7 +303,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1536,
               "height": 1024,
-              "description": "An enormous hand, worn down among the ruins. I keep coming back to how much strength can need care."
+              "description": "Inspired by the Zen saying: “Gain is delusion; loss is enlightenment.”"
             }
           ],
           "paragraphs": [],
