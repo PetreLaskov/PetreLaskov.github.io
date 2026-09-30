@@ -145,6 +145,39 @@
               "width": 1445,
               "height": 1089,
               "description": "A small bow, offered with the whole body. May whatever goodness grows here find its way to someone else."
+            },
+            {
+              "slug": "quiet-company-after-lunch",
+              "title": "Quiet Company After Lunch",
+              "image": "/assets/art/quiet-company-after-lunch.webp",
+              "thumbnail": "/assets/art/quiet-company-after-lunch-thumb.webp",
+              "alt": "An older woman, a child and a man sit around a broad wooden table after lunch, with leafy light coming through an open window.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1536,
+              "height": 1024,
+              "description": "Lunch is over, but nobody needs to leave yet. Three people follow their own thoughts in the same patch of afternoon."
+            },
+            {
+              "slug": "the-room-remembers",
+              "title": "The Room Remembers",
+              "image": "/assets/art/the-room-remembers.webp",
+              "thumbnail": "/assets/art/the-room-remembers-thumb.webp",
+              "alt": "An older woman sits in a blue chair as figures and memories overlap in an interior of ochre, blue and red.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1536,
+              "height": 1024,
+              "description": "Some rooms hold more than one time at once. A departure, a childhood afternoon, someone still sitting where they always sat."
+            },
+            {
+              "slug": "the-moth",
+              "title": "The Moth",
+              "image": "/assets/art/the-moth.webp",
+              "thumbnail": "/assets/art/the-moth-thumb.webp",
+              "alt": "A woman crouches beside a tiny moth on a green curtain in an empty rehearsal hall; a large sun prop rests against the far wall.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1536,
+              "height": 1024,
+              "description": "The hall is empty, the painted sun put aside. At the edge of the curtain, a tiny moth has someone’s whole attention."
             }
           ],
           "paragraphs": [],
@@ -304,6 +337,17 @@
               "width": 1536,
               "height": 1024,
               "description": "Inspired by the Zen saying: “Gain is delusion; loss is enlightenment.”"
+            },
+            {
+              "slug": "endless-robes",
+              "title": "Endless Robes",
+              "image": "/assets/art/endless-robes.webp",
+              "thumbnail": "/assets/art/endless-robes-thumb.webp",
+              "alt": "Pale woodland spirits in moth-patterned robes stand among dark roots and branches; a central figure holds a small round mirror.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 941,
+              "height": 1672,
+              "description": "Robes trail into roots; hair becomes branches. The woodland spirits seem to have been here long enough to become part of the forest."
             }
           ],
           "paragraphs": [],
