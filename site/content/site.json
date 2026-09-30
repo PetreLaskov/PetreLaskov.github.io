@@ -52,13 +52,13 @@
       "slug": "art",
       "label": "Art",
       "number": "03",
-      "description": "Images made with AI, curiosity and a fair amount of wandering. Some are quiet, some are a little strange; most seem to be looking for tenderness, light, or somewhere good to sit.",
+      "description": "Images made with AI, curiosity and care. Kindness, loss, the sacred in ordinary life—and a few strange places I was happy to find along the way.",
       "empty": "Selected work and collections will appear here.",
       "items": [
         {
           "slug": "small-acts",
           "title": "Small acts, whole worlds",
-          "summary": "A cup of tea, a hand held, a door left open. The grand themes keep turning up in very small gestures.",
+          "summary": "Tea, music, a hand held, the people who keep us going. Small gestures can carry a great deal.",
           "kind": "AI-assisted visual art",
           "image": "/assets/art/love-in-a-small-cup.webp",
           "thumbnail": "/assets/art/love-in-a-small-cup-thumb.webp",
@@ -78,7 +78,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1024,
               "height": 1536,
-              "description": "A sacred visit at an ordinary table. Someone still has to put the kettle on."
+              "description": "Kindness for the disturbed spirits too. There is room at this table before anyone has sorted themselves out."
             },
             {
               "slug": "staying",
@@ -89,7 +89,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1536,
               "height": 1024,
-              "description": "There may be very little to say. A hand can stay."
+              "description": "A bedside moment, after Yi Yi (2000). Staying close when there is nothing you can say to make it all right."
             },
             {
               "slug": "a-stitch-in-the-afternoon",
@@ -100,7 +100,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1448,
               "height": 1086,
-              "description": "Light at the window, a little mending. An afternoon allowed to take its time."
+              "description": "What remains after someone is gone? The room, the familiar gestures, another afternoon to get through."
             },
             {
               "slug": "the-door-is-open",
@@ -111,7 +111,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1122,
               "height": 1402,
-              "description": "The room is small; the world outside is enormous. For now, the floor has plenty to offer."
+              "description": "A child at play, an open door, someone nearby. So much of a life begins in the care we barely notice."
             },
             {
               "slug": "one-more-note",
@@ -122,7 +122,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1536,
               "height": 1024,
-              "description": "An ordinary room with enough space for music. You can almost hear the pause between notes."
+              "description": "A small tribute to Nils Frahm. A few notes, some space between them, and permission to listen."
             },
             {
               "slug": "the-apple-stays",
@@ -133,7 +133,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1536,
               "height": 1024,
-              "description": "An apple among fallen leaves, quietly joining the season. Even the beautiful things get to change."
+              "description": "Even this will go. A little autumn contemplation, prompted by Ken McLeod's reflections on impermanence."
             },
             {
               "slug": "a-small-bow",
@@ -144,17 +144,17 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1445,
               "height": 1089,
-              "description": "Flowers, incense, a small red figure. Reverence begins quite close to the ground."
+              "description": "A small bow, offered with the whole body. May whatever goodness grows here find its way to someone else."
             }
           ],
           "paragraphs": [],
           "role": "Created and curated by Petre Laskov in collaboration with AI.",
-          "description": "Some days, love looks like making someone a cup of tea and remembering the bread."
+          "description": "We all need a little care. A warm cup, something to eat, someone who is glad we came."
         },
         {
           "slug": "unlikely-company",
           "title": "Mercy & unlikely company",
-          "summary": "A little less judgement, a little more room at the table. Familiar sacred images, with a few unexpected guests.",
+          "summary": "Warmth for the vulnerable, mercy for the difficult. The sacred has room for our ordinary human lives.",
           "kind": "AI-assisted visual art",
           "image": "/assets/art/even-you.webp",
           "thumbnail": "/assets/art/even-you-thumb.webp",
@@ -174,7 +174,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1024,
               "height": 1536,
-              "description": "An open hand on the steps. There is room here for the parts of us we would rather keep out of sight."
+              "description": "Bring the shame, the fear, the bits that have not improved. There is still a hand reaching toward you."
             },
             {
               "slug": "a-place-beside-you",
@@ -185,7 +185,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1448,
               "height": 1086,
-              "description": "Two figures pause together, with no battle to settle. A strange, gentle possibility."
+              "description": "Sit with the troubled one for a while. We can offer company before we know how to help."
             },
             {
               "slug": "close-enough",
@@ -196,7 +196,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1254,
               "height": 1254,
-              "description": "Gold leaf, halos, and the familiar business of leaning on someone you love."
+              "description": "The sacred can bear the weight of a child and our need for warmth. We do not have to become less human to come close."
             },
             {
               "slug": "held",
@@ -207,39 +207,39 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1189,
               "height": 1323,
-              "description": "A family embrace in the language of an icon. The warmth is very much of this world."
+              "description": "The living God, here in an embrace. Affection, need and sorrow belong within the sacred too."
             },
             {
               "slug": "room-at-the-table",
               "title": "Room at the table",
               "image": "/assets/art/room-at-the-table.webp",
               "thumbnail": "/assets/art/room-at-the-table-thumb.webp",
-              "alt": "An improbable company of people and creatures shares a long outdoor table at dusk.",
+              "alt": "People share supper at a long outdoor table beside a church overlooking Ohrid at dusk.",
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1774,
               "height": 887,
-              "description": "An improbable supper, with company from several corners of the imagination. Pull up another chair."
+              "description": "Communion in Christ, over supper in Ohrid. Bread, friends, evening light. Pass something good along."
             },
             {
               "slug": "three-around-a-flame",
               "title": "Three around a flame",
               "image": "/assets/art/three-around-a-flame.webp",
               "thumbnail": "/assets/art/three-around-a-flame-thumb.webp",
-              "alt": "Three veiled figures in teal, dark blue and lavender gather around a flame in a luminous forest.",
+              "alt": "Three veiled figures gather around a small fire; two look at glowing phones while the middle figure holds their head.",
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1254,
               "height": 1254,
-              "description": "Three figures, one small fire. Being together can look so simple from a distance."
+              "description": "The Holy Trinity in crisis: together around the fire, elsewhere on our phones. Can we find our way back to one another?"
             }
           ],
           "paragraphs": [],
           "role": "Created and curated by Petre Laskov in collaboration with AI.",
-          "description": "Christ sits beside the one we might least expect. Mercy has awkward seating arrangements."
+          "description": "Mercy for the one we would rather leave out. Including, perhaps, a part of ourselves."
         },
         {
           "slug": "light-and-detours",
           "title": "Light, dreams & other detours",
-          "summary": "Lotuses, borrowed sunlight, impossible tenderness. The imagination occasionally takes the scenic route.",
+          "summary": "Compassion taking a visible form, beauty we cannot keep, and a forest enjoying itself.",
           "kind": "AI-assisted visual art",
           "image": "/assets/art/lotus-at-dusk.webp",
           "thumbnail": "/assets/art/lotus-at-dusk-thumb.webp",
@@ -259,7 +259,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1198,
               "height": 1313,
-              "description": "An invitation from the edge of the lake. No grand explanation; just a hand reaching out."
+              "description": "A hand offered without asking you to be different first. There is a place for you in this kindness."
             },
             {
               "slug": "a-little-light",
@@ -270,7 +270,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1122,
               "height": 1402,
-              "description": "A figure almost dissolving into flowers and sunlight. Softness has its own way of filling a frame."
+              "description": "A glimpse of gentleness, almost too bright to hold. Perhaps we can let it touch us without trying to keep it."
             },
             {
               "slug": "the-whole-world-for-a-moment",
@@ -281,7 +281,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1089,
               "height": 1445,
-              "description": "An embrace, with the edges left soft. Everything else can wait a moment."
+              "description": "Being close to someone in their pain, without needing it to end on our timetable. Sometimes care is this quiet."
             },
             {
               "slug": "the-forest-got-carried-away",
@@ -292,7 +292,7 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1856,
               "height": 2464,
-              "description": "The forest was given a little sunlight and decided to make an occasion of it."
+              "description": "Deep in the glowing heart. The forest gets a little extravagant; I am happy to let it."
             },
             {
               "slug": "after-the-noise",
@@ -303,17 +303,17 @@
               "credit": "Petre Laskov · AI-assisted image",
               "width": 1536,
               "height": 1024,
-              "description": "A weathered figure, an enormous hand, water among the ruins. The scale is strange; the tiredness feels familiar."
+              "description": "An enormous hand, worn down among the ruins. I keep coming back to how much strength can need care."
             }
           ],
           "paragraphs": [],
           "role": "Created and curated by Petre Laskov in collaboration with AI.",
-          "description": "White Tara among the lotuses: a gentle presence, with the whole evening around her."
+          "description": "White Tara: practising a tenderness that leaves no part of us outside. May it become something we can offer to others."
         },
         {
           "slug": "earlier-wanderings",
           "title": "Earlier wanderings",
-          "summary": "Forest visitors, botanical excess and a tea ceremony with questionable gravity. Work from 2025 and 2026.",
+          "summary": "Earlier visits to the shared imagination: quiet presences, improbable forests, and tea with unusual company.",
           "kind": "AI-assisted visual art",
           "image": "/assets/art/wu-wei-tea-ceremony.webp",
           "thumbnail": "/assets/art/wu-wei-tea-ceremony-thumb.webp",
@@ -333,7 +333,7 @@
               "credit": "Luminous, 2025 · Midjourney v7",
               "width": 2000,
               "height": 2000,
-              "description": "A small warmth in a large darkness. Enough to sit with for a while."
+              "description": "A little warmth in the dark. Something to sit with, without needing much to happen."
             },
             {
               "slug": "holy-trinity-reimagined",
@@ -344,7 +344,7 @@
               "credit": "Holy Trinity Reimagined, 2025 · Midjourney v7",
               "width": 2000,
               "height": 2000,
-              "description": "An old sacred composition wanders into the forest. The three remain gathered around a shared warmth."
+              "description": "Three gathered around a shared fire. An image of communion: keeping a little warmth alive between us."
             },
             {
               "slug": "take-it-easy",
@@ -355,7 +355,7 @@
               "credit": "Take it easy dude, but take it, 2025 · Midjourney v7",
               "width": 2000,
               "height": 1121,
-              "description": "A clearing, a place to sit, and no obvious reason to hurry. The title still asks us to show up."
+              "description": "Take it easy, but take it. There is room to relax and still care about what we are doing here."
             },
             {
               "slug": "the-primacy-of-being",
@@ -366,7 +366,7 @@
               "credit": "The primacy of being, 2025 · Midjourney v7",
               "width": 791,
               "height": 1187,
-              "description": "A figure in the mist, simply there. The forest seems happy with that."
+              "description": "Let the shadows settle in their own time. For a moment, being here is enough."
             },
             {
               "slug": "strangefield",
@@ -377,7 +377,7 @@
               "credit": "Strangefield, 2025 · Midjourney v7",
               "width": 2000,
               "height": 1121,
-              "description": "A landscape that nearly remembers the real world, then happily loses the thread."
+              "description": "Somewhere in our shared imagination, this place was waiting. I would happily get a little lost here."
             },
             {
               "slug": "bloom",
@@ -388,7 +388,7 @@
               "credit": "Bloom, 2025 · Midjourney v7",
               "width": 665,
               "height": 1187,
-              "description": "The flowers have outgrown the garden and possibly the gardener. A good day to be small."
+              "description": "The flowers have become rather large. A small person can still feel quite at home among them."
             },
             {
               "slug": "untitled",
@@ -399,12 +399,12 @@
               "credit": "Untitled, 2025 · Midjourney v7",
               "width": 665,
               "height": 1187,
-              "description": "Purple, flowers, and a place that has not settled on an address. The title can wait too."
+              "description": "A colourful little detour through the imagination. I have not found a name for it, and that seems fine."
             }
           ],
           "paragraphs": [],
           "role": "Created and curated by Petre Laskov in collaboration with AI.",
-          "description": "Tea in the forest, with curious company and a teapot relieved of its usual duties. Everyone seems to be managing."
+          "description": "A mystical tea ritual with what I hope are friendly creatures. The imagination has some very unusual hospitality."
         }
       ],
       "gallery": true

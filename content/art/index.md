@@ -15,7 +15,7 @@ enableToc: false
 cssclasses: [art-gallery]
 ---
 
-Images made with AI, curiosity and a fair amount of wandering. Some are quiet, some are a little strange; most seem to be looking for tenderness, light, or somewhere good to sit.
+Images made with AI, curiosity and care. Kindness, loss, the sacred in ordinary life—and a few strange places I was happy to find along the way.
 
 Created and curated by Petre Laskov in collaboration with AI.
 
@@ -23,13 +23,13 @@ Created and curated by Petre Laskov in collaboration with AI.
 
 ## Small acts, whole worlds
 
-A cup of tea, a hand held, a door left open. The grand themes keep turning up in very small gestures.
+Tea, music, a hand held, the people who keep us going. Small gestures can carry a great deal.
 
 ### Love in a small cup
 
 ![A close view of hands offering a warm cup over bread at a worn wooden table.](assets/love-in-a-small-cup.webp)
 
-Some days, love looks like making someone a cup of tea and remembering the bread.
+We all need a little care. A warm cup, something to eat, someone who is glad we came.
 
 _Petre Laskov · AI-assisted image_
 
@@ -37,7 +37,7 @@ _Petre Laskov · AI-assisted image_
 
 ![A woman offers a cup to a bearded man at a sunlit table, with a child nearby.](assets/something-warm.webp)
 
-A sacred visit at an ordinary table. Someone still has to put the kettle on.
+Kindness for the disturbed spirits too. There is room at this table before anyone has sorted themselves out.
 
 _Petre Laskov · AI-assisted image_
 
@@ -45,7 +45,7 @@ _Petre Laskov · AI-assisted image_
 
 ![A seated woman holds the hand of an older person resting beneath a blue quilt.](assets/staying.webp)
 
-There may be very little to say. A hand can stay.
+A bedside moment, after Yi Yi (2000). Staying close when there is nothing you can say to make it all right.
 
 _Petre Laskov · AI-assisted image_
 
@@ -53,7 +53,7 @@ _Petre Laskov · AI-assisted image_
 
 ![An older woman sews beside a bright window in a quiet room.](assets/a-stitch-in-the-afternoon.webp)
 
-Light at the window, a little mending. An afternoon allowed to take its time.
+What remains after someone is gone? The room, the familiar gestures, another afternoon to get through.
 
 _Petre Laskov · AI-assisted image_
 
@@ -61,7 +61,7 @@ _Petre Laskov · AI-assisted image_
 
 ![A child plays on a tiled floor beside an open doorway leading into sunlight.](assets/the-door-is-open.webp)
 
-The room is small; the world outside is enormous. For now, the floor has plenty to offer.
+A child at play, an open door, someone nearby. So much of a life begins in the care we barely notice.
 
 _Petre Laskov · AI-assisted image_
 
@@ -69,7 +69,7 @@ _Petre Laskov · AI-assisted image_
 
 ![A person plays an upright piano in a spare room filled with soft afternoon light.](assets/one-more-note.webp)
 
-An ordinary room with enough space for music. You can almost hear the pause between notes.
+A small tribute to Nils Frahm. A few notes, some space between them, and permission to listen.
 
 _Petre Laskov · AI-assisted image_
 
@@ -77,7 +77,7 @@ _Petre Laskov · AI-assisted image_
 
 ![A fallen apple rests among autumn leaves on a sunlit woodland path.](assets/the-apple-stays.webp)
 
-An apple among fallen leaves, quietly joining the season. Even the beautiful things get to change.
+Even this will go. A little autumn contemplation, prompted by Ken McLeod's reflections on impermanence.
 
 _Petre Laskov · AI-assisted image_
 
@@ -85,19 +85,19 @@ _Petre Laskov · AI-assisted image_
 
 ![A small child in red kneels beside flowers, incense and a gold-lit household shrine.](assets/a-small-bow.webp)
 
-Flowers, incense, a small red figure. Reverence begins quite close to the ground.
+A small bow, offered with the whole body. May whatever goodness grows here find its way to someone else.
 
 _Petre Laskov · AI-assisted image_
 
 ## Mercy & unlikely company
 
-A little less judgement, a little more room at the table. Familiar sacred images, with a few unexpected guests.
+Warmth for the vulnerable, mercy for the difficult. The sacred has room for our ordinary human lives.
 
 ### Even you
 
 ![A robed figure sits with a dark-winged companion on steps overlooking a quiet landscape.](assets/even-you.webp)
 
-Christ sits beside the one we might least expect. Mercy has awkward seating arrangements.
+Mercy for the one we would rather leave out. Including, perhaps, a part of ourselves.
 
 _Petre Laskov · AI-assisted image_
 
@@ -105,7 +105,7 @@ _Petre Laskov · AI-assisted image_
 
 ![A white-robed figure offers a hand to a seated dark-winged figure on stone steps.](assets/no-need-to-hide.webp)
 
-An open hand on the steps. There is room here for the parts of us we would rather keep out of sight.
+Bring the shame, the fear, the bits that have not improved. There is still a hand reaching toward you.
 
 _Petre Laskov · AI-assisted image_
 
@@ -113,7 +113,7 @@ _Petre Laskov · AI-assisted image_
 
 ![A dark-winged figure sitting beside a robed figure who extends an open hand.](assets/a-place-beside-you.webp)
 
-Two figures pause together, with no battle to settle. A strange, gentle possibility.
+Sit with the troubled one for a while. We can offer company before we know how to help.
 
 _Petre Laskov · AI-assisted image_
 
@@ -121,7 +121,7 @@ _Petre Laskov · AI-assisted image_
 
 ![An icon-like painting of two adults and a child resting close together against gold.](assets/close-enough.webp)
 
-Gold leaf, halos, and the familiar business of leaning on someone you love.
+The sacred can bear the weight of a child and our need for warmth. We do not have to become less human to come close.
 
 _Petre Laskov · AI-assisted image_
 
@@ -129,35 +129,35 @@ _Petre Laskov · AI-assisted image_
 
 ![An icon-like family embrace, with a child nestled between two haloed adults.](assets/held.webp)
 
-A family embrace in the language of an icon. The warmth is very much of this world.
+The living God, here in an embrace. Affection, need and sorrow belong within the sacred too.
 
 _Petre Laskov · AI-assisted image_
 
 ### Room at the table
 
-![An improbable company of people and creatures shares a long outdoor table at dusk.](assets/room-at-the-table.webp)
+![People share supper at a long outdoor table beside a church overlooking Ohrid at dusk.](assets/room-at-the-table.webp)
 
-An improbable supper, with company from several corners of the imagination. Pull up another chair.
+Communion in Christ, over supper in Ohrid. Bread, friends, evening light. Pass something good along.
 
 _Petre Laskov · AI-assisted image_
 
 ### Three around a flame
 
-![Three veiled figures in teal, dark blue and lavender gather around a flame in a luminous forest.](assets/three-around-a-flame.webp)
+![Three veiled figures gather around a small fire; two look at glowing phones while the middle figure holds their head.](assets/three-around-a-flame.webp)
 
-Three figures, one small fire. Being together can look so simple from a distance.
+The Holy Trinity in crisis: together around the fire, elsewhere on our phones. Can we find our way back to one another?
 
 _Petre Laskov · AI-assisted image_
 
 ## Light, dreams & other detours
 
-Lotuses, borrowed sunlight, impossible tenderness. The imagination occasionally takes the scenic route.
+Compassion taking a visible form, beauty we cannot keep, and a forest enjoying itself.
 
 ### Lotus at dusk
 
 ![A luminous woman in white seated among lotus flowers by a lake at sunset.](assets/lotus-at-dusk.webp)
 
-White Tara among the lotuses: a gentle presence, with the whole evening around her.
+White Tara: practising a tenderness that leaves no part of us outside. May it become something we can offer to others.
 
 _Petre Laskov · AI-assisted image_
 
@@ -165,7 +165,7 @@ _Petre Laskov · AI-assisted image_
 
 ![A woman beside a lake reaches towards the viewer, with mountains and sunset behind her.](assets/here-take-my-hand.webp)
 
-An invitation from the edge of the lake. No grand explanation; just a hand reaching out.
+A hand offered without asking you to be different first. There is a place for you in this kindness.
 
 _Petre Laskov · AI-assisted image_
 
@@ -173,7 +173,7 @@ _Petre Laskov · AI-assisted image_
 
 ![A woman in white emerges through soft golden light, flowers and pale painterly colour.](assets/a-little-light.webp)
 
-A figure almost dissolving into flowers and sunlight. Softness has its own way of filling a frame.
+A glimpse of gentleness, almost too bright to hold. Perhaps we can let it touch us without trying to keep it.
 
 _Petre Laskov · AI-assisted image_
 
@@ -181,7 +181,7 @@ _Petre Laskov · AI-assisted image_
 
 ![A softly painted adult and child embrace amid warm pink, gold and violet brushwork.](assets/the-whole-world-for-a-moment.webp)
 
-An embrace, with the edges left soft. Everything else can wait a moment.
+Being close to someone in their pain, without needing it to end on our timetable. Sometimes care is this quiet.
 
 _Petre Laskov · AI-assisted image_
 
@@ -189,7 +189,7 @@ _Petre Laskov · AI-assisted image_
 
 ![Golden sunbeams fall through a lush forest onto a bright carpet of flowers.](assets/the-forest-got-carried-away.webp)
 
-The forest was given a little sunlight and decided to make an occasion of it.
+Deep in the glowing heart. The forest gets a little extravagant; I am happy to let it.
 
 _Petre Laskov · AI-assisted image_
 
@@ -197,19 +197,19 @@ _Petre Laskov · AI-assisted image_
 
 ![An enormous mechanical hand and weathered figure resting in water beside a ruined city.](assets/after-the-noise.webp)
 
-A weathered figure, an enormous hand, water among the ruins. The scale is strange; the tiredness feels familiar.
+An enormous hand, worn down among the ruins. I keep coming back to how much strength can need care.
 
 _Petre Laskov · AI-assisted image_
 
 ## Earlier wanderings
 
-Forest visitors, botanical excess and a tea ceremony with questionable gravity. Work from 2025 and 2026.
+Earlier visits to the shared imagination: quiet presences, improbable forests, and tea with unusual company.
 
 ### 无为茶会
 
 ![A flowing robed figure holds a teacup below a floating teapot, surrounded by luminous winged creatures in a lush forest.](assets/wu-wei-tea-ceremony.webp)
 
-Tea in the forest, with curious company and a teapot relieved of its usual duties. Everyone seems to be managing.
+A mystical tea ritual with what I hope are friendly creatures. The imagination has some very unusual hospitality.
 
 _无为茶会 — 2026 (Claude + Midjourney + GPT + GPT Image 2.5)_
 
@@ -217,7 +217,7 @@ _无为茶会 — 2026 (Claude + Midjourney + GPT + GPT Image 2.5)_
 
 ![A solitary seated figure glows warmly in a dark painterly space.](assets/luminous.webp)
 
-A small warmth in a large darkness. Enough to sit with for a while.
+A little warmth in the dark. Something to sit with, without needing much to happen.
 
 _Luminous, 2025 · Midjourney v7_
 
@@ -225,7 +225,7 @@ _Luminous, 2025 · Midjourney v7_
 
 ![Three veiled figures gather around a radiant fire in a dark sacred setting.](assets/holy-trinity-reimagined.webp)
 
-An old sacred composition wanders into the forest. The three remain gathered around a shared warmth.
+Three gathered around a shared fire. An image of communion: keeping a little warmth alive between us.
 
 _Holy Trinity Reimagined, 2025 · Midjourney v7_
 
@@ -233,7 +233,7 @@ _Holy Trinity Reimagined, 2025 · Midjourney v7_
 
 ![A seated figure rests in a luminous forest clearing framed by towering trees.](assets/take-it-easy.webp)
 
-A clearing, a place to sit, and no obvious reason to hurry. The title still asks us to show up.
+Take it easy, but take it. There is room to relax and still care about what we are doing here.
 
 _Take it easy dude, but take it, 2025 · Midjourney v7_
 
@@ -241,7 +241,7 @@ _Take it easy dude, but take it, 2025 · Midjourney v7_
 
 ![A white-robed figure stands in a moonlit, mist-filled forest.](assets/the-primacy-of-being.webp)
 
-A figure in the mist, simply there. The forest seems happy with that.
+Let the shadows settle in their own time. For a moment, being here is enough.
 
 _The primacy of being, 2025 · Midjourney v7_
 
@@ -249,7 +249,7 @@ _The primacy of being, 2025 · Midjourney v7_
 
 ![A pastel surreal landscape of rolling fields beneath an expansive sky.](assets/strangefield.webp)
 
-A landscape that nearly remembers the real world, then happily loses the thread.
+Somewhere in our shared imagination, this place was waiting. I would happily get a little lost here.
 
 _Strangefield, 2025 · Midjourney v7_
 
@@ -257,7 +257,7 @@ _Strangefield, 2025 · Midjourney v7_
 
 ![A kimono-clad figure stands among monumental red spider lilies.](assets/bloom.webp)
 
-The flowers have outgrown the garden and possibly the gardener. A good day to be small.
+The flowers have become rather large. A small person can still feel quite at home among them.
 
 _Bloom, 2025 · Midjourney v7_
 
@@ -265,7 +265,7 @@ _Bloom, 2025 · Midjourney v7_
 
 ![A figure in purple stands within a neon floral dreamscape.](assets/untitled.webp)
 
-Purple, flowers, and a place that has not settled on an address. The title can wait too.
+A colourful little detour through the imagination. I have not found a name for it, and that seems fine.
 
 _Untitled, 2025 · Midjourney v7_
 
