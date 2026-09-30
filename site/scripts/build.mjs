@@ -32,7 +32,14 @@ routes.push(route);
 }
 function head(area){return '<div class="page-head"><div class="eyebrow">'+area.number+' / '+esc(data.name)+'</div><h1>'+esc(area.label)+'</h1><p>'+esc(area.description)+'</p></div>'}
 function paragraphs(items=[]){return items.map(p=>'<p>'+esc(p)+'</p>').join('')}
-function image(item){return item.image?'<figure class="artwork"><a href="'+asset(item.image)+'" aria-label="View full image: '+esc(item.title)+'"><img src="'+asset(item.image)+'" alt="'+esc(item.alt)+'" loading="lazy"></a>'+(item.credit?'<figcaption>'+esc(item.credit)+'</figcaption>':'')+'</figure>':''}
+function image(item){return item.image?'<figure class="artwork"'+((item.artId||item.slug)?' id="'+esc(item.artId||item.slug)+'"':'')+'><a href="'+asset(item.image)+'" aria-label="View full image: '+esc(item.displayTitle||item.title)+'"><img src="'+asset(item.image)+'" alt="'+esc(item.alt)+'" loading="lazy"'+(item.width?' width="'+Number(item.width)+'" height="'+Number(item.height)+'"':'')+'></a><figcaption><strong>'+esc(item.displayTitle||item.title)+'</strong>'+(item.description?'<span class="art-description">'+esc(item.description)+'</span>':'')+(item.credit?'<span>'+esc(item.credit)+'</span>':'')+'</figcaption></figure>':''}
+function gallery(area){
+ const menu='<nav class="gallery-nav" aria-label="Art collections">'+area.items.map(i=>'<a href="#'+i.slug+'">'+esc(i.title)+'</a>').join('')+'</nav>';
+ return menu+area.items.map(item=>{
+  const pics=[{...item,title:item.displayTitle,slug:item.artId},...(item.images||[])];
+  return '<section class="gallery-section" id="'+item.slug+'"><div class="collection-heading"><h2><a href="/art/'+item.slug+'/">'+esc(item.title)+'</a></h2><p>'+esc(item.summary)+'</p></div><div class="gallery-grid">'+pics.map(pic=>'<figure><a href="/art/'+item.slug+'/#'+pic.slug+'" aria-label="Open '+esc(pic.title)+'"><img src="'+asset(pic.thumbnail||pic.image)+'" alt="'+esc(pic.alt)+'" loading="lazy" width="'+Number(pic.width)+'" height="'+Number(pic.height)+'"></a><figcaption><strong>'+esc(pic.title)+'</strong>'+(pic.description?'<span>'+esc(pic.description)+'</span>':'')+'</figcaption></figure>').join('')+'</div></section>';
+ }).join('')+'<p class="gallery-credit">Created and curated by Petre Laskov in collaboration with AI. Open a collection to linger; click an image there for the full-size view.</p>';
+}
 const seen=new Set();
 for(const area of data.areas){for(const item of area.items){
  if(!item.title||!item.summary||!item.slug||!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.slug))throw Error('Each item needs title, summary, and a lowercase hyphenated slug');
@@ -53,7 +60,8 @@ fs.cpSync(path.join(root,'public'),out,{recursive:true});
 page('/',data.name,data.description,'<section class="hero"><div class="eyebrow">A personal home</div><h1>'+esc(data.home.title).replace('imagination.','<em>imagination.</em>')+'</h1><p class="intro">'+esc(data.home.intro)+'</p></section><section class="home-layout" aria-labelledby="explore"><h2 class="eyebrow section-caption" id="explore">Explore</h2><div>'+navItems.map(a=>'<a class="area-link" href="/'+a.slug+'/"><span class="area-number" aria-hidden="true">'+a.number+'</span><div><h2>'+esc(a.label)+'</h2><p>'+esc(a.description)+'</p></div><span class="area-arrow" aria-hidden="true">↗</span></a>').join('')+'</div></section>');
 for(const area of data.areas){
  const list=area.items.map(item=>'<article class="work">'+(item.image?'<a href="'+(item.url?safeUrl(item.url):'/'+area.slug+'/'+item.slug+'/')+'"><img src="'+asset(item.image)+'" alt="'+esc(item.alt)+'" loading="lazy"></a>':'')+'<div class="meta">'+esc(item.kind||'')+(item.date?' · <time datetime="'+esc(item.date)+'">'+esc(item.date)+'</time>':'')+'</div><h2><a href="'+(item.url?safeUrl(item.url):'/'+area.slug+'/'+item.slug+'/')+'">'+esc(item.title)+'</a></h2><p>'+esc(item.summary)+'</p>'+(item.url?'<span class="meta">Read on '+esc(new URL(item.url).hostname.replace(/^www\./,''))+'</span>':'')+'</article>').join('');
- page('/'+area.slug+'/',area.label+' — '+data.name,area.description,head(area)+'<section class="section-body"><h2 class="eyebrow section-caption">'+(area.slug==='art'?'Collections':'Selected work')+'</h2><div class="work-list">'+(list||'<div class="empty"><div class="empty-rule" aria-hidden="true"></div><h2>Room for what’s to come.</h2><p>'+esc(area.empty)+'</p></div>')+'</div></section>',area.slug);
+ if(area.gallery)page('/'+area.slug+'/',area.label+' — '+data.name,area.description,head(area)+gallery(area),area.slug);
+ else page('/'+area.slug+'/',area.label+' — '+data.name,area.description,head(area)+'<section class="section-body"><h2 class="eyebrow section-caption">'+(area.slug==='art'?'Collections':'Selected work')+'</h2><div class="work-list">'+(list||'<div class="empty"><div class="empty-rule" aria-hidden="true"></div><h2>Room for what’s to come.</h2><p>'+esc(area.empty)+'</p></div>')+'</div></section>',area.slug);
  for(const item of area.items){if(item.url)continue;
  const route='/'+area.slug+'/'+item.slug+'/';
  const intro='<div class="page-head"><a class="back" href="/'+area.slug+'/">'+esc(area.label)+'</a><h1>'+esc(item.title)+'</h1><p>'+esc(item.summary)+'</p></div>';
@@ -61,7 +69,7 @@ for(const area of data.areas){
  const sections=(item.sections||[]).map(s=>'<section><h2>'+esc(s.heading)+'</h2>'+paragraphs(s.paragraphs)+'</section>').join('');
  const resources=item.links?.length?'<section class="related"><h2>'+esc(item.linksTitle||'Resources')+'</h2><ul>'+item.links.map(link=>'<li><a href="'+resourceUrl(link.url)+'">'+esc(link.label)+'</a>'+(link.summary?'<p>'+esc(link.summary)+'</p>':'')+'</li>').join('')+'</ul></section>':'';
  const sources=item.sources?.length?'<section class="related"><h2>Sources</h2><ul>'+item.sources.map(s=>'<li><a href="'+safeUrl(s.url)+'">'+esc(s.label)+'</a>'+(s.note?' — '+esc(s.note):'')+'</li>').join('')+'</ul></section>':'';
- page(route,item.title+' — '+data.name,item.summary,intro+image(item)+(item.images||[]).map(pic=>image({...pic,title:item.title})).join('')+'<div class="article-layout"><aside class="meta" aria-label="Publication details">'+meta+'</aside><article class="prose">'+paragraphs(item.paragraphs)+sections+resources+sources+'</article></div>',area.slug);
+ page(route,item.title+' — '+data.name,item.summary,intro+image(item)+(item.images||[]).map(pic=>image({...pic,title:pic.title||item.title})).join('')+'<div class="article-layout"><aside class="meta" aria-label="Publication details">'+meta+'</aside><article class="prose">'+paragraphs(item.paragraphs)+sections+resources+sources+'</article></div>',area.slug);
  }
 }
 const about=navItems.at(-1);

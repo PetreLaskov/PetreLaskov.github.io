@@ -52,9 +52,362 @@
       "slug": "art",
       "label": "Art",
       "number": "03",
-      "description": "Selected images, collections, and visual experiments.",
+      "description": "Images made with AI, curiosity and a fair amount of wandering. Some are quiet, some are a little strange; most seem to be looking for tenderness, light, or somewhere good to sit.",
       "empty": "Selected work and collections will appear here.",
-      "items": []
+      "items": [
+        {
+          "slug": "small-acts",
+          "title": "Small acts, whole worlds",
+          "summary": "A cup of tea, a hand held, a door left open. The grand themes keep turning up in very small gestures.",
+          "kind": "AI-assisted visual art",
+          "image": "/assets/art/love-in-a-small-cup.webp",
+          "thumbnail": "/assets/art/love-in-a-small-cup-thumb.webp",
+          "alt": "A close view of hands offering a warm cup over bread at a worn wooden table.",
+          "credit": "Petre Laskov · AI-assisted image",
+          "displayTitle": "Love in a small cup",
+          "artId": "love-in-a-small-cup",
+          "width": 1122,
+          "height": 1402,
+          "images": [
+            {
+              "slug": "something-warm",
+              "title": "Something warm",
+              "image": "/assets/art/something-warm.webp",
+              "thumbnail": "/assets/art/something-warm-thumb.webp",
+              "alt": "A woman offers a cup to a bearded man at a sunlit table, with a child nearby.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1024,
+              "height": 1536,
+              "description": "A sacred visit at an ordinary table. Someone still has to put the kettle on."
+            },
+            {
+              "slug": "staying",
+              "title": "Staying",
+              "image": "/assets/art/staying.webp",
+              "thumbnail": "/assets/art/staying-thumb.webp",
+              "alt": "A seated woman holds the hand of an older person resting beneath a blue quilt.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1536,
+              "height": 1024,
+              "description": "There may be very little to say. A hand can stay."
+            },
+            {
+              "slug": "a-stitch-in-the-afternoon",
+              "title": "A stitch in the afternoon",
+              "image": "/assets/art/a-stitch-in-the-afternoon.webp",
+              "thumbnail": "/assets/art/a-stitch-in-the-afternoon-thumb.webp",
+              "alt": "An older woman sews beside a bright window in a quiet room.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1448,
+              "height": 1086,
+              "description": "Light at the window, a little mending. An afternoon allowed to take its time."
+            },
+            {
+              "slug": "the-door-is-open",
+              "title": "The door is open",
+              "image": "/assets/art/the-door-is-open.webp",
+              "thumbnail": "/assets/art/the-door-is-open-thumb.webp",
+              "alt": "A child plays on a tiled floor beside an open doorway leading into sunlight.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1122,
+              "height": 1402,
+              "description": "The room is small; the world outside is enormous. For now, the floor has plenty to offer."
+            },
+            {
+              "slug": "one-more-note",
+              "title": "One more note",
+              "image": "/assets/art/one-more-note.webp",
+              "thumbnail": "/assets/art/one-more-note-thumb.webp",
+              "alt": "A person plays an upright piano in a spare room filled with soft afternoon light.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1536,
+              "height": 1024,
+              "description": "An ordinary room with enough space for music. You can almost hear the pause between notes."
+            },
+            {
+              "slug": "the-apple-stays",
+              "title": "The apple stays",
+              "image": "/assets/art/the-apple-stays.webp",
+              "thumbnail": "/assets/art/the-apple-stays-thumb.webp",
+              "alt": "A fallen apple rests among autumn leaves on a sunlit woodland path.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1536,
+              "height": 1024,
+              "description": "An apple among fallen leaves, quietly joining the season. Even the beautiful things get to change."
+            },
+            {
+              "slug": "a-small-bow",
+              "title": "A small bow",
+              "image": "/assets/art/a-small-bow.webp",
+              "thumbnail": "/assets/art/a-small-bow-thumb.webp",
+              "alt": "A small child in red kneels beside flowers, incense and a gold-lit household shrine.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1445,
+              "height": 1089,
+              "description": "Flowers, incense, a small red figure. Reverence begins quite close to the ground."
+            }
+          ],
+          "paragraphs": [],
+          "role": "Created and curated by Petre Laskov in collaboration with AI.",
+          "description": "Some days, love looks like making someone a cup of tea and remembering the bread."
+        },
+        {
+          "slug": "unlikely-company",
+          "title": "Mercy & unlikely company",
+          "summary": "A little less judgement, a little more room at the table. Familiar sacred images, with a few unexpected guests.",
+          "kind": "AI-assisted visual art",
+          "image": "/assets/art/even-you.webp",
+          "thumbnail": "/assets/art/even-you-thumb.webp",
+          "alt": "A robed figure sits with a dark-winged companion on steps overlooking a quiet landscape.",
+          "credit": "Petre Laskov · AI-assisted image",
+          "displayTitle": "Even you",
+          "artId": "even-you",
+          "width": 1024,
+          "height": 1536,
+          "images": [
+            {
+              "slug": "no-need-to-hide",
+              "title": "No need to hide",
+              "image": "/assets/art/no-need-to-hide.webp",
+              "thumbnail": "/assets/art/no-need-to-hide-thumb.webp",
+              "alt": "A white-robed figure offers a hand to a seated dark-winged figure on stone steps.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1024,
+              "height": 1536,
+              "description": "An open hand on the steps. There is room here for the parts of us we would rather keep out of sight."
+            },
+            {
+              "slug": "a-place-beside-you",
+              "title": "A place beside you",
+              "image": "/assets/art/a-place-beside-you.webp",
+              "thumbnail": "/assets/art/a-place-beside-you-thumb.webp",
+              "alt": "A dark-winged figure sitting beside a robed figure who extends an open hand.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1448,
+              "height": 1086,
+              "description": "Two figures pause together, with no battle to settle. A strange, gentle possibility."
+            },
+            {
+              "slug": "close-enough",
+              "title": "Close enough",
+              "image": "/assets/art/close-enough.webp",
+              "thumbnail": "/assets/art/close-enough-thumb.webp",
+              "alt": "An icon-like painting of two adults and a child resting close together against gold.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1254,
+              "height": 1254,
+              "description": "Gold leaf, halos, and the familiar business of leaning on someone you love."
+            },
+            {
+              "slug": "held",
+              "title": "Held",
+              "image": "/assets/art/held.webp",
+              "thumbnail": "/assets/art/held-thumb.webp",
+              "alt": "An icon-like family embrace, with a child nestled between two haloed adults.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1189,
+              "height": 1323,
+              "description": "A family embrace in the language of an icon. The warmth is very much of this world."
+            },
+            {
+              "slug": "room-at-the-table",
+              "title": "Room at the table",
+              "image": "/assets/art/room-at-the-table.webp",
+              "thumbnail": "/assets/art/room-at-the-table-thumb.webp",
+              "alt": "An improbable company of people and creatures shares a long outdoor table at dusk.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1774,
+              "height": 887,
+              "description": "An improbable supper, with company from several corners of the imagination. Pull up another chair."
+            },
+            {
+              "slug": "three-around-a-flame",
+              "title": "Three around a flame",
+              "image": "/assets/art/three-around-a-flame.webp",
+              "thumbnail": "/assets/art/three-around-a-flame-thumb.webp",
+              "alt": "Three veiled figures in teal, dark blue and lavender gather around a flame in a luminous forest.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1254,
+              "height": 1254,
+              "description": "Three figures, one small fire. Being together can look so simple from a distance."
+            }
+          ],
+          "paragraphs": [],
+          "role": "Created and curated by Petre Laskov in collaboration with AI.",
+          "description": "Christ sits beside the one we might least expect. Mercy has awkward seating arrangements."
+        },
+        {
+          "slug": "light-and-detours",
+          "title": "Light, dreams & other detours",
+          "summary": "Lotuses, borrowed sunlight, impossible tenderness. The imagination occasionally takes the scenic route.",
+          "kind": "AI-assisted visual art",
+          "image": "/assets/art/lotus-at-dusk.webp",
+          "thumbnail": "/assets/art/lotus-at-dusk-thumb.webp",
+          "alt": "A luminous woman in white seated among lotus flowers by a lake at sunset.",
+          "credit": "Petre Laskov · AI-assisted image",
+          "displayTitle": "Lotus at dusk",
+          "artId": "lotus-at-dusk",
+          "width": 1122,
+          "height": 1402,
+          "images": [
+            {
+              "slug": "here-take-my-hand",
+              "title": "Here, take my hand",
+              "image": "/assets/art/here-take-my-hand.webp",
+              "thumbnail": "/assets/art/here-take-my-hand-thumb.webp",
+              "alt": "A woman beside a lake reaches towards the viewer, with mountains and sunset behind her.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1198,
+              "height": 1313,
+              "description": "An invitation from the edge of the lake. No grand explanation; just a hand reaching out."
+            },
+            {
+              "slug": "a-little-light",
+              "title": "A little light",
+              "image": "/assets/art/a-little-light.webp",
+              "thumbnail": "/assets/art/a-little-light-thumb.webp",
+              "alt": "A woman in white emerges through soft golden light, flowers and pale painterly colour.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1122,
+              "height": 1402,
+              "description": "A figure almost dissolving into flowers and sunlight. Softness has its own way of filling a frame."
+            },
+            {
+              "slug": "the-whole-world-for-a-moment",
+              "title": "The whole world, for a moment",
+              "image": "/assets/art/the-whole-world-for-a-moment.webp",
+              "thumbnail": "/assets/art/the-whole-world-for-a-moment-thumb.webp",
+              "alt": "A softly painted adult and child embrace amid warm pink, gold and violet brushwork.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1089,
+              "height": 1445,
+              "description": "An embrace, with the edges left soft. Everything else can wait a moment."
+            },
+            {
+              "slug": "the-forest-got-carried-away",
+              "title": "The forest got carried away",
+              "image": "/assets/art/the-forest-got-carried-away.webp",
+              "thumbnail": "/assets/art/the-forest-got-carried-away-thumb.webp",
+              "alt": "Golden sunbeams fall through a lush forest onto a bright carpet of flowers.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1856,
+              "height": 2464,
+              "description": "The forest was given a little sunlight and decided to make an occasion of it."
+            },
+            {
+              "slug": "after-the-noise",
+              "title": "After the noise",
+              "image": "/assets/art/after-the-noise.webp",
+              "thumbnail": "/assets/art/after-the-noise-thumb.webp",
+              "alt": "An enormous mechanical hand and weathered figure resting in water beside a ruined city.",
+              "credit": "Petre Laskov · AI-assisted image",
+              "width": 1536,
+              "height": 1024,
+              "description": "A weathered figure, an enormous hand, water among the ruins. The scale is strange; the tiredness feels familiar."
+            }
+          ],
+          "paragraphs": [],
+          "role": "Created and curated by Petre Laskov in collaboration with AI.",
+          "description": "White Tara among the lotuses: a gentle presence, with the whole evening around her."
+        },
+        {
+          "slug": "earlier-wanderings",
+          "title": "Earlier wanderings",
+          "summary": "Forest visitors, botanical excess and a tea ceremony with questionable gravity. Work from 2025 and 2026.",
+          "kind": "AI-assisted visual art",
+          "image": "/assets/art/wu-wei-tea-ceremony.webp",
+          "thumbnail": "/assets/art/wu-wei-tea-ceremony-thumb.webp",
+          "alt": "A flowing robed figure holds a teacup below a floating teapot, surrounded by luminous winged creatures in a lush forest.",
+          "credit": "无为茶会 — 2026 (Claude + Midjourney + GPT + GPT Image 2.5)",
+          "displayTitle": "无为茶会",
+          "artId": "wu-wei-tea-ceremony",
+          "width": 1024,
+          "height": 1536,
+          "images": [
+            {
+              "slug": "luminous",
+              "title": "Luminous",
+              "image": "/assets/art/luminous.webp",
+              "thumbnail": "/assets/art/luminous-thumb.webp",
+              "alt": "A solitary seated figure glows warmly in a dark painterly space.",
+              "credit": "Luminous, 2025 · Midjourney v7",
+              "width": 2000,
+              "height": 2000,
+              "description": "A small warmth in a large darkness. Enough to sit with for a while."
+            },
+            {
+              "slug": "holy-trinity-reimagined",
+              "title": "Holy Trinity Reimagined",
+              "image": "/assets/art/holy-trinity-reimagined.webp",
+              "thumbnail": "/assets/art/holy-trinity-reimagined-thumb.webp",
+              "alt": "Three veiled figures gather around a radiant fire in a dark sacred setting.",
+              "credit": "Holy Trinity Reimagined, 2025 · Midjourney v7",
+              "width": 2000,
+              "height": 2000,
+              "description": "An old sacred composition wanders into the forest. The three remain gathered around a shared warmth."
+            },
+            {
+              "slug": "take-it-easy",
+              "title": "Take it easy dude, but take it",
+              "image": "/assets/art/take-it-easy.webp",
+              "thumbnail": "/assets/art/take-it-easy-thumb.webp",
+              "alt": "A seated figure rests in a luminous forest clearing framed by towering trees.",
+              "credit": "Take it easy dude, but take it, 2025 · Midjourney v7",
+              "width": 2000,
+              "height": 1121,
+              "description": "A clearing, a place to sit, and no obvious reason to hurry. The title still asks us to show up."
+            },
+            {
+              "slug": "the-primacy-of-being",
+              "title": "The primacy of being",
+              "image": "/assets/art/the-primacy-of-being.webp",
+              "thumbnail": "/assets/art/the-primacy-of-being-thumb.webp",
+              "alt": "A white-robed figure stands in a moonlit, mist-filled forest.",
+              "credit": "The primacy of being, 2025 · Midjourney v7",
+              "width": 791,
+              "height": 1187,
+              "description": "A figure in the mist, simply there. The forest seems happy with that."
+            },
+            {
+              "slug": "strangefield",
+              "title": "Strangefield",
+              "image": "/assets/art/strangefield.webp",
+              "thumbnail": "/assets/art/strangefield-thumb.webp",
+              "alt": "A pastel surreal landscape of rolling fields beneath an expansive sky.",
+              "credit": "Strangefield, 2025 · Midjourney v7",
+              "width": 2000,
+              "height": 1121,
+              "description": "A landscape that nearly remembers the real world, then happily loses the thread."
+            },
+            {
+              "slug": "bloom",
+              "title": "Bloom",
+              "image": "/assets/art/bloom.webp",
+              "thumbnail": "/assets/art/bloom-thumb.webp",
+              "alt": "A kimono-clad figure stands among monumental red spider lilies.",
+              "credit": "Bloom, 2025 · Midjourney v7",
+              "width": 665,
+              "height": 1187,
+              "description": "The flowers have outgrown the garden and possibly the gardener. A good day to be small."
+            },
+            {
+              "slug": "untitled",
+              "title": "Untitled",
+              "image": "/assets/art/untitled.webp",
+              "thumbnail": "/assets/art/untitled-thumb.webp",
+              "alt": "A figure in purple stands within a neon floral dreamscape.",
+              "credit": "Untitled, 2025 · Midjourney v7",
+              "width": 665,
+              "height": 1187,
+              "description": "Purple, flowers, and a place that has not settled on an address. The title can wait too."
+            }
+          ],
+          "paragraphs": [],
+          "role": "Created and curated by Petre Laskov in collaboration with AI.",
+          "description": "Tea in the forest, with curious company and a teapot relieved of its usual duties. Everyone seems to be managing."
+        }
+      ],
+      "gallery": true
     }
   ]
 }

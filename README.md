@@ -2,7 +2,7 @@
 
 Personal website: https://petrelaskov.github.io/
 
-The current homepage has four entrances: Wisdom & practice, The Knowledge Project, Art, and About. Content in the new sections is intentionally left for later.
+The current homepage has four entrances: Wisdom & practice, The Knowledge Project, Art, and About. The Knowledge Project contains the skills study; Art contains 29 images organised into four collections.
 
 ## Current website
 
