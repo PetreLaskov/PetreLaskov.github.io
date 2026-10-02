@@ -78,3 +78,10 @@ Local pages can include `linksTitle` and a `links` list. Each entry has `label`,
 The Matt Pocock study edition is preserved under `public/knowledge/ai-resources/matt-pocock-skills/`. Its `index.html` adds publication navigation and attribution around the unchanged reader. Keep its source, candidate packages, exact diffs, evaluations, and license files together. `PUBLICATION.md` and `publication-export.json` document the public copy. Do not replace this full edition with a summary page or strip its evaluation limitations.
 
 `build-study-pages.mjs` derives 38 complete HTML chapters, a chapter index, and a method/results page from the preserved reader data before the main build. It supplies `content/additional-routes.json` for the sitemap. Keep commentary, source attribution and evidence limits visible; do not add hidden ranking claims, synthetic ratings or keyword variants.
+
+
+## Writing and the minimal homepage (2 October 2026)
+
+Writing has its own area and stable article URLs. Selected Markdown essays live in content/writing/; set an item's markdown path, title, subtitle, description, date, and author in site.json. The first title and italic subtitle must match the manuscript. The build renders the body with the repository's existing Markdown dependencies. Put a deliberately approved companion file in public/writing/<slug>/ so the manuscript's relative end link resolves. Never copy private sources or working records into either public source location.
+
+home.title is a modest section heading. home.featured selects actual items using area and slug. No biography or slogan is needed on the homepage. About shows only supplied content; empty professional/contact sections are omitted. Existing art collections and corrected captions remain authoritative.

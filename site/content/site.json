@@ -1,30 +1,68 @@
 {
   "name": "Petre Laskov",
   "url": "https://petrelaskov.github.io",
-  "description": "The online home of Petre Laskov: wisdom and practice, The Knowledge Project, art, and about.",
+  "description": "Writing, art, and studies by Petre Laskov.",
   "home": {
-    "title": "Practice, inquiry & imagination.",
-    "intro": "The online home of Petre Laskov."
+    "title": "Selected work",
+    "intro": "",
+    "featured": [
+      {
+        "area": "writing",
+        "slug": "take-the-question-for-a-walk"
+      },
+      {
+        "area": "art",
+        "slug": "small-acts"
+      },
+      {
+        "area": "knowledge",
+        "slug": "ai-resources"
+      }
+    ]
   },
   "about": {
-    "paragraphs": [],
+    "paragraphs": [
+      "Writing, art, and studies by Petre Laskov."
+    ],
     "professional": [],
     "links": [],
     "email": ""
   },
   "areas": [
     {
+      "slug": "writing",
+      "label": "Writing",
+      "number": "01",
+      "description": "Essays and shorter pieces.",
+      "empty": "No published pieces here yet.",
+      "items": [
+        {
+          "slug": "take-the-question-for-a-walk",
+          "title": "Take the Question for a Walk",
+          "subtitle": "Thinking with AI before you know what to ask.",
+          "summary": "A walk, a conversation with AI, and a few useful misunderstandings. On finding out what you want to make, and giving the thinking somewhere to continue.",
+          "description": "How a walk and a voice conversation with AI became a way to clarify ideas, make things, and build a workspace where the thinking could continue.",
+          "kind": "Essay",
+          "date": "2026-10-02",
+          "author": "Petre Laskov",
+          "assistance": "Written in collaboration with AI.",
+          "markdown": "writing/take-the-question-for-a-walk.md",
+          "browserTitle": "Take the Question for a Walk — Thinking with AI"
+        }
+      ]
+    },
+    {
       "slug": "wisdom",
       "label": "Wisdom & practice",
-      "number": "01",
+      "number": "02",
       "description": "Wisdom traditions, contemplative practice, and learning through experience.",
-      "empty": "Resources, studies, and reflections will appear here.",
+      "empty": "No published pieces here yet.",
       "items": []
     },
     {
       "slug": "knowledge",
       "label": "The Knowledge Project",
-      "number": "02",
+      "number": "03",
       "description": "Philosophy, books, ideas, and experiments in thinking with AI.",
       "empty": "Essays, conversations, and projects will appear here.",
       "items": [
