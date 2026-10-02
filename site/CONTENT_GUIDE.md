@@ -4,7 +4,7 @@ Everything begins in `content/site.json`. Keep valid JSON: double quotes, no tra
 
 ## Home and About
 
-- `home.title` and `home.intro`: the two homepage lines.
+- `home.title`: the modest homepage heading. `home.featured`: selected items, each with `area` and `slug`.
 - `about.paragraphs`: introduction paragraphs, one string per paragraph.
 - `about.professional`: selected professional-background paragraphs.
 - `about.links`: objects with `label` and an HTTPS `url`.

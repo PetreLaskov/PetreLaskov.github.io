@@ -2,7 +2,7 @@
 
 Personal website: https://petrelaskov.github.io/
 
-The current homepage has four entrances: Wisdom & practice, The Knowledge Project, Art, and About. The Knowledge Project contains the skills study; Art contains 33 images organised into four collections.
+The homepage leads with selected work. Navigation: Writing, Wisdom & practice, The Knowledge Project, Art, and About. Writing opens with “Take the Question for a Walk” and its companion workspace request. The Knowledge Project contains the skills study; Art contains 33 images organised into four collections.
 
 ## Current website
 
@@ -11,7 +11,7 @@ The current homepage has four entrances: Wisdom & practice, The Knowledge Projec
 - Templates: `site/scripts/build.mjs`.
 - Content instructions: `site/CONTENT_GUIDE.md`.
 
-The new pages are dependency-free static HTML/CSS. To preview them:
+The published pages are static HTML/CSS. The build uses the repository’s existing Markdown libraries for essays. To preview them:
 
 ```sh
 cd site
