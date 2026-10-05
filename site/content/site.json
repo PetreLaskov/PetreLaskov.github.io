@@ -8,6 +8,10 @@
     "featured": [
       {
         "area": "writing",
+        "slug": "beautiful-day"
+      },
+      {
+        "area": "writing",
         "slug": "take-the-question-for-a-walk"
       },
       {
@@ -36,6 +40,18 @@
       "description": "Essays and shorter pieces.",
       "empty": "No published pieces here yet.",
       "items": [
+        {
+          "slug": "beautiful-day",
+          "title": "Beautiful day",
+          "subtitle": "Words we know, people we love, and what can still reach us.",
+          "summary": "Words we know, people we love, and what can still reach us.",
+          "description": "Words we know, people we love, and what can still reach us.",
+          "kind": "Essay",
+          "date": "2026-10-05",
+          "author": "Petre Laskov",
+          "assistance": "Written in collaboration with AI.",
+          "markdown": "writing/beautiful-day.md"
+        },
         {
           "slug": "take-the-question-for-a-walk",
           "title": "Take the Question for a Walk",
