@@ -42,12 +42,12 @@
       "items": [
         {
           "slug": "beautiful-day",
-          "title": "Beautiful day",
-          "subtitle": "Words we know, people we love, and what can still reach us.",
-          "summary": "Words we know, people we love, and what can still reach us.",
-          "description": "Words we know, people we love, and what can still reach us.",
+          "title": "Beautiful day (I am writing in my own words - there is hope, there is hope)",
+          "subtitle": "On the difference between knowing what matters and living it.",
+          "summary": "On the difference between knowing what matters and living it.",
+          "description": "On the difference between knowing what matters and living it.",
           "kind": "Essay",
-          "date": "2026-10-05",
+          "date": "2026-10-09",
           "author": "Petre Laskov",
           "assistance": "Written in collaboration with AI.",
           "markdown": "writing/beautiful-day.md"
