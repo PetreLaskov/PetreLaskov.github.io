@@ -14,7 +14,7 @@ There is a reason why prayer is key in Orthodoxy - it lets you dwell on this unt
 
 And there is “гони-ветар” - a relatively obscure word - translation of Ecclesiastes’s “chasing after the wind” in a single elegant folkish coinage. Later, I guess, that one influenced the much less respectable “еби-ветар”, “fucking the wind” or as it is today, meant “wind-fucker,” used for someone you shouldn’t take seriously, sometimes even used half-jokingly about me by some of my less kind friends. Good, I take that too; as a child I was deeply hurt when the same “friends” called me all kinds of names; I paradoxically aspire to be the holy fool, so far just a fool. I picture Don Quixote, lost in his own story, fighting windmills, out of touch with (conventional) reality. But follow the association back to Ecclesiastes and the joke includes the concerns of conventional reality too. Work, possessions, all that serious business of holding it all together, getting somewhere: chasing the wind. Little do the people laughing at the wind-fucker know about this.
 
-Early in my contemplative efforts, I once got so high that some weird shit happened where I was at the same time the substrate, reality itself, the projector and the screen on which the movie is projected, and the character; I was there lucid in the middle of my own Don Quixote story, more accurately the so sweet, and significant to me - Petre Laskov story. Regular day, in bed, with my wife trying to spice it up a little. That kind of contrast has not happened to me even on month-long retreats. Here are the projector and the screen and the movie on the screen and the character in the movie - Reality, Nature of Mind itself, God almighty, lost in a petty story of its own making. Such is mine “Петре-Еби-Ветре” predicament - it even rhymes when they say it.1
+Early in my contemplative efforts, I once got so high that some weird shit happened where I was at the same time the substrate, reality itself, the projector and the screen on which the movie is projected, and the character; I was there lucid in the middle of my own Don Quixote story, more accurately the so sweet, and significant to me - Petre Laskov story. Regular day, in bed, with my wife trying to spice it up a little. That kind of contrast has not happened to me even on month-long retreats. Here are the projector and the screen and the movie on the screen and the character in the movie - Reality, Nature of Mind itself, God almighty, lost in a petty story of its own making. Such is mine “Петре-Еби-Ветре” predicament - it even rhymes when they say it.[^1]
 
 I like letting words work on me like this. Unpack, reverberate, find connections I had overlooked. Sometimes a very familiar phrase has much further to go. Sometimes I get down to embodied basics and, for example, stay with the literal meaning of “let go” to get the most basic sense of it in my body - sometimes staying with such basic stuff helps open up a deeper meaning; don’t underestimate the wisdom of the body.
 
@@ -36,7 +36,7 @@ For practical purposes, fine. We need to get things done. But the same movement 
 
 I don’t know that I don’t know. Some of the clarity I would need to notice the limitation is precisely what is missing. It’s a catch-22. In theory, I know better, but still I am usually lost. I meticulously work on maintaining the conditions to stay lost.
 
-This is where faith matters to me. Faith is close to humility: some basic trust that humanity/life/existence is greater than me, that there is something that matters that I cannot currently reach. A willingness to give unearned respect and give something a chance to reach me. This is most fundamental; it is medicine for an illness of cynical arrogance that countless souls suffer from today. That illness of the soul is a non-starter for anything good in life. There has to be room for a basic willingness to open up, trust, respect, care for something beyond you - life, existence, other people, nature, animals, the countless souls before you who also were here - those experiences matter - what traditions are good at is preserving them and finding a way to transmit them across the generations - no matter how lossy and misleading that transmission could get; at the end, nobody/no sect has a monopoly on wisdom2, so staying humble allows something you are currently not in touch with/don’t understand to reach you.
+This is where faith matters to me. Faith is close to humility: some basic trust that humanity/life/existence is greater than me, that there is something that matters that I cannot currently reach. A willingness to give unearned respect and give something a chance to reach me. This is most fundamental; it is medicine for an illness of cynical arrogance that countless souls suffer from today. That illness of the soul is a non-starter for anything good in life. There has to be room for a basic willingness to open up, trust, respect, care for something beyond you - life, existence, other people, nature, animals, the countless souls before you who also were here - those experiences matter - what traditions are good at is preserving them and finding a way to transmit them across the generations - no matter how lossy and misleading that transmission could get; at the end, nobody/no sect has a monopoly on wisdom[^2], so staying humble allows something you are currently not in touch with/don’t understand to reach you.
 
 So this is not only about the names of things.  “Can we remain fluent in the representations of things while not losing contact with what they actually represent?”
 
@@ -50,7 +50,7 @@ I was a hard nut to crack. I spent two months of meditation retreat practice car
 
 Part of what draws me to practice is the loosening of that pressure to achieve something, to figure out something, to get better, (and if you read carefully) to be special. Less pressure to manage myself, less pressure to manage anything. The seeking-answers obsession, the gripping of the need to understand, the dream of salvation, the circular concern with myself, seeing everything through that lens. How much precious juice/aliveness/soul-compute goes toward that God of I, I, I, me, me, me, my, my, my?
 
-Stop for a second. Imagine what it would be like if you were to, just for a few moments, get back to childhood. No problems to solve, nothing to figure out, no practice, no path, no worth to prove, no image to maintain. Remember that? There was no quest, no agenda; we were just there, playing, wondering, being alive. 3
+Stop for a second. Imagine what it would be like if you were to, just for a few moments, get back to childhood. No problems to solve, nothing to figure out, no practice, no path, no worth to prove, no image to maintain. Remember that? There was no quest, no agenda; we were just there, playing, wondering, being alive.[^3]
 
 Just being. If anything is freedom, that’s freedom. What stops you from letting go of all this shit? Remember. One day you will have to let go of everything dear to you anyway; how much of it can you let go of now? It’s your life, FGS!
 
@@ -180,11 +180,8 @@ Remembering can work this way too. Sometimes an experience recedes beyond the re
 
 That evening, she leaned into me and we went on watching.
 
-1
-Sidenote: there was part of me that sincerely was going after legibility with this writing initially, cowardly hiding behind AI, poor dude.
+[^1]: Sidenote: there was part of me that sincerely was going after legibility with this writing initially, cowardly hiding behind AI, poor dude.
 
-2
-Sam Harris said something like this to two young Theravada monks, asking whether he is a Buddhist. It was music to my ears. Watch on YouTube starting at 14:20.
+[^2]: Sam Harris said something like this to two young Theravada monks, asking whether he is a Buddhist. It was music to my ears. Watch on YouTube starting at 14:20.
 
-3
-This childhood talk is inspired by my Dhamma friend Vitali.
+[^3]: This childhood talk is inspired by my Dhamma friend Vitali.

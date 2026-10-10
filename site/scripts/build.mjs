@@ -2,6 +2,7 @@ import './build-study-pages.mjs';
 import fs from 'node:fs';
 import {unified} from 'unified';
 import remarkParse from 'remark-parse';
+import remarkGfm from 'remark-gfm';
 import remarkRehype from 'remark-rehype';
 import {toHtml} from 'hast-util-to-html';
 import path from 'node:path';
@@ -41,7 +42,7 @@ function markdownBody(item){
  const source=fs.readFileSync(path.join(root,'content',item.markdown),'utf8').replace(/\r\n/g,'\n');
  const prefix='# '+item.title+'\n\n*'+item.subtitle+'*\n\n';
  if(!source.startsWith(prefix))throw Error('Essay title/subtitle must match the maintained manuscript');
- const processor=unified().use(remarkParse).use(remarkRehype);
+ const processor=unified().use(remarkParse).use(remarkGfm).use(remarkRehype);
  return toHtml(processor.runSync(processor.parse(source.slice(prefix.length))));
 }
 function paragraphs(items=[]){return items.map(p=>'<p>'+esc(p)+'</p>').join('')}
