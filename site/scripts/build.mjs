@@ -1,4 +1,3 @@
-import './build-study-pages.mjs';
 import fs from 'node:fs';
 import {unified} from 'unified';
 import remarkParse from 'remark-parse';

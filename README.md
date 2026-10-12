@@ -2,7 +2,7 @@
 
 Personal website: https://petrelaskov.github.io/
 
-The homepage leads with selected work. Navigation: Writing, Wisdom & practice, The Knowledge Project, Art, and About. Writing opens with “Take the Question for a Walk” and its companion workspace request. The Knowledge Project contains the skills study; Art contains 33 images organised into four collections.
+The homepage leads with selected work. Navigation: Writing, Wisdom & practice, The Knowledge Project, Art, and About. Writing opens with “Take the Question for a Walk” and its companion workspace request. Art contains 33 images organised into four collections.
 
 ## Current website
 
@@ -20,7 +20,7 @@ npm run dev
 
 ## Publish
 
-Pushing to `main` runs the GitHub Pages workflow. It builds the existing Quartz pages, builds/checks the new edition, then overlays the new home and section pages. Only the generated `public/` folder is uploaded. Old essay, study, image and feed URLs remain available. The old homepage, About and Art entrances are replaced by the new design; their source and Git history remain preserved.
+Pushing to `main` runs the GitHub Pages workflow. It builds the existing Quartz pages, builds/checks the new edition, then overlays the new home and section pages. Only the generated `public/` folder is uploaded. Old essay, image and feed URLs remain available. The Matt Pocock skills study was removed from publication at the request of Petre. The old homepage, About and Art entrances are replaced by the new design; their source and Git history remain preserved.
 
 For a full local build from the repository root:
 
