@@ -1,6 +1,6 @@
 {
   "title": "Work",
-  "deck": "Good questions, capable tools, and the work of connecting them.",
+  "deck": "Asking good questions, building the right tools, and doing the work that connects them.",
   "opening": [
     "An AI can research a subject, write software, or build an interactive explanation. What should you ask it to do? Much of the work is inside that question: understanding the problem, finding missing information, defining success, and noticing when an impressive answer solves the wrong thing.",
     "For roughly three years, I have been immersed in large language models: following their intellectual and practical frontier and experimenting with how to think and make things with them. I approach this as a generalist, interested in underlying questions as well as tools. Earlier research roles at Kantar TNS and GfK International taught me to carry a question through investigation, fieldwork and analysis to findings I could explain.",
@@ -53,7 +53,7 @@
     "For a team exploring AI, I can investigate the work, learn unfamiliar territory, define requirements, direct agents in making a concrete attempt, and test and refine it with its users. An investigation might reveal a useful workflow, a teaching need, or a reason to change the proposal before building more.",
     "Bring the question, the documents, the awkward example or the unfinished attempt. Tell me what you hope could become possible and who it would matter to. We can begin there."
   ],
-  "contact_label": "Get in touch on LinkedIn",
-  "contact_url": "https://www.linkedin.com/in/petrelaskov/",
+  "contact_label": "Get in touch by email",
+  "contact_url": "mailto:laskov.petre@gmail.com",
   "short_bio": "Petre Laskov combines research, practical AI, writing and learning. He directs capable agents toward useful tools, workflows and explanations. His earlier research roles were at Kantar TNS and GfK International."
 }
