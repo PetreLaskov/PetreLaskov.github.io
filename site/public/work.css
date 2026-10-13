@@ -1,0 +1,9 @@
+/* Uses the established site typography and palette. */
+.work-page .page-head p{max-width:38ch}
+.work-sections{margin-bottom:2rem}
+.work-page section{scroll-margin-top:24px}
+.work-page .work-case{margin-block:2rem}
+.work-page .work-case h3{font:400 clamp(1.35rem,2.4vw,1.65rem)/1.4 var(--serif);margin:0 0 .85rem;color:var(--ink)}
+.work-page .prose>section{padding-top:1.5rem;margin-top:2rem;border-top:1px solid var(--line)}
+.work-page .prose>section>h2{margin-top:0}
+@media(max-width:650px){.work-sections{gap:8px 20px}.work-page .work-case{margin-block:1.6rem}}

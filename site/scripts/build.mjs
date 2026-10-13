@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {renderWorkPage} from './work-page.mjs';
 import {unified} from 'unified';
 import remarkParse from 'remark-parse';
 import remarkGfm from 'remark-gfm';
@@ -9,12 +10,13 @@ import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
 const data=JSON.parse(fs.readFileSync(path.join(root,'content/site.json'),'utf8'));
+const workPage=JSON.parse(fs.readFileSync(path.join(root,'content/work.json'),'utf8'));
 const production=process.argv.includes('--production');
 const esc=(v='')=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl=v=>{if(typeof v!=='string'||!/^https:\/\//.test(v))throw Error('External links must use https: '+v);new URL(v);return esc(v)};
 const resourceUrl=v=>{if(typeof v==='string'&&/^\/[a-zA-Z0-9/._-]*$/.test(v)&&!v.startsWith('//')&&!v.split('/').includes('..'))return esc(v);return safeUrl(v)};
 const asset=v=>{if(!/^\/assets\/[a-zA-Z0-9_./-]+$/.test(v)||v.includes('..'))throw Error('Use /assets/ paths for local images');if(!fs.existsSync(path.join(root,'public',v)))throw Error('Missing image: '+v);return esc(v)};
-const navItems=[...data.areas,{slug:'about',label:'About',number:'05',description:'Writing, art, and studies by Petre Laskov.'}];
+const navItems=[...data.areas,{slug:'work',label:'Work'},{slug:'about',label:'About',number:'05',description:'Writing, art, and studies by Petre Laskov.'}];
 if(data.areas.map(a=>a.slug).join(',')!=='writing,wisdom,knowledge,art')throw Error('Expected Writing, Wisdom, Knowledge, and Art.');
 if(production&&!data.url)throw Error('Set the confirmed public site URL before a production build.');
 const origin=data.url?new URL(data.url).origin:'';
@@ -27,7 +29,7 @@ const icon='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect wi
 function layout(title,description,route,body,active='',article=null){
 const articleMeta=article?'<meta property="article:published_time" content="'+esc(article.date)+'"><script type="application/ld+json">'+JSON.stringify({'@context':'https://schema.org','@type':'BlogPosting',headline:article.title,description,datePublished:article.date,author:{'@type':'Person',name:article.author||data.name},url:origin+route,mainEntityOfPage:origin+route}).replace(/</g,'\\u003c')+'</script>':'';
 const nav=navItems.map(a=>'<a href="/'+a.slug+'/"'+(a.slug===active?' aria-current="page"':'')+'>'+esc(a.label)+'</a>').join('');
-return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><meta name="description" content="'+esc(description)+'"><meta name="author" content="'+esc(data.name)+'">'+(!production?'<meta name="robots" content="noindex,nofollow">':'')+(origin?'<link rel="canonical" href="'+origin+route+'">':'')+'<meta property="og:type" content="'+(article?'article':'website')+'"><meta property="og:url" content="'+esc(origin+route)+'">'+articleMeta+'<meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+esc(description)+'"><link rel="icon" href="data:image/svg+xml,'+encodeURIComponent(icon)+'"><link rel="stylesheet" href="/styles.css"></head><body><a class="skip" href="#main">Skip to content</a><div class="shell"><header><a class="wordmark" href="/"'+(route==='/'?' aria-current="page"':'')+'>'+esc(data.name)+'</a><nav aria-label="Main navigation">'+nav+'</nav></header><main id="main" tabindex="-1">'+body+'</main><footer><p>© '+new Date().getFullYear()+' '+esc(data.name)+'</p><div class="footer-links"><a href="/">Home</a><a href="/about/">About</a></div></footer></div></body></html>';
+return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><meta name="description" content="'+esc(description)+'"><meta name="author" content="'+esc(data.name)+'">'+(!production?'<meta name="robots" content="noindex,nofollow">':'')+(origin?'<link rel="canonical" href="'+origin+route+'">':'')+'<meta property="og:type" content="'+(article?'article':'website')+'"><meta property="og:url" content="'+esc(origin+route)+'">'+articleMeta+'<meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+esc(description)+'"><link rel="icon" href="data:image/svg+xml,'+encodeURIComponent(icon)+'"><link rel="stylesheet" href="/styles.css">'+(active==='work'?'<link rel="stylesheet" href="/work.css">':'')+'</head><body><a class="skip" href="#main">Skip to content</a><div class="shell"><header><a class="wordmark" href="/"'+(route==='/'?' aria-current="page"':'')+'>'+esc(data.name)+'</a><nav aria-label="Main navigation">'+nav+'</nav></header><main id="main" tabindex="-1">'+body+'</main><footer><p>© '+new Date().getFullYear()+' '+esc(data.name)+'</p><div class="footer-links"><a href="/">Home</a><a href="/about/">About</a></div></footer></div></body></html>';
 }
 function page(route,title,description,body,active='',article=null){
 const file=route==='/404.html'?'404.html':route.slice(1)+'index.html';
@@ -98,6 +100,7 @@ for(const area of data.areas){
  page(route,item.title+' — '+data.name,item.summary,intro+image(item)+(item.images||[]).map(pic=>image({...pic,title:pic.title||item.title})).join('')+'<div class="article-layout"><aside class="meta" aria-label="Publication details">'+meta+'</aside><article class="prose">'+paragraphs(item.paragraphs)+sections+resources+sources+'</article></div>',area.slug);
  }
 }
+page('/work/','Work — '+data.name,workPage.deck,renderWorkPage(workPage,{esc,safeUrl}),'work');
 const about=navItems.at(-1);
 const bio=paragraphs(data.about.paragraphs);
 const work=data.about.professional.length?'<section class="side-section"><h2>Selected professional work</h2>'+paragraphs(data.about.professional)+'</section>':'';

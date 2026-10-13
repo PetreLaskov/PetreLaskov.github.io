@@ -1,0 +1,59 @@
+{
+  "title": "Work",
+  "deck": "Good questions, capable tools, and the work of connecting them.",
+  "opening": [
+    "An AI can research a subject, write software, or build an interactive explanation. What should you ask it to do? Much of the work is inside that question: understanding the problem, finding missing information, defining success, and noticing when an impressive answer solves the wrong thing.",
+    "For roughly three years, I have been immersed in large language models: following their intellectual and practical frontier and experimenting with how to think and make things with them. I approach this as a generalist, interested in underlying questions as well as tools. Earlier research roles at Kantar TNS and GfK International taught me to carry a question through investigation, fieldwork and analysis to findings I could explain.",
+    "Capable agents expand the technical and subject territory I can explore. I contribute inquiry, requirements, direction and judgment; agents contribute substantial research, implementation, drafting and testing. Together we can learn unfamiliar territory, develop tools and workflows, and test an idea against the work it should serve."
+  ],
+  "aspiration": "I want what we can attempt to become things people can use, understand or enjoy. The missing piece might be software, a better question, or an experiment small enough to reveal what the grand proposal missed. I am interested in finding that piece and making it.",
+  "cases": [
+    {
+      "title": "Research: ask both sides of the same question",
+      "body": [
+        "Were health and social policies reaching older people? At Kantar TNS / BRIMA, I led a study combining interviews with policy stakeholders and a nationally representative survey of older people. Knowing what a policy intended and knowing how people experienced it required different sources.",
+        "I carried the work through design, field coordination, analysis, reporting and presentation. My wider history includes telecom user experience, projects for UNICEF and UNDP, and USAID-funded civil-society research at Kantar."
+      ],
+      "label": null,
+      "url": null
+    },
+    {
+      "title": "Knowledge compiler: the number changed; did the advice?",
+      "body": [
+        "A method takes four minutes rather than eight. Then a correction adds six minutes of setup. In the fictional Lumen example, the question is whether the recommendation changes with the arithmetic.",
+        "I directed an AI-assisted knowledge compiler separating source snapshots, claims and interpretation, building on Karpathy’s LLM Wiki idea and earlier Claude work. The walkthrough preserves the old reasoning while revising the time-saving conclusion. Structural checks keep the record intact; deciding what follows still takes judgment."
+      ],
+      "label": null,
+      "url": null
+    },
+    {
+      "title": "Harness Engine: what does “track deliveries” mean?",
+      "body": [
+        "Which date counts? Which document takes priority? What happens when quantities disagree? These are requirements hiding inside a two-word task. Harness Engine uses interviews anchored in working documents to recover them, keeping the knowledge separate from the AI instructions generated from it.",
+        "I directed successive AI-assisted iterations. The repository includes correction routes and a runnable package-check demonstration; the complete flow still needs validation in a user’s installed environment."
+      ],
+      "label": "Inspect the project and demonstration",
+      "url": "https://github.com/PetreLaskov/harness-engine"
+    },
+    {
+      "title": "Air pollution: an obvious problem, a difficult solution",
+      "body": [
+        "Everyone benefits from cleaner air. But a policy still meets households with limited means, firms with their own incentives, and a government facing difficult choices. My 2018 essay connects the public-health problem with these economic and political constraints, examining what proposed remedies would ask of people.",
+        "I wrote the English original, “Air pollution in Macedonia: facing the inevitable tragedy of the commons.” An adapted Macedonian version was published under my byline by Deutsche Welle on 13 January 2018. It is a historical writing sample."
+      ],
+      "label": "Read the published Macedonian essay",
+      "url": "https://p.dw.com/p/2qkw7"
+    }
+  ],
+  "supporting": "Cyborgism / Personal AI OS explores what the next session needs beyond a transcript: decisions, reasons and unresolved disagreements. I also plan a collection and benchmark drawn from my own AI interactions and questions, to study the situations where I actually need help. That collection remains to be built.",
+  "supporting_url": "https://github.com/PetreLaskov/personal-ai-os",
+  "creative": "I publish essays and selected AI-assisted visual work, and want to make ideas approachable through demonstrations, learning experiences and forms worth playing with. Some work should be useful; some can invite us to notice, imagine or enjoy something.",
+  "invitation": [
+    "If you have a difficult question, a process that needs a better tool, or knowledge you want other people to understand, I would like to hear about it. I am open to employment, independent projects and creative collaboration.",
+    "For a team exploring AI, I can investigate the work, learn unfamiliar territory, define requirements, direct agents in making a concrete attempt, and test and refine it with its users. An investigation might reveal a useful workflow, a teaching need, or a reason to change the proposal before building more.",
+    "Bring the question, the documents, the awkward example or the unfinished attempt. Tell me what you hope could become possible and who it would matter to. We can begin there."
+  ],
+  "contact_label": "Get in touch on LinkedIn",
+  "contact_url": "https://www.linkedin.com/in/petrelaskov/",
+  "short_bio": "Petre Laskov combines research, practical AI, writing and learning. He directs capable agents toward useful tools, workflows and explanations. His earlier research roles were at Kantar TNS and GfK International."
+}

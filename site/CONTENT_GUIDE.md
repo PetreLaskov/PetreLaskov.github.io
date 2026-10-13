@@ -83,3 +83,8 @@ Published resource files must be deliberately selected; removing an edition incl
 Writing has its own area and stable article URLs. Selected Markdown essays live in content/writing/; set an item's markdown path, title, subtitle, description, date, and author in site.json. The first title and italic subtitle must match the manuscript. The build renders the body with the repository's existing Markdown dependencies. Put a deliberately approved companion file in public/writing/<slug>/ so the manuscript's relative end link resolves. Never copy private sources or working records into either public source location.
 
 home.title is a modest section heading. home.featured selects actual items using area and slug. No biography or slogan is needed on the homepage. About shows only supplied content; empty professional/contact sections are omitted. Existing art collections and corrected captions remain authoritative.
+
+
+## Professional Work entrance (13 October 2026)
+
+The bounded /work/ page uses content/work.json and scripts/work-page.mjs. Keep the selected copy and case links explicit; a null case URL produces no link. No CV or local demonstration is uploaded by this page. Work appears beside the existing areas in navigation and in the sitemap. The short_bio field is reusable metadata and is not repeated in the page body. Before publishing, approve the exact copy, route and links through Professional Practice.
