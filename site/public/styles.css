@@ -58,3 +58,5 @@
 @media(max-width:650px){.selected-work{gap:22px;padding-block:28px}.selected-image{flex-basis:90px}.selected-image img{width:90px;max-height:120px}.essay .page-head{padding-block:36px 28px}.essay .prose{font-size:1.125rem;line-height:1.8}.explore-links{gap:10px 20px}}
 @media(max-width:380px){.selected-work:has(.selected-image){align-items:flex-start;flex-direction:column}.selected-image{flex-basis:auto}.selected-image img{width:120px;max-height:150px}}
 @media print{.hero{padding-block:1.5rem}.essay{max-width:100%}.selected-image,.explore-links{display:none}}
+
+.art-collection-intro p+p{margin-top:1em}

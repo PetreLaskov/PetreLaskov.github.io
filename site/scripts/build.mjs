@@ -47,12 +47,12 @@ function markdownBody(item){
  return toHtml(processor.runSync(processor.parse(source.slice(prefix.length))));
 }
 function paragraphs(items=[]){return items.map(p=>'<p>'+esc(p)+'</p>').join('')}
-function image(item){return item.image?'<figure class="artwork"'+((item.artId||item.slug)?' id="'+esc(item.artId||item.slug)+'"':'')+'><a href="'+asset(item.image)+'" aria-label="View full image: '+esc(item.displayTitle||item.title)+'"><img src="'+asset(item.image)+'" alt="'+esc(item.alt)+'" loading="lazy"'+(item.width?' width="'+Number(item.width)+'" height="'+Number(item.height)+'"':'')+'></a><figcaption><strong>'+esc(item.displayTitle||item.title)+'</strong>'+(item.description?'<span class="art-description">'+esc(item.description)+'</span>':'')+(item.credit?'<span>'+esc(item.credit)+'</span>':'')+'</figcaption></figure>':''}
+function image(item){return item.image?'<figure class="artwork"'+((item.artId||item.slug)?' id="'+esc(item.artId||item.slug)+'"':'')+'><a href="'+asset(item.image)+'" aria-label="View full image: '+esc(item.displayTitle||item.title)+'"><img src="'+asset(item.image)+'" alt="'+esc(item.alt)+'" loading="lazy"'+(item.width?' width="'+Number(item.width)+'" height="'+Number(item.height)+'"':'')+'></a><figcaption><strong>'+esc(item.displayTitle||item.title)+'</strong>'+(item.description?'<span class="art-description">'+esc(item.description)+'</span>':'')+(item.inspiration?'<span class="art-inspiration">'+esc(item.inspiration)+'</span>':'')+(item.credit?'<span>'+esc(item.credit)+'</span>':'')+'</figcaption></figure>':''}
 function gallery(area){
  const menu='<nav class="gallery-nav" aria-label="Art collections">'+area.items.map(i=>'<a href="#'+i.slug+'">'+esc(i.title)+'</a>').join('')+'</nav>';
  return menu+area.items.map(item=>{
   const pics=[{...item,title:item.displayTitle,slug:item.artId},...(item.images||[])];
-  return '<section class="gallery-section" id="'+item.slug+'"><div class="collection-heading"><h2><a href="/art/'+item.slug+'/">'+esc(item.title)+'</a></h2><p>'+esc(item.summary)+'</p></div><div class="gallery-grid">'+pics.map(pic=>'<figure><a href="/art/'+item.slug+'/#'+pic.slug+'" aria-label="Open '+esc(pic.title)+'"><img src="'+asset(pic.thumbnail||pic.image)+'" alt="'+esc(pic.alt)+'" loading="lazy" width="'+Number(pic.width)+'" height="'+Number(pic.height)+'"></a><figcaption><strong>'+esc(pic.title)+'</strong>'+(pic.description?'<span>'+esc(pic.description)+'</span>':'')+'</figcaption></figure>').join('')+'</div></section>';
+  return '<section class="gallery-section" id="'+item.slug+'"><div class="collection-heading"><h2><a href="/art/'+item.slug+'/">'+esc(item.title)+'</a></h2><p>'+esc(item.summary)+'</p></div><div class="gallery-grid">'+pics.map(pic=>'<figure><a href="/art/'+item.slug+'/#'+pic.slug+'" aria-label="Open '+esc(pic.title)+'"><img src="'+asset(pic.thumbnail||pic.image)+'" alt="'+esc(pic.alt)+'" loading="lazy" width="'+Number(pic.width)+'" height="'+Number(pic.height)+'"></a><figcaption><strong>'+esc(pic.title)+'</strong>'+(pic.description?'<span>'+esc(pic.description)+'</span>':'')+(pic.inspiration?'<span class="art-inspiration">'+esc(pic.inspiration)+'</span>':'')+'</figcaption></figure>').join('')+'</div></section>';
  }).join('')+'<p class="gallery-credit">Created and curated by Petre Laskov in collaboration with AI. Open a collection to linger; click an image there for the full-size view.</p>';
 }
 const seen=new Set();
@@ -92,7 +92,7 @@ for(const area of data.areas){
   page(route,item.browserTitle||item.title+' — '+data.name,item.description||item.summary,article,area.slug,item);
   continue;
  }
- const intro='<div class="page-head"><a class="back" href="/'+area.slug+'/">'+esc(area.label)+'</a><h1>'+esc(item.title)+'</h1><p>'+esc(item.summary)+'</p></div>';
+ const intro='<div class="page-head'+(area.slug==='art'?' art-collection-intro':'')+'"><a class="back" href="/'+area.slug+'/">'+esc(area.label)+'</a><h1>'+esc(item.title)+'</h1>'+paragraphs(item.introParagraphs||[item.summary])+'</div>';
  const meta=[item.kind,item.date,item.author||data.name,item.role,item.assistance].filter(Boolean).map(s=>'<p>'+esc(s)+'</p>').join('');
  const sections=(item.sections||[]).map(s=>'<section><h2>'+esc(s.heading)+'</h2>'+paragraphs(s.paragraphs)+'</section>').join('');
  const resources=item.links?.length?'<section class="related"><h2>'+esc(item.linksTitle||'Resources')+'</h2><ul>'+item.links.map(link=>'<li><a href="'+resourceUrl(link.url)+'">'+esc(link.label)+'</a>'+(link.summary?'<p>'+esc(link.summary)+'</p>':'')+'</li>').join('')+'</ul></section>':'';
