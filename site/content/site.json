@@ -96,6 +96,11 @@
               "label": "Reasoned Account",
               "url": "https://github.com/PetreLaskov/petres-skills/blob/main/skills/reasoned-account/SKILL.md",
               "summary": "A skill for substantial, integrated explanations of a view: its framing, evidence, methods, intuitions, and judgments, so you can examine the argument and think it through for yourself."
+            },
+            {
+              "label": "Think Out Loud Trace",
+              "url": "https://github.com/PetreLaskov/petres-skills/blob/main/skills/think-out-loud-trace/SKILL.md",
+              "summary": "My most-used skill before restrictions on internal reasoning traces affected its use. Adds a lightweight reasoning account to a task; models that protect internal reasoning may provide summaries and checkable derivations instead."
             }
           ],
           "linksTitle": "My LLM agent skills"
