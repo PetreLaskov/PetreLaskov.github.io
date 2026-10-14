@@ -91,7 +91,14 @@
           "paragraphs": [
             "A collection of studies and practical resources for working with AI. Each edition keeps its sources, proposals, and evidence available to inspect."
           ],
-          "links": []
+          "links": [
+            {
+              "label": "Reasoned Account",
+              "url": "https://github.com/PetreLaskov/petres-skills/blob/main/skills/reasoned-account/SKILL.md",
+              "summary": "A skill for substantial, integrated explanations of a view: its framing, evidence, methods, intuitions, and judgments, so you can examine the argument and think it through for yourself."
+            }
+          ],
+          "linksTitle": "My LLM agent skills"
         }
       ]
     },
