@@ -97,12 +97,6 @@
               "url": "/knowledge/ai-resources/skills/reasoned-account/",
               "summary": "A substantial, integrated account of a judgment: its framing, evidence, methods, intuitions, and tradeoffs, so you can think it through independently.",
               "skill": "reasoned-account"
-            },
-            {
-              "label": "Think Out Loud Trace",
-              "url": "/knowledge/ai-resources/skills/think-out-loud-trace/",
-              "summary": "A lightweight explanation alongside the answer: its derivation, assumptions, alternatives, and confidence. Models that protect internal reasoning may provide summaries and checkable derivations.",
-              "skill": "think-out-loud-trace"
             }
           ],
           "linksTitle": "My LLM agent skills"
