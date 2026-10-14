@@ -97,6 +97,12 @@
               "url": "/knowledge/ai-resources/skills/reasoned-account/",
               "summary": "A substantial, integrated account of a judgment: its framing, evidence, methods, intuitions, and tradeoffs, so you can think it through independently.",
               "skill": "reasoned-account"
+            },
+            {
+              "label": "Independent Reader",
+              "url": "/knowledge/ai-resources/skills/independent-reader/",
+              "summary": "A fresh reading of a text's implications, tone, or revisions before comparison with author intent, with a clean context required for independent review.",
+              "skill": "independent-reader"
             }
           ],
           "linksTitle": "My LLM agent skills"
