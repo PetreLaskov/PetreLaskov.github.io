@@ -1,3 +1,4 @@
+import {renderSkillPages} from './skill-pages.mjs';
 import fs from 'node:fs';
 import {renderWorkPage} from './work-page.mjs';
 import {unified} from 'unified';
@@ -105,6 +106,7 @@ const about=navItems.at(-1);
 const bio=paragraphs(data.about.paragraphs);
 const work=data.about.professional.length?'<section class="side-section"><h2>Selected professional work</h2>'+paragraphs(data.about.professional)+'</section>':'';
 const links=data.about.links.length?'<ul>'+data.about.links.map(l=>'<li><a href="'+safeUrl(l.url)+'">'+esc(l.label)+'</a></li>').join('')+'</ul>':'';
+renderSkillPages({root, page, esc, entries: data.areas.find(a=>a.slug==='knowledge').items.find(i=>i.slug==='ai-resources').links.filter(link=>link.skill)});
 const contact=(data.about.email?'<p><a href="mailto:'+esc(data.about.email)+'">'+esc(data.about.email)+'</a></p>':'')+links;
 page('/about/','About — '+data.name,about.description,'<div class="page-head"><h1>About</h1></div><div class="prose minimal-about">'+bio+work+contact+'</div>','about');
 page('/404.html','Page not found — '+data.name,'This page could not be found.','<div class="not-found"><div class="eyebrow">404</div><h1>This page isn’t here.</h1><p><a href="/">Return home</a></p></div>');
