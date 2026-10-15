@@ -8,6 +8,8 @@ Speaking lets me supply examples, hesitations, associations, and corrections I m
 
 This matters because thinking does not have to wait until I am back at a keyboard. A walk, household chores, or a hands-free drive when it is safe to converse can become space to work an idea through. I can begin with a ramble instead of a polished brief, and the main agent later gets the examples, questions, and corrections that emerged along the way.
 
+![A saffron-robed pilgrim walks along a mountain trail beside a luminous blue genie holding an open book. They gesture to each other as if thinking aloud. The title reads “Take the question for a walk”.](assets/take-the-question-for-a-walk.png)
+
 Here are the patterns I use, with prompts you can adapt.
 
 ## Ramble first; give the stronger agent richer material
