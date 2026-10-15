@@ -12,7 +12,7 @@
       },
       {
         "area": "writing",
-        "slug": "take-the-question-for-a-walk"
+        "slug": "ai-voice-mode-writing"
       },
       {
         "area": "art",
@@ -70,19 +70,6 @@
           "author": "Petre Laskov",
           "assistance": "Written in collaboration with AI.",
           "markdown": "writing/beautiful-day.md"
-        },
-        {
-          "slug": "take-the-question-for-a-walk",
-          "title": "Take the Question for a Walk",
-          "subtitle": "Thinking with AI before you know what to ask.",
-          "summary": "A walk, a conversation with AI, and a few useful misunderstandings. On finding out what you want to make, and giving the thinking somewhere to continue.",
-          "description": "How a walk and a voice conversation with AI became a way to clarify ideas, make things, and build a workspace where the thinking could continue.",
-          "kind": "Essay",
-          "date": "2026-10-02",
-          "author": "Petre Laskov",
-          "assistance": "Written in collaboration with AI.",
-          "markdown": "writing/take-the-question-for-a-walk.md",
-          "browserTitle": "Take the Question for a Walk — Thinking with AI"
         }
       ]
     },
