@@ -1,0 +1,4 @@
+interface:
+  display_name: "Take It for a Walk"
+  short_description: "Prepare writing walks and bring discoveries back"
+  default_prompt: "Use $take-it-for-a-walk to prepare a voice handoff for this piece from its current state and our collaboration contract."

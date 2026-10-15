@@ -41,6 +41,25 @@
       "empty": "No published pieces here yet.",
       "items": [
         {
+          "slug": "ai-voice-mode-writing",
+          "title": "How I use AI voice mode for writing and thinking",
+          "subtitle": "Take the question for a walk.",
+          "summary": "Writing discovery, interview debriefs, quick notes, and richer briefs for AI agents—with prompts you can adapt.",
+          "description": "How I use AI voice mode for writing, brainstorming, interview debriefs, quick notes, and richer briefs for AI agents—with prompts you can adapt.",
+          "kind": "Practical guide",
+          "date": "2026-10-15",
+          "author": "Petre Laskov",
+          "assistance": "Written in collaboration with AI.",
+          "markdown": "writing/ai-voice-mode-writing.md",
+          "browserTitle": "AI Voice Mode for Writing and Thinking | Petre Laskov",
+          "links": [
+            {
+              "label": "Guide on GitHub",
+              "url": "https://github.com/PetreLaskov/ai-voice-mode-writing"
+            }
+          ]
+        },
+        {
           "slug": "beautiful-day",
           "title": "Beautiful day (I am writing in my own words - there is hope, there is hope)",
           "subtitle": "On the difference between knowing what matters and living it.",
@@ -103,6 +122,12 @@
               "url": "/knowledge/ai-resources/skills/independent-reader/",
               "summary": "A fresh reading of a text's implications, tone, or revisions before comparison with author intent, with a clean context required for independent review.",
               "skill": "independent-reader"
+            },
+            {
+              "label": "Take it for a walk",
+              "url": "/knowledge/ai-resources/skills/take-it-for-a-walk/",
+              "summary": "Prepare a portable voice brief, develop a writing question through conversation, and bring useful discoveries and corrections back into the work.",
+              "skill": "take-it-for-a-walk"
             }
           ],
           "linksTitle": "My LLM agent skills"
