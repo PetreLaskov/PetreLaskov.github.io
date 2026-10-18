@@ -60,3 +60,8 @@
 @media print{.hero{padding-block:1.5rem}.essay{max-width:100%}.selected-image,.explore-links{display:none}}
 
 .art-collection-intro p+p{margin-top:1em}
+
+/* Selected films stay within the essay reading column. */
+.essay-film{margin:0 0 2rem}
+.essay-film video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#181a18}
+.essay-film figcaption{margin-top:.65rem;font:.85rem/1.65 var(--sans);color:var(--muted)}

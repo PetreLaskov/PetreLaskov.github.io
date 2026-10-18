@@ -47,6 +47,13 @@ function markdownBody(item){
  const processor=unified().use(remarkParse).use(remarkGfm).use(remarkRehype);
  return toHtml(processor.runSync(processor.parse(source.slice(prefix.length))));
 }
+function video(item){
+ if(!item.video)return '';
+ const {src,title,width,height}=item.video;
+ if(!title||!/^\/assets\/[a-zA-Z0-9_./-]+\.mp4$/.test(src)||!Number.isInteger(width)||width<=0||!Number.isInteger(height)||height<=0)throw Error('Invalid essay video');
+ const url=asset(src);
+ return '<figure class="essay-film"><video controls playsinline preload="metadata" width="'+width+'" height="'+height+'" aria-label="'+esc(title)+'"><source src="'+url+'" type="video/mp4"><p><a href="'+url+'">Open the film</a></p></video><figcaption>'+esc(title)+' · <a href="'+url+'">Open the film</a></figcaption></figure>';
+}
 function paragraphs(items=[]){return items.map(p=>'<p>'+esc(p)+'</p>').join('')}
 function image(item){return item.image?'<figure class="artwork"'+((item.artId||item.slug)?' id="'+esc(item.artId||item.slug)+'"':'')+'><a href="'+asset(item.image)+'" aria-label="View full image: '+esc(item.displayTitle||item.title)+'"><img src="'+asset(item.image)+'" alt="'+esc(item.alt)+'" loading="lazy"'+(item.width?' width="'+Number(item.width)+'" height="'+Number(item.height)+'"':'')+'></a><figcaption><strong>'+esc(item.displayTitle||item.title)+'</strong>'+(item.description?'<span class="art-description">'+esc(item.description)+'</span>':'')+(item.inspiration?'<span class="art-inspiration">'+esc(item.inspiration)+'</span>':'')+(item.credit?'<span>'+esc(item.credit)+'</span>':'')+'</figcaption></figure>':''}
 function gallery(area){
@@ -89,7 +96,7 @@ for(const area of data.areas){
  const route='/'+area.slug+'/'+item.slug+'/';
  if(item.markdown){
   const dateLabel=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(item.date+'T00:00:00Z'));
-  const article='<article class="essay"><div class="page-head"><a class="back" href="/writing/">Writing</a><h1>'+esc(item.title)+'</h1><p>'+esc(item.subtitle)+'</p><div class="essay-byline">'+esc(item.author||data.name)+' · <time datetime="'+esc(item.date)+'">'+dateLabel+'</time></div></div><div class="prose">'+markdownBody(item)+'</div><p class="essay-credit">'+esc(item.assistance||'')+'</p></article>';
+  const article='<article class="essay"><div class="page-head"><a class="back" href="/writing/">Writing</a><h1>'+esc(item.title)+'</h1><p>'+esc(item.subtitle)+'</p><div class="essay-byline">'+esc(item.author||data.name)+' · <time datetime="'+esc(item.date)+'">'+dateLabel+'</time></div></div>'+video(item)+'<div class="prose">'+markdownBody(item)+'</div><p class="essay-credit">'+esc(item.assistance||'')+'</p></article>';
   page(route,item.browserTitle||item.title+' — '+data.name,item.description||item.summary,article,area.slug,item);
   continue;
  }

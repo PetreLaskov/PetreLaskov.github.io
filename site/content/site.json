@@ -69,7 +69,13 @@
           "date": "2026-10-09",
           "author": "Petre Laskov",
           "assistance": "Written in collaboration with AI.",
-          "markdown": "writing/beautiful-day.md"
+          "markdown": "writing/beautiful-day.md",
+          "video": {
+            "src": "/assets/beautiful-day-film.mp4",
+            "title": "Beautiful day — a film",
+            "width": 1920,
+            "height": 1080
+          }
         }
       ]
     },
